@@ -1,0 +1,12 @@
+[
+	{
+		"url": "/",
+		"string": "form method=\"post\" action= \"/names.nsf",
+		"output": ""
+	},
+	{
+		"url": "/",
+		"string": "src=\"/icons/ecblank.gif\"",
+		"output": ""
+	}
+]

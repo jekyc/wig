@@ -1,0 +1,261 @@
+[
+	{
+		"url": "/sitecore/shell/controls/lib/jQuery/jquery.watermark.js",
+		"md5": "dfd094ae07f8fd6eaebe38c5ced6f467",
+		"output": "6.x"
+	},
+	{
+		"url": "/sitecore/shell/controls/lib/jQuery/jquery.watermark.js",
+		"md5": "978afcf36c2bb7dae59354463f385d45",
+		"output": "5.3.1 (rev. 070828)"
+	},
+	{
+		"url": "/sitecore/shell/controls/lib/jQuery/jquery.watermark.js",
+		"md5": "884029f6e70326c0825169b30a8e9bb7",
+		"output": "5.3.2 (rev. 090212)"
+	},
+
+	{
+		"url": "/sitecore/login/default.css",
+		"md5": "ce6016e650e363dd1f03a57c14ef4dd2",
+		"output": "6.4.1"
+	},
+	{
+		"url": "/sitecore/login/default.css",
+		"md5": "ce6016e650e363dd1f03a57c14ef4dd2",
+		"output": "6.5.0"
+	},
+	{
+		"url": "/sitecore/login/default.css",
+		"md5": "26a4fe7d74f05a22bf94aaca7e996b1a",
+		"output": "6.5.0"
+	},
+	{
+		"url": "/sitecore/login/default.css",
+		"md5": "5793721ec932c54c736e568d3f03d3de",
+		"output": "6.0.2"
+	},
+	{
+		"url": "/sitecore/login/default.css",
+		"md5": "225f397d1e5a04951f2fdc1a23dc73c1",
+		"output": "6.0.0"
+	},
+	{
+		"url": "/sitecore/login/default.css",
+		"md5": "225f397d1e5a04951f2fdc1a23dc73c1",
+		"output": "6.0.1"
+	},
+	{
+		"url": "/sitecore/login/default.css",
+		"md5": "225f397d1e5a04951f2fdc1a23dc73c1",
+		"output": "6.1.0"
+	},	
+	{
+		"url": "/sitecore/login/default.css",
+		"md5": "7c5dae264b5eadd88e1dbf142f1cd684",
+		"output": "6.x"
+	},
+	{
+		"url": "/sitecore/login/default.css",
+		"md5": "89a5427c06f7586cf37f42050baed679",
+		"output": "5.3.x"
+	},
+	{
+		"url": "/sitecore/login/default.js",
+		"md5": "6d8d64ea0995b3ae6e5ce3db6fd9c36a",
+		"output": "6.x"
+	},
+	{
+		"url": "/sitecore/login/default.js",
+		"md5": "b110828e1decc3495a5ecb141ec3aa90",
+		"output": "6.0-6.1"
+	},
+	{
+		"url": "/sitecore/login/default.js",
+		"md5": "e9c7d2eb99dc001692847d407b715758",
+		"output": "5.3.1"
+	},
+
+
+	{
+		"url": "/sitecore/client/login/go.gif",
+		"md5": "884029f6e70326c0825169b30a8e9bb7",
+		"output": "5.3.2 (rev. 090212)"
+	},
+	{
+		"url": "/sitecore/client/login/go.gif",
+		"md5": "87a7cbee4a6eda156d23b62fe3fc3b96",
+		"output": "6.4.1 (rev. 110720)"
+	},
+	{
+		"url": "/sitecore/client/login/go.gif",
+		"md5": "9ca2b0bfcf0ad86392f572e57ca9d00f",
+		"output": "6.5.0 (rev. 120427)"
+	},
+	{
+		"url": "/sitecore/client/login/go.gif",
+		"md5": "6ce598fe383761599d3893c3c52d1d03",
+		"output": "4.3.x"
+	},
+	{
+		"url": "/sitecore/client/login/go.gif",
+		"md5": "6ce598fe383761599d3893c3c52d1d03",
+		"output": "5.1.x"
+	},
+	{
+		"url": "/sitecore/client/login/go.gif",
+		"md5": "7a4f1345717152befffe847fb86ed2ce",
+		"output": "5.3.1 (rev. 071114)"
+	},
+	{
+		"url": "/sitecore/client/login/go.gif",
+		"md5": "f0ea228096b2c0506fdafe12877412bf",
+		"output": "6.4.1 (rev. 101221)"
+	},
+	{
+		"url": "/sitecore/client/login/go.gif",
+		"md5": "b60de8d11d24d6ad662e0c70da7df417",
+		"output": "5.3.1 (rev. 070828)"
+	},
+	{
+		"url": "/sitecore/client/login/go.gif",
+		"md5": "5ec993b523d4284a33055d267b3a9c51",
+		"output": "6.0.2 (rev. 090507)"
+	},
+	{
+		"url": "/sitecore/client/login/go.gif",
+		"md5": "7435073481e176cde58bf60f743df8db",
+		"output": "6.4.1 (rev. 101221)"
+	},
+	{
+		"url": "/sitecore/client/login/go.gif",
+		"md5": "bfe5719379e09223ab0045a280a70a48",
+		"output": "6.1.0 (rev. 090630)"
+	},
+	{
+		"url": "/sitecore/client/login/go.gif",
+		"md5": "c7ca9f88d79112bfd28b83fb02e58645",
+		"output": "6.3.0 (rev. 100830)"
+	},
+	{
+		"url": "/sitecore/client/login/go.gif",
+		"md5": "a39f8421fcb90aea06fa20135bc5cd07",
+		"output": "6.2.0 (rev. 100701)"
+	},
+	{
+		"url": "/sitecore/client/login/go.gif",
+		"md5": "23198f773b79e9902193a4b29336d9cf",
+		"output": "6.4.1 (rev. 110720 Hotfix 351516-1)"
+	},
+	{
+		"url": "/sitecore/shell/controls/lib/jQuery/jquery.js",
+		"md5": "b04a3bccd23ddeb7982143707a63ccf9",
+		"output": "6.5.0"
+	},
+	{
+		"url": "/sitecore/shell/controls/lib/jQuery/jquery.js",
+		"md5": "bb381e2d19d8eace86b34d20759491a5",
+		"output": "6.0.x"
+	},
+	{
+		"url": "/sitecore/shell/controls/lib/jQuery/jquery.js",
+		"md5": "bb381e2d19d8eace86b34d20759491a5",
+		"output": "6.1.x"
+	},
+	{
+		"url": "/sitecore/shell/controls/lib/jQuery/jquery.js",
+		"md5": "bb381e2d19d8eace86b34d20759491a5",
+		"output": "6.2.x"
+	},
+	{
+		"url": "/sitecore/shell/controls/lib/jQuery/jquery.js",
+		"md5": "bb381e2d19d8eace86b34d20759491a5",
+		"output": "6.3.x"
+	},
+	{
+		"url": "/sitecore/shell/controls/lib/jQuery/jquery.js",
+		"md5": "bb381e2d19d8eace86b34d20759491a5",
+		"output": "6.4.x"
+	},
+
+	{
+		"url": "/sitecore/shell/Controls/Rich%20Text%20Editor/RichText%20Commands.js",
+		"md5": "861943615d232cc5769187405939189e",
+		"output": "5.3.1"
+	},
+	{
+		"url": "/sitecore/shell/Controls/Rich%20Text%20Editor/RichText%20Commands.js",
+		"md5": "861943615d232cc5769187405939189e",
+		"output": "5.3.2"
+	},
+	{
+		"url": "/sitecore/shell/Controls/Rich%20Text%20Editor/RichText%20Commands.js",
+		"md5": "3a08d99bb26660808fa57f689377b3c8",
+		"output": "6.0.x"
+	},
+	{
+		"url": "/sitecore/shell/Controls/Rich%20Text%20Editor/RichText%20Commands.js",
+		"md5": "3a08d99bb26660808fa57f689377b3c8",
+		"output": "6.1.x"
+	},
+	{
+		"url": "/sitecore/shell/Controls/Rich%20Text%20Editor/RichText%20Commands.js",
+		"md5": "3a08d99bb26660808fa57f689377b3c8",
+		"output": "6.2.x"
+	},
+	{
+		"url": "/sitecore/shell/Controls/Rich%20Text%20Editor/RichText%20Commands.js",
+		"md5": "e55369ca83ef7ed3849bdeaf5b008516",
+		"output": "6.4.x"
+	},
+	{
+		"url": "/sitecore/shell/Controls/Rich%20Text%20Editor/RichText%20Commands.js",
+		"md5": "e55369ca83ef7ed3849bdeaf5b008516",
+		"output": "6.5.x"
+	},
+	{
+		"url": "/sitecore/shell/Controls/Rich%20Text%20Editor/RichText%20Commands.js",
+		"md5": "907fff34cc297ec4481c76a53f778808",
+		"output": "6.3.x"
+	},
+	{
+		"url": "/sitecore/shell/Controls/Rich%20Text%20Editor/RichText%20Commands.js",
+		"md5": "907fff34cc297ec4481c76a53f778808",
+		"output": "6.4.x"
+	},
+	{
+		"url": "/webedit.css",
+		"md5": "b6c589157e1af17d10ed14ff315ee127",
+		"output": "6.5.0"
+	},
+	{
+		"url": "/webedit.css",
+		"md5": "ed4ac0aa2286c678abed98447cc875ef",
+		"output": "6.5.0"
+	},
+	{
+		"url": "/webedit.css",
+		"md5": "1ee4ff20f331d64c820b885fad29d364",
+		"output": "6.1.0"
+	},
+	{
+		"url": "/webedit.css",
+		"md5": "1ee4ff20f331d64c820b885fad29d364",
+		"output": "6.2.0"
+	},
+	{
+		"url": "/webedit.css",
+		"md5": "1ee4ff20f331d64c820b885fad29d364",
+		"output": "6.3.0"
+	},
+	{
+		"url": "/webedit.css",
+		"md5": "1ee4ff20f331d64c820b885fad29d364",
+		"output": "6.4.0"
+	},
+	{
+		"url": "/webedit.css",
+		"md5": "f8d97f4adb7e1ac21d4705191267c233",
+		"output": "6.5.0"
+	}
+]

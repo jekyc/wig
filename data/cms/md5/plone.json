@@ -1,0 +1,22 @@
+[
+	{
+		"url": "/favicon.ico",
+		"md5": "38dcabc84255f788d94c051dc71539d6",
+		"output": ">= 3.2.2"
+	},
+	{
+		"url": "/favicon.ico",
+		"md5": "4eb846f1286ab4e7a399c851d7d84cca",
+		"output": "< 3.2.2"
+	},
+	{
+		"url": "/spinner.gif",
+		"md5": "c7b3cbb3ec8249a7121b722cdd76b870",
+		"output": "> 3"
+	},
+	{
+		"url": "/plone_powered.gif",
+		"md5": "f7126cce236c6e85b14c53d0c3408235",
+		"output": ">= 3"
+	}
+]

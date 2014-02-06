@@ -1,0 +1,7 @@
+[
+	{
+		"url": "/src/login.php",
+		"regex": "<small>SquirrelMail version (.*)<br />",
+		"output": "%s"
+	}
+]

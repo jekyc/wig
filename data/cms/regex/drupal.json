@@ -1,0 +1,12 @@
+[
+	{
+		"url": "/",
+		"regex": "<meta name=\"[g|G]enerator\" content=\"Drupal (\\d[.\\d]*)",
+		"output": "%s"
+	},
+	{
+		"url": "/CHANGELOG.txt",
+		"regex": "Drupal (\\d[.\\d]*)",
+		"output": "%s"
+	}
+]

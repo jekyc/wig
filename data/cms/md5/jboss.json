@@ -1,0 +1,52 @@
+[
+	{
+		"url": "/favicon.ico",
+		"md5": "799f70b71314a7508326d1d2f68f7519",
+		"output": ""
+	},
+	{
+		"url": "/css/jboss.css",
+		"md5": "fe4012fcf420a9296b18154f7f6999fe",
+		"output": "3.2.4-4.0.2"
+	},
+	{
+		"url": "/css/jboss.css",
+		"md5": "fdee94cd3e3d0467a5b53cddaae4f009",
+		"output": "4.0.3-5.0.0CR2"
+	},
+	{
+		"url": "/css/jboss.css",
+		"md5": "fdee94cd3e3d0467a5b53cddaae4f009",
+		"output": "6.0.0 M3"
+	},
+	{
+		"url": "/css/jboss.css",
+		"md5": "71df1cd71739f0883e561e2283cb2ef7",
+		"output": "5.0.0-6.0.0M1"
+	},
+	{
+		"url": "/css/jboss.css",
+		"md5": "2303c9fe04d22da6f09a575f2d3735ce",
+		"output": "6.0.0 M4-Final"
+	},
+	{
+		"url": "/logo.gif",
+		"md5": "d428721bb8e00c133f76635288610d95",
+		"output": "3.2.4-4.0.2"
+	},
+	{
+		"url": "/logo.gif",
+		"md5": "1a8f52863d65792abf6c962a02c315db",
+		"output": "4.0.3-5.0.0CR2"
+	},
+	{
+		"url": "/images/logo.gif",
+		"md5": "1a8f52863d65792abf6c962a02c315db",
+		"output": "5.0.0.GA-6.0.0M3"
+	},
+	{
+		"url": "/images/logo.gif",
+		"md5": "e27092b72aeaa39da05ce976c5b4c5d6",
+		"output": "6.0.0 M4-Final"
+	}
+]

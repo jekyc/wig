@@ -1,0 +1,52 @@
+[
+	{
+		"url": "/",
+		"regex": "<\\!-- Domino Release (.*) -->",
+		"output": "%s"
+	},
+	{
+		"url": "/iNotes/Forms5.nsf/iNotes/Proxy/?OpenDocument&Form=s_UnsupportedBrowser",
+		"regex": "<\\!-- Domino Release (.*) -->",
+		"output": "%s"
+	},
+	{
+		"url": "/iNotes/Forms6.nsf/iNotes/Proxy/?OpenDocument&Form=s_UnsupportedBrowser",
+		"regex": "<\\!-- Domino Release (.*) -->",
+		"output": "%s"
+	},
+	{
+		"url": "/iNotes/Forms7.nsf/iNotes/Proxy/?OpenDocument&Form=s_UnsupportedBrowser",
+		"regex": "<\\!-- Domino Release (.*) -->",
+		"output": "%s"
+	},
+	{
+		"url": "/iNotes/Forms8.nsf/iNotes/Proxy/?OpenDocument&Form=s_UnsupportedBrowser",
+		"regex": "<\\!-- Domino Release (.*) -->",
+		"output": "%s"
+	},
+	{
+		"url": "/download/filesets/l_LOTUS_SCRIPT.inf",
+		"regex": "Version=(.*)",
+		"output": "%s"
+	},
+	{
+		"url": "/download/filesets/n_LOTUS_SCRIPT.inf",
+		"regex": "Version=(.*)",
+		"output": "%s"
+	},
+	{
+		"url": "/download/filesets/l_SEARCH.inf",
+		"regex": "Version=(.*)",
+		"output": "%s"
+	},
+	{
+		"url": "/download/filesets/n_SEARCH.inf",
+		"regex": "Version=(.*)",
+		"output": "%s"
+	},
+	{
+		"url": "/help/readme.nsf?OpenAbout",
+		"regex": "<title>IBM Lotus Notes/Domino (.*) Release Notes</title>",
+		"output": "%s"
+	}
+]

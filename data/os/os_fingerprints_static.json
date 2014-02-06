@@ -1,0 +1,82 @@
+{
+    "Apache": {
+        "2.2.8": [
+            [
+                "Ubuntu",
+                "8.04"
+            ]
+        ]
+    },
+    "php": {
+        "5.2.4": [
+            [
+                "Ubuntu",
+                "8.04"
+            ]
+        ]
+    },
+    "Microsoft-IIS": {
+        "5.0": [
+            [
+                "Microsoft Windows Server",
+                "2000"
+            ]
+        ],
+        "5.1": [
+            [
+                "Microsoft Windows Server",
+                "XP"
+            ]
+        ],
+        "6.0": [
+            [
+                "Microsoft Windows Server",
+                "2003"
+            ]
+        ],
+        "7.0": [
+            [
+                "Microsoft Windows Server",
+                "2008"
+            ]
+        ],        
+        "7.5": [
+            [
+                "Microsoft Windows Server",
+                "2008 R2"
+            ]
+        ],
+        "8.0": [
+            [
+                "Microsoft Windows Server",
+                "2012"
+            ]
+        ]
+    },
+    "Microsoft-HTTPAPI": {
+        "2.0": [
+            [
+                "Microsoft Windows Server",
+                "2003 SP2"
+            ],
+            [
+                "Microsoft Windows",
+                "7"
+            ],
+            [
+                "Microsoft Windows Server",
+                "2008"
+            ],
+            [
+                "Microsoft Windows Server",
+                "2008 R2"
+            ]
+        ],
+        "1.0": [
+            [
+                "Microsoft Windows Server",
+                "2003"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+[
+	{
+		"url": "/",
+		"string": "/wp-content/themes/",
+		"output": ""
+	},
+	{
+		"url": "/", 
+		"string": "/wp-includes/wlwmanifest.xml", 
+		"output": ""
+	}
+
+]

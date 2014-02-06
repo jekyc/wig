@@ -1,0 +1,32 @@
+[
+	{
+		"url": "/",
+		"regex": "<meta name=\"generator\" content=\"TYPO3 (\\d\\.\\d) CMS\" />",
+		"output": "%s"
+	},
+	{
+		"url": "/typo3/sysext/version/ChangeLog",
+		"regex": "Raised version to (\\d[\\.\\d]*)",
+		"output": "%s"
+	},
+	{
+		"url": "/ChangeLog",
+		"regex": "Raised version to (\\d[\\.\\d]*)",
+		"output": "%s"
+	},
+	{
+		"url": "/NEWS.txt",
+		"regex": "IMPROVEMENTS in TYPO3 (\\d[\\.\\d]*)",
+		"output": "%s"
+	},
+	{
+		"url": "/NEWS.txt",
+		"regex": "IMPROVEMENTS between TYPO3 \\d\\.\\d and (\\d[\\.\\d]*)",
+		"output": "%s"
+	},
+	{
+		"url": "/RELEASE_NOTES.txt",
+		"regex": "RELEASE NOTES FOR TYPO3 (\\d[\\.\\d]*)",
+		"output": "%s"
+	}
+]

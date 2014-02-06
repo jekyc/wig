@@ -1,0 +1,12 @@
+[
+	{
+		"url": "/src/login.php",
+		"string": "alt=\"SquirrelMail Logo\" width=\"308\" height=\"111\" /><br />",
+		"output": "" 
+	},
+	{
+		"url": "/src/login.php",
+		"string": "<title>SquirrelMail - Login</title><script language=\"JavaScript\" type=\"text/javascript\">",
+		"output": "" 
+	}
+]

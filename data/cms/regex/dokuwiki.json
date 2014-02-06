@@ -1,0 +1,12 @@
+[
+	{
+		"url": "/",
+		"regex": "<meta name=\"generator\" content=\"DokuWiki Release ([^\"]*)\" />",
+		"output": "%s"
+	},
+	{
+		"url": "/VERSION",
+		"regex": "(\\d{4}-\\d{2}-\\d{2} \".*\")",
+		"output": "%s"
+	}
+]

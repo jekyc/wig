@@ -1,0 +1,118 @@
+[
+	{
+		"url": "/favicon.ico",
+		"md5": "9187f6607b402df8bbc2aeb69a07bbca",
+		"output": ""
+	},
+	{
+		"url": "/xoops.css",
+		"md5": "23f6ff1541ca81e56f4eb4daf39a76e5",
+		"output": "2.3.0"
+	},
+	{
+		"url": "/xoops.css",
+		"md5": "5500108ab297009637cc9103b1eaae92", 
+		"version": "2.3.1"
+	}, 
+	{
+		"url": "/xoops.css",
+		"md5": "5500108ab297009637cc9103b1eaae92", 
+		"version": "2.3.2a"
+	},
+	{
+		"url": "/xoops.css",
+		"md5": "d17dfee6fbcc9f05d11efc0001764f98", 
+		"version": "2.3.2b"
+	}, 
+	{
+		"url": "/xoops.css",
+		"md5": "597af5f6843b6aab92525f682b59287b", 
+		"version": "2.3.3(b)"
+	}, 
+	{
+		"url": "/xoops.css",
+		"md5": "0b3e165266e3cb7430042c82cf19419c", 
+		"version": "2.4.1"
+	}, 
+	{
+		"url": "/xoops.css",
+		"md5": "07cfd0de740fd4b1604724200f098bbb", 
+		"version": "2.4.2"
+	}, 
+	{
+		"url": "/xoops.css",
+		"md5": "07cfd0de740fd4b1604724200f098bbb", 
+		"version": "2.4.3"
+	}, 
+	{
+		"url": "/xoops.css",
+		"md5": "07cfd0de740fd4b1604724200f098bbb", 
+		"version": "2.4.4"
+	}, 
+	{
+		"url": "/xoops.css",
+		"md5": "d50166caffa6e30929629b89334fa218", 
+		"version": "2.4.5"
+	}, 
+	{
+		"url": "/xoops.css",
+		"md5": "45c4a398c7b04b82b25768a4b4fae633", 
+		"version": "2.5.0"
+	}, 
+	{
+		"url": "/xoops.css",
+		"md5": "45c4a398c7b04b82b25768a4b4fae633", 
+		"version": "2.5.3"
+	}, 
+	{
+		"url": "/xoops.css",
+		"md5": "45c4a398c7b04b82b25768a4b4fae633", 
+		"version": "2.5.4"
+	}, 
+	{
+		"url": "/xoops.css",
+		"md5": "ea2f726a8c4a3fcec33c96c4f9308ff9", 
+		"version": "2.5.1"
+	}, 
+	{
+		"url": "/xoops.css",
+		"md5": "bd4f655abd958ec76a75d3c9b10d6e3e", 
+		"version": "2.5.5"
+	},
+
+	{
+		"url": "/include/xoops.js",
+		"md5": "4fe6959dadae974daab44a4fa595da17", 
+		"version": "2.3.0"
+	},
+	{
+		"url": "/include/xoops.js",
+		"md5": "73d04f1de6772be3e1c1afd6c03ff012", 
+		"version": "2.3.1-2.3.3b"
+	},
+	{
+		"url": "/include/xoops.js",
+		"md5": "73d04f1de6772be3e1c1afd6c03ff012", 
+		"version": "2.4.1"
+	},
+	{
+		"url": "/include/xoops.js",
+		"md5": "73d04f1de6772be3e1c1afd6c03ff012", 
+		"version": "2.4.2"
+	},
+	{
+		"url": "/include/xoops.js",
+		"md5": "a6f8452190301fb1807b4ff7d3bfaf6c", 
+		"version": "2.4.3-2.5.3"
+	},
+	{
+		"url": "/include/xoops.js",
+		"md5": "875339ac12d0e54e71d00fbf67442fbc", 
+		"version": "2.5.4"
+	},
+	{
+		"url": "/include/xoops.js",
+		"md5": "875339ac12d0e54e71d00fbf67442fbc", 
+		"version": "2.5.5"
+	}
+]

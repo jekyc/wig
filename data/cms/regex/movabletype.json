@@ -1,0 +1,12 @@
+[
+	{
+		"url": "/",
+		"regex": "<meta name=\"generator\" content=\"Movable Type (\\d[\\.\\d*]*)\" />",
+		"output": "%s"
+	},
+	{
+		"url": "/",
+		"regex": "<meta name=\"generator\" content=\"Movable Type (Pro \\d[\\.\\d*]*)\" />",
+		"output": "%s"
+	}
+]

@@ -1,0 +1,12 @@
+[
+	{
+		"url": "/",
+		"string": "\"sb_state_cookie\": \"vb5sitebuilder_active\"",
+		"output": "5.x"
+	},
+	{
+		"url": "/",
+		"string": "vb_disable_ajax = parseInt%(\"0\", 10%);",
+		"output": ""
+	}
+]

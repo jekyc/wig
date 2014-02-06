@@ -1,0 +1,17 @@
+[
+	{
+		"url": "/",
+		"string": "<meta name=\"Generator\" content=\"Dynamicweb .NET\" />",
+		"output" : ""
+	},
+	{
+		"url": "/Admin/access/default.aspx",
+		"string": "<small>Dynamicweb CMS</small>",
+		"output" : ""
+	},
+	{
+		"url": "/Admin/access/default.aspx",
+		"string": "alt=\"Dynamicweb CMS\" /></a></div>",
+		"output" : ""
+	}
+]

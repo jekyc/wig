@@ -1,0 +1,7 @@
+[
+	{
+		"url": "/",
+		"regex": "<title>.*(Majordomo.)*</title>",
+		"output": "%s"
+	}
+]

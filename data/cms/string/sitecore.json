@@ -1,0 +1,17 @@
+[
+	{
+		"url": "/",
+		"string": "<link href=\"/sitecore/shell/applications/analytics/visitor.css.aspx\"",
+		"output": ""
+	},
+	{
+		"url": "/",
+		"string": "<link href=\"/sitecore%20modules/shell/",
+		"output": ""
+	},
+	{
+		"url": "/",
+		"string": "<meta id=scPath content=\"/sitecore/content/Home/404\" name=scPath>",
+		"output": ""
+	}
+]

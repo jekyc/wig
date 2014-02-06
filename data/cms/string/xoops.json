@@ -1,0 +1,17 @@
+[
+	{
+		"url": "/",
+		"string": "<meta name=\"generator\" content=\"XOOPS\" />",
+		"output": ""
+	},
+	{
+		"url": "/",
+		"string": "<input type=\"hidden\" name=\"xoops_redirect\" value=\"/\"/>",
+		"output": ""
+	},
+	{
+		"url": "/",
+		"string": "xoops.css",
+		"output": ""
+	}
+]

@@ -1,0 +1,22 @@
+[
+	{
+		"url": "/",
+		"string": "<!-- DotNetNuke - http://www.dotnetnuke.com",
+		"output": ""
+	},
+	{
+		"url": "/",
+		"string": "<!-- by DotNetNuke Corporation",
+		"output": ""
+	},
+	{
+		"url": "/",
+		"string": "name=\"GENERATOR\" content=\"DotNetNuke",
+		"output": ""
+	},	
+	{
+		"url": "/",
+		"string": "<input name=\"__dnnVariable\" type=\"hidden\" id=\"__dnnVariable\" autocomplete=\"off\" />",
+		"output": ""
+	}
+]

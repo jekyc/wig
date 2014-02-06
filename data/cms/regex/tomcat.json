@@ -1,0 +1,8 @@
+[
+	{
+		"url": "/none_existing_page_123.aspx",
+		"regex": "<title>Apache Tomcat/([^\\s]*)   Error report</title>",
+		"output": "%s",
+		"code": 404
+	}
+]
