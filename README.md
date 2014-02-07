@@ -21,3 +21,8 @@ ______________________________________________________________
 Time: 35.3 sec | Plugins: 59 | Urls: 312 | Fingerprints: 13972
 ```
 
+**Requirements:**
+
+Python 3
+
+requests
