@@ -19,7 +19,7 @@ class Wig():
 
 
 	def redirect(self):
-		r = requests.get(self.host)
+		r = requests.get(self.host, verify=False)
 		if not r.url == self.host:
 			self.host = r.url
 
