@@ -13,7 +13,7 @@ class CMSReq(Requester):
 		for m in matches:
 			url = m['response'].url
 			version = m['output']
-			weight = m['weight'] if 'weight' in m else 1
+			w = m['weight'] if 'weight' in m else 1
 			
 			for d in data:
 				if d['url'] == url:
