@@ -1,5 +1,6 @@
 __all__ = [
 "concrete5",
+"demandware",
 "dokuwiki",
 "dotcms",
 "dotnetnuke",
