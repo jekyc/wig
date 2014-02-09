@@ -2,21 +2,25 @@
 	{
 		"url": "/sitecore/login/default.aspx",
 		"regex": "class=\"SystemInformationDivider\">.*Sitecore.NET ([^<]*)</div>",
-		"output": "%s"
+		"output": "%s",
+		"weight": 10
 	},
 	{
 		"url": "/sitecore/login/default.aspx",
 		"regex": "<hr/>.*Sitecore version ([^<]*)</div>",
-		"output": "%s"
+		"output": "%s",
+		"weight": 10
 	},
 	{
 		"url": "/sitecore/login/default.aspx",
 		"regex": "class=\"SystemInformationDivider\">.*Sitecore.NET ([^<]*)</div>",
-		"output": "%s"
+		"output": "%s",
+		"weight": 10
 	},
 	{
 		"url": "/sitecore/shell/sitecore.version.xml",
 		"regex": "class=\"SystemInformationDivider\">.*Sitecore.NET ([^<]*)</div>",
-		"output": "%s.%s.%s (rev. %s)"
+		"output": "%s.%s.%s (rev. %s)",
+		"weight": 10
 	}
 ]

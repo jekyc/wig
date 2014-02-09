@@ -13,11 +13,14 @@ class CMSReq(Requester):
 		for m in matches:
 			url = m['response'].url
 			version = m['output']
+			weight = m['weight'] if 'weight' in m else 1
 			
 			for d in data:
-				if d['url'] == url: d['count'] +=1
+				if d['url'] == url:
+					d['count'] += w
+					break
 			else:
-				data.append( {'url': url, 'count': 1, 'version': version} )
+				data.append( {'url': url, 'count': w, 'version': version} )
 
 		return data
 
