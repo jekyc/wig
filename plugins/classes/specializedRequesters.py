@@ -7,20 +7,20 @@ class CMSReq(Requester):
 		super().__init__(host, cache, results)
 		self.category = "CMS"
 		self.match_class = None
-		self.use_weights = False
 
 	def prepare_results(self, matches):
 		data = []
 		for m in matches:
 			url = m['response'].url
 			version = m['output']
+			weight = m['weight'] if 'weight' in m else 1
 			
 			for d in data:
 				if d['url'] == url:
-					d['count'] += 1
+					d['count'] += weight
 					break
 			else:
-				data.append( {'url': url, 'count': 1, 'version': version} )
+				data.append( {'url': url, 'count': weight, 'version': version} )
 
 		return data
 
