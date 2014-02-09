@@ -13,6 +13,7 @@ class Wig():
 		self.host = host
 		self.results = Results()
 		self.cache = Cache()
+		self.check_url()
 		self.redirect()
 		self.colorizer = Color()
 
@@ -21,6 +22,11 @@ class Wig():
 		r = requests.get(self.host)
 		if not r.url == self.host:
 			self.host = r.url
+
+	
+	def check_url(self):
+		if not self.host.startswith("http"):
+			self.host = "http://" + self.host
 
 
 	def load_plugins(self):

@@ -1,4 +1,4 @@
-import threading
+import threading, time
 import hashlib
 import requests
 
@@ -12,11 +12,17 @@ class RequesterThread(threading.Thread):
 		self.kill = False
 
 	def make_request(self, item):
-		uri = item["host"] + item["url"]
+		if item['host'].endswith('/') and item['url'].startswith('/'):
+			uri = item['host'] + item['url'][1:]
+		else:
+			uri = item["host"] + item["url"]
+		
+
 		if not uri in self.cache:
 			try:
 				r = requests.get(uri, verify=False)
 				self.cache[uri] = r
+
 				self.cache[uri].md5 = hashlib.md5(r.content).hexdigest().lower()				
 				r = self.cache[uri]
 			except Exception as e:
