@@ -10,10 +10,11 @@ class Results(object):
 
 	def add(self, category, plugin, data, weight=True):
 		v = data['version']
+
 		if type(weight) == bool:
 			w = 1.0/data['count'] if weight else 1.0
-			self.results[category][plugin][v] += w 
-		elif type(weight) == int:
+			self.results[category][plugin][v] += w
+		elif type(weight) == int or type(weight) == float:
 			self.results[category][plugin][v] += weight
 		else:
 			pass

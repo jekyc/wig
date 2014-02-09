@@ -53,4 +53,4 @@ class Plugin(object):
 		if name == None: name = self.name
 
 		for d in data:
-			self.results.add(self.category, name, d)
+			self.results.add(self.category, name, d, self.use_weights)

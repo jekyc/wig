@@ -7,20 +7,20 @@ class CMSReq(Requester):
 		super().__init__(host, cache, results)
 		self.category = "CMS"
 		self.match_class = None
+		self.use_weights = False
 
 	def prepare_results(self, matches):
 		data = []
 		for m in matches:
 			url = m['response'].url
 			version = m['output']
-			w = m['weight'] if 'weight' in m else 1
 			
 			for d in data:
 				if d['url'] == url:
-					d['count'] += w
+					d['count'] += 1
 					break
 			else:
-				data.append( {'url': url, 'count': w, 'version': version} )
+				data.append( {'url': url, 'count': 1, 'version': version} )
 
 		return data
 
@@ -42,6 +42,7 @@ class CMSReqMD5(CMSReq):
 	def __init__(self, host, cache, results):
 		super().__init__(host, cache, results)
 		self.match_class = MD5Matcher
+		self.use_weights = True
 
 
 class CMSReqString(CMSReq):
