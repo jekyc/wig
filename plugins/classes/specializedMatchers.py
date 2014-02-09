@@ -61,10 +61,13 @@ class RegexMatcher(Match):
 		regex = item["regex"]
 		output = item["output"]
 
+		print(regex)
 		matches = re.findall(regex, text)
+		print(matches)
+
 		if len(matches):
 			if not output == "":
-				return output % (matches[0],)
+				return output % matches[0]
 			else:
 				return True
 		else:

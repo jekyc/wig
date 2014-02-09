@@ -52,6 +52,5 @@ class Plugin(object):
 		# 'data' should be a list of dicts:
 		# [{'url': bla, 'version': bla, 'count': 23}, {...}]
 		if name == None: name = self.name
-
 		for d in data:
 			self.results.add(self.category, name, d, self.use_weights)
