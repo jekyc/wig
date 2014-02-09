@@ -12,6 +12,7 @@ class Plugin(object):
 		# these should be set by classes inhereting this class
 		self.category = ""
 		self.name = ""
+		self.use_weights = False
 
 	def load_data(self):
 		try:	
