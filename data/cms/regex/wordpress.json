@@ -2,26 +2,31 @@
 	{
 		"url": "/",
 		"regex": "<meta name=\"generator\" content=\"WordPress (\\d[\\.\\d]*)\" />",
+		"weight": 10,
 		"output": "%s"
 	},
 	{
 		"url": "/readme.html", 
 		"regex": "<br />\\s*Version (\\d.\\d)\\s*</h1>",
+		"weight": 10,
 		"output": "%s"
 	},
 	{
 		"url": "/feed/",
 		"regex": "v=(\\d[\\.\\d]*)</generator>", 
+		"weight": 10,
 		"output": "%s"		
 	},
 	{
 		"url": "/feed/atom/",
 		"regex": "version=\"(\\d[\\.\\d]*)\">WordPress</generator>", 
+		"weight": 10,
 		"output": "%s"
 	},
 	{
 		"url": "/feed/rdf/",
 		"regex": "v=(\\d[\\.\\d]*)\" />\\s*<items>", 
+		"weight": 10,
 		"output": "%s"
 	}
 ]
