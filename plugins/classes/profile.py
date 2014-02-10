@@ -63,7 +63,7 @@ class Profile(object):
 		best_url = sorted(best_urls, key=lambda x:len(x[1]['versions']))[0][0]
 
 		# get all the fingerprints with the 'url' = 'best_url'
-		out = [item for item in items if item[0]==best_url]
+		out = [item for item in items if item==best_url]
 
 		return out
 
