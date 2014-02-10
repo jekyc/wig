@@ -10,6 +10,7 @@ OS identification is done by using the value of the 'server' and 'X-Powered-By' 
 These values are compared to a database of which package versions are include with different operating systems.
 
 There are currently three profiles:
+
 **1. Only send one request:** wig only sends a request for '/'. All fingerprints matching this url are tested.
 
 **2. Only send one request per plugin:** The url used in most fingerprints is used
