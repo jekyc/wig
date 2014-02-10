@@ -43,7 +43,7 @@ class Profile(object):
 		sorting = {}
 		for item in items:
 			url = item['url']
-			version = items['output']
+			version = item['output']
 			try:
 				sorting[url]['counter'] += 1
 				sorting[url]['versions'].add(version)
