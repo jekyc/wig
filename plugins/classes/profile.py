@@ -51,7 +51,7 @@ class Profile(object):
 				sorting[url] = {'counter': 1, 'version': set([version])}
 
 		# order after the fingerprints' url count
-		sorted_url = sorted(sorting.items(), key=lambda x:x[1]['count'], reversed=True)
+		sorted_url = sorted(sorting.items(), key=lambda x:x[1]['count'], reverse=True)
 
 		# find the maximum count
 		max_count = sorted_url[0][1]['count']
