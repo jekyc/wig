@@ -48,7 +48,7 @@ class Profile(object):
 				sorting[url]['count'] += 1
 				sorting[url]['versions'].add(version)
 			except:
-				sorting[url] = {'count': 1, 'version': set([version])}
+				sorting[url] = {'count': 1, 'versions': set([version])}
 
 		# order after the fingerprints' url count
 		sorted_url = sorted(sorting.items(), key=lambda x:x[1]['count'], reverse=True)
