@@ -11,10 +11,13 @@ These values are compared to a database of which package versions are include wi
 
 There are currently three profiles:
 **1. Only send one request:** wig only sends a request for '/'. All fingerprints matching this url are tested.
+
 **2. Only send one request per plugin:** The url used in most fingerprints is used
+
 **4. All fingerprints:** All fingerprints are tested
 
-Help screen:
+
+**Help screen:**
 ```
 wig.py --help
 usage: wig.py [-h] [-p {1,2,4}] host
