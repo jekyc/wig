@@ -42,7 +42,6 @@ class Profile(object):
 		# create dict for sorting
 		sorting = {}
 		for item in items:
-			print(item)
 			url = item['url']
 			version = item['output']
 			try:
