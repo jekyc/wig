@@ -45,10 +45,10 @@ class Profile(object):
 			url = item['url']
 			version = item['output']
 			try:
-				sorting[url]['counter'] += 1
+				sorting[url]['count'] += 1
 				sorting[url]['versions'].add(version)
 			except:
-				sorting[url] = {'counter': 1, 'version': set([version])}
+				sorting[url] = {'count': 1, 'version': set([version])}
 
 		# order after the fingerprints' url count
 		sorted_url = sorted(sorting.items(), key=lambda x:x[1]['count'], reverse=True)
