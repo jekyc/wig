@@ -5,14 +5,16 @@ import plugins
 from plugins.classes.results import Results
 from plugins.classes.cache import Cache
 from plugins.classes.color import Color
+from plugins.classes.profile import Profile
 
 class Wig():
 
-	def __init__(self, host):
+	def __init__(self, host, profile):
 		self.plugins = self.load_plugins()
 		self.host = host
 		self.results = Results()
 		self.cache = Cache()
+		self.profile = Profile(profile)
 		self.check_url()
 		self.redirect()
 		self.colorizer = Color()
@@ -49,6 +51,7 @@ class Wig():
 			for p in ps:
 				print(p.name, end="                                                \r")
 				sys.stdout.flush()
+				p.set_profile(self.profile)
 				p.run()
 				num_fps += p.get_num_fps()
 
@@ -63,11 +66,19 @@ class Wig():
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description='WebApp Information Gatherer')
-	parser.add_argument('host', type=str, help='the host name of the target')
+	parser.add_argument('host', type=str,	help='the host name of the target')
+	parser.add_argument('-p',	
+		type=int,
+		default=4, 
+		choices=[1,2,4],
+		dest='profile',
+		help='select a profile: 1) Make only one request - 2) Make one request per plugin - 4) All')
+	
+
 	args = parser.parse_args()
 
 	try:
-		wig = Wig(args.host)
+		wig = Wig(args.host, args.profile)
 		if not wig.host == args.host:
 			hilight_host = wig.colorizer.format(wig.host, 'red', False)
 			choice = input("Redirected to %s. Continue? [Y|n]:" %(hilight_host,))

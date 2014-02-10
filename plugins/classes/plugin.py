@@ -10,9 +10,11 @@ class Plugin(object):
 		self.is_data_loaded = False
 
 		# these should be set by classes inhereting this class
+		self.data_file = ""
 		self.category = ""
 		self.name = ""
 		self.use_weights = False
+		self.use_profile = True
 
 	def load_data(self):
 		try:	
@@ -38,6 +40,10 @@ class Plugin(object):
 	def set_items(self, items):
 		self.__items = items
 
+	def set_profile(self, profile):
+		if self.use_profile:
+			self.load_data()
+			self.__items = profile.apply(self.__items)
 
 	def get_all_items(self):
 		return self.__items

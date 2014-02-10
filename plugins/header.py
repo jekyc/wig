@@ -15,6 +15,7 @@ class Header(Plugin):
 		self.prefix = []
 		self.header_name = []
 		self.headers = defaultdict(set)
+		self.use_profile = False
 
 		self.category = "Server Info"
 		

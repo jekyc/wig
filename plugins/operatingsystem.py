@@ -14,6 +14,7 @@ class OperatingSystem(Plugin):
 		self.os = Counter()
 		self.packages = Counter()
 		self.oss = []
+		self.use_profile = False
 
 
 	def load_extra_data(self, extra_file):
