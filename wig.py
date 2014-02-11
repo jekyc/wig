@@ -23,7 +23,18 @@ class Wig():
 	def redirect(self):
 		r = requests.get(self.host, verify=False)
 		if not r.url == self.host:
-			self.host = r.url
+
+			# ensure that sub-folders and files are removed
+			http, url = r.url.split('//')
+
+			# remove subfolders and/or files
+			# http://example.com/test -> http://example.com/
+			if '/' in url:
+				redirected = http + '//' + url.split('/')[0] + '/'
+			else:
+				redirected = http + '//' + url + '/'
+
+			self.host = redirected
 
 	
 	def check_url(self):

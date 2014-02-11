@@ -2,28 +2,33 @@
 	{
 		"url": "/",
 		"string": "jQuery.extend(Drupal.settings",
-		"output": ""
+		"output": "",
+		"weight": 0.1
 	},
 	{
 		"url": "/",
 		"string": "<meta name=\"Generator\" content=\"Drupal",
-		"output": ""
+		"output": "",
+		"weight": 0.1
 	},
 	{
 		"url": "/",
 		"string": "/sites/default/files",
-		"output": ""
+		"output": "",
+		"weight": 0.1
 	},
 	{
 		"url": "/none_existing_page_123",
 		"string": "<meta name=\"Generator\" content=\"Drupal",
 		"output": "" ,
-		"code": 404
+		"code": 404,
+		"weight": 0.1
 	},
 	{
 		"url": "/none_existing_page_123",
 		"string": "jQuery.extend(Drupal.settings",
 		"output": "" ,
-		"code": 404
+		"code": 404,
+		"weight": 0.1
 	}
 ]

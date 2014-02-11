@@ -106,8 +106,7 @@ class HeaderMatcher(Match):
 		# check if the header is in the page headers
 		if header in headers:
 			matches = re.findall(regex, headers[header])
-			print(matches)				
-
+			
 			# check if there is a match
 			if len(matches):
 				# if a match is found and 'output' has a replacement string

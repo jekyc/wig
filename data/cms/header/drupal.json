@@ -3,12 +3,14 @@
 		"url": "/",
 		"header": "X-Generator",
 		"regex": "Drupal (\\d) ",
-		"output": "%s"
+		"output": "%s",
+		"weight": 0.5		
 	},
 	{
 		"url": "/",
 		"header": "X-Drupal-Cache",
 		"regex": "(?:AB|CDE)",
-		"output": ""
+		"output": "",
+		"weight": 0.1
 	}
 ]

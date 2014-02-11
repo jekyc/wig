@@ -1,6 +1,6 @@
 from plugins.classes.requester import Requester
 from plugins.classes.specializedMatchers import MD5Matcher, StringMatcher, RegexMatcher, HeaderMatcher
-
+from collections import Counter
 
 class CMSReq(Requester):
 	def __init__(self, host, cache, results):
@@ -10,17 +10,21 @@ class CMSReq(Requester):
 
 	def prepare_results(self, matches):
 		data = []
+		weight_dict = Counter()
+
+		# calulate the total weights for urls in the matches
+		for m in matches:
+			url = m['response'].url
+			weight = m['weight'] if 'weight' in m else 1
+			weight_dict[url] += weight
+
+		# apply the weights just calculated
 		for m in matches:
 			url = m['response'].url
 			version = m['output']
-			weight = m['weight'] if 'weight' in m else 1
-			
-			for d in data:
-				if d['url'] == url:
-					d['count'] += weight
-					break
-			else:
-				data.append( {'url': url, 'count': weight, 'version': version} )
+			weight = weight_dict[url]
+			m['count'] = weight
+			data.append( {'url': url, 'count': weight, 'version': version} )
 
 		return data
 
