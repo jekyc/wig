@@ -1333,5 +1333,25 @@
           "md5": "95c5b922fb85f10516f27af8236627d8",
           "output": "v1.0-beta",
           "url": "/program/js/app.js"
+     },
+     {
+          "md5": "a77af1662e2eee5d9c5d6790fc4310a4",
+          "output": "v1.0-rc",
+          "url": "/skins/larry/images/roundcube_logo.png"
+     },
+     {
+          "md5": "9676b015e6d19c82f45bc418f8726f2f",
+          "output": "v1.0-rc",
+          "url": "/program/js/list.js"
+     },
+     {
+          "md5": "5c9ede998092bbf4987e359aa6fb66f2",
+          "output": "v1.0-rc",
+          "url": "/program/js/common.js"
+     },
+     {
+          "md5": "8930eb57a87b989dc5f7b76d9d33aad1",
+          "output": "v1.0-rc",
+          "url": "/program/js/app.js"
      }
 ]

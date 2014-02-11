@@ -1718,5 +1718,85 @@
           "md5": "3149dd38216585bd7d68e89da427cfb0",
           "output": "3.7.1",
           "url": "/wp-admin/js/post.js"
+     },
+     {
+          "md5": "acb33329b9ef8aabd8bd731426803e4e",
+          "output": "3.8",
+          "url": "/wp-includes/js/tinymce/tiny_mce.js"
+     },
+     {
+          "md5": "b37d71f086003790ea5bb7bb390b6514",
+          "output": "3.8",
+          "url": "/wp-includes/js/tinymce/plugins/spellchecker/changelog.txt"
+     },
+     {
+          "md5": "01928d3405b7c4b0d5f82e1c8e1b4ac1",
+          "output": "3.8",
+          "url": "/wp-includes/js/plupload/changelog.txt"
+     },
+     {
+          "md5": "624f8e163ba9b1ee522aaa8a74f24449",
+          "output": "3.8",
+          "url": "/wp-content/themes/twentyten/style.css"
+     },
+     {
+          "md5": "aa803aa18ae0432f3824f970c229e153",
+          "output": "3.8",
+          "url": "/wp-content/themes/twentyeleven/style.css"
+     },
+     {
+          "md5": "18b223453dc84f2c6490f88a295b98ed",
+          "output": "3.8",
+          "url": "/wp-content/themes/twentythirteen/style.css"
+     },
+     {
+          "md5": "dfd490b6f383ea02a269031ff05e8896",
+          "output": "3.8",
+          "url": "/wp-includes/wlwmanifest.xml"
+     },
+     {
+          "md5": "8bba20755890a66db03ed0d606e17c4c",
+          "output": "3.8",
+          "url": "/wp-admin/js/post.js"
+     },
+     {
+          "md5": "acb33329b9ef8aabd8bd731426803e4e",
+          "output": "3.8.1",
+          "url": "/wp-includes/js/tinymce/tiny_mce.js"
+     },
+     {
+          "md5": "b37d71f086003790ea5bb7bb390b6514",
+          "output": "3.8.1",
+          "url": "/wp-includes/js/tinymce/plugins/spellchecker/changelog.txt"
+     },
+     {
+          "md5": "01928d3405b7c4b0d5f82e1c8e1b4ac1",
+          "output": "3.8.1",
+          "url": "/wp-includes/js/plupload/changelog.txt"
+     },
+     {
+          "md5": "624f8e163ba9b1ee522aaa8a74f24449",
+          "output": "3.8.1",
+          "url": "/wp-content/themes/twentyten/style.css"
+     },
+     {
+          "md5": "aa803aa18ae0432f3824f970c229e153",
+          "output": "3.8.1",
+          "url": "/wp-content/themes/twentyeleven/style.css"
+     },
+     {
+          "md5": "18b223453dc84f2c6490f88a295b98ed",
+          "output": "3.8.1",
+          "url": "/wp-content/themes/twentythirteen/style.css"
+     },
+     {
+          "md5": "dfd490b6f383ea02a269031ff05e8896",
+          "output": "3.8.1",
+          "url": "/wp-includes/wlwmanifest.xml"
+     },
+     {
+          "md5": "8bba20755890a66db03ed0d606e17c4c",
+          "output": "3.8.1",
+          "url": "/wp-admin/js/post.js"
      }
 ]

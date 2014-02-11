@@ -3231,6 +3231,46 @@
      },
      {
           "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "1.22.0rc3",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "2e4ccc208f1187e85a633312ad07516c",
+          "output": "1.22.0rc3",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "57a97b5f5e9146ef99ec6908f5c15e98",
+          "output": "1.22.0rc3",
+          "url": "/skins/modern/main.css"
+     },
+     {
+          "md5": "499b465e0b24ec36af6913628d23da3b",
+          "output": "1.22.0rc3",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "9dc67f758098887383f40292192c4778",
+          "output": "1.22.0rc3",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "afd5ff41b66fa587fce735b7f041a614",
+          "output": "1.22.0rc3",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "ae020db4f3e37bbea9a7d00e8f0bae6a",
+          "output": "1.22.0rc3",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "6d92129f557f9a20c5afbce025b0218a",
+          "output": "1.22.0rc3",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
           "output": "1.22.1",
           "url": "/skins/common/images/spinner.gif"
      },
