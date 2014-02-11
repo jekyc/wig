@@ -1,5 +1,5 @@
 from plugins.classes.requester import Requester
-from plugins.classes.specializedMatchers import MD5Matcher, StringMatcher, RegexMatcher
+from plugins.classes.specializedMatchers import MD5Matcher, StringMatcher, RegexMatcher, HeaderMatcher
 
 
 class CMSReq(Requester):
@@ -55,3 +55,11 @@ class CMSReqRegex(CMSReq):
 	def __init__(self, host, cache, results):
 		super().__init__(host, cache, results)
 		self.match_class = RegexMatcher
+
+class CMSReqHeader(CMSReq):
+	def __init__(self, host, cache, results):
+		super().__init__(host, cache, results)
+		self.match_class = HeaderMatcher
+
+
+

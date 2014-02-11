@@ -1,4 +1,7 @@
 __all__ = [
+"drupal",
+]
+"""
 "concrete5",
 "demandware",
 "dokuwiki",
@@ -31,3 +34,4 @@ __all__ = [
 "header",
 "operatingsystem",
 ]
+"""

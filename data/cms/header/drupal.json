@@ -1,0 +1,14 @@
+[
+	{
+		"url": "/",
+		"header": "X-Generator",
+		"regex": "Drupal (\\d) ",
+		"output": "%s"
+	},
+	{
+		"url": "/",
+		"header": "X-Drupal-Cache",
+		"regex": "(?:AB|CDE)",
+		"output": ""
+	}
+]
