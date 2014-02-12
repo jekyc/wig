@@ -15,6 +15,7 @@ __all__ = [
 "moodle",
 "movabletype",
 "mybb",
+"outlook",
 "phpbb",
 "phpmyadmin",
 "plone",
