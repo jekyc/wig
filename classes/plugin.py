@@ -9,14 +9,30 @@ class Plugin(object):
 		self.prefix = []
 		self.is_data_loaded = False
 
+		######################################################
 		# these should be set by classes inhereting this class
+		#
+
+		# the file to load fingerprints from
 		self.data_file = ""
+
+		# used to group plugins and is displayed in the output 
 		self.category = ""
+
+		# the name of the plugin
 		self.name = ""
+
+		# if multiple matches are found for a given url,
+		# should this count against the match score
 		self.use_weights = False
+
+		# should the plugin be affected by the profile chosen
 		self.use_profile = True
 
+	
 	def load_data(self):
+		# load the fingeprints from the json file
+		# add prifixes if these are defined
 		try:	
 			with open(self.data_file) as f:
 				self.__items = json.load(f)
@@ -27,6 +43,7 @@ class Plugin(object):
 			raise Exception("No data file to open")
 
 	def __add_prefixes(self):
+		# actually add the prefixes to each fingerprint
 		for prefix in self.prefix:
 			if prefix == "": continue
 			t = [self.__update_url(i, prefix) for i in self.__items]
@@ -41,6 +58,7 @@ class Plugin(object):
 		self.__items = items
 
 	def set_profile(self, profile):
+		# the exposed method for applying a profile
 		if self.use_profile:
 			self.load_data()
 			self.__items = profile.apply(self.__items)

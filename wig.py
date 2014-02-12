@@ -21,6 +21,7 @@ class Wig():
 
 
 	def redirect(self):
+		# detects redirection if this happend
 		r = requests.get(self.host, verify=False)
 		if not r.url == self.host:
 
@@ -39,11 +40,13 @@ class Wig():
 
 	
 	def check_url(self):
+		# adds http:// to input if not present
 		if not self.host.startswith("http"):
 			self.host = "http://" + self.host
 
 
 	def load_plugins(self):
+		# load all the plugins listed in plugins/__init__.py
 		all_plugins = []
 		for p in plugins.__all__:
 			plugin_path = "plugins." + p
@@ -57,13 +60,23 @@ class Wig():
 		t = time.time()
 		num_fps = 0
 		num_plugins = 0
+		# loops over all the plugins loaded
 		for plugin in self.plugins:
+
+			# a loaded plugin might have more than one plugin, so 'ps' is a list
 			ps = plugin.get_instances(self.host, self.cache, self.results)
 			num_plugins += len(ps)
 			for p in ps:
+
+				# give a status of which plugin is run
 				print(p.name, end="                                                \r")
 				sys.stdout.flush()
+
+				# applies the choosen profile by removing fingerprints from the 
+				# fingerprint set if these do not match the choosen profile
 				p.set_profile(self.profile)
+
+				# the main plugin method
 				p.run()
 				num_fps += p.get_num_fps()
 
@@ -93,12 +106,15 @@ if __name__ == '__main__':
 		wig = Wig(args.host, args.profile)
 		if not wig.host == args.host:
 			hilight_host = wig.colorizer.format(wig.host, 'red', False)
+
+			# if a redirection has been detected on the input host, notify the user
 			choice = input("Redirected to %s. Continue? [Y|n]:" %(hilight_host,))
 			if choice in ['n', 'N']:
 				sys.exit(0)
 
 		wig.run()
 	except KeyboardInterrupt:
+		# detect ctrl+c 
 		for w in wig.workers:
 			w.kill = True
 		raise
