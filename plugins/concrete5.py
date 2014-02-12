@@ -1,4 +1,4 @@
-from plugins.classes.specializedRequesters import CMSReqMD5
+from classes.specializedRequesters import CMSReqMD5
 
 class Concrete5(CMSReqMD5):
 	def __init__(self, host, cache, results):

@@ -1,4 +1,4 @@
-from plugins.classes.plugin import Plugin
+from classes.plugin import Plugin
 from collections import Counter, defaultdict
 import json, pprint
 

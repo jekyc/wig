@@ -1,4 +1,4 @@
-from plugins.classes.specializedRequesters import CMSReqMD5, CMSReqRegex, CMSReqString
+from classes.specializedRequesters import CMSReqMD5, CMSReqRegex, CMSReqString
 
 class phpMyAdminMD5(CMSReqMD5):
 	def __init__(self, host, cache, results):

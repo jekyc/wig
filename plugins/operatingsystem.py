@@ -1,5 +1,5 @@
 from collections import Counter
-from plugins.classes.plugin import Plugin
+from classes.plugin import Plugin
 import json
 
 class OperatingSystem(Plugin):

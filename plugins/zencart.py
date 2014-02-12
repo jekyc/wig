@@ -1,4 +1,4 @@
-from plugins.classes.specializedRequesters import CMSReqMD5, CMSReqString, CMSReqRegex
+from classes.specializedRequesters import CMSReqMD5, CMSReqString, CMSReqRegex
 
 class ZenCartMD5(CMSReqMD5):
 	def __init__(self, host, cache, results):

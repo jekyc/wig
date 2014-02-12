@@ -2,10 +2,10 @@
 
 import sys, time, argparse, requests
 import plugins
-from plugins.classes.results import Results
-from plugins.classes.cache import Cache
-from plugins.classes.color import Color
-from plugins.classes.profile import Profile
+from classes.results import Results
+from classes.cache import Cache
+from classes.color import Color
+from classes.profile import Profile
 
 class Wig():
 
