@@ -25,7 +25,8 @@ class Wig():
 		if not r.url == self.host:
 
 			# ensure that sub-folders and files are removed
-			http, url = r.url.split('//')
+			parts = r.url.split('//')
+			http, url = parts[0:2]
 
 			# remove subfolders and/or files
 			# http://example.com/test -> http://example.com/
