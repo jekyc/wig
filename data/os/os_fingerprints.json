@@ -3,29 +3,29 @@
         "2.0.16": [
             [
                 "FreeBSD",
-                "4.4 RELEASE"
+                "4.4"
             ]
         ],
         "2.0.28": [
             [
                 "FreeBSD",
-                "4.5 RELEASE"
+                "4.5"
             ]
         ],
         "2.0.36": [
             [
                 "FreeBSD",
-                "4.6 RELEASE"
+                "4.6"
             ]
         ],
         "2.0.40": [
             [
                 "Red Hat Enterprise Linux",
-                "9 shrike"
+                "9"
             ],
             [
                 "Red Hat Enterprise Linux",
-                "8.0 psyche"
+                "8.0"
             ],
             [
                 "openSUSE",
@@ -35,17 +35,17 @@
         "2.0.43": [
             [
                 "FreeBSD",
-                "5.0 RELEASE"
+                "5.0"
             ],
             [
                 "FreeBSD",
-                "4.7 RELEASE"
+                "4.7"
             ]
         ],
         "2.0.44": [
             [
                 "FreeBSD",
-                "4.8 RELEASE"
+                "4.8"
             ],
             [
                 "openSUSE",
@@ -67,17 +67,17 @@
             ],
             [
                 "FreeBSD",
-                "5.1 RELEASE"
+                "5.1"
             ]
         ],
         "2.0.47": [
             [
                 "Fedora",
-                "1 yarrow"
+                "1"
             ],
             [
                 "FreeBSD",
-                "4.9 RELEASE"
+                "4.9"
             ],
             [
                 "openSUSE",
@@ -87,17 +87,17 @@
         "2.0.48": [
             [
                 "FreeBSD",
-                "5.2.1 RELEASE"
+                "5.2.1"
             ]
         ],
         "2.0.49": [
             [
                 "Fedora",
-                "2 tettnang"
+                "2"
             ],
             [
                 "FreeBSD",
-                "4.10 RELEASE"
+                "4.10"
             ],
             [
                 "openSUSE",
@@ -107,7 +107,7 @@
         "2.0.50": [
             [
                 "FreeBSD",
-                "5.3 RELEASE"
+                "5.3"
             ],
             [
                 "openSUSE",
@@ -125,7 +125,7 @@
             ],
             [
                 "Fedora",
-                "3 heidelberg"
+                "3"
             ],
             [
                 "Scientific Linux",
@@ -133,13 +133,13 @@
             ],
             [
                 "FreeBSD",
-                "4.11 RELEASE"
+                "4.11"
             ]
         ],
         "2.0.53": [
             [
                 "FreeBSD",
-                "5.4 RELEASE"
+                "5.4"
             ],
             [
                 "openSUSE",
@@ -149,15 +149,15 @@
         "2.0.54": [
             [
                 "Fedora",
-                "4 stentz"
+                "4"
             ],
             [
                 "Debian GNU/Linux",
-                "3.1 sarge"
+                "3.1"
             ],
             [
                 "FreeBSD",
-                "6.0 RELEASE"
+                "6.0"
             ],
             [
                 "openSUSE",
@@ -167,15 +167,15 @@
         "2.2.0": [
             [
                 "Fedora",
-                "5 bordeaux"
+                "5"
             ],
             [
                 "FreeBSD",
-                "6.1 RELEASE"
+                "6.1"
             ],
             [
                 "FreeBSD",
-                "5.5 RELEASE"
+                "5.5"
             ],
             [
                 "openSUSE",
@@ -185,7 +185,7 @@
         "2.2.10": [
             [
                 "Fedora",
-                "10 cambridge"
+                "10"
             ],
             [
                 "openSUSE",
@@ -195,7 +195,7 @@
         "2.2.11": [
             [
                 "Fedora",
-                "11 leonidas"
+                "11"
             ],
             [
                 "OpenBSD",
@@ -203,23 +203,23 @@
             ],
             [
                 "FreeBSD",
-                "7.2 RELEASE"
+                "7.2"
             ]
         ],
         "2.2.12": [
             [
                 "Ubuntu",
-                "9.10 karmic"
+                "9.10"
             ]
         ],
         "2.2.13": [
             [
                 "Fedora",
-                "12 constantine"
+                "12"
             ],
             [
                 "FreeBSD",
-                "8.0 RELEASE"
+                "8.0"
             ],
             [
                 "openSUSE",
@@ -229,7 +229,7 @@
         "2.2.14": [
             [
                 "Ubuntu",
-                "10.04 LTS lucid"
+                "10.04"
             ],
             [
                 "OpenBSD",
@@ -237,7 +237,7 @@
             ],
             [
                 "FreeBSD",
-                "7.3 RELEASE"
+                "7.3"
             ]
         ],
         "2.2.15": [
@@ -251,7 +251,7 @@
             ],
             [
                 "Fedora",
-                "13 goddard"
+                "13"
             ],
             [
                 "Scientific Linux",
@@ -271,7 +271,7 @@
             ],
             [
                 "FreeBSD",
-                "8.1 RELEASE"
+                "8.1"
             ],
             [
                 "openSUSE",
@@ -281,33 +281,33 @@
         "2.2.16": [
             [
                 "Fedora",
-                "14 laughlin"
+                "14"
             ],
             [
                 "Debian GNU/Linux",
-                "6.0 squeeze"
+                "6.0"
             ],
             [
                 "Ubuntu",
-                "10.10 maverick"
+                "10.10"
             ]
         ],
         "2.2.17": [
             [
                 "Fedora",
-                "15 lovelock"
+                "15"
             ],
             [
                 "Ubuntu",
-                "11.04 natty"
+                "11.04"
             ],
             [
                 "FreeBSD",
-                "8.2 RELEASE"
+                "8.2"
             ],
             [
                 "FreeBSD",
-                "7.4 RELEASE"
+                "7.4"
             ],
             [
                 "openSUSE",
@@ -317,7 +317,7 @@
         "2.2.20": [
             [
                 "Ubuntu",
-                "11.10 oneiric"
+                "11.10"
             ],
             [
                 "OpenBSD",
@@ -327,11 +327,11 @@
         "2.2.21": [
             [
                 "Fedora",
-                "16 verne"
+                "16"
             ],
             [
                 "FreeBSD",
-                "9.0 RELEASE"
+                "9.0"
             ],
             [
                 "openSUSE",
@@ -341,23 +341,23 @@
         "2.2.22": [
             [
                 "Fedora",
-                "17 beefy"
+                "17"
             ],
             [
                 "Debian GNU/Linux",
-                "7.0 wheezy"
+                "7.0"
             ],
             [
                 "Ubuntu",
-                "13.04 raring"
+                "13.04"
             ],
             [
                 "Ubuntu",
-                "12.10 quantal"
+                "12.10"
             ],
             [
                 "Ubuntu",
-                "12.04 LTS precise"
+                "12.04"
             ],
             [
                 "OpenBSD",
@@ -395,11 +395,11 @@
             ],
             [
                 "Fedora",
-                "6 zod"
+                "6"
             ],
             [
                 "Debian GNU/Linux",
-                "4.0 etch"
+                "4.0"
             ],
             [
                 "Scientific Linux",
@@ -411,7 +411,7 @@
             ],
             [
                 "FreeBSD",
-                "6.2 RELEASE"
+                "6.2"
             ],
             [
                 "openSUSE",
@@ -421,7 +421,7 @@
         "2.2.4": [
             [
                 "Fedora",
-                "7 moonshine"
+                "7"
             ],
             [
                 "OpenBSD",
@@ -435,21 +435,21 @@
         "2.2.6": [
             [
                 "Fedora",
-                "8 werewolf"
+                "8"
             ],
             [
                 "FreeBSD",
-                "7.0 RELEASE"
+                "7.0"
             ],
             [
                 "FreeBSD",
-                "6.3 RELEASE"
+                "6.3"
             ]
         ],
         "2.2.8": [
             [
                 "Fedora",
-                "9 sulphur"
+                "9"
             ],
             [
                 "OpenBSD",
@@ -467,7 +467,7 @@
         "2.2.9": [
             [
                 "Debian GNU/Linux",
-                "5.0 lenny"
+                "5.0"
             ],
             [
                 "OpenBSD",
@@ -475,49 +475,49 @@
             ],
             [
                 "FreeBSD",
-                "7.1 RELEASE"
+                "7.1"
             ],
             [
                 "FreeBSD",
-                "6.4 RELEASE"
+                "6.4"
             ]
         ],
         "2.4.3": [
             [
                 "Fedora",
-                "18 spherical"
+                "18"
             ]
         ],
         "2.4.4": [
             [
                 "Fedora",
-                "19 schrodingers"
+                "19"
             ]
         ],
         "2.4.6": [
             [
                 "Red Hat Enterprise Linux",
-                "RHEL-7.0 (Beta)"
+                "RHEL-7.0"
             ],
             [
                 "Fedora",
-                "20 heisenbug"
+                "20"
             ],
             [
                 "Ubuntu",
-                "13.10 saucy"
+                "13.10"
             ],
             [
                 "FreeBSD",
-                "10 CURRENT"
+                "10"
             ],
             [
                 "FreeBSD",
-                "9 STABLE"
+                "9"
             ],
             [
                 "FreeBSD",
-                "9.2 RELEASE"
+                "9.2"
             ],
             [
                 "openSUSE",
@@ -535,15 +535,15 @@
             ],
             [
                 "Debian GNU/Linux",
-                "unstable sid"
+                "unstable"
             ],
             [
                 "Debian GNU/Linux",
-                "testing jessie"
+                "testing"
             ],
             [
                 "Ubuntu",
-                "snapshot trusty"
+                "snapshot"
             ]
         ]
     },
@@ -557,11 +557,11 @@
         "3.2.3": [
             [
                 "FreeBSD",
-                "4.5 RELEASE"
+                "4.5"
             ],
             [
                 "FreeBSD",
-                "4.4 RELEASE"
+                "4.4"
             ]
         ],
         "4.0.2": [
@@ -573,7 +573,7 @@
         "4.0.3": [
             [
                 "Debian GNU/Linux",
-                "3.0 woody"
+                "3.0"
             ]
         ],
         "4.0.5": [
@@ -595,13 +595,13 @@
         "4.1.24": [
             [
                 "FreeBSD",
-                "5.1 RELEASE"
+                "5.1"
             ]
         ],
         "4.1.27": [
             [
                 "Fedora",
-                "2 tettnang"
+                "2"
             ]
         ],
         "4.1.29": [
@@ -619,19 +619,19 @@
         "4.1.31": [
             [
                 "Debian GNU/Linux",
-                "3.1 sarge"
+                "3.1"
             ]
         ],
         "4.1.36": [
             [
                 "FreeBSD",
-                "8.2 RELEASE"
+                "8.2"
             ]
         ],
         "5.0.19": [
             [
                 "FreeBSD",
-                "4.10 RELEASE"
+                "4.10"
             ]
         ],
         "5.0.28": [
@@ -657,51 +657,51 @@
             ],
             [
                 "FreeBSD",
-                "5.3 RELEASE"
+                "5.3"
             ]
         ],
         "5.0.30": [
             [
                 "Fedora",
-                "4 stentz"
+                "4"
             ],
             [
                 "FreeBSD",
-                "6.2 RELEASE"
+                "6.2"
             ],
             [
                 "FreeBSD",
-                "6.1 RELEASE"
+                "6.1"
             ],
             [
                 "FreeBSD",
-                "5.5 RELEASE"
+                "5.5"
             ],
             [
                 "FreeBSD",
-                "5.4 RELEASE"
+                "5.4"
             ],
             [
                 "FreeBSD",
-                "4.11 RELEASE"
+                "4.11"
             ]
         ],
         "5.5.15": [
             [
                 "Fedora",
-                "5 bordeaux"
+                "5"
             ]
         ],
         "5.5.17": [
             [
                 "Fedora",
-                "6 zod"
+                "6"
             ]
         ],
         "5.5.20": [
             [
                 "Debian GNU/Linux",
-                "4.0 etch"
+                "4.0"
             ]
         ],
         "5.5.23": [
@@ -715,11 +715,11 @@
             ],
             [
                 "Fedora",
-                "8 werewolf"
+                "8"
             ],
             [
                 "Fedora",
-                "7 moonshine"
+                "7"
             ],
             [
                 "Scientific Linux",
@@ -733,11 +733,11 @@
         "5.5.26": [
             [
                 "Fedora",
-                "9 sulphur"
+                "9"
             ],
             [
                 "Debian GNU/Linux",
-                "5.0 lenny"
+                "5.0"
             ],
             [
                 "OpenBSD",
@@ -751,43 +751,43 @@
         "5.5.27": [
             [
                 "Fedora",
-                "13 goddard"
+                "13"
             ],
             [
                 "Fedora",
-                "12 constantine"
+                "12"
             ],
             [
                 "Fedora",
-                "10 cambridge"
+                "10"
             ]
         ],
         "5.5.9": [
             [
                 "FreeBSD",
-                "6.0 RELEASE"
+                "6.0"
             ]
         ],
         "6.0.14": [
             [
                 "FreeBSD",
-                "6.3 RELEASE"
+                "6.3"
             ]
         ],
         "6.0.16": [
             [
                 "FreeBSD",
-                "7.1 RELEASE"
+                "7.1"
             ],
             [
                 "FreeBSD",
-                "6.4 RELEASE"
+                "6.4"
             ]
         ],
         "6.0.18": [
             [
                 "Fedora",
-                "11 leonidas"
+                "11"
             ],
             [
                 "OpenBSD",
@@ -795,13 +795,13 @@
             ],
             [
                 "FreeBSD",
-                "7.2 RELEASE"
+                "7.2"
             ]
         ],
         "6.0.20": [
             [
                 "Ubuntu",
-                "9.10 karmic"
+                "9.10"
             ],
             [
                 "OpenBSD",
@@ -831,7 +831,7 @@
             ],
             [
                 "Ubuntu",
-                "10.04 LTS lucid"
+                "10.04"
             ],
             [
                 "Scientific Linux",
@@ -839,47 +839,47 @@
             ],
             [
                 "FreeBSD",
-                "7.3 RELEASE"
+                "7.3"
             ]
         ],
         "6.0.26": [
             [
                 "Fedora",
-                "14 laughlin"
+                "14"
             ],
             [
                 "FreeBSD",
-                "8.1 RELEASE"
+                "8.1"
             ]
         ],
         "6.0.28": [
             [
                 "Debian GNU/Linux",
-                "6.0 squeeze"
+                "6.0"
             ],
             [
                 "Ubuntu",
-                "11.04 natty"
+                "11.04"
             ],
             [
                 "Ubuntu",
-                "10.10 maverick"
+                "10.10"
             ]
         ],
         "6.0.30": [
             [
                 "Fedora",
-                "15 lovelock"
+                "15"
             ]
         ],
         "6.0.32": [
             [
                 "Fedora",
-                "16 verne"
+                "16"
             ],
             [
                 "Ubuntu",
-                "11.10 oneiric"
+                "11.10"
             ],
             [
                 "OpenBSD",
@@ -889,13 +889,13 @@
         "6.0.35": [
             [
                 "Ubuntu",
-                "12.04 LTS precise"
+                "12.04"
             ]
         ],
         "7.0.22": [
             [
                 "FreeBSD",
-                "9.0 RELEASE"
+                "9.0"
             ]
         ],
         "7.0.25": [
@@ -907,13 +907,13 @@
         "7.0.27": [
             [
                 "Fedora",
-                "17 beefy"
+                "17"
             ]
         ],
         "7.0.28": [
             [
                 "Debian GNU/Linux",
-                "7.0 wheezy"
+                "7.0"
             ]
         ],
         "7.0.29": [
@@ -925,19 +925,19 @@
         "7.0.30": [
             [
                 "Ubuntu",
-                "12.10 quantal"
+                "12.10"
             ]
         ],
         "7.0.32": [
             [
                 "Fedora",
-                "18 spherical"
+                "18"
             ]
         ],
         "7.0.35": [
             [
                 "Ubuntu",
-                "13.04 raring"
+                "13.04"
             ],
             [
                 "OpenBSD",
@@ -947,29 +947,29 @@
         "7.0.40": [
             [
                 "Red Hat Enterprise Linux",
-                "RHEL-7.0 (Beta)"
+                "RHEL-7.0"
             ],
             [
                 "Fedora",
-                "19 schrodingers"
+                "19"
             ],
             [
                 "FreeBSD",
-                "10 CURRENT"
+                "10"
             ],
             [
                 "FreeBSD",
-                "9 STABLE"
+                "9"
             ],
             [
                 "FreeBSD",
-                "9.2 RELEASE"
+                "9.2"
             ]
         ],
         "7.0.42": [
             [
                 "Ubuntu",
-                "13.10 saucy"
+                "13.10"
             ],
             [
                 "OpenBSD",
@@ -983,27 +983,27 @@
             ],
             [
                 "Fedora",
-                "20 heisenbug"
+                "20"
             ]
         ],
         "7.0.50": [
             [
                 "Debian GNU/Linux",
-                "unstable sid"
+                "unstable"
             ],
             [
                 "Debian GNU/Linux",
-                "testing jessie"
+                "testing"
             ],
             [
                 "Ubuntu",
-                "snapshot trusty"
+                "snapshot"
             ]
         ],
         "7.0.6": [
             [
                 "FreeBSD",
-                "7.4 RELEASE"
+                "7.4"
             ]
         ]
     },
@@ -1017,7 +1017,7 @@
         "0.9.5a": [
             [
                 "Red Hat Enterprise Linux",
-                "7.0 guiness"
+                "7.0"
             ],
             [
                 "OpenBSD",
@@ -1031,7 +1031,7 @@
         "0.9.6": [
             [
                 "Red Hat Enterprise Linux",
-                "7.1 seawolf"
+                "7.1"
             ],
             [
                 "OpenBSD",
@@ -1055,15 +1055,15 @@
             ],
             [
                 "Red Hat Enterprise Linux",
-                "8.0 psyche"
+                "8.0"
             ],
             [
                 "Red Hat Enterprise Linux",
-                "7.3 valhalla"
+                "7.3"
             ],
             [
                 "Red Hat Enterprise Linux",
-                "7.2 enigma"
+                "7.2"
             ],
             [
                 "CentOS",
@@ -1085,7 +1085,7 @@
         "0.9.6c": [
             [
                 "Debian GNU/Linux",
-                "3.0 woody"
+                "3.0"
             ],
             [
                 "openSUSE",
@@ -1095,17 +1095,17 @@
         "0.9.6d": [
             [
                 "FreeBSD",
-                "4.6 RELEASE"
+                "4.6"
             ]
         ],
         "0.9.6g": [
             [
                 "FreeBSD",
-                "5.0 RELEASE"
+                "5.0"
             ],
             [
                 "FreeBSD",
-                "4.7 RELEASE"
+                "4.7"
             ],
             [
                 "openSUSE",
@@ -1129,7 +1129,7 @@
             ],
             [
                 "Red Hat Enterprise Linux",
-                "9 shrike"
+                "9"
             ],
             [
                 "CentOS",
@@ -1141,15 +1141,15 @@
             ],
             [
                 "Fedora",
-                "3 heidelberg"
+                "3"
             ],
             [
                 "Fedora",
-                "2 tettnang"
+                "2"
             ],
             [
                 "Fedora",
-                "1 yarrow"
+                "1"
             ],
             [
                 "Scientific Linux",
@@ -1161,7 +1161,7 @@
             ],
             [
                 "FreeBSD",
-                "4.8 RELEASE"
+                "4.8"
             ]
         ],
         "0.9.7b": [
@@ -1171,11 +1171,11 @@
             ],
             [
                 "FreeBSD",
-                "5.1 RELEASE"
+                "5.1"
             ],
             [
                 "FreeBSD",
-                "4.9 RELEASE"
+                "4.9"
             ],
             [
                 "openSUSE",
@@ -1199,13 +1199,13 @@
             ],
             [
                 "FreeBSD",
-                "5.2.1 RELEASE"
+                "5.2.1"
             ]
         ],
         "0.9.7d": [
             [
                 "Ubuntu",
-                "4.10 warty"
+                "4.10"
             ],
             [
                 "OpenBSD",
@@ -1217,11 +1217,11 @@
             ],
             [
                 "FreeBSD",
-                "5.3 RELEASE"
+                "5.3"
             ],
             [
                 "FreeBSD",
-                "4.10 RELEASE"
+                "4.10"
             ],
             [
                 "openSUSE",
@@ -1235,19 +1235,19 @@
         "0.9.7e": [
             [
                 "Debian GNU/Linux",
-                "3.1 sarge"
+                "3.1"
             ],
             [
                 "Ubuntu",
-                "5.04 hoary"
+                "5.04"
             ],
             [
                 "FreeBSD",
-                "5.4 RELEASE"
+                "5.4"
             ],
             [
                 "FreeBSD",
-                "4.11 RELEASE"
+                "4.11"
             ],
             [
                 "openSUSE",
@@ -1257,13 +1257,13 @@
         "0.9.7f": [
             [
                 "Fedora",
-                "4 stentz"
+                "4"
             ]
         ],
         "0.9.7g": [
             [
                 "Ubuntu",
-                "5.10 breezy"
+                "5.10"
             ],
             [
                 "OpenBSD",
@@ -1275,7 +1275,7 @@
             ],
             [
                 "FreeBSD",
-                "6.0 RELEASE"
+                "6.0"
             ],
             [
                 "openSUSE",
@@ -1307,19 +1307,19 @@
         "0.9.8a": [
             [
                 "Fedora",
-                "5 bordeaux"
+                "5"
             ],
             [
                 "Ubuntu",
-                "6.06 LTS dapper"
+                "6.06"
             ],
             [
                 "FreeBSD",
-                "6.1 RELEASE"
+                "6.1"
             ],
             [
                 "FreeBSD",
-                "5.5 RELEASE"
+                "5.5"
             ],
             [
                 "openSUSE",
@@ -1329,19 +1329,19 @@
         "0.9.8b": [
             [
                 "Fedora",
-                "8 werewolf"
+                "8"
             ],
             [
                 "Fedora",
-                "7 moonshine"
+                "7"
             ],
             [
                 "Fedora",
-                "6 zod"
+                "6"
             ],
             [
                 "Ubuntu",
-                "6.10 edgy"
+                "6.10"
             ],
             [
                 "Scientific Linux",
@@ -1351,17 +1351,17 @@
         "0.9.8c": [
             [
                 "Debian GNU/Linux",
-                "4.0 etch"
+                "4.0"
             ],
             [
                 "Ubuntu",
-                "7.04 feisty"
+                "7.04"
             ]
         ],
         "0.9.8d": [
             [
                 "FreeBSD",
-                "6.2 RELEASE"
+                "6.2"
             ],
             [
                 "openSUSE",
@@ -1379,7 +1379,7 @@
             ],
             [
                 "Ubuntu",
-                "7.10 gutsy"
+                "7.10"
             ],
             [
                 "openSUSE",
@@ -1389,39 +1389,39 @@
         "0.9.8g": [
             [
                 "Fedora",
-                "10 cambridge"
+                "10"
             ],
             [
                 "Fedora",
-                "9 sulphur"
+                "9"
             ],
             [
                 "Debian GNU/Linux",
-                "5.0 lenny"
+                "5.0"
             ],
             [
                 "Ubuntu",
-                "9.10 karmic"
+                "9.10"
             ],
             [
                 "Ubuntu",
-                "9.04 jaunty"
+                "9.04"
             ],
             [
                 "Ubuntu",
-                "8.10 intrepid"
+                "8.10"
             ],
             [
                 "Ubuntu",
-                "8.04 LTS hardy"
+                "8.04"
             ],
             [
                 "FreeBSD",
-                "7.0 RELEASE"
+                "7.0"
             ],
             [
                 "FreeBSD",
-                "6.3 RELEASE"
+                "6.3"
             ],
             [
                 "openSUSE",
@@ -1431,11 +1431,11 @@
         "0.9.8h": [
             [
                 "FreeBSD",
-                "7.1 RELEASE"
+                "7.1"
             ],
             [
                 "FreeBSD",
-                "6.4 RELEASE"
+                "6.4"
             ],
             [
                 "openSUSE",
@@ -1451,11 +1451,11 @@
         "0.9.8k": [
             [
                 "Fedora",
-                "11 leonidas"
+                "11"
             ],
             [
                 "Ubuntu",
-                "10.04 LTS lucid"
+                "10.04"
             ],
             [
                 "OpenBSD",
@@ -1471,11 +1471,11 @@
             ],
             [
                 "FreeBSD",
-                "8.0 RELEASE"
+                "8.0"
             ],
             [
                 "FreeBSD",
-                "7.2 RELEASE"
+                "7.2"
             ],
             [
                 "openSUSE",
@@ -1485,33 +1485,33 @@
         "0.9.8m": [
             [
                 "FreeBSD",
-                "7.3 RELEASE"
+                "7.3"
             ]
         ],
         "0.9.8n": [
             [
                 "FreeBSD",
-                "8.1 RELEASE"
+                "8.1"
             ]
         ],
         "0.9.8o": [
             [
                 "Debian GNU/Linux",
-                "6.0 squeeze"
+                "6.0"
             ],
             [
                 "Ubuntu",
-                "11.04 natty"
+                "11.04"
             ],
             [
                 "Ubuntu",
-                "10.10 maverick"
+                "10.10"
             ]
         ],
         "1.0.0": [
             [
                 "Fedora",
-                "13 goddard"
+                "13"
             ],
             [
                 "Scientific Linux",
@@ -1519,11 +1519,11 @@
             ],
             [
                 "FreeBSD",
-                "9.0 RELEASE"
+                "9.0"
             ],
             [
                 "FreeBSD",
-                "8.2 RELEASE"
+                "8.2"
             ],
             [
                 "openSUSE",
@@ -1533,7 +1533,7 @@
         "1.0.0a": [
             [
                 "Fedora",
-                "14 laughlin"
+                "14"
             ],
             [
                 "OpenBSD",
@@ -1547,7 +1547,7 @@
         "1.0.0beta3": [
             [
                 "Fedora",
-                "12 constantine"
+                "12"
             ]
         ],
         "1.0.0c": [
@@ -1559,21 +1559,21 @@
         "1.0.0d": [
             [
                 "Fedora",
-                "15 lovelock"
+                "15"
             ],
             [
                 "FreeBSD",
-                "7.4 RELEASE"
+                "7.4"
             ]
         ],
         "1.0.0e": [
             [
                 "Fedora",
-                "16 verne"
+                "16"
             ],
             [
                 "Ubuntu",
-                "11.10 oneiric"
+                "11.10"
             ],
             [
                 "openSUSE",
@@ -1593,35 +1593,35 @@
         "1.0.0i": [
             [
                 "Fedora",
-                "17 beefy"
+                "17"
             ]
         ],
         "1.0.1": [
             [
                 "Ubuntu",
-                "12.04 LTS precise"
+                "12.04"
             ],
             [
                 "FreeBSD",
-                "10 CURRENT"
+                "10"
             ],
             [
                 "FreeBSD",
-                "9 STABLE"
+                "9"
             ]
         ],
         "1.0.1c": [
             [
                 "Fedora",
-                "18 spherical"
+                "18"
             ],
             [
                 "Ubuntu",
-                "13.04 raring"
+                "13.04"
             ],
             [
                 "Ubuntu",
-                "12.10 quantal"
+                "12.10"
             ],
             [
                 "OpenBSD",
@@ -1639,7 +1639,7 @@
         "1.0.1e": [
             [
                 "Red Hat Enterprise Linux",
-                "RHEL-7.0 (Beta)"
+                "RHEL-7.0"
             ],
             [
                 "Red Hat Enterprise Linux",
@@ -1655,23 +1655,23 @@
             ],
             [
                 "Fedora",
-                "20 heisenbug"
+                "20"
             ],
             [
                 "Fedora",
-                "19 schrodingers"
+                "19"
             ],
             [
                 "Debian GNU/Linux",
-                "7.0 wheezy"
+                "7.0"
             ],
             [
                 "Ubuntu",
-                "13.10 saucy"
+                "13.10"
             ],
             [
                 "FreeBSD",
-                "9.2 RELEASE"
+                "9.2"
             ],
             [
                 "openSUSE",
@@ -1685,15 +1685,15 @@
         "1.0.1f": [
             [
                 "Debian GNU/Linux",
-                "unstable sid"
+                "unstable"
             ],
             [
                 "Debian GNU/Linux",
-                "testing jessie"
+                "testing"
             ],
             [
                 "Ubuntu",
-                "snapshot trusty"
+                "snapshot"
             ],
             [
                 "openSUSE",
@@ -1705,41 +1705,41 @@
         "5.003": [
             [
                 "Red Hat Enterprise Linux",
-                "4.2 biltmore"
+                "4.2"
             ]
         ],
         "5.10.0": [
             [
                 "Fedora",
-                "12 constantine"
+                "12"
             ],
             [
                 "Fedora",
-                "11 leonidas"
+                "11"
             ],
             [
                 "Fedora",
-                "10 cambridge"
+                "10"
             ],
             [
                 "Fedora",
-                "9 sulphur"
+                "9"
             ],
             [
                 "Debian GNU/Linux",
-                "5.0 lenny"
+                "5.0"
             ],
             [
                 "Ubuntu",
-                "9.10 karmic"
+                "9.10"
             ],
             [
                 "Ubuntu",
-                "9.04 jaunty"
+                "9.04"
             ],
             [
                 "Ubuntu",
-                "8.10 intrepid"
+                "8.10"
             ],
             [
                 "OpenBSD",
@@ -1751,7 +1751,7 @@
             ],
             [
                 "FreeBSD",
-                "7.2 RELEASE"
+                "7.2"
             ],
             [
                 "openSUSE",
@@ -1777,23 +1777,23 @@
             ],
             [
                 "Fedora",
-                "13 goddard"
+                "13"
             ],
             [
                 "Debian GNU/Linux",
-                "6.0 squeeze"
+                "6.0"
             ],
             [
                 "Ubuntu",
-                "11.04 natty"
+                "11.04"
             ],
             [
                 "Ubuntu",
-                "10.10 maverick"
+                "10.10"
             ],
             [
                 "Ubuntu",
-                "10.04 LTS lucid"
+                "10.04"
             ],
             [
                 "Scientific Linux",
@@ -1809,15 +1809,15 @@
             ],
             [
                 "FreeBSD",
-                "8.1 RELEASE"
+                "8.1"
             ],
             [
                 "FreeBSD",
-                "8.0 RELEASE"
+                "8.0"
             ],
             [
                 "FreeBSD",
-                "7.3 RELEASE"
+                "7.3"
             ]
         ],
         "5.12.1": [
@@ -1829,7 +1829,7 @@
         "5.12.2": [
             [
                 "Fedora",
-                "14 laughlin"
+                "14"
             ],
             [
                 "OpenBSD",
@@ -1855,15 +1855,15 @@
         "5.12.3": [
             [
                 "Fedora",
-                "15 lovelock"
+                "15"
             ],
             [
                 "FreeBSD",
-                "8.2 RELEASE"
+                "8.2"
             ],
             [
                 "FreeBSD",
-                "7.4 RELEASE"
+                "7.4"
             ],
             [
                 "openSUSE",
@@ -1873,43 +1873,43 @@
         "5.12.4": [
             [
                 "Ubuntu",
-                "11.10 oneiric"
+                "11.10"
             ]
         ],
         "5.14.1": [
             [
                 "Fedora",
-                "16 verne"
+                "16"
             ],
             [
                 "FreeBSD",
-                "9.0 RELEASE"
+                "9.0"
             ]
         ],
         "5.14.2": [
             [
                 "Fedora",
-                "17 beefy"
+                "17"
             ],
             [
                 "Debian GNU/Linux",
-                "7.0 wheezy"
+                "7.0"
             ],
             [
                 "Ubuntu",
-                "13.10 saucy"
+                "13.10"
             ],
             [
                 "Ubuntu",
-                "13.04 raring"
+                "13.04"
             ],
             [
                 "Ubuntu",
-                "12.10 quantal"
+                "12.10"
             ],
             [
                 "Ubuntu",
-                "12.04 LTS precise"
+                "12.04"
             ],
             [
                 "openSUSE",
@@ -1925,7 +1925,7 @@
         "5.16.2": [
             [
                 "Fedora",
-                "18 spherical"
+                "18"
             ],
             [
                 "openSUSE",
@@ -1935,11 +1935,11 @@
         "5.16.3": [
             [
                 "Red Hat Enterprise Linux",
-                "RHEL-7.0 (Beta)"
+                "RHEL-7.0"
             ],
             [
                 "Fedora",
-                "19 schrodingers"
+                "19"
             ],
             [
                 "OpenBSD",
@@ -1947,21 +1947,21 @@
             ],
             [
                 "FreeBSD",
-                "10 CURRENT"
+                "10"
             ],
             [
                 "FreeBSD",
-                "9 STABLE"
+                "9"
             ],
             [
                 "FreeBSD",
-                "9.2 RELEASE"
+                "9.2"
             ]
         ],
         "5.18.1": [
             [
                 "Fedora",
-                "20 heisenbug"
+                "20"
             ],
             [
                 "openSUSE",
@@ -1975,15 +1975,15 @@
             ],
             [
                 "Debian GNU/Linux",
-                "unstable sid"
+                "unstable"
             ],
             [
                 "Debian GNU/Linux",
-                "testing jessie"
+                "testing"
             ],
             [
                 "Ubuntu",
-                "snapshot trusty"
+                "snapshot"
             ],
             [
                 "openSUSE",
@@ -1993,41 +1993,41 @@
         "5.2": [
             [
                 "Debian GNU/Linux",
-                "1.1 buzz"
+                "1.1"
             ]
         ],
         "5.3.7": [
             [
                 "Debian GNU/Linux",
-                "1.3 bo"
+                "1.3"
             ],
             [
                 "Debian GNU/Linux",
-                "1.2 rex"
+                "1.2"
             ]
         ],
         "5.4.0": [
             [
                 "Red Hat Enterprise Linux",
-                "5.1 manhattan"
+                "5.1"
             ],
             [
                 "Red Hat Enterprise Linux",
-                "5.0 hurricane"
+                "5.0"
             ]
         ],
         "5.4.4": [
             [
                 "Red Hat Enterprise Linux",
-                "5.2 apollo"
+                "5.2"
             ],
             [
                 "Debian GNU/Linux",
-                "2.1 slink"
+                "2.1"
             ],
             [
                 "Debian GNU/Linux",
-                "2.0 hamm"
+                "2.0"
             ],
             [
                 "openSUSE",
@@ -2041,7 +2041,7 @@
         "5.4.5": [
             [
                 "Debian GNU/Linux",
-                "2.2 potato"
+                "2.2"
             ]
         ],
         "5.5.2": [
@@ -2057,15 +2057,15 @@
         "5.5.3": [
             [
                 "Red Hat Enterprise Linux",
-                "6.2 zoot"
+                "6.2"
             ],
             [
                 "Red Hat Enterprise Linux",
-                "6.1 cartman"
+                "6.1"
             ],
             [
                 "Red Hat Enterprise Linux",
-                "6.0 hedwig"
+                "6.0"
             ],
             [
                 "openSUSE",
@@ -2091,15 +2091,15 @@
             ],
             [
                 "Red Hat Enterprise Linux",
-                "7.2 enigma"
+                "7.2"
             ],
             [
                 "Red Hat Enterprise Linux",
-                "7.1 seawolf"
+                "7.1"
             ],
             [
                 "Red Hat Enterprise Linux",
-                "7.0 guiness"
+                "7.0"
             ],
             [
                 "OpenBSD",
@@ -2125,7 +2125,7 @@
         "5.6.1": [
             [
                 "Red Hat Enterprise Linux",
-                "7.3 valhalla"
+                "7.3"
             ],
             [
                 "CentOS",
@@ -2133,7 +2133,7 @@
             ],
             [
                 "Debian GNU/Linux",
-                "3.0 woody"
+                "3.0"
             ],
             [
                 "OpenBSD",
@@ -2149,11 +2149,11 @@
             ],
             [
                 "FreeBSD",
-                "4.6 RELEASE"
+                "4.6"
             ],
             [
                 "FreeBSD",
-                "4.5 RELEASE"
+                "4.5"
             ],
             [
                 "openSUSE",
@@ -2171,11 +2171,11 @@
             ],
             [
                 "Red Hat Enterprise Linux",
-                "9 shrike"
+                "9"
             ],
             [
                 "Red Hat Enterprise Linux",
-                "8.0 psyche"
+                "8.0"
             ],
             [
                 "CentOS",
@@ -2195,23 +2195,23 @@
             ],
             [
                 "FreeBSD",
-                "5.1 RELEASE"
+                "5.1"
             ],
             [
                 "FreeBSD",
-                "5.0 RELEASE"
+                "5.0"
             ],
             [
                 "FreeBSD",
-                "4.9 RELEASE"
+                "4.9"
             ],
             [
                 "FreeBSD",
-                "4.8 RELEASE"
+                "4.8"
             ],
             [
                 "FreeBSD",
-                "4.7 RELEASE"
+                "4.7"
             ],
             [
                 "openSUSE",
@@ -2225,7 +2225,7 @@
         "5.8.1": [
             [
                 "Fedora",
-                "1 yarrow"
+                "1"
             ],
             [
                 "openSUSE",
@@ -2239,17 +2239,17 @@
             ],
             [
                 "FreeBSD",
-                "5.2.1 RELEASE"
+                "5.2.1"
             ],
             [
                 "FreeBSD",
-                "4.10 RELEASE"
+                "4.10"
             ]
         ],
         "5.8.3": [
             [
                 "Fedora",
-                "2 tettnang"
+                "2"
             ],
             [
                 "openSUSE",
@@ -2259,15 +2259,15 @@
         "5.8.4": [
             [
                 "Debian GNU/Linux",
-                "3.1 sarge"
+                "3.1"
             ],
             [
                 "Ubuntu",
-                "5.04 hoary"
+                "5.04"
             ],
             [
                 "Ubuntu",
-                "4.10 warty"
+                "4.10"
             ]
         ],
         "5.8.5": [
@@ -2281,7 +2281,7 @@
             ],
             [
                 "Fedora",
-                "3 heidelberg"
+                "3"
             ],
             [
                 "Scientific Linux",
@@ -2293,11 +2293,11 @@
             ],
             [
                 "FreeBSD",
-                "5.3 RELEASE"
+                "5.3"
             ],
             [
                 "FreeBSD",
-                "4.11 RELEASE"
+                "4.11"
             ],
             [
                 "openSUSE",
@@ -2307,7 +2307,7 @@
         "5.8.6": [
             [
                 "Fedora",
-                "4 stentz"
+                "4"
             ],
             [
                 "OpenBSD",
@@ -2323,7 +2323,7 @@
             ],
             [
                 "FreeBSD",
-                "5.4 RELEASE"
+                "5.4"
             ],
             [
                 "openSUSE",
@@ -2333,15 +2333,15 @@
         "5.8.7": [
             [
                 "Ubuntu",
-                "6.06 LTS dapper"
+                "6.06"
             ],
             [
                 "Ubuntu",
-                "5.10 breezy"
+                "5.10"
             ],
             [
                 "FreeBSD",
-                "6.0 RELEASE"
+                "6.0"
             ],
             [
                 "openSUSE",
@@ -2359,39 +2359,39 @@
             ],
             [
                 "Fedora",
-                "8 werewolf"
+                "8"
             ],
             [
                 "Fedora",
-                "7 moonshine"
+                "7"
             ],
             [
                 "Fedora",
-                "6 zod"
+                "6"
             ],
             [
                 "Fedora",
-                "5 bordeaux"
+                "5"
             ],
             [
                 "Debian GNU/Linux",
-                "4.0 etch"
+                "4.0"
             ],
             [
                 "Ubuntu",
-                "8.04 LTS hardy"
+                "8.04"
             ],
             [
                 "Ubuntu",
-                "7.10 gutsy"
+                "7.10"
             ],
             [
                 "Ubuntu",
-                "7.04 feisty"
+                "7.04"
             ],
             [
                 "Ubuntu",
-                "6.10 edgy"
+                "6.10"
             ],
             [
                 "Scientific Linux",
@@ -2419,31 +2419,31 @@
             ],
             [
                 "FreeBSD",
-                "7.1 RELEASE"
+                "7.1"
             ],
             [
                 "FreeBSD",
-                "7.0 RELEASE"
+                "7.0"
             ],
             [
                 "FreeBSD",
-                "6.4 RELEASE"
+                "6.4"
             ],
             [
                 "FreeBSD",
-                "6.3 RELEASE"
+                "6.3"
             ],
             [
                 "FreeBSD",
-                "6.2 RELEASE"
+                "6.2"
             ],
             [
                 "FreeBSD",
-                "6.1 RELEASE"
+                "6.1"
             ],
             [
                 "FreeBSD",
-                "5.5 RELEASE"
+                "5.5"
             ],
             [
                 "openSUSE",
@@ -2464,7 +2464,7 @@
         "1.4.3": [
             [
                 "Debian GNU/Linux",
-                "2.2 potato"
+                "2.2"
             ],
             [
                 "OpenBSD",
@@ -2494,7 +2494,7 @@
             ],
             [
                 "Red Hat Enterprise Linux",
-                "7.2 enigma"
+                "7.2"
             ],
             [
                 "CentOS",
@@ -2502,27 +2502,27 @@
             ],
             [
                 "FreeBSD",
-                "4.4 RELEASE"
+                "4.4"
             ]
         ],
         "1.6.6": [
             [
                 "FreeBSD",
-                "4.5 RELEASE"
+                "4.5"
             ]
         ],
         "1.6.7": [
             [
                 "Red Hat Enterprise Linux",
-                "8.0 psyche"
+                "8.0"
             ],
             [
                 "Red Hat Enterprise Linux",
-                "7.3 valhalla"
+                "7.3"
             ],
             [
                 "Debian GNU/Linux",
-                "3.0 woody"
+                "3.0"
             ],
             [
                 "OpenBSD",
@@ -2534,11 +2534,11 @@
             ],
             [
                 "FreeBSD",
-                "4.7 RELEASE"
+                "4.7"
             ],
             [
                 "FreeBSD",
-                "4.6 RELEASE"
+                "4.6"
             ]
         ],
         "1.6.8": [
@@ -2548,7 +2548,7 @@
             ],
             [
                 "Red Hat Enterprise Linux",
-                "9 shrike"
+                "9"
             ],
             [
                 "CentOS",
@@ -2568,29 +2568,29 @@
             ],
             [
                 "FreeBSD",
-                "5.3 RELEASE"
+                "5.3"
             ],
             [
                 "FreeBSD",
-                "5.1 RELEASE"
+                "5.1"
             ],
             [
                 "FreeBSD",
-                "5.0 RELEASE"
+                "5.0"
             ]
         ],
         "1.8.0": [
             [
                 "Fedora",
-                "1 yarrow"
+                "1"
             ],
             [
                 "FreeBSD",
-                "4.9 RELEASE"
+                "4.9"
             ],
             [
                 "FreeBSD",
-                "4.8 RELEASE"
+                "4.8"
             ]
         ],
         "1.8.1": [
@@ -2604,15 +2604,15 @@
             ],
             [
                 "Fedora",
-                "3 heidelberg"
+                "3"
             ],
             [
                 "Fedora",
-                "2 tettnang"
+                "2"
             ],
             [
                 "Ubuntu",
-                "5.04 hoary"
+                "5.04"
             ],
             [
                 "Scientific Linux",
@@ -2636,51 +2636,51 @@
             ],
             [
                 "FreeBSD",
-                "5.2.1 RELEASE"
+                "5.2.1"
             ],
             [
                 "FreeBSD",
-                "4.10 RELEASE"
+                "4.10"
             ]
         ],
         "1.8.2": [
             [
                 "Fedora",
-                "4 stentz"
+                "4"
             ],
             [
                 "Debian GNU/Linux",
-                "3.1 sarge"
+                "3.1"
             ],
             [
                 "Ubuntu",
-                "5.10 breezy"
+                "5.10"
             ],
             [
                 "FreeBSD",
-                "6.0 RELEASE"
+                "6.0"
             ],
             [
                 "FreeBSD",
-                "5.4 RELEASE"
+                "5.4"
             ],
             [
                 "FreeBSD",
-                "4.11 RELEASE"
+                "4.11"
             ]
         ],
         "1.8.4": [
             [
                 "Fedora",
-                "5 bordeaux"
+                "5"
             ],
             [
                 "Ubuntu",
-                "6.10 edgy"
+                "6.10"
             ],
             [
                 "Ubuntu",
-                "6.06 LTS dapper"
+                "6.06"
             ],
             [
                 "OpenBSD",
@@ -2692,11 +2692,11 @@
             ],
             [
                 "FreeBSD",
-                "6.1 RELEASE"
+                "6.1"
             ],
             [
                 "FreeBSD",
-                "5.5 RELEASE"
+                "5.5"
             ]
         ],
         "1.8.5": [
@@ -2710,15 +2710,15 @@
             ],
             [
                 "Fedora",
-                "6 zod"
+                "6"
             ],
             [
                 "Debian GNU/Linux",
-                "4.0 etch"
+                "4.0"
             ],
             [
                 "Ubuntu",
-                "7.04 feisty"
+                "7.04"
             ],
             [
                 "Scientific Linux",
@@ -2734,25 +2734,25 @@
             ],
             [
                 "FreeBSD",
-                "6.2 RELEASE"
+                "6.2"
             ]
         ],
         "1.8.6": [
             [
                 "Fedora",
-                "7 moonshine"
+                "7"
             ]
         ],
         "1.8.6-p110": [
             [
                 "Fedora",
-                "8 werewolf"
+                "8"
             ]
         ],
         "1.8.6-p111": [
             [
                 "Ubuntu",
-                "8.04 LTS hardy"
+                "8.04"
             ],
             [
                 "OpenBSD",
@@ -2760,17 +2760,17 @@
             ],
             [
                 "FreeBSD",
-                "7.0 RELEASE"
+                "7.0"
             ],
             [
                 "FreeBSD",
-                "6.3 RELEASE"
+                "6.3"
             ]
         ],
         "1.8.6-p114": [
             [
                 "Fedora",
-                "9 sulphur"
+                "9"
             ],
             [
                 "OpenBSD",
@@ -2784,17 +2784,17 @@
             ],
             [
                 "FreeBSD",
-                "7.1 RELEASE"
+                "7.1"
             ],
             [
                 "FreeBSD",
-                "6.4 RELEASE"
+                "6.4"
             ]
         ],
         "1.8.6-p36": [
             [
                 "Ubuntu",
-                "7.10 gutsy"
+                "7.10"
             ]
         ],
         "1.8.6-p369": [
@@ -2814,35 +2814,35 @@
         "1.8.7-p160": [
             [
                 "FreeBSD",
-                "8.0 RELEASE"
+                "8.0"
             ]
         ],
         "1.8.7-p174": [
             [
                 "Ubuntu",
-                "9.10 karmic"
+                "9.10"
             ]
         ],
         "1.8.7-p249": [
             [
                 "Ubuntu",
-                "10.04 LTS lucid"
+                "10.04"
             ]
         ],
         "1.8.7-p299": [
             [
                 "Ubuntu",
-                "10.10 maverick"
+                "10.10"
             ]
         ],
         "1.8.7-p302": [
             [
                 "Debian GNU/Linux",
-                "6.0 squeeze"
+                "6.0"
             ],
             [
                 "Ubuntu",
-                "11.04 natty"
+                "11.04"
             ]
         ],
         "1.8.7-p352": [
@@ -2856,7 +2856,7 @@
             ],
             [
                 "Ubuntu",
-                "11.10 oneiric"
+                "11.10"
             ],
             [
                 "Scientific Linux",
@@ -2866,41 +2866,41 @@
         "1.8.7-p72": [
             [
                 "Debian GNU/Linux",
-                "5.0 lenny"
+                "5.0"
             ],
             [
                 "Ubuntu",
-                "8.10 intrepid"
+                "8.10"
             ],
             [
                 "FreeBSD",
-                "7.2 RELEASE"
+                "7.2"
             ]
         ],
         "1.9.0": [
             [
                 "Debian GNU/Linux",
-                "unstable sid"
+                "unstable"
             ]
         ],
         "1.9.1-p376": [
             [
                 "FreeBSD",
-                "8.1 RELEASE"
+                "8.1"
             ],
             [
                 "FreeBSD",
-                "7.3 RELEASE"
+                "7.3"
             ]
         ],
         "1.9.2-p0": [
             [
                 "FreeBSD",
-                "8.2 RELEASE"
+                "8.2"
             ],
             [
                 "FreeBSD",
-                "7.4 RELEASE"
+                "7.4"
             ]
         ],
         "1.9.2-p136": [
@@ -2922,17 +2922,17 @@
             ],
             [
                 "FreeBSD",
-                "9.0 RELEASE"
+                "9.0"
             ]
         ],
         "1.9.3-p194": [
             [
                 "Fedora",
-                "17 beefy"
+                "17"
             ],
             [
                 "Debian GNU/Linux",
-                "7.0 wheezy"
+                "7.0"
             ],
             [
                 "OpenBSD",
@@ -2942,7 +2942,7 @@
         "1.9.3-p327": [
             [
                 "Fedora",
-                "18 spherical"
+                "18"
             ]
         ],
         "1.9.3-p392": [
@@ -2954,29 +2954,29 @@
         "2.0.0-p195": [
             [
                 "Fedora",
-                "19 schrodingers"
+                "19"
             ],
             [
                 "FreeBSD",
-                "10 CURRENT"
+                "10"
             ],
             [
                 "FreeBSD",
-                "9 STABLE"
+                "9"
             ],
             [
                 "FreeBSD",
-                "9.2 RELEASE"
+                "9.2"
             ]
         ],
         "2.0.0-p247": [
             [
                 "Red Hat Enterprise Linux",
-                "RHEL-7.0 (Beta)"
+                "RHEL-7.0"
             ],
             [
                 "Fedora",
-                "20 heisenbug"
+                "20"
             ],
             [
                 "OpenBSD",
@@ -2994,53 +2994,53 @@
         "0.17.1": [
             [
                 "Red Hat Enterprise Linux",
-                "9 shrike"
+                "9"
             ]
         ],
         "0.23.0": [
             [
                 "FreeBSD",
-                "5.1 RELEASE"
+                "5.1"
             ]
         ],
         "0.32.1": [
             [
                 "Fedora",
-                "1 yarrow"
+                "1"
             ],
             [
                 "FreeBSD",
-                "5.2.1 RELEASE"
+                "5.2.1"
             ]
         ],
         "1.0.1": [
             [
                 "FreeBSD",
-                "4.10 RELEASE"
+                "4.10"
             ]
         ],
         "1.0.2": [
             [
                 "Fedora",
-                "2 tettnang"
+                "2"
             ]
         ],
         "1.0.8": [
             [
                 "FreeBSD",
-                "5.3 RELEASE"
+                "5.3"
             ]
         ],
         "1.1.0": [
             [
                 "Fedora",
-                "3 heidelberg"
+                "3"
             ]
         ],
         "1.1.1": [
             [
                 "FreeBSD",
-                "4.11 RELEASE"
+                "4.11"
             ]
         ],
         "1.1.3": [
@@ -3050,7 +3050,7 @@
             ],
             [
                 "FreeBSD",
-                "5.4 RELEASE"
+                "5.4"
             ]
         ],
         "1.1.4": [
@@ -3064,11 +3064,11 @@
             ],
             [
                 "Fedora",
-                "4 stentz"
+                "4"
             ],
             [
                 "Debian GNU/Linux",
-                "3.1 sarge"
+                "3.1"
             ],
             [
                 "Scientific Linux",
@@ -3082,13 +3082,13 @@
             ],
             [
                 "FreeBSD",
-                "6.0 RELEASE"
+                "6.0"
             ]
         ],
         "1.3.0": [
             [
                 "Fedora",
-                "5 bordeaux"
+                "5"
             ],
             [
                 "OpenBSD",
@@ -3096,17 +3096,17 @@
             ],
             [
                 "FreeBSD",
-                "6.1 RELEASE"
+                "6.1"
             ],
             [
                 "FreeBSD",
-                "5.5 RELEASE"
+                "5.5"
             ]
         ],
         "1.3.2": [
             [
                 "Fedora",
-                "6 zod"
+                "6"
             ],
             [
                 "OpenBSD",
@@ -3116,19 +3116,19 @@
         "1.4.0": [
             [
                 "FreeBSD",
-                "6.2 RELEASE"
+                "6.2"
             ]
         ],
         "1.4.2": [
             [
                 "Debian GNU/Linux",
-                "4.0 etch"
+                "4.0"
             ]
         ],
         "1.4.3": [
             [
                 "Fedora",
-                "7 moonshine"
+                "7"
             ],
             [
                 "OpenBSD",
@@ -3138,7 +3138,7 @@
         "1.4.4": [
             [
                 "Fedora",
-                "8 werewolf"
+                "8"
             ],
             [
                 "OpenBSD",
@@ -3154,39 +3154,39 @@
             ],
             [
                 "FreeBSD",
-                "7.0 RELEASE"
+                "7.0"
             ],
             [
                 "FreeBSD",
-                "6.3 RELEASE"
+                "6.3"
             ]
         ],
         "1.4.6": [
             [
                 "Fedora",
-                "9 sulphur"
+                "9"
             ]
         ],
         "1.5.1": [
             [
                 "Debian GNU/Linux",
-                "5.0 lenny"
+                "5.0"
             ]
         ],
         "1.5.2": [
             [
                 "FreeBSD",
-                "7.1 RELEASE"
+                "7.1"
             ],
             [
                 "FreeBSD",
-                "6.4 RELEASE"
+                "6.4"
             ]
         ],
         "1.5.4": [
             [
                 "Fedora",
-                "10 cambridge"
+                "10"
             ]
         ],
         "1.5.5": [
@@ -3198,13 +3198,13 @@
         "1.6.0": [
             [
                 "FreeBSD",
-                "7.2 RELEASE"
+                "7.2"
             ]
         ],
         "1.6.1": [
             [
                 "Fedora",
-                "11 leonidas"
+                "11"
             ],
             [
                 "OpenBSD",
@@ -3240,19 +3240,19 @@
         "1.6.12": [
             [
                 "Fedora",
-                "14 laughlin"
+                "14"
             ],
             [
                 "Debian GNU/Linux",
-                "6.0 squeeze"
+                "6.0"
             ],
             [
                 "Ubuntu",
-                "11.04 natty"
+                "11.04"
             ],
             [
                 "Ubuntu",
-                "10.10 maverick"
+                "10.10"
             ],
             [
                 "OpenBSD",
@@ -3260,7 +3260,7 @@
             ],
             [
                 "FreeBSD",
-                "8.1 RELEASE"
+                "8.1"
             ]
         ],
         "1.6.15": [
@@ -3270,27 +3270,27 @@
             ],
             [
                 "FreeBSD",
-                "8.2 RELEASE"
+                "8.2"
             ],
             [
                 "FreeBSD",
-                "7.4 RELEASE"
+                "7.4"
             ]
         ],
         "1.6.16": [
             [
                 "Fedora",
-                "15 lovelock"
+                "15"
             ]
         ],
         "1.6.17": [
             [
                 "Fedora",
-                "16 verne"
+                "16"
             ],
             [
                 "Debian GNU/Linux",
-                "7.0 wheezy"
+                "7.0"
             ],
             [
                 "OpenBSD",
@@ -3300,21 +3300,21 @@
         "1.6.5": [
             [
                 "Fedora",
-                "12 constantine"
+                "12"
             ],
             [
                 "Ubuntu",
-                "9.10 karmic"
+                "9.10"
             ],
             [
                 "FreeBSD",
-                "8.0 RELEASE"
+                "8.0"
             ]
         ],
         "1.6.6": [
             [
                 "Ubuntu",
-                "10.04 LTS lucid"
+                "10.04"
             ],
             [
                 "OpenBSD",
@@ -3324,17 +3324,17 @@
         "1.6.9": [
             [
                 "Fedora",
-                "13 goddard"
+                "13"
             ],
             [
                 "FreeBSD",
-                "7.3 RELEASE"
+                "7.3"
             ]
         ],
         "1.7.10": [
             [
                 "Fedora",
-                "19 schrodingers"
+                "19"
             ],
             [
                 "OpenBSD",
@@ -3344,17 +3344,17 @@
         "1.7.13": [
             [
                 "Red Hat Enterprise Linux",
-                "RHEL-7.0 (Beta)"
+                "RHEL-7.0"
             ]
         ],
         "1.7.14": [
             [
                 "Debian GNU/Linux",
-                "testing jessie"
+                "testing"
             ],
             [
                 "Ubuntu",
-                "snapshot trusty"
+                "snapshot"
             ]
         ],
         "1.7.2": [
@@ -3364,13 +3364,13 @@
             ],
             [
                 "FreeBSD",
-                "9.0 RELEASE"
+                "9.0"
             ]
         ],
         "1.7.4": [
             [
                 "Fedora",
-                "17 beefy"
+                "17"
             ]
         ],
         "1.7.5": [
@@ -3382,7 +3382,7 @@
         "1.7.7": [
             [
                 "Fedora",
-                "18 spherical"
+                "18"
             ]
         ],
         "1.7.8": [
@@ -3394,21 +3394,21 @@
         "1.8.1": [
             [
                 "FreeBSD",
-                "10 CURRENT"
+                "10"
             ],
             [
                 "FreeBSD",
-                "9 STABLE"
+                "9"
             ],
             [
                 "FreeBSD",
-                "9.2 RELEASE"
+                "9.2"
             ]
         ],
         "1.8.3": [
             [
                 "Fedora",
-                "20 heisenbug"
+                "20"
             ]
         ],
         "1.8.5": [
@@ -3418,29 +3418,29 @@
             ],
             [
                 "Debian GNU/Linux",
-                "unstable sid"
+                "unstable"
             ]
         ],
         "r1868": [
             [
                 "FreeBSD",
-                "4.6 RELEASE"
+                "4.6"
             ]
         ],
         "r3033": [
             [
                 "FreeBSD",
-                "5.0 RELEASE"
+                "5.0"
             ],
             [
                 "FreeBSD",
-                "4.7 RELEASE"
+                "4.7"
             ]
         ],
         "r3987": [
             [
                 "FreeBSD",
-                "4.8 RELEASE"
+                "4.8"
             ]
         ]
     },
@@ -3454,185 +3454,185 @@
         "0.87": [
             [
                 "FreeBSD",
-                "4.4 RELEASE"
+                "4.4"
             ]
         ],
         "0.92": [
             [
                 "FreeBSD",
-                "4.5 RELEASE"
+                "4.5"
             ]
         ],
         "0.94": [
             [
                 "Debian GNU/Linux",
-                "3.0 woody"
+                "3.0"
             ]
         ],
         "0.970": [
             [
                 "FreeBSD",
-                "4.6 RELEASE"
+                "4.6"
             ]
         ],
         "0.990": [
             [
                 "FreeBSD",
-                "4.7 RELEASE"
+                "4.7"
             ]
         ],
         "1.030": [
             [
                 "FreeBSD",
-                "5.0 RELEASE"
+                "5.0"
             ]
         ],
         "1.070": [
             [
                 "FreeBSD",
-                "4.8 RELEASE"
+                "4.8"
             ]
         ],
         "1.090": [
             [
                 "FreeBSD",
-                "5.1 RELEASE"
+                "5.1"
             ]
         ],
         "1.100": [
             [
                 "FreeBSD",
-                "4.9 RELEASE"
+                "4.9"
             ]
         ],
         "1.121": [
             [
                 "FreeBSD",
-                "5.2.1 RELEASE"
+                "5.2.1"
             ]
         ],
         "1.140": [
             [
                 "FreeBSD",
-                "4.10 RELEASE"
+                "4.10"
             ]
         ],
         "1.150": [
             [
                 "FreeBSD",
-                "5.3 RELEASE"
+                "5.3"
             ]
         ],
         "1.170": [
             [
                 "FreeBSD",
-                "4.11 RELEASE"
+                "4.11"
             ]
         ],
         "1.180": [
             [
                 "Debian GNU/Linux",
-                "3.1 sarge"
+                "3.1"
             ],
             [
                 "FreeBSD",
-                "5.4 RELEASE"
+                "5.4"
             ]
         ],
         "1.220": [
             [
                 "FreeBSD",
-                "6.0 RELEASE"
+                "6.0"
             ]
         ],
         "1.260": [
             [
                 "FreeBSD",
-                "6.1 RELEASE"
+                "6.1"
             ],
             [
                 "FreeBSD",
-                "5.5 RELEASE"
+                "5.5"
             ]
         ],
         "1.300": [
             [
                 "FreeBSD",
-                "6.2 RELEASE"
+                "6.2"
             ]
         ],
         "1.370": [
             [
                 "FreeBSD",
-                "7.0 RELEASE"
+                "7.0"
             ],
             [
                 "FreeBSD",
-                "6.3 RELEASE"
+                "6.3"
             ]
         ],
         "1.430": [
             [
                 "FreeBSD",
-                "7.1 RELEASE"
+                "7.1"
             ],
             [
                 "FreeBSD",
-                "6.4 RELEASE"
+                "6.4"
             ]
         ],
         "1.470": [
             [
                 "FreeBSD",
-                "7.2 RELEASE"
+                "7.2"
             ]
         ],
         "1.490": [
             [
                 "FreeBSD",
-                "8.0 RELEASE"
+                "8.0"
             ]
         ],
         "1.500": [
             [
                 "FreeBSD",
-                "7.3 RELEASE"
+                "7.3"
             ]
         ],
         "1.510": [
             [
                 "FreeBSD",
-                "8.1 RELEASE"
+                "8.1"
             ]
         ],
         "1.530": [
             [
                 "FreeBSD",
-                "8.2 RELEASE"
+                "8.2"
             ],
             [
                 "FreeBSD",
-                "7.4 RELEASE"
+                "7.4"
             ]
         ],
         "1.570": [
             [
                 "FreeBSD",
-                "9.0 RELEASE"
+                "9.0"
             ]
         ],
         "1.630": [
             [
                 "FreeBSD",
-                "10 CURRENT"
+                "10"
             ],
             [
                 "FreeBSD",
-                "9 STABLE"
+                "9"
             ],
             [
                 "FreeBSD",
-                "9.2 RELEASE"
+                "9.2"
             ]
         ]
     },
@@ -3640,7 +3640,7 @@
         "1.2.5": [
             [
                 "FreeBSD",
-                "5.3 RELEASE"
+                "5.3"
             ]
         ],
         "1.3.13": [
@@ -3650,7 +3650,7 @@
             ],
             [
                 "FreeBSD",
-                "5.4 RELEASE"
+                "5.4"
             ]
         ],
         "1.3.16": [
@@ -3660,13 +3660,13 @@
             ],
             [
                 "FreeBSD",
-                "6.0 RELEASE"
+                "6.0"
             ]
         ],
         "1.3.7": [
             [
                 "FreeBSD",
-                "4.11 RELEASE"
+                "4.11"
             ]
         ],
         "1.4.10": [
@@ -3680,11 +3680,11 @@
             ],
             [
                 "FreeBSD",
-                "6.1 RELEASE"
+                "6.1"
             ],
             [
                 "FreeBSD",
-                "5.5 RELEASE"
+                "5.5"
             ]
         ],
         "1.4.11": [
@@ -3696,13 +3696,13 @@
         "1.4.12": [
             [
                 "FreeBSD",
-                "6.2 RELEASE"
+                "6.2"
             ]
         ],
         "1.4.13": [
             [
                 "Debian GNU/Linux",
-                "4.0 etch"
+                "4.0"
             ],
             [
                 "OpenBSD",
@@ -3712,7 +3712,7 @@
         "1.4.15": [
             [
                 "Fedora",
-                "7 moonshine"
+                "7"
             ]
         ],
         "1.4.16": [
@@ -3724,7 +3724,7 @@
         "1.4.18": [
             [
                 "Fedora",
-                "8 werewolf"
+                "8"
             ],
             [
                 "OpenBSD",
@@ -3732,21 +3732,21 @@
             ],
             [
                 "FreeBSD",
-                "7.0 RELEASE"
+                "7.0"
             ],
             [
                 "FreeBSD",
-                "6.3 RELEASE"
+                "6.3"
             ]
         ],
         "1.4.19": [
             [
                 "Fedora",
-                "9 sulphur"
+                "9"
             ],
             [
                 "Debian GNU/Linux",
-                "5.0 lenny"
+                "5.0"
             ],
             [
                 "OpenBSD",
@@ -3754,17 +3754,17 @@
             ],
             [
                 "FreeBSD",
-                "7.1 RELEASE"
+                "7.1"
             ],
             [
                 "FreeBSD",
-                "6.4 RELEASE"
+                "6.4"
             ]
         ],
         "1.4.20": [
             [
                 "Fedora",
-                "10 cambridge"
+                "10"
             ]
         ],
         "1.4.21": [
@@ -3776,7 +3776,7 @@
         "1.4.22": [
             [
                 "FreeBSD",
-                "7.2 RELEASE"
+                "7.2"
             ]
         ],
         "1.4.23": [
@@ -3786,7 +3786,7 @@
             ],
             [
                 "FreeBSD",
-                "8.0 RELEASE"
+                "8.0"
             ]
         ],
         "1.4.25": [
@@ -3802,17 +3802,17 @@
             ],
             [
                 "FreeBSD",
-                "8.1 RELEASE"
+                "8.1"
             ],
             [
                 "FreeBSD",
-                "7.3 RELEASE"
+                "7.3"
             ]
         ],
         "1.4.28": [
             [
                 "Debian GNU/Linux",
-                "6.0 squeeze"
+                "6.0"
             ],
             [
                 "OpenBSD",
@@ -3820,11 +3820,11 @@
             ],
             [
                 "FreeBSD",
-                "8.2 RELEASE"
+                "8.2"
             ],
             [
                 "FreeBSD",
-                "7.4 RELEASE"
+                "7.4"
             ]
         ],
         "1.4.29": [
@@ -3840,13 +3840,13 @@
             ],
             [
                 "FreeBSD",
-                "9.0 RELEASE"
+                "9.0"
             ]
         ],
         "1.4.31": [
             [
                 "Debian GNU/Linux",
-                "7.0 wheezy"
+                "7.0"
             ],
             [
                 "OpenBSD",
@@ -3864,25 +3864,25 @@
             ],
             [
                 "FreeBSD",
-                "10 CURRENT"
+                "10"
             ],
             [
                 "FreeBSD",
-                "9 STABLE"
+                "9"
             ],
             [
                 "FreeBSD",
-                "9.2 RELEASE"
+                "9.2"
             ]
         ],
         "1.4.33": [
             [
                 "Debian GNU/Linux",
-                "unstable sid"
+                "unstable"
             ],
             [
                 "Debian GNU/Linux",
-                "testing jessie"
+                "testing"
             ]
         ],
         "1.4.34": [
@@ -3896,45 +3896,45 @@
         "1.11": [
             [
                 "Red Hat Enterprise Linux",
-                "5.1 manhattan"
+                "5.1"
             ]
         ],
         "1.15": [
             [
                 "Red Hat Enterprise Linux",
-                "5.2 apollo"
+                "5.2"
             ]
         ],
         "1.16": [
             [
                 "Debian GNU/Linux",
-                "2.1 slink"
+                "2.1"
             ]
         ],
         "1.19": [
             [
                 "Red Hat Enterprise Linux",
-                "6.0 hedwig"
+                "6.0"
             ]
         ],
         "1.21": [
             [
                 "Red Hat Enterprise Linux",
-                "6.2 zoot"
+                "6.2"
             ],
             [
                 "Red Hat Enterprise Linux",
-                "6.1 cartman"
+                "6.1"
             ],
             [
                 "Debian GNU/Linux",
-                "2.2 potato"
+                "2.2"
             ]
         ],
         "1.24": [
             [
                 "Red Hat Enterprise Linux",
-                "7.0 guiness"
+                "7.0"
             ],
             [
                 "OpenBSD",
@@ -3948,11 +3948,11 @@
             ],
             [
                 "Red Hat Enterprise Linux",
-                "7.2 enigma"
+                "7.2"
             ],
             [
                 "Red Hat Enterprise Linux",
-                "7.1 seawolf"
+                "7.1"
             ]
         ],
         "1.25": [
@@ -3964,7 +3964,7 @@
         "1.26": [
             [
                 "Red Hat Enterprise Linux",
-                "7.3 valhalla"
+                "7.3"
             ],
             [
                 "CentOS",
@@ -3972,7 +3972,7 @@
             ],
             [
                 "Debian GNU/Linux",
-                "3.0 woody"
+                "3.0"
             ],
             [
                 "OpenBSD",
@@ -3988,15 +3988,15 @@
             ],
             [
                 "FreeBSD",
-                "4.6 RELEASE"
+                "4.6"
             ],
             [
                 "FreeBSD",
-                "4.5 RELEASE"
+                "4.5"
             ],
             [
                 "FreeBSD",
-                "4.4 RELEASE"
+                "4.4"
             ]
         ],
         "1.27": [
@@ -4014,29 +4014,29 @@
             ],
             [
                 "FreeBSD",
-                "5.1 RELEASE"
+                "5.1"
             ],
             [
                 "FreeBSD",
-                "5.0 RELEASE"
+                "5.0"
             ],
             [
                 "FreeBSD",
-                "4.8 RELEASE"
+                "4.8"
             ],
             [
                 "FreeBSD",
-                "4.7 RELEASE"
+                "4.7"
             ]
         ],
         "1.28": [
             [
                 "FreeBSD",
-                "5.2.1 RELEASE"
+                "5.2.1"
             ],
             [
                 "FreeBSD",
-                "4.9 RELEASE"
+                "4.9"
             ]
         ],
         "1.29": [
@@ -4066,31 +4066,31 @@
             ],
             [
                 "FreeBSD",
-                "6.2 RELEASE"
+                "6.2"
             ],
             [
                 "FreeBSD",
-                "6.1 RELEASE"
+                "6.1"
             ],
             [
                 "FreeBSD",
-                "5.5 RELEASE"
+                "5.5"
             ],
             [
                 "FreeBSD",
-                "5.4 RELEASE"
+                "5.4"
             ],
             [
                 "FreeBSD",
-                "5.3 RELEASE"
+                "5.3"
             ],
             [
                 "FreeBSD",
-                "4.11 RELEASE"
+                "4.11"
             ],
             [
                 "FreeBSD",
-                "4.10 RELEASE"
+                "4.10"
             ]
         ],
         "1.30": [
@@ -4154,13 +4154,13 @@
         "1.99_05": [
             [
                 "Red Hat Enterprise Linux",
-                "8.0 psyche"
+                "8.0"
             ]
         ],
         "1.99_07": [
             [
                 "Red Hat Enterprise Linux",
-                "9 shrike"
+                "9"
             ]
         ],
         "1.99_09": [
@@ -4174,7 +4174,7 @@
             ],
             [
                 "Fedora",
-                "1 yarrow"
+                "1"
             ],
             [
                 "Scientific Linux",
@@ -4184,7 +4184,7 @@
         "1.99_12": [
             [
                 "Fedora",
-                "2 tettnang"
+                "2"
             ]
         ],
         "1.99_16": [
@@ -4198,7 +4198,7 @@
             ],
             [
                 "Fedora",
-                "3 heidelberg"
+                "3"
             ],
             [
                 "Scientific Linux",
@@ -4208,55 +4208,55 @@
         "2.0.0pre21": [
             [
                 "Debian GNU/Linux",
-                "3.1 sarge"
+                "3.1"
             ]
         ],
         "2.0.0rc5": [
             [
                 "Fedora",
-                "4 stentz"
+                "4"
             ]
         ],
         "2.0.1": [
             [
                 "FreeBSD",
-                "6.0 RELEASE"
+                "6.0"
             ]
         ],
         "2.0.2": [
             [
                 "Fedora",
-                "6 zod"
+                "6"
             ],
             [
                 "Fedora",
-                "5 bordeaux"
+                "5"
             ],
             [
                 "Debian GNU/Linux",
-                "4.0 etch"
+                "4.0"
             ]
         ],
         "2.0.3": [
             [
                 "Fedora",
-                "9 sulphur"
+                "9"
             ],
             [
                 "Fedora",
-                "8 werewolf"
+                "8"
             ],
             [
                 "Fedora",
-                "7 moonshine"
+                "7"
             ],
             [
                 "FreeBSD",
-                "7.0 RELEASE"
+                "7.0"
             ],
             [
                 "FreeBSD",
-                "6.3 RELEASE"
+                "6.3"
             ]
         ],
         "2.0.4": [
@@ -4278,51 +4278,51 @@
             ],
             [
                 "Fedora",
-                "15 lovelock"
+                "15"
             ],
             [
                 "Fedora",
-                "14 laughlin"
+                "14"
             ],
             [
                 "Fedora",
-                "13 goddard"
+                "13"
             ],
             [
                 "Fedora",
-                "12 constantine"
+                "12"
             ],
             [
                 "Fedora",
-                "11 leonidas"
+                "11"
             ],
             [
                 "Fedora",
-                "10 cambridge"
+                "10"
             ],
             [
                 "Debian GNU/Linux",
-                "6.0 squeeze"
+                "6.0"
             ],
             [
                 "Debian GNU/Linux",
-                "5.0 lenny"
+                "5.0"
             ],
             [
                 "Ubuntu",
-                "11.04 natty"
+                "11.04"
             ],
             [
                 "Ubuntu",
-                "10.10 maverick"
+                "10.10"
             ],
             [
                 "Ubuntu",
-                "10.04 LTS lucid"
+                "10.04"
             ],
             [
                 "Ubuntu",
-                "9.10 karmic"
+                "9.10"
             ],
             [
                 "Scientific Linux",
@@ -4334,79 +4334,79 @@
             ],
             [
                 "FreeBSD",
-                "8.2 RELEASE"
+                "8.2"
             ],
             [
                 "FreeBSD",
-                "8.1 RELEASE"
+                "8.1"
             ],
             [
                 "FreeBSD",
-                "8.0 RELEASE"
+                "8.0"
             ],
             [
                 "FreeBSD",
-                "7.4 RELEASE"
+                "7.4"
             ],
             [
                 "FreeBSD",
-                "7.3 RELEASE"
+                "7.3"
             ],
             [
                 "FreeBSD",
-                "7.2 RELEASE"
+                "7.2"
             ],
             [
                 "FreeBSD",
-                "7.1 RELEASE"
+                "7.1"
             ],
             [
                 "FreeBSD",
-                "6.4 RELEASE"
+                "6.4"
             ]
         ],
         "2.0.5": [
             [
                 "Fedora",
-                "17 beefy"
+                "17"
             ],
             [
                 "Fedora",
-                "16 verne"
+                "16"
             ],
             [
                 "Ubuntu",
-                "12.10 quantal"
+                "12.10"
             ],
             [
                 "Ubuntu",
-                "12.04 LTS precise"
+                "12.04"
             ],
             [
                 "Ubuntu",
-                "11.10 oneiric"
+                "11.10"
             ],
             [
                 "FreeBSD",
-                "9.0 RELEASE"
+                "9.0"
             ]
         ],
         "2.0.7": [
             [
                 "Fedora",
-                "19 schrodingers"
+                "19"
             ],
             [
                 "Fedora",
-                "18 spherical"
+                "18"
             ],
             [
                 "Debian GNU/Linux",
-                "7.0 wheezy"
+                "7.0"
             ],
             [
                 "Ubuntu",
-                "13.04 raring"
+                "13.04"
             ]
         ],
         "2.0.8": [
@@ -4416,37 +4416,37 @@
             ],
             [
                 "Debian GNU/Linux",
-                "unstable sid"
+                "unstable"
             ],
             [
                 "Debian GNU/Linux",
-                "testing jessie"
+                "testing"
             ],
             [
                 "Ubuntu",
-                "snapshot trusty"
+                "snapshot"
             ],
             [
                 "Ubuntu",
-                "13.10 saucy"
+                "13.10"
             ],
             [
                 "FreeBSD",
-                "10 CURRENT"
+                "10"
             ],
             [
                 "FreeBSD",
-                "9 STABLE"
+                "9"
             ],
             [
                 "FreeBSD",
-                "9.2 RELEASE"
+                "9.2"
             ]
         ],
         "2.0.8svn": [
             [
                 "Fedora",
-                "20 heisenbug"
+                "20"
             ]
         ]
     },
@@ -4454,51 +4454,51 @@
         "0.1.13": [
             [
                 "FreeBSD",
-                "4.11 RELEASE"
+                "4.11"
             ]
         ],
         "0.1.25": [
             [
                 "FreeBSD",
-                "5.4 RELEASE"
+                "5.4"
             ]
         ],
         "0.1.41": [
             [
                 "FreeBSD",
-                "6.0 RELEASE"
+                "6.0"
             ]
         ],
         "0.3.30": [
             [
                 "FreeBSD",
-                "6.1 RELEASE"
+                "6.1"
             ],
             [
                 "FreeBSD",
-                "5.5 RELEASE"
+                "5.5"
             ]
         ],
         "0.4.13": [
             [
                 "Debian GNU/Linux",
-                "4.0 etch"
+                "4.0"
             ]
         ],
         "0.4.6": [
             [
                 "FreeBSD",
-                "6.2 RELEASE"
+                "6.2"
             ]
         ],
         "0.5.33": [
             [
                 "FreeBSD",
-                "7.0 RELEASE"
+                "7.0"
             ],
             [
                 "FreeBSD",
-                "6.3 RELEASE"
+                "6.3"
             ]
         ],
         "0.5.35": [
@@ -4516,15 +4516,15 @@
         "0.6.32": [
             [
                 "Debian GNU/Linux",
-                "5.0 lenny"
+                "5.0"
             ],
             [
                 "FreeBSD",
-                "7.1 RELEASE"
+                "7.1"
             ],
             [
                 "FreeBSD",
-                "6.4 RELEASE"
+                "6.4"
             ]
         ],
         "0.6.34": [
@@ -4536,7 +4536,7 @@
         "0.6.36": [
             [
                 "FreeBSD",
-                "7.2 RELEASE"
+                "7.2"
             ]
         ],
         "0.7.60": [
@@ -4548,7 +4548,7 @@
         "0.7.62": [
             [
                 "FreeBSD",
-                "8.0 RELEASE"
+                "8.0"
             ]
         ],
         "0.7.65": [
@@ -4558,13 +4558,13 @@
             ],
             [
                 "FreeBSD",
-                "7.3 RELEASE"
+                "7.3"
             ]
         ],
         "0.7.67": [
             [
                 "Debian GNU/Linux",
-                "6.0 squeeze"
+                "6.0"
             ],
             [
                 "OpenBSD",
@@ -4572,7 +4572,7 @@
             ],
             [
                 "FreeBSD",
-                "8.1 RELEASE"
+                "8.1"
             ]
         ],
         "0.8.53": [
@@ -4584,17 +4584,17 @@
         "0.8.54": [
             [
                 "FreeBSD",
-                "8.2 RELEASE"
+                "8.2"
             ],
             [
                 "FreeBSD",
-                "7.4 RELEASE"
+                "7.4"
             ]
         ],
         "1.0.10": [
             [
                 "FreeBSD",
-                "9.0 RELEASE"
+                "9.0"
             ]
         ],
         "1.0.11": [
@@ -4618,7 +4618,7 @@
         "1.2.1": [
             [
                 "Debian GNU/Linux",
-                "7.0 wheezy"
+                "7.0"
             ]
         ],
         "1.2.3": [
@@ -4636,15 +4636,15 @@
         "1.4.2": [
             [
                 "FreeBSD",
-                "10 CURRENT"
+                "10"
             ],
             [
                 "FreeBSD",
-                "9 STABLE"
+                "9"
             ],
             [
                 "FreeBSD",
-                "9.2 RELEASE"
+                "9.2"
             ]
         ],
         "1.4.4": [
@@ -4654,15 +4654,15 @@
             ],
             [
                 "Fedora",
-                "20 heisenbug"
+                "20"
             ],
             [
                 "Debian GNU/Linux",
-                "unstable sid"
+                "unstable"
             ],
             [
                 "Debian GNU/Linux",
-                "testing jessie"
+                "testing"
             ]
         ]
     },
@@ -4670,25 +4670,25 @@
         "2.0b10": [
             [
                 "Debian GNU/Linux",
-                "1.3 bo"
+                "1.3"
             ]
         ],
         "3.0": [
             [
                 "Debian GNU/Linux",
-                "2.0 hamm"
+                "2.0"
             ]
         ],
         "3.0.12": [
             [
                 "Red Hat Enterprise Linux",
-                "6.1 cartman"
+                "6.1"
             ]
         ],
         "3.0.15": [
             [
                 "Red Hat Enterprise Linux",
-                "6.2 zoot"
+                "6.2"
             ]
         ],
         "3.0.16": [
@@ -4700,7 +4700,7 @@
         "3.0.5": [
             [
                 "Debian GNU/Linux",
-                "2.1 slink"
+                "2.1"
             ]
         ],
         "4.0.0": [
@@ -4712,13 +4712,13 @@
         "4.0.1pl2": [
             [
                 "Red Hat Enterprise Linux",
-                "7.0 guiness"
+                "7.0"
             ]
         ],
         "4.0.3pl1": [
             [
                 "Debian GNU/Linux",
-                "2.2 potato"
+                "2.2"
             ],
             [
                 "OpenBSD",
@@ -4728,7 +4728,7 @@
         "4.0.4pl1": [
             [
                 "Red Hat Enterprise Linux",
-                "7.1 seawolf"
+                "7.1"
             ],
             [
                 "OpenBSD",
@@ -4750,7 +4750,7 @@
             ],
             [
                 "Red Hat Enterprise Linux",
-                "7.2 enigma"
+                "7.2"
             ],
             [
                 "OpenBSD",
@@ -4758,7 +4758,7 @@
             ],
             [
                 "FreeBSD",
-                "4.4 RELEASE"
+                "4.4"
             ],
             [
                 "openSUSE",
@@ -4774,13 +4774,13 @@
         "4.1.1": [
             [
                 "FreeBSD",
-                "4.5 RELEASE"
+                "4.5"
             ]
         ],
         "4.1.2": [
             [
                 "Red Hat Enterprise Linux",
-                "7.3 valhalla"
+                "7.3"
             ],
             [
                 "CentOS",
@@ -4788,7 +4788,7 @@
             ],
             [
                 "Debian GNU/Linux",
-                "3.0 woody"
+                "3.0"
             ],
             [
                 "OpenBSD",
@@ -4798,17 +4798,17 @@
         "4.2.1": [
             [
                 "FreeBSD",
-                "4.6 RELEASE"
+                "4.6"
             ]
         ],
         "4.2.2": [
             [
                 "Red Hat Enterprise Linux",
-                "9 shrike"
+                "9"
             ],
             [
                 "Red Hat Enterprise Linux",
-                "8.0 psyche"
+                "8.0"
             ],
             [
                 "openSUSE",
@@ -4826,17 +4826,17 @@
             ],
             [
                 "FreeBSD",
-                "5.0 RELEASE"
+                "5.0"
             ],
             [
                 "FreeBSD",
-                "4.7 RELEASE"
+                "4.7"
             ]
         ],
         "4.3.1": [
             [
                 "FreeBSD",
-                "4.8 RELEASE"
+                "4.8"
             ],
             [
                 "openSUSE",
@@ -4846,7 +4846,7 @@
         "4.3.10": [
             [
                 "Debian GNU/Linux",
-                "3.1 sarge"
+                "3.1"
             ]
         ],
         "4.3.2": [
@@ -4866,13 +4866,13 @@
         "4.3.2rc4": [
             [
                 "FreeBSD",
-                "5.1 RELEASE"
+                "5.1"
             ]
         ],
         "4.3.3": [
             [
                 "Fedora",
-                "1 yarrow"
+                "1"
             ],
             [
                 "OpenBSD",
@@ -4880,7 +4880,7 @@
             ],
             [
                 "FreeBSD",
-                "4.9 RELEASE"
+                "4.9"
             ],
             [
                 "openSUSE",
@@ -4890,11 +4890,11 @@
         "4.3.4": [
             [
                 "Fedora",
-                "2 tettnang"
+                "2"
             ],
             [
                 "FreeBSD",
-                "5.2.1 RELEASE"
+                "5.2.1"
             ],
             [
                 "openSUSE",
@@ -4910,7 +4910,7 @@
         "4.3.6": [
             [
                 "FreeBSD",
-                "4.10 RELEASE"
+                "4.10"
             ]
         ],
         "4.3.8": [
@@ -4934,7 +4934,7 @@
             ],
             [
                 "Fedora",
-                "3 heidelberg"
+                "3"
             ],
             [
                 "Scientific Linux",
@@ -4944,7 +4944,7 @@
         "5.0.1": [
             [
                 "FreeBSD",
-                "5.3 RELEASE"
+                "5.3"
             ]
         ],
         "5.0.3": [
@@ -4954,11 +4954,11 @@
             ],
             [
                 "FreeBSD",
-                "5.4 RELEASE"
+                "5.4"
             ],
             [
                 "FreeBSD",
-                "4.11 RELEASE"
+                "4.11"
             ],
             [
                 "openSUSE",
@@ -4968,7 +4968,7 @@
         "5.0.4": [
             [
                 "Fedora",
-                "4 stentz"
+                "4"
             ],
             [
                 "OpenBSD",
@@ -4976,7 +4976,7 @@
             ],
             [
                 "FreeBSD",
-                "6.0 RELEASE"
+                "6.0"
             ],
             [
                 "openSUSE",
@@ -4992,15 +4992,15 @@
         "5.1.2": [
             [
                 "Fedora",
-                "5 bordeaux"
+                "5"
             ],
             [
                 "FreeBSD",
-                "6.1 RELEASE"
+                "6.1"
             ],
             [
                 "FreeBSD",
-                "5.5 RELEASE"
+                "5.5"
             ],
             [
                 "openSUSE",
@@ -5024,7 +5024,7 @@
             ],
             [
                 "Fedora",
-                "6 zod"
+                "6"
             ],
             [
                 "Scientific Linux",
@@ -5036,13 +5036,13 @@
             ],
             [
                 "FreeBSD",
-                "6.2 RELEASE"
+                "6.2"
             ]
         ],
         "5.2.0": [
             [
                 "Debian GNU/Linux",
-                "4.0 etch"
+                "4.0"
             ],
             [
                 "openSUSE",
@@ -5052,7 +5052,7 @@
         "5.2.10": [
             [
                 "Ubuntu",
-                "9.10 karmic"
+                "9.10"
             ],
             [
                 "OpenBSD",
@@ -5062,7 +5062,7 @@
         "5.2.11": [
             [
                 "FreeBSD",
-                "8.0 RELEASE"
+                "8.0"
             ]
         ],
         "5.2.12": [
@@ -5072,7 +5072,7 @@
             ],
             [
                 "FreeBSD",
-                "7.3 RELEASE"
+                "7.3"
             ]
         ],
         "5.2.13": [
@@ -5082,7 +5082,7 @@
             ],
             [
                 "FreeBSD",
-                "8.1 RELEASE"
+                "8.1"
             ]
         ],
         "5.2.17": [
@@ -5094,7 +5094,7 @@
         "5.2.2": [
             [
                 "Fedora",
-                "7 moonshine"
+                "7"
             ]
         ],
         "5.2.3": [
@@ -5106,7 +5106,7 @@
         "5.2.4": [
             [
                 "Fedora",
-                "8 werewolf"
+                "8"
             ],
             [
                 "openSUSE",
@@ -5116,7 +5116,7 @@
         "5.2.5": [
             [
                 "Fedora",
-                "9 sulphur"
+                "9"
             ],
             [
                 "OpenBSD",
@@ -5124,11 +5124,11 @@
             ],
             [
                 "FreeBSD",
-                "7.0 RELEASE"
+                "7.0"
             ],
             [
                 "FreeBSD",
-                "6.3 RELEASE"
+                "6.3"
             ],
             [
                 "openSUSE",
@@ -5138,11 +5138,11 @@
         "5.2.6": [
             [
                 "Fedora",
-                "10 cambridge"
+                "10"
             ],
             [
                 "Debian GNU/Linux",
-                "5.0 lenny"
+                "5.0"
             ],
             [
                 "OpenBSD",
@@ -5150,7 +5150,7 @@
             ],
             [
                 "FreeBSD",
-                "6.4 RELEASE"
+                "6.4"
             ],
             [
                 "openSUSE",
@@ -5164,23 +5164,23 @@
             ],
             [
                 "FreeBSD",
-                "7.1 RELEASE"
+                "7.1"
             ]
         ],
         "5.2.9": [
             [
                 "Fedora",
-                "11 leonidas"
+                "11"
             ],
             [
                 "FreeBSD",
-                "7.2 RELEASE"
+                "7.2"
             ]
         ],
         "5.3.0": [
             [
                 "Fedora",
-                "12 constantine"
+                "12"
             ],
             [
                 "openSUSE",
@@ -5190,13 +5190,13 @@
         "5.3.1": [
             [
                 "Fedora",
-                "13 goddard"
+                "13"
             ]
         ],
         "5.3.10": [
             [
                 "Ubuntu",
-                "12.04 LTS precise"
+                "12.04"
             ],
             [
                 "OpenBSD",
@@ -5224,7 +5224,7 @@
         "5.3.2": [
             [
                 "Ubuntu",
-                "10.04 LTS lucid"
+                "10.04"
             ],
             [
                 "openSUSE",
@@ -5254,15 +5254,15 @@
             ],
             [
                 "Fedora",
-                "14 laughlin"
+                "14"
             ],
             [
                 "Debian GNU/Linux",
-                "6.0 squeeze"
+                "6.0"
             ],
             [
                 "Ubuntu",
-                "10.10 maverick"
+                "10.10"
             ],
             [
                 "Scientific Linux",
@@ -5272,15 +5272,15 @@
         "5.3.5": [
             [
                 "Ubuntu",
-                "11.04 natty"
+                "11.04"
             ],
             [
                 "FreeBSD",
-                "8.2 RELEASE"
+                "8.2"
             ],
             [
                 "FreeBSD",
-                "7.4 RELEASE"
+                "7.4"
             ],
             [
                 "openSUSE",
@@ -5290,11 +5290,11 @@
         "5.3.6": [
             [
                 "Fedora",
-                "15 lovelock"
+                "15"
             ],
             [
                 "Ubuntu",
-                "11.10 oneiric"
+                "11.10"
             ],
             [
                 "OpenBSD",
@@ -5304,11 +5304,11 @@
         "5.3.8": [
             [
                 "Fedora",
-                "16 verne"
+                "16"
             ],
             [
                 "FreeBSD",
-                "9.0 RELEASE"
+                "9.0"
             ],
             [
                 "openSUSE",
@@ -5318,23 +5318,23 @@
         "5.4.1": [
             [
                 "Fedora",
-                "17 beefy"
+                "17"
             ]
         ],
         "5.4.16": [
             [
                 "Red Hat Enterprise Linux",
-                "RHEL-7.0 (Beta)"
+                "RHEL-7.0"
             ]
         ],
         "5.4.17": [
             [
                 "FreeBSD",
-                "10 CURRENT"
+                "10"
             ],
             [
                 "FreeBSD",
-                "9 STABLE"
+                "9"
             ]
         ],
         "5.4.20": [
@@ -5346,57 +5346,57 @@
         "5.4.4": [
             [
                 "Debian GNU/Linux",
-                "7.0 wheezy"
+                "7.0"
             ]
         ],
         "5.4.6": [
             [
                 "Ubuntu",
-                "12.10 quantal"
+                "12.10"
             ]
         ],
         "5.4.9": [
             [
                 "Fedora",
-                "18 spherical"
+                "18"
             ],
             [
                 "Ubuntu",
-                "13.04 raring"
+                "13.04"
             ]
         ],
         "5.5.0": [
             [
                 "Fedora",
-                "19 schrodingers"
+                "19"
             ]
         ],
         "5.5.1": [
             [
                 "FreeBSD",
-                "9.2 RELEASE"
+                "9.2"
             ]
         ],
         "5.5.3": [
             [
                 "Ubuntu",
-                "13.10 saucy"
+                "13.10"
             ]
         ],
         "5.5.6": [
             [
                 "Fedora",
-                "20 heisenbug"
+                "20"
             ]
         ],
         "5.5.8": [
             [
                 "Debian GNU/Linux",
-                "testing jessie"
+                "testing"
             ],
             [
                 "Ubuntu",
-                "snapshot trusty"
+                "snapshot"
             ]
         ],
         "5.5.9": [
@@ -5406,7 +5406,7 @@
             ],
             [
                 "Debian GNU/Linux",
-                "unstable sid"
+                "unstable"
             ],
             [
                 "openSUSE",
@@ -5418,11 +5418,11 @@
         "2.1.0": [
             [
                 "FreeBSD",
-                "4.5 RELEASE"
+                "4.5"
             ],
             [
                 "FreeBSD",
-                "4.4 RELEASE"
+                "4.4"
             ]
         ],
         "2.10.1": [
@@ -5440,13 +5440,13 @@
         "2.11.2": [
             [
                 "FreeBSD",
-                "6.3 RELEASE"
+                "6.3"
             ]
         ],
         "2.11.2.2": [
             [
                 "FreeBSD",
-                "7.0 RELEASE"
+                "7.0"
             ]
         ],
         "2.11.7.1": [
@@ -5458,7 +5458,7 @@
         "2.11.8.1": [
             [
                 "Debian GNU/Linux",
-                "5.0 lenny"
+                "5.0"
             ]
         ],
         "2.11.9.4": [
@@ -5470,51 +5470,51 @@
         "2.2.3": [
             [
                 "Debian GNU/Linux",
-                "3.0 woody"
+                "3.0"
             ]
         ],
         "2.2.4": [
             [
                 "FreeBSD",
-                "4.6 RELEASE"
+                "4.6"
             ]
         ],
         "2.3.0rc4": [
             [
                 "FreeBSD",
-                "5.0 RELEASE"
+                "5.0"
             ],
             [
                 "FreeBSD",
-                "4.7 RELEASE"
+                "4.7"
             ]
         ],
         "2.3.2": [
             [
                 "FreeBSD",
-                "5.1 RELEASE"
+                "5.1"
             ],
             [
                 "FreeBSD",
-                "4.8 RELEASE"
+                "4.8"
             ]
         ],
         "2.5.2": [
             [
                 "FreeBSD",
-                "4.9 RELEASE"
+                "4.9"
             ]
         ],
         "2.5.4": [
             [
                 "FreeBSD",
-                "5.2.1 RELEASE"
+                "5.2.1"
             ]
         ],
         "2.5.6": [
             [
                 "FreeBSD",
-                "4.10 RELEASE"
+                "4.10"
             ]
         ],
         "2.5.7": [
@@ -5526,7 +5526,7 @@
         "2.5.7-pl1": [
             [
                 "FreeBSD",
-                "5.3 RELEASE"
+                "5.3"
             ]
         ],
         "2.6.1": [
@@ -5538,19 +5538,19 @@
         "2.6.1-pl3": [
             [
                 "FreeBSD",
-                "5.4 RELEASE"
+                "5.4"
             ]
         ],
         "2.6.1-rc1": [
             [
                 "FreeBSD",
-                "4.11 RELEASE"
+                "4.11"
             ]
         ],
         "2.6.2": [
             [
                 "Debian GNU/Linux",
-                "3.1 sarge"
+                "3.1"
             ]
         ],
         "2.6.3": [
@@ -5562,7 +5562,7 @@
         "2.6.3-pl1": [
             [
                 "FreeBSD",
-                "6.0 RELEASE"
+                "6.0"
             ]
         ],
         "2.7.0": [
@@ -5574,13 +5574,13 @@
         "2.7.0-pl2": [
             [
                 "FreeBSD",
-                "5.5 RELEASE"
+                "5.5"
             ]
         ],
         "2.7.0.2": [
             [
                 "FreeBSD",
-                "6.1 RELEASE"
+                "6.1"
             ]
         ],
         "2.8.1": [
@@ -5596,31 +5596,31 @@
             ],
             [
                 "FreeBSD",
-                "6.2 RELEASE"
+                "6.2"
             ]
         ],
         "2.9.1.1": [
             [
                 "Debian GNU/Linux",
-                "4.0 etch"
+                "4.0"
             ]
         ],
         "3.0.1.1": [
             [
                 "FreeBSD",
-                "6.4 RELEASE"
+                "6.4"
             ]
         ],
         "3.1.1": [
             [
                 "FreeBSD",
-                "7.1 RELEASE"
+                "7.1"
             ]
         ],
         "3.1.3.2": [
             [
                 "FreeBSD",
-                "7.2 RELEASE"
+                "7.2"
             ]
         ],
         "3.2.0": [
@@ -5632,7 +5632,7 @@
         "3.2.2.1": [
             [
                 "FreeBSD",
-                "8.0 RELEASE"
+                "8.0"
             ]
         ],
         "3.2.4": [
@@ -5644,7 +5644,7 @@
         "3.2.5": [
             [
                 "FreeBSD",
-                "7.3 RELEASE"
+                "7.3"
             ]
         ],
         "3.3.4": [
@@ -5654,13 +5654,13 @@
             ],
             [
                 "FreeBSD",
-                "8.1 RELEASE"
+                "8.1"
             ]
         ],
         "3.3.7": [
             [
                 "Debian GNU/Linux",
-                "6.0 squeeze"
+                "6.0"
             ]
         ],
         "3.3.9.1": [
@@ -5670,11 +5670,11 @@
             ],
             [
                 "FreeBSD",
-                "8.2 RELEASE"
+                "8.2"
             ],
             [
                 "FreeBSD",
-                "7.4 RELEASE"
+                "7.4"
             ]
         ],
         "3.4.10.2": [
@@ -5686,7 +5686,7 @@
         "3.4.11.1": [
             [
                 "Debian GNU/Linux",
-                "7.0 wheezy"
+                "7.0"
             ]
         ],
         "3.4.3.2": [
@@ -5698,7 +5698,7 @@
         "3.4.8": [
             [
                 "FreeBSD",
-                "9.0 RELEASE"
+                "9.0"
             ]
         ],
         "3.4.9": [
@@ -5722,11 +5722,11 @@
         "4.0.10": [
             [
                 "Debian GNU/Linux",
-                "unstable sid"
+                "unstable"
             ],
             [
                 "Debian GNU/Linux",
-                "testing jessie"
+                "testing"
             ]
         ],
         "4.0.4.1": [
@@ -5738,15 +5738,15 @@
         "4.0.5": [
             [
                 "FreeBSD",
-                "10 CURRENT"
+                "10"
             ],
             [
                 "FreeBSD",
-                "9 STABLE"
+                "9"
             ],
             [
                 "FreeBSD",
-                "9.2 RELEASE"
+                "9.2"
             ]
         ]
     }
