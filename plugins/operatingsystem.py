@@ -125,6 +125,7 @@ class OperatingSystem(Plugin):
 	def run(self):
 		self.load_data()
 		self.load_extra_data("data/os/os_fingerprints_static.json")
+		self.load_extra_data("data/os/ubuntu.json")
 		self.db = self.get_all_items()
 
 		responses = self.cache.get_responses()
