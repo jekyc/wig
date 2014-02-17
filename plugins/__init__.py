@@ -1,5 +1,6 @@
 __all__ = [
 "concrete5",
+"cakephp",
 "demandware",
 "dokuwiki",
 "dotcms",

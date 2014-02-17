@@ -1,0 +1,8 @@
+[
+	{
+		"url": "/",
+		"header": "Set-Cookie",
+		"regex": "(CAKEPHP)",
+		"output": ""
+	}
+]
