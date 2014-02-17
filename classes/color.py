@@ -1,3 +1,4 @@
+import os
 
 
 class Color(object):
@@ -12,6 +13,11 @@ class Color(object):
 	def format(self, string, color, bold):
 		attrs = []
 		code = self.colors[color]
+
+		# bail if OS is windows
+		# note: cygwin show be detected as 'posix'
+		if os.name == 'nt':
+			return string
 
 		if not code == None:
 			attr = [code]
