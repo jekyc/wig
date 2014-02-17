@@ -12,6 +12,8 @@ class Results(object):
 		v = data['version']
 		dw = data['count']
 
+		if type(v) == bool: v = ""
+
 		if type(weight) == bool:
 			w = 1.0/dw if weight else dw
 			self.results[category][plugin][v] += w
