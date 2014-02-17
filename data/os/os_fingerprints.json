@@ -521,10 +521,6 @@
             ],
             [
                 "openSUSE",
-                "factory"
-            ],
-            [
-                "openSUSE",
                 "13.1"
             ]
         ],
@@ -544,6 +540,10 @@
             [
                 "Ubuntu",
                 "snapshot"
+            ],
+            [
+                "openSUSE",
+                "factory"
             ]
         ]
     },
@@ -4658,11 +4658,13 @@
             ],
             [
                 "Debian GNU/Linux",
-                "unstable"
-            ],
+                "testing"
+            ]
+        ],
+        "1.4.5": [
             [
                 "Debian GNU/Linux",
-                "testing"
+                "unstable"
             ]
         ]
     },
@@ -5391,10 +5393,6 @@
         ],
         "5.5.8": [
             [
-                "Debian GNU/Linux",
-                "testing"
-            ],
-            [
                 "Ubuntu",
                 "snapshot"
             ]
@@ -5407,6 +5405,10 @@
             [
                 "Debian GNU/Linux",
                 "unstable"
+            ],
+            [
+                "Debian GNU/Linux",
+                "testing"
             ],
             [
                 "openSUSE",
