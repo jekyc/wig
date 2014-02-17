@@ -70,6 +70,11 @@
           "url": "dotCMS/docs/examples/osgi/com.dotcms.actionlet/README.txt"
      },
      {
+          "md5": "f54d85ea49628adcadcf9ca1e389791a",
+          "output": "2.5.3",
+          "url": "dotCMS/docs/examples/osgi/com.dotcms.actionlet/README.txt"
+     },
+     {
           "md5": "485e3a14114f0193030dd54c32a8fe43",
           "output": "2.5Preview2",
           "url": "dotCMS/docs/examples/osgi/com.dotcms.actionlet/README.txt"
