@@ -8176,6 +8176,11 @@
      },
      {
           "md5": "a936c58a5dc852c947158bb47a7ce3af",
+          "output": "8.0-alpha9",
+          "url": "/robots.txt"
+     },
+     {
+          "md5": "a936c58a5dc852c947158bb47a7ce3af",
           "output": "8.x-alpha7",
           "url": "/robots.txt"
      }

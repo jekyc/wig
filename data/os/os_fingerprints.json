@@ -892,6 +892,16 @@
                 "12.04"
             ]
         ],
+        "6.0.37": [
+            [
+                "FreeBSD",
+                "10"
+            ],
+            [
+                "FreeBSD",
+                "9"
+            ]
+        ],
         "7.0.22": [
             [
                 "FreeBSD",
@@ -955,14 +965,6 @@
             ],
             [
                 "FreeBSD",
-                "10"
-            ],
-            [
-                "FreeBSD",
-                "9"
-            ],
-            [
-                "FreeBSD",
                 "9.2"
             ]
         ],
@@ -989,15 +991,17 @@
         "7.0.50": [
             [
                 "Debian GNU/Linux",
-                "unstable"
-            ],
-            [
-                "Debian GNU/Linux",
                 "testing"
             ],
             [
                 "Ubuntu",
                 "snapshot"
+            ]
+        ],
+        "7.0.52": [
+            [
+                "Debian GNU/Linux",
+                "unstable"
             ]
         ],
         "7.0.6": [
@@ -1944,14 +1948,6 @@
             [
                 "OpenBSD",
                 "5.4"
-            ],
-            [
-                "FreeBSD",
-                "10"
-            ],
-            [
-                "FreeBSD",
-                "9"
             ],
             [
                 "FreeBSD",
@@ -2951,11 +2947,7 @@
                 "5.3"
             ]
         ],
-        "2.0.0-p195": [
-            [
-                "Fedora",
-                "19"
-            ],
+        "1.9.3-p484": [
             [
                 "FreeBSD",
                 "10"
@@ -2963,6 +2955,12 @@
             [
                 "FreeBSD",
                 "9"
+            ]
+        ],
+        "2.0.0-p195": [
+            [
+                "Fedora",
+                "19"
             ],
             [
                 "FreeBSD",
@@ -3351,10 +3349,6 @@
             [
                 "Debian GNU/Linux",
                 "testing"
-            ],
-            [
-                "Ubuntu",
-                "snapshot"
             ]
         ],
         "1.7.2": [
@@ -3394,14 +3388,6 @@
         "1.8.1": [
             [
                 "FreeBSD",
-                "10"
-            ],
-            [
-                "FreeBSD",
-                "9"
-            ],
-            [
-                "FreeBSD",
                 "9.2"
             ]
         ],
@@ -3417,8 +3403,22 @@
                 "rawhide"
             ],
             [
+                "FreeBSD",
+                "10"
+            ],
+            [
+                "FreeBSD",
+                "9"
+            ]
+        ],
+        "1.8.8": [
+            [
                 "Debian GNU/Linux",
                 "unstable"
+            ],
+            [
+                "Ubuntu",
+                "snapshot"
             ]
         ],
         "r1868": [
@@ -3624,15 +3624,17 @@
         "1.630": [
             [
                 "FreeBSD",
+                "9.2"
+            ]
+        ],
+        "1.670": [
+            [
+                "FreeBSD",
                 "10"
             ],
             [
                 "FreeBSD",
                 "9"
-            ],
-            [
-                "FreeBSD",
-                "9.2"
             ]
         ]
     },
@@ -3864,14 +3866,6 @@
             ],
             [
                 "FreeBSD",
-                "10"
-            ],
-            [
-                "FreeBSD",
-                "9"
-            ],
-            [
-                "FreeBSD",
                 "9.2"
             ]
         ],
@@ -3889,6 +3883,14 @@
             [
                 "Fedora",
                 "rawhide"
+            ],
+            [
+                "FreeBSD",
+                "10"
+            ],
+            [
+                "FreeBSD",
+                "9"
             ]
         ]
     },
@@ -4636,35 +4638,35 @@
         "1.4.2": [
             [
                 "FreeBSD",
-                "10"
-            ],
-            [
-                "FreeBSD",
-                "9"
-            ],
-            [
-                "FreeBSD",
                 "9.2"
             ]
         ],
         "1.4.4": [
             [
                 "Fedora",
-                "rawhide"
-            ],
-            [
-                "Fedora",
                 "20"
             ],
             [
-                "Debian GNU/Linux",
-                "testing"
+                "FreeBSD",
+                "10"
+            ],
+            [
+                "FreeBSD",
+                "9"
             ]
         ],
         "1.4.5": [
             [
+                "Fedora",
+                "rawhide"
+            ],
+            [
                 "Debian GNU/Linux",
                 "unstable"
+            ],
+            [
+                "Debian GNU/Linux",
+                "testing"
             ]
         ]
     },
@@ -5329,7 +5331,13 @@
                 "RHEL-7.0"
             ]
         ],
-        "5.4.17": [
+        "5.4.20": [
+            [
+                "openSUSE",
+                "13.1"
+            ]
+        ],
+        "5.4.24": [
             [
                 "FreeBSD",
                 "10"
@@ -5337,12 +5345,6 @@
             [
                 "FreeBSD",
                 "9"
-            ]
-        ],
-        "5.4.20": [
-            [
-                "openSUSE",
-                "13.1"
             ]
         ],
         "5.4.4": [
@@ -5391,12 +5393,6 @@
                 "20"
             ]
         ],
-        "5.5.8": [
-            [
-                "Ubuntu",
-                "snapshot"
-            ]
-        ],
         "5.5.9": [
             [
                 "Fedora",
@@ -5409,6 +5405,10 @@
             [
                 "Debian GNU/Linux",
                 "testing"
+            ],
+            [
+                "Ubuntu",
+                "snapshot"
             ],
             [
                 "openSUSE",
@@ -5724,10 +5724,6 @@
         "4.0.10": [
             [
                 "Debian GNU/Linux",
-                "unstable"
-            ],
-            [
-                "Debian GNU/Linux",
                 "testing"
             ]
         ],
@@ -5740,15 +5736,13 @@
         "4.0.5": [
             [
                 "FreeBSD",
-                "10"
-            ],
-            [
-                "FreeBSD",
-                "9"
-            ],
-            [
-                "FreeBSD",
                 "9.2"
+            ]
+        ],
+        "4.1.8": [
+            [
+                "Debian GNU/Linux",
+                "unstable"
             ]
         ]
     }
