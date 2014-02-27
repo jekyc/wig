@@ -105,7 +105,7 @@ class Wig():
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description='WebApp Information Gatherer')
 	parser.add_argument('host', type=str,	help='the host name of the target')
-	parser.add_argument('-v',  action="store_const",  dest="loglevel", const=True)
+	parser.add_argument('-v',  action="store_const",  dest="loglevel", const=True, help="list all the urls where matches have been found")
 	
 	parser.add_argument('-p',
 		type=int,
