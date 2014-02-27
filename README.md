@@ -20,8 +20,8 @@ There are currently three profiles:
 
 **Help screen:**
 ```
-wig.py --help
-usage: wig.py [-h] [-p {1,2,4}] host
+# wig.py --help
+usage: wig.py [-h] [-v] [-p {1,2,4}] host
 
 WebApp Information Gatherer
 
@@ -30,6 +30,7 @@ positional arguments:
 
 optional arguments:
   -h, --help  show this help message and exit
+  -v          list all the urls where matches have been found
   -p {1,2,4}  select a profile: 1) Make only one request - 2) Make one request
               per plugin - 4) All
 ```
@@ -37,12 +38,13 @@ optional arguments:
 **Example of run:**
 
 ```
-# wig.py http://www.example.com/
-CMS                  Concrete5: [5.6.1.2]
-Operating System     Microsoft Windows Server: [2003]
-Server Info          Microsoft-IIS: [6.0]
+# python3 wig.py www.example.com
+                                                                            
+CMS                  Drupal CMS: [7.25, 7.24, 7.26, 7.23, 7.22]
+Operating System     Microsoft Windows Server: [2008 R2]
+Server Info          Microsoft-IIS: [7.5, 6.0]
 ______________________________________________________________
-Time: 35.3 sec | Plugins: 59 | Urls: 312 | Fingerprints: 13972
+Time: 18.0 sec | Plugins: 65 | Urls: 324 | Fingerprints: 14178
 ```
 
 **Requirements:**
