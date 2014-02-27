@@ -2,14 +2,16 @@
 
 import sys, time, argparse, requests
 import plugins
+from collections import defaultdict
 from classes.results import Results
 from classes.cache import Cache
 from classes.color import Color
 from classes.profile import Profile
+from classes.log import Log
 
 class Wig():
 
-	def __init__(self, host, profile):
+	def __init__(self, host, profile, verbose):
 		self.plugins = self.load_plugins()
 		self.host = host
 		self.results = Results()
@@ -18,6 +20,8 @@ class Wig():
 		self.check_url()
 		self.redirect()
 		self.colorizer = Color()
+		self.logs = Log()
+		self.verbose = verbose
 
 
 	def redirect(self):
@@ -80,19 +84,30 @@ class Wig():
 				p.run()
 				num_fps += p.get_num_fps()
 
+				# add logs
+				self.logs.add( p.get_logs() )
+
+
 		run_time = "%.1f" % (time.time() - t)
 		num_urls = self.cache.get_num_urls()
 
 		print(self.results)
 		status = "Time: %s sec | Plugins: %s | Urls: %s | Fingerprints: %s" % (run_time, num_plugins, num_urls, num_fps)
-		print("_"*len(status))
+		bar = "_"*len(status)
+		print(bar)
 		print(status + "\n")
+
+		if self.verbose:
+			print(bar)
+			print(self.logs)
 
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description='WebApp Information Gatherer')
 	parser.add_argument('host', type=str,	help='the host name of the target')
-	parser.add_argument('-p',	
+	parser.add_argument('-v',  action="store_const",  dest="loglevel", const=True)
+	
+	parser.add_argument('-p',
 		type=int,
 		default=4, 
 		choices=[1,2,4],
@@ -103,7 +118,7 @@ if __name__ == '__main__':
 	args = parser.parse_args()
 
 	try:
-		wig = Wig(args.host, args.profile)
+		wig = Wig(args.host, args.profile, args.loglevel)
 		if not wig.host == args.host:
 			hilight_host = wig.colorizer.format(wig.host, 'red', False)
 

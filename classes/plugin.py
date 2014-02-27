@@ -29,6 +29,9 @@ class Plugin(object):
 		# should the plugin be affected by the profile chosen
 		self.use_profile = True
 
+		# log object 
+		self.log = defaultdict(lambda: defaultdict(set))
+		#          ^ url               ^ category  ^ version 
 	
 	def load_data(self):
 		# load the fingeprints from the json file
@@ -63,6 +66,9 @@ class Plugin(object):
 			self.load_data()
 			self.__items = profile.apply(self.__items)
 
+	def get_logs(self):
+		return self.log
+
 	def get_all_items(self):
 		return self.__items
 
@@ -77,4 +83,7 @@ class Plugin(object):
 		# [{'url': bla, 'version': bla, 'count': 23}, {...}]
 		if name == None: name = self.name
 		for d in data:
+			url = d['url'] if 'url' in d else '/'
+
+			self.log[url][name].add(d['version'])
 			self.results.add(self.category, name, d, self.use_weights)
