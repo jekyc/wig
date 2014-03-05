@@ -23,9 +23,12 @@ class Header(Plugin):
 			for header in response.headers:
 				self.headers[header].add(response.headers[header])
 
+		pprint.pprint(self.headers)
 		self.linehandlers = [
 			ServerHeader(),
-			PoweredBy()
+			PoweredBy(),
+			AspNetVersion(),
+			#AspNet()
 		]
 
 	def is_applicable(self, header):
@@ -82,6 +85,37 @@ class PoweredBy(object):
 		try:
 			pkg,version = line.split('/')
 			return [[ [{'version': version, 'count':1}] ,pkg ]]
-
 		except Exception as e:
 			return []
+
+
+class AspNetVersion(object):
+	def __init__(self):
+		self.header_name = ["X-AspNet-Version"]
+
+	def is_applicable(self, header):
+		return header in [hn.lower() for hn in self.header_name]
+
+	def run(self, line):
+		try:
+			return [[ [{'version': line, 'count':1}] ,'ASP.NET' ]]
+		except Exception as e:
+			return []
+
+class AspNet(object):
+	def __init__(self):
+		self.header_name = ["Set-Cookie"]
+
+	def is_applicable(self, header):
+		return header in [hn.lower() for hn in self.header_name]
+
+	def run(self, line):
+		try:
+			if 'ASP.NET_SessionId' in line:
+				return [[ [{'version': '', 'count':1}] ,'ASP.NET' ]]
+			else:
+				return []
+		except Exception as e:
+			return []
+
+
