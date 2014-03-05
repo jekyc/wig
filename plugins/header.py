@@ -23,7 +23,6 @@ class Header(Plugin):
 			for header in response.headers:
 				self.headers[header].add(response.headers[header])
 
-		pprint.pprint(self.headers)
 		self.linehandlers = [
 			ServerHeader(),
 			PoweredBy(),
