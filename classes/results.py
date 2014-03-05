@@ -8,7 +8,7 @@ class Results(object):
 		self.results = defaultdict(lambda: defaultdict(lambda: defaultdict(float)))
 		#              ^Category   ^Plugin     ^Version    ^weight  
 
-	def add(self, category, plugin, data, weight=True):
+	def add(self, category, plugin, data, weight=False):
 		v = data['version']
 		dw = data['count']
 

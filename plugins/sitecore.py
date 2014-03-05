@@ -1,4 +1,4 @@
-from classes.specializedRequesters import CMSReqMD5, CMSReqString, CMSReqRegex
+from classes.specializedRequesters import CMSReqMD5, CMSReqString, CMSReqRegex, CMSReqHeader
 
 class SitecoreMD5(CMSReqMD5):
 	def __init__(self, host, cache, results):
@@ -21,10 +21,18 @@ class SitecoreRegex(CMSReqRegex):
 		self.prefix	= ["", "/sitecore"]
 		self.data_file	= "data/cms/regex/sitecore.json"
 
+class SitecoreHeader(CMSReqHeader):
+	def __init__(self, host, cache, results):
+		super().__init__(host, cache, results)
+		self.name	= "Sitecore"
+		self.prefix	= ["", "/sitecore"]
+		self.data_file	= "data/cms/header/sitecore.json"
+
 
 def get_instances(host, cache, results):
 	return [
 		SitecoreMD5(host, cache, results),
 		SitecoreString(host, cache, results),
 		SitecoreRegex(host, cache, results),
+		SitecoreHeader(host, cache, results),
 	]
