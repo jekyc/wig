@@ -4,6 +4,7 @@ from classes.color import Color
 class Results(object):
 
 	def __init__(self):
+		self.width = None
 		self.color = Color()
 		self.results = defaultdict(lambda: defaultdict(lambda: defaultdict(float)))
 		#              ^Category   ^Plugin     ^Version    ^weight  
@@ -25,13 +26,18 @@ class Results(object):
 	def get_results(self):
 		return self.results
 
+	def set_width(self, width):
+		self.width = width
+
 	def __str__(self):
 		out = "\n"
 		o_cat = sorted([c for c in self.results])
 
 		for category in o_cat:
 
-			out += "{0:<20}".format(category, )
+			#out += "{0:<20}".format(category, )
+			start = "___"+category
+			out += start + "_" * (self.width-len(start)) + "\n"
 			plugin_list = []
 
 			o_plug = sorted([p for p in self.results[category]])

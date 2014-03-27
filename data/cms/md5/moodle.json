@@ -6385,6 +6385,51 @@
           "url": "/login/index_form.html"
      },
      {
+          "md5": "7949ec134e03d7b74dfe1cf94482661e",
+          "output": "v2.4.9",
+          "url": "/lib/editor/tinymce/module.js"
+     },
+     {
+          "md5": "143f9f7eab80d25f091818e03aa195e0",
+          "output": "v2.4.9",
+          "url": "/lib/javascript-static.js"
+     },
+     {
+          "md5": "43df1e48b8ccb37df0afdfd87e150a39",
+          "output": "v2.4.9",
+          "url": "/lib/form/filemanager.js"
+     },
+     {
+          "md5": "cd4dd73eeeb6b4591d85474ddd446606",
+          "output": "v2.4.9",
+          "url": "/mod/upgrade.txt"
+     },
+     {
+          "md5": "2b87e6ceebb618b9014c0e7984ccaf5b",
+          "output": "v2.4.9",
+          "url": "/lib/editor/tinymce/readme_moodle.txt"
+     },
+     {
+          "md5": "5ec853aaf8759920d4d777fe67ab7f67",
+          "output": "v2.4.9",
+          "url": "/README.txt"
+     },
+     {
+          "md5": "6982d59fee9604acb0d99c9126e57d90",
+          "output": "v2.4.9",
+          "url": "/user/message.html"
+     },
+     {
+          "md5": "da1899946c26ccfe2509a415429c46b8",
+          "output": "v2.4.9",
+          "url": "/theme/base/style/core.css"
+     },
+     {
+          "md5": "b86893d766983079125030608654dd3f",
+          "output": "v2.4.9",
+          "url": "/login/index_form.html"
+     },
+     {
           "md5": "2412f0d8f942453e50625a999c0df4b3",
           "output": "v2.5.0",
           "url": "/lib/editor/tinymce/module.js"
@@ -6701,6 +6746,51 @@
      },
      {
           "md5": "3b18780f4cdc4c57b28afe905ae4add1",
+          "output": "v2.5.5",
+          "url": "/lib/editor/tinymce/module.js"
+     },
+     {
+          "md5": "89a1329a1835b9fa77fcb149d109f6c6",
+          "output": "v2.5.5",
+          "url": "/lib/javascript-static.js"
+     },
+     {
+          "md5": "ef52f891a7ef662caecd9ac212942d86",
+          "output": "v2.5.5",
+          "url": "/lib/form/filemanager.js"
+     },
+     {
+          "md5": "0fa8a630e98914eeb63c3a0e4f72a05a",
+          "output": "v2.5.5",
+          "url": "/mod/upgrade.txt"
+     },
+     {
+          "md5": "9d46a1115780cfd3585dcd290fa7742f",
+          "output": "v2.5.5",
+          "url": "/lib/editor/tinymce/readme_moodle.txt"
+     },
+     {
+          "md5": "5ec853aaf8759920d4d777fe67ab7f67",
+          "output": "v2.5.5",
+          "url": "/README.txt"
+     },
+     {
+          "md5": "6982d59fee9604acb0d99c9126e57d90",
+          "output": "v2.5.5",
+          "url": "/user/message.html"
+     },
+     {
+          "md5": "319a2cba0f3bd5fbdfcc34667b840ee9",
+          "output": "v2.5.5",
+          "url": "/theme/base/style/core.css"
+     },
+     {
+          "md5": "b86893d766983079125030608654dd3f",
+          "output": "v2.5.5",
+          "url": "/login/index_form.html"
+     },
+     {
+          "md5": "3b18780f4cdc4c57b28afe905ae4add1",
           "output": "v2.6.0",
           "url": "/lib/editor/tinymce/module.js"
      },
@@ -6877,6 +6967,51 @@
      {
           "md5": "bf4f5c2ec94f9f1858e230a3cf3e5b93",
           "output": "v2.6.1",
+          "url": "/login/index_form.html"
+     },
+     {
+          "md5": "07aa5b28294c6f1274701b9b1ac596d6",
+          "output": "v2.6.2",
+          "url": "/lib/editor/tinymce/module.js"
+     },
+     {
+          "md5": "2ebdc22d25411cebd65ecd79f0a98b19",
+          "output": "v2.6.2",
+          "url": "/lib/javascript-static.js"
+     },
+     {
+          "md5": "a6df7145afc935b41938907b1acb6b7d",
+          "output": "v2.6.2",
+          "url": "/lib/form/filemanager.js"
+     },
+     {
+          "md5": "640a4befc8ce8c5eba22d54ae6a1d00d",
+          "output": "v2.6.2",
+          "url": "/mod/upgrade.txt"
+     },
+     {
+          "md5": "563f5494d214c513802b2ce94fed841a",
+          "output": "v2.6.2",
+          "url": "/lib/editor/tinymce/readme_moodle.txt"
+     },
+     {
+          "md5": "5ec853aaf8759920d4d777fe67ab7f67",
+          "output": "v2.6.2",
+          "url": "/README.txt"
+     },
+     {
+          "md5": "8492f6ec9cfd6567f2a36a08d59e7b8a",
+          "output": "v2.6.2",
+          "url": "/user/message.html"
+     },
+     {
+          "md5": "d7d739df11158265499034d42f5221f1",
+          "output": "v2.6.2",
+          "url": "/theme/base/style/core.css"
+     },
+     {
+          "md5": "bf4f5c2ec94f9f1858e230a3cf3e5b93",
+          "output": "v2.6.2",
           "url": "/login/index_form.html"
      }
 ]

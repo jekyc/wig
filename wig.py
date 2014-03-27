@@ -91,9 +91,11 @@ class Wig():
 		run_time = "%.1f" % (time.time() - t)
 		num_urls = self.cache.get_num_urls()
 
-		print(self.results)
 		status = "Time: %s sec | Plugins: %s | Urls: %s | Fingerprints: %s" % (run_time, num_plugins, num_urls, num_fps)
 		bar = "_"*len(status)
+		self.results.set_width(len(status))
+
+		print(self.results)
 		print(bar)
 		print(status + "\n")
 

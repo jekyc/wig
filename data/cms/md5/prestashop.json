@@ -538,5 +538,55 @@
           "md5": "5a0ab1880a74fad2bef5e579afaecaf0",
           "output": "1.6.0.3",
           "url": "/themes/default-bootstrap/css/global.css"
+     },
+     {
+          "md5": "3074c3c5fb7f6a2b17f59bdd5a608d52",
+          "output": "1.6.0.4",
+          "url": "/img/logo.jpg"
+     },
+     {
+          "md5": "05624968db176128709b43226f361149",
+          "output": "1.6.0.4",
+          "url": "/js/admin.js"
+     },
+     {
+          "md5": "663484fe13d01f38d1fd3b7851788cc4",
+          "output": "1.6.0.4",
+          "url": "/js/price.js"
+     },
+     {
+          "md5": "c8830faf1c083f4cf976690eea090c5e",
+          "output": "1.6.0.4",
+          "url": "/js/admin-dnd.js"
+     },
+     {
+          "md5": "dfc4ecb1e56f0a880a64fb8417d63aa0",
+          "output": "1.6.0.4",
+          "url": "/themes/default-bootstrap/css/global.css"
+     },
+     {
+          "md5": "e0c68c1abb691e9aa25604d47181b654",
+          "output": "1.6.0.5",
+          "url": "/img/logo.jpg"
+     },
+     {
+          "md5": "1db0fb2115e56c42737b6c20535fe63e",
+          "output": "1.6.0.5",
+          "url": "/js/admin.js"
+     },
+     {
+          "md5": "663484fe13d01f38d1fd3b7851788cc4",
+          "output": "1.6.0.5",
+          "url": "/js/price.js"
+     },
+     {
+          "md5": "c8830faf1c083f4cf976690eea090c5e",
+          "output": "1.6.0.5",
+          "url": "/js/admin-dnd.js"
+     },
+     {
+          "md5": "ef63598dd6a1819685ac9b9070013fbc",
+          "output": "1.6.0.5",
+          "url": "/themes/default-bootstrap/css/global.css"
      }
 ]
