@@ -40,11 +40,18 @@ optional arguments:
 ```
 # python3 wig.py www.example.com
                                                                             
-CMS                  Drupal CMS: [7.25, 7.24, 7.26, 7.23, 7.22]
-Operating System     Microsoft Windows Server: [2008 R2]
-Server Info          Microsoft-IIS: [7.5, 6.0]
+___ CMS ______________________________________________________
+Sitecore: 7.0. (rev. 130424)
+
+___ Operating System _________________________________________
+Microsoft Windows Server: 2008 R2
+
+___ Server Info ______________________________________________
+ASP.NET: 4.0.30319
+Microsoft-IIS: 7.5
+
 ______________________________________________________________
-Time: 18.0 sec | Plugins: 65 | Urls: 324 | Fingerprints: 14178
+Time: 36.4 sec | Plugins: 66 | Urls: 386 | Fingerprints: 16805
 ```
 
 **Requirements:**

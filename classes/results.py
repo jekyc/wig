@@ -35,9 +35,9 @@ class Results(object):
 
 		for category in o_cat:
 
-			out += "{0:<20}".format(category, )
-			#start = "___"+category
-			#out += start + "_" * (self.width-len(start)) + "\n"
+			#out += "{0:<20}".format(category, )
+			start = "___ " + self.color.format(category, 'red', False) + " "
+			out +=	start + "_" * (self.width - (len(category) + 5)) + "\n"
 			plugin_list = []
 
 			o_plug = sorted([p for p in self.results[category]])
@@ -61,11 +61,11 @@ class Results(object):
 					else:
 						break
 
-				plug_str = " %s: " % (plugin, )
-				ver_str =  self.color.format("[" + ", ".join(relevant) + "]", 'red', False)
+				plug_str = "%s: " % (plugin, )
+				ver_str =  ", ".join(relevant)
 
 				plugin_list.append(plug_str + ver_str)
 			
-			out += ", ".join(plugin_list) + "\n"
+			out += "\n".join(plugin_list) + "\n\n"
 
 		return out[:-1]
