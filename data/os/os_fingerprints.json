@@ -526,10 +526,6 @@
         ],
         "2.4.7": [
             [
-                "Fedora",
-                "rawhide"
-            ],
-            [
                 "Debian GNU/Linux",
                 "unstable"
             ],
@@ -544,6 +540,12 @@
             [
                 "openSUSE",
                 "factory"
+            ]
+        ],
+        "2.4.9": [
+            [
+                "Fedora",
+                "rawhide"
             ]
         ]
     },
@@ -988,7 +990,11 @@
                 "20"
             ]
         ],
-        "7.0.50": [
+        "7.0.52": [
+            [
+                "Debian GNU/Linux",
+                "unstable"
+            ],
             [
                 "Debian GNU/Linux",
                 "testing"
@@ -996,12 +1002,6 @@
             [
                 "Ubuntu",
                 "snapshot"
-            ]
-        ],
-        "7.0.52": [
-            [
-                "Debian GNU/Linux",
-                "unstable"
             ]
         ],
         "7.0.6": [
@@ -3345,12 +3345,6 @@
                 "RHEL-7.0"
             ]
         ],
-        "1.7.14": [
-            [
-                "Debian GNU/Linux",
-                "testing"
-            ]
-        ],
         "1.7.2": [
             [
                 "OpenBSD",
@@ -3399,10 +3393,6 @@
         ],
         "1.8.5": [
             [
-                "Fedora",
-                "rawhide"
-            ],
-            [
                 "FreeBSD",
                 "10"
             ],
@@ -3413,8 +3403,16 @@
         ],
         "1.8.8": [
             [
+                "Fedora",
+                "rawhide"
+            ],
+            [
                 "Debian GNU/Linux",
                 "unstable"
+            ],
+            [
+                "Debian GNU/Linux",
+                "testing"
             ],
             [
                 "Ubuntu",
@@ -3872,18 +3870,10 @@
         "1.4.33": [
             [
                 "Debian GNU/Linux",
-                "unstable"
-            ],
-            [
-                "Debian GNU/Linux",
                 "testing"
             ]
         ],
         "1.4.34": [
-            [
-                "Fedora",
-                "rawhide"
-            ],
             [
                 "FreeBSD",
                 "10"
@@ -3891,6 +3881,16 @@
             [
                 "FreeBSD",
                 "9"
+            ]
+        ],
+        "1.4.35": [
+            [
+                "Fedora",
+                "rawhide"
+            ],
+            [
+                "Debian GNU/Linux",
+                "unstable"
             ]
         ]
     },
@@ -4655,7 +4655,13 @@
                 "9"
             ]
         ],
-        "1.4.5": [
+        "1.4.6": [
+            [
+                "Ubuntu",
+                "snapshot"
+            ]
+        ],
+        "1.4.7": [
             [
                 "Fedora",
                 "rawhide"
@@ -5381,6 +5387,16 @@
                 "9.2"
             ]
         ],
+        "5.5.10": [
+            [
+                "Fedora",
+                "rawhide"
+            ],
+            [
+                "openSUSE",
+                "factory"
+            ]
+        ],
         "5.5.3": [
             [
                 "Ubuntu",
@@ -5395,10 +5411,6 @@
         ],
         "5.5.9": [
             [
-                "Fedora",
-                "rawhide"
-            ],
-            [
                 "Debian GNU/Linux",
                 "unstable"
             ],
@@ -5409,10 +5421,6 @@
             [
                 "Ubuntu",
                 "snapshot"
-            ],
-            [
-                "openSUSE",
-                "factory"
             ]
         ]
     },
@@ -5721,12 +5729,6 @@
                 "rawhide"
             ]
         ],
-        "4.0.10": [
-            [
-                "Debian GNU/Linux",
-                "testing"
-            ]
-        ],
         "4.0.4.1": [
             [
                 "OpenBSD",
@@ -5739,10 +5741,16 @@
                 "9.2"
             ]
         ],
-        "4.1.8": [
+        "4.1.11": [
             [
                 "Debian GNU/Linux",
                 "unstable"
+            ]
+        ],
+        "4.1.9": [
+            [
+                "Debian GNU/Linux",
+                "testing"
             ]
         ]
     }
