@@ -13,5 +13,5 @@
 		"url": "/static/admin/css/base.css",
 		"string": "    DJANGO Admin styles",
 		"output": ""
-	},
+	}
 ]
