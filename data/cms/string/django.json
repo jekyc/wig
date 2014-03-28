@@ -1,0 +1,17 @@
+[
+	{
+		"url": "/admin/",
+		"string": "<h1 id=\"site-name\">Django administration</h1>",
+		"output": ""
+	},
+	{
+		"url": "/",
+		"string": "name='csrfmiddlewaretoken'",
+		"output": ""
+	},
+	{
+		"url": "/static/admin/css/base.css",
+		"string": "    DJANGO Admin styles",
+		"output": ""
+	},
+]
