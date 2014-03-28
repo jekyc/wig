@@ -1,5 +1,5 @@
 __all__ = [
-",cakephp.py",
+"cakephp.py",
 "concrete5.py",
 "demandware.py",
 "django.py",
