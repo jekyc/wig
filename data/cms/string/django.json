@@ -2,16 +2,19 @@
 	{
 		"url": "/admin/",
 		"string": "<h1 id=\"site-name\">Django administration</h1>",
-		"output": ""
+		"output": "",
+		"weight": 0.1
 	},
 	{
 		"url": "/",
 		"string": "name='csrfmiddlewaretoken'",
-		"output": ""
+		"output": "",
+		"weight": 0.1
 	},
 	{
 		"url": "/static/admin/css/base.css",
 		"string": "    DJANGO Admin styles",
-		"output": ""
+		"output": "",
+		"weight": 0.1
 	}
 ]
