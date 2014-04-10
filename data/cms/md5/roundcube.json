@@ -55,6 +55,26 @@
           "url": "/program/js/app.js"
      },
      {
+          "md5": "a77af1662e2eee5d9c5d6790fc4310a4",
+          "output": "1.0.0",
+          "url": "/skins/larry/images/roundcube_logo.png"
+     },
+     {
+          "md5": "73180b8f78ac0801f550323d839944ab",
+          "output": "1.0.0",
+          "url": "/program/js/list.js"
+     },
+     {
+          "md5": "1701088840391f9d65d67fac63e7ed8d",
+          "output": "1.0.0",
+          "url": "/program/js/common.js"
+     },
+     {
+          "md5": "0e507b92c262e456dc89376ef59a0948",
+          "output": "1.0.0",
+          "url": "/program/js/app.js"
+     },
+     {
           "md5": "64b2855eff0d751d2f9b0d4565bea7d5",
           "output": "v0.1-beta2",
           "url": "/program/js/common.js"

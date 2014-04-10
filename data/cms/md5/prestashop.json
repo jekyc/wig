@@ -588,5 +588,30 @@
           "md5": "ef63598dd6a1819685ac9b9070013fbc",
           "output": "1.6.0.5",
           "url": "/themes/default-bootstrap/css/global.css"
+     },
+     {
+          "md5": "e0c68c1abb691e9aa25604d47181b654",
+          "output": "1.6.0.6",
+          "url": "/img/logo.jpg"
+     },
+     {
+          "md5": "040efcb82656e6642b57808564f04b83",
+          "output": "1.6.0.6",
+          "url": "/js/admin.js"
+     },
+     {
+          "md5": "663484fe13d01f38d1fd3b7851788cc4",
+          "output": "1.6.0.6",
+          "url": "/js/price.js"
+     },
+     {
+          "md5": "c8830faf1c083f4cf976690eea090c5e",
+          "output": "1.6.0.6",
+          "url": "/js/admin-dnd.js"
+     },
+     {
+          "md5": "5774d78fa1a2a9fedd7d5507839fa700",
+          "output": "1.6.0.6",
+          "url": "/themes/default-bootstrap/css/global.css"
      }
 ]

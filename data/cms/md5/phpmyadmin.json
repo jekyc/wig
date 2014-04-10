@@ -5048,5 +5048,25 @@
           "md5": "93c9e7c456413416ae5acdeeb23bb069",
           "output": "RELEASE_4_1_9",
           "url": "/js/functions.js"
+     },
+     {
+          "md5": "d037ef2f629a22ddadcf438e6be7a325",
+          "output": "RELEASE_4_2_0ALPHA1",
+          "url": "/favicon.ico"
+     },
+     {
+          "md5": "4224681843d7eac256344a893af572c5",
+          "output": "RELEASE_4_2_0ALPHA1",
+          "url": "/themes/pmahomme/img/pmd/favicon.ico"
+     },
+     {
+          "md5": "c95465f33822980689a2d1ee1350d13b",
+          "output": "RELEASE_4_2_0ALPHA1",
+          "url": "/themes/original/img/logo_left.png"
+     },
+     {
+          "md5": "3624514b51f4727895ce39699b0f2fc7",
+          "output": "RELEASE_4_2_0ALPHA1",
+          "url": "/js/functions.js"
      }
 ]

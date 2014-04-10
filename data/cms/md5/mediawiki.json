@@ -2151,6 +2151,46 @@
      },
      {
           "md5": "23382881a94125ffb6fff355a0ecce52",
+          "output": "1.19.15",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "17d650209f4d26c8d66b3b105646466b",
+          "output": "1.19.15",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "73ef43bbf05ec7ccc42b8e28a9e57769",
+          "output": "1.19.15",
+          "url": "/skins/modern/main.css"
+     },
+     {
+          "md5": "d8378da0859c5486b65d8c694cc3eb1d",
+          "output": "1.19.15",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "d6e0a903d3f7e889a54af9378d527a80",
+          "output": "1.19.15",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "f1df6310a5b32aea068f5b805228f195",
+          "output": "1.19.15",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "bf5453f38f7dd959081dfb3aab5bcfd9",
+          "output": "1.19.15",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "9657bd5d71d2e22586b9feb21898c95c",
+          "output": "1.19.15",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "23382881a94125ffb6fff355a0ecce52",
           "output": "1.19.2",
           "url": "/skins/common/images/spinner.gif"
      },
