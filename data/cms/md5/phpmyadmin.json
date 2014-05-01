@@ -4911,6 +4911,26 @@
      },
      {
           "md5": "d037ef2f629a22ddadcf438e6be7a325",
+          "output": "RELEASE_4_1_14",
+          "url": "/favicon.ico"
+     },
+     {
+          "md5": "4224681843d7eac256344a893af572c5",
+          "output": "RELEASE_4_1_14",
+          "url": "/themes/pmahomme/img/pmd/favicon.ico"
+     },
+     {
+          "md5": "c95465f33822980689a2d1ee1350d13b",
+          "output": "RELEASE_4_1_14",
+          "url": "/themes/original/img/logo_left.png"
+     },
+     {
+          "md5": "216436221a0a7d948f7d82572d9a5242",
+          "output": "RELEASE_4_1_14",
+          "url": "/js/functions.js"
+     },
+     {
+          "md5": "d037ef2f629a22ddadcf438e6be7a325",
           "output": "RELEASE_4_1_2",
           "url": "/favicon.ico"
      },
@@ -5127,6 +5147,26 @@
      {
           "md5": "e42c402c28ec4b63c0d8b80f741746ab",
           "output": "RELEASE_4_2_0BETA1",
+          "url": "/js/functions.js"
+     },
+     {
+          "md5": "d037ef2f629a22ddadcf438e6be7a325",
+          "output": "RELEASE_4_2_0RC1",
+          "url": "/favicon.ico"
+     },
+     {
+          "md5": "4224681843d7eac256344a893af572c5",
+          "output": "RELEASE_4_2_0RC1",
+          "url": "/themes/pmahomme/img/pmd/favicon.ico"
+     },
+     {
+          "md5": "c95465f33822980689a2d1ee1350d13b",
+          "output": "RELEASE_4_2_0RC1",
+          "url": "/themes/original/img/logo_left.png"
+     },
+     {
+          "md5": "e42c402c28ec4b63c0d8b80f741746ab",
+          "output": "RELEASE_4_2_0RC1",
           "url": "/js/functions.js"
      }
 ]

@@ -521,6 +521,56 @@
      },
      {
           "md5": "945207d601c47616034211c20cf581ba",
+          "output": "release-6.2.0",
+          "url": "/umbraco_client/ui/default.css"
+     },
+     {
+          "md5": "6df1d259a1e3c670f7099b101758ae89",
+          "output": "release-6.2.0",
+          "url": "/umbraco/js/guiFunctions.js"
+     },
+     {
+          "md5": "c438194cca07c2012183afb8713b2d5b",
+          "output": "release-6.2.0",
+          "url": "/umbraco/css/permissionsEditor.css"
+     },
+     {
+          "md5": "ea2a85d652f50a98b09522c4861205ac",
+          "output": "release-6.2.0",
+          "url": "/umbraco/Search/quickSearch.js"
+     },
+     {
+          "md5": "3a123aef72a352d3683caa41b4def327",
+          "output": "release-6.2.0",
+          "url": "/umbraco_client/Application/HistoryManager.js"
+     },
+     {
+          "md5": "c68f601336eff749bea47a4eeb4704e9",
+          "output": "release-6.2.0",
+          "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
+     },
+     {
+          "md5": "e8d7ed4630b7d3a3d97f04d3beaa6f19",
+          "output": "release-6.2.0",
+          "url": "/umbraco_client/passwordStrength/passwordstrength.js"
+     },
+     {
+          "md5": "5a318277fedf491a0301e177a9ef10b3",
+          "output": "release-6.2.0",
+          "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
+     },
+     {
+          "md5": "7712db366b8475ee047c54f54ffe8194",
+          "output": "release-6.2.0",
+          "url": "/umbraco_client/Panel/style.css"
+     },
+     {
+          "md5": "d383fa82fe7953ab6eb9db7400e9f166",
+          "output": "release-6.2.0",
+          "url": "/umbraco/dashboard/images/logo32x32.png"
+     },
+     {
+          "md5": "945207d601c47616034211c20cf581ba",
           "output": "release-6.2.0-beta",
           "url": "/umbraco_client/ui/default.css"
      },

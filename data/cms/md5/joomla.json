@@ -970,6 +970,56 @@
           "url": "/README.txt"
      },
      {
+          "md5": "6a7e0111d7a6cd19d56607f3113b8d27",
+          "output": "2.5.20",
+          "url": "/administrator/templates/hathor/css/template.css"
+     },
+     {
+          "md5": "c44a6d6a50c888f879009d62bff52e4f",
+          "output": "2.5.20",
+          "url": "/administrator/templates/hathor/css/colour_brown.css"
+     },
+     {
+          "md5": "b2d14e621570ad477127237230bd4c97",
+          "output": "2.5.20",
+          "url": "/templates/system/css/toolbar.css"
+     },
+     {
+          "md5": "dfff4ae25b1554dee9222adec5d379ff",
+          "output": "2.5.20",
+          "url": "/templates/system/css/editor.css"
+     },
+     {
+          "md5": "98bd98ba330eaa59c3c1ef6eb73d5387",
+          "output": "2.5.20",
+          "url": "/language/en-GB/en-GB.ini"
+     },
+     {
+          "md5": "67f9f7c8f500c6e761fd7ffb361d0518",
+          "output": "2.5.20",
+          "url": "/plugins/editors/tinymce/tinymce.xml"
+     },
+     {
+          "md5": "d98624050643741215c0b7f46e0488e9",
+          "output": "2.5.20",
+          "url": "/administrator/language/en-GB/en-GB.ini"
+     },
+     {
+          "md5": "85d4239effad283068b7622b40fe6e52",
+          "output": "2.5.20",
+          "url": "/media/system/js/core-uncompressed.js"
+     },
+     {
+          "md5": "6b70640ee71a267970319f0e151e509d",
+          "output": "2.5.20",
+          "url": "/media/cms/css/debug.css"
+     },
+     {
+          "md5": "3b864e689c874f971d155962aed68b13",
+          "output": "2.5.20",
+          "url": "/README.txt"
+     },
+     {
           "md5": "751518a090c1a88551359b40ed5e6183",
           "output": "2.5.3",
           "url": "/administrator/templates/hathor/css/template.css"
@@ -2911,6 +2961,116 @@
      },
      {
           "md5": "a9000238782f03b89b8407eeecdf5895",
+          "output": "3.2.4",
+          "url": "/administrator/templates/isis/css/template.css"
+     },
+     {
+          "md5": "ac9a6e97c1ea4f59b4b2c15480ccbd9b",
+          "output": "3.2.4",
+          "url": "/administrator/templates/hathor/css/template.css"
+     },
+     {
+          "md5": "3c6762fcf993f7334e7783bf242b0f53",
+          "output": "3.2.4",
+          "url": "/administrator/templates/hathor/css/colour_brown.css"
+     },
+     {
+          "md5": "b2d14e621570ad477127237230bd4c97",
+          "output": "3.2.4",
+          "url": "/templates/system/css/toolbar.css"
+     },
+     {
+          "md5": "dfff4ae25b1554dee9222adec5d379ff",
+          "output": "3.2.4",
+          "url": "/templates/system/css/editor.css"
+     },
+     {
+          "md5": "63667a0e5ec6b17d2281e8e182006b68",
+          "output": "3.2.4",
+          "url": "/language/en-GB/en-GB.ini"
+     },
+     {
+          "md5": "e34650197ac2f1928bf8cd4b98d98b9a",
+          "output": "3.2.4",
+          "url": "/plugins/editors/tinymce/tinymce.xml"
+     },
+     {
+          "md5": "bf180afcb1dc6555f69c6046659c78ed",
+          "output": "3.2.4",
+          "url": "/administrator/language/en-GB/en-GB.ini"
+     },
+     {
+          "md5": "330c756e869effda3c1d6c520cb6b450",
+          "output": "3.2.4",
+          "url": "/media/system/js/core-uncompressed.js"
+     },
+     {
+          "md5": "d881f0016581c6169b2ab070c012ffc2",
+          "output": "3.2.4",
+          "url": "/media/cms/css/debug.css"
+     },
+     {
+          "md5": "38c0d678594014287223dfb4d9771830",
+          "output": "3.2.4",
+          "url": "/README.txt"
+     },
+     {
+          "md5": "a9000238782f03b89b8407eeecdf5895",
+          "output": "3.3.0",
+          "url": "/administrator/templates/isis/css/template.css"
+     },
+     {
+          "md5": "dcf6f37f10fbf1d6101ee51eb46113be",
+          "output": "3.3.0",
+          "url": "/administrator/templates/hathor/css/template.css"
+     },
+     {
+          "md5": "3c6762fcf993f7334e7783bf242b0f53",
+          "output": "3.3.0",
+          "url": "/administrator/templates/hathor/css/colour_brown.css"
+     },
+     {
+          "md5": "b2d14e621570ad477127237230bd4c97",
+          "output": "3.3.0",
+          "url": "/templates/system/css/toolbar.css"
+     },
+     {
+          "md5": "dfff4ae25b1554dee9222adec5d379ff",
+          "output": "3.3.0",
+          "url": "/templates/system/css/editor.css"
+     },
+     {
+          "md5": "f7c5f0bea7dcb698e7ad958091982e75",
+          "output": "3.3.0",
+          "url": "/language/en-GB/en-GB.ini"
+     },
+     {
+          "md5": "e34650197ac2f1928bf8cd4b98d98b9a",
+          "output": "3.3.0",
+          "url": "/plugins/editors/tinymce/tinymce.xml"
+     },
+     {
+          "md5": "0726eeb255f1d305356336d8ea4beffb",
+          "output": "3.3.0",
+          "url": "/administrator/language/en-GB/en-GB.ini"
+     },
+     {
+          "md5": "ceaf02f4471378de449c59a27e1098ca",
+          "output": "3.3.0",
+          "url": "/media/system/js/core-uncompressed.js"
+     },
+     {
+          "md5": "d881f0016581c6169b2ab070c012ffc2",
+          "output": "3.3.0",
+          "url": "/media/cms/css/debug.css"
+     },
+     {
+          "md5": "38c0d678594014287223dfb4d9771830",
+          "output": "3.3.0",
+          "url": "/README.txt"
+     },
+     {
+          "md5": "a9000238782f03b89b8407eeecdf5895",
           "output": "3.3.0.beta",
           "url": "/administrator/templates/isis/css/template.css"
      },
@@ -3017,6 +3177,61 @@
      {
           "md5": "38c0d678594014287223dfb4d9771830",
           "output": "3.3.0.beta2",
+          "url": "/README.txt"
+     },
+     {
+          "md5": "a9000238782f03b89b8407eeecdf5895",
+          "output": "3.3.0.rc",
+          "url": "/administrator/templates/isis/css/template.css"
+     },
+     {
+          "md5": "dcf6f37f10fbf1d6101ee51eb46113be",
+          "output": "3.3.0.rc",
+          "url": "/administrator/templates/hathor/css/template.css"
+     },
+     {
+          "md5": "3c6762fcf993f7334e7783bf242b0f53",
+          "output": "3.3.0.rc",
+          "url": "/administrator/templates/hathor/css/colour_brown.css"
+     },
+     {
+          "md5": "b2d14e621570ad477127237230bd4c97",
+          "output": "3.3.0.rc",
+          "url": "/templates/system/css/toolbar.css"
+     },
+     {
+          "md5": "dfff4ae25b1554dee9222adec5d379ff",
+          "output": "3.3.0.rc",
+          "url": "/templates/system/css/editor.css"
+     },
+     {
+          "md5": "f7c5f0bea7dcb698e7ad958091982e75",
+          "output": "3.3.0.rc",
+          "url": "/language/en-GB/en-GB.ini"
+     },
+     {
+          "md5": "e34650197ac2f1928bf8cd4b98d98b9a",
+          "output": "3.3.0.rc",
+          "url": "/plugins/editors/tinymce/tinymce.xml"
+     },
+     {
+          "md5": "0726eeb255f1d305356336d8ea4beffb",
+          "output": "3.3.0.rc",
+          "url": "/administrator/language/en-GB/en-GB.ini"
+     },
+     {
+          "md5": "ceaf02f4471378de449c59a27e1098ca",
+          "output": "3.3.0.rc",
+          "url": "/media/system/js/core-uncompressed.js"
+     },
+     {
+          "md5": "d881f0016581c6169b2ab070c012ffc2",
+          "output": "3.3.0.rc",
+          "url": "/media/cms/css/debug.css"
+     },
+     {
+          "md5": "38c0d678594014287223dfb4d9771830",
+          "output": "3.3.0.rc",
           "url": "/README.txt"
      },
      {

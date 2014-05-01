@@ -568,5 +568,25 @@
           "md5": "52f27b90761f90ccd45c27dac7b9efa3",
           "output": "mybb_1612",
           "url": "/jscripts/editor.js"
+     },
+     {
+          "md5": "7332351b160ef8b2222853c2848e25a6",
+          "output": "mybb_1613",
+          "url": "/admin/styles/default/forum.css"
+     },
+     {
+          "md5": "dc00f68444d6804dcc3b60291c0bbffb",
+          "output": "mybb_1613",
+          "url": "/admin/styles/sharepoint/main.css"
+     },
+     {
+          "md5": "22c6f9c09d758ff032a03cd491ae481b",
+          "output": "mybb_1613",
+          "url": "/jscripts/post.js"
+     },
+     {
+          "md5": "52f27b90761f90ccd45c27dac7b9efa3",
+          "output": "mybb_1613",
+          "url": "/jscripts/editor.js"
      }
 ]
