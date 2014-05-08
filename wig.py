@@ -114,7 +114,7 @@ if __name__ == '__main__':
 		default=4, 
 		choices=[1,2,4],
 		dest='profile',
-		help='select a profile: 1) Make only one request - 2) Make one request per plugin - 4) All')
+		help='select a profile: 1) Make only one request - 2) Make one request per plugin - 4) All (default)')
 	
 
 	args = parser.parse_args()
