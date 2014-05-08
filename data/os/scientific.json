@@ -1,0 +1,186 @@
+{
+    "apache-tomcat": {
+        "5.5.23": [
+            [
+                "Scientific Linux",
+                "5.10"
+            ]
+        ],
+        "6.0.24": [
+            [
+                "Scientific Linux",
+                "6.5"
+            ]
+        ]
+    },
+    "httpd": {
+        "2.0.46": [
+            [
+                "Scientific Linux",
+                "3.0.9"
+            ]
+        ],
+        "2.0.52": [
+            [
+                "Scientific Linux",
+                "4.8"
+            ]
+        ],
+        "2.2.15": [
+            [
+                "Scientific Linux",
+                "6.5"
+            ]
+        ],
+        "2.2.3": [
+            [
+                "Scientific Linux",
+                "5.10"
+            ]
+        ]
+    },
+    "mod_perl": {
+        "1.99_09": [
+            [
+                "Scientific Linux",
+                "3.0.9"
+            ]
+        ],
+        "1.99_16": [
+            [
+                "Scientific Linux",
+                "4.8"
+            ]
+        ],
+        "2.0.4": [
+            [
+                "Scientific Linux",
+                "6.5"
+            ],
+            [
+                "Scientific Linux",
+                "5.10"
+            ]
+        ]
+    },
+    "openssl": {
+        "0.9.7a": [
+            [
+                "Scientific Linux",
+                "4.8"
+            ],
+            [
+                "Scientific Linux",
+                "3.0.9"
+            ]
+        ],
+        "0.9.8b": [
+            [
+                "Scientific Linux",
+                "5.10"
+            ]
+        ],
+        "1.0.0": [
+            [
+                "Scientific Linux",
+                "6.5"
+            ]
+        ]
+    },
+    "perl": {
+        "5.10.1": [
+            [
+                "Scientific Linux",
+                "6.5"
+            ]
+        ],
+        "5.8.0": [
+            [
+                "Scientific Linux",
+                "3.0.9"
+            ]
+        ],
+        "5.8.5": [
+            [
+                "Scientific Linux",
+                "4.8"
+            ]
+        ],
+        "5.8.8": [
+            [
+                "Scientific Linux",
+                "5.10"
+            ]
+        ]
+    },
+    "php": {
+        "4.3.2": [
+            [
+                "Scientific Linux",
+                "3.0.9"
+            ]
+        ],
+        "4.3.9": [
+            [
+                "Scientific Linux",
+                "4.8"
+            ]
+        ],
+        "5.1.6": [
+            [
+                "Scientific Linux",
+                "5.10"
+            ]
+        ],
+        "5.3.3": [
+            [
+                "Scientific Linux",
+                "6.5"
+            ]
+        ]
+    },
+    "ruby": {
+        "1.6.8": [
+            [
+                "Scientific Linux",
+                "3.0.9"
+            ]
+        ],
+        "1.8.1": [
+            [
+                "Scientific Linux",
+                "4.8"
+            ]
+        ],
+        "1.8.5": [
+            [
+                "Scientific Linux",
+                "5.10"
+            ]
+        ],
+        "1.8.7-p352": [
+            [
+                "Scientific Linux",
+                "6.5"
+            ]
+        ]
+    },
+    "subversion": {
+        "1.1.4": [
+            [
+                "Scientific Linux",
+                "4.8"
+            ]
+        ],
+        "1.6.11": [
+            [
+                "Scientific Linux",
+                "6.5"
+            ],
+            [
+                "Scientific Linux",
+                "5.10"
+            ]
+        ]
+    }
+}
