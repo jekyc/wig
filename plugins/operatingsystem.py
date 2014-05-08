@@ -4,17 +4,27 @@ import json
 
 class OperatingSystem(Plugin):
 
-	def __init__(self, data_file, cache, results):
+	def __init__(self, cache, results):
 		super().__init__(results)
 		self.cache = cache
 		self.results = results
 
-		self.data_file = data_file
 		self.category = "Operating System"
 		self.os = Counter()
 		self.packages = Counter()
 		self.oss = []
 		self.use_profile = False
+		self.os_files = [
+			'data/os/centos.json',
+			'data/os/debian.json',
+			'data/os/fedora.json',
+			'data/os/freebsd.json',
+			'data/os/openbsd.json',
+			'data/os/opensuse.json',
+			'data/os/redhat.json',
+			'data/os/scientific.json',
+			'data/os/ubuntu.json'
+		]
 
 
 	def load_extra_data(self, extra_file):
@@ -123,9 +133,13 @@ class OperatingSystem(Plugin):
 		
 
 	def run(self):
+
+		# load all fingerprints
+		self.data_file = 'data/os/os_fingerprints_static.json'
 		self.load_data()
-		self.load_extra_data("data/os/os_fingerprints_static.json")
-		self.load_extra_data("data/os/ubuntu.json")
+		for os_file in self.os_files:
+			self.load_extra_data(os_file)
+	
 		self.db = self.get_all_items()
 
 		responses = self.cache.get_responses()
@@ -137,5 +151,5 @@ class OperatingSystem(Plugin):
 
 def get_instances(host, cache, results):
 	return [
-		OperatingSystem("data/os/os_fingerprints.json", cache, results)
+		OperatingSystem(cache, results)
 	]
