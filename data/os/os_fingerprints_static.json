@@ -51,7 +51,13 @@
                 "Microsoft Windows Server",
                 "2012"
             ]
-        ]
+        ],
+        "8.5": [
+            [
+                "Microsoft Windows Server",
+                "2012 R2"
+            ]
+        ]     
     },
     "Microsoft-HTTPAPI": {
         "2.0": [

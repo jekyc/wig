@@ -2,6 +2,27 @@ from classes.matcher import Match
 import re
 
 
+class DesperateMatcher(Match):
+	# Desperate mode matcher
+	# search the cache for requests that match any of the fingerprints 
+	# in the supplied MD5 database 'fingerprints' 
+	def __init__(self, cache, fingerprints):
+		self.cache = cache
+		self.fingerprints = fingerprints
+
+	def get_matches(self):
+		matches = []
+		
+		# iterate over the requests in the cache
+		for item in self.cache.get_responses():
+			for fp in self.fingerprints:
+
+				if item.md5 == fp['md5']:
+					matches.append(fp)
+		
+		return matches
+
+
 class MD5Matcher(Match):
 	def __init__(self, requested, check_for_error_page=False):
 		self.requested = requested

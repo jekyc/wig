@@ -7,7 +7,7 @@ class Results(object):
 		self.width = None
 		self.color = Color()
 		self.results = defaultdict(lambda: defaultdict(lambda: defaultdict(float)))
-		#              ^Category   ^Plugin     ^Version    ^weight  
+		#              ^Category           ^Plugin             ^Version    ^weight  
 
 	def add(self, category, plugin, data, weight=False):
 		v = data['version']
@@ -51,7 +51,11 @@ class Results(object):
 				# pick only the first(s) element
 				relevant = []
 				for i in versions:
-					if i[1] == versions[0][1]:
+					# ugly temp hack
+					if category == 'Desperate':
+						relevant.append(i[0])
+
+					elif i[1] == versions[0][1]:
 
 						# do not append blank output strings
 						if len(relevant) > 0  and i[0] == "":
@@ -59,7 +63,7 @@ class Results(object):
 
 						relevant.append(i[0])
 					else:
-						break
+						break	
 
 				plug_str = "%s: " % (plugin, )
 				ver_str =  ", ".join(relevant)

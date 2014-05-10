@@ -3,16 +3,18 @@ class Profile(object):
 
 	def __init__(self, profile):
 		self.profiles = {
-			1: self.one_request,
-			2: self.one_request_per_plugin,
-			#'3': self.one_plugin,
-			4: self.default
+			1: {'name': 'OnlyOne',		'method': self.one_request},
+			2: {'name': 'OnePerPlugin',	'method': self.one_request_per_plugin},
+			#3: {'name': 'OnePlugin',	'method': self.one_plugin},
+			4: {'name': 'All',			'method': self.default},
 		}
 
 		if profile in self.profiles:
-			self.profile = self.profiles[profile]
+			self.name = self.profiles[profile]['name']
+			self.profile = self.profiles[profile]['method']
 		else:
-			self.profile = self.profiles['4']
+			self.name = self.profiles[4]['name']
+			self.profile = self.profiles[4]['method']
 
 
 	def apply(self, items):

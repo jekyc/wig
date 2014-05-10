@@ -28,6 +28,7 @@ class Plugin(object):
 
 		# should the plugin be affected by the profile chosen
 		self.use_profile = True
+		self.profile = ''
 
 		# log object 
 		self.log = defaultdict(lambda: defaultdict(set))
@@ -71,6 +72,22 @@ class Plugin(object):
 
 	def get_all_items(self):
 		return self.__items
+
+	def get_items_for_desperate_mode(self):
+		# create a list of items to be used with desperate mode
+		# only use md5 sums
+		# {'md5': 123..., 'output': '1.2.3', 'cms': 'Wordpress'}
+
+		desperate = []
+		for i in self.__items:
+			if 'md5' in i:
+				desperate.append({
+					'md5':		i['md5'],
+					'output':	i['output'],
+					'cms':		self.name
+				})
+
+		return desperate
 
 	def get_num_fps(self):
 		return len(self.__items)
