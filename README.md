@@ -17,11 +17,14 @@ There are currently three profiles:
 
 **4. All fingerprints:** All fingerprints are tested
 
+wig also has an option to fetch ressources it encounters during a scan, and compare the md5 sums of the ressources to all the fingerprints in its database.
+This option is call 'Desperate' and can be enabled with the flag '-d'. This will generate more false positives, but can be better at identifying the technologies used on the site.
+
 
 **Help screen:**
 ```
-# wig.py --help
-usage: wig.py [-h] [-v] [-p {1,2,4}] host
+$ python3 wig.py -h
+usage: wig.py [-h] [-v] [-d] [-p {1,2,4}] host
 
 WebApp Information Gatherer
 
@@ -31,8 +34,10 @@ positional arguments:
 optional arguments:
   -h, --help  show this help message and exit
   -v          list all the urls where matches have been found
-  -p {1,2,4}  select a profile: 1) Make only one request - 2) Make one request
-              per plugin - 4) All
+  -d          Desperate mode - crawl pages fetched for additional ressource
+              and try to match all fingerprints.
+  -p {1,2,4}  select a profile: 1) Make only one request 2) Make one request
+              per plugin 4) All (default)
 ```
 
 **Example of run:**
@@ -40,18 +45,18 @@ optional arguments:
 ```
 # python3 wig.py www.example.com
                                                                             
-___ CMS ______________________________________________________
-Sitecore: 7.0. (rev. 130424)
+___ CMS _____________________________________________________
+Sitecore: 7.2 (rev. 140314)
 
-___ Operating System _________________________________________
-Microsoft Windows Server: 2008 R2
+___ Operating System ________________________________________
+Microsoft Windows Server: 2012 R2
 
-___ Server Info ______________________________________________
+___ Server Info _____________________________________________
 ASP.NET: 4.0.30319
-Microsoft-IIS: 7.5
+Microsoft-IIS: 8.5
 
-______________________________________________________________
-Time: 36.4 sec | Plugins: 66 | Urls: 386 | Fingerprints: 16805
+_____________________________________________________________
+Time: 2.3 sec | Plugins: 70 | Urls: 405 | Fingerprints: 17953
 ```
 
 **Requirements:**
