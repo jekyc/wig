@@ -16,13 +16,15 @@ class Wig():
 		self.plugins = self.load_plugins()
 		self.host = host
 		self.results = Results()
-		self.cache = Cache()
+		self.cache = Cache()		
 		self.profile = Profile(profile)
-		self.check_url()
-		self.redirect()
 		self.colorizer = Color()
 		self.logs = Log()
 		self.verbose = verbose
+
+		self.check_url()
+		self.redirect()
+		self.cache.set_host(self.host)
 
 		if desperate:
 			self.desperate = Desperate()
@@ -99,15 +101,14 @@ class Wig():
 				self.logs.add( p.get_logs() )
 
 
-		run_time = "%.1f" % (time.time() - t)
-		num_urls = self.cache.get_num_urls()
-
 		if self.desperate:
 			self.desperate.set_cache(self.cache)
 			self.desperate.run()
 			for i in self.desperate.get_matches():
 				self.results.add('Desperate', i['cms'], i, i['count'])
 
+		run_time = "%.1f" % (time.time() - t)
+		num_urls = self.cache.get_num_urls()
 
 		status = "Time: %s sec | Plugins: %s | Urls: %s | Fingerprints: %s" % (run_time, num_plugins, num_urls, num_fps)
 		bar = "_"*len(status)
