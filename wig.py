@@ -127,7 +127,7 @@ if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description='WebApp Information Gatherer')
 	parser.add_argument('host', type=str,	help='the host name of the target')
 	parser.add_argument('-v', action="store_const", dest="loglevel",  const=True, help="list all the urls where matches have been found")
-	parser.add_argument('-d', action="store_const", dest="desperate", const=True, help="Desperate mode - this will try to match fingerprints across plugins. Can generate false positives")
+	parser.add_argument('-d', action="store_const", dest="desperate", const=True, help="Desperate mode - crawl pages fetched for additional ressource and try to match all fingerprints. ")
 
 	parser.add_argument('-p',
 		type=int,
