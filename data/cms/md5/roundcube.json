@@ -75,6 +75,26 @@
           "url": "/program/js/app.js"
      },
      {
+          "md5": "a77af1662e2eee5d9c5d6790fc4310a4",
+          "output": "1.0.1",
+          "url": "/skins/larry/images/roundcube_logo.png"
+     },
+     {
+          "md5": "d2710ac78576e08073905324bc96cbf0",
+          "output": "1.0.1",
+          "url": "/program/js/list.js"
+     },
+     {
+          "md5": "9baeb0af87b0b23a6a8763a7abd68cc1",
+          "output": "1.0.1",
+          "url": "/program/js/common.js"
+     },
+     {
+          "md5": "e6445fde1a759d2b1b887eded6fda69b",
+          "output": "1.0.1",
+          "url": "/program/js/app.js"
+     },
+     {
           "md5": "64b2855eff0d751d2f9b0d4565bea7d5",
           "output": "v0.1-beta2",
           "url": "/program/js/common.js"
