@@ -3951,6 +3951,46 @@
      },
      {
           "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "1.23.0",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "e308af0d619e11b1a9c083ed1029d2fc",
+          "output": "1.23.0",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "aa3a249009c85a16f387235da00a589e",
+          "output": "1.23.0",
+          "url": "/skins/modern/main.css"
+     },
+     {
+          "md5": "838181dd9a1ce3c9e4d50a29a9945f5e",
+          "output": "1.23.0",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "ba1c96cf774fbc90342cb0683198cfc7",
+          "output": "1.23.0",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "7572703384f90a06c0c2a58fc5543463",
+          "output": "1.23.0",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "601a868ac3a69111d9df64a1b5304772",
+          "output": "1.23.0",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "f3e93f284ec1c4981a9a789f17fb11cd",
+          "output": "1.23.0",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
           "output": "1.23.0-rc.1",
           "url": "/skins/common/images/spinner.gif"
      },
@@ -4027,6 +4067,46 @@
      {
           "md5": "f3e93f284ec1c4981a9a789f17fb11cd",
           "output": "1.23.0-rc.2",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "1.23.0-rc.3",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "e308af0d619e11b1a9c083ed1029d2fc",
+          "output": "1.23.0-rc.3",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "aa3a249009c85a16f387235da00a589e",
+          "output": "1.23.0-rc.3",
+          "url": "/skins/modern/main.css"
+     },
+     {
+          "md5": "838181dd9a1ce3c9e4d50a29a9945f5e",
+          "output": "1.23.0-rc.3",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "ba1c96cf774fbc90342cb0683198cfc7",
+          "output": "1.23.0-rc.3",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "7572703384f90a06c0c2a58fc5543463",
+          "output": "1.23.0-rc.3",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "601a868ac3a69111d9df64a1b5304772",
+          "output": "1.23.0-rc.3",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "f3e93f284ec1c4981a9a789f17fb11cd",
+          "output": "1.23.0-rc.3",
           "url": "/skins/vector/vector.js"
      },
      {

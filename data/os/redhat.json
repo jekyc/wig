@@ -15,7 +15,7 @@
         "7.0.42": [
             [
                 "Red Hat Enterprise Linux",
-                "RHEL-7.0RC"
+                "RHEL-7.0"
             ]
         ]
     },
@@ -57,7 +57,7 @@
         "2.4.6": [
             [
                 "Red Hat Enterprise Linux",
-                "RHEL-7.0RC"
+                "RHEL-7.0"
             ]
         ]
     },
@@ -205,7 +205,7 @@
         "1.0.1e": [
             [
                 "Red Hat Enterprise Linux",
-                "RHEL-7.0RC"
+                "RHEL-7.0"
             ],
             [
                 "Red Hat Enterprise Linux",
@@ -229,7 +229,7 @@
         "5.16.3": [
             [
                 "Red Hat Enterprise Linux",
-                "RHEL-7.0RC"
+                "RHEL-7.0"
             ]
         ],
         "5.4.0": [
@@ -391,7 +391,7 @@
         "5.4.16": [
             [
                 "Red Hat Enterprise Linux",
-                "RHEL-7.0RC"
+                "RHEL-7.0"
             ]
         ]
     },
@@ -447,7 +447,7 @@
         "2.0.0-p353": [
             [
                 "Red Hat Enterprise Linux",
-                "RHEL-7.0RC"
+                "RHEL-7.0"
             ]
         ]
     },
@@ -477,7 +477,7 @@
         "1.7.14": [
             [
                 "Red Hat Enterprise Linux",
-                "RHEL-7.0RC"
+                "RHEL-7.0"
             ]
         ]
     }
