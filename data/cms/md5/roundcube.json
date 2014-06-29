@@ -60,6 +60,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "b78c840de22c3fafdad9c0c94172d4d5",
+          "output": "0.7.4",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "e577ed0884361d0dcbb4ef2ea58e28dd",
           "output": "0.8.6",
           "url": "/plugins/acl/acl.js"
@@ -505,6 +510,11 @@
           "url": "/program/js/googiespell.js"
      },
      {
+          "md5": "cc8269ed374ef6ffd2bef8f3562d5c5e",
+          "output": "v0.1-beta2",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "c8894f936d5267106a163068a5735ca9",
           "output": "v0.1-rc1",
           "url": "/program/js/app.js"
@@ -525,6 +535,11 @@
           "url": "/program/js/list.js"
      },
      {
+          "md5": "6ba1049371a39c60676cc54f902a88e6",
+          "output": "v0.1-rc1",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "c8894f936d5267106a163068a5735ca9",
           "output": "v0.1-rc1@582",
           "url": "/program/js/app.js"
@@ -543,6 +558,11 @@
           "md5": "7ec2d4d4a8b993921b49c41ff74210ff",
           "output": "v0.1-rc1@582",
           "url": "/program/js/list.js"
+     },
+     {
+          "md5": "6ba1049371a39c60676cc54f902a88e6",
+          "output": "v0.1-rc1@582",
+          "url": "/skins/default/common.css"
      },
      {
           "md5": "f190722f080cc0c93e6bd48b2020e4cd",
@@ -580,6 +600,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "23993f8683d8cd5181eeb89b19ab061f",
+          "output": "v0.1-rc2",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "f190722f080cc0c93e6bd48b2020e4cd",
           "output": "v0.1-rc2@900",
           "url": "/program/js/app.js"
@@ -615,6 +640,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "23993f8683d8cd5181eeb89b19ab061f",
+          "output": "v0.1-rc2@900",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "39e03afa49af89d377f533ef044f997b",
           "output": "v0.1-stable",
           "url": "/program/js/app.js"
@@ -650,6 +680,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "7b8c3b9aa4e7108a1c57146750927034",
+          "output": "v0.1-stable",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "39e03afa49af89d377f533ef044f997b",
           "output": "v0.1-stable@1183",
           "url": "/program/js/app.js"
@@ -683,6 +718,11 @@
           "md5": "9c8714d73e334580c916d6d2f3b14843",
           "output": "v0.1-stable@1183",
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
+     },
+     {
+          "md5": "7b8c3b9aa4e7108a1c57146750927034",
+          "output": "v0.1-stable@1183",
+          "url": "/skins/default/common.css"
      },
      {
           "md5": "4d5997b1d308caecafb7b4e21e126459",
@@ -720,6 +760,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "04fd738f43d38931688c1e3dca20583f",
+          "output": "v0.1.1",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "4d5997b1d308caecafb7b4e21e126459",
           "output": "v0.1.1@1258",
           "url": "/program/js/app.js"
@@ -753,6 +798,11 @@
           "md5": "9c8714d73e334580c916d6d2f3b14843",
           "output": "v0.1.1@1258",
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
+     },
+     {
+          "md5": "04fd738f43d38931688c1e3dca20583f",
+          "output": "v0.1.1@1258",
+          "url": "/skins/default/common.css"
      },
      {
           "md5": "5054a38817ea847d77a35f084f49524c",
@@ -795,6 +845,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "974e25c6f1c0c09555db80057097cee4",
+          "output": "v0.2-alpha",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "5054a38817ea847d77a35f084f49524c",
           "output": "v0.2-alpha@1499",
           "url": "/program/js/app.js"
@@ -835,6 +890,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "974e25c6f1c0c09555db80057097cee4",
+          "output": "v0.2-alpha@1499",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "0e308c59f31f0e49c79baa8938f1645d",
           "output": "v0.2-beta",
           "url": "/program/js/app.js"
@@ -875,6 +935,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "9c9730781b5e102a1ca9ddacc089ff6d",
+          "output": "v0.2-beta",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "0e308c59f31f0e49c79baa8938f1645d",
           "output": "v0.2-beta@1877",
           "url": "/program/js/app.js"
@@ -915,6 +980,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "9c9730781b5e102a1ca9ddacc089ff6d",
+          "output": "v0.2-beta@1877",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "0e308c59f31f0e49c79baa8938f1645d",
           "output": "v0.2-beta@1878",
           "url": "/program/js/app.js"
@@ -953,6 +1023,11 @@
           "md5": "74c1667b0f0c22c63211de4bf141b741",
           "output": "v0.2-beta@1878",
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
+     },
+     {
+          "md5": "9c9730781b5e102a1ca9ddacc089ff6d",
+          "output": "v0.2-beta@1878",
+          "url": "/skins/default/common.css"
      },
      {
           "md5": "7ff5a039cd2aed9be9f43e3bf4711677",
@@ -995,6 +1070,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "15097de841279672be752daee4fefc88",
+          "output": "v0.2-stable",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "7ff5a039cd2aed9be9f43e3bf4711677",
           "output": "v0.2-stable@2204",
           "url": "/program/js/app.js"
@@ -1035,6 +1115,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "15097de841279672be752daee4fefc88",
+          "output": "v0.2-stable@2204",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "9ec419d7e386312cca7ad53da0e1757f",
           "output": "v0.2.1",
           "url": "/program/js/app.js"
@@ -1075,6 +1160,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "15097de841279672be752daee4fefc88",
+          "output": "v0.2.1",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "9ec419d7e386312cca7ad53da0e1757f",
           "output": "v0.2.1@2348",
           "url": "/program/js/app.js"
@@ -1113,6 +1203,11 @@
           "md5": "74c1667b0f0c22c63211de4bf141b741",
           "output": "v0.2.1@2348",
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
+     },
+     {
+          "md5": "15097de841279672be752daee4fefc88",
+          "output": "v0.2.1@2348",
+          "url": "/skins/default/common.css"
      },
      {
           "md5": "9a82d4233a595e341675930ab462908e",
@@ -1155,6 +1250,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "270aa135b983b1b05085e25c1643df11",
+          "output": "v0.2.2",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "9ec419d7e386312cca7ad53da0e1757f",
           "output": "v0.2.2@2481",
           "url": "/program/js/app.js"
@@ -1195,6 +1295,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "15097de841279672be752daee4fefc88",
+          "output": "v0.2.2@2481",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "9a82d4233a595e341675930ab462908e",
           "output": "v0.2.2@2495",
           "url": "/program/js/app.js"
@@ -1233,6 +1338,11 @@
           "md5": "74c1667b0f0c22c63211de4bf141b741",
           "output": "v0.2.2@2495",
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
+     },
+     {
+          "md5": "270aa135b983b1b05085e25c1643df11",
+          "output": "v0.2.2@2495",
+          "url": "/skins/default/common.css"
      },
      {
           "md5": "0bc420ab6a9f86b687f392f9c3ea9053",
@@ -1280,6 +1390,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "2adb491c529de8049457232fde6f0afa",
+          "output": "v0.3-beta",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "0bc420ab6a9f86b687f392f9c3ea9053",
           "output": "v0.3-beta@2799",
           "url": "/plugins/password/password.js"
@@ -1323,6 +1438,11 @@
           "md5": "0c4fa4c29016f42fdd7b9c4cad9d7b52",
           "output": "v0.3-beta@2799",
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
+     },
+     {
+          "md5": "2adb491c529de8049457232fde6f0afa",
+          "output": "v0.3-beta@2799",
+          "url": "/skins/default/common.css"
      },
      {
           "md5": "84c0e6db452691e00fa1746920038c9f",
@@ -1375,6 +1495,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "bf1bbfda6faea55f26bd830d0fedf9fd",
+          "output": "v0.3-rc1",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "ffca926c46dc3ccee89cff989f6daa63",
           "output": "v0.3-stable",
           "url": "/plugins/archive/archive.js"
@@ -1430,6 +1555,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "815c30919b86aa3523fba195b76f8ab8",
+          "output": "v0.3-stable",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "ffca926c46dc3ccee89cff989f6daa63",
           "output": "v0.3-stable@2921",
           "url": "/plugins/archive/archive.js"
@@ -1483,6 +1613,11 @@
           "md5": "0c4fa4c29016f42fdd7b9c4cad9d7b52",
           "output": "v0.3-stable@2921",
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
+     },
+     {
+          "md5": "815c30919b86aa3523fba195b76f8ab8",
+          "output": "v0.3-stable@2921",
+          "url": "/skins/default/common.css"
      },
      {
           "md5": "fcf843c3a7f28affd93fd796d6cbc799",
@@ -1540,6 +1675,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "cdceb8cf1df3d4717036ed09001f2cdc",
+          "output": "v0.3.1",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "fcf843c3a7f28affd93fd796d6cbc799",
           "output": "v0.3.1@3081",
           "url": "/plugins/archive/archive.js"
@@ -1595,6 +1735,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "cdceb8cf1df3d4717036ed09001f2cdc",
+          "output": "v0.3.1@3081",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "408829127afa0353c502b0c70aa5e3b6",
           "output": "v0.4-beta",
           "url": "/program/js/app.js"
@@ -1635,6 +1780,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "e72576f76b8e5b04e487d69d4036e34e",
+          "output": "v0.4-beta",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "408829127afa0353c502b0c70aa5e3b6",
           "output": "v0.4-beta@3548",
           "url": "/program/js/app.js"
@@ -1673,6 +1823,11 @@
           "md5": "ebfc998a6f5581dea1e5721f33705f52",
           "output": "v0.4-beta@3548",
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
+     },
+     {
+          "md5": "e72576f76b8e5b04e487d69d4036e34e",
+          "output": "v0.4-beta@3548",
+          "url": "/skins/default/common.css"
      },
      {
           "md5": "5a4060ecb60cf68653db409c421911a0",
@@ -1730,6 +1885,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "267b9e1e60e42f8be4cd50418f37e48e",
+          "output": "v0.4.1",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "5a4060ecb60cf68653db409c421911a0",
           "output": "v0.4.1@4045",
           "url": "/plugins/archive/archive.js"
@@ -1785,6 +1945,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "267b9e1e60e42f8be4cd50418f37e48e",
+          "output": "v0.4.1@4045",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "5a4060ecb60cf68653db409c421911a0",
           "output": "v0.4.2",
           "url": "/plugins/archive/archive.js"
@@ -1840,6 +2005,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "267b9e1e60e42f8be4cd50418f37e48e",
+          "output": "v0.4.2",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "5a4060ecb60cf68653db409c421911a0",
           "output": "v0.4.2@4050",
           "url": "/plugins/archive/archive.js"
@@ -1893,6 +2063,11 @@
           "md5": "635f09e983557c9b156cd03179faaddb",
           "output": "v0.4.2@4050",
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
+     },
+     {
+          "md5": "267b9e1e60e42f8be4cd50418f37e48e",
+          "output": "v0.4.2@4050",
+          "url": "/skins/default/common.css"
      },
      {
           "md5": "6f758c13b45f72b5bad0bd64a3afb9a0",
@@ -1950,6 +2125,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "7973777bc646d5e8adfcc82a89478aea",
+          "output": "v0.5",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "4e5fbc9c50eea7738975edb2fe4e6e0c",
           "output": "v0.5-beta",
           "url": "/plugins/archive/archive.js"
@@ -2005,6 +2185,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "2f0e2575ad9b173294c1f2cd2e54d3fa",
+          "output": "v0.5-beta",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "4e5fbc9c50eea7738975edb2fe4e6e0c",
           "output": "v0.5-beta@4347",
           "url": "/plugins/archive/archive.js"
@@ -2058,6 +2243,11 @@
           "md5": "635f09e983557c9b156cd03179faaddb",
           "output": "v0.5-beta@4347",
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
+     },
+     {
+          "md5": "2f0e2575ad9b173294c1f2cd2e54d3fa",
+          "output": "v0.5-beta@4347",
+          "url": "/skins/default/common.css"
      },
      {
           "md5": "4e5fbc9c50eea7738975edb2fe4e6e0c",
@@ -2115,6 +2305,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "17733c55cd5e20cceb3251aded020590",
+          "output": "v0.5-rc",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "4e5fbc9c50eea7738975edb2fe4e6e0c",
           "output": "v0.5-rc@4349",
           "url": "/plugins/archive/archive.js"
@@ -2170,6 +2365,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "17733c55cd5e20cceb3251aded020590",
+          "output": "v0.5-rc@4349",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "6f758c13b45f72b5bad0bd64a3afb9a0",
           "output": "v0.5.1",
           "url": "/plugins/archive/archive.js"
@@ -2225,6 +2425,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "2f02f56106d4abc8adfafe34f748fbcc",
+          "output": "v0.5.1",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "6f758c13b45f72b5bad0bd64a3afb9a0",
           "output": "v0.5.1@4518",
           "url": "/plugins/archive/archive.js"
@@ -2278,6 +2483,11 @@
           "md5": "635f09e983557c9b156cd03179faaddb",
           "output": "v0.5.1@4518",
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
+     },
+     {
+          "md5": "2f02f56106d4abc8adfafe34f748fbcc",
+          "output": "v0.5.1@4518",
+          "url": "/skins/default/common.css"
      },
      {
           "md5": "6f758c13b45f72b5bad0bd64a3afb9a0",
@@ -2335,6 +2545,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "2f02f56106d4abc8adfafe34f748fbcc",
+          "output": "v0.5.2",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "6f758c13b45f72b5bad0bd64a3afb9a0",
           "output": "v0.5.2@4679",
           "url": "/plugins/archive/archive.js"
@@ -2390,6 +2605,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "2f02f56106d4abc8adfafe34f748fbcc",
+          "output": "v0.5.2@4679",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "6f758c13b45f72b5bad0bd64a3afb9a0",
           "output": "v0.5.3",
           "url": "/plugins/archive/archive.js"
@@ -2445,6 +2665,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "2f02f56106d4abc8adfafe34f748fbcc",
+          "output": "v0.5.3",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "6f758c13b45f72b5bad0bd64a3afb9a0",
           "output": "v0.5.3@4832",
           "url": "/plugins/archive/archive.js"
@@ -2500,6 +2725,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "2f02f56106d4abc8adfafe34f748fbcc",
+          "output": "v0.5.3@4832",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "6f758c13b45f72b5bad0bd64a3afb9a0",
           "output": "v0.5.4",
           "url": "/plugins/archive/archive.js"
@@ -2555,6 +2785,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "2f02f56106d4abc8adfafe34f748fbcc",
+          "output": "v0.5.4",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "6f758c13b45f72b5bad0bd64a3afb9a0",
           "output": "v0.5.4@5062",
           "url": "/plugins/archive/archive.js"
@@ -2610,6 +2845,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "2f02f56106d4abc8adfafe34f748fbcc",
+          "output": "v0.5.4@5062",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "6f758c13b45f72b5bad0bd64a3afb9a0",
           "output": "v0.5.4@5065",
           "url": "/plugins/archive/archive.js"
@@ -2663,6 +2903,11 @@
           "md5": "fac3519155be37cde110db60bb2eceb9",
           "output": "v0.5.4@5065",
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
+     },
+     {
+          "md5": "2f02f56106d4abc8adfafe34f748fbcc",
+          "output": "v0.5.4@5065",
+          "url": "/skins/default/common.css"
      },
      {
           "md5": "6f758c13b45f72b5bad0bd64a3afb9a0",
@@ -2718,6 +2963,11 @@
           "md5": "635f09e983557c9b156cd03179faaddb",
           "output": "v0.5@4408",
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
+     },
+     {
+          "md5": "7973777bc646d5e8adfcc82a89478aea",
+          "output": "v0.5@4408",
+          "url": "/skins/default/common.css"
      },
      {
           "md5": "241678bba18e54995cabc58ddc4d333e",
@@ -2780,6 +3030,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "555dd1e04b7b7a2041b84352c8bfe347",
+          "output": "v0.6",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "5409cec814e832af24b44078128940cc",
           "output": "v0.6-beta",
           "url": "/plugins/acl/acl.js"
@@ -2838,6 +3093,11 @@
           "md5": "fac3519155be37cde110db60bb2eceb9",
           "output": "v0.6-beta",
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
+     },
+     {
+          "md5": "4c67867e87be078472e6dcc81b8daf4b",
+          "output": "v0.6-beta",
+          "url": "/skins/default/common.css"
      },
      {
           "md5": "241678bba18e54995cabc58ddc4d333e",
@@ -2900,6 +3160,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "555dd1e04b7b7a2041b84352c8bfe347",
+          "output": "v0.6-rc",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "c974147e214c7557bf918c14778d00d1",
           "output": "v0.7",
           "url": "/plugins/acl/acl.js"
@@ -2958,6 +3223,11 @@
           "md5": "fac3519155be37cde110db60bb2eceb9",
           "output": "v0.7",
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
+     },
+     {
+          "md5": "9011374c9c69d377a73f1e1ba6dc2267",
+          "output": "v0.7",
+          "url": "/skins/default/common.css"
      },
      {
           "md5": "5b4fa0c2bf62d9b241da0a380568e7d4",
@@ -3020,6 +3290,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "20cbca6b3518199c878b5415110adf0e",
+          "output": "v0.7-beta1",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "c974147e214c7557bf918c14778d00d1",
           "output": "v0.7-beta2",
           "url": "/plugins/acl/acl.js"
@@ -3078,6 +3353,11 @@
           "md5": "fac3519155be37cde110db60bb2eceb9",
           "output": "v0.7-beta2",
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
+     },
+     {
+          "md5": "5843bb245f456f8ab2d24c97bdb28f3a",
+          "output": "v0.7-beta2",
+          "url": "/skins/default/common.css"
      },
      {
           "md5": "c974147e214c7557bf918c14778d00d1",
@@ -3140,6 +3420,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "9011374c9c69d377a73f1e1ba6dc2267",
+          "output": "v0.7.1",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "cd2c6606d3b5b380fb65af25a4c7b580",
           "output": "v0.7.2",
           "url": "/plugins/acl/acl.js"
@@ -3200,6 +3485,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "b78c840de22c3fafdad9c0c94172d4d5",
+          "output": "v0.7.2",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "cd2c6606d3b5b380fb65af25a4c7b580",
           "output": "v0.7.3",
           "url": "/plugins/acl/acl.js"
@@ -3260,6 +3550,11 @@
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
      },
      {
+          "md5": "b78c840de22c3fafdad9c0c94172d4d5",
+          "output": "v0.7.3",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "cd2c6606d3b5b380fb65af25a4c7b580",
           "output": "v0.7.4",
           "url": "/plugins/acl/acl.js"
@@ -3318,6 +3613,11 @@
           "md5": "fac3519155be37cde110db60bb2eceb9",
           "output": "v0.7.4",
           "url": "/program/js/tiny_mce/tiny_mce_src.js"
+     },
+     {
+          "md5": "b78c840de22c3fafdad9c0c94172d4d5",
+          "output": "v0.7.4",
+          "url": "/skins/default/common.css"
      },
      {
           "md5": "cd2c6606d3b5b380fb65af25a4c7b580",
@@ -3400,6 +3700,11 @@
           "url": "/skins/larry/ui.js"
      },
      {
+          "md5": "8fc004821c5c1a2462e2169ebb354729",
+          "output": "v0.8-beta",
+          "url": "/skins/default/common.css"
+     },
+     {
           "md5": "cd2c6606d3b5b380fb65af25a4c7b580",
           "output": "v0.8-rc",
           "url": "/plugins/acl/acl.js"
@@ -3478,6 +3783,11 @@
           "md5": "5215b6fb974a9782d9b6ca47dbffdce1",
           "output": "v0.8-rc",
           "url": "/skins/larry/ui.js"
+     },
+     {
+          "md5": "fea205dfaf73c806b5beb51e4f6e4dbb",
+          "output": "v0.8-rc",
+          "url": "/skins/default/common.css"
      },
      {
           "md5": "e577ed0884361d0dcbb4ef2ea58e28dd",
