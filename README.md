@@ -15,7 +15,7 @@ There are currently three profiles:
 
 **2. Only send one request per plugin:** The url used in most fingerprints is used
 
-**4. All fingerprints:** All fingerprints are tested
+**4. All fingerprints:** All fingerprints are tested (default)
 
 wig also has an option to fetch ressources it encounters during a scan, and compare the md5 sums of the ressources to all the fingerprints in its database.
 This option is call 'Desperate' and can be enabled with the flag '-d'. This will generate more false positives, but can be better at identifying the technologies used on the site.
