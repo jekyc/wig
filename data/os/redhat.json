@@ -1,25 +1,5 @@
 {
-    "apache-tomcat": {
-        "5.5.23": [
-            [
-                "Red Hat Enterprise Linux",
-                "RHEL-5.10"
-            ]
-        ],
-        "6.0.24": [
-            [
-                "Red Hat Enterprise Linux",
-                "RHEL-6.5"
-            ]
-        ],
-        "7.0.42": [
-            [
-                "Red Hat Enterprise Linux",
-                "RHEL-7.0"
-            ]
-        ]
-    },
-    "httpd": {
+    "apache": {
         "2.0.40": [
             [
                 "Red Hat Enterprise Linux",
@@ -55,6 +35,26 @@
             ]
         ],
         "2.4.6": [
+            [
+                "Red Hat Enterprise Linux",
+                "RHEL-7.0"
+            ]
+        ]
+    },
+    "apache-tomcat": {
+        "5.5.23": [
+            [
+                "Red Hat Enterprise Linux",
+                "RHEL-5.10"
+            ]
+        ],
+        "6.0.24": [
+            [
+                "Red Hat Enterprise Linux",
+                "RHEL-6.5"
+            ]
+        ],
+        "7.0.42": [
             [
                 "Red Hat Enterprise Linux",
                 "RHEL-7.0"

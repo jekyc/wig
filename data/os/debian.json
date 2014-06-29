@@ -1,4 +1,36 @@
 {
+    "apache": {
+        "2.0.54": [
+            [
+                "Debian GNU/Linux",
+                "3.1"
+            ]
+        ],
+        "2.2.16": [
+            [
+                "Debian GNU/Linux",
+                "6.0"
+            ]
+        ],
+        "2.2.22": [
+            [
+                "Debian GNU/Linux",
+                "7.0"
+            ]
+        ],
+        "2.2.3": [
+            [
+                "Debian GNU/Linux",
+                "4.0"
+            ]
+        ],
+        "2.2.9": [
+            [
+                "Debian GNU/Linux",
+                "5.0"
+            ]
+        ]
+    },
     "apache-tomcat": {
         "4.0.3": [
             [
@@ -34,38 +66,6 @@
             [
                 "Debian GNU/Linux",
                 "7.0"
-            ]
-        ]
-    },
-    "httpd": {
-        "2.0.54": [
-            [
-                "Debian GNU/Linux",
-                "3.1"
-            ]
-        ],
-        "2.2.16": [
-            [
-                "Debian GNU/Linux",
-                "6.0"
-            ]
-        ],
-        "2.2.22": [
-            [
-                "Debian GNU/Linux",
-                "7.0"
-            ]
-        ],
-        "2.2.3": [
-            [
-                "Debian GNU/Linux",
-                "4.0"
-            ]
-        ],
-        "2.2.9": [
-            [
-                "Debian GNU/Linux",
-                "5.0"
             ]
         ]
     },

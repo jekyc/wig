@@ -1,19 +1,5 @@
 {
-    "apache-tomcat": {
-        "5.5.23": [
-            [
-                "Scientific Linux",
-                "5.10"
-            ]
-        ],
-        "6.0.24": [
-            [
-                "Scientific Linux",
-                "6.5"
-            ]
-        ]
-    },
-    "httpd": {
+    "apache": {
         "2.0.46": [
             [
                 "Scientific Linux",
@@ -36,6 +22,20 @@
             [
                 "Scientific Linux",
                 "5.10"
+            ]
+        ]
+    },
+    "apache-tomcat": {
+        "5.5.23": [
+            [
+                "Scientific Linux",
+                "5.10"
+            ]
+        ],
+        "6.0.24": [
+            [
+                "Scientific Linux",
+                "6.5"
             ]
         ]
     },
