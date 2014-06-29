@@ -23,7 +23,7 @@ class OperatingSystem(Plugin):
 			'data/os/opensuse.json',
 			'data/os/redhat.json',
 			'data/os/scientific.json',
-			'data/os/ubuntu.json',
+			#'data/os/ubuntu.json',
 			'data/os/ubuntu_specific.json'
 		]
 
@@ -63,7 +63,7 @@ class OperatingSystem(Plugin):
 
 			for part in line.split(" "):
 				try:
-					pkg,version = part.split('/')
+					pkg,version = list(map(str.lower, part.split('/')))
 					self.packages[pkg] += 1
 					os_list = self.db[pkg][version]
 					for i in os_list:
@@ -81,8 +81,8 @@ class OperatingSystem(Plugin):
 			return []
 
 		serverinfo = res["Server Info"]
-		pkg_serverinfo = set(serverinfo.keys())
-		pkg_packages = set(self.packages.keys())
+		pkg_serverinfo = set([k.lower() for k in serverinfo.keys()])
+		pkg_packages = set([k.lower() for k in self.packages.keys()])
 
 		diff = pkg_serverinfo - pkg_packages
 		out = []
@@ -92,7 +92,6 @@ class OperatingSystem(Plugin):
 					count = serverinfo[pkg][ver]
 					os_list = self.db[pkg][ver]
 					for i in os_list:
-						print(i)
 						os, version = i
 						out.append( {'version': version, 'os': os, 'count': count} )
 			except:
@@ -142,6 +141,19 @@ class OperatingSystem(Plugin):
 			self.load_extra_data(os_file)
 	
 		self.db = self.get_all_items()
+
+		def lower_key(in_dict):
+			if type(in_dict) is dict:
+				out_dict = {}
+				for key, item in in_dict.items():
+					out_dict[key.lower()] = lower_key(item)
+				return out_dict
+			elif type(in_dict) is list:
+				return [lower_key(obj) for obj in in_dict]
+			else:
+				return in_dict
+
+		self.db = lower_key(self.db)
 
 		responses = self.cache.get_responses()
 		for response in responses:
