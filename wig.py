@@ -34,7 +34,12 @@ class Wig():
 
 	def redirect(self):
 		# detects redirection if this happend
-		r = requests.get(self.host, verify=False)
+		try:
+			r = requests.get(self.host, verify=False)
+		except:
+			print("Invalid URL or host not found. Exiting...")
+			sys.exit(0)
+
 		if not r.url == self.host:
 
 			# ensure that sub-folders and files are removed
