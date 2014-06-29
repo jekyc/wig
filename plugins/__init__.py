@@ -21,6 +21,7 @@ __all__ = [
 "outlook",
 "phpbb",
 "phpmyadmin",
+"phppgadmin",
 "plone",
 "prestashop",
 "roundcube",
