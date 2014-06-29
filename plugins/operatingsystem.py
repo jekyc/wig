@@ -1,6 +1,6 @@
 from collections import Counter
 from classes.plugin import Plugin
-import json
+import json, pprint
 
 class OperatingSystem(Plugin):
 
@@ -23,9 +23,11 @@ class OperatingSystem(Plugin):
 			'data/os/opensuse.json',
 			'data/os/redhat.json',
 			'data/os/scientific.json',
-			#'data/os/ubuntu.json',
+			'data/os/ubuntu.json',
+			'data/os/debian_specific.json',
 			'data/os/ubuntu_specific.json'
 		]
+		self.matched_packages = set()
 
 
 	def load_extra_data(self, extra_file):
@@ -64,40 +66,38 @@ class OperatingSystem(Plugin):
 			for part in line.split(" "):
 				try:
 					pkg,version = list(map(str.lower, part.split('/')))
+
 					self.packages[pkg] += 1
 					os_list = self.db[pkg][version]
+
 					for i in os_list:
-						os, version = i
-						self.os[(os, version)] += 1
+						if len(i) == 2:
+							os, os_version = i
+							weight = 1
+						elif len(i) == 3:
+							os, os_version, weight = i
+
+						self.matched_packages.add( (os, os_version, pkg, version) )
+						self.os[(os, os_version)] += weight
 
 				except Exception as e:
 					continue
 
-	def search_results(self):
-		# search for results found in "X-Powered-By" header
-		# which is added by the 'header' plugin
-		res = self.results.get_results()
-		if not "Server Info" in res:
-			return []
-
-		serverinfo = res["Server Info"]
-		pkg_serverinfo = set([k.lower() for k in serverinfo.keys()])
-		pkg_packages = set([k.lower() for k in self.packages.keys()])
-
-		diff = pkg_serverinfo - pkg_packages
-		out = []
-		for pkg in diff:
+		if 'X-Powered-By' in headers:
+			line = headers['X-Powered-By']
 			try:
-				for ver in serverinfo[pkg]:
-					count = serverinfo[pkg][ver]
-					os_list = self.db[pkg][ver]
-					for i in os_list:
-						os, version = i
-						out.append( {'version': version, 'os': os, 'count': count} )
-			except:
+				pkg,version =  list(map(str.lower, line.split('/')))
+				for i in self.db[pkg][version]:
+					if len(i) == 2:
+						os, os_version = i
+						weight = 1
+					elif len(i) == 3:
+						os, os_version, weight = i
+					
+					self.matched_packages.add( (os, os_version, pkg, version) )
+					self.os[(os, os_version)] += weight
+			except Exception as e:
 				pass
-
-		return out
 
 
 	def find_results(self, results):
@@ -125,7 +125,7 @@ class OperatingSystem(Plugin):
 					self.os[key] += 100
 
 		# add OS to results: self.os: {(os, version): weight, ...}
-		r = self.search_results()
+		r = []
 		for p in self.os:
 			r.append({'version': p[1], 'os': p[0], 'count': self.os[p]})
 
@@ -140,8 +140,6 @@ class OperatingSystem(Plugin):
 		for os_file in self.os_files:
 			self.load_extra_data(os_file)
 	
-		self.db = self.get_all_items()
-
 		def lower_key(in_dict):
 			if type(in_dict) is dict:
 				out_dict = {}
@@ -153,14 +151,13 @@ class OperatingSystem(Plugin):
 			else:
 				return in_dict
 
-		self.db = lower_key(self.db)
+		self.db = lower_key(self.get_all_items())
 
 		responses = self.cache.get_responses()
 		for response in responses:
 			self.find_match(response)
 
 		self.finalize()
-		self.search_results()
 
 def get_instances(host, cache, results):
 	return [
