@@ -1,32 +1,32 @@
 {
-    "apache": {
+    "Apache": {
         "2.0.54": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "3.1"
             ]
         ],
         "2.2.16": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "6.0"
             ]
         ],
         "2.2.22": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "7.0"
             ]
         ],
         "2.2.3": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "4.0"
             ]
         ],
         "2.2.9": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "5.0"
             ]
         ]
@@ -34,37 +34,37 @@
     "apache-tomcat": {
         "4.0.3": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "3.0"
             ]
         ],
         "4.1.31": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "3.1"
             ]
         ],
         "5.5.20": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "4.0"
             ]
         ],
         "5.5.26": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "5.0"
             ]
         ],
         "6.0.28": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "6.0"
             ]
         ],
         "7.0.28": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "7.0"
             ]
         ]
@@ -72,25 +72,25 @@
     "lighttpd": {
         "1.4.13": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "4.0"
             ]
         ],
         "1.4.19": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "5.0"
             ]
         ],
         "1.4.28": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "6.0"
             ]
         ],
         "1.4.31": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "7.0"
             ]
         ]
@@ -98,47 +98,47 @@
     "mod_perl": {
         "1.16": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "2.1"
             ]
         ],
         "1.21": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "2.2"
             ]
         ],
         "1.26": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "3.0"
             ]
         ],
         "2.0.0pre21": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "3.1"
             ]
         ],
         "2.0.2": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "4.0"
             ]
         ],
         "2.0.4": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "6.0"
             ],
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "5.0"
             ]
         ],
         "2.0.7": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "7.0"
             ]
         ]
@@ -146,25 +146,25 @@
     "nginx": {
         "0.4.13": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "4.0"
             ]
         ],
         "0.6.32": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "5.0"
             ]
         ],
         "0.7.67": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "6.0"
             ]
         ],
         "1.2.1": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "7.0"
             ]
         ]
@@ -172,37 +172,37 @@
     "openssl": {
         "0.9.6c": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "3.0"
             ]
         ],
         "0.9.7e": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "3.1"
             ]
         ],
         "0.9.8c": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "4.0"
             ]
         ],
         "0.9.8g": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "5.0"
             ]
         ],
         "0.9.8o": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "6.0"
             ]
         ],
         "1.0.1e": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "7.0"
             ]
         ]
@@ -210,69 +210,69 @@
     "perl": {
         "5.10.0": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "5.0"
             ]
         ],
         "5.10.1": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "6.0"
             ]
         ],
         "5.14.2": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "7.0"
             ]
         ],
         "5.2": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "1.1"
             ]
         ],
         "5.3.7": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "1.3"
             ],
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "1.2"
             ]
         ],
         "5.4.4": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "2.1"
             ],
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "2.0"
             ]
         ],
         "5.4.5": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "2.2"
             ]
         ],
         "5.6.1": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "3.0"
             ]
         ],
         "5.8.4": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "3.1"
             ]
         ],
         "5.8.8": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "4.0"
             ]
         ]
@@ -280,61 +280,61 @@
     "php": {
         "2.0b10": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "1.3"
             ]
         ],
         "3.0": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "2.0"
             ]
         ],
         "3.0.5": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "2.1"
             ]
         ],
         "4.0.3pl1": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "2.2"
             ]
         ],
         "4.1.2": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "3.0"
             ]
         ],
         "4.3.10": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "3.1"
             ]
         ],
         "5.2.0": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "4.0"
             ]
         ],
         "5.2.6": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "5.0"
             ]
         ],
         "5.3.3": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "6.0"
             ]
         ],
         "5.4.4": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "7.0"
             ]
         ]
@@ -342,37 +342,37 @@
     "phpMyAdmin": {
         "2.11.8.1": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "5.0"
             ]
         ],
         "2.2.3": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "3.0"
             ]
         ],
         "2.6.2": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "3.1"
             ]
         ],
         "2.9.1.1": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "4.0"
             ]
         ],
         "3.3.7": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "6.0"
             ]
         ],
         "3.4.11.1": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "7.0"
             ]
         ]
@@ -380,43 +380,43 @@
     "ruby": {
         "1.4.3": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "2.2"
             ]
         ],
         "1.6.7": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "3.0"
             ]
         ],
         "1.8.2": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "3.1"
             ]
         ],
         "1.8.5": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "4.0"
             ]
         ],
         "1.8.7-p302": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "6.0"
             ]
         ],
         "1.8.7-p72": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "5.0"
             ]
         ],
         "1.9.3-p194": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "7.0"
             ]
         ]
@@ -424,31 +424,31 @@
     "subversion": {
         "1.1.4": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "3.1"
             ]
         ],
         "1.4.2": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "4.0"
             ]
         ],
         "1.5.1": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "5.0"
             ]
         ],
         "1.6.12": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "6.0"
             ]
         ],
         "1.6.17": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "7.0"
             ]
         ]
@@ -456,13 +456,13 @@
     "webmin": {
         "0.94": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "3.0"
             ]
         ],
         "1.180": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "3.1"
             ]
         ]
@@ -470,25 +470,25 @@
     "wordpress": {
         "2.0.10": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "4.0"
             ]
         ],
         "2.5.1": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "5.0"
             ]
         ],
         "3.0.4": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "6.0"
             ]
         ],
         "3.5.1": [
             [
-                "Debian GNU/Linux",
+                "Debian",
                 "7.0"
             ]
         ]
