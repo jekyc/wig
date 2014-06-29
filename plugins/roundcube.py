@@ -4,7 +4,7 @@ class RoundCube(CMSReqMD5):
 	def __init__(self, host, cache, results):
 		super().__init__(host, cache, results)
 		self.name	= "RoundCube"
-		self.prefix	= [""]
+		self.prefix	= ["/webmail", "/mail", "/roundcube"]
 		self.data_file	= "data/cms/md5/roundcube.json"
 
 def get_instances(host, cache, results):
