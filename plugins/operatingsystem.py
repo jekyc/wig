@@ -23,7 +23,8 @@ class OperatingSystem(Plugin):
 			'data/os/opensuse.json',
 			'data/os/redhat.json',
 			'data/os/scientific.json',
-			'data/os/ubuntu.json'
+			'data/os/ubuntu.json',
+			'data/os/ubuntu_specific.json'
 		]
 
 
