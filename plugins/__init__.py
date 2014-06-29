@@ -22,6 +22,7 @@ __all__ = [
 "phpbb",
 "phpmyadmin",
 "plone",
+"prestashop",
 "roundcube",
 "sitecore",
 "squirrelmail",
