@@ -1,0 +1,20 @@
+[
+	{
+		"url": "/",
+		"string": "Welcome to RoundCube Webmail",
+		"output": "",
+		"weight": 0.1
+	},
+	{
+		"url": "/",
+		"string": "var rcmail = new rcube_webmail();",
+		"output": "",
+		"weight": 0.1
+	},	
+	{
+		"url": "/",
+		"string": "<label for=\"rcmloginuser\">Username</label>",
+		"output": "",
+		"weight": 0.1
+	}
+]
