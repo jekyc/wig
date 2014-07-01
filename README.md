@@ -64,18 +64,16 @@ optional arguments:
 ## Example of run:
 
 ```
-# python3 wig.py www.example.com
+# python3 wig.py http://www.example.com              
                                                                             
-___ CMS _____________________________________________________
-Sitecore: 7.2 (rev. 140314)
+___ CMS ______________________________________________________
+RoundCube: v0.8.1
+Typo3: 4.5.0
+phpPgAdmin: REL_5-0-2
 
-___ Operating System ________________________________________
-Microsoft Windows Server: 2012 R2
+___ Operating System _________________________________________
+CentOS: 5.10
 
-___ Server Info _____________________________________________
-ASP.NET: 4.0.30319
-Microsoft-IIS: 8.5
-
-_____________________________________________________________
-Time: 2.3 sec | Plugins: 70 | Urls: 405 | Fingerprints: 17953
+______________________________________________________________
+Time: 39.9 sec | Plugins: 74 | Urls: 866 | Fingerprints: 44104
 ```
