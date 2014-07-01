@@ -64,16 +64,15 @@ optional arguments:
 ## Example of run:
 
 ```
-# python3 wig.py http://www.example.com              
+# python3 wig.py http://www.rothoblaas.com/  
                                                                             
 ___ CMS ______________________________________________________
-RoundCube: v0.8.1
-Typo3: 4.5.0
-phpPgAdmin: REL_5-0-2
+Typo3: 4.5.1, 4.5
+phpMyAdmin: 3.4.10.1
 
 ___ Operating System _________________________________________
-CentOS: 5.10
+Ubuntu: 12.04
 
 ______________________________________________________________
-Time: 39.9 sec | Plugins: 74 | Urls: 866 | Fingerprints: 44104
+Time: 80.7 sec | Plugins: 74 | Urls: 866 | Fingerprints: 44104
 ```
