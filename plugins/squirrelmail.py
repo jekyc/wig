@@ -1,4 +1,4 @@
-from classes.specializedRequesters import CMSReqMD5, CMSReqString, CMSReqRegex
+from classes.specializedRequesters import CMSReqMD5, CMSReqString, CMSReqRegex, CMSReqHeader
 
 class SquirrelMailMD5(CMSReqMD5):
 	def __init__(self, host, cache, results):
@@ -21,10 +21,16 @@ class SquirrelMailRegex(CMSReqRegex):
 		self.prefix	= ["", "/mail", "/webmail", "/squirrelmail"]
 		self.data_file	= "data/cms/regex/squirrelmail.json"
 
+class SquirrelMailHeader(CMSReqHeader):
+	def __init__(self, host, cache, results):
+		super().__init__(host, cache, results)
+		self.name = "SquirrelMail"
+		self.data_file = "data/cms/header/squirrelmail.json"
 
 def get_instances(host, cache, results):
 	return [
 		SquirrelMailMD5(host, cache, results),
 		SquirrelMailString(host, cache, results),
 		SquirrelMailRegex(host, cache, results),
+		SquirrelMailHeader(host, cache, results)
 	]
