@@ -1,5 +1,5 @@
-wig - WebApp Information Gatherer
-===
+# wig - WebApp Information Gatherer
+
 
 wig is a web application information gathering tool, which can identify numerous Content Management Systems other administrative applications.
 
@@ -8,15 +8,15 @@ The application fingerprinting is based on checksums and string matching of know
 wig also tries to guess the operating system on the server based on the 'server' and 'x-powered-by' headers. A database containing known header strings for different operating systems is included in wig, which allows wig to guess Microsoft Windows versions and Linux distribution and version. 
 
 
-Requirements
----
+## Requirements
+
 
 wig is built with **Python 3**, and is therefore not compatible with Python 2. wig also makes use of the '**Requests**' library for python, which can be installed with easy_install and pip.
 
 
 
-Profiles
----
+## Profiles
+
 
 wig currently has 3 profiles that can be applied at run time.
 
@@ -29,20 +29,19 @@ wig currently has 3 profiles that can be applied at run time.
 These profiles are useful to vary the amount of traffic sent to the web site. However, the less traffic sent to the server, the less likely it is that wig will detect the CMS.
 
 
-Desperate mode
----
+## Desperate mode
+
 
 wig also has an option to fetch the resources (css, js, gif, etc.) it encounters during a scan, and compare the md5 sums of the resources to all the fingerprints in its database. This option is call 'Desperate' and can be enabled with the flag '-d'. This might be able to detect more customized CMS installations, but at the cost of false positives
 
 
-Verbose
----
+## Verbose
 
-wig also has a logging feature which lists the files that were matched. The output might be a bit messy, but it can help identify how the CMS was detected.
+wig also has a logging feature which lists the files that were matched. The output might be a bit messy, but it can help identify how the CMS was detected. This can be activated by using the '-v' flag.
 
 
-Help Screen
----
+## Help Screen
+
 ```
 $ python3 wig.py -h
 usage: wig.py [-h] [-v] [-d] [-p {1,2,4}] host
@@ -62,8 +61,7 @@ optional arguments:
 ```
 
 
-Example of run:**
----
+## Example of run:
 
 ```
 # python3 wig.py www.example.com
