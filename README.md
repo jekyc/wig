@@ -1,15 +1,24 @@
-wig
+wig - WebApp Information Gatherer
 ===
 
-WebApp Information Gatherer
+wig is a web application information gathering tool, which can identify numerous Content Management Systems other administrative applications.
+
+The application fingerprinting is based on checksums and string matching of known files for different versions of CMSes. This results in a score being calculated for each detected CMSs and its versions. Each detected CMS is displayed along with the most probable version(s) of it. The score calculation is based on weights and the amount of "hits" for a given checksum.
+
+wig also tries to guess the operating system on the server based on the 'server' and 'x-powered-by' headers. A database containing known header strings for different operating systems is included in wig, which allows wig to guess Microsoft Windows versions and Linux distribution and version. 
 
 
-wig identifies a websites CMS by searching for fingerprints of static files and extracting version numbers from known files.
+Requirements
+---
 
-OS identification is done by using the value of the 'server' and 'X-Powered-By' in the response header. 
-These values are compared to a database of which package versions are include with different operating systems.
+wig is built with **Python 3**, and is therefore not compatible with Python 2. wig also makes use of the '**Requests**' library for python, which can be installed with easy_install and pip.
 
-There are currently three profiles:
+
+
+Profiles
+---
+
+wig currently has 3 profiles that can be applied at run time.
 
 **1. Only send one request:** wig only sends a request for '/'. All fingerprints matching this url are tested.
 
@@ -17,11 +26,23 @@ There are currently three profiles:
 
 **4. All fingerprints:** All fingerprints are tested (default)
 
-wig also has an option to fetch ressources it encounters during a scan, and compare the md5 sums of the ressources to all the fingerprints in its database.
-This option is call 'Desperate' and can be enabled with the flag '-d'. This will generate more false positives, but can be better at identifying the technologies used on the site.
+These profiles are useful to vary the amount of traffic sent to the web site. However, the less traffic sent to the server, the less likely it is that wig will detect the CMS.
 
 
-**Help screen:**
+Desperate mode
+---
+
+wig also has an option to fetch the resources (css, js, gif, etc.) it encounters during a scan, and compare the md5 sums of the resources to all the fingerprints in its database. This option is call 'Desperate' and can be enabled with the flag '-d'. This might be able to detect more customized CMS installations, but at the cost of false positives
+
+
+Verbose
+---
+
+wig also has a logging feature which lists the files that were matched. The output might be a bit messy, but it can help identify how the CMS was detected.
+
+
+Help Screen
+---
 ```
 $ python3 wig.py -h
 usage: wig.py [-h] [-v] [-d] [-p {1,2,4}] host
@@ -40,7 +61,9 @@ optional arguments:
               per plugin 4) All (default)
 ```
 
-**Example of run:**
+
+Example of run:**
+---
 
 ```
 # python3 wig.py www.example.com
@@ -58,8 +81,3 @@ Microsoft-IIS: 8.5
 _____________________________________________________________
 Time: 2.3 sec | Plugins: 70 | Urls: 405 | Fingerprints: 17953
 ```
-
-**Requirements:**
-
-- Python 3
-- requests
