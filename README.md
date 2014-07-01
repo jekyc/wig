@@ -64,7 +64,7 @@ optional arguments:
 ## Example of run:
 
 ```
-# python3 wig.py http://www.rothoblaas.com/  
+# python3 wig.py http://www.example.com/  
                                                                             
 ___ CMS ______________________________________________________
 Typo3: 4.5.1, 4.5
