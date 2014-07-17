@@ -23,6 +23,12 @@
                 "Scientific Linux",
                 "5.10"
             ]
+        ],
+        "2.4.6": [
+            [
+                "Scientific Linux",
+                "7-alpha"
+            ]
         ]
     },
     "apache-tomcat": {
@@ -36,6 +42,12 @@
             [
                 "Scientific Linux",
                 "6.5"
+            ]
+        ],
+        "7.0.42": [
+            [
+                "Scientific Linux",
+                "7-alpha"
             ]
         ]
     },
@@ -85,6 +97,12 @@
                 "Scientific Linux",
                 "6.5"
             ]
+        ],
+        "1.0.1e": [
+            [
+                "Scientific Linux",
+                "7-alpha"
+            ]
         ]
     },
     "perl": {
@@ -92,6 +110,12 @@
             [
                 "Scientific Linux",
                 "6.5"
+            ]
+        ],
+        "5.16.3": [
+            [
+                "Scientific Linux",
+                "7-alpha"
             ]
         ],
         "5.8.0": [
@@ -137,6 +161,12 @@
                 "Scientific Linux",
                 "6.5"
             ]
+        ],
+        "5.4.16": [
+            [
+                "Scientific Linux",
+                "7-alpha"
+            ]
         ]
     },
     "ruby": {
@@ -163,6 +193,12 @@
                 "Scientific Linux",
                 "6.5"
             ]
+        ],
+        "2.0.0-p353": [
+            [
+                "Scientific Linux",
+                "7-alpha"
+            ]
         ]
     },
     "subversion": {
@@ -180,6 +216,12 @@
             [
                 "Scientific Linux",
                 "5.10"
+            ]
+        ],
+        "1.7.14": [
+            [
+                "Scientific Linux",
+                "7-alpha"
             ]
         ]
     }

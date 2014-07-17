@@ -6115,6 +6115,51 @@
           "url": "/login/index_form.html"
      },
      {
+          "md5": "7949ec134e03d7b74dfe1cf94482661e",
+          "output": "v2.4.11",
+          "url": "/lib/editor/tinymce/module.js"
+     },
+     {
+          "md5": "143f9f7eab80d25f091818e03aa195e0",
+          "output": "v2.4.11",
+          "url": "/lib/javascript-static.js"
+     },
+     {
+          "md5": "43df1e48b8ccb37df0afdfd87e150a39",
+          "output": "v2.4.11",
+          "url": "/lib/form/filemanager.js"
+     },
+     {
+          "md5": "cd4dd73eeeb6b4591d85474ddd446606",
+          "output": "v2.4.11",
+          "url": "/mod/upgrade.txt"
+     },
+     {
+          "md5": "2b87e6ceebb618b9014c0e7984ccaf5b",
+          "output": "v2.4.11",
+          "url": "/lib/editor/tinymce/readme_moodle.txt"
+     },
+     {
+          "md5": "5ec853aaf8759920d4d777fe67ab7f67",
+          "output": "v2.4.11",
+          "url": "/README.txt"
+     },
+     {
+          "md5": "6982d59fee9604acb0d99c9126e57d90",
+          "output": "v2.4.11",
+          "url": "/user/message.html"
+     },
+     {
+          "md5": "da1899946c26ccfe2509a415429c46b8",
+          "output": "v2.4.11",
+          "url": "/theme/base/style/core.css"
+     },
+     {
+          "md5": "b86893d766983079125030608654dd3f",
+          "output": "v2.4.11",
+          "url": "/login/index_form.html"
+     },
+     {
           "md5": "1ad2b3acac4758fac6cd4090c374a8e3",
           "output": "v2.4.2",
           "url": "/lib/editor/tinymce/module.js"
@@ -6881,6 +6926,51 @@
      },
      {
           "md5": "3b18780f4cdc4c57b28afe905ae4add1",
+          "output": "v2.5.7",
+          "url": "/lib/editor/tinymce/module.js"
+     },
+     {
+          "md5": "89a1329a1835b9fa77fcb149d109f6c6",
+          "output": "v2.5.7",
+          "url": "/lib/javascript-static.js"
+     },
+     {
+          "md5": "3ab2329e6fc3300c5c4096057532e9be",
+          "output": "v2.5.7",
+          "url": "/lib/form/filemanager.js"
+     },
+     {
+          "md5": "0fa8a630e98914eeb63c3a0e4f72a05a",
+          "output": "v2.5.7",
+          "url": "/mod/upgrade.txt"
+     },
+     {
+          "md5": "fa44947ee650465b6eaca3ad745f340a",
+          "output": "v2.5.7",
+          "url": "/lib/editor/tinymce/readme_moodle.txt"
+     },
+     {
+          "md5": "5ec853aaf8759920d4d777fe67ab7f67",
+          "output": "v2.5.7",
+          "url": "/README.txt"
+     },
+     {
+          "md5": "0657510c46aca8ffb9f5456561296ae3",
+          "output": "v2.5.7",
+          "url": "/user/message.html"
+     },
+     {
+          "md5": "0dc33326dd28cdb2ca98f4ce5cd77aee",
+          "output": "v2.5.7",
+          "url": "/theme/base/style/core.css"
+     },
+     {
+          "md5": "b86893d766983079125030608654dd3f",
+          "output": "v2.5.7",
+          "url": "/login/index_form.html"
+     },
+     {
+          "md5": "3b18780f4cdc4c57b28afe905ae4add1",
           "output": "v2.6.0",
           "url": "/lib/editor/tinymce/module.js"
      },
@@ -7151,6 +7241,51 @@
      },
      {
           "md5": "07aa5b28294c6f1274701b9b1ac596d6",
+          "output": "v2.6.4",
+          "url": "/lib/editor/tinymce/module.js"
+     },
+     {
+          "md5": "c0cbacd39628a779476276bcd58d9bd3",
+          "output": "v2.6.4",
+          "url": "/lib/javascript-static.js"
+     },
+     {
+          "md5": "cf953e070a452ab1492c7e0ca81af328",
+          "output": "v2.6.4",
+          "url": "/lib/form/filemanager.js"
+     },
+     {
+          "md5": "640a4befc8ce8c5eba22d54ae6a1d00d",
+          "output": "v2.6.4",
+          "url": "/mod/upgrade.txt"
+     },
+     {
+          "md5": "8298a78fcee793ea7fa4761efba9b319",
+          "output": "v2.6.4",
+          "url": "/lib/editor/tinymce/readme_moodle.txt"
+     },
+     {
+          "md5": "5ec853aaf8759920d4d777fe67ab7f67",
+          "output": "v2.6.4",
+          "url": "/README.txt"
+     },
+     {
+          "md5": "823842ccd85b9fa0b15222dae490ab27",
+          "output": "v2.6.4",
+          "url": "/user/message.html"
+     },
+     {
+          "md5": "b5d5d45ff9989b07abf04c957407b55b",
+          "output": "v2.6.4",
+          "url": "/theme/base/style/core.css"
+     },
+     {
+          "md5": "bf4f5c2ec94f9f1858e230a3cf3e5b93",
+          "output": "v2.6.4",
+          "url": "/login/index_form.html"
+     },
+     {
+          "md5": "07aa5b28294c6f1274701b9b1ac596d6",
           "output": "v2.7.0",
           "url": "/lib/editor/tinymce/module.js"
      },
@@ -7327,6 +7462,51 @@
      {
           "md5": "8d26b87bc9fa7d61940db11352ddd60c",
           "output": "v2.7.0-rc2",
+          "url": "/login/index_form.html"
+     },
+     {
+          "md5": "07aa5b28294c6f1274701b9b1ac596d6",
+          "output": "v2.7.1",
+          "url": "/lib/editor/tinymce/module.js"
+     },
+     {
+          "md5": "08f3e2edb9eba8cab09ebc9827bd3850",
+          "output": "v2.7.1",
+          "url": "/lib/javascript-static.js"
+     },
+     {
+          "md5": "14b8c6c5fbbc5ddcc381e68ede7c1021",
+          "output": "v2.7.1",
+          "url": "/lib/form/filemanager.js"
+     },
+     {
+          "md5": "7ea77b12aa83b934db3bedc426d60158",
+          "output": "v2.7.1",
+          "url": "/mod/upgrade.txt"
+     },
+     {
+          "md5": "8298a78fcee793ea7fa4761efba9b319",
+          "output": "v2.7.1",
+          "url": "/lib/editor/tinymce/readme_moodle.txt"
+     },
+     {
+          "md5": "5ec853aaf8759920d4d777fe67ab7f67",
+          "output": "v2.7.1",
+          "url": "/README.txt"
+     },
+     {
+          "md5": "823842ccd85b9fa0b15222dae490ab27",
+          "output": "v2.7.1",
+          "url": "/user/message.html"
+     },
+     {
+          "md5": "46167b5f3da710f21e70e4691884f3ac",
+          "output": "v2.7.1",
+          "url": "/theme/base/style/core.css"
+     },
+     {
+          "md5": "8d26b87bc9fa7d61940db11352ddd60c",
+          "output": "v2.7.1",
           "url": "/login/index_form.html"
      }
 ]
