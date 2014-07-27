@@ -9,6 +9,7 @@ from classes.color import Color
 from classes.profile import Profile
 from classes.log import Log
 from classes.desperate import Desperate
+from classes.headers import CheckHeaders
 
 class Wig():
 
@@ -102,6 +103,7 @@ class Wig():
 					# add the plugins fingerprints to the global fingerprint database
 					self.desperate.add_fingerprints(p.get_items_for_desperate_mode())
 
+
 				# add logs
 				self.logs.add( p.get_logs() )
 
@@ -111,6 +113,10 @@ class Wig():
 			self.desperate.run()
 			for i in self.desperate.get_matches():
 				self.results.add('Desperate', i['cms'], i, i['count'])
+
+		# check the response headers for information
+		ch = CheckHeaders(self.cache, self.results, self.logs)
+		ch.run()
 
 		run_time = "%.1f" % (time.time() - t)
 		num_urls = self.cache.get_num_urls()
