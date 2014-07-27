@@ -32,13 +32,11 @@ class CheckHeaders(object):
 		for response in self.cache.get_responses():
 			self.add_header(response)
 
-		print(self.headers)
-
 		# examine all the headers found
 		for hdr,val,url in self.headers:
 			
 			# "server" can be used to identify the web server and operating system 
-			if hdr == 'server':
+			if hdr == 'Server':
 
 				# extract the OS if present: (Apache/2.2 (Ubuntu) PHP/5.3.1 )
 				# os = Ubuntu
@@ -52,15 +50,22 @@ class CheckHeaders(object):
 						
 						# add the results to the log and the results
 						self.log.add( {url: {pkg: [version]} } )
-						self.results.add(self.category, pkg, version, False)
+						self.results.add(self.category, pkg, {'version': version, 'count':1}, False)
 					except Exception as e:
 						continue
 
 			# "X-Powered-By" can be used to identify the PHP version (and potentially the OS)
 			elif hdr == 'X-Powered-By':
-				pkg,version = val.split('/')
+				# 2014-07-27: the length of val.split('/') is not always 2 (e.g.: X-Powered-By: ASP.NET)
+				vals = val.split('/')
+				if len(vals) == 2:
+					pkg,version = val.split('/')
+					count = 1
+				else:
+					pkg,version,count = val,'',0.1
+
 				self.log.add( {url: {pkg: [version]} } )
-				self.results.add(self.category, pkg, {'version': version, 'count':1}, False)
+				self.results.add(self.category, pkg, {'version': version, 'count':count}, False)
 
 			elif hdr == 'X-AspNet-Version':
 				pkg = "ASP.NET"
