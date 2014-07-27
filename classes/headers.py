@@ -75,7 +75,7 @@ class CheckHeaders(object):
 				self.results.add(self.category, pkg, {'version': version, 'count':1}, False)				
 
 			elif hdr == 'Set-Cookie':
-				if 'ASP.NET_SessionId' in line:
+				if 'ASP.NET_SessionId' in val:
 					pkg = "ASP.NET"
 					version = ''
 					
