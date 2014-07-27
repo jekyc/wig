@@ -9,7 +9,6 @@ __all__ = [
 "drupal",
 "dynamicweb",
 "easynet",
-"header",
 "jboss",
 "joomla",
 "lotusdomino",
@@ -35,6 +34,5 @@ __all__ = [
 "xoops",
 "zencart",
 "zenphoto",
-"header",
 "operatingsystem",
 ]
