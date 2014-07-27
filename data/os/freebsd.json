@@ -37,11 +37,11 @@
         "2.4.9": [
             [
                 "FreeBSD",
-                "11-CURRENT"
+                "11"
             ],
             [
                 "FreeBSD",
-                "10-STABLE"
+                "10"
             ],
             [
                 "FreeBSD",
@@ -129,11 +129,11 @@
         "1.4.35": [
             [
                 "FreeBSD",
-                "11-CURRENT"
+                "11"
             ],
             [
                 "FreeBSD",
-                "10-STABLE"
+                "10"
             ],
             [
                 "FreeBSD",
@@ -179,11 +179,11 @@
         "2.0.8": [
             [
                 "FreeBSD",
-                "11-CURRENT"
+                "11"
             ],
             [
                 "FreeBSD",
-                "10-STABLE"
+                "10"
             ],
             [
                 "FreeBSD",
@@ -239,11 +239,11 @@
         "1.6.0": [
             [
                 "FreeBSD",
-                "11-CURRENT"
+                "11"
             ],
             [
                 "FreeBSD",
-                "10-STABLE"
+                "10"
             ]
         ]
     },
@@ -291,11 +291,11 @@
         "1.0.1_13": [
             [
                 "FreeBSD",
-                "11-CURRENT"
+                "11"
             ],
             [
                 "FreeBSD",
-                "10-STABLE"
+                "10"
             ]
         ]
     },
@@ -389,11 +389,11 @@
         "5.4.30": [
             [
                 "FreeBSD",
-                "11-CURRENT"
+                "11"
             ],
             [
                 "FreeBSD",
-                "10-STABLE"
+                "10"
             ]
         ]
     },
@@ -435,11 +435,11 @@
         "4.2.5": [
             [
                 "FreeBSD",
-                "11-CURRENT"
+                "11"
             ],
             [
                 "FreeBSD",
-                "10-STABLE"
+                "10"
             ]
         ]
     },
@@ -475,11 +475,11 @@
         "1.9.3-p484": [
             [
                 "FreeBSD",
-                "11-CURRENT"
+                "11"
             ],
             [
                 "FreeBSD",
-                "10-STABLE"
+                "10"
             ],
             [
                 "FreeBSD",
@@ -535,11 +535,11 @@
         "1.8.9": [
             [
                 "FreeBSD",
-                "11-CURRENT"
+                "11"
             ],
             [
                 "FreeBSD",
-                "10-STABLE"
+                "10"
             ]
         ]
     },
@@ -587,11 +587,11 @@
         "1.690": [
             [
                 "FreeBSD",
-                "11-CURRENT"
+                "11"
             ],
             [
                 "FreeBSD",
-                "10-STABLE"
+                "10"
             ]
         ]
     },
@@ -639,11 +639,11 @@
         "3.9.1": [
             [
                 "FreeBSD",
-                "11-CURRENT"
+                "11"
             ],
             [
                 "FreeBSD",
-                "10-STABLE"
+                "10"
             ]
         ]
     }
