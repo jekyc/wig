@@ -27,7 +27,7 @@
         "2.4.6": [
             [
                 "Scientific Linux",
-                "7-alpha"
+                "7.0-beta1"
             ]
         ]
     },
@@ -47,7 +47,7 @@
         "7.0.42": [
             [
                 "Scientific Linux",
-                "7-alpha"
+                "7.0-beta1"
             ]
         ]
     },
@@ -101,7 +101,7 @@
         "1.0.1e": [
             [
                 "Scientific Linux",
-                "7-alpha"
+                "7.0-beta1"
             ]
         ]
     },
@@ -115,7 +115,7 @@
         "5.16.3": [
             [
                 "Scientific Linux",
-                "7-alpha"
+                "7.0-beta1"
             ]
         ],
         "5.8.0": [
@@ -165,7 +165,7 @@
         "5.4.16": [
             [
                 "Scientific Linux",
-                "7-alpha"
+                "7.0-beta1"
             ]
         ]
     },
@@ -197,7 +197,7 @@
         "2.0.0-p353": [
             [
                 "Scientific Linux",
-                "7-alpha"
+                "7.0-beta1"
             ]
         ]
     },
@@ -221,7 +221,7 @@
         "1.7.14": [
             [
                 "Scientific Linux",
-                "7-alpha"
+                "7.0-beta1"
             ]
         ]
     }
