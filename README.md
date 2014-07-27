@@ -32,7 +32,7 @@ These profiles are useful to vary the amount of traffic sent to the web site. Ho
 ## Desperate mode
 
 
-wig also has an option to fetch the resources (css, js, gif, etc.) it encounters during a scan, and compare the md5 sums of the resources to all the fingerprints in its database. This option is call 'Desperate' and can be enabled with the flag '-d'. This might be able to detect more customized CMS installations, but at the cost of false positives
+wig also has an option to fetch the resources (css, js, gif, etc.) it encounters during a scan, and compare the md5 sums of the resources to all the fingerprints in its database. This option is call 'Desperate' and can be enabled with the flag '-d'. This might be able to detect more customized CMS installations, but at the cost of false positives.
 
 
 ## Verbose
