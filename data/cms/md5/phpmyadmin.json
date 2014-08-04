@@ -23208,5 +23208,135 @@
           "md5": "4224681843d7eac256344a893af572c5",
           "output": "RELEASE_4_2_6",
           "url": "/themes/pmahomme/img/pmd/favicon.ico"
+     },
+     {
+          "md5": "d037ef2f629a22ddadcf438e6be7a325",
+          "output": "RELEASE_4_2_7",
+          "url": "/favicon.ico"
+     },
+     {
+          "md5": "b02e7edf6e9d188ec8fbe7ecfa016ca6",
+          "output": "RELEASE_4_2_7",
+          "url": "/js/ajax.js"
+     },
+     {
+          "md5": "121dcdfbad1bafcd03f4e6e50f99b931",
+          "output": "RELEASE_4_2_7",
+          "url": "/js/common.js"
+     },
+     {
+          "md5": "43e18e88b9f8f76e03bfe6996f81dc91",
+          "output": "RELEASE_4_2_7",
+          "url": "/js/db_operations.js"
+     },
+     {
+          "md5": "c86b9617da8819a8183753d58f3c7788",
+          "output": "RELEASE_4_2_7",
+          "url": "/js/db_search.js"
+     },
+     {
+          "md5": "280c83b2d8a3f2b463c1adb60bdbd07a",
+          "output": "RELEASE_4_2_7",
+          "url": "/js/db_structure.js"
+     },
+     {
+          "md5": "612e8739ab1f1895375942433ae4b4e5",
+          "output": "RELEASE_4_2_7",
+          "url": "/js/error_report.js"
+     },
+     {
+          "md5": "1e1934285a29f7f7f1bf5b06094d0f70",
+          "output": "RELEASE_4_2_7",
+          "url": "/js/export.js"
+     },
+     {
+          "md5": "cfa5f4f68f1135293b60322319458cc7",
+          "output": "RELEASE_4_2_7",
+          "url": "/js/functions.js"
+     },
+     {
+          "md5": "9ce8ed8295124ee3ea2eae926bf9b5e9",
+          "output": "RELEASE_4_2_7",
+          "url": "/js/import.js"
+     },
+     {
+          "md5": "a0c74e13e28db64f2bd20801b179c8fc",
+          "output": "RELEASE_4_2_7",
+          "url": "/js/keyhandler.js"
+     },
+     {
+          "md5": "f0b8ecf3d95482d8490c1191a5b3c20b",
+          "output": "RELEASE_4_2_7",
+          "url": "/js/makegrid.js"
+     },
+     {
+          "md5": "caa2fd21b77575cec17acdc025ebeaa0",
+          "output": "RELEASE_4_2_7",
+          "url": "/js/navigation.js"
+     },
+     {
+          "md5": "4ff0e03c14eb81578996b513c31427f7",
+          "output": "RELEASE_4_2_7",
+          "url": "/js/openlayers/src/openlayers/lib/Firebug/firebug.js"
+     },
+     {
+          "md5": "cae3e0ee31fc15e92092c2b09d7d3a01",
+          "output": "RELEASE_4_2_7",
+          "url": "/js/openlayers/src/openlayers/lib/Gears/gears_init.js"
+     },
+     {
+          "md5": "0d6fe369a6425d759629303f901cf22d",
+          "output": "RELEASE_4_2_7",
+          "url": "/js/pmd/iecanvas.js"
+     },
+     {
+          "md5": "e5d5b75cfa02477f23b5830f98a75181",
+          "output": "RELEASE_4_2_7",
+          "url": "/js/rte.js"
+     },
+     {
+          "md5": "e26f2aeec16d4792ddff6b4a8f2ea956",
+          "output": "RELEASE_4_2_7",
+          "url": "/js/server_privileges.js"
+     },
+     {
+          "md5": "b2ead6e1741a812cc2fc853ef56001a3",
+          "output": "RELEASE_4_2_7",
+          "url": "/js/server_status_monitor.js"
+     },
+     {
+          "md5": "900c83ba7a228b344f178ffb9a12f9c5",
+          "output": "RELEASE_4_2_7",
+          "url": "/js/sql.js"
+     },
+     {
+          "md5": "4ae4930028e157b01d4ecd761f0d3593",
+          "output": "RELEASE_4_2_7",
+          "url": "/js/tbl_chart.js"
+     },
+     {
+          "md5": "e73ee6aed8691a18566d341e493b2625",
+          "output": "RELEASE_4_2_7",
+          "url": "/libraries/advisory_rules.txt"
+     },
+     {
+          "md5": "187c8a4dc8b0b83dec5e46d374466542",
+          "output": "RELEASE_4_2_7",
+          "url": "/setup/scripts.js"
+     },
+     {
+          "md5": "531dfd918019eef97a8efeef3419f12f",
+          "output": "RELEASE_4_2_7",
+          "url": "/setup/styles.css"
+     },
+     {
+          "md5": "c95465f33822980689a2d1ee1350d13b",
+          "output": "RELEASE_4_2_7",
+          "url": "/themes/original/img/logo_left.png"
+     },
+     {
+          "md5": "4224681843d7eac256344a893af572c5",
+          "output": "RELEASE_4_2_7",
+          "url": "/themes/pmahomme/img/pmd/favicon.ico"
      }
 ]
