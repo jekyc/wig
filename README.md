@@ -22,7 +22,9 @@ wig currently has 3 profiles that can be applied at run time.
 
 **1. Only send one request:** wig only sends a request for '/'. All fingerprints matching this url are tested.
 
-**2. Only send one request per plugin:** The url used in most fingerprints is used
+**2. Only send one request per cms:** The url used in most fingerprints is used
+
+**3. Only send requests for a specific cms:** The CMS should be specified with the '--cms_name' option.
 
 **4. All fingerprints:** All fingerprints are tested (default)
 
@@ -44,20 +46,23 @@ wig also has a logging feature which lists the files that were matched. The outp
 
 ```
 $ python3 wig.py -h
-usage: wig.py [-h] [-v] [-d] [-p {1,2,4}] host
+usage: wig.py [-h] [-v] [-d] [-p {1,2,3,4}] [--cms_name PLUGIN_NAME] host
 
 WebApp Information Gatherer
 
 positional arguments:
-  host        the host name of the target
+  host                  the host name of the target
 
 optional arguments:
-  -h, --help  show this help message and exit
-  -v          list all the urls where matches have been found
-  -d          Desperate mode - crawl pages fetched for additional ressource
-              and try to match all fingerprints.
-  -p {1,2,4}  select a profile: 1) Make only one request 2) Make one request
-              per plugin 4) All (default)
+  -h, --help            show this help message and exit
+  -v                    list all the urls where matches have been found
+  -d                    Desperate mode - crawl pages fetched for additional
+                        ressource and try to match all fingerprints.
+  -p {1,2,3,4}          select a profile: 1) Make only one request 2) Make one
+                        request per cms 3) Use a specific cms (requires
+                        --cms_name) 4) All (default)
+  --cms_name PLUGIN_NAME
+                        the name of the plugin to run. Indicates '-p 3'
 ```
 
 
