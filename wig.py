@@ -13,7 +13,7 @@ from classes.headers import CheckHeaders
 
 class Wig():
 
-	def __init__(self, host, profile, verbose, desperate):
+	def __init__(self, host, profile, verbose, desperate, plugin_name=None):
 		self.plugins = self.load_plugins()
 		self.host = host
 		self.results = Results()
@@ -22,6 +22,7 @@ class Wig():
 		self.colorizer = Color()
 		self.logs = Log()
 		self.verbose = verbose
+		self.plugin_name = plugin_name
 
 		self.check_url()
 		self.redirect()
@@ -92,7 +93,7 @@ class Wig():
 
 				# applies the choosen profile by removing fingerprints from the 
 				# fingerprint set if these do not match the choosen profile
-				p.set_profile(self.profile)
+				p.set_profile(self.profile, self.plugin_name)
 
 				# the main plugin method
 				p.run()
@@ -143,15 +144,35 @@ if __name__ == '__main__':
 	parser.add_argument('-p',
 		type=int,
 		default=4, 
-		choices=[1,2,4],
+		choices=[1,2,3,4],
 		dest='profile',
-		help='select a profile:  1) Make only one request  2) Make one request per plugin  4) All (default)')
+		help='select a profile:  1) Make only one request  2) Make one request per cms  3) Use a specific cms (requires --cms_name)  4) All (default)')
 
+	parser.add_argument('--cms_name', 
+		dest='plugin_name',
+		default=None,
+		help="the name of the plugin to run. Indicates '-p 3'"
+	)
 
 	args = parser.parse_args()
 
+	# fail if '-p 3' is set, but '--plugin_name' isn't 
+	if args.profile == 3 and not args.plugin_name:
+		print("Profile '3' requires a cms name specified by the '--cms_name' option")
+		print("Supported cms:")
+		for p in plugins.__all__:
+			# hack - remove once the operating system plugin has been removed
+			if not p == 'operatingsystem':
+				print("  " + p)
+
+		sys.exit(0)
+
+	# force the profile type to be 3, if a plugin name has been specified
+	if args.plugin_name:
+		args.profile = 3
+
 	try:
-		wig = Wig(args.host, args.profile, args.loglevel, args.desperate)
+		wig = Wig(args.host, args.profile, args.loglevel, args.desperate, args.plugin_name)
 		if not wig.host == args.host:
 			hilight_host = wig.colorizer.format(wig.host, 'red', False)
 

@@ -5,7 +5,7 @@ class Profile(object):
 		self.profiles = {
 			1: {'name': 'OnlyOne',		'method': self.one_request},
 			2: {'name': 'OnePerPlugin',	'method': self.one_request_per_plugin},
-			#3: {'name': 'OnePlugin',	'method': self.one_plugin},
+			3: {'name': 'OnePlugin',	'method': self.one_plugin},
 			4: {'name': 'All',			'method': self.default},
 		}
 
@@ -17,7 +17,13 @@ class Profile(object):
 			self.profile = self.profiles[4]['method']
 
 
-	def apply(self, items):
+	def apply(self, items, plugin_name, filter_name):
+		# 'plugin_name' is the name of the plugin to which the profile is being applied
+		self.plugin_name = plugin_name
+
+		# 'filter_name' is the name supplied by the user
+		self.filter_name = filter_name
+
 		return self.profile(items)
 
 
@@ -69,6 +75,12 @@ class Profile(object):
 
 		return out
 
+
+	def one_plugin(self, items):
+		if self.plugin_name.lower() == self.filter_name.lower():
+			return items
+		else:
+			return []
 
 	def default(self, items):
 		return items

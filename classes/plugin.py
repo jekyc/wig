@@ -61,11 +61,11 @@ class Plugin(object):
 	def set_items(self, items):
 		self.__items = items
 
-	def set_profile(self, profile):
+	def set_profile(self, profile, plugin_name):
 		# the exposed method for applying a profile
 		if self.use_profile:
 			self.load_data()
-			self.__items = profile.apply(self.__items)
+			self.__items = profile.apply(self.__items, self.name, plugin_name)
 
 	def get_logs(self):
 		return self.log
