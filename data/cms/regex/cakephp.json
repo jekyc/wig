@@ -1,7 +1,7 @@
 [
         {
-                "url": "/test.php",
-                "regex": "CakePHP Test Suite ([\d\.?]*)",
-                "output": "%s"
+		"url": "/test.php",
+		"regex": "CakePHP Test Suite ([\\d.?]*)",
+		"output": "%s"
         }
 ]
