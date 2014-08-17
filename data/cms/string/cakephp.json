@@ -3,10 +3,5 @@
 		"url": "/",
 		"string": "Powered by <a href=\"http://cakephp.org\">CakePHP</a>",
 		"output": ""
-	},
-	{
-		"url": "/test.php",
-		"string": "CakePHP Test Suite",
-		"output": ""
 	}
 ]
