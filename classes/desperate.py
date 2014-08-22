@@ -81,6 +81,11 @@ class PageScraper(Plugin):
 
 	def run(self):
 		for req in self.cache.get_responses():
+			# skip pages that do not set 'content-type'
+			# these might be binaries
+			if not 'content-tupe' in req.headers:
+				continue
+
 			# only scrape pages that can contain links/references
 			if 'text/html' in req.headers['content-type']:
 				self.parser.feed(str(req.content))
