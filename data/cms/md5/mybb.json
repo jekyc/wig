@@ -628,5 +628,15 @@
           "md5": "52f27b90761f90ccd45c27dac7b9efa3",
           "output": "mybb_1615",
           "url": "/jscripts/editor.js"
+     },
+     {
+          "md5": "7332351b160ef8b2222853c2848e25a6",
+          "output": "mybb_1800",
+          "url": "/admin/styles/default/forum.css"
+     },
+     {
+          "md5": "650525194178b3a4fb31ea2c2ac0b607",
+          "output": "mybb_1800",
+          "url": "/jscripts/post.js"
      }
 ]
