@@ -1,33 +1,76 @@
-import requests
-import queue
-from classes.plugin import Plugin
-from classes.requesterThread import RequesterThread
+import requests, queue, threading, time, hashlib,sys
 from classes.cache import Cache
+from classes.results import Results
 
-class Requester(Plugin):
-	def __init__(self, host, cache, results):
-		super().__init__(requests)
-		self.threads = 10
-		self.queue = queue.Queue()
-		self.requested = queue.Queue()
+
+class RequesterThread(threading.Thread):
+	def __init__(self, id, queue, cache, requested):
+		threading.Thread.__init__(self)
+		self.id = id
+		self.queue = queue
+		self.cache = cache
+		self.requested = requested
+		self.kill = False
+
+
+	def make_request(self, item):
+		host = item['host']
+		url = item['url']
+
+		if host.endswith('/') and url.startswith('/'):
+			uri = host + url[1:]
+		else:
+			uri = host + url
+		
+		if not uri in self.cache:
+			try:
+				r = requests.get(uri, verify=False)
+				self.cache[uri] = r
+
+				self.cache[uri].md5 = hashlib.md5(r.content).hexdigest().lower()				
+				r = self.cache[uri]
+			except Exception as e:
+				r = None
+		else:
+			r = self.cache[uri]
+
+		return r
+
+
+	def run(self):
+		while not self.kill:
+			item = self.queue.get()
+			if item is None:
+				self.queue.task_done()
+				break
+
+			response = self.make_request(item)
+			if response is None:
+				self.queue.task_done()
+				continue
+
+			self.requested.put( (item['fps'], response ) )
+			self.queue.task_done()
+
+
+
+class Requester(object):
+	def __init__(self, host, fps, cache):
+		self.fps = fps
+		self.threads = len(fps)
 		self.workers = []
 		self.host = host
 
-		# set cache
-		if not cache:	self.cache = Cache()
-		else: 			self.cache = cache
-
-		# set results
-		if not results:	self.results = Results()
-		else:			self.results = results
+		self.cache = cache
+		self.results = Results()
+		self.queue = queue.Queue()
+		self.requested = queue.Queue()
 		
-	def request_uniq(self):
-		if not self.is_data_loaded:
-			self.load_data()
 
-		# fill queue with only unique urls
-		for i in self.get_unique_urls():
-			self.queue.put( {"host": self.host, "url": i} )
+	def run(self):
+
+		for fp_list in self.fps:
+			self.queue.put({ "host": self.host, "url": fp_list[0]['url'], "fps": fp_list })
 
 		# add 'None' to queue - stops threads when no items are left
 		for i in range(self.threads): self.queue.put( None )
@@ -42,15 +85,4 @@ class Requester(Plugin):
 		# join when all work is done
 		self.queue.join()
 
-		# convert queue to list
-		# pair items from self.get_all_items with the urls requested
-		result_list = []
-		all_items = self.get_all_items()
-		while not self.requested.empty():
-			url, response = self.requested.get()
-			for item in all_items:
-				if item['url'] == url:
-					item["response"] = response
-					result_list.append( item )
-		
-		return result_list
+		return self.requested

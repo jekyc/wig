@@ -1,14 +1,14 @@
 
-class CheckHeaders(object):
+class ExtractHeaders(object):
 
-	def __init__(self, cache, results, log):
+	def __init__(self, cache, results, log=None):
 		self.cache = cache
 		self.results = results
 		self.log = log
 		self.headers = set()
-		self.category = "Server Info"
+		self.category = "Platform"
 
-	def split_server_line(self, line):
+	def _split_server_line(self, line):
 		if "(" in line:
 			os = line[line.find('(')+1:line.find(')')]
 			sh = line[:line.find('(')-1] + line[line.find(')')+1: ]
@@ -41,7 +41,7 @@ class CheckHeaders(object):
 				# extract the OS if present: (Apache/2.2 (Ubuntu) PHP/5.3.1 )
 				# os = Ubuntu
 				# line = Apache/2.2 PHP/5.3.1
-				os, line = self.split_server_line(val)
+				os, line = self._split_server_line(val)
 				
 				out = []
 				for part in line.split(" "):
@@ -49,8 +49,8 @@ class CheckHeaders(object):
 						pkg,version = part.split('/')
 						
 						# add the results to the log and the results
-						self.log.add( {url: {pkg: [version]} } )
-						self.results.add(self.category, pkg, {'version': version, 'count':1}, False)
+						#self.log.add( {url: {pkg: [version]} } )
+						self.results.add(self.category, pkg, version, weight=1)
 					except Exception as e:
 						continue
 
@@ -60,27 +60,27 @@ class CheckHeaders(object):
 				vals = val.split('/')
 				if len(vals) == 2:
 					pkg,version = val.split('/')
-					count = 1
+					weight = 1
 				else:
-					pkg,version,count = val,'',0.1
+					pkg,version,weight = val,'',0.1
 
-				self.log.add( {url: {pkg: [version]} } )
-				self.results.add(self.category, pkg, {'version': version, 'count':count}, False)
+				#self.log.add( {url: {pkg: [version]} } )
+				self.results.add(self.category, pkg, version, weight)
 
 			elif hdr == 'X-AspNet-Version':
 				pkg = "ASP.NET"
 				version = val
 
-				self.log.add( {url: {pkg: [version]} } )
-				self.results.add(self.category, pkg, {'version': version, 'count':1}, False)				
+				#self.log.add( {url: {pkg: [version]} } )
+				self.results.add(self.category, pkg, version, weight=1)				
 
 			elif hdr == 'Set-Cookie':
 				if 'ASP.NET_SessionId' in val:
 					pkg = "ASP.NET"
 					version = ''
 					
-					self.log.add( {url: {pkg: [version]} } )
-					self.results.add(self.category, pkg, {'version': version, 'count':0.1}, False)	
+					#self.log.add( {url: {pkg: [version]} } )
+					self.results.add(self.category, pkg, version, 0.1)	
 
 
 
