@@ -25,13 +25,14 @@ TODO:
 
 class Wig(object):
 
-	def __init__(self, host):
+	def __init__(self, host, run_all):
 		self.colorizer = Color()
 		self.cache = Cache()					# cache for requests
 		self.results = Results()				# storage of results
 		self.threads = 10						# number of threads to run
 		self.fingerprints = Fingerprints()		# load fingerprints
 		self.host = host
+		self.run_all = run_all
 
 		# set the amount of urls to fetch in parallel to the
 		# amount of threads
@@ -106,7 +107,7 @@ class Wig(object):
 		# no cms' have been detected
 		# 										currently stops after the first 
 		# 										cms match
-		while not cms_finder.is_done() and len(self.detected_cms) == 0:
+		while not cms_finder.is_done() and (len(self.detected_cms) == 0 or self.run_all):
 			
 			# check the next chunk of urls for cms detection 
 			cms_list = cms_finder.run(self.host, self.detected_cms)
@@ -151,13 +152,13 @@ if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description='WebApp Information Gatherer')
 	parser.add_argument('host', type=str, help='The host name of the target')
 	
-	parser.add_argument('-n', type=int, default=1,
+	parser.add_argument('-n', type=int, default=1, 
 		help='Stop after this amount of CMSs have been detected. Default: 1')
 	
-	parser.add_argument('-a', action='store_true', dest='run_all', default=False,	    
+	parser.add_argument('-a', action='store_true', dest='run_all', default=False, 
 		help='Do not stop after the first CMS is detected')
 
-	parser.add_argument('-c', action='store_true', dest='crawl', default=False,     
+	parser.add_argument('-c', action='store_true', dest='crawl', default=False,
 		help='Enable the crawler - include encountered static ressources (js,css,etc)')
 	
 	parser.add_argument('-e',   action='store_true', dest='enumerate', default=False,
@@ -170,7 +171,7 @@ if __name__ == '__main__':
 	args = parser.parse_args()
 
 	try:
-		wig = Wig(args.host)
+		wig = Wig(args.host, args.run_all)
 		if not wig.host == args.host:
 			hilight_host = wig.colorizer.format(wig.host, 'red', False)
 
