@@ -121,7 +121,6 @@ class DiscoverOS(object):
 			line = headers['X-Powered-By']
 			try:
 				pkg,version =  list(map(str.lower, line.split('/')))
-				print(self.fingerprints[pkg])
 				for i in self.fingerprints[pkg][version]:
 					if len(i) == 2:
 						os, os_version = i

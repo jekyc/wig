@@ -82,8 +82,6 @@ class Results(object):
 	def __str__(self):
 		self._calc_md5_score()
 
-		print(self.scores['Operating System'])
-
 		out = "\n"
 		o_cat = sorted([c for c in self.scores])
 
