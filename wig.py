@@ -6,7 +6,7 @@ from classes.cache import Cache
 from classes.results import Results
 from classes.requester import Requester
 from classes.fingerprints import Fingerprints
-from classes.discovery import DiscoverCMS, DiscoverVersion, DiscoverOS
+from classes.discovery import DiscoverCMS, DiscoverVersion, DiscoverOS, DiscoverRedirect, DiscoverErrorPage
 from classes.headers import ExtractHeaders
 
 """
@@ -48,41 +48,10 @@ class Wig(object):
 		# through version discovery
 		self.detected_cms = []
 
-		# check if the input URL redirects to somewhere else
-		self.check_url()
-		self.redirect()
+		# a set of md5sums for error pages
+		self.error_pages = set()
 
-
-	def check_url(self):
-		# adds http:// to input if not present
-		if not self.host.startswith("http"):
-			self.host = "http://" + self.host
-
-
-	def redirect(self):
-		# detects redirection if this happend
-		try:
-			r = requests.get(self.host, verify=False)
-		except:
-			print("Invalid URL or host not found. Exiting...")
-			sys.exit(1)
-
-		if not r.url == self.host:
-
-			# ensure that folders and files are removed
-			parts = r.url.split('//')
-			http, url = parts[0:2]
-
-			# remove subfolders and/or files
-			# http://example.com/test -> http://example.com/
-			if '/' in url:
-				redirected = http + '//' + url.split('/')[0] + '/'
-			else:
-				redirected = http + '//' + url + '/'
-
-			self.host = redirected
-
-
+		
 	def run(self):
 		t = time.time()
 
@@ -93,7 +62,32 @@ class Wig(object):
 		##########################################################################
 		# PRE PROCESSING
 		##########################################################################
+		
+		# check if the input URL redirects to somewhere else
+		dr = DiscoverRedirect(self.host)
 
+		# make sure that the input is valid
+		if dr.get_valid_url() == None:
+			print("Invalid host name")
+			sys.exit(1)
+
+		# if the hosts redirects, ask user if the redirection should be followed
+		elif dr.is_redirected:
+			hilight_host = self.colorizer.format(dr.get_valid_url(), 'red', False)
+			choice = input("Redirected to %s. Continue? [Y|n]:" %(hilight_host,))
+
+			# if not, exit			
+			if choice in ['n', 'N']:
+				sys.exit(1)
+			# else update the host 
+			else:
+				self.host = dr.get_valid_url()
+
+
+		# find error pages
+		find_error = DiscoverErrorPage(self.host, ['/this_is_an_error_page.asp', '/this_is_an_error_page.php', '/this/is/an/error/page.php'], self.cache)
+		find_error.run()
+		self.error_pages = find_error.get_error_pages()
 
 
 		##########################################################################
@@ -172,14 +166,6 @@ if __name__ == '__main__':
 
 	try:
 		wig = Wig(args.host, args.run_all)
-		if not wig.host == args.host:
-			hilight_host = wig.colorizer.format(wig.host, 'red', False)
-
-			# if a redirection has been detected on the input host, notify the user
-			choice = input("Redirected to %s. Continue? [Y|n]:" %(hilight_host,))
-			if choice in ['n', 'N']:
-				sys.exit(0)
-
 		wig.run()
 	except KeyboardInterrupt:
 		# detect ctrl+c 

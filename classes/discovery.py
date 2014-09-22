@@ -2,7 +2,69 @@ from classes.fingerprints import Fingerprints
 from classes.requester import Requester
 from classes.matcher import Match
 from collections import Counter
-import pprint
+import requests, re, hashlib
+
+class DiscoverRedirect(object):
+
+	def __init__(self, url):
+		self.org = url
+		self.url = url
+
+		# if a schema is not provided default to http
+		if not url.startswith("http"): self.url = "http://" + url
+
+
+		try:
+			r = requests.get(self.url, verify=False)
+		
+			if not r.url == self.url:
+				# ensure that folders and files are removed
+				parts = r.url.split('//')
+				http, netloc = parts[0:2]
+
+				# remove subfolders and/or files
+				# http://example.com/test -> http://example.com/
+				if '/' in netloc:
+					self.url = http + '//' + netloc.split('/')[0] + '/'
+				else:
+					self.url = http + '//' + netloc + '/'
+		except:
+			self.url = None
+
+	# check if the host redirects to another location
+	def is_redirected(self):
+		return not self.org == self.url
+
+	# return a cleaned URL
+	def get_valid_url(self):
+		return self.url
+
+		
+
+class DiscoverErrorPage(object):
+	def __init__(self, host, url_list, cache):
+		self.host = host
+		self.urls = url_list
+		self.cache = cache
+		self.error_pages = set()
+
+
+	def run(self):
+		urls = [ [{'host': self.host, 'url': u}] for u in self.urls ]
+
+		r = Requester(self.host, urls, self.cache, define_404=True)
+		results = r.run()
+		while results.qsize() > 0:
+			response = results.get()
+			self.error_pages.add(response)
+
+
+	def get_error_pages(self):
+		return self.error_pages
+
+
+
+
 
 
 class DiscoverCMS(object):
