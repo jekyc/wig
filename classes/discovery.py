@@ -13,7 +13,6 @@ class DiscoverRedirect(object):
 		# if a schema is not provided default to http
 		if not url.startswith("http"): self.url = "http://" + url
 
-
 		try:
 			r = requests.get(self.url, verify=False)
 		
@@ -42,18 +41,25 @@ class DiscoverRedirect(object):
 		
 
 class DiscoverErrorPage(object):
-	def __init__(self, host, url_list, cache):
+	# find error pages on the site
+	# the requester has a built-in list of items and patterns
+	# to remove before calculating a checksum of pages that
+	# should not exists
+
+	def __init__(self, requester, host, url_list):
 		self.host = host
 		self.urls = url_list
-		self.cache = cache
 		self.error_pages = set()
+		self.requester = requester
 
 
 	def run(self):
 		urls = [ [{'host': self.host, 'url': u}] for u in self.urls ]
 
-		r = Requester(self.host, urls, self.cache, define_404=True)
-		results = r.run()
+		self.requester.set_fingerprints(urls)
+		self.requester.set_find_404(True)
+
+		results = self.requester.run()
 		while results.qsize() > 0:
 			response = results.get()
 			self.error_pages.add(response)
@@ -64,18 +70,15 @@ class DiscoverErrorPage(object):
 
 
 
-
-
-
 class DiscoverCMS(object):
 
-	def __init__(self, ordered_fingerprints, cache, chunk_size):
+	def __init__(self, requester, matcher, ordered_fingerprints, chunk_size):
 		self.fps = ordered_fingerprints
 		self.fps_iter = iter(self.fps)
-		self.cache = cache
 		self.chunk_size = chunk_size
 		self.index = 0
-		self.matcher = Match()
+		self.matcher = matcher
+		self.requester = requester
 
 
 	def is_done(self):
@@ -91,8 +94,8 @@ class DiscoverCMS(object):
 		chunk = self.fps[i:i+cs]
 		self.index += cs
 
-		r = Requester(host, chunk, self.cache)
-		results = r.run()
+		self.requester.set_fingerprints(chunk)
+		results = self.requester.run()
 
 		# process the results and find matches
 		while results.qsize() > 0:
@@ -109,11 +112,11 @@ class DiscoverCMS(object):
 
 
 class DiscoverVersion(object):
-	def __init__(self, result, cache, chunk_size):
-		self.cache = cache
+	def __init__(self, requester, matcher, result, chunk_size):
 		self.result = result
 		self.chunk_size = chunk_size
-		self.matcher = Match()
+		self.matcher = matcher
+		self.requester = requester
 
 
 	def run(self, host, fingerprints):
@@ -123,8 +126,8 @@ class DiscoverVersion(object):
 		for i in range(0, num_fp, cs):
 			chunk = fingerprints[i:i+cs]
 
-			r = Requester(host, chunk, self.cache)
-			results = r.run()
+			self.requester.set_fingerprints(chunk)
+			results = self.requester.run()
 
 			while results.qsize() > 0:
 				fps,response = results.get()

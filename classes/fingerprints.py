@@ -37,7 +37,13 @@ class Fingerprints(object):
 		self.os_fingerprints = defaultdict(lambda: defaultdict(set))
 		#                      ^ Software          ^ Version   ^ set of tuples (OS, version)
 		self._load('os', 'data/os')
-	
+
+		# load error pages
+		with open('data/error_pages.json') as fh:
+			self.error_pages = json.load(fh)
+
+			
+
 	def _load(self, fp_type, data_dir):
 		
 		def add_cms(cms, data_file):
@@ -140,8 +146,13 @@ class Fingerprints(object):
 		self.ordered = out
 
 
+	def get_error_urls(self):
+		return self.error_pages
+
+
 	def get_os_fingerprints(self):
 		return self.os_fingerprints
+
 
 	def get_ordered_list(self):
 		return self.ordered

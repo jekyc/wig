@@ -98,18 +98,26 @@ class RequesterThread(threading.Thread):
 
 
 class Requester(object):
-	def __init__(self, host, fps, cache, define_404=False):
-		self.fps = fps
-		self.threads = len(fps)
+	def __init__(self, host, cache):
+		self.threads = None
 		self.workers = []
 		self.host = host
-		self.define_404 = define_404
+		self.find_404s = False
 
 		self.cache = cache
 		self.results = Results()
 		self.queue = queue.Queue()
 		self.requested = queue.Queue()
-		
+
+
+	def set_fingerprints(self, fps):
+		self.fps = fps
+		self.threads = len(fps)
+
+
+	def set_find_404(self, find_404s):
+		self.find_404s = find_404s
+
 
 	def run(self):
 
@@ -120,6 +128,7 @@ class Requester(object):
 		for i in range(self.threads): self.queue.put( None )
 
 		# start the threads
+		self.works = []
 		for i in range(self.threads):
 			w = RequesterThread(i, self.queue, self.cache, self.requested)
 			w.daemon = True
@@ -131,7 +140,7 @@ class Requester(object):
 
 		# the define_404 should only be true during the 
 		# preprocessing. 
-		if not self.define_404:
+		if not self.find_404s:
 			return self.requested
 
 		# if the define_404 flag is set, then the 

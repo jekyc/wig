@@ -8,15 +8,14 @@ from classes.requester import Requester
 from classes.fingerprints import Fingerprints
 from classes.discovery import DiscoverCMS, DiscoverVersion, DiscoverOS, DiscoverRedirect, DiscoverErrorPage
 from classes.headers import ExtractHeaders
+from classes.matcher import Match
 
 """
 TODO:
-	- detection of error pages
 	- implement log
 	- improve ordering of fingerprints in discovery list
 	- implement functions
 		- crawler
-		- don't stop after first 'hit'
 		- dirbuster-ish 
 	- implement crawler
 	- implement tree structure view
@@ -58,7 +57,6 @@ class Wig(object):
 		fps = self.fingerprints
 		num_fps = fps.get_size()
 
-
 		##########################################################################
 		# PRE PROCESSING
 		##########################################################################
@@ -84,23 +82,31 @@ class Wig(object):
 				self.host = dr.get_valid_url()
 
 
+		# set a requester instance to use for all the requests
+		requester = Requester(self.host, self.cache)
+		requester.set_find_404(True)
+
 		# find error pages
-		find_error = DiscoverErrorPage(self.host, ['/this_is_an_error_page.asp', '/this_is_an_error_page.php', '/this/is/an/error/page.php'], self.cache)
+		find_error = DiscoverErrorPage(requester, self.host, self.fingerprints.get_error_urls())
 		find_error.run()
-		self.error_pages = find_error.get_error_pages()
+		error_pages = find_error.get_error_pages()
+
+		# set the requester to not find 404s
+		requester.set_find_404(False)
+
+		# create a matcher
+		matcher = Match()
+		matcher.set_404s(error_pages)
 
 
 		##########################################################################
 		# PROCESSING
-		##########################################################################
-		cms_finder = DiscoverCMS(self.ordered_list, self.cache, self.chuck_size)
-		version_finder = DiscoverVersion(self.results, self.cache, self.chuck_size)
-
+		#########################################################################
+		cms_finder = DiscoverCMS(requester, matcher, self.ordered_list, self.chuck_size)
+		version_finder = DiscoverVersion(requester, matcher, self.results, self.chuck_size)
 
 		# as long as there are more fingerprints to check, and
 		# no cms' have been detected
-		# 										currently stops after the first 
-		# 										cms match
 		while not cms_finder.is_done() and (len(self.detected_cms) == 0 or self.run_all):
 			
 			# check the next chunk of urls for cms detection 
@@ -140,6 +146,9 @@ class Wig(object):
 		print(bar)
 		print(status + "\n")
 
+		for r in self.cache.get_responses():
+			if r.status_code == 200:
+				print(r.url)
 
 
 if __name__ == '__main__':
