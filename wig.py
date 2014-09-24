@@ -67,13 +67,14 @@ class Wig(object):
 		# check if the input URL redirects to somewhere else
 		dr = DiscoverRedirect(self.host)
 
+
 		# make sure that the input is valid
 		if dr.get_valid_url() == None:
 			print("Invalid host name")
 			sys.exit(1)
 
 		# if the hosts redirects, ask user if the redirection should be followed
-		elif dr.is_redirected:
+		elif dr.is_redirected():
 			hilight_host = self.colorizer.format(dr.get_valid_url(), 'red', False)
 			choice = input("Redirected to %s. Continue? [Y|n]:" %(hilight_host,))
 
@@ -83,7 +84,7 @@ class Wig(object):
 			# else update the host 
 			else:
 				self.host = dr.get_valid_url()
-
+		
 
 		# set a requester instance to use for all the requests
 		requester = Requester(self.host, self.cache)
