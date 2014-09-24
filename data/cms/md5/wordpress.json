@@ -3270,6 +3270,396 @@
           "url": "/wp-includes/wlwmanifest.xml"
      },
      {
+          "md5": "b5a5602923179daa9c75b75e47fd1174",
+          "output": "3.7.2",
+          "url": "/wp-admin/css/install.css"
+     },
+     {
+          "md5": "990c061c85fc81736b9c6befac3b5c77",
+          "output": "3.7.2",
+          "url": "/wp-admin/css/wp-admin-rtl.min.css"
+     },
+     {
+          "md5": "ddc1a40f07fa0698af312e2793e4cb41",
+          "output": "3.7.2",
+          "url": "/wp-admin/css/wp-admin.min.css"
+     },
+     {
+          "md5": "753ddfb43ade0f3fb4c00b010bdeec60",
+          "output": "3.7.2",
+          "url": "/wp-admin/js/about.js"
+     },
+     {
+          "md5": "585ead88e437e19591a6d8c43de2df50",
+          "output": "3.7.2",
+          "url": "/wp-admin/js/color-picker.js"
+     },
+     {
+          "md5": "5a208e90699083d393803d2d3ae55d4c",
+          "output": "3.7.2",
+          "url": "/wp-admin/js/comment.js"
+     },
+     {
+          "md5": "35767af35006b75866e3a5806ab6496f",
+          "output": "3.7.2",
+          "url": "/wp-admin/js/common.js"
+     },
+     {
+          "md5": "886b5ea55729f7016211cf324af5e897",
+          "output": "3.7.2",
+          "url": "/wp-admin/js/common.min.js"
+     },
+     {
+          "md5": "d14c932322f06c464282544b020ab812",
+          "output": "3.7.2",
+          "url": "/wp-admin/js/dashboard.min.js"
+     },
+     {
+          "md5": "3149dd38216585bd7d68e89da427cfb0",
+          "output": "3.7.2",
+          "url": "/wp-admin/js/post.js"
+     },
+     {
+          "md5": "a7f95c97f28986e4f7092dbc8678e9cf",
+          "output": "3.7.2",
+          "url": "/wp-admin/js/theme.js"
+     },
+     {
+          "md5": "45687c2857346504c9f1a30b53aac86f",
+          "output": "3.7.2",
+          "url": "/wp-admin/js/theme.min.js"
+     },
+     {
+          "md5": "0427744011fa4e8403031226a81720fb",
+          "output": "3.7.2",
+          "url": "/wp-content/themes/twentyeleven/style.css"
+     },
+     {
+          "md5": "e3430b7c03f0b1594a2de87c2bdad693",
+          "output": "3.7.2",
+          "url": "/wp-content/themes/twentyten/style.css"
+     },
+     {
+          "md5": "2cb0f33223920afd274992bf67603657",
+          "output": "3.7.2",
+          "url": "/wp-content/themes/twentythirteen/style.css"
+     },
+     {
+          "md5": "f581a4e8a0512e99baa8762fa1e27c4e",
+          "output": "3.7.2",
+          "url": "/wp-includes/css/admin-bar-rtl.css"
+     },
+     {
+          "md5": "9dc196c29bce46911bb3f42c86e90586",
+          "output": "3.7.2",
+          "url": "/wp-includes/css/admin-bar-rtl.min.css"
+     },
+     {
+          "md5": "b13c1e5aa68a4038c1bc0582fc04d295",
+          "output": "3.7.2",
+          "url": "/wp-includes/css/admin-bar.min.css"
+     },
+     {
+          "md5": "9ab3023423d067560b9c9049096e2bc3",
+          "output": "3.7.2",
+          "url": "/wp-includes/css/buttons.css"
+     },
+     {
+          "md5": "da093d1bd20e5e366150d97118a39ae4",
+          "output": "3.7.2",
+          "url": "/wp-includes/css/buttons.min.css"
+     },
+     {
+          "md5": "82886b7f245be648136f1d1633d7679d",
+          "output": "3.7.2",
+          "url": "/wp-includes/css/media-views-rtl.css"
+     },
+     {
+          "md5": "7dff4cd1a1c6a83b48aa548a885d9368",
+          "output": "3.7.2",
+          "url": "/wp-includes/css/media-views-rtl.min.css"
+     },
+     {
+          "md5": "01928d3405b7c4b0d5f82e1c8e1b4ac1",
+          "output": "3.7.2",
+          "url": "/wp-includes/js/plupload/changelog.txt"
+     },
+     {
+          "md5": "b37d71f086003790ea5bb7bb390b6514",
+          "output": "3.7.2",
+          "url": "/wp-includes/js/tinymce/plugins/spellchecker/changelog.txt"
+     },
+     {
+          "md5": "acb33329b9ef8aabd8bd731426803e4e",
+          "output": "3.7.2",
+          "url": "/wp-includes/js/tinymce/tiny_mce.js"
+     },
+     {
+          "md5": "b23aa270acc2240a9a22082550a8680c",
+          "output": "3.7.2",
+          "url": "/wp-includes/wlwmanifest.xml"
+     },
+     {
+          "md5": "b5a5602923179daa9c75b75e47fd1174",
+          "output": "3.7.3",
+          "url": "/wp-admin/css/install.css"
+     },
+     {
+          "md5": "990c061c85fc81736b9c6befac3b5c77",
+          "output": "3.7.3",
+          "url": "/wp-admin/css/wp-admin-rtl.min.css"
+     },
+     {
+          "md5": "ddc1a40f07fa0698af312e2793e4cb41",
+          "output": "3.7.3",
+          "url": "/wp-admin/css/wp-admin.min.css"
+     },
+     {
+          "md5": "753ddfb43ade0f3fb4c00b010bdeec60",
+          "output": "3.7.3",
+          "url": "/wp-admin/js/about.js"
+     },
+     {
+          "md5": "585ead88e437e19591a6d8c43de2df50",
+          "output": "3.7.3",
+          "url": "/wp-admin/js/color-picker.js"
+     },
+     {
+          "md5": "5a208e90699083d393803d2d3ae55d4c",
+          "output": "3.7.3",
+          "url": "/wp-admin/js/comment.js"
+     },
+     {
+          "md5": "35767af35006b75866e3a5806ab6496f",
+          "output": "3.7.3",
+          "url": "/wp-admin/js/common.js"
+     },
+     {
+          "md5": "886b5ea55729f7016211cf324af5e897",
+          "output": "3.7.3",
+          "url": "/wp-admin/js/common.min.js"
+     },
+     {
+          "md5": "d14c932322f06c464282544b020ab812",
+          "output": "3.7.3",
+          "url": "/wp-admin/js/dashboard.min.js"
+     },
+     {
+          "md5": "3149dd38216585bd7d68e89da427cfb0",
+          "output": "3.7.3",
+          "url": "/wp-admin/js/post.js"
+     },
+     {
+          "md5": "a7f95c97f28986e4f7092dbc8678e9cf",
+          "output": "3.7.3",
+          "url": "/wp-admin/js/theme.js"
+     },
+     {
+          "md5": "45687c2857346504c9f1a30b53aac86f",
+          "output": "3.7.3",
+          "url": "/wp-admin/js/theme.min.js"
+     },
+     {
+          "md5": "0427744011fa4e8403031226a81720fb",
+          "output": "3.7.3",
+          "url": "/wp-content/themes/twentyeleven/style.css"
+     },
+     {
+          "md5": "e3430b7c03f0b1594a2de87c2bdad693",
+          "output": "3.7.3",
+          "url": "/wp-content/themes/twentyten/style.css"
+     },
+     {
+          "md5": "2cb0f33223920afd274992bf67603657",
+          "output": "3.7.3",
+          "url": "/wp-content/themes/twentythirteen/style.css"
+     },
+     {
+          "md5": "f581a4e8a0512e99baa8762fa1e27c4e",
+          "output": "3.7.3",
+          "url": "/wp-includes/css/admin-bar-rtl.css"
+     },
+     {
+          "md5": "9dc196c29bce46911bb3f42c86e90586",
+          "output": "3.7.3",
+          "url": "/wp-includes/css/admin-bar-rtl.min.css"
+     },
+     {
+          "md5": "b13c1e5aa68a4038c1bc0582fc04d295",
+          "output": "3.7.3",
+          "url": "/wp-includes/css/admin-bar.min.css"
+     },
+     {
+          "md5": "9ab3023423d067560b9c9049096e2bc3",
+          "output": "3.7.3",
+          "url": "/wp-includes/css/buttons.css"
+     },
+     {
+          "md5": "da093d1bd20e5e366150d97118a39ae4",
+          "output": "3.7.3",
+          "url": "/wp-includes/css/buttons.min.css"
+     },
+     {
+          "md5": "82886b7f245be648136f1d1633d7679d",
+          "output": "3.7.3",
+          "url": "/wp-includes/css/media-views-rtl.css"
+     },
+     {
+          "md5": "7dff4cd1a1c6a83b48aa548a885d9368",
+          "output": "3.7.3",
+          "url": "/wp-includes/css/media-views-rtl.min.css"
+     },
+     {
+          "md5": "01928d3405b7c4b0d5f82e1c8e1b4ac1",
+          "output": "3.7.3",
+          "url": "/wp-includes/js/plupload/changelog.txt"
+     },
+     {
+          "md5": "b37d71f086003790ea5bb7bb390b6514",
+          "output": "3.7.3",
+          "url": "/wp-includes/js/tinymce/plugins/spellchecker/changelog.txt"
+     },
+     {
+          "md5": "acb33329b9ef8aabd8bd731426803e4e",
+          "output": "3.7.3",
+          "url": "/wp-includes/js/tinymce/tiny_mce.js"
+     },
+     {
+          "md5": "b23aa270acc2240a9a22082550a8680c",
+          "output": "3.7.3",
+          "url": "/wp-includes/wlwmanifest.xml"
+     },
+     {
+          "md5": "b5a5602923179daa9c75b75e47fd1174",
+          "output": "3.7.4",
+          "url": "/wp-admin/css/install.css"
+     },
+     {
+          "md5": "990c061c85fc81736b9c6befac3b5c77",
+          "output": "3.7.4",
+          "url": "/wp-admin/css/wp-admin-rtl.min.css"
+     },
+     {
+          "md5": "ddc1a40f07fa0698af312e2793e4cb41",
+          "output": "3.7.4",
+          "url": "/wp-admin/css/wp-admin.min.css"
+     },
+     {
+          "md5": "753ddfb43ade0f3fb4c00b010bdeec60",
+          "output": "3.7.4",
+          "url": "/wp-admin/js/about.js"
+     },
+     {
+          "md5": "585ead88e437e19591a6d8c43de2df50",
+          "output": "3.7.4",
+          "url": "/wp-admin/js/color-picker.js"
+     },
+     {
+          "md5": "5a208e90699083d393803d2d3ae55d4c",
+          "output": "3.7.4",
+          "url": "/wp-admin/js/comment.js"
+     },
+     {
+          "md5": "35767af35006b75866e3a5806ab6496f",
+          "output": "3.7.4",
+          "url": "/wp-admin/js/common.js"
+     },
+     {
+          "md5": "886b5ea55729f7016211cf324af5e897",
+          "output": "3.7.4",
+          "url": "/wp-admin/js/common.min.js"
+     },
+     {
+          "md5": "d14c932322f06c464282544b020ab812",
+          "output": "3.7.4",
+          "url": "/wp-admin/js/dashboard.min.js"
+     },
+     {
+          "md5": "3149dd38216585bd7d68e89da427cfb0",
+          "output": "3.7.4",
+          "url": "/wp-admin/js/post.js"
+     },
+     {
+          "md5": "a7f95c97f28986e4f7092dbc8678e9cf",
+          "output": "3.7.4",
+          "url": "/wp-admin/js/theme.js"
+     },
+     {
+          "md5": "45687c2857346504c9f1a30b53aac86f",
+          "output": "3.7.4",
+          "url": "/wp-admin/js/theme.min.js"
+     },
+     {
+          "md5": "0427744011fa4e8403031226a81720fb",
+          "output": "3.7.4",
+          "url": "/wp-content/themes/twentyeleven/style.css"
+     },
+     {
+          "md5": "e3430b7c03f0b1594a2de87c2bdad693",
+          "output": "3.7.4",
+          "url": "/wp-content/themes/twentyten/style.css"
+     },
+     {
+          "md5": "2cb0f33223920afd274992bf67603657",
+          "output": "3.7.4",
+          "url": "/wp-content/themes/twentythirteen/style.css"
+     },
+     {
+          "md5": "f581a4e8a0512e99baa8762fa1e27c4e",
+          "output": "3.7.4",
+          "url": "/wp-includes/css/admin-bar-rtl.css"
+     },
+     {
+          "md5": "9dc196c29bce46911bb3f42c86e90586",
+          "output": "3.7.4",
+          "url": "/wp-includes/css/admin-bar-rtl.min.css"
+     },
+     {
+          "md5": "b13c1e5aa68a4038c1bc0582fc04d295",
+          "output": "3.7.4",
+          "url": "/wp-includes/css/admin-bar.min.css"
+     },
+     {
+          "md5": "9ab3023423d067560b9c9049096e2bc3",
+          "output": "3.7.4",
+          "url": "/wp-includes/css/buttons.css"
+     },
+     {
+          "md5": "da093d1bd20e5e366150d97118a39ae4",
+          "output": "3.7.4",
+          "url": "/wp-includes/css/buttons.min.css"
+     },
+     {
+          "md5": "82886b7f245be648136f1d1633d7679d",
+          "output": "3.7.4",
+          "url": "/wp-includes/css/media-views-rtl.css"
+     },
+     {
+          "md5": "7dff4cd1a1c6a83b48aa548a885d9368",
+          "output": "3.7.4",
+          "url": "/wp-includes/css/media-views-rtl.min.css"
+     },
+     {
+          "md5": "01928d3405b7c4b0d5f82e1c8e1b4ac1",
+          "output": "3.7.4",
+          "url": "/wp-includes/js/plupload/changelog.txt"
+     },
+     {
+          "md5": "b37d71f086003790ea5bb7bb390b6514",
+          "output": "3.7.4",
+          "url": "/wp-includes/js/tinymce/plugins/spellchecker/changelog.txt"
+     },
+     {
+          "md5": "acb33329b9ef8aabd8bd731426803e4e",
+          "output": "3.7.4",
+          "url": "/wp-includes/js/tinymce/tiny_mce.js"
+     },
+     {
+          "md5": "b23aa270acc2240a9a22082550a8680c",
+          "output": "3.7.4",
+          "url": "/wp-includes/wlwmanifest.xml"
+     },
+     {
           "md5": "04328c1f971f271dc3618a71a0eee27d",
           "output": "3.8",
           "url": "/wp-admin/css/install-rtl.css"
@@ -3567,6 +3957,996 @@
      {
           "md5": "dfd490b6f383ea02a269031ff05e8896",
           "output": "3.8.1",
+          "url": "/wp-includes/wlwmanifest.xml"
+     },
+     {
+          "md5": "806e003025b3092f2f9eb3026c6d9d38",
+          "output": "3.8.2",
+          "url": "/wp-admin/css/install-rtl.css"
+     },
+     {
+          "md5": "ffc68bc4eeaa6006b6bcb476cc751c43",
+          "output": "3.8.2",
+          "url": "/wp-admin/css/install.css"
+     },
+     {
+          "md5": "c1c470fd221acba9da73357892b3fed0",
+          "output": "3.8.2",
+          "url": "/wp-admin/css/wp-admin-rtl.min.css"
+     },
+     {
+          "md5": "50626cb79cfc0acdba560abc2e50006c",
+          "output": "3.8.2",
+          "url": "/wp-admin/css/wp-admin.min.css"
+     },
+     {
+          "md5": "085caa20dbc9e9f7343bc0349227bedb",
+          "output": "3.8.2",
+          "url": "/wp-admin/js/color-picker.js"
+     },
+     {
+          "md5": "a3fefb4998b3f534e144db4f235d0f03",
+          "output": "3.8.2",
+          "url": "/wp-admin/js/comment.js"
+     },
+     {
+          "md5": "60a507d4bbba0d8720af1741454c299a",
+          "output": "3.8.2",
+          "url": "/wp-admin/js/common.js"
+     },
+     {
+          "md5": "4f9383d80d7b2a9947e9de21451226f9",
+          "output": "3.8.2",
+          "url": "/wp-admin/js/common.min.js"
+     },
+     {
+          "md5": "3c89fd0ed1e0d37bde6d6722b815d02b",
+          "output": "3.8.2",
+          "url": "/wp-admin/js/dashboard.min.js"
+     },
+     {
+          "md5": "8bba20755890a66db03ed0d606e17c4c",
+          "output": "3.8.2",
+          "url": "/wp-admin/js/post.js"
+     },
+     {
+          "md5": "f5cecd61138f60a9b1048feff299ca8b",
+          "output": "3.8.2",
+          "url": "/wp-admin/js/theme.js"
+     },
+     {
+          "md5": "03ad629cdfa5ab6ae56233ebbcb73262",
+          "output": "3.8.2",
+          "url": "/wp-admin/js/theme.min.js"
+     },
+     {
+          "md5": "aa803aa18ae0432f3824f970c229e153",
+          "output": "3.8.2",
+          "url": "/wp-content/themes/twentyeleven/style.css"
+     },
+     {
+          "md5": "624f8e163ba9b1ee522aaa8a74f24449",
+          "output": "3.8.2",
+          "url": "/wp-content/themes/twentyten/style.css"
+     },
+     {
+          "md5": "18b223453dc84f2c6490f88a295b98ed",
+          "output": "3.8.2",
+          "url": "/wp-content/themes/twentythirteen/style.css"
+     },
+     {
+          "md5": "88af7a163758d4d5a13cf5b71e50fcac",
+          "output": "3.8.2",
+          "url": "/wp-includes/css/admin-bar-rtl.css"
+     },
+     {
+          "md5": "10d828db9d6ba8cbd2c2567664dccd7f",
+          "output": "3.8.2",
+          "url": "/wp-includes/css/admin-bar-rtl.min.css"
+     },
+     {
+          "md5": "d87d776863fd4e2833fd40388559908b",
+          "output": "3.8.2",
+          "url": "/wp-includes/css/admin-bar.min.css"
+     },
+     {
+          "md5": "fb062ed92b76638c161e80f4a5426586",
+          "output": "3.8.2",
+          "url": "/wp-includes/css/buttons-rtl.css"
+     },
+     {
+          "md5": "64e9014d99e11a00ade285978cb2c4f8",
+          "output": "3.8.2",
+          "url": "/wp-includes/css/buttons-rtl.min.css"
+     },
+     {
+          "md5": "3f5a45249163f428749e8071146991f3",
+          "output": "3.8.2",
+          "url": "/wp-includes/css/buttons.css"
+     },
+     {
+          "md5": "e82337ca2dcf3e0e43643e9912caabb3",
+          "output": "3.8.2",
+          "url": "/wp-includes/css/buttons.min.css"
+     },
+     {
+          "md5": "cf2aec29e53cf7fcfeed958de2b1aec7",
+          "output": "3.8.2",
+          "url": "/wp-includes/css/dashicons.css"
+     },
+     {
+          "md5": "515214365da656a845777ddbdc04ee2a",
+          "output": "3.8.2",
+          "url": "/wp-includes/css/dashicons.min.css"
+     },
+     {
+          "md5": "eda317820fb1056837abb407ce52dd04",
+          "output": "3.8.2",
+          "url": "/wp-includes/css/media-views-rtl.css"
+     },
+     {
+          "md5": "40ecf9d68327bdeaeb7c50bf53483a4f",
+          "output": "3.8.2",
+          "url": "/wp-includes/css/media-views-rtl.min.css"
+     },
+     {
+          "md5": "01928d3405b7c4b0d5f82e1c8e1b4ac1",
+          "output": "3.8.2",
+          "url": "/wp-includes/js/plupload/changelog.txt"
+     },
+     {
+          "md5": "b37d71f086003790ea5bb7bb390b6514",
+          "output": "3.8.2",
+          "url": "/wp-includes/js/tinymce/plugins/spellchecker/changelog.txt"
+     },
+     {
+          "md5": "acb33329b9ef8aabd8bd731426803e4e",
+          "output": "3.8.2",
+          "url": "/wp-includes/js/tinymce/tiny_mce.js"
+     },
+     {
+          "md5": "dfd490b6f383ea02a269031ff05e8896",
+          "output": "3.8.2",
+          "url": "/wp-includes/wlwmanifest.xml"
+     },
+     {
+          "md5": "806e003025b3092f2f9eb3026c6d9d38",
+          "output": "3.8.3",
+          "url": "/wp-admin/css/install-rtl.css"
+     },
+     {
+          "md5": "ffc68bc4eeaa6006b6bcb476cc751c43",
+          "output": "3.8.3",
+          "url": "/wp-admin/css/install.css"
+     },
+     {
+          "md5": "c1c470fd221acba9da73357892b3fed0",
+          "output": "3.8.3",
+          "url": "/wp-admin/css/wp-admin-rtl.min.css"
+     },
+     {
+          "md5": "50626cb79cfc0acdba560abc2e50006c",
+          "output": "3.8.3",
+          "url": "/wp-admin/css/wp-admin.min.css"
+     },
+     {
+          "md5": "085caa20dbc9e9f7343bc0349227bedb",
+          "output": "3.8.3",
+          "url": "/wp-admin/js/color-picker.js"
+     },
+     {
+          "md5": "a3fefb4998b3f534e144db4f235d0f03",
+          "output": "3.8.3",
+          "url": "/wp-admin/js/comment.js"
+     },
+     {
+          "md5": "60a507d4bbba0d8720af1741454c299a",
+          "output": "3.8.3",
+          "url": "/wp-admin/js/common.js"
+     },
+     {
+          "md5": "4f9383d80d7b2a9947e9de21451226f9",
+          "output": "3.8.3",
+          "url": "/wp-admin/js/common.min.js"
+     },
+     {
+          "md5": "3c89fd0ed1e0d37bde6d6722b815d02b",
+          "output": "3.8.3",
+          "url": "/wp-admin/js/dashboard.min.js"
+     },
+     {
+          "md5": "8bba20755890a66db03ed0d606e17c4c",
+          "output": "3.8.3",
+          "url": "/wp-admin/js/post.js"
+     },
+     {
+          "md5": "f5cecd61138f60a9b1048feff299ca8b",
+          "output": "3.8.3",
+          "url": "/wp-admin/js/theme.js"
+     },
+     {
+          "md5": "03ad629cdfa5ab6ae56233ebbcb73262",
+          "output": "3.8.3",
+          "url": "/wp-admin/js/theme.min.js"
+     },
+     {
+          "md5": "aa803aa18ae0432f3824f970c229e153",
+          "output": "3.8.3",
+          "url": "/wp-content/themes/twentyeleven/style.css"
+     },
+     {
+          "md5": "624f8e163ba9b1ee522aaa8a74f24449",
+          "output": "3.8.3",
+          "url": "/wp-content/themes/twentyten/style.css"
+     },
+     {
+          "md5": "18b223453dc84f2c6490f88a295b98ed",
+          "output": "3.8.3",
+          "url": "/wp-content/themes/twentythirteen/style.css"
+     },
+     {
+          "md5": "88af7a163758d4d5a13cf5b71e50fcac",
+          "output": "3.8.3",
+          "url": "/wp-includes/css/admin-bar-rtl.css"
+     },
+     {
+          "md5": "10d828db9d6ba8cbd2c2567664dccd7f",
+          "output": "3.8.3",
+          "url": "/wp-includes/css/admin-bar-rtl.min.css"
+     },
+     {
+          "md5": "d87d776863fd4e2833fd40388559908b",
+          "output": "3.8.3",
+          "url": "/wp-includes/css/admin-bar.min.css"
+     },
+     {
+          "md5": "fb062ed92b76638c161e80f4a5426586",
+          "output": "3.8.3",
+          "url": "/wp-includes/css/buttons-rtl.css"
+     },
+     {
+          "md5": "64e9014d99e11a00ade285978cb2c4f8",
+          "output": "3.8.3",
+          "url": "/wp-includes/css/buttons-rtl.min.css"
+     },
+     {
+          "md5": "3f5a45249163f428749e8071146991f3",
+          "output": "3.8.3",
+          "url": "/wp-includes/css/buttons.css"
+     },
+     {
+          "md5": "e82337ca2dcf3e0e43643e9912caabb3",
+          "output": "3.8.3",
+          "url": "/wp-includes/css/buttons.min.css"
+     },
+     {
+          "md5": "cf2aec29e53cf7fcfeed958de2b1aec7",
+          "output": "3.8.3",
+          "url": "/wp-includes/css/dashicons.css"
+     },
+     {
+          "md5": "515214365da656a845777ddbdc04ee2a",
+          "output": "3.8.3",
+          "url": "/wp-includes/css/dashicons.min.css"
+     },
+     {
+          "md5": "eda317820fb1056837abb407ce52dd04",
+          "output": "3.8.3",
+          "url": "/wp-includes/css/media-views-rtl.css"
+     },
+     {
+          "md5": "40ecf9d68327bdeaeb7c50bf53483a4f",
+          "output": "3.8.3",
+          "url": "/wp-includes/css/media-views-rtl.min.css"
+     },
+     {
+          "md5": "01928d3405b7c4b0d5f82e1c8e1b4ac1",
+          "output": "3.8.3",
+          "url": "/wp-includes/js/plupload/changelog.txt"
+     },
+     {
+          "md5": "b37d71f086003790ea5bb7bb390b6514",
+          "output": "3.8.3",
+          "url": "/wp-includes/js/tinymce/plugins/spellchecker/changelog.txt"
+     },
+     {
+          "md5": "acb33329b9ef8aabd8bd731426803e4e",
+          "output": "3.8.3",
+          "url": "/wp-includes/js/tinymce/tiny_mce.js"
+     },
+     {
+          "md5": "dfd490b6f383ea02a269031ff05e8896",
+          "output": "3.8.3",
+          "url": "/wp-includes/wlwmanifest.xml"
+     },
+     {
+          "md5": "806e003025b3092f2f9eb3026c6d9d38",
+          "output": "3.8.4",
+          "url": "/wp-admin/css/install-rtl.css"
+     },
+     {
+          "md5": "ffc68bc4eeaa6006b6bcb476cc751c43",
+          "output": "3.8.4",
+          "url": "/wp-admin/css/install.css"
+     },
+     {
+          "md5": "c1c470fd221acba9da73357892b3fed0",
+          "output": "3.8.4",
+          "url": "/wp-admin/css/wp-admin-rtl.min.css"
+     },
+     {
+          "md5": "50626cb79cfc0acdba560abc2e50006c",
+          "output": "3.8.4",
+          "url": "/wp-admin/css/wp-admin.min.css"
+     },
+     {
+          "md5": "085caa20dbc9e9f7343bc0349227bedb",
+          "output": "3.8.4",
+          "url": "/wp-admin/js/color-picker.js"
+     },
+     {
+          "md5": "a3fefb4998b3f534e144db4f235d0f03",
+          "output": "3.8.4",
+          "url": "/wp-admin/js/comment.js"
+     },
+     {
+          "md5": "60a507d4bbba0d8720af1741454c299a",
+          "output": "3.8.4",
+          "url": "/wp-admin/js/common.js"
+     },
+     {
+          "md5": "4f9383d80d7b2a9947e9de21451226f9",
+          "output": "3.8.4",
+          "url": "/wp-admin/js/common.min.js"
+     },
+     {
+          "md5": "3c89fd0ed1e0d37bde6d6722b815d02b",
+          "output": "3.8.4",
+          "url": "/wp-admin/js/dashboard.min.js"
+     },
+     {
+          "md5": "8bba20755890a66db03ed0d606e17c4c",
+          "output": "3.8.4",
+          "url": "/wp-admin/js/post.js"
+     },
+     {
+          "md5": "f5cecd61138f60a9b1048feff299ca8b",
+          "output": "3.8.4",
+          "url": "/wp-admin/js/theme.js"
+     },
+     {
+          "md5": "03ad629cdfa5ab6ae56233ebbcb73262",
+          "output": "3.8.4",
+          "url": "/wp-admin/js/theme.min.js"
+     },
+     {
+          "md5": "aa803aa18ae0432f3824f970c229e153",
+          "output": "3.8.4",
+          "url": "/wp-content/themes/twentyeleven/style.css"
+     },
+     {
+          "md5": "624f8e163ba9b1ee522aaa8a74f24449",
+          "output": "3.8.4",
+          "url": "/wp-content/themes/twentyten/style.css"
+     },
+     {
+          "md5": "18b223453dc84f2c6490f88a295b98ed",
+          "output": "3.8.4",
+          "url": "/wp-content/themes/twentythirteen/style.css"
+     },
+     {
+          "md5": "88af7a163758d4d5a13cf5b71e50fcac",
+          "output": "3.8.4",
+          "url": "/wp-includes/css/admin-bar-rtl.css"
+     },
+     {
+          "md5": "10d828db9d6ba8cbd2c2567664dccd7f",
+          "output": "3.8.4",
+          "url": "/wp-includes/css/admin-bar-rtl.min.css"
+     },
+     {
+          "md5": "d87d776863fd4e2833fd40388559908b",
+          "output": "3.8.4",
+          "url": "/wp-includes/css/admin-bar.min.css"
+     },
+     {
+          "md5": "fb062ed92b76638c161e80f4a5426586",
+          "output": "3.8.4",
+          "url": "/wp-includes/css/buttons-rtl.css"
+     },
+     {
+          "md5": "64e9014d99e11a00ade285978cb2c4f8",
+          "output": "3.8.4",
+          "url": "/wp-includes/css/buttons-rtl.min.css"
+     },
+     {
+          "md5": "3f5a45249163f428749e8071146991f3",
+          "output": "3.8.4",
+          "url": "/wp-includes/css/buttons.css"
+     },
+     {
+          "md5": "e82337ca2dcf3e0e43643e9912caabb3",
+          "output": "3.8.4",
+          "url": "/wp-includes/css/buttons.min.css"
+     },
+     {
+          "md5": "cf2aec29e53cf7fcfeed958de2b1aec7",
+          "output": "3.8.4",
+          "url": "/wp-includes/css/dashicons.css"
+     },
+     {
+          "md5": "515214365da656a845777ddbdc04ee2a",
+          "output": "3.8.4",
+          "url": "/wp-includes/css/dashicons.min.css"
+     },
+     {
+          "md5": "eda317820fb1056837abb407ce52dd04",
+          "output": "3.8.4",
+          "url": "/wp-includes/css/media-views-rtl.css"
+     },
+     {
+          "md5": "40ecf9d68327bdeaeb7c50bf53483a4f",
+          "output": "3.8.4",
+          "url": "/wp-includes/css/media-views-rtl.min.css"
+     },
+     {
+          "md5": "01928d3405b7c4b0d5f82e1c8e1b4ac1",
+          "output": "3.8.4",
+          "url": "/wp-includes/js/plupload/changelog.txt"
+     },
+     {
+          "md5": "b37d71f086003790ea5bb7bb390b6514",
+          "output": "3.8.4",
+          "url": "/wp-includes/js/tinymce/plugins/spellchecker/changelog.txt"
+     },
+     {
+          "md5": "acb33329b9ef8aabd8bd731426803e4e",
+          "output": "3.8.4",
+          "url": "/wp-includes/js/tinymce/tiny_mce.js"
+     },
+     {
+          "md5": "dfd490b6f383ea02a269031ff05e8896",
+          "output": "3.8.4",
+          "url": "/wp-includes/wlwmanifest.xml"
+     },
+     {
+          "md5": "a8124966cbc8794feb6b9fa52b3b9e76",
+          "output": "3.9",
+          "url": "/wp-admin/css/install-rtl.css"
+     },
+     {
+          "md5": "f4c61ba2aa0c5cd92473ec2b965df108",
+          "output": "3.9",
+          "url": "/wp-admin/css/install.css"
+     },
+     {
+          "md5": "4fcf0cc06914368854e8d3956d67701d",
+          "output": "3.9",
+          "url": "/wp-admin/css/wp-admin-rtl.min.css"
+     },
+     {
+          "md5": "3dd46c8d228ad29a841338280647936d",
+          "output": "3.9",
+          "url": "/wp-admin/css/wp-admin.min.css"
+     },
+     {
+          "md5": "085caa20dbc9e9f7343bc0349227bedb",
+          "output": "3.9",
+          "url": "/wp-admin/js/color-picker.js"
+     },
+     {
+          "md5": "a3fefb4998b3f534e144db4f235d0f03",
+          "output": "3.9",
+          "url": "/wp-admin/js/comment.js"
+     },
+     {
+          "md5": "72c3d94d42bb4c900a1436d17c156e67",
+          "output": "3.9",
+          "url": "/wp-admin/js/common.js"
+     },
+     {
+          "md5": "1cd324e7b6c46227e0f302337e762bcd",
+          "output": "3.9",
+          "url": "/wp-admin/js/common.min.js"
+     },
+     {
+          "md5": "c77078371b618b99aa2bdeb82eb81473",
+          "output": "3.9",
+          "url": "/wp-admin/js/dashboard.min.js"
+     },
+     {
+          "md5": "6578ae8741421df2c6b352f92684140d",
+          "output": "3.9",
+          "url": "/wp-admin/js/post.js"
+     },
+     {
+          "md5": "27288c303cd0348b2189a31f28a86939",
+          "output": "3.9",
+          "url": "/wp-admin/js/theme.js"
+     },
+     {
+          "md5": "f4ca844f37f29e43b4386ce18a0c5f43",
+          "output": "3.9",
+          "url": "/wp-admin/js/theme.min.js"
+     },
+     {
+          "md5": "0845da55aaa4912a42fd8ce251935ac8",
+          "output": "3.9",
+          "url": "/wp-content/themes/twentyeleven/style.css"
+     },
+     {
+          "md5": "624f8e163ba9b1ee522aaa8a74f24449",
+          "output": "3.9",
+          "url": "/wp-content/themes/twentyten/style.css"
+     },
+     {
+          "md5": "23068bff87f3c6cd0499cc90cb5e9a0b",
+          "output": "3.9",
+          "url": "/wp-content/themes/twentythirteen/style.css"
+     },
+     {
+          "md5": "ae164288125e6d5b18a41cd716b1e290",
+          "output": "3.9",
+          "url": "/wp-includes/css/admin-bar-rtl.css"
+     },
+     {
+          "md5": "e3a87490287abc38b9801a5ab853dda9",
+          "output": "3.9",
+          "url": "/wp-includes/css/admin-bar-rtl.min.css"
+     },
+     {
+          "md5": "d6b102488933f7cd50d8b1b17627733e",
+          "output": "3.9",
+          "url": "/wp-includes/css/admin-bar.min.css"
+     },
+     {
+          "md5": "d24d1d1eb3a4b9a4998e4df1761f8b9e",
+          "output": "3.9",
+          "url": "/wp-includes/css/buttons-rtl.css"
+     },
+     {
+          "md5": "a3881585a04421965820bb64280358dc",
+          "output": "3.9",
+          "url": "/wp-includes/css/buttons-rtl.min.css"
+     },
+     {
+          "md5": "5ec6f016d5581ccf2fccfaab08682af7",
+          "output": "3.9",
+          "url": "/wp-includes/css/buttons.css"
+     },
+     {
+          "md5": "6b03c4aff48876c047aa6724b93e923d",
+          "output": "3.9",
+          "url": "/wp-includes/css/buttons.min.css"
+     },
+     {
+          "md5": "6a5c4ff8a9f11b2344e05fe1318ac520",
+          "output": "3.9",
+          "url": "/wp-includes/css/dashicons.css"
+     },
+     {
+          "md5": "3b6d61cac9d02c4ee20bb87f5caab26e",
+          "output": "3.9",
+          "url": "/wp-includes/css/dashicons.min.css"
+     },
+     {
+          "md5": "0896c8e772550ccc25dbf41ad56828f6",
+          "output": "3.9",
+          "url": "/wp-includes/css/media-views-rtl.css"
+     },
+     {
+          "md5": "ecf3c4b2f07fdae92ad2b7610afabe7f",
+          "output": "3.9",
+          "url": "/wp-includes/css/media-views-rtl.min.css"
+     },
+     {
+          "md5": "dfd490b6f383ea02a269031ff05e8896",
+          "output": "3.9",
+          "url": "/wp-includes/wlwmanifest.xml"
+     },
+     {
+          "md5": "a8124966cbc8794feb6b9fa52b3b9e76",
+          "output": "3.9.1",
+          "url": "/wp-admin/css/install-rtl.css"
+     },
+     {
+          "md5": "f4c61ba2aa0c5cd92473ec2b965df108",
+          "output": "3.9.1",
+          "url": "/wp-admin/css/install.css"
+     },
+     {
+          "md5": "f702228e2b2b7d81ea2d68bcf94b94da",
+          "output": "3.9.1",
+          "url": "/wp-admin/css/wp-admin-rtl.min.css"
+     },
+     {
+          "md5": "dec7253451471693a4bbc6f7caea5879",
+          "output": "3.9.1",
+          "url": "/wp-admin/css/wp-admin.min.css"
+     },
+     {
+          "md5": "085caa20dbc9e9f7343bc0349227bedb",
+          "output": "3.9.1",
+          "url": "/wp-admin/js/color-picker.js"
+     },
+     {
+          "md5": "a3fefb4998b3f534e144db4f235d0f03",
+          "output": "3.9.1",
+          "url": "/wp-admin/js/comment.js"
+     },
+     {
+          "md5": "72c3d94d42bb4c900a1436d17c156e67",
+          "output": "3.9.1",
+          "url": "/wp-admin/js/common.js"
+     },
+     {
+          "md5": "1cd324e7b6c46227e0f302337e762bcd",
+          "output": "3.9.1",
+          "url": "/wp-admin/js/common.min.js"
+     },
+     {
+          "md5": "c77078371b618b99aa2bdeb82eb81473",
+          "output": "3.9.1",
+          "url": "/wp-admin/js/dashboard.min.js"
+     },
+     {
+          "md5": "871f0866df7ba56493e97a1a21b82b53",
+          "output": "3.9.1",
+          "url": "/wp-admin/js/post.js"
+     },
+     {
+          "md5": "27288c303cd0348b2189a31f28a86939",
+          "output": "3.9.1",
+          "url": "/wp-admin/js/theme.js"
+     },
+     {
+          "md5": "f4ca844f37f29e43b4386ce18a0c5f43",
+          "output": "3.9.1",
+          "url": "/wp-admin/js/theme.min.js"
+     },
+     {
+          "md5": "4ad5382faa94650db99aa9f3f39b490c",
+          "output": "3.9.1",
+          "url": "/wp-content/themes/twentyeleven/style.css"
+     },
+     {
+          "md5": "624f8e163ba9b1ee522aaa8a74f24449",
+          "output": "3.9.1",
+          "url": "/wp-content/themes/twentyten/style.css"
+     },
+     {
+          "md5": "b5f807d3fa29bf7944f9fe3e2b75777f",
+          "output": "3.9.1",
+          "url": "/wp-content/themes/twentythirteen/style.css"
+     },
+     {
+          "md5": "ae164288125e6d5b18a41cd716b1e290",
+          "output": "3.9.1",
+          "url": "/wp-includes/css/admin-bar-rtl.css"
+     },
+     {
+          "md5": "e3a87490287abc38b9801a5ab853dda9",
+          "output": "3.9.1",
+          "url": "/wp-includes/css/admin-bar-rtl.min.css"
+     },
+     {
+          "md5": "d6b102488933f7cd50d8b1b17627733e",
+          "output": "3.9.1",
+          "url": "/wp-includes/css/admin-bar.min.css"
+     },
+     {
+          "md5": "d24d1d1eb3a4b9a4998e4df1761f8b9e",
+          "output": "3.9.1",
+          "url": "/wp-includes/css/buttons-rtl.css"
+     },
+     {
+          "md5": "a3881585a04421965820bb64280358dc",
+          "output": "3.9.1",
+          "url": "/wp-includes/css/buttons-rtl.min.css"
+     },
+     {
+          "md5": "5ec6f016d5581ccf2fccfaab08682af7",
+          "output": "3.9.1",
+          "url": "/wp-includes/css/buttons.css"
+     },
+     {
+          "md5": "6b03c4aff48876c047aa6724b93e923d",
+          "output": "3.9.1",
+          "url": "/wp-includes/css/buttons.min.css"
+     },
+     {
+          "md5": "6a5c4ff8a9f11b2344e05fe1318ac520",
+          "output": "3.9.1",
+          "url": "/wp-includes/css/dashicons.css"
+     },
+     {
+          "md5": "3b6d61cac9d02c4ee20bb87f5caab26e",
+          "output": "3.9.1",
+          "url": "/wp-includes/css/dashicons.min.css"
+     },
+     {
+          "md5": "fa31efdb33a5f6043c48bf062b78d306",
+          "output": "3.9.1",
+          "url": "/wp-includes/css/media-views-rtl.css"
+     },
+     {
+          "md5": "00596a3f53c0ed5f0980487bec09e24b",
+          "output": "3.9.1",
+          "url": "/wp-includes/css/media-views-rtl.min.css"
+     },
+     {
+          "md5": "dfd490b6f383ea02a269031ff05e8896",
+          "output": "3.9.1",
+          "url": "/wp-includes/wlwmanifest.xml"
+     },
+     {
+          "md5": "a8124966cbc8794feb6b9fa52b3b9e76",
+          "output": "3.9.2",
+          "url": "/wp-admin/css/install-rtl.css"
+     },
+     {
+          "md5": "f4c61ba2aa0c5cd92473ec2b965df108",
+          "output": "3.9.2",
+          "url": "/wp-admin/css/install.css"
+     },
+     {
+          "md5": "f702228e2b2b7d81ea2d68bcf94b94da",
+          "output": "3.9.2",
+          "url": "/wp-admin/css/wp-admin-rtl.min.css"
+     },
+     {
+          "md5": "dec7253451471693a4bbc6f7caea5879",
+          "output": "3.9.2",
+          "url": "/wp-admin/css/wp-admin.min.css"
+     },
+     {
+          "md5": "085caa20dbc9e9f7343bc0349227bedb",
+          "output": "3.9.2",
+          "url": "/wp-admin/js/color-picker.js"
+     },
+     {
+          "md5": "a3fefb4998b3f534e144db4f235d0f03",
+          "output": "3.9.2",
+          "url": "/wp-admin/js/comment.js"
+     },
+     {
+          "md5": "72c3d94d42bb4c900a1436d17c156e67",
+          "output": "3.9.2",
+          "url": "/wp-admin/js/common.js"
+     },
+     {
+          "md5": "1cd324e7b6c46227e0f302337e762bcd",
+          "output": "3.9.2",
+          "url": "/wp-admin/js/common.min.js"
+     },
+     {
+          "md5": "c77078371b618b99aa2bdeb82eb81473",
+          "output": "3.9.2",
+          "url": "/wp-admin/js/dashboard.min.js"
+     },
+     {
+          "md5": "871f0866df7ba56493e97a1a21b82b53",
+          "output": "3.9.2",
+          "url": "/wp-admin/js/post.js"
+     },
+     {
+          "md5": "27288c303cd0348b2189a31f28a86939",
+          "output": "3.9.2",
+          "url": "/wp-admin/js/theme.js"
+     },
+     {
+          "md5": "f4ca844f37f29e43b4386ce18a0c5f43",
+          "output": "3.9.2",
+          "url": "/wp-admin/js/theme.min.js"
+     },
+     {
+          "md5": "4ad5382faa94650db99aa9f3f39b490c",
+          "output": "3.9.2",
+          "url": "/wp-content/themes/twentyeleven/style.css"
+     },
+     {
+          "md5": "624f8e163ba9b1ee522aaa8a74f24449",
+          "output": "3.9.2",
+          "url": "/wp-content/themes/twentyten/style.css"
+     },
+     {
+          "md5": "b5f807d3fa29bf7944f9fe3e2b75777f",
+          "output": "3.9.2",
+          "url": "/wp-content/themes/twentythirteen/style.css"
+     },
+     {
+          "md5": "ae164288125e6d5b18a41cd716b1e290",
+          "output": "3.9.2",
+          "url": "/wp-includes/css/admin-bar-rtl.css"
+     },
+     {
+          "md5": "e3a87490287abc38b9801a5ab853dda9",
+          "output": "3.9.2",
+          "url": "/wp-includes/css/admin-bar-rtl.min.css"
+     },
+     {
+          "md5": "d6b102488933f7cd50d8b1b17627733e",
+          "output": "3.9.2",
+          "url": "/wp-includes/css/admin-bar.min.css"
+     },
+     {
+          "md5": "d24d1d1eb3a4b9a4998e4df1761f8b9e",
+          "output": "3.9.2",
+          "url": "/wp-includes/css/buttons-rtl.css"
+     },
+     {
+          "md5": "a3881585a04421965820bb64280358dc",
+          "output": "3.9.2",
+          "url": "/wp-includes/css/buttons-rtl.min.css"
+     },
+     {
+          "md5": "5ec6f016d5581ccf2fccfaab08682af7",
+          "output": "3.9.2",
+          "url": "/wp-includes/css/buttons.css"
+     },
+     {
+          "md5": "6b03c4aff48876c047aa6724b93e923d",
+          "output": "3.9.2",
+          "url": "/wp-includes/css/buttons.min.css"
+     },
+     {
+          "md5": "6a5c4ff8a9f11b2344e05fe1318ac520",
+          "output": "3.9.2",
+          "url": "/wp-includes/css/dashicons.css"
+     },
+     {
+          "md5": "3b6d61cac9d02c4ee20bb87f5caab26e",
+          "output": "3.9.2",
+          "url": "/wp-includes/css/dashicons.min.css"
+     },
+     {
+          "md5": "fa31efdb33a5f6043c48bf062b78d306",
+          "output": "3.9.2",
+          "url": "/wp-includes/css/media-views-rtl.css"
+     },
+     {
+          "md5": "00596a3f53c0ed5f0980487bec09e24b",
+          "output": "3.9.2",
+          "url": "/wp-includes/css/media-views-rtl.min.css"
+     },
+     {
+          "md5": "dfd490b6f383ea02a269031ff05e8896",
+          "output": "3.9.2",
+          "url": "/wp-includes/wlwmanifest.xml"
+     },
+     {
+          "md5": "93340ac2d020159c171ae87c9d0a941b",
+          "output": "4.0",
+          "url": "/wp-admin/css/install-rtl.css"
+     },
+     {
+          "md5": "acea8fff302212325749ca45805add61",
+          "output": "4.0",
+          "url": "/wp-admin/css/install.css"
+     },
+     {
+          "md5": "4c2bbf4f1b085d161cd0b9ec95d962a5",
+          "output": "4.0",
+          "url": "/wp-admin/css/wp-admin-rtl.min.css"
+     },
+     {
+          "md5": "fceeca9707faf124a462d8e11a9bfb50",
+          "output": "4.0",
+          "url": "/wp-admin/css/wp-admin.min.css"
+     },
+     {
+          "md5": "a00c2e9159048b13c3a5dd4e831099ae",
+          "output": "4.0",
+          "url": "/wp-admin/js/color-picker.js"
+     },
+     {
+          "md5": "a3fefb4998b3f534e144db4f235d0f03",
+          "output": "4.0",
+          "url": "/wp-admin/js/comment.js"
+     },
+     {
+          "md5": "2830c37f0e53cd900bce37ec46e29ddc",
+          "output": "4.0",
+          "url": "/wp-admin/js/common.js"
+     },
+     {
+          "md5": "24e5c1257b59677997a60bf7035f16c5",
+          "output": "4.0",
+          "url": "/wp-admin/js/common.min.js"
+     },
+     {
+          "md5": "39f67345a12faf1a3c53c9289fc59f86",
+          "output": "4.0",
+          "url": "/wp-admin/js/dashboard.min.js"
+     },
+     {
+          "md5": "d4beb52b277333b38bf53fa07309f192",
+          "output": "4.0",
+          "url": "/wp-admin/js/post.js"
+     },
+     {
+          "md5": "a5027fd2f1f9732b8a7e873b4e04c209",
+          "output": "4.0",
+          "url": "/wp-admin/js/theme.js"
+     },
+     {
+          "md5": "8111a8d605183b921cb237a1406afcd9",
+          "output": "4.0",
+          "url": "/wp-admin/js/theme.min.js"
+     },
+     {
+          "md5": "6c08d43eafaffc91c357baf6532ca0a1",
+          "output": "4.0",
+          "url": "/wp-content/themes/twentyeleven/style.css"
+     },
+     {
+          "md5": "c9444ca73f61b159a6f985792186e24d",
+          "output": "4.0",
+          "url": "/wp-content/themes/twentyten/style.css"
+     },
+     {
+          "md5": "28c5bb76bc6e2100b8dd581e100b99c0",
+          "output": "4.0",
+          "url": "/wp-content/themes/twentythirteen/style.css"
+     },
+     {
+          "md5": "a4e8295dfbbffb2a1b3c15d599aa496f",
+          "output": "4.0",
+          "url": "/wp-includes/css/admin-bar-rtl.css"
+     },
+     {
+          "md5": "a4f5972d11d6f587d7d01372932e97ed",
+          "output": "4.0",
+          "url": "/wp-includes/css/admin-bar-rtl.min.css"
+     },
+     {
+          "md5": "197404b329a50b23b37b0fbd72b81017",
+          "output": "4.0",
+          "url": "/wp-includes/css/admin-bar.min.css"
+     },
+     {
+          "md5": "adf3b5ecfe050b4e66e2a0d08e944444",
+          "output": "4.0",
+          "url": "/wp-includes/css/buttons-rtl.css"
+     },
+     {
+          "md5": "1ee31e93b5f8424bc82b4e1e477e09e0",
+          "output": "4.0",
+          "url": "/wp-includes/css/buttons-rtl.min.css"
+     },
+     {
+          "md5": "c369daa6877b943e3cfd58f57229bd61",
+          "output": "4.0",
+          "url": "/wp-includes/css/buttons.css"
+     },
+     {
+          "md5": "52dc838032e91584a03c7aa660c860c7",
+          "output": "4.0",
+          "url": "/wp-includes/css/buttons.min.css"
+     },
+     {
+          "md5": "a5cc9931638552cae57f9c701fd8f776",
+          "output": "4.0",
+          "url": "/wp-includes/css/dashicons.css"
+     },
+     {
+          "md5": "c659db821f14019f9974e62313535cfa",
+          "output": "4.0",
+          "url": "/wp-includes/css/dashicons.min.css"
+     },
+     {
+          "md5": "d290d20fcf52a06c1576ce599294b0ec",
+          "output": "4.0",
+          "url": "/wp-includes/css/media-views-rtl.css"
+     },
+     {
+          "md5": "d1703dff57c8a79d200a3cd8671be1a3",
+          "output": "4.0",
+          "url": "/wp-includes/css/media-views-rtl.min.css"
+     },
+     {
+          "md5": "dfd490b6f383ea02a269031ff05e8896",
+          "output": "4.0",
           "url": "/wp-includes/wlwmanifest.xml"
      }
 ]
