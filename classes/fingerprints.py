@@ -16,7 +16,6 @@ class Fingerprints(object):
 
 		# a list of cms names
 		self._cms_names = []
-		self._cms_name_index = []
 
 		# a list of cms types
 		self._cms_types = []
@@ -31,9 +30,11 @@ class Fingerprints(object):
 		# cms types
 		self.types = ['md5', 'regex', 'string']
 
+		# load the cms fingerprints and create the ordered list
 		self._load('cms', 'data/cms/')
 		self.create_ordered_list()
 
+		# load the operating system fingerprints
 		self.os_fingerprints = defaultdict(lambda: defaultdict(set))
 		#                      ^ Software          ^ Version   ^ set of tuples (OS, version)
 		self._load('os', 'data/os')
@@ -146,22 +147,38 @@ class Fingerprints(object):
 		self.ordered = out
 
 
+	# this returns the raw list of fingerprints
+	# mainly used for the crawler 
+	def get_all(self):
+		return self.all
+
+
+	# get the URLs that should produce an error page
 	def get_error_urls(self):
 		return self.error_pages
 
 
+	# get the fingerprints used for Operating System detection
 	def get_os_fingerprints(self):
 		return self.os_fingerprints
 
 
+	# a list of fingerprints that is sorted based on the CMS to
+	# which the fingerprint belongs. Instead of testing all fingerprints
+	# for a single CMS sequencially, the fingerprints for the CMS
+	# is spread out.
 	def get_ordered_list(self):
 		return self.ordered
 
 
+	# the number of fingerprints in the database
 	def get_size(self):
 		return self.count
 
 
+	# get fingerprints for a specific cms
+	# used for version detection of a single
+	# cms - DiscoverVersion()
 	def get_fingerprints_for_cms(self, cms):
 		fps = defaultdict(list)
 		for fp in self.all:

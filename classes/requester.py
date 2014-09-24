@@ -110,6 +110,12 @@ class Requester(object):
 		self.requested = queue.Queue()
 
 
+	# set the fingerprints for the requester to get.	
+	# fps should be a list of lists of fingerprints:
+	# [ [fp, fp, fp], [fp, fp, ...], ...]
+	# each fingerprinter in the innerlist must have the same URL
+	# The number of elements in the outer list equals the number
+	# of threads used
 	def set_fingerprints(self, fps):
 		self.fps = fps
 		self.threads = len(fps)

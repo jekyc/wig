@@ -36,6 +36,11 @@ class Match(object):
 		# find the matching method to use
 		matches = []
 
+		# find out of the reponse is an image
+		# this is used to avoid the crawler using string and regex
+		# searching for matches in these files
+		is_image = 'image' in response.headers['content-type']
+
 		for fingerprint in fingerprints:
 
 			# only check the page if the status codes match
@@ -45,10 +50,10 @@ class Match(object):
 			elif fingerprint['type'] == 'md5':
 				matches.append(self.md5(fingerprint, response))
 			
-			elif fingerprint['type'] == 'string':
+			elif fingerprint['type'] == 'string' and not is_image:
 				matches.append(self.string(fingerprint, response))
 			
-			elif fingerprint['type'] == 'regex':
+			elif fingerprint['type'] == 'regex' and not is_image:
 				matches.append(self.regex(fingerprint, response))
 
 			else:

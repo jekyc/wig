@@ -6,7 +6,8 @@ from classes.cache import Cache
 from classes.results import Results
 from classes.requester import Requester
 from classes.fingerprints import Fingerprints
-from classes.discovery import DiscoverCMS, DiscoverVersion, DiscoverOS, DiscoverRedirect, DiscoverErrorPage
+from classes.discovery import DiscoverCMS, DiscoverVersion, DiscoverOS
+from classes.discovery import DiscoverRedirect, DiscoverErrorPage, DiscoverMore
 from classes.headers import ExtractHeaders
 from classes.matcher import Match
 
@@ -24,7 +25,7 @@ TODO:
 
 class Wig(object):
 
-	def __init__(self, host, run_all):
+	def __init__(self, host, run_all, crawl):
 		self.colorizer = Color()
 		self.cache = Cache()					# cache for requests
 		self.results = Results()				# storage of results
@@ -32,6 +33,7 @@ class Wig(object):
 		self.fingerprints = Fingerprints()		# load fingerprints
 		self.host = host
 		self.run_all = run_all
+		self.crawl = crawl
 
 		# set the amount of urls to fetch in parallel to the
 		# amount of threads
@@ -113,10 +115,20 @@ class Wig(object):
 			cms_list = cms_finder.run(self.host, self.detected_cms)
 			for cms in cms_list:
 				version_finder.run(self.host, fps.get_fingerprints_for_cms(cms))
+				
 				# if a match was found, then it has been added to the results object
 				# and the detected_cms list should be updated 
 				if self.results.found_match(cms):
 					self.detected_cms.append(cms)
+
+
+		# if the crawler is activated, iterate over the results stored in the cache
+		# and check all the fingerprints against all of the responses, as the URLs
+		# for the fingerprints are no longer valid
+		if self.crawl:
+			fps = self.fingerprints.get_all()
+			crawler = DiscoverMore(self.host, requester, self.cache, fps, matcher, self.results)
+			crawler.run()
 
 
 		##########################################################################
@@ -146,10 +158,9 @@ class Wig(object):
 		print(bar)
 		print(status + "\n")
 
-		for r in self.cache.get_responses():
-			if r.status_code == 200:
-				print(r.url)
-
+		# urls_200 = [ r.url for r in self.cache.get_responses() if r.status_code == 200 ]
+		# urls_200.sort()
+		# for u in urls_200: print(u)
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description='WebApp Information Gatherer')
@@ -174,7 +185,7 @@ if __name__ == '__main__':
 	args = parser.parse_args()
 
 	try:
-		wig = Wig(args.host, args.run_all)
+		wig = Wig(args.host, args.run_all, args.crawl)
 		wig.run()
 	except KeyboardInterrupt:
 		# detect ctrl+c 

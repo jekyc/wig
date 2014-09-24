@@ -3,6 +3,8 @@ from classes.requester import Requester
 from classes.matcher import Match
 from collections import Counter
 import requests, re, hashlib
+from html.parser import HTMLParser
+
 
 class DiscoverRedirect(object):
 
@@ -237,9 +239,89 @@ class DiscoverOS(object):
 
 
 
+# Used by the DiscoverMore crawler
+# The
+class LinkExtractor(HTMLParser):
+	def __init__(self, strict):
+		super().__init__(strict=strict)
+		self.results = set()
+
+	def get_results(self):
+		return self.results
+
+	def handle_starttag(self, tag, attrs):
+		try:
+			url = ''
+			if tag == 'script' or tag == 'img':
+				for attr in attrs: 
+					if attr[0] == 'src':  self.results.add(attr[1])
+			if tag == 'link':
+				for attr in attrs: 
+					if attr[0] == 'href': self.results.add(attr[1])
+		except:
+			pass
 
 
+class DiscoverMore(object):
 
+	def __init__(self, host, requester, cache, fingerprints, matcher, results):
+		self.host = host
+		self.requester = requester
+		self.cache = cache
+		self.fingerprints = fingerprints
+		self.matcher = matcher
+		self.result = results
+		self.threads = 10
+
+	
+	def run(self):
+		resources = set()
+		parser = LinkExtractor(strict=False)
+
+		for req in self.cache.get_responses():
+			# skip pages that do not set 'content-type'
+			# these might be binaries
+			if not 'content-type' in req.headers:
+				continue
+
+			# only scrape pages that can contain links/references
+			if 'text/html' in req.headers['content-type']:
+				parser.feed(str(req.content))
+				
+				for i in parser.get_results():
+					
+					# ensure that only resources located on the domain /sub-domain is requested 
+					if i.startswith('http'):
+						parts = i.split('/')
+						host = parts[2]
+
+						# if the resource is out side of the domain, skip it
+						if not host in self.host.split('/')[2]:
+							continue
+
+						# else update the url so that it only contains the relative location
+						else:
+							i = '/'.join(parts[3:])
+
+					resources.add( i )
+
+		# the items in the resource set should mimic a list of fingerprints:
+		# a fingerprint is a dict with at least an URL key
+		urls = [ [{'url':i}] for i in resources ]
+		
+		# fetch the discovered resources.
+		# As this class' purpose only is to fetch the resource (add to cache)
+		# there is no return value, or further actions needed
+		for i in range(0, len(urls), self.threads):
+			self.requester.set_fingerprints( urls[i:i+self.threads] )
+			results = self.requester.run()
+
+		# find matches for all the responses in the cache
+		for response in self.cache.get_responses():
+			matches = self.matcher.get_result(self.fingerprints, response)
+			for fp in matches:
+				self.result.add_cms(fp)
+	
 
 
 
