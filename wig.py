@@ -176,7 +176,7 @@ if __name__ == '__main__':
 		help='Enable the crawler - include encountered static ressources (js,css,etc)')
 	
 	parser.add_argument('-e',   action='store_true', dest='enumerate', default=False,
-		help='Use the built-in list of common files and directories (much like dirbuster)')
+		help='Use the built-in list of common files and directories (much like dirbuster). NOT IMPLEMENTED YET')
 
 	#parser.add_argument('-v', action="store_const", dest="loglevel",  const=True, help="list all the urls where matches have been found")
 	#parser.add_argument('-d', action="store_const", dest="desperate", const=True, help="Desperate mode - crawl pages fetched for additional ressource and try to match all fingerprints. ")
