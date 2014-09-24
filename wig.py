@@ -25,7 +25,7 @@ TODO:
 
 class Wig(object):
 
-	def __init__(self, host, run_all, crawl):
+	def __init__(self, host, stop_after, run_all, crawl):
 		self.colorizer = Color()
 		self.cache = Cache()					# cache for requests
 		self.results = Results()				# storage of results
@@ -34,6 +34,7 @@ class Wig(object):
 		self.host = host
 		self.run_all = run_all
 		self.crawl = crawl
+		self.stop_after = stop_after
 
 		# set the amount of urls to fetch in parallel to the
 		# amount of threads
@@ -47,7 +48,7 @@ class Wig(object):
 		# a list containing the cms' detected so far
 		# this is used to skip detection for a CMS that has alreay been
 		# through version discovery
-		self.detected_cms = []
+		self.detected_cms = set()
 
 		# a set of md5sums for error pages
 		self.error_pages = set()
@@ -109,7 +110,7 @@ class Wig(object):
 
 		# as long as there are more fingerprints to check, and
 		# no cms' have been detected
-		while not cms_finder.is_done() and (len(self.detected_cms) == 0 or self.run_all):
+		while not cms_finder.is_done() and (len(self.detected_cms) < self.stop_after or self.run_all):
 			
 			# check the next chunk of urls for cms detection 
 			cms_list = cms_finder.run(self.host, self.detected_cms)
@@ -119,7 +120,7 @@ class Wig(object):
 				# if a match was found, then it has been added to the results object
 				# and the detected_cms list should be updated 
 				if self.results.found_match(cms):
-					self.detected_cms.append(cms)
+					self.detected_cms.add(cms)
 
 
 		# if the crawler is activated, iterate over the results stored in the cache
@@ -166,7 +167,7 @@ if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description='WebApp Information Gatherer')
 	parser.add_argument('host', type=str, help='The host name of the target')
 	
-	parser.add_argument('-n', type=int, default=1, 
+	parser.add_argument('-n', type=int, default=1, dest="stop_after",
 		help='Stop after this amount of CMSs have been detected. Default: 1')
 	
 	parser.add_argument('-a', action='store_true', dest='run_all', default=False, 
@@ -185,7 +186,7 @@ if __name__ == '__main__':
 	args = parser.parse_args()
 
 	try:
-		wig = Wig(args.host, args.run_all, args.crawl)
+		wig = Wig(args.host, args.stop_after, args.run_all, args.crawl)
 		wig.run()
 	except KeyboardInterrupt:
 		# detect ctrl+c 
