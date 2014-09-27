@@ -72,7 +72,6 @@ class RequesterThread(threading.Thread):
 				# add to the cache
 				self.cache[uri] = r
 			except Exception as e:
-				print(e)
 				r = None
 		else:
 			r = self.cache[uri]
