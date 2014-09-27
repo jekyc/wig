@@ -339,6 +339,8 @@ class DiscoverMore(object):
 
 
 class DiscoverAllCMS(object):
+	# match all fingerprints against all responses
+	# this might generate false positives
 
 	def __init__(self, cache, fingerprints, results):
 		self.cache = cache
