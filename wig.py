@@ -6,7 +6,8 @@ from classes.cache import Cache
 from classes.results import Results
 from classes.requester import Requester
 from classes.fingerprints import Fingerprints
-from classes.discovery import DiscoverCMS, DiscoverVersion, DiscoverOS, DiscoverJavaScript
+from classes.discovery import DiscoverCMS, DiscoverVersion, 
+from classes.discovery import DiscoverOS, DiscoverJavaScript
 from classes.discovery import DiscoverRedirect, DiscoverErrorPage, DiscoverMore
 from classes.headers import ExtractHeaders
 from classes.matcher import Match
