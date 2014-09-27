@@ -27,21 +27,20 @@ As some configurations of applications do not use the default location for files
 
 ```
 $ python3 wig.py -h
-usage: wig.py [-h] [-n N] [-a] [-c] [-e] host
+usage: wig.py [-h] [-n STOP_AFTER] [-a] [-m] [-e] host
 
 WebApp Information Gatherer
 
 positional arguments:
-  host        The host name of the target
+  host           The host name of the target
 
 optional arguments:
-  -h, --help  show this help message and exit
-  -n N        Stop after this amount of CMSs have been detected. Default: 1
-  -a          Do not stop after the first CMS is detected
-  -c          Enable the crawler - include encountered static ressources
-              (js,css,etc)
-  -e          Use the built-in list of common files and directories (much like
-              dirbuster). NOT IMPLEMENTED YET
+  -h, --help     show this help message and exit
+  -n STOP_AFTER  Stop after this amount of CMSs have been detected. Default: 1
+  -a             Do not stop after the first CMS is detected
+  -m             Try harder to find a match without making more requests
+  -e             Use the built-in list of common files and directories (much
+                 like dirbuster). NOT IMPLEMENTED YET
 ```
 
 
@@ -50,16 +49,19 @@ optional arguments:
 ```
 # python3 wig.py http://www.example.com/  
                                                                             
-___ CMS ______________________________________
-drupal: 7.28, 7.31, 7.30, 7.29
+___ CMS _______________________________________
+drupal: 6.22
 
-___ Operating System _________________________
-Microsoft Windows Server: 2008 R2
+___ JavaScript Libraries ______________________
+jquery: 1.3.2
 
-___ Platform _________________________________
-ASP.NET: 2.0.50727
-Microsoft-IIS: 7.5
+___ Operating System __________________________
+Debian: 6.0.3
 
-______________________________________________
-Time: 5.4 sec | Urls: 67 | Fingerprints: 18574
+___ Platform __________________________________
+Apache: 2.2.16
+PHP: 5.3.3-7+squeeze3
+
+_______________________________________________
+Time: 9.5 sec | Urls: 291 | Fingerprints: 18874
 ```
