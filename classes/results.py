@@ -61,17 +61,28 @@ class Results(object):
 
 		# if the type is either 'string' or 'regex' then the match show
 		# should be summed with previous matches
-		# if the fingerprint has weights, then this should be used, 
+		# if the version is '' add a weight of '0'. This will set the version
+		# to the worst match 
+		# else if the fingerprint has weights, then this should be used, 
 		# else default to the value 1
 		else:
-			if 'weight' in fp:
+			if ver == '':
+				self.scores['CMS'][cms][ver] += 0
+			elif 'weight' in fp:
 				self.scores['CMS'][cms][ver] += fp['weight']
 			else:
 				self.scores['CMS'][cms][ver] += 1
 
 	
 	def add(self, category, name, version, weight=1):
-		self.scores[category][name][version] += weight
+		# if the version is blank or true, add '0' to 
+		# set it to the worst match
+		if version == '' or version == True:
+			self.scores[category][name][version] += 0
+
+		# else add the weight
+		else:
+			self.scores[category][name][version] += weight
 
 
 
@@ -80,8 +91,8 @@ class Results(object):
 
 
 	def __str__(self):
-		self._calc_md5_score()
 
+		self._calc_md5_score()
 		out = "\n"
 		o_cat = sorted([c for c in self.scores])
 
@@ -101,21 +112,7 @@ class Results(object):
 				versions = sorted(v.items(), key=lambda x:x[1], reverse=True)
 
 				# pick only the first(s) element
-				relevant = []
-				for i in versions:
-					# ugly temp hack
-					if category == 'Desperate':
-						relevant.append(i[0])
-
-					elif i[1] == versions[0][1]:
-
-						# do not append blank output strings
-						if len(relevant) > 0  and i[0] == "":
-							continue
-
-						relevant.append(i[0])
-					else:
-						break	
+				relevant = [i[0] for i in versions if i[1] == versions[0][1]]
 
 				plug_str = "%s: " % (plugin, )
 				ver_str =  ", ".join(relevant)
