@@ -1,0 +1,1192 @@
+[
+     {
+          "md5": "45cb844ca866c17e0559f81799f55084",
+          "minified": true,
+          "output": "git2"
+     },
+     {
+          "md5": "72f8f1c9c0f2e63027ef91374c306dce",
+          "minified": true,
+          "output": "git1"
+     },
+     {
+          "md5": "1e57a88baee6292ff452692e7d25522a",
+          "minified": true,
+          "output": "migrate-git"
+     },
+     {
+          "md5": "e40ec2161fe7993196f23c8a07346306",
+          "minified": true,
+          "output": "2.1.1"
+     },
+     {
+          "md5": "3fcfcd50506a893910ebf89e0af4ce2f",
+          "minified": true,
+          "output": "2.1.1-rc2"
+     },
+     {
+          "md5": "2ba43abe144e2ef6bb6121846aac467c",
+          "minified": true,
+          "output": "2.1.1-rc1"
+     },
+     {
+          "md5": "271c1f7657117bcda1baf874111ac86b",
+          "minified": true,
+          "output": "2.1.1-beta1"
+     },
+     {
+          "md5": "5ca7582261c421482436dfdf3af9bffe",
+          "minified": true,
+          "output": "2.1.0"
+     },
+     {
+          "md5": "e709e1d550c09192c8e952fa20c590fa",
+          "minified": true,
+          "output": "2.1.0-rc1"
+     },
+     {
+          "md5": "dfa81a5f2b3f595be87fb8de49ec032b",
+          "minified": true,
+          "output": "2.1.0-beta3"
+     },
+     {
+          "md5": "872dd8bae6d60cff8ecd8824013d3e96",
+          "minified": true,
+          "output": "2.1.0-beta2"
+     },
+     {
+          "md5": "78943d6bfe6d8180b0a36e582276fd4a",
+          "minified": true,
+          "output": "2.1.0-beta1"
+     },
+     {
+          "md5": "0a6e846b954e345951e710cd6ce3440e",
+          "minified": true,
+          "output": "2.0.3"
+     },
+     {
+          "md5": "6e18b5a96b1a354c922a5bba3d80cd13",
+          "minified": true,
+          "output": "2.0.2"
+     },
+     {
+          "md5": "ddfdd15c6936e851df7aabe4d5801f1c",
+          "minified": true,
+          "output": "2.0.1"
+     },
+     {
+          "md5": "2edc942c0bd2476be8967a9f788d9e26",
+          "minified": true,
+          "output": "2.0.0"
+     },
+     {
+          "md5": "5e4c0be0427685a45974180ccd0006bf",
+          "minified": true,
+          "output": "2.0.0-beta3"
+     },
+     {
+          "md5": "0e945236dded78a3ae0cec3f967e9842",
+          "minified": true,
+          "output": "2.0.0b2"
+     },
+     {
+          "md5": "dead11ce7e49b6ec55e50b4003847ce8",
+          "minified": true,
+          "output": "2.0.0b1"
+     },
+     {
+          "md5": "8101d596b2b8fa35fe3a634ea342d7c3",
+          "minified": true,
+          "output": "1.11.1"
+     },
+     {
+          "md5": "be9e2205ccdd233ef0788ec5ee47b600",
+          "minified": true,
+          "output": "1.11.1-rc2"
+     },
+     {
+          "md5": "51ae128237f974c3daecdfa487f533b6",
+          "minified": true,
+          "output": "1.11.1-rc1"
+     },
+     {
+          "md5": "5bed1e8fe9043f5e5536969437cf8605",
+          "minified": true,
+          "output": "1.11.1-beta1"
+     },
+     {
+          "md5": "8fc25e27d42774aeae6edbc0a18b72aa",
+          "minified": true,
+          "output": "1.11.0"
+     },
+     {
+          "md5": "0330814e77c6e625b56216cbaa64733b",
+          "minified": true,
+          "output": "1.11.0-rc1"
+     },
+     {
+          "md5": "7116b4940b7d70780678461e5dbfcc91",
+          "minified": true,
+          "output": "1.11.0-beta3"
+     },
+     {
+          "md5": "e63d7700e8cf73ac43494d2e4d8986d1",
+          "minified": true,
+          "output": "1.11.0-beta2"
+     },
+     {
+          "md5": "c8d2be56694ad2ff5b66ac49a5d1f0fb",
+          "minified": true,
+          "output": "1.11.0-beta1"
+     },
+     {
+          "md5": "628072e7212db1e8cdacb22b21752cda",
+          "minified": true,
+          "output": "1.10.2"
+     },
+     {
+          "md5": "33d85132f0154466fc017dd05111873d",
+          "minified": true,
+          "output": "1.10.1"
+     },
+     {
+          "md5": "00ff34b67a328f219fa3ae2423d4f252",
+          "minified": true,
+          "output": "1.10.0"
+     },
+     {
+          "md5": "63453d716cfa647263449e2d98e91718",
+          "minified": true,
+          "output": "1.10.0-beta1"
+     },
+     {
+          "md5": "397754ba49e9e0cf4e7c190da78dda05",
+          "minified": true,
+          "output": "1.9.1"
+     },
+     {
+          "md5": "0652da382b6fceb033dfe2b6c06d4d11",
+          "minified": true,
+          "output": "1.9.0"
+     },
+     {
+          "md5": "638f7ce601e11c00985e0e04180f05b9",
+          "minified": true,
+          "output": "1.9.0rc1"
+     },
+     {
+          "md5": "5ec0845c7d1a03d807321fbe36a589da",
+          "minified": true,
+          "output": "1.9.0b1"
+     },
+     {
+          "md5": "3576a6e73c9dccdbbc4a2cf8ff544ad7",
+          "minified": true,
+          "output": "1.8.3"
+     },
+     {
+          "md5": "0b6ecf17e30037994d3ffee51b525914",
+          "minified": true,
+          "output": "1.8.2"
+     },
+     {
+          "md5": "e7155ee7c8c9898b6d4f2a9a12a1288e",
+          "minified": true,
+          "output": "1.8.1"
+     },
+     {
+          "md5": "3a728460147fb9af7faf0e587b9fbf42",
+          "minified": true,
+          "output": "1.8.0"
+     },
+     {
+          "md5": "7ad87d118a36bea2f86e41d39a37e255",
+          "minified": true,
+          "output": "1.8rc1"
+     },
+     {
+          "md5": "182ee277c5501195265ce6eaf77d21d9",
+          "minified": true,
+          "output": "1.8b2"
+     },
+     {
+          "md5": "b8d64d0bc142b3f670cc0611b0aebcae",
+          "minified": true,
+          "output": "1.7.2"
+     },
+     {
+          "md5": "9978694a2b9c550d99e84203b96e6d2c",
+          "minified": true,
+          "output": "1.7.2rc1"
+     },
+     {
+          "md5": "30a4cc610df5632baa7b382e3def2521",
+          "minified": true,
+          "output": "1.7.2b1"
+     },
+     {
+          "md5": "ddb84c1587287b2df08966081ef063bf",
+          "minified": true,
+          "output": "1.7.1"
+     },
+     {
+          "md5": "da035f964e4777a92d42eb949e78f00e",
+          "minified": true,
+          "output": "1.7.1rc1"
+     },
+     {
+          "md5": "25721ced154b3a99e818431446d7506d",
+          "minified": true,
+          "output": "1.7"
+     },
+     {
+          "md5": "25721ced154b3a99e818431446d7506d",
+          "minified": true,
+          "output": "1.7.0"
+     },
+     {
+          "md5": "b6c305b94e08ec97efe923be9fa9b862",
+          "minified": true,
+          "output": "1.7rc2"
+     },
+     {
+          "md5": "533be6baa03a67c549e80c9b0a8f8848",
+          "minified": true,
+          "output": "1.7rc1"
+     },
+     {
+          "md5": "a87d0d2eeea7e3172204b333d5a77b4a",
+          "minified": true,
+          "output": "1.7b2"
+     },
+     {
+          "md5": "32463d3a4b87c9622c8e270ecbbfc30c",
+          "minified": true,
+          "output": "1.7b1"
+     },
+     {
+          "md5": "9118381924c51c89d9414a311ec9c97f",
+          "minified": true,
+          "output": "1.6.4"
+     },
+     {
+          "md5": "de04794f51b6deb5a0550c141597ed41",
+          "minified": true,
+          "output": "1.6.4rc1"
+     },
+     {
+          "md5": "685f048a4660c3852169702a83508e85",
+          "minified": true,
+          "output": "1.6.3"
+     },
+     {
+          "md5": "9cc19b2e9eaea8de647fe26cdd0089f5",
+          "minified": true,
+          "output": "1.6.3rc1"
+     },
+     {
+          "md5": "a1a8cb16a060f6280a767187fd22e037",
+          "minified": true,
+          "output": "1.6.2"
+     },
+     {
+          "md5": "52b92059ce9c82a2ff74bf0ccc833cf3",
+          "minified": true,
+          "output": "1.6.2rc1"
+     },
+     {
+          "md5": "a34f78c3aecd182144818eb4b7303fda",
+          "minified": true,
+          "output": "1.6.1"
+     },
+     {
+          "md5": "35cd857018a17e5b8e3a170ec72d5d94",
+          "minified": true,
+          "output": "1.6.1rc1"
+     },
+     {
+          "md5": "3c379d07fafbaafecb78c98dd8630d0a",
+          "minified": true,
+          "output": "1.6"
+     },
+     {
+          "md5": "399425c8a6106ebcb5ee18bacd440d6c",
+          "minified": true,
+          "output": "1.6rc1"
+     },
+     {
+          "md5": "bf14fe70f2f7b414df7a1e25b8055596",
+          "minified": true,
+          "output": "1.6b1"
+     },
+     {
+          "md5": "e85aed5c30d734f1e30646e030d7a817",
+          "minified": true,
+          "output": "1.5.2"
+     },
+     {
+          "md5": "94a860a516dd752ac5b4700609e9db7a",
+          "minified": true,
+          "output": "1.5.2rc1"
+     },
+     {
+          "md5": "b04a3bccd23ddeb7982143707a63ccf9",
+          "minified": true,
+          "output": "1.5.1"
+     },
+     {
+          "md5": "36843a70f128fa25f68af725eb5f230b",
+          "minified": true,
+          "output": "1.5.1rc1"
+     },
+     {
+          "md5": "63c1bc2eb898f68b943e1b0fdd98c746",
+          "minified": true,
+          "output": "1.5"
+     },
+     {
+          "md5": "2e70eee15cb89974712ac1ddbdd81bae",
+          "minified": true,
+          "output": "1.5rc1"
+     },
+     {
+          "md5": "4ead51784b08a1e2655267b4058d03e6",
+          "minified": true,
+          "output": "1.5b1"
+     },
+     {
+          "md5": "73a9c334c5ca71d70d092b42064f6476",
+          "minified": true,
+          "output": "1.4.4"
+     },
+     {
+          "md5": "51534e9eb8ea2fd5e33c3e6d6f631235",
+          "minified": true,
+          "output": "1.4.4rc3"
+     },
+     {
+          "md5": "c99d6c67a2b3f602a0bfc38c081675d5",
+          "minified": true,
+          "output": "1.4.4rc2"
+     },
+     {
+          "md5": "ac5b27360e8827f0d52eb2b45a55211d",
+          "minified": true,
+          "output": "1.4.4rc1"
+     },
+     {
+          "md5": "e4958bd2e32d9fcd6115a585ed17a9cc",
+          "minified": true,
+          "output": "1.4.3"
+     },
+     {
+          "md5": "32d48e05ee257a0190a693c4e3c6f9be",
+          "minified": true,
+          "output": "1.4.3rc2"
+     },
+     {
+          "md5": "49542f51b8015671265dca3bad7bd3a1",
+          "minified": true,
+          "output": "1.4.3rc1"
+     },
+     {
+          "md5": "10092eee563dec2dca82b77d2cf5a1ae",
+          "minified": true,
+          "output": "1.4.2"
+     },
+     {
+          "md5": "9eb33df93b21325142088527103882d2",
+          "minified": true,
+          "output": "1.4.1"
+     },
+     {
+          "md5": "7df0a08f438c12a75b267cc83bfa03e8",
+          "minified": true,
+          "output": "1.4"
+     },
+     {
+          "md5": "ffefbe0c364e69d398f5a18c636376b9",
+          "minified": true,
+          "output": "1.4rc1"
+     },
+     {
+          "md5": "02956f6daaf513a6ce12098a89989b2d",
+          "minified": true,
+          "output": "1.4a2"
+     },
+     {
+          "md5": "59d4b7418c1dac9abc9a93e2cd798140",
+          "minified": true,
+          "output": "1.4a1"
+     },
+     {
+          "md5": "bb381e2d19d8eace86b34d20759491a5",
+          "minified": true,
+          "output": "1.3.2"
+     },
+     {
+          "md5": "5d4c7816890f3308da6126f5fa65c979",
+          "minified": true,
+          "output": "1.3.1"
+     },
+     {
+          "md5": "12dd2a1cd423d9f73c2644efec6bde1e",
+          "minified": true,
+          "output": "1.3.1rc1"
+     },
+     {
+          "md5": "35b4c35c2eb30b510eb0e9c8b5d4d146",
+          "minified": true,
+          "output": "1.3"
+     },
+     {
+          "md5": "f288ecf4b15e6c35879ebb774295e4c8",
+          "minified": true,
+          "output": "1.3rc2"
+     },
+     {
+          "md5": "66910a754cd0d6d21700c9e68b680429",
+          "minified": true,
+          "output": "1.3rc1"
+     },
+     {
+          "md5": "e620f0c0fde83cc07084c88e2c6192ed",
+          "minified": true,
+          "output": "1.3b2"
+     },
+     {
+          "md5": "7f4a01f6afe1e611951264475f7f6678",
+          "minified": true,
+          "output": "1.3b1"
+     },
+     {
+          "md5": "a9331828c517ac5d97f93b3cfdbcc9bc",
+          "minified": true,
+          "output": "1.2.6"
+     },
+     {
+          "md5": "85b7cbe520e2449c84b04769bce1b45a",
+          "minified": true,
+          "output": "1.2.5"
+     },
+     {
+          "md5": "5acd330e6410301e021ad128bd34578d",
+          "minified": true,
+          "output": "1.2.4"
+     },
+     {
+          "md5": "38e8a1a7207c73635bdfdcdbe4cffdae",
+          "minified": true,
+          "output": "1.2.4b"
+     },
+     {
+          "md5": "25af4e6ecc594909ec158ddbab0c103e",
+          "minified": true,
+          "output": "1.2.4a"
+     },
+     {
+          "md5": "bb122b33d64d02a106bf2230b2d41af0",
+          "minified": true,
+          "output": "1.2.3"
+     },
+     {
+          "md5": "2d1d72266550ad12bcaad506eea8a666",
+          "minified": true,
+          "output": "1.2.3b"
+     },
+     {
+          "md5": "03b0043dedc2923c3a7b400ac5f5a226",
+          "minified": true,
+          "output": "1.2.3a"
+     },
+     {
+          "md5": "cf6824ae981ccc838f41543b91a48e60",
+          "minified": true,
+          "output": "1.2.2"
+     },
+     {
+          "md5": "1f7fd047f675f05a07832bfde4f6f736",
+          "minified": true,
+          "output": "1.2.2b2"
+     },
+     {
+          "md5": "021fc2816e2cb28c09efb4e199a03788",
+          "minified": true,
+          "output": "1.2.2b"
+     },
+     {
+          "md5": "1fd52f46e191c7d4234e48f759a64777",
+          "minified": true,
+          "output": "1.2.1"
+     },
+     {
+          "md5": "2a6035ca6342a5f91028d5c09d3f18dc",
+          "minified": true,
+          "output": "1.2"
+     },
+     {
+          "md5": "eb05d8d73b5b13d8d84308a4751ece96",
+          "minified": true,
+          "output": "migrate-1.2.1"
+     },
+     {
+          "md5": "c6cacd9f9266bc1d9c31c6fe30b56e36",
+          "minified": true,
+          "output": "migrate-1.2.0"
+     },
+     {
+          "md5": "e45b8afd0b65516c175ed23f7183bab1",
+          "minified": true,
+          "output": "migrate-1.1.1"
+     },
+     {
+          "md5": "dc0102c151c491b8a0f65a520e26e083",
+          "minified": true,
+          "output": "migrate-1.1.0"
+     },
+     {
+          "md5": "dd6f8586a1afae562493e9c7cd1ffeea",
+          "minified": true,
+          "output": "migrate-1.0.0"
+     },
+     {
+          "md5": "a830eac810709d2202858c23ff67550d",
+          "minified": true,
+          "output": "migrate-1.0.0rc1"
+     },
+     {
+          "md5": "78c9b041ff5c203847adf607c88b1cad",
+          "minified": true,
+          "output": "migrate-1.0.0b1"
+     },
+     {
+          "md5": "61f145740642d7b4062c4c1c94ca2b67",
+          "minified": false,
+          "output": "git2"
+     },
+     {
+          "md5": "1da48c7c3edb88b982bceaae7a50c90b",
+          "minified": false,
+          "output": "git1"
+     },
+     {
+          "md5": "c3bdfda1044923e38288df9c1c678b18",
+          "minified": false,
+          "output": "migrate-git"
+     },
+     {
+          "md5": "7403060950f4a13be3b3dfde0490ee05",
+          "minified": false,
+          "output": "2.1.1"
+     },
+     {
+          "md5": "f410b0aabbea11d8049225cad453c047",
+          "minified": false,
+          "output": "2.1.1-rc2"
+     },
+     {
+          "md5": "ed88397fac82834d83eefd2cc01d806a",
+          "minified": false,
+          "output": "2.1.1-rc1"
+     },
+     {
+          "md5": "48deed22e8b3d1f3e0cbc54d56341b8c",
+          "minified": false,
+          "output": "2.1.1-beta1"
+     },
+     {
+          "md5": "3177091fb9705dd978689ba11bf0609a",
+          "minified": false,
+          "output": "2.1.0"
+     },
+     {
+          "md5": "213d2de3988e0ae6fa7991d44a7be363",
+          "minified": false,
+          "output": "2.1.0-rc1"
+     },
+     {
+          "md5": "b742e71ff1918c0b2e703abcd9b20104",
+          "minified": false,
+          "output": "2.1.0-beta3"
+     },
+     {
+          "md5": "e431ad8789e795dd393a85e2dff5eff0",
+          "minified": false,
+          "output": "2.1.0-beta2"
+     },
+     {
+          "md5": "46b03fc6917cac5c33fe06e465679cfe",
+          "minified": false,
+          "output": "2.1.0-beta1"
+     },
+     {
+          "md5": "b29c22eae459aa715cdd8fa340bb6e29",
+          "minified": false,
+          "output": "2.0.3"
+     },
+     {
+          "md5": "fb7f045585513b12c3694e83496c5a5d",
+          "minified": false,
+          "output": "2.0.2"
+     },
+     {
+          "md5": "7a9d7fc063109369956dc6e80bca7a61",
+          "minified": false,
+          "output": "2.0.1"
+     },
+     {
+          "md5": "e51be64870f23f7ba920206ed3efeab9",
+          "minified": false,
+          "output": "2.0.0"
+     },
+     {
+          "md5": "52685a19e4cf6c68ad92cc68de077539",
+          "minified": false,
+          "output": "2.0.0-beta3"
+     },
+     {
+          "md5": "74fce1f2ef768604eef8378d0e523b2c",
+          "minified": false,
+          "output": "2.0.0b2"
+     },
+     {
+          "md5": "5da4a5bf9e78e1857f5fd24d5ca4e946",
+          "minified": false,
+          "output": "2.0.0b1"
+     },
+     {
+          "md5": "3d93b072d14f2bd1ede58f4847f537fd",
+          "minified": false,
+          "output": "1.11.1"
+     },
+     {
+          "md5": "4fad0471f685373fce72ed964efe3abb",
+          "minified": false,
+          "output": "1.11.1-rc2"
+     },
+     {
+          "md5": "d0eeb475574eb0ee5380f55c0c04b7f4",
+          "minified": false,
+          "output": "1.11.1-rc1"
+     },
+     {
+          "md5": "4b478134addf81024b4a99829ca0bf4b",
+          "minified": false,
+          "output": "1.11.1-beta1"
+     },
+     {
+          "md5": "3b80424646a7ecdb19273d86800c1ac0",
+          "minified": false,
+          "output": "1.11.0"
+     },
+     {
+          "md5": "51ab117e6d610551d5ceb7846fdcf119",
+          "minified": false,
+          "output": "1.11.0-rc1"
+     },
+     {
+          "md5": "84af6bef8069ba152f89f6fb71f8fb0e",
+          "minified": false,
+          "output": "1.11.0-beta3"
+     },
+     {
+          "md5": "86658ca713467adc2b1d4d41ca6311df",
+          "minified": false,
+          "output": "1.11.0-beta2"
+     },
+     {
+          "md5": "14fff1b246f4a5c194da479769c20e23",
+          "minified": false,
+          "output": "1.11.0-beta1"
+     },
+     {
+          "md5": "91515770ce8c55de23b306444d8ea998",
+          "minified": false,
+          "output": "1.10.2"
+     },
+     {
+          "md5": "bd42b401ab68f9eb54eee47a873b5769",
+          "minified": false,
+          "output": "1.10.1"
+     },
+     {
+          "md5": "7afc740382f2bf4147d8f63850a9c2b9",
+          "minified": false,
+          "output": "1.10.0"
+     },
+     {
+          "md5": "6323d1cb96ac2b94ccfb5bcbc0112c77",
+          "minified": false,
+          "output": "1.10.0-beta1"
+     },
+     {
+          "md5": "08c235d357750c657ac1db7d1cf656a9",
+          "minified": false,
+          "output": "1.9.1"
+     },
+     {
+          "md5": "f3346149a7173e70d39e6f36bfb178a4",
+          "minified": false,
+          "output": "1.9.0"
+     },
+     {
+          "md5": "7422b695269a23bd4c7b856d368d2edd",
+          "minified": false,
+          "output": "1.9.0rc1"
+     },
+     {
+          "md5": "a4433bda914d1f0888685e6bb11172b3",
+          "minified": false,
+          "output": "1.9.0b1"
+     },
+     {
+          "md5": "2073df88a429ccbe5dca5e2c40e742b4",
+          "minified": false,
+          "output": "1.8.3"
+     },
+     {
+          "md5": "3a316818411b5a80ef878dc5c8483950",
+          "minified": false,
+          "output": "1.8.2"
+     },
+     {
+          "md5": "8449879e68d64f217e527ab5387bf65e",
+          "minified": false,
+          "output": "1.8.1"
+     },
+     {
+          "md5": "04903dc2c64729e82e640d527223c9af",
+          "minified": false,
+          "output": "1.8.0"
+     },
+     {
+          "md5": "5e1a505496f514639fdab471c6783ed3",
+          "minified": false,
+          "output": "1.8rc1"
+     },
+     {
+          "md5": "d152f1591d240c05f231b661bdf5316f",
+          "minified": false,
+          "output": "1.8b2"
+     },
+     {
+          "md5": "ee77c8020398ee97527040d82d2f0b50",
+          "minified": false,
+          "output": "1.8b1"
+     },
+     {
+          "md5": "af693f9aea7dae36fb3bef4c9b6e56fb",
+          "minified": false,
+          "output": "1.7.2"
+     },
+     {
+          "md5": "d0c813737791f5862fe9c28c44ecac02",
+          "minified": false,
+          "output": "1.7.2rc1"
+     },
+     {
+          "md5": "55cce1fb248e8a8a04b8348205f48aad",
+          "minified": false,
+          "output": "1.7.2b1"
+     },
+     {
+          "md5": "273e017fd0bef143258516bdee173a1e",
+          "minified": false,
+          "output": "1.7.1"
+     },
+     {
+          "md5": "8e0b3a9d7b8290a8effc5e5d09434aee",
+          "minified": false,
+          "output": "1.7.1rc1"
+     },
+     {
+          "md5": "abefdb960c5c589e6ab3d32219a3a68c",
+          "minified": false,
+          "output": "1.7"
+     },
+     {
+          "md5": "abefdb960c5c589e6ab3d32219a3a68c",
+          "minified": false,
+          "output": "1.7.0"
+     },
+     {
+          "md5": "ee28b0cc272fe08fe75deb26fefe593b",
+          "minified": false,
+          "output": "1.7rc2"
+     },
+     {
+          "md5": "947fab2b1d16b3002f681dfe63da9b72",
+          "minified": false,
+          "output": "1.7rc1"
+     },
+     {
+          "md5": "142f3a5dc5c1c30b0e01ecce429127b9",
+          "minified": false,
+          "output": "1.7b2"
+     },
+     {
+          "md5": "325518afef26b8df4980f86d33f14ea0",
+          "minified": false,
+          "output": "1.7b1"
+     },
+     {
+          "md5": "c677462551f4cc0f2af192497b50f3f5",
+          "minified": false,
+          "output": "1.6.4"
+     },
+     {
+          "md5": "f33ee3ef59b07857b4054610a0b14276",
+          "minified": false,
+          "output": "1.6.4rc1"
+     },
+     {
+          "md5": "4ab2fe8ff706a4d9a4c6671e16855284",
+          "minified": false,
+          "output": "1.6.3"
+     },
+     {
+          "md5": "1061ce93d485b6d5aea38b8752693508",
+          "minified": false,
+          "output": "1.6.3rc1"
+     },
+     {
+          "md5": "12840be281cca027968c56e19ebdf6ec",
+          "minified": false,
+          "output": "1.6.2"
+     },
+     {
+          "md5": "e6ecbe049901471669b9f619c76808ea",
+          "minified": false,
+          "output": "1.6.2rc1"
+     },
+     {
+          "md5": "137d4b8b58f69c747fed3415894e73f4",
+          "minified": false,
+          "output": "1.6.1"
+     },
+     {
+          "md5": "fa82a4640c675c85c0807f4adaf04eaa",
+          "minified": false,
+          "output": "1.6.1rc1"
+     },
+     {
+          "md5": "d504f6ae4b4da84f82e6467c2f35e1dc",
+          "minified": false,
+          "output": "1.6"
+     },
+     {
+          "md5": "f86dc6c5fc2ad842589e885d6ec800a1",
+          "minified": false,
+          "output": "1.6rc1"
+     },
+     {
+          "md5": "1773ccd4bd1e28277747d6590a7aa92a",
+          "minified": false,
+          "output": "1.6b1"
+     },
+     {
+          "md5": "8c40d7e0c38ccbca24b7ba29a1db07e7",
+          "minified": false,
+          "output": "1.5.2"
+     },
+     {
+          "md5": "80eea165f625a0d50aef8048a466f4e6",
+          "minified": false,
+          "output": "1.5.2rc1"
+     },
+     {
+          "md5": "f2402f0e7b549caae013bc3c05b3a161",
+          "minified": false,
+          "output": "1.5.1"
+     },
+     {
+          "md5": "ee4f8d210f429549e98ade79f8f522ac",
+          "minified": false,
+          "output": "1.5.1rc1"
+     },
+     {
+          "md5": "847945778a448af8cd0af49c4e69a6ee",
+          "minified": false,
+          "output": "1.5"
+     },
+     {
+          "md5": "f5d03d17a4b72a222f337ced3e5087c4",
+          "minified": false,
+          "output": "1.5rc1"
+     },
+     {
+          "md5": "452a0ea6930c83bee1f401f43b47e2af",
+          "minified": false,
+          "output": "1.5b1"
+     },
+     {
+          "md5": "ede38e8db778584feacf86ef6767948a",
+          "minified": false,
+          "output": "1.4.4"
+     },
+     {
+          "md5": "0a38d4c28547e2f49deb0d00e1530b1a",
+          "minified": false,
+          "output": "1.4.4rc3"
+     },
+     {
+          "md5": "ee26c601d52b533a89e513de13c6e376",
+          "minified": false,
+          "output": "1.4.4rc2"
+     },
+     {
+          "md5": "16da7db1a714d2168b7d7ea644c95742",
+          "minified": false,
+          "output": "1.4.4rc1"
+     },
+     {
+          "md5": "4454bb9f70f45ed8dfa4f717209bc675",
+          "minified": false,
+          "output": "1.4.3"
+     },
+     {
+          "md5": "238ab974ca08121cef81200d7ad52853",
+          "minified": false,
+          "output": "1.4.3rc2"
+     },
+     {
+          "md5": "5ac850052276c15b214fa2cdf9794066",
+          "minified": false,
+          "output": "1.4.3rc1"
+     },
+     {
+          "md5": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+          "minified": false,
+          "output": "1.4.2"
+     },
+     {
+          "md5": "2eb478f7885959c6c627422f425c0cf8",
+          "minified": false,
+          "output": "1.4.1"
+     },
+     {
+          "md5": "965f13f28dcce86a961c3c8e67b2248e",
+          "minified": false,
+          "output": "1.4"
+     },
+     {
+          "md5": "69f35606a6bf7b57500f2097553882af",
+          "minified": false,
+          "output": "1.4rc1"
+     },
+     {
+          "md5": "ed4b3145dec351bc1cbb4a4600b5e2cb",
+          "minified": false,
+          "output": "1.4a2"
+     },
+     {
+          "md5": "6f8b354a68463c23e1528df955362819",
+          "minified": false,
+          "output": "1.4a1"
+     },
+     {
+          "md5": "e4af2b4805203f1ac490ad67531b848b",
+          "minified": false,
+          "output": "1.3.2"
+     },
+     {
+          "md5": "1ce22e168dd9504ec723f20446d1d862",
+          "minified": false,
+          "output": "1.3.1"
+     },
+     {
+          "md5": "a4be467bcc2edff5072dc6019b12e797",
+          "minified": false,
+          "output": "1.3.1rc1"
+     },
+     {
+          "md5": "4f646b518a98052145ee82e3631f4185",
+          "minified": false,
+          "output": "1.3"
+     },
+     {
+          "md5": "8f74bc0f0587e9e342e44c8a68479d32",
+          "minified": false,
+          "output": "1.3rc2"
+     },
+     {
+          "md5": "e6c20b08ef577eee1757fb46acee03ff",
+          "minified": false,
+          "output": "1.3rc1"
+     },
+     {
+          "md5": "7aa5e7273c82fbdb79c2a99289df1826",
+          "minified": false,
+          "output": "1.3b2"
+     },
+     {
+          "md5": "44bdec977480372ad17ef9f2369e49de",
+          "minified": false,
+          "output": "1.3b1"
+     },
+     {
+          "md5": "343607636acfee88faa2b638330a3370",
+          "minified": false,
+          "output": "1.2.6"
+     },
+     {
+          "md5": "09d52ba3af943f643ab215ef1748991e",
+          "minified": false,
+          "output": "1.2.5"
+     },
+     {
+          "md5": "a496ed0d8f4c871933af4a102b09942e",
+          "minified": false,
+          "output": "1.2.4"
+     },
+     {
+          "md5": "22a9a6a1be3e0e54af3bfe3d4ab38ecb",
+          "minified": false,
+          "output": "1.2.4b"
+     },
+     {
+          "md5": "8ba3423be8b3ca78b256d92a10447e38",
+          "minified": false,
+          "output": "1.2.4a"
+     },
+     {
+          "md5": "78068d39f1205a62fe7470537ecbabdd",
+          "minified": false,
+          "output": "1.2.3"
+     },
+     {
+          "md5": "a61220b93768506dbed2a869b8165ed6",
+          "minified": false,
+          "output": "1.2.3b"
+     },
+     {
+          "md5": "807aac0afa686d7558985eb4840af075",
+          "minified": false,
+          "output": "1.2.3a"
+     },
+     {
+          "md5": "b4fd98d0c145cbb48ae9bc3d580acb59",
+          "minified": false,
+          "output": "1.2.2"
+     },
+     {
+          "md5": "e760fa1e9f95f73a6e7e0bbede18d47b",
+          "minified": false,
+          "output": "1.2.2b2"
+     },
+     {
+          "md5": "28ca15bb7f33f8e70cbcacf290cf0867",
+          "minified": false,
+          "output": "1.2.2b"
+     },
+     {
+          "md5": "05d7260925bffcb97c46c66895466193",
+          "minified": false,
+          "output": "1.2.1"
+     },
+     {
+          "md5": "47f230c833709700b3ec0349668c5229",
+          "minified": false,
+          "output": "1.2"
+     },
+     {
+          "md5": "45cfc448c82f5c16b8cf15aeb5af20b3",
+          "minified": false,
+          "output": "1.1.4"
+     },
+     {
+          "md5": "bd23a7736c7ca0014f9322c30559385c",
+          "minified": false,
+          "output": "1.1.3"
+     },
+     {
+          "md5": "df2663abff4e50a09c0615a9b3ac8830",
+          "minified": false,
+          "output": "1.1.3a"
+     },
+     {
+          "md5": "8bf6966cea6195e9c777119118009414",
+          "minified": false,
+          "output": "1.1.2"
+     },
+     {
+          "md5": "e9f9bb465609598adb3fbfc87cf320d6",
+          "minified": false,
+          "output": "1.1.1"
+     },
+     {
+          "md5": "53da2a31b0ce948d90dca3545a2c91ce",
+          "minified": false,
+          "output": "1.1"
+     },
+     {
+          "md5": "f36dc8039d49dfc20a976023a386c5ca",
+          "minified": false,
+          "output": "1.1b"
+     },
+     {
+          "md5": "a1ed1670ccd2b6250ce722e0896ad129",
+          "minified": false,
+          "output": "1.1a"
+     },
+     {
+          "md5": "3ffdeddb69faa210a789abf3c62c7066",
+          "minified": false,
+          "output": "1.0.4"
+     },
+     {
+          "md5": "68251089e4d69808ef9eee52745f2e68",
+          "minified": false,
+          "output": "1.0.3"
+     },
+     {
+          "md5": "ecdc52daa199a8d9739a754f969f9e68",
+          "minified": false,
+          "output": "1.0.2"
+     },
+     {
+          "md5": "e80478576a05d8117b10fbea24955c49",
+          "minified": false,
+          "output": "1.0.1"
+     },
+     {
+          "md5": "cf82c7f902c46cff29427b51e2584b82",
+          "minified": false,
+          "output": "1.0"
+     },
+     {
+          "md5": "7d87ce904ab76326bff3147c72a45b2a",
+          "minified": false,
+          "output": "migrate-1.2.1"
+     },
+     {
+          "md5": "9999b5e7897cc1d2a8384263bf0028f0",
+          "minified": false,
+          "output": "migrate-1.2.0"
+     },
+     {
+          "md5": "996f42cfa6d6630657abf938ea5704b3",
+          "minified": false,
+          "output": "migrate-1.1.1"
+     },
+     {
+          "md5": "920fce17e6b9c8d85af8e21c57fdfdeb",
+          "minified": false,
+          "output": "migrate-1.1.0"
+     },
+     {
+          "md5": "1f5980833a26b490296db71951e1024f",
+          "minified": false,
+          "output": "migrate-1.0.0"
+     },
+     {
+          "md5": "ec0dd0567e479806c859e3430f03d73d",
+          "minified": false,
+          "output": "migrate-1.0.0rc1"
+     },
+     {
+          "md5": "51c9135022cb6eb5bb9ad5e3f6c61a14",
+          "minified": false,
+          "output": "migrate-1.0.0b1"
+     }
+]

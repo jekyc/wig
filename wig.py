@@ -6,7 +6,7 @@ from classes.cache import Cache
 from classes.results import Results
 from classes.requester import Requester
 from classes.fingerprints import Fingerprints
-from classes.discovery import DiscoverCMS, DiscoverVersion, DiscoverOS
+from classes.discovery import DiscoverCMS, DiscoverVersion, DiscoverOS, DiscoverJavaScript
 from classes.discovery import DiscoverRedirect, DiscoverErrorPage, DiscoverMore
 from classes.headers import ExtractHeaders
 from classes.matcher import Match
@@ -25,7 +25,7 @@ TODO:
 
 class Wig(object):
 
-	def __init__(self, host, stop_after, run_all, crawl):
+	def __init__(self, host, stop_after, run_all, match_all):
 		self.colorizer = Color()
 		self.cache = Cache()					# cache for requests
 		self.results = Results()				# storage of results
@@ -33,7 +33,7 @@ class Wig(object):
 		self.fingerprints = Fingerprints()		# load fingerprints
 		self.host = host
 		self.run_all = run_all
-		self.crawl = crawl
+		self.match_all = match_all
 		self.stop_after = stop_after
 
 		# set the amount of urls to fetch in parallel to the
@@ -124,13 +124,12 @@ class Wig(object):
 					self.detected_cms.add(cms)
 
 
-		# if the crawler is activated, iterate over the results stored in the cache
-		# and check all the fingerprints against all of the responses, as the URLs
+		# iterate over the results stored in the cache and check all the 
+		# fingerprints against all of the responses, as the URLs
 		# for the fingerprints are no longer valid
-		if self.crawl:
-			fps = self.fingerprints.get_all()
-			crawler = DiscoverMore(self.host, requester, self.cache, fps, matcher, self.results)
-			crawler.run()
+		fps = self.fingerprints.get_all()
+		crawler = DiscoverMore(self.host, requester, self.cache, fps, matcher, self.results)
+		crawler.run()
 
 
 		##########################################################################
@@ -140,6 +139,20 @@ class Wig(object):
 		# check for headers
 		header_finder = ExtractHeaders(self.cache, self.results)
 		header_finder.run()
+
+
+		# detect JavaScript libraries
+		js_fps = self.fingerprints.get_js_fingerprints()
+		js = DiscoverJavaScript(self.cache, js_fps, matcher, self.results)
+		js.run()
+
+
+		# match all fingerprints against all responses ?
+		# this might produce false positives
+		if self.match_all:
+			desparate = DiscoverAllCMS(self.cache, fps, self.results)
+			desparate.run()
+
 
 		# find Operating system
 		os_finder = DiscoverOS(self.cache, self.results, self.fingerprints.get_os_fingerprints())
@@ -174,8 +187,8 @@ if __name__ == '__main__':
 	parser.add_argument('-a', action='store_true', dest='run_all', default=False, 
 		help='Do not stop after the first CMS is detected')
 
-	parser.add_argument('-c', action='store_true', dest='crawl', default=False,
-		help='Enable the crawler - include encountered static ressources (js,css,etc)')
+	parser.add_argument('-m', action='store_true', dest='match_all', default=False,
+		help='Try harder to find a match without making more requests')
 	
 	parser.add_argument('-e',   action='store_true', dest='enumerate', default=False,
 		help='Use the built-in list of common files and directories (much like dirbuster). NOT IMPLEMENTED YET')
@@ -187,7 +200,7 @@ if __name__ == '__main__':
 	args = parser.parse_args()
 
 	try:
-		wig = Wig(args.host, args.stop_after, args.run_all, args.crawl)
+		wig = Wig(args.host, args.stop_after, args.run_all, args.match_all)
 		wig.run()
 	except KeyboardInterrupt:
 		# detect ctrl+c 

@@ -43,7 +43,10 @@ class Fingerprints(object):
 		with open('data/error_pages.json') as fh:
 			self.error_pages = json.load(fh)
 
-			
+		# load JavaScript
+		self.js_fingerprints = []
+		self._load('js', 'data/js/md5')	
+
 
 	def _load(self, fp_type, data_dir):
 		
@@ -71,11 +74,22 @@ class Fingerprints(object):
 							))
 
 
+		def add_js(data_file):
+			name = fp_type = data_file.split('/')[-1].split('.')[0]
+			fp_type = data_file.split('/')[-2]
+			with open(data_file) as fh:
+				items = json.load(fh)
+				for item in items:
+					item['name'] = name
+					item['type'] = fp_type
+					self.js_fingerprints.append(item)
+
+
 		if fp_type == 'cms':
 			dirs = [data_dir + t for t in self.types]
-		elif fp_type == 'os':
+		else:
 			dirs = [data_dir]
-
+		
 		for data_dir in dirs:
 			for f in os.listdir(data_dir):
 				try:
@@ -93,6 +107,10 @@ class Fingerprints(object):
 					
 					elif fp_type == 'os':
 						add_os(data_file)
+					
+					elif fp_type == 'js':
+						add_js(data_file)
+
 
 				except Exception as e:
 					continue
@@ -187,5 +205,9 @@ class Fingerprints(object):
 
 		return [ fps[i] for i in fps ]
 
+
+	# fingerprints used for JavaScript detection
+	def get_js_fingerprints(self):
+		return self.js_fingerprints
 
 

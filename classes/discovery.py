@@ -2,7 +2,7 @@ from classes.fingerprints import Fingerprints
 from classes.requester import Requester
 from classes.matcher import Match
 from collections import Counter
-import requests, re, hashlib
+import requests, re, hashlib, pprint
 from html.parser import HTMLParser
 
 
@@ -262,6 +262,7 @@ class LinkExtractor(HTMLParser):
 			pass
 
 
+
 class DiscoverMore(object):
 
 	def __init__(self, host, requester, cache, fingerprints, matcher, results):
@@ -272,6 +273,20 @@ class DiscoverMore(object):
 		self.matcher = matcher
 		self.result = results
 		self.threads = 10
+
+
+	def _get_urls(self, response):
+		# only get urls from elements that use 'src' to avoid 
+		# fetching resources provided by <a>-tags, as this could
+		# lead to the crawling of the whole application
+		regexes = [ 'src="(.+?)"', "src='(.+?)'"]
+
+		urls = set()
+		for regex in regexes:
+			for match in re.findall(regex, response.text):
+				urls.add( match )
+
+		return urls
 
 	
 	def run(self):
@@ -286,9 +301,14 @@ class DiscoverMore(object):
 
 			# only scrape pages that can contain links/references
 			if 'text/html' in req.headers['content-type']:
+				tmp = self._get_urls(req)
+
+
 				parser.feed(str(req.content))
-				
-				for i in parser.get_results():
+				tmp = tmp.union( parser.get_results())
+
+
+				for i in tmp:
 					
 					# ensure that only resources located on the domain /sub-domain is requested 
 					if i.startswith('http'):
@@ -308,7 +328,8 @@ class DiscoverMore(object):
 		# the items in the resource set should mimic a list of fingerprints:
 		# a fingerprint is a dict with at least an URL key
 		urls = [ [{'url':i}] for i in resources ]
-		
+
+
 		# fetch the discovered resources.
 		# As this class' purpose only is to fetch the resource (add to cache)
 		# there is no return value, or further actions needed
@@ -316,12 +337,57 @@ class DiscoverMore(object):
 			self.requester.set_fingerprints( urls[i:i+self.threads] )
 			results = self.requester.run()
 
+
+class DiscoverAllCMS(object):
+
+	def __init__(self, cache, fingerprints, results):
+		self.cache = cache
+		self.fps = fingerprints
+		self.results = results
+
+
+	def run(self):
 		# find matches for all the responses in the cache
 		for response in self.cache.get_responses():
 			matches = self.matcher.get_result(self.fingerprints, response)
 			for fp in matches:
 				self.result.add_cms(fp)
 	
+
+
+class DiscoverJavaScript(object):
+	def __init__(self, cache, fingerprints, matcher, results):
+		self.cache = cache
+		self.fingerprints = fingerprints
+		self.matcher = matcher
+		self.result = results
+		self.category = "JavaScript Libraries"
+
+
+
+	def run(self):
+		for response in self.cache.get_responses():
+			
+			# match only if the response is JavaScript
+			#  check content type
+			content_type = response.headers['content-type'] if 'content-type' in response.headers else ''
+			# and extension
+			is_js = 'javascript' in content_type or '.js' in response.url.split('.')[-1]
+
+			# if the response is JavaScript try to match it to the known fingerprints 
+			if is_js:
+				matches = self.matcher.get_result(self.fingerprints, response)
+				for fp in matches:
+					self.result.add( self.category, fp['name'], fp['output'], weight=1)
+
+
+
+
+
+
+
+
+
 
 
 
