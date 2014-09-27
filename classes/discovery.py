@@ -303,15 +303,13 @@ class DiscoverMore(object):
 			if 'text/html' in req.headers['content-type']:
 				tmp = self._get_urls(req)
 
-
 				parser.feed(str(req.content))
 				tmp = tmp.union( parser.get_results())
-
 
 				for i in tmp:
 					
 					# ensure that only resources located on the domain /sub-domain is requested 
-					if i.startswith('http'):
+					if i.startswith('http') or i.startswith('//'):
 						parts = i.split('/')
 						host = parts[2]
 
