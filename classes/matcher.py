@@ -39,7 +39,13 @@ class Match(object):
 		# find out of the reponse is an image
 		# this is used to avoid the crawler using string and regex
 		# searching for matches in these files
-		is_image = 'image' in response.headers['content-type']
+		if 'content-type' in response.headers:
+			is_image = 'image' in response.headers['content-type']
+
+		# default to the content being an image, since if the content-type
+		# isn't set, the content is unknown
+		else:
+			is_image = True
 
 		for fingerprint in fingerprints:
 
