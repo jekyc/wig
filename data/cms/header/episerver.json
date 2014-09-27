@@ -1,0 +1,32 @@
+[
+	{
+		"url": "/Util/login.aspx",
+		"header": "EPiServerLoginScreen",
+		"regex": "",
+		"output": "6.0"
+	},
+	{
+		"url": "/Util/login.aspx",
+		"header": "Set-Cookie",
+		"regex": "(EPi.+NumberOfVisits)",
+		"output": ""
+	},
+	{
+		"url": "/Util/login.aspx",
+		"header": "X-EPiLogOnScreen",
+		"regex": "",
+		"output": "7.x"
+	},
+	{
+		"url": "/Util/login.aspx",
+		"header": "X-EPiLogOnScreen-PostUrl",
+		"regex": "",
+		"output": "7.x"
+	},
+	{
+		"url": "/Util/login.aspx",
+		"header": "Set-Cookie",
+		"regex": "(epiXSRF)",
+		"output": "7.x"
+	}
+]
