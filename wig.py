@@ -14,11 +14,8 @@ from classes.matcher import Match
 """
 TODO:
 	- implement log
-	- improve ordering of fingerprints in discovery list
 	- implement functions
-		- crawler
 		- dirbuster-ish 
-	- implement crawler
 	- implement tree structure view
 """
 
