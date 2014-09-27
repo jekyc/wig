@@ -23,7 +23,4 @@ class Cache(queue.Queue):
 		return len(self.queue.keys())
 
 	def get_responses(self):
-		items = []
-		for item in self.queue:
-			items.append(self.queue[item])
-		return items
+		return [self.queue[key] for key in self.queue]
