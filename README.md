@@ -51,12 +51,12 @@ The '-m' option tests all fingerprints against all fetched URLs, which is helpfu
 3. Find the CMS
 4. Find the CMS version
 5. Crawl html pages for link, script and img resources
-5. Stop CMS detection unless option '-a' is specified
-6. Extract all the headers encountered
-7. Find JavaScript libraries and their versions without making more requests
-8. Match all fingerprints agains all URLs if '-m' is specified
-9. Find Operating System based on header values and the OS database
-10. Calculate scores and display results 
+6. Stop CMS detection unless option '-a' is specified
+7. Extract all the headers encountered
+8. Find JavaScript libraries and their versions without making more requests
+9. Match all fingerprints agains all URLs if '-m' is specified
+10. Find Operating System based on header values and the OS database
+11. Calculate scores and display results 
 
 
 ## Help Screen
