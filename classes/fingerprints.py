@@ -67,6 +67,7 @@ class Fingerprints(object):
 				for sw in item:
 					for ver in item[sw]:
 						for data in item[sw][ver]:
+							self.count += 1
 							self.os_fingerprints[sw.lower()][ver].add(( 
 								data[0],
 								data[1],
@@ -80,6 +81,7 @@ class Fingerprints(object):
 			with open(data_file) as fh:
 				items = json.load(fh)
 				for item in items:
+					self.count += 1
 					item['name'] = name
 					item['type'] = fp_type
 					self.js_fingerprints.append(item)
