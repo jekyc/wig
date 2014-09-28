@@ -2,25 +2,31 @@
 	{
 		"url": "/Util/login.aspx",
 		"header": "EPiServerLoginScreen",
-		"regex": "",
+		"regex": "(true)",
 		"output": "6.0"
 	},
 	{
 		"url": "/Util/login.aspx",
 		"header": "Set-Cookie",
 		"regex": "(EPi.+NumberOfVisits)",
-		"output": ""
+		"output": "6.0"
+	},
+	{
+		"url": "/Util/login.aspx",
+		"header": "Set-Cookie",
+		"regex": "(_epiAntiForgeryToken)",
+		"output": "6.0"
 	},
 	{
 		"url": "/Util/login.aspx",
 		"header": "X-EPiLogOnScreen",
-		"regex": "",
+		"regex": "(true)",
 		"output": "7.x"
 	},
 	{
 		"url": "/Util/login.aspx",
 		"header": "X-EPiLogOnScreen-PostUrl",
-		"regex": "",
+		"regex": "(.*)login.aspx",
 		"output": "7.x"
 	},
 	{
