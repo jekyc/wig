@@ -65,7 +65,7 @@ class ExtractHeaders(object):
 					pkg,version,weight = val,'',0.1
 
 				#self.log.add( {url: {pkg: [version]} } )
-				self.results.add(self.category, pkg, version, weight)
+				self.results.add(self.category, pkg, version, weight=weight)
 
 			elif hdr == 'X-AspNet-Version':
 				pkg = "ASP.NET"
@@ -80,7 +80,7 @@ class ExtractHeaders(object):
 					version = ''
 					
 					#self.log.add( {url: {pkg: [version]} } )
-					self.results.add(self.category, pkg, version, 0.1)	
+					self.results.add(self.category, pkg, version, weight=0.1)	
 
 
 
