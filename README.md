@@ -10,9 +10,10 @@ wig also tries to guess the operating system on the server based on the 'server'
 ##### wig features:
 - [x] CMS version detection by: check sums, string matching and extraction
 - [x] Lists detected package and platform versions such as asp.net, php, openssl, apache
-- [x] Detects JavaScript libraries 
+- [x] Detects JavaScript libraries
 - [x] Operation system fingerprinting by matching php, apache and other packages against a values in wig's database
 - [x] Checks for files of interest such as administrative login pages, readmes, etc
+- [x] Currently the wig's databases include *20.000* fingerprints
 
 ##### The following features are under consideration for wig:
 - [ ] Reuse information from previous runs (save the cache)
