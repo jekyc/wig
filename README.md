@@ -8,11 +8,11 @@ The application fingerprinting is based on checksums and string matching of know
 wig also tries to guess the operating system on the server based on the 'server' and 'x-powered-by' headers. A database containing known header values for different operating systems is included in wig, which allows wig to guess Microsoft Windows versions and Linux distribution and version. 
 
 wig features:
-- CMS version detection by: check sums, string matching and extraction
-- Lists detected package and platform versions such as asp.net, php, openssl, apache
-- Detects JavaScript libraries 
-- Operation system fingerprinting by matching php, apache and other packages against a values in wig's database
-- Checks for files of interest such as administrative login pages, readmes, etc
+- [x] CMS version detection by: check sums, string matching and extraction
+- [x] Lists detected package and platform versions such as asp.net, php, openssl, apache
+- [x] Detects JavaScript libraries 
+- [x] Operation system fingerprinting by matching php, apache and other packages against a values in wig's database
+- [x] Checks for files of interest such as administrative login pages, readmes, etc
 
 The following features are under consideration for wig:
 - [ ] Reuse information from previous runs (save the cache)
