@@ -45,6 +45,18 @@ This behavior can be overwritten by setting the '-a' flag, in which case wig wil
 As some configurations of applications do not use the default location for files and resources, it is possible to have wig fetch all the static resources it encounters during its scan. This is done with the '-c' option.
 The '-m' option tests all fingerprints against all fetched URLs, which is helpful if the default location has been changed.
 
+##### The normal process of version detection:
+1. Check for redirection
+2. Detect if the application uses custom error pages
+3. Find the CMS
+4. Find the CMS version
+5. Stop CMS detection unless option '-a' is specified
+6. Extract all the headers encountered
+7. Find JavaScript libraries and their versions
+8. Match all fingerprints agains all URLs if '-m' is specified
+9. Find Operating System
+10. Calculate scores and display results 
+
 
 ## Help Screen
 
