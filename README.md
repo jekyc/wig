@@ -1,11 +1,29 @@
 # wig - WebApp Information Gatherer
 
 
-wig is a web application information gathering tool, which can identify numerous Content Management Systems other administrative applications.
+wig is a web application information gathering tool, which can identify numerous Content Management Systems and other administrative applications.
 
-The application fingerprinting is based on checksums and string matching of known files for different versions of CMSes. This results in a score being calculated for each detected CMSs and its versions. Each detected CMS is displayed along with the most probable version(s) of it. The score calculation is based on weights and the amount of "hits" for a given checksum.
+The application fingerprinting is based on checksums and string matching of known files for different versions of CMSes. This results in a score being calculated for each detected CMS and its versions. Each detected CMS is displayed along with the most probable version(s) of it. The score calculation is based on weights and the amount of "hits" for a given checksum.
 
-wig also tries to guess the operating system on the server based on the 'server' and 'x-powered-by' headers. A database containing known header strings for different operating systems is included in wig, which allows wig to guess Microsoft Windows versions and Linux distribution and version. 
+wig also tries to guess the operating system on the server based on the 'server' and 'x-powered-by' headers. A database containing known header values for different operating systems is included in wig, which allows wig to guess Microsoft Windows versions and Linux distribution and version. 
+
+wig features:
+- CMS version detection by: check sums, string matching and extraction
+- Lists detected package and platform versions such as asp.net, php, openssl, apache
+- Detects JavaScript libraries 
+- Operation system fingerprinting by matching php, apache and other packages against a values in wig's database
+- Checks for files of interest such as administrative login pages, readmes, etc
+
+The following features are under consideration for wig:
+- [ ] Reuse information from previous runs (save the cache)
+- [ ] Implement a dirbuster-ish/enumeration feature
+- [ ] Add more fingerprints for interesting files
+- [ ] Implement a verbose option
+- [ ] Add progress information (non-verbose)
+- [ ] Implement option to generate site map
+- [ ] Improve the crawler/spider
+- [ ] Implement option for output to file: xml,json
+
 
 
 ## Requirements
@@ -20,7 +38,7 @@ wig is built with **Python 3**, and is therefore not compatible with Python 2. w
 The default behavior of wig is to identify a CMS, and exit after version detection of the CMS. This is done to limit the amount of traffic sent to the target server.
 This behavior can be overwritten by setting the '-a' flag, in which case wig will test all the known fingerprints.
 As some configurations of applications do not use the default location for files and resources, it is possible to have wig fetch all the static resources it encounters during its scan. This is done with the '-c' option.
-
+The '-m' option tests all fingerprints against all fetched URLs, which is helpful if the default location has been changed.
 
 
 ## Help Screen

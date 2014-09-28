@@ -12,14 +12,6 @@ from classes.discovery import DiscoverRedirect, DiscoverErrorPage, DiscoverMore
 from classes.headers import ExtractHeaders
 from classes.matcher import Match
 
-"""
-TODO:
-	- implement log
-	- implement functions
-		- dirbuster-ish 
-	- implement tree structure view
-"""
-
 
 class Wig(object):
 
