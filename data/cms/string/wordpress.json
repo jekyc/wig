@@ -10,5 +10,12 @@
 		"string": "/wp-includes/wlwmanifest.xml", 
 		"output": "",
 		"weight": 0.001
+	},
+	{
+		"url": "/wp-login.php", 
+		"string": "<h1><a href=\"https://wordpress.org/\" title=\"Powered by WordPress\" tabindex=\"-1\">", 
+		"output": "",
+		"weight": 0.001,
+		"note": "Wordpress login page"
 	}
 ]

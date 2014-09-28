@@ -1,0 +1,9 @@
+[
+	{
+		"url": "/administrator",
+		"string": "Warning! JavaScript must be enabled for proper operation of the Administrator backend.",
+		"weight": 0.1,
+		"output": "",
+		"note": "Joomla! administration page"
+	}
+]

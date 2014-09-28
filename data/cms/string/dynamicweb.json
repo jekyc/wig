@@ -7,11 +7,13 @@
 	{
 		"url": "/Admin/access/default.aspx",
 		"string": "<small>Dynamicweb CMS</small>",
-		"output" : ""
+		"output" : "",
+		"note": "DynamicWeb administration page"
 	},
 	{
 		"url": "/Admin/access/default.aspx",
 		"string": "alt=\"Dynamicweb CMS\" /></a></div>",
-		"output" : ""
+		"output" : "",
+		"note": "DynamicWeb administration page"
 	}
 ]

@@ -2,6 +2,19 @@
 	{
 		"url": "/",
 		"string": "PMA_focusInput",
-		"output": ""
+		"output": "",
+		"weight": 0.1
+	},
+	{
+		"url": "/phpmyadmin/",
+		"string": "PMA_focusInput",
+		"output": "",
+		"weight": 0.1
+	},
+	{
+		"url": "/pma/",
+		"string": "PMA_focusInput",
+		"output": "",
+		"weight": 0.1
 	}
 ]

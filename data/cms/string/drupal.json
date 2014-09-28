@@ -30,5 +30,13 @@
 		"output": "" ,
 		"code": 404,
 		"weight": 0.1
+	},
+	{
+		"url": "/admin",
+		"string": "<div class=\"content\"><form action=\"/admin?destination=admin\"",
+		"output": "",
+		"weight": 0.1,
+		"note": "Drupal administration page"
 	}
+
 ]

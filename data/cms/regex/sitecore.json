@@ -3,13 +3,15 @@
 		"url": "/sitecore/login/default.aspx",
 		"regex": "class=\"SystemInformationDivider\">\\s*Sitecore.NET (.*\\))",
 		"output": "%s",
-		"weight": 10
+		"weight": 10,
+		"note": "Sitecore administration page"
 	},
 	{
 		"url": "/sitecore/login/default.aspx",
 		"regex": "<hr/>.*Sitecore version (.*)</div>",
 		"output": "%s",
-		"weight": 10
+		"weight": 10,
+		"note": "Sitecore administration page"
 	},
 	{
 		"url": "/sitecore/shell/sitecore.version.xml",

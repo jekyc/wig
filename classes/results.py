@@ -23,6 +23,7 @@ class Results(object):
 		self.md5_matches = defaultdict(lambda: defaultdict(lambda: set()))
 		#		           ^ Url               ^ cms               ^ versions
 
+		self.notes = defaultdict(list)
 
 
 	def _calc_md5_score(self):
@@ -52,6 +53,13 @@ class Results(object):
 		cms = fp['cms']
 		ver = fp['output']
 
+		# add note if present
+		if 'note' in fp:
+			url = fp['url']
+			note = fp['note']
+			self.scores["Interesting"][url][note] += 1
+
+
 		# if the type of the fingerprint is md5, then the we need 
 		# to keep track of how many cms versions have been detected 
 		# the a given URL, as this determines the weight score of
@@ -74,7 +82,15 @@ class Results(object):
 				self.scores['CMS'][cms][ver] += 1
 
 	
-	def add(self, category, name, version, weight=1):
+	def add(self, category, name, version, fingerprint=None, weight=1):
+
+		# add note if present
+		if fingerprint is not None:
+			if 'note' in fingerprint:
+				url = fingerprint['url']
+				note = fingerprint['note']
+				self.scores["Interesting"][url][note] += weight
+
 		# if the version is blank or true, add '0' to 
 		# set it to the worst match
 		if version == '' or version == True:

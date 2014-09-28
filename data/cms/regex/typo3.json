@@ -7,12 +7,14 @@
 	{
 		"url": "/typo3/sysext/version/ChangeLog",
 		"regex": "Raised version to (\\d[\\.\\d]*)",
-		"output": "%s"
+		"output": "%s",
+		"note": "Typo3 ChangeLog"
 	},
 	{
 		"url": "/ChangeLog",
 		"regex": "Raised version to (\\d[\\.\\d]*)",
-		"output": "%s"
+		"output": "%s",
+		"note": "Typo3 ChangeLog"
 	},
 	{
 		"url": "/NEWS.txt",
@@ -27,6 +29,7 @@
 	{
 		"url": "/RELEASE_NOTES.txt",
 		"regex": "RELEASE NOTES FOR TYPO3 (\\d[\\.\\d]*)",
-		"output": "%s"
+		"output": "%s",
+		"note": "Typo3 Release notes"
 	}
 ]

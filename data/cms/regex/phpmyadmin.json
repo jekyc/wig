@@ -2,17 +2,21 @@
 	{
 		"url": "/Documentation.txt",
 		"regex": "phpMyAdmin (\\d[\\.\\d\\d?]*) Documentation",
-		"output": "%s"
+		"output": "%s",
+		"note": "phpMyAdmin Documentation page"		
+
 	},
 	{
 		"url": "/Documentation.html",
 		"regex": "phpMyAdmin (\\d[\\.\\d\\d?]*) - Documentation",
-		"output": "%s"
+		"output": "%s",
+		"note": "phpMyAdmin Documentation page"		
 	},
 	{
 		"url": "/README",
 		"regex": "\\sVersion (\\d[\\.\\d\\d?]*)",
-		"output": "%s"
+		"output": "%s",
+		"note": "phpMyAdmin readme"
 	},
 	{
 		"url": "/translators.html",

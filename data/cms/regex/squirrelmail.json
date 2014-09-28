@@ -3,5 +3,10 @@
 		"url": "/src/login.php",
 		"regex": "<small>SquirrelMail version (.*)<br />",
 		"output": "%s"
-	}
+	},
+	{
+		"url": "/mail/src/login.php",
+		"regex": "<small>SquirrelMail version (.*)<br />",
+		"output": "%s"
+	}	
 ]

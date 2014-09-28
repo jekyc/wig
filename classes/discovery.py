@@ -224,7 +224,7 @@ class DiscoverOS(object):
 		for i in prio:
 			if i['count'] == max_count:
 				if len(relevant) > 0  and i[0] == "": continue
-				self.results.add(self.category, i['os'], i['version'], i['count'])
+				self.results.add(self.category, i['os'], i['version'], weight=i['count'])
 			else:
 				break
 
@@ -378,7 +378,7 @@ class DiscoverJavaScript(object):
 			if is_js:
 				matches = self.matcher.get_result(self.fingerprints, response)
 				for fp in matches:
-					self.result.add( self.category, fp['name'], fp['output'], weight=1)
+					self.result.add( self.category, fp['name'], fp['output'], fingerprint=fp, weight=1)
 
 
 

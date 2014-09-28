@@ -12,6 +12,7 @@
 	{
 		"url": "/Admin/access/default.aspx",
 		"regex": "<div style=\"text-align:center;margin-top:3px;font-size:xx-small;color:#CCCCCC;\">(.*)</div>", 
-		"output": "%s"
+		"output": "%s",
+		"note": "DynamicWeb administration page"
 	}
 ]

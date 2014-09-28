@@ -9,7 +9,8 @@
 		"url": "/readme.html", 
 		"regex": "<br />\\s*Version (\\d.\\d)\\s*</h1>",
 		"weight": 10,
-		"output": "%s"
+		"output": "%s",
+		"note": "Wordpress readme"
 	},
 	{
 		"url": "/feed/",

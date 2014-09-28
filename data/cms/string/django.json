@@ -3,7 +3,8 @@
 		"url": "/admin/",
 		"string": "<h1 id=\"site-name\">Django administration</h1>",
 		"output": "",
-		"weight": 0.1
+		"weight": 0.1,
+		"note": "Django administration page"
 	},
 	{
 		"url": "/",
