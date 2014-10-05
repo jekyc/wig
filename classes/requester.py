@@ -13,38 +13,6 @@ class RequesterThread(threading.Thread):
 		self.kill = False
 
 
-	def clean_page(self, response):
-		# this the same method nmap's http.lua uses for error page detection
-		# nselib/http.lua: clean_404
-		# remove information from the page that might not be static
-
-		page = response.content
-		
-		# time
-		page = re.sub(b'(\d?\d:?){2,3}', b'',page)
-		page = re.sub(b'AM', b'',page, flags=re.IGNORECASE)
-		page = re.sub(b'PM', b'',page, flags=re.IGNORECASE)
-
-		# date with 4 digit year
-		page = re.sub(b'(\d){8}', '',page)
-		page = re.sub(b'\d{4}-\d{2}-\d{2}', b'',page)
-		page = re.sub(b'\d{4}/\d{2}/\d{2}', b'',page)
-		page = re.sub(b'\d{2}-\d{2}-\d{4}', b'',page)
-		page = re.sub(b'\d{2}/\d{2}/\d{4}', b'',page)
-
-		# date with 2 digit year
-		page = re.sub( b'(\d){6}', '',page)
-		page = re.sub( b'\d{2}-\d{2}-\d{2}', b'',page)
-		page = re.sub( b'\d{2}/\d{2}/\d{2}', b'',page)
-		
-		# links and paths
-		page = re.sub( b'/[^ ]+',  b'', page)
-		page = re.sub( b'[a-zA-Z]:\\[^ ]+',  b'', page)
-
-		# return the fingerprint of the stripped page 
-		return hashlib.md5(page).hexdigest().lower()
-
-
 	def make_request(self, item):
 		host = item['host']
 		url = item['url']
@@ -59,17 +27,8 @@ class RequesterThread(threading.Thread):
 		# it from the cache		
 		if not uri in self.cache:
 			try:
-				# make the request
+				# make the request, and add it to the cache
 				r = requests.get(uri, verify=False)
-
-				# calculate the md5 sums for the whole page and 
-				# a cleaned version. The cleaned version is used
-				# to identify custom 404s
-				content = r.content
-				r.md5 = hashlib.md5(content).hexdigest().lower()
-				r.md5_404 = self.clean_page(r)
-
-				# add to the cache
 				self.cache[uri] = r
 			except Exception as e:
 				r = None

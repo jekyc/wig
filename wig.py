@@ -15,7 +15,7 @@ from classes.matcher import Match
 
 class Wig(object):
 
-	def __init__(self, host, stop_after, run_all, match_all):
+	def __init__(self, host, stop_after=1, run_all=False, match_all=False, no_load_cache=False, no_save_cache=False):
 		self.colorizer = Color()
 		self.cache = Cache()					# cache for requests
 		self.results = Results()				# storage of results
@@ -26,10 +26,12 @@ class Wig(object):
 		self.match_all = match_all
 		self.stop_after = stop_after
 
+		self.no_cache_load = no_load_cache
+		self.no_cache_save = no_save_cache
+
 		# set the amount of urls to fetch in parallel to the
 		# amount of threads
 		self.chuck_size = self.threads 
-
 
 		# get an ordered list of fingerprints 
 		# the list is ordered such that a breadth first search is performed
@@ -45,8 +47,6 @@ class Wig(object):
 
 		
 	def run(self):
-		t = time.time()
-
 		fps = self.fingerprints
 		num_fps = fps.get_size()
 
@@ -74,7 +74,15 @@ class Wig(object):
 			# else update the host 
 			else:
 				self.host = dr.get_valid_url()
-		
+
+
+		# timer started after the user interaction
+		t = time.time()
+
+		# load cache if this is not disabled
+		self.cache.set_host(self.host)
+		if not self.no_cache_load:
+			self.cache.load()
 
 		# set a requester instance to use for all the requests
 		requester = Requester(self.host, self.cache)
@@ -149,6 +157,11 @@ class Wig(object):
 		os_finder.run()
 
 
+		# save the cache
+		if not self.no_cache_save:
+			self.cache.save()
+
+
 		##########################################################################
 		# RESULT PRINTING
 		##########################################################################
@@ -180,8 +193,18 @@ if __name__ == '__main__':
 	parser.add_argument('-m', action='store_true', dest='match_all', default=False,
 		help='Try harder to find a match without making more requests')
 	
+	parser.add_argument('--no_cache_load', action='store_true', default=False,
+		help='Do not load cached responses')
+
+	parser.add_argument('--no_cache_save', action='store_true', default=False,
+		help='Do not save the cache for later use')
+
+	parser.add_argument('-N', action='store_true', dest='no_cache', default=False,
+		help='Shortcut for --no_cache_load and --no_cache_save')
+
 	parser.add_argument('-e',   action='store_true', dest='enumerate', default=False,
 		help='Use the built-in list of common files and directories (much like dirbuster). NOT IMPLEMENTED YET')
+
 
 	#parser.add_argument('-v', action="store_const", dest="loglevel",  const=True, help="list all the urls where matches have been found")
 	#parser.add_argument('-d', action="store_const", dest="desperate", const=True, help="Desperate mode - crawl pages fetched for additional ressource and try to match all fingerprints. ")
@@ -189,8 +212,12 @@ if __name__ == '__main__':
 
 	args = parser.parse_args()
 
+	if args.no_cache:
+		args.no_cache_load = True
+		args.no_cache_save = True
+
 	try:
-		wig = Wig(args.host, args.stop_after, args.run_all, args.match_all)
+		wig = Wig(args.host, args.stop_after, args.run_all, args.match_all, args.no_cache_load, args.no_cache_save)
 		wig.run()
 	except KeyboardInterrupt:
 		# detect ctrl+c 
