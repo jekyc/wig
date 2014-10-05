@@ -107,7 +107,7 @@ class Wig(object):
 		# no cms' have been detected
 		while not cms_finder.is_done() and (len(self.detected_cms) < self.stop_after or self.run_all):
 
-			# check the next chunk of urls for cms detection 
+			# check the next chunk of urls for cms detection
 			cms_list = cms_finder.run(self.host, self.detected_cms)
 			for cms in cms_list:
 				version_finder.run(self.host, fps.get_fingerprints_for_cms(cms))
@@ -176,7 +176,7 @@ if __name__ == '__main__':
 	parser.add_argument('-n', type=int, default=1, dest="stop_after",
 						help='Stop after this amount of CMSs have been detected. Default: 1')
 	
-	parser.add_argument('-a', action='store_true', dest='run_all', default=False, 
+	parser.add_argument('-a', action='store_true', dest='run_all', default=False,
 						help='Do not stop after the first CMS is detected')
 
 	parser.add_argument('-m', action='store_true', dest='match_all', default=False,
@@ -209,7 +209,7 @@ if __name__ == '__main__':
 		wig = Wig(args.host, args.stop_after, args.run_all, args.match_all, args.no_cache_load, args.no_cache_save)
 		wig.run()
 	except KeyboardInterrupt:
-		# detect ctrl+c 
+		# detect ctrl+c
 		for w in wig.workers:
 			w.kill = True
 		raise
