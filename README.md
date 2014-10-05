@@ -14,9 +14,9 @@ wig also tries to guess the operating system on the server based on the 'server'
 - [x] Operation system fingerprinting by matching php, apache and other packages against a values in wig's database
 - [x] Checks for files of interest such as administrative login pages, readmes, etc
 - [x] Currently the wig's databases include *20.000* fingerprints
+- [x] Reuse information from previous runs (save the cache)
 
 ##### The following features are under consideration for wig:
-- [ ] Reuse information from previous runs (save the cache)
 - [ ] Implement a dirbuster-ish/enumeration feature
 - [ ] Add more fingerprints for interesting files
 - [ ] Implement a verbose option
