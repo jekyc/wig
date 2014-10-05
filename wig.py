@@ -25,6 +25,7 @@ class Wig(object):
 		self.run_all = run_all
 		self.match_all = match_all
 		self.stop_after = stop_after
+		self.useragent = 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36'
 
 		self.no_cache_load = no_load_cache
 		self.no_cache_save = no_save_cache
@@ -54,7 +55,7 @@ class Wig(object):
 		########################################################################
 
 		# check if the input URL redirects to somewhere else
-		dr = DiscoverRedirect(self.host)
+		dr = DiscoverRedirect(self.host, self.useragent)
 
 		# make sure that the input is valid
 		if dr.get_valid_url() is None:
@@ -84,6 +85,7 @@ class Wig(object):
 		# set a requester instance to use for all the requests
 		requester = Requester(self.host, self.cache)
 		requester.set_find_404(True)
+		requester.set_useragent(self.useragent)
 
 		# find error pages
 		find_error = DiscoverErrorPage(requester, self.host, self.fingerprints.get_error_urls())

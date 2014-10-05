@@ -4,14 +4,14 @@ from classes.results import Results
 
 
 class RequesterThread(threading.Thread):
-	def __init__(self, id, queue, cache, requested):
+	def __init__(self, id, queue, cache, requested, useragent):
 		threading.Thread.__init__(self)
 		self.id = id
 		self.queue = queue
 		self.cache = cache
 		self.requested = requested
 		self.kill = False
-
+		self.useragent = useragent
 
 	def make_request(self, item):
 		host = item['host']
@@ -28,7 +28,7 @@ class RequesterThread(threading.Thread):
 		if not uri in self.cache:
 			try:
 				# make the request, and add it to the cache
-				r = requests.get(uri, verify=False)
+				r = requests.get(uri, verify=False, headers={'User-Agent': self.useragent})
 				self.cache[uri] = r
 			except Exception as e:
 				r = None
@@ -36,7 +36,6 @@ class RequesterThread(threading.Thread):
 			r = self.cache[uri]
 
 		return r
-
 
 	def run(self):
 		while not self.kill:
@@ -61,6 +60,7 @@ class Requester(object):
 		self.workers = []
 		self.host = host
 		self.find_404s = False
+		self.useragent = None
 
 		self.cache = cache
 		self.results = Results()
@@ -78,10 +78,11 @@ class Requester(object):
 		self.fps = fps
 		self.threads = len(fps)
 
+	def set_useragent(self, ua):
+		self.useragent = ua
 
 	def set_find_404(self, find_404s):
 		self.find_404s = find_404s
-
 
 	def run(self):
 
@@ -94,7 +95,7 @@ class Requester(object):
 		# start the threads
 		self.works = []
 		for i in range(self.threads):
-			w = RequesterThread(i, self.queue, self.cache, self.requested)
+			w = RequesterThread(i, self.queue, self.cache, self.requested, self.useragent)
 			w.daemon = True
 			self.workers.append(w)
 			w.start()

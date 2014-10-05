@@ -1,22 +1,23 @@
+import requests, re, hashlib, pprint
 from classes.fingerprints import Fingerprints
 from classes.requester import Requester
 from classes.matcher import Match
 from collections import Counter
-import requests, re, hashlib, pprint
 from html.parser import HTMLParser
 
 
 class DiscoverRedirect(object):
 
-	def __init__(self, url):
+	def __init__(self, url, useragent):
 		self.org = url
 		self.url = url
+		self.useragent = useragent
 
 		# if a schema is not provided default to http
 		if not url.startswith("http"): self.url = "http://" + url
 
 		try:
-			r = requests.get(self.url, verify=False)
+			r = requests.get(self.url, verify=False, headers={'User-Agent': useragent})
 		
 			if not r.url == self.url:
 				# ensure that folders and files are removed
@@ -69,6 +70,7 @@ class DiscoverErrorPage(object):
 
 	def get_error_pages(self):
 		return self.error_pages
+
 
 
 
