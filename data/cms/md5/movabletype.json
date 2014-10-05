@@ -2780,6 +2780,51 @@
           "url": "/themes/pico/static/style_library/base.css"
      },
      {
+          "md5": "ea3c3a996f0371ba84a966773f0c2529",
+          "output": "mt6.0.5",
+          "url": "/mt-static/mt.js"
+     },
+     {
+          "md5": "ad78458f16ae7456dab40346cb47e26a",
+          "output": "mt6.0.5",
+          "url": "/mt-static/js/edit.js"
+     },
+     {
+          "md5": "f77cd6a4061b61814a86975eaae04d2e",
+          "output": "mt6.0.5",
+          "url": "/mt-static/css/structure.css"
+     },
+     {
+          "md5": "13596fa87a7fdefb508d44ce7cf0ec19",
+          "output": "mt6.0.5",
+          "url": "/mt-static/js/dialog.js"
+     },
+     {
+          "md5": "9b1005aef6da45023857e5786dd70db1",
+          "output": "mt6.0.5",
+          "url": "/mt-static/js/tc/mixer/display.js"
+     },
+     {
+          "md5": "c92ab98e3851ed949de49ca6c3c81f5d",
+          "output": "mt6.0.5",
+          "url": "/mt-static/jquery/jquery.mt.js"
+     },
+     {
+          "md5": "73973522b09d2454ceb3b1144136fa0e",
+          "output": "mt6.0.5",
+          "url": "/mt-static/js/tc/tableselect.js"
+     },
+     {
+          "md5": "fe09c51d45558e90e69f19fbbe87c178",
+          "output": "mt6.0.5",
+          "url": "/readme.html"
+     },
+     {
+          "md5": "c83c5d4e4d1fde82c38ff42415db3546",
+          "output": "mt6.0.5",
+          "url": "/themes/pico/static/style_library/base.css"
+     },
+     {
           "md5": "f7cc4e50150ca85abd191dfaa97521e0",
           "output": "mt6.0b1",
           "url": "/mt-static/mt.js"
