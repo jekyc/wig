@@ -31,9 +31,9 @@ class Wig(object):
 
 		# set the amount of urls to fetch in parallel to the
 		# amount of threads
-		self.chuck_size = self.threads 
+		self.chuck_size = self.threads
 
-		# get an ordered list of fingerprints 
+		# get an ordered list of fingerprints
 		# the list is ordered such that a breadth first search is performed
 		self.ordered_list = self.fingerprints.get_ordered_list()
 
@@ -45,36 +45,33 @@ class Wig(object):
 		# a set of md5sums for error pages
 		self.error_pages = set()
 
-		
 	def run(self):
 		fps = self.fingerprints
 		num_fps = fps.get_size()
 
-		##########################################################################
+		########################################################################
 		# PRE PROCESSING
-		##########################################################################
-		
+		########################################################################
+
 		# check if the input URL redirects to somewhere else
 		dr = DiscoverRedirect(self.host)
 
-
 		# make sure that the input is valid
-		if dr.get_valid_url() == None:
+		if dr.get_valid_url() is None:
 			print("Invalid host name")
 			sys.exit(1)
 
 		# if the hosts redirects, ask user if the redirection should be followed
 		elif dr.is_redirected():
 			hilight_host = self.colorizer.format(dr.get_valid_url(), 'red', False)
-			choice = input("Redirected to %s. Continue? [Y|n]:" %(hilight_host,))
+			choice = input("Redirected to %s. Continue? [Y|n]:" % (hilight_host,))
 
-			# if not, exit			
+			# if not, exit
 			if choice in ['n', 'N']:
 				sys.exit(1)
-			# else update the host 
+			# else update the host
 			else:
 				self.host = dr.get_valid_url()
-
 
 		# timer started after the user interaction
 		t = time.time()
@@ -100,50 +97,45 @@ class Wig(object):
 		matcher = Match()
 		matcher.set_404s(error_pages)
 
-
-		##########################################################################
+		########################################################################
 		# PROCESSING
-		#########################################################################
+		########################################################################
 		cms_finder = DiscoverCMS(requester, matcher, self.ordered_list, self.chuck_size)
 		version_finder = DiscoverVersion(requester, matcher, self.results, self.chuck_size)
 
 		# as long as there are more fingerprints to check, and
 		# no cms' have been detected
 		while not cms_finder.is_done() and (len(self.detected_cms) < self.stop_after or self.run_all):
-			
+
 			# check the next chunk of urls for cms detection 
 			cms_list = cms_finder.run(self.host, self.detected_cms)
 			for cms in cms_list:
 				version_finder.run(self.host, fps.get_fingerprints_for_cms(cms))
-				
+
 				# if a match was found, then it has been added to the results object
-				# and the detected_cms list should be updated 
+				# and the detected_cms list should be updated
 				if self.results.found_match(cms):
 					self.detected_cms.add(cms)
 
-
-		# iterate over the results stored in the cache and check all the 
+		# iterate over the results stored in the cache and check all the
 		# fingerprints against all of the responses, as the URLs
 		# for the fingerprints are no longer valid
 		fps = self.fingerprints.get_all()
 		crawler = DiscoverMore(self.host, requester, self.cache, fps, matcher, self.results)
 		crawler.run()
 
-
-		##########################################################################
+		########################################################################
 		# POST PROCESSING
-		##########################################################################
+		########################################################################
 
 		# check for headers
 		header_finder = ExtractHeaders(self.cache, self.results)
 		header_finder.run()
 
-
 		# detect JavaScript libraries
 		js_fps = self.fingerprints.get_js_fingerprints()
 		js = DiscoverJavaScript(self.cache, js_fps, matcher, self.results)
 		js.run()
-
 
 		# match all fingerprints against all responses ?
 		# this might produce false positives
@@ -151,20 +143,17 @@ class Wig(object):
 			desparate = DiscoverAllCMS(self.cache, fps, self.results)
 			desparate.run()
 
-
 		# find Operating system
 		os_finder = DiscoverOS(self.cache, self.results, self.fingerprints.get_os_fingerprints())
 		os_finder.run()
-
 
 		# save the cache
 		if not self.no_cache_save:
 			self.cache.save()
 
-
-		##########################################################################
+		########################################################################
 		# RESULT PRINTING
-		##########################################################################
+		########################################################################
 		run_time = "%.1f" % (time.time() - t)
 		num_urls = self.cache.get_num_urls()
 
@@ -185,29 +174,29 @@ if __name__ == '__main__':
 	parser.add_argument('host', type=str, help='The host name of the target')
 	
 	parser.add_argument('-n', type=int, default=1, dest="stop_after",
-		help='Stop after this amount of CMSs have been detected. Default: 1')
+						help='Stop after this amount of CMSs have been detected. Default: 1')
 	
 	parser.add_argument('-a', action='store_true', dest='run_all', default=False, 
-		help='Do not stop after the first CMS is detected')
+						help='Do not stop after the first CMS is detected')
 
 	parser.add_argument('-m', action='store_true', dest='match_all', default=False,
-		help='Try harder to find a match without making more requests')
+						help='Try harder to find a match without making more requests')
 	
 	parser.add_argument('--no_cache_load', action='store_true', default=False,
-		help='Do not load cached responses')
+						help='Do not load cached responses')
 
 	parser.add_argument('--no_cache_save', action='store_true', default=False,
-		help='Do not save the cache for later use')
+						help='Do not save the cache for later use')
 
 	parser.add_argument('-N', action='store_true', dest='no_cache', default=False,
-		help='Shortcut for --no_cache_load and --no_cache_save')
+						help='Shortcut for --no_cache_load and --no_cache_save')
 
 	parser.add_argument('-e',   action='store_true', dest='enumerate', default=False,
-		help='Use the built-in list of common files and directories (much like dirbuster). NOT IMPLEMENTED YET')
+						help='Use the built-in list of common files and directories (much like dirbuster). NOT IMPLEMENTED YET')
 
 
-	#parser.add_argument('-v', action="store_const", dest="loglevel",  const=True, help="list all the urls where matches have been found")
-	#parser.add_argument('-d', action="store_const", dest="desperate", const=True, help="Desperate mode - crawl pages fetched for additional ressource and try to match all fingerprints. ")
+	# parser.add_argument('-v', action="store_const", dest="loglevel",  const=True, help="list all the urls where matches have been found")
+	# parser.add_argument('-d', action="store_const", dest="desperate", const=True, help="Desperate mode - crawl pages fetched for additional ressource and try to match all fingerprints. ")
 
 
 	args = parser.parse_args()
