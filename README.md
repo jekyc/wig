@@ -63,20 +63,26 @@ The '-m' option tests all fingerprints against all fetched URLs, which is helpfu
 
 ```
 $ python3 wig.py -h
-usage: wig.py [-h] [-n STOP_AFTER] [-a] [-m] [-e] host
+usage: wig.py [-h] [-n STOP_AFTER] [-a] [-m] [--no_cache_load]
+              [--no_cache_save] [-N] [-e]
+              host
 
 WebApp Information Gatherer
 
 positional arguments:
-  host           The host name of the target
+  host             The host name of the target
 
 optional arguments:
-  -h, --help     show this help message and exit
-  -n STOP_AFTER  Stop after this amount of CMSs have been detected. Default: 1
-  -a             Do not stop after the first CMS is detected
-  -m             Try harder to find a match without making more requests
-  -e             Use the built-in list of common files and directories (much
-                 like dirbuster). NOT IMPLEMENTED YET
+  -h, --help       show this help message and exit
+  -n STOP_AFTER    Stop after this amount of CMSs have been detected. Default:
+                   1
+  -a               Do not stop after the first CMS is detected
+  -m               Try harder to find a match without making more requests
+  --no_cache_load  Do not load cached responses
+  --no_cache_save  Do not save the cache for later use
+  -N               Shortcut for --no_cache_load and --no_cache_save
+  -e               Use the built-in list of common files and directories (much
+                   like dirbuster). NOT IMPLEMENTED YET
 ```
 
 
@@ -87,6 +93,9 @@ optional arguments:
                                                                             
 ___ CMS _______________________________________
 drupal: 6.22
+
+___ Interesting _______________________________
+/admin: Drupal administration page
 
 ___ JavaScript Libraries ______________________
 jquery: 1.3.2
@@ -99,5 +108,5 @@ Apache: 2.2.16
 PHP: 5.3.3-7+squeeze3
 
 _______________________________________________
-Time: 9.5 sec | Urls: 291 | Fingerprints: 18874
+Time: 9.5 sec | Urls: 291 | Fingerprints: 20853
 ```
