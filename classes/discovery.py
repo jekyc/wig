@@ -342,18 +342,19 @@ class DiscoverAllCMS(object):
 	# match all fingerprints against all responses
 	# this might generate false positives
 
-	def __init__(self, cache, fingerprints, results):
+	def __init__(self, cache, fingerprints, matcher, results):
 		self.cache = cache
 		self.fps = fingerprints
 		self.results = results
+		self.matcher = matcher
 
 
 	def run(self):
 		# find matches for all the responses in the cache
 		for response in self.cache.get_responses():
-			matches = self.matcher.get_result(self.fingerprints, response)
+			matches = self.matcher.get_result(self.fps, response)
 			for fp in matches:
-				self.result.add_cms(fp)
+				self.results.add_cms(fp)
 	
 
 
