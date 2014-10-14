@@ -6,12 +6,15 @@ class Color(object):
 		self.colors = {
 			'red': '31',
 			'green': '32',
+			'yellow': '33',
 			'blue': '34',
-			'normal': False
+			'magenta': '35',
+			'cyan': '36',
+			'normal': None
 		}
 
 	def format(self, string, color, bold):
-		attrs = []
+		attr = []
 		code = self.colors[color]
 
 		# bail if OS is windows
