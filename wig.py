@@ -7,20 +7,27 @@ from classes.results import Results
 from classes.requester import Requester
 from classes.fingerprints import Fingerprints
 from classes.discovery import DiscoverCMS, DiscoverVersion
-from classes.discovery import DiscoverOS, DiscoverJavaScript
+from classes.discovery import DiscoverOS, DiscoverJavaScript, DiscoverAllCMS
 from classes.discovery import DiscoverRedirect, DiscoverErrorPage, DiscoverMore
 from classes.headers import ExtractHeaders
 from classes.matcher import Match
-
+from classes.printer import Printer
 
 class Wig(object):
 
-	def __init__(self, host, stop_after=1, run_all=False, match_all=False, no_load_cache=False, no_save_cache=False):
+	def __init__(self, host, verbosity, stop_after=1, run_all=False, match_all=False, no_load_cache=False, no_save_cache=False):
+		self.verbosity = verbosity
 		self.colorizer = Color()
+		self.printer = Printer(verbosity, self.colorizer)
+
 		self.cache = Cache()					# cache for requests
 		self.results = Results()				# storage of results
 		self.threads = 10						# number of threads to run
+		
+		self.printer.print('Loading fingerprints... ', 1, '')
 		self.fingerprints = Fingerprints()		# load fingerprints
+		self.printer.print(' Done', 1)
+
 		self.host = host
 		self.run_all = run_all
 		self.match_all = match_all
@@ -49,6 +56,7 @@ class Wig(object):
 	def run(self):
 		fps = self.fingerprints
 		num_fps = fps.get_size()
+		printer = self.printer
 
 		########################################################################
 		# PRE PROCESSING
@@ -59,7 +67,7 @@ class Wig(object):
 
 		# make sure that the input is valid
 		if dr.get_valid_url() is None:
-			print("Invalid host name")
+			printer.print('Invalid host name')
 			sys.exit(1)
 
 		# if the hosts redirects, ask user if the redirection should be followed
@@ -80,7 +88,9 @@ class Wig(object):
 		# load cache if this is not disabled
 		self.cache.set_host(self.host)
 		if not self.no_cache_load:
+			printer.print('Loading results from cache...', 1, '')
 			self.cache.load()
+			printer.print(' Done.', 1)
 
 		# set a requester instance to use for all the requests
 		requester = Requester(self.host, self.cache)
@@ -88,9 +98,13 @@ class Wig(object):
 		requester.set_useragent(self.useragent)
 
 		# find error pages
+		printer.print('Detecting error pages...', 1, '')
 		find_error = DiscoverErrorPage(requester, self.host, self.fingerprints.get_error_urls())
 		find_error.run()
 		error_pages = find_error.get_error_pages()
+		printer.print(' (Found %s error page(s))' % len(error_pages),2, '')
+		printer.print(' Done', 1)
+
 
 		# set the requester to not find 404s
 		requester.set_find_404(False)
@@ -107,51 +121,76 @@ class Wig(object):
 
 		# as long as there are more fingerprints to check, and
 		# no cms' have been detected
+		printer.print('Beginning CMS detection...', 1)
 		while not cms_finder.is_done() and (len(self.detected_cms) < self.stop_after or self.run_all):
 
 			# check the next chunk of urls for cms detection
-			cms_list = cms_finder.run(self.host, self.detected_cms)
+			cms_list = list(set(cms_finder.run(self.host, self.detected_cms)))
 			for cms in cms_list:
+				printer.print(' Found %s. Running version detection...' % cms, 1, '')
 				version_finder.run(self.host, fps.get_fingerprints_for_cms(cms))
 
 				# if a match was found, then it has been added to the results object
 				# and the detected_cms list should be updated
 				if self.results.found_match(cms):
+					printer.print(' Found something!', 2, '')
 					self.detected_cms.add(cms)
+				else:
+					printer.print(' Found nothing.', 2, '')
+
+				printer.print(' Done', 1)
 
 		# iterate over the results stored in the cache and check all the
 		# fingerprints against all of the responses, as the URLs
 		# for the fingerprints are no longer valid
+		printer.print('Fetching extra ressources...', 1, '')
+		cache_items = self.cache.get_num_urls()
+
 		fps = self.fingerprints.get_all()
 		crawler = DiscoverMore(self.host, requester, self.cache, fps, matcher, self.results)
 		crawler.run()
+
+		new_items = self.cache.get_num_urls() - cache_items
+		printer.print(' (Found %s new items)' %  new_items, 2, '')
+		printer.print(' Done', 1)
 
 		########################################################################
 		# POST PROCESSING
 		########################################################################
 
 		# check for headers
+		printer.print('Checking for headers...', 1, '')
 		header_finder = ExtractHeaders(self.cache, self.results)
 		header_finder.run()
+		printer.print(' Done', 1)
 
 		# detect JavaScript libraries
+		printer.print('Checking for JavaScript...', 1, '')
 		js_fps = self.fingerprints.get_js_fingerprints()
 		js = DiscoverJavaScript(self.cache, js_fps, matcher, self.results)
 		js.run()
+		printer.print(' Done', 1)
 
 		# match all fingerprints against all responses ?
 		# this might produce false positives
 		if self.match_all:
-			desparate = DiscoverAllCMS(self.cache, fps, self.results)
+			printer.print('Running desparate mode - checking for all matches...', 1, '')			
+			desparate = DiscoverAllCMS(self.cache, fps, matcher, self.results)
 			desparate.run()
+			printer.print(' Done', 1)
 
 		# find Operating system
+		printer.print('Checking for operating system...', 1, '')		
 		os_finder = DiscoverOS(self.cache, self.results, self.fingerprints.get_os_fingerprints())
 		os_finder.run()
+		printer.print(' Done', 1)
+
 
 		# save the cache
 		if not self.no_cache_save:
+			printer.print('Saving cache...', 1, '')
 			self.cache.save()
+			printer.print(' Done', 1)
 
 		########################################################################
 		# RESULT PRINTING
@@ -170,6 +209,7 @@ class Wig(object):
 		# urls_200 = [ r.url for r in self.cache.get_responses() if r.status_code == 200 ]
 		# urls_200.sort()
 		# for u in urls_200: print(u)
+
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description='WebApp Information Gatherer')
@@ -193,6 +233,8 @@ if __name__ == '__main__':
 	parser.add_argument('-N', action='store_true', dest='no_cache', default=False,
 						help='Shortcut for --no_cache_load and --no_cache_save')
 
+	parser.add_argument('--verbosity', '-v', action='count', help='Increase verbosity. Use twice for even more info')
+
 	parser.add_argument('-e',   action='store_true', dest='enumerate', default=False,
 						help='Use the built-in list of common files and directories (much like dirbuster). NOT IMPLEMENTED YET')
 
@@ -207,8 +249,14 @@ if __name__ == '__main__':
 		args.no_cache_load = True
 		args.no_cache_save = True
 
+	if args.verbosity is None:
+		verbosity = 0
+	else:
+		verbosity = args.verbosity
+
+
 	try:
-		wig = Wig(args.host, args.stop_after, args.run_all, args.match_all, args.no_cache_load, args.no_cache_save)
+		wig = Wig(args.host, verbosity, args.stop_after, args.run_all, args.match_all, args.no_cache_load, args.no_cache_save)
 		wig.run()
 	except KeyboardInterrupt:
 		# detect ctrl+c
