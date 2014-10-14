@@ -104,7 +104,7 @@ class Cache(queue.Queue):
 			# ttl
 			age = int(self.now) - int(save_time)
 			if age > self.cache_ttl:
-				file_name = os.path.join(self.cache_dir, self.cache_name)
+				file_name = os.path.join(self.cache_dir, cache_file)
 				os.remove(file_name)
 
 
