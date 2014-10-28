@@ -21,18 +21,18 @@
 		"url": "/Util/login.aspx",
 		"header": "X-EPiLogOnScreen",
 		"regex": "(true)",
-		"output": "7.x"
+		"output": "7"
 	},
 	{
 		"url": "/Util/login.aspx",
 		"header": "X-EPiLogOnScreen-PostUrl",
 		"regex": "(.*)login.aspx",
-		"output": "7.x"
+		"output": "7"
 	},
 	{
 		"url": "/Util/login.aspx",
 		"header": "Set-Cookie",
 		"regex": "(epiXSRF)",
-		"output": "7.x"
+		"output": "7"
 	}
 ]
