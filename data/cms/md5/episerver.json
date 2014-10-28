@@ -17,7 +17,7 @@
 	{
 		"url": "/util/styles/login.css",
 		"md5": "39d568c0a83e6b0c92daa82c306d18dd",
-		"output": "7.x"
+		"output": "7"
 	},
 	{
 		"url": "/util/javascript/episerverscriptmanager.js",
@@ -42,7 +42,7 @@
 	{
 		"url": "/util/javascript/episerverscriptmanager.js",
 		"md5": "9b63d775bfdaf9d7e1b6abf904595c7c",
-		"output": "7.x"
+		"output": "7"
 	},
 	{
 		"url": "/App_themes/default/styles/system.css",
@@ -62,7 +62,12 @@
 	{
 		"url": "/App_themes/default/styles/system.css",
 		"md5": "25540b24625805e4f4c1c18cf6991cb1",
-		"output": "7.x"
+		"output": "7.0"
+	},
+	{
+		"url": "/App_themes/default/styles/system.css",
+		"md5": "7914c7e9579f1761525baff3fd3de5d7",
+		"output": "7.5"
 	},
 	{
 		"url": "/App_Themes/Default/Styles/ToolButton.css",
@@ -82,18 +87,33 @@
 	{
 		"url": "/App_Themes/Default/Styles/ToolButton.css",
 		"md5": "cc40f9b426357a0e85f9fd3b1c3755e3",
-		"output": "7.x"
+		"output": "7"
 	},
 	{
 		"url": "/util/images/episerver-artwork.png",
 		"md5": "c1a0e6fadfccc78b85802356bbd0c89f",
-		"output": "7.x"
+		"output": "7"
 	},
 	{
 		"url": "/util/images/episerver-logo.png",
 		"md5": "dbc3e1ff859613bd3973900562ccf9c1",
-		"output": "7.x"
-	}
+		"output": "7"
+	},
+	{
+		"url": "/util/javascript/datebrowser.js",
+		"md5": "260b2f5db9dd1c77ea1d4a9b3291c0f9",
+		"output": "7.0"
+	},
+	{
+		"url": "/util/javascript/common.js",
+		"md5": "7ed41dcf7b82ac4af332f44ab1f7cd0a",
+		"output": "7.0"
+	},
+	{
+		"url": "/util/javascript/common.js",
+		"md5": "7ed41dcf7b82ac4af332f44ab1f7cd0a",
+		"output": "6.0"
+	}	
 ]
 
 
