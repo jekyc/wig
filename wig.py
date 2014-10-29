@@ -213,6 +213,8 @@ class Wig(object):
 		print(bar)
 		print(status + "\n")
 
+		printer.print('\n\n' + self.results.get_sitemap(), 2)
+		
 		# urls_200 = [ r.url for r in self.cache.get_responses() if r.status_code == 200 ]
 		# urls_200.sort()
 		# for u in urls_200: print(u)

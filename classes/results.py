@@ -1,5 +1,6 @@
 from collections import defaultdict, Counter
 from classes.color import Color
+from classes.sitemap import Sitemap
 import pprint
 
 
@@ -22,6 +23,8 @@ class Results(object):
 		#
 		self.md5_matches = defaultdict(lambda: defaultdict(lambda: set()))
 		#		           ^ Url               ^ cms               ^ versions
+
+		self.sitemap = Sitemap()
 
 
 	def _calc_md5_score(self):
@@ -50,6 +53,9 @@ class Results(object):
 		url = fp['url']
 		cms = fp['cms']
 		ver = fp['output']
+
+		# add to the sitemap
+		self.sitemap.add(url)
 
 		# add note if present
 		if 'note' in fp:
@@ -82,8 +88,13 @@ class Results(object):
 	
 	def add(self, category, name, version, fingerprint=None, weight=1):
 
-		# add note if present
 		if fingerprint is not None:
+
+			# add to the sitemap
+			if 'url' in fingerprint:
+				self.sitemap.add(fingerprint['url'])
+
+			# add note if present
 			if 'note' in fingerprint:
 				url = fingerprint['url']
 				note = fingerprint['note']
@@ -102,6 +113,10 @@ class Results(object):
 
 	def set_width(self, width):
 		self.width = width
+
+
+	def get_sitemap(self):
+		return str(self.sitemap)
 
 
 	def __str__(self):
