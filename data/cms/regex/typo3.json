@@ -1,7 +1,7 @@
 [
 	{
 		"url": "/",
-		"regex": "<meta name=\"generator\" content=\"TYPO3 (\\d\\.\\d) CMS\" />",
+		"regex": "<meta name=\"generator\" content=\"TYPO3 ([\\d\\.?]+)",
 		"output": "%s"
 	},
 	{
