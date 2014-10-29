@@ -2,16 +2,61 @@
 	{
 		"url": "/",
 		"string": "<link href=\"/sitecore/shell/applications/analytics/visitor.css.aspx\"",
-		"output": ""
+		"output": "",
+		"weight": 0.01
 	},
 	{
 		"url": "/",
 		"string": "<link href=\"/sitecore%20modules/shell/",
-		"output": ""
+		"output": "",
+		"weight": 0.01
 	},
 	{
 		"url": "/",
 		"string": "<meta id=scPath content=\"/sitecore/content/Home/404\" name=scPath>",
-		"output": ""
+		"output": "",
+		"weight": 0.01
+	},
+	{
+		"url": "/sitecore/shell/webservice/service.asmx",
+		"string": "Visual Sitecore Service Web Service",
+		"output": "",
+		"weight": 0.01,
+		"note":  "Sitecore Web Service Page"
+	},
+	{
+		"url": "/sitecore/login/passwordrecovery.aspx",
+		"string": "<form method=\"post\" action=\"/sitecore/login/passwordrecovery.aspx\"",
+		"output": "",
+		"weight": 0.01,
+		"note": "Sitecore Password Recovery"
+	},
+	{
+		"url": "/sitecore/admin/unlock_admin.aspx",
+		"string": "Unlock Administrator Page",
+		"output": "",
+		"weight": 0.01,
+		"note": "Sitecore Unlock Administrator Account"
+	},
+	{
+		"url": "/sitecore/admin/cache.aspx",
+		"string": "<title>Cache Admin</title>",
+		"output": "",
+		"weight": 0.01,
+		"note": "Sitecore Cache Admin"
+	},
+	{
+		"url": "/sitecore/admin/showconfig.aspx",
+		"string": "sitecore database",
+		"output": "",
+		"weight": 0.01,
+		"note": "Sitecore Config page"
+	},
+	{
+		"url": "/sitecore/admin/cache.aspx",
+		"string": "<title>Cache Admin</title>",
+		"output": "",
+		"weight": 0.01,
+		"note": "Sitecore Cache Admin"
 	}
 ]
