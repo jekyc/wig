@@ -28,7 +28,7 @@ class RequesterThread(threading.Thread):
 		if not uri in self.cache:
 			try:
 				# make the request, and add it to the cache
-				r = requests.get(uri, verify=False, headers={'User-Agent': self.useragent})
+				r = requests.get(uri, verify=False, headers={'User-Agent': self.useragent}, timeout=10)
 				self.cache[uri] = r
 			except Exception as e:
 				r = None
