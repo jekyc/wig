@@ -122,11 +122,18 @@ class Wig(object):
 		# as long as there are more fingerprints to check, and
 		# no cms' have been detected
 		printer.print('Beginning CMS detection...', 1)
+		counter = 0
 		while not cms_finder.is_done() and (len(self.detected_cms) < self.stop_after or self.run_all):
+			printer.print('Requests: %s' % (counter * self.threads,), 1, '                                                \r')
+			counter += 1
 
 			# check the next chunk of urls for cms detection
 			cms_list = list(set(cms_finder.run(self.host, self.detected_cms)))
 			for cms in cms_list:
+
+				# skip checking the cms, if it has already been detected
+				if cms in self.detected_cms: continue
+
 				printer.print(' Found %s. Running version detection...' % cms, 1, '')
 				version_finder.run(self.host, fps.get_fingerprints_for_cms(cms))
 
