@@ -158,5 +158,21 @@
      {
           "md5": "79fd743a56f64fa8cd3baa271802df05",
           "output": "1.9.1"
+     },
+     {
+          "md5": "e9c3d09d2f56fd2ca05bbb59ae47663e",
+          "output": "1.8.8"
+     },
+     {
+          "md5": "3839477e03cb6faeb4b51dd0d263c4c6",
+          "output": "1.10.2"
+     },
+     {
+          "md5": "7bf418710c3bad93444988ba9a4ce03c",
+          "output": "1.7.7"
+     },
+     {
+          "md5": "a2221ecc2a8d06bec449b56bbc13d2f4",
+          "output": "1.9.5"
      }
 ]

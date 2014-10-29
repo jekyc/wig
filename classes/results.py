@@ -23,8 +23,6 @@ class Results(object):
 		self.md5_matches = defaultdict(lambda: defaultdict(lambda: set()))
 		#		           ^ Url               ^ cms               ^ versions
 
-		self.notes = defaultdict(list)
-
 
 	def _calc_md5_score(self):
 
