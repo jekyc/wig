@@ -2431,6 +2431,46 @@
      },
      {
           "md5": "23382881a94125ffb6fff355a0ecce52",
+          "output": "1.19.21",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "17d650209f4d26c8d66b3b105646466b",
+          "output": "1.19.21",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "73ef43bbf05ec7ccc42b8e28a9e57769",
+          "output": "1.19.21",
+          "url": "/skins/modern/main.css"
+     },
+     {
+          "md5": "d8378da0859c5486b65d8c694cc3eb1d",
+          "output": "1.19.21",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "d6e0a903d3f7e889a54af9378d527a80",
+          "output": "1.19.21",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "f1df6310a5b32aea068f5b805228f195",
+          "output": "1.19.21",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "bf5453f38f7dd959081dfb3aab5bcfd9",
+          "output": "1.19.21",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "9657bd5d71d2e22586b9feb21898c95c",
+          "output": "1.19.21",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "23382881a94125ffb6fff355a0ecce52",
           "output": "1.19.3",
           "url": "/skins/common/images/spinner.gif"
      },
@@ -4031,6 +4071,46 @@
      },
      {
           "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "1.22.13",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "2e4ccc208f1187e85a633312ad07516c",
+          "output": "1.22.13",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "57a97b5f5e9146ef99ec6908f5c15e98",
+          "output": "1.22.13",
+          "url": "/skins/modern/main.css"
+     },
+     {
+          "md5": "499b465e0b24ec36af6913628d23da3b",
+          "output": "1.22.13",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "9dc67f758098887383f40292192c4778",
+          "output": "1.22.13",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "afd5ff41b66fa587fce735b7f041a614",
+          "output": "1.22.13",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "ae020db4f3e37bbea9a7d00e8f0bae6a",
+          "output": "1.22.13",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "6d92129f557f9a20c5afbce025b0218a",
+          "output": "1.22.13",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
           "output": "1.22.2",
           "url": "/skins/common/images/spinner.gif"
      },
@@ -4747,6 +4827,46 @@
      {
           "md5": "f3e93f284ec1c4981a9a789f17fb11cd",
           "output": "1.23.5",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "1.23.6",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "e308af0d619e11b1a9c083ed1029d2fc",
+          "output": "1.23.6",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "aa3a249009c85a16f387235da00a589e",
+          "output": "1.23.6",
+          "url": "/skins/modern/main.css"
+     },
+     {
+          "md5": "838181dd9a1ce3c9e4d50a29a9945f5e",
+          "output": "1.23.6",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "ba1c96cf774fbc90342cb0683198cfc7",
+          "output": "1.23.6",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "7572703384f90a06c0c2a58fc5543463",
+          "output": "1.23.6",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "601a868ac3a69111d9df64a1b5304772",
+          "output": "1.23.6",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "f3e93f284ec1c4981a9a789f17fb11cd",
+          "output": "1.23.6",
           "url": "/skins/vector/vector.js"
      },
      {
