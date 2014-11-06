@@ -7,6 +7,13 @@
 		"weight": 0.1
 	},
 	{
+		"url": "/admui/report/default.aspx",
+		"string": "Report Center - EPiServer CMS",
+		"output": "",
+		"note": "EpiServer Report page",
+		"weight": 0.1 
+	},
+	{
 		"url": "/admui/help/en/Start.htm",
 		"string": "<title>Help in EPiServer CMS 5</title>",
 		"output": "5.0",
