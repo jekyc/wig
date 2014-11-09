@@ -94,17 +94,17 @@ optional arguments:
 # python3 wig.py http://www.example.com/  
 Redirected to http://example.com/. Continue? [Y|n]:
 
-Software                                 Version                                Type
+SOFTWARE                                 VERSION                                COMMENT
 sitecore                                 6.4.1 (rev. 110621)                    CMS
 jquery                                   1.3.2                                  JavaScript
 ASP.NET                                  4.0.30319                              Platform
 Microsoft-IIS                            7.5                                    Platform
 Microsoft Windows Server                 2008 R2                                Operating System
 
-URL                                      Note                                   Type
+URL                                      NOTE                                   COMMENT
 /sitecore/admin/unlock_admin.aspx        Sitecore Unlock Administrator Account  Interesting URL
 /sitecore/login/passwordrecovery.aspx    Sitecore Password Recovery             Interesting URL
 /sitecore/shell/webservice/service.asmx  Sitecore Web Service Page              Interesting URL
 ________________________________________________________________________________________________
-Time: 20.4 sec                           Urls: 119                           Fingerprints: 21553
+Time: 10.5 sec                           Urls: 120                           Fingerprints: 21553
 ```
