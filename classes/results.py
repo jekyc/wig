@@ -119,35 +119,18 @@ class Results(object):
 		return str(self.sitemap)
 
 
-	def __str__(self):
-
+	def get_results(self):
 		self._calc_md5_score()
-		out = "\n"
-		o_cat = sorted([c for c in self.scores])
 
-		for category in o_cat:
-
-			#out += "{0:<20}".format(category, )
-			start = "___ " + self.color.format(category, 'red', False) + " "
-			out +=	start + "_" * (self.width - (len(category) + 5)) + "\n"
-			plugin_list = []
-
-			o_plug = sorted([p for p in self.scores[category]])
-			for plugin in o_plug:
-				v = self.scores[category][plugin]
-
-				# get only most relevant results
-				# sort by weight
-				versions = sorted(v.items(), key=lambda x:x[1], reverse=True)
-
-				# pick only the first(s) element
-				relevant = [i[0] for i in versions if i[1] == versions[0][1]]
-
-				plug_str = "%s: " % (plugin, )
-				ver_str =  ", ".join(relevant)
-
-				plugin_list.append(plug_str + ver_str)
+		results = {}
+		for category in self.scores:
+			if category not in results: results[category] = {}
 			
-			out += "\n".join(plugin_list) + "\n\n"
+			for plugin in sorted(self.scores[category]):	
+				v = self.scores[category][plugin]
+				versions = sorted(v.items(), key=lambda x:x[1], reverse=True)
+				relevant = sorted(i[0] for i in versions if i[1] == versions[0][1])
 
-		return out[:-1]
+				results[category][plugin] = relevant
+
+		return results
