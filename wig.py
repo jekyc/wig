@@ -12,6 +12,8 @@ from classes.discovery import DiscoverRedirect, DiscoverErrorPage, DiscoverMore
 from classes.headers import ExtractHeaders
 from classes.matcher import Match
 from classes.printer import Printer
+from classes.output import Output
+
 
 class Wig(object):
 
@@ -202,17 +204,17 @@ class Wig(object):
 		########################################################################
 		# RESULT PRINTING
 		########################################################################
-		run_time = "%.1f" % (time.time() - t)
-		num_urls = self.cache.get_num_urls()
+		o = Output(self.results.get_results())
+		o.set_runtime(time.time() - t)
+		o.set_number_urls(self.cache.get_num_urls())
+		o.set_number_fps(num_fps)
 
-		status = "Time: %s sec | Urls: %s | Fingerprints: %s" % (run_time, num_urls, num_fps)
-		bar = "_"*len(status)
-		self.results.set_width(len(status))
+		print(o.get_results())
 
-		print(self.results)
-		print(bar)
-		print(status + "\n")
 
+
+		times = [x.elapsed.total_seconds() for x in self.cache.get_responses()]
+		printer.print('\n\n' + str( sum(times) / len(times) ), 2)
 		printer.print('\n\n' + self.results.get_sitemap(), 2)
 		
 		# urls_200 = [ r.url for r in self.cache.get_responses() if r.status_code == 200 ]
@@ -246,10 +248,6 @@ if __name__ == '__main__':
 
 	parser.add_argument('-e',   action='store_true', dest='enumerate', default=False,
 						help='Use the built-in list of common files and directories (much like dirbuster). NOT IMPLEMENTED YET')
-
-
-	# parser.add_argument('-v', action="store_const", dest="loglevel",  const=True, help="list all the urls where matches have been found")
-	# parser.add_argument('-d', action="store_const", dest="desperate", const=True, help="Desperate mode - crawl pages fetched for additional ressource and try to match all fingerprints. ")
 
 
 	args = parser.parse_args()

@@ -15,15 +15,17 @@ wig also tries to guess the operating system on the server based on the 'server'
 - [x] Checks for files of interest such as administrative login pages, readmes, etc
 - [x] Currently the wig's databases include *20.000* fingerprints
 - [x] Reuse information from previous runs (save the cache)
+- [x] Implement a verbose option
+
 
 ##### The following features are under consideration for wig:
 - [ ] Implement a dirbuster-ish/enumeration feature
 - [ ] Add more fingerprints for interesting files
-- [ ] Implement a verbose option
 - [ ] Add progress information (non-verbose)
 - [ ] Implement option to generate site map
 - [ ] Improve the crawler/spider
 - [ ] Implement option for output to file: xml,json
+- [ ] Improve a verbose option
 
 
 
@@ -90,23 +92,19 @@ optional arguments:
 
 ```
 # python3 wig.py http://www.example.com/  
-                                                                            
-___ CMS _______________________________________
-drupal: 6.22
+Redirected to http://example.com/. Continue? [Y|n]:
 
-___ Interesting _______________________________
-/admin: Drupal administration page
+Software                                 Version                                Type
+sitecore                                 6.4.1 (rev. 110621)                    CMS
+jquery                                   1.3.2                                  JavaScript
+ASP.NET                                  4.0.30319                              Platform
+Microsoft-IIS                            7.5                                    Platform
+Microsoft Windows Server                 2008 R2                                Operating System
 
-___ JavaScript Libraries ______________________
-jquery: 1.3.2
-
-___ Operating System __________________________
-Debian: 6.0.3
-
-___ Platform __________________________________
-Apache: 2.2.16
-PHP: 5.3.3-7+squeeze3
-
-_______________________________________________
-Time: 9.5 sec | Urls: 291 | Fingerprints: 20853
+URL                                      Note                                   Type
+/sitecore/admin/unlock_admin.aspx        Sitecore Unlock Administrator Account  Interesting URL
+/sitecore/login/passwordrecovery.aspx    Sitecore Password Recovery             Interesting URL
+/sitecore/shell/webservice/service.asmx  Sitecore Web Service Page              Interesting URL
+________________________________________________________________________________________________
+Time: 20.4 sec                           Urls: 119                           Fingerprints: 21553
 ```
