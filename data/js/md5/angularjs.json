@@ -138,5 +138,17 @@
      {
           "md5": "54e80189eeab605e835bddfa828ed968",
           "output": "1.2.26"
+     },
+     {
+          "md5": "8eb6e12ab5241c6ad600aa5fae1eaeb9",
+          "output": "1.3.0"
+     },
+     {
+          "md5": "4461ff2abe090919241058cc720784d3",
+          "output": "1.3.1"
+     },
+     {
+          "md5": "109bb75ae29ec47aa5f93e6cdfe463ba",
+          "output": "1.3.2"
      }
 ]
