@@ -11,9 +11,9 @@ class Output(object):
 			{
 				'name': 'version',
 				'headers': {
-					1: {'title': 'Software', 'color': 'blue', 'bold': True},
-					2: {'title': 'Version',  'color': 'blue', 'bold': True},
-					3: {'title': 'Type',     'color': 'blue', 'bold': True}
+					1: {'title': 'SOFTWARE', 'color': 'blue', 'bold': True},
+					2: {'title': 'VERSION',  'color': 'blue', 'bold': True},
+					3: {'title': 'COMMENT',  'color': 'blue', 'bold': True}
 				},
 				'titles': [
 					{'category': 'CMS',                  'title': 'CMS'},
@@ -25,9 +25,9 @@ class Output(object):
 			{
 				'name': 'interesting',
 				'headers':{
-					1: {'title': 'URL',  'color': 'blue', 'bold': True},
-					2: {'title': 'Note', 'color': 'blue', 'bold': True},
-					3: {'title': 'Type', 'color': 'blue', 'bold': True}
+					1: {'title': 'URL',     'color': 'blue', 'bold': True},
+					2: {'title': 'NOTE',    'color': 'blue', 'bold': True},
+					3: {'title': 'COMMENT', 'color': 'blue', 'bold': True}
 				},
 				'titles': [
 					{'category': 'Interesting',          'title': 'Interesting URL'},
