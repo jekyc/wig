@@ -7,7 +7,7 @@ try:
 	import requests
 except:
 	c = Color()
-	warning = c.format("The python library 'requests' is missing", 'red', True)
+	warning = c.format("\nThe python library 'requests' is missing", 'red', True)
 
 	print(warning)
 	print("Installation methods:")
