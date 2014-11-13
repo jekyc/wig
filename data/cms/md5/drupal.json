@@ -13903,5 +13903,95 @@
           "md5": "31c7b180825a5455f0e3b3caa339fa02",
           "output": "8.0.0-beta2",
           "url": "/core/modules/forum/css/forum.module.css"
+     },
+     {
+          "md5": "2851114089674206bb40da9ae4f78b4b",
+          "output": "8.0.0-beta3",
+          "url": "/core/misc/drupal.js"
+     },
+     {
+          "md5": "e0e3bf9d03f021158115e2e34a180699",
+          "output": "8.0.0-beta3",
+          "url": "/core/misc/druplicon.png"
+     },
+     {
+          "md5": "9151fdcbcb7eacbccc74304059547fb6",
+          "output": "8.0.0-beta3",
+          "url": "/core/misc/autocomplete.js"
+     },
+     {
+          "md5": "b7b1af2646130cefbb6f087b458a630f",
+          "output": "8.0.0-beta3",
+          "url": "/core/misc/collapse.js"
+     },
+     {
+          "md5": "56702a12667ef3ab091916b321fc2488",
+          "output": "8.0.0-beta3",
+          "url": "/core/misc/tabledrag.js"
+     },
+     {
+          "md5": "0a719532a31d3502354298344651e19f",
+          "output": "8.0.0-beta3",
+          "url": "/core/misc/tableheader.js"
+     },
+     {
+          "md5": "5eee1262d37b21bb996cc6f1c09199af",
+          "output": "8.0.0-beta3",
+          "url": "/core/misc/ajax.js"
+     },
+     {
+          "md5": "869c756c4a15d49f4eca27307527352f",
+          "output": "8.0.0-beta3",
+          "url": "/core/misc/states.js"
+     },
+     {
+          "md5": "0b969e993fe02840147e00083c5faf42",
+          "output": "8.0.0-beta3",
+          "url": "/core/misc/machine-name.js"
+     },
+     {
+          "md5": "19b242d4edde0c6eee24162396f21da5",
+          "output": "8.0.0-beta3",
+          "url": "/core/modules/contextual/css/contextual.module.css"
+     },
+     {
+          "md5": "15df96f020b51fded605f150a11b25f4",
+          "output": "8.0.0-beta3",
+          "url": "/core/modules/node/css/node.module.css"
+     },
+     {
+          "md5": "11581833efd8e11c82a44363e8535727",
+          "output": "8.0.0-beta3",
+          "url": "/core/modules/user/css/user.module.css"
+     },
+     {
+          "md5": "72137dd055377cc65e6b47519d761abc",
+          "output": "8.0.0-beta3",
+          "url": "/core/modules/statistics/statistics.js"
+     },
+     {
+          "md5": "4d5d66a9d5695bd34243a1ec99e2518d",
+          "output": "8.0.0-beta3",
+          "url": "/core/modules/file/file.js"
+     },
+     {
+          "md5": "5cd2f56507c63686deaf4ac8b3c6b0ac",
+          "output": "8.0.0-beta3",
+          "url": "/core/modules/contextual/js/contextual.js"
+     },
+     {
+          "md5": "2fc5720e5154994755ea5c3c94a3f6fb",
+          "output": "8.0.0-beta3",
+          "url": "/core/modules/book/book.js"
+     },
+     {
+          "md5": "cf36422dc4d8d9793097cae0cf36dd6b",
+          "output": "8.0.0-beta3",
+          "url": "/core/modules/book/css/book.theme.css"
+     },
+     {
+          "md5": "e699f96e7a0fd7941f40b90bb7e7627b",
+          "output": "8.0.0-beta3",
+          "url": "/core/modules/forum/css/forum.module.css"
      }
 ]
