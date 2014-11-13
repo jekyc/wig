@@ -1,17 +1,21 @@
 import json, pprint, os, time, queue, sys
 import argparse
 from collections import defaultdict, Counter
+from classes.color import Color
 
 try:
 	import requests
 except:
-	print("The python library 'requests' is missing")
+	c = Color()
+	warning = c.format("The python library 'requests' is missing", 'red', True)
+
+	print(warning)
 	print("Installation methods:")
 	print("  Debian/Kali:   apt-get install python3-requests")
 	print("  pip:           pip3 install requests")
+	print()
 	sys.exit(1)
 
-from classes.color import Color
 from classes.cache import Cache
 from classes.results import Results
 from classes.requester import Requester
