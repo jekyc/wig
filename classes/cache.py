@@ -150,8 +150,10 @@ class Cache(queue.Queue):
 		with self.mutex:		
 			file_name = self._get_name_for_cache_file()
 			with open(file_name, 'wb') as cache_file:
-				pickle.dump(self.queue, cache_file)
-
+				try:
+					pickle.dump(self.queue, cache_file)
+				except:
+					print('Error saving cache: ' + file_name)
 	
 	def load(self):
 		# loads previously saved cache for the host
@@ -176,11 +178,13 @@ class Cache(queue.Queue):
 			# overwrite the current queue if it's for the host and the cache is not too old
 			if hostname == self.cache_name.split('_-_')[0] and age < self.cache_ttl:
 				file_name = os.path.join(self.cache_dir, cache_file)
-				with open(file_name, 'rb') as f:
-					data = pickle.load(f)
-
-					for path in data:
-						self.__setitem__(path, data[path])
+				try:
+					with open(file_name, 'rb') as f:
+						data = pickle.load(f)
+						for path in data:
+							self.__setitem__(path, data[path])
+				except:
+					print('Error loading cache: ' +  file_name)
 
 
 
