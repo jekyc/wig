@@ -1,6 +1,16 @@
 import json, pprint, os, time, queue, sys
 import argparse
 from collections import defaultdict, Counter
+
+try:
+	import requests
+except:
+	print("The python library 'requests' is missing")
+	print("Installation methods:")
+	print("  Debian/Kali:   apt-get install python3-requests")
+	print("  pip:           pip3 install requests")
+	sys.exit(1)
+
 from classes.color import Color
 from classes.cache import Cache
 from classes.results import Results
@@ -14,13 +24,7 @@ from classes.matcher import Match
 from classes.printer import Printer
 from classes.output import Output
 
-try:
-	import requests
-except:
-	print("The python library 'requests' is missing")
-	print("Installation methods:")
-	print("  Debian/Kali:   apt-get install python3-requests")
-	print("  pip:           pip3 install requests")
+
 
 
 class Wig(object):
