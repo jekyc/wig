@@ -204,18 +204,14 @@ class Wig(object):
 		########################################################################
 		# RESULT PRINTING
 		########################################################################
-		o = Output(self.results.get_results())
-		o.set_runtime(time.time() - t)
-		o.set_number_urls(self.cache.get_num_urls())
-		o.set_number_fps(num_fps)
+		runtime = time.time() - t
+		num_urls = self.cache.get_num_urls()
 
+		o = Output(self.results.get_results(), runtime, num_urls, num_fps)
 		print(o.get_results())
 
 
 
-		times = [x.elapsed.total_seconds() for x in self.cache.get_responses()]
-		printer.print('\n\n' + str( sum(times) / len(times) ), 2)
-		printer.print('\n\n' + self.results.get_sitemap(), 2)
 		
 		# urls_200 = [ r.url for r in self.cache.get_responses() if r.status_code == 200 ]
 		# urls_200.sort()
