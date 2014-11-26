@@ -16,6 +16,7 @@ wig also tries to guess the operating system on the server based on the 'server'
 - [x] Currently the wig's databases include *20.000* fingerprints
 - [x] Reuse information from previous runs (save the cache)
 - [x] Implement a verbose option
+- [x] Remove dependency on 'requests'
 
 
 ##### The following features are under consideration for wig:
@@ -32,11 +33,11 @@ wig also tries to guess the operating system on the server based on the 'server'
 ## Requirements
 
 
-wig is built with **Python 3**, and is therefore not compatible with Python 2. wig also makes use of the '**Requests**' library for python, which can be installed with easy_install and pip.
+wig is built with **Python 3**, and is therefore not compatible with Python 2. ~~wig also makes use of the '**Requests**' library for python, which can be installed with easy_install and pip.~~
 
 ##### wig requires
 - python3
-- requests
+~~- requests~~
 
 
 ## How it works
@@ -106,5 +107,5 @@ URL                                      NOTE                                   
 /sitecore/login/passwordrecovery.aspx    Sitecore Password Recovery             Interesting URL
 /sitecore/shell/webservice/service.asmx  Sitecore Web Service Page              Interesting URL
 ________________________________________________________________________________________________
-Time: 10.5 sec                           Urls: 120                           Fingerprints: 21553
+Time: 10.5 sec                           Urls: 120                           Fingerprints: 21804
 ```
