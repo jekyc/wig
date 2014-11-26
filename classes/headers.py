@@ -36,7 +36,7 @@ class ExtractHeaders(object):
 		for hdr,val,url in self.headers:
 			
 			# "server" can be used to identify the web server and operating system 
-			if hdr == 'Server':
+			if hdr == 'Server'.lower():
 
 				# extract the OS if present: (Apache/2.2 (Ubuntu) PHP/5.3.1 )
 				# os = Ubuntu
@@ -55,7 +55,7 @@ class ExtractHeaders(object):
 						continue
 
 			# "X-Powered-By" can be used to identify the PHP version (and potentially the OS)
-			elif hdr == 'X-Powered-By':
+			elif hdr == 'X-Powered-By'.lower():
 				# 2014-07-27: the length of val.split('/') is not always 2 (e.g.: X-Powered-By: ASP.NET)
 				vals = val.split('/')
 				if len(vals) == 2:
@@ -67,14 +67,14 @@ class ExtractHeaders(object):
 				#self.log.add( {url: {pkg: [version]} } )
 				self.results.add(self.category, pkg, version, weight=weight)
 
-			elif hdr == 'X-AspNet-Version':
+			elif hdr == 'X-AspNet-Version'.lower():
 				pkg = "ASP.NET"
 				version = val
 
 				#self.log.add( {url: {pkg: [version]} } )
 				self.results.add(self.category, pkg, version, weight=1)				
 
-			elif hdr == 'Set-Cookie':
+			elif hdr == 'Set-Cookie'.lower():
 				if 'ASP.NET_SessionId' in val:
 					pkg = "ASP.NET"
 					version = ''
