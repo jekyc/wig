@@ -150,5 +150,17 @@
      {
           "md5": "109bb75ae29ec47aa5f93e6cdfe463ba",
           "output": "1.3.2"
+     },
+     {
+          "md5": "665c746466daaea58d7cb953f498dafe",
+          "output": "1.3.3"
+     },
+     {
+          "md5": "e8c606c78e44c131f7d98de9567d9e7d",
+          "output": "1.2.27"
+     },
+     {
+          "md5": "2a7c8cc034412334c3859b19c37f75d7",
+          "output": "1.3.4"
      }
 ]
