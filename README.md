@@ -33,11 +33,13 @@ wig also tries to guess the operating system on the server based on the 'server'
 ## Requirements
 
 
-wig is built with **Python 3**, and is therefore not compatible with Python 2. ~~wig also makes use of the '**Requests**' library for python, which can be installed with easy_install and pip.~~
+wig is built with **Python 3**, and is therefore not compatible with Python 2. 
+
+~~wig also makes use of the '**Requests**' library for python, which can be installed with easy_install and pip.~~
 
 ##### wig requires
 - python3
-~~- requests~~
+- ~~requests~~
 
 
 ## How it works
