@@ -1,5 +1,4 @@
 import http.client, hashlib, re
-import chardet
 
 class Request(object):
 	def __init__(self):
