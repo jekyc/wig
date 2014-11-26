@@ -1,24 +1,10 @@
 import json, pprint, os, time, queue, sys
 import argparse
 from collections import defaultdict, Counter
+
 from classes.color import Color
-
-try:
-	import requests
-except:
-	c = Color()
-	warning = c.format("\nThe python library 'requests' is missing", 'red', True)
-
-	print(warning)
-	print("Installation methods:")
-	print("  Debian/Kali:   apt-get install python3-requests")
-	print("  pip:           pip3 install requests")
-	print()
-	sys.exit(1)
-
 from classes.cache import Cache
 from classes.results import Results
-from classes.requester import Requester
 from classes.fingerprints import Fingerprints
 from classes.discovery import DiscoverCMS, DiscoverVersion
 from classes.discovery import DiscoverOS, DiscoverJavaScript, DiscoverAllCMS
@@ -27,6 +13,7 @@ from classes.headers import ExtractHeaders
 from classes.matcher import Match
 from classes.printer import Printer
 from classes.output import Output
+from classes.requester2 import Requester
 
 
 
@@ -50,7 +37,6 @@ class Wig(object):
 		self.run_all = run_all
 		self.match_all = match_all
 		self.stop_after = stop_after
-		self.useragent = 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36'
 
 		self.no_cache_load = no_load_cache
 		self.no_cache_save = no_save_cache
@@ -81,7 +67,7 @@ class Wig(object):
 		########################################################################
 
 		# check if the input URL redirects to somewhere else
-		dr = DiscoverRedirect(self.host, self.useragent)
+		dr = DiscoverRedirect(self.host)
 
 		# make sure that the input is valid
 		if dr.get_valid_url() is None:
@@ -112,8 +98,6 @@ class Wig(object):
 
 		# set a requester instance to use for all the requests
 		requester = Requester(self.host, self.cache)
-		requester.set_find_404(True)
-		requester.set_useragent(self.useragent)
 
 		# find error pages
 		printer.print('Detecting error pages...', 1, '')
@@ -122,10 +106,6 @@ class Wig(object):
 		error_pages = find_error.get_error_pages()
 		printer.print(' (Found %s error page(s))' % len(error_pages),2, '')
 		printer.print(' Done', 1)
-
-
-		# set the requester to not find 404s
-		requester.set_find_404(False)
 
 		# create a matcher
 		matcher = Match()
