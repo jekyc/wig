@@ -65,7 +65,7 @@ class Output(object):
 	def _set_col_1_width(self, results):
 		self.col_widths[1] = 2 + max(
 			max([len(i['headers'][1]['title']) for i in self.sections]),	# length of section header titles
-			max([len(p) for c in results for p in results[c]]), 			# length of software name from results
+			max([len(p) for c in results for p in results[c]] + [0]), 			# length of software name from results
 			len(self.stats['runtime'])										# length of status bar (time)
 		)
 
@@ -73,7 +73,7 @@ class Output(object):
 	def _set_col_2_width(self, results):		
 		self.col_widths[2] = 2 + max(
 			max([ len(i['headers'][2]['title']) for i in self.sections ]),							# length of section header titles
-			max([ len(self.seperator.join(results[c][p])) for c in results for p in results[c] ]),	# length of version details from results
+			max([ len(self.seperator.join(results[c][p])) for c in results for p in results[c]] + [0]),	# length of version details from results
 			len(self.stats['url_count'])															# length of status bar (urls)
 		)
 		
