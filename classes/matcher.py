@@ -9,7 +9,7 @@ class Match(object):
 	def _check_page(self, response, fingerprint):
 
 		# check if the page is a 404
-		is_404 = response.status_code == 404 or response.md5_404 in self.error_pages
+		is_404 = response.status['code'] == 404 or response.md5_404 in self.error_pages
 
 		# fingerprints that do not have a 'code' set, default to 200
 		# find the 'code' of the current fingerprint
@@ -39,8 +39,9 @@ class Match(object):
 		# find out of the reponse is an image
 		# this is used to avoid the crawler using string and regex
 		# searching for matches in these files
-		if 'content-type' in response.headers:
-			is_image = 'image' in response.headers['content-type']
+		content_type = 'Content-Type'.lower()
+		if content_type in response.headers:
+			is_image = 'image' in response.headers[content_type]
 
 		# default to the content being an image, since if the content-type
 		# isn't set, the content is unknown
@@ -78,7 +79,7 @@ class Match(object):
 			return None
 
 	def string(self, fingerprint, response):
-		if fingerprint["string"] in response.text:
+		if fingerprint["string"] in response.body:
 			return fingerprint
 		else:
 			return None
@@ -88,7 +89,7 @@ class Match(object):
 		# create copy of fingerprint
 		copy = {key:fingerprint[key] for key in fingerprint}
 
-		body = response.text
+		body = response.body
 		regex = copy["regex"]
 		output = copy["output"]
 

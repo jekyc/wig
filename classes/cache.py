@@ -1,4 +1,4 @@
-import queue, pickle, os, time, hashlib, requests, re
+import queue, pickle, os, time, hashlib, re
 
 # wig - Cache
 #
@@ -14,36 +14,6 @@ import queue, pickle, os, time, hashlib, requests, re
 #       md5 and md5_404. These values have to be recalculated when loading 
 #       a pickled cache. Ideally, a custom object should be created for 
 #       the modified requests, so this is on the TODO.
-
-
-def clean_page(page):
-	# this the same method nmap's http.lua uses for error page detection
-	# nselib/http.lua: clean_404
-	# remove information from the page that might not be static
-	
-	# time
-	page = re.sub(b'(\d?\d:?){2,3}', b'',page)
-	page = re.sub(b'AM', b'',page, flags=re.IGNORECASE)
-	page = re.sub(b'PM', b'',page, flags=re.IGNORECASE)
-
-	# date with 4 digit year
-	page = re.sub(b'(\d){8}', '',page)
-	page = re.sub(b'\d{4}-\d{2}-\d{2}', b'',page)
-	page = re.sub(b'\d{4}/\d{2}/\d{2}', b'',page)
-	page = re.sub(b'\d{2}-\d{2}-\d{4}', b'',page)
-	page = re.sub(b'\d{2}/\d{2}/\d{4}', b'',page)
-
-	# date with 2 digit year
-	page = re.sub( b'(\d){6}', '',page)
-	page = re.sub( b'\d{2}-\d{2}-\d{2}', b'',page)
-	page = re.sub( b'\d{2}/\d{2}/\d{2}', b'',page)
-	
-	# links and paths
-	page = re.sub( b'/[^ ]+',  b'', page)
-	page = re.sub( b'[a-zA-Z]:\\[^ ]+',  b'', page)
-
-	# return the fingerprint of the stripped page 
-	return hashlib.md5(page).hexdigest().lower()
 
 
 class Cache(queue.Queue):
@@ -67,20 +37,12 @@ class Cache(queue.Queue):
 
 	def __setitem__(self, path, response):
 		with self.mutex:
-			response.md5     = hashlib.md5(response.content).hexdigest().lower()  
-			response.md5_404 = self._calc_md5(response.content)
 			self.queue[path] = response
 
 
-	def __contains__(self, item):
+	def __contains__(self, url):
 		with self.mutex:
-			return item in self.queue
-
-
-	def _calc_md5(self, page):
-		md5 = hashlib.md5(page).hexdigest().lower()
-		md5_404 = clean_page(page)
-		return (md5, md5_404)
+			return url in self.queue
 
 
 	def _remove_old_caches(self):

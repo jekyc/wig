@@ -1,27 +1,25 @@
-import requests, re, hashlib, pprint
-from classes.fingerprints import Fingerprints
-from classes.requester import Requester
-from classes.matcher import Match
+import re, hashlib, pprint
 from collections import Counter
 from html.parser import HTMLParser
-
+from classes.fingerprints import Fingerprints
+from classes.requester2 import Requester
+from classes.matcher import Match
+from classes.request import PageFetcher, Request
 
 class DiscoverRedirect(object):
 
-	def __init__(self, url, useragent):
+	def __init__(self, url):
 		self.org = url
 		self.url = url
-		self.useragent = useragent
 
-		# if a schema is not provided default to http
-		if not url.startswith("http"): self.url = "http://" + url
-
+		fetcher = PageFetcher(self.url)
 		try:
-			r = requests.get(self.url, verify=False, headers={'User-Agent': useragent})
-		
-			if not r.url == self.url:
+			r = fetcher.get()
+			request_url = r.get_url() 
+
+			if not request_url == self.url:
 				# ensure that folders and files are removed
-				parts = r.url.split('//')
+				parts = request_url.split('//')
 				http, netloc = parts[0:2]
 
 				# remove subfolders and/or files
@@ -32,6 +30,7 @@ class DiscoverRedirect(object):
 					self.url = http + '//' + netloc + '/'
 		except:
 			self.url = None
+
 
 	# check if the host redirects to another location
 	def is_redirected(self):
@@ -66,6 +65,8 @@ class DiscoverErrorPage(object):
 		while results.qsize() > 0:
 			response = results.get()
 			self.error_pages.add(response)
+
+		self.requester.set_find_404(False)
 
 
 	def get_error_pages(self):
@@ -186,8 +187,8 @@ class DiscoverOS(object):
 				except Exception as e:
 					continue
 
-		if 'X-Powered-By' in headers:
-			line = headers['X-Powered-By']
+		if 'X-Powered-By'.lower() in headers:
+			line = headers['X-Powered-By'.lower()]
 			try:
 				pkg,version =  list(map(str.lower, line.split('/')))
 				for i in self.fingerprints[pkg][version]:
@@ -285,7 +286,7 @@ class DiscoverMore(object):
 
 		urls = set()
 		for regex in regexes:
-			for match in re.findall(regex, response.text):
+			for match in re.findall(regex, response.body):
 				urls.add( match )
 
 		return urls
@@ -305,7 +306,7 @@ class DiscoverMore(object):
 			if 'text/html' in req.headers['content-type']:
 				tmp = self._get_urls(req)
 
-				parser.feed(str(req.content))
+				parser.feed(req.body)
 				tmp = tmp.union( parser.get_results())
 
 				for i in tmp:
