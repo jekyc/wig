@@ -1,0 +1,28 @@
+[
+     {
+          "string": "Powered By Presstopia",
+          "output": "",
+          "url": "/",
+          "weight": 0.1
+     },
+     {
+          "string": "This Blog is powered by <a href=\"http://presstopia.com\">Presstopia</a>.",
+          "output": "",
+          "url": "/pt/blog/default.aspx",
+          "weight": 0.1
+     },
+     {
+          "string": "&nbsp;&nbsp;<img src=\"images/Bullet.jpg\" alt=\"\" />&nbsp; <a href=\"Config.aspx\">",
+          "output": "",
+          "url": "/pt/admin/Logon.aspx",
+          "weight": 1,
+          "note": "Presstopia Administration Login"
+     },
+     {
+          "string": "<span class=\"smallText\">&copy; Presstopia. All rights reserved.</span>",
+          "output": "",
+          "url": "/pt/admin/Logon.aspx",
+          "weight": 1,
+          "note": "Presstopia Administration Login"
+     }
+]
