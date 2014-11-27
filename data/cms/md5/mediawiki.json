@@ -2471,6 +2471,46 @@
      },
      {
           "md5": "23382881a94125ffb6fff355a0ecce52",
+          "output": "1.19.22",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "17d650209f4d26c8d66b3b105646466b",
+          "output": "1.19.22",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "73ef43bbf05ec7ccc42b8e28a9e57769",
+          "output": "1.19.22",
+          "url": "/skins/modern/main.css"
+     },
+     {
+          "md5": "d8378da0859c5486b65d8c694cc3eb1d",
+          "output": "1.19.22",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "d6e0a903d3f7e889a54af9378d527a80",
+          "output": "1.19.22",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "f1df6310a5b32aea068f5b805228f195",
+          "output": "1.19.22",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "bf5453f38f7dd959081dfb3aab5bcfd9",
+          "output": "1.19.22",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "9657bd5d71d2e22586b9feb21898c95c",
+          "output": "1.19.22",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "23382881a94125ffb6fff355a0ecce52",
           "output": "1.19.3",
           "url": "/skins/common/images/spinner.gif"
      },
@@ -4111,6 +4151,46 @@
      },
      {
           "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "1.22.14",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "2e4ccc208f1187e85a633312ad07516c",
+          "output": "1.22.14",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "57a97b5f5e9146ef99ec6908f5c15e98",
+          "output": "1.22.14",
+          "url": "/skins/modern/main.css"
+     },
+     {
+          "md5": "499b465e0b24ec36af6913628d23da3b",
+          "output": "1.22.14",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "9dc67f758098887383f40292192c4778",
+          "output": "1.22.14",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "afd5ff41b66fa587fce735b7f041a614",
+          "output": "1.22.14",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "ae020db4f3e37bbea9a7d00e8f0bae6a",
+          "output": "1.22.14",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "6d92129f557f9a20c5afbce025b0218a",
+          "output": "1.22.14",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
           "output": "1.22.2",
           "url": "/skins/common/images/spinner.gif"
      },
@@ -4867,6 +4947,46 @@
      {
           "md5": "f3e93f284ec1c4981a9a789f17fb11cd",
           "output": "1.23.6",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "1.23.7",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "e308af0d619e11b1a9c083ed1029d2fc",
+          "output": "1.23.7",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "aa3a249009c85a16f387235da00a589e",
+          "output": "1.23.7",
+          "url": "/skins/modern/main.css"
+     },
+     {
+          "md5": "838181dd9a1ce3c9e4d50a29a9945f5e",
+          "output": "1.23.7",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "ba1c96cf774fbc90342cb0683198cfc7",
+          "output": "1.23.7",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "7572703384f90a06c0c2a58fc5543463",
+          "output": "1.23.7",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "601a868ac3a69111d9df64a1b5304772",
+          "output": "1.23.7",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "f3e93f284ec1c4981a9a789f17fb11cd",
+          "output": "1.23.7",
           "url": "/skins/vector/vector.js"
      },
      {
@@ -7671,6 +7791,366 @@
      },
      {
           "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.23wmf11",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "2e4ccc208f1187e85a633312ad07516c",
+          "output": "wmf/1.23wmf11",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "5a84e63b2aa8651ddc65555ed86d275d",
+          "output": "wmf/1.23wmf11",
+          "url": "/skins/modern/main.css"
+     },
+     {
+          "md5": "9d93eb35c9afdf62fdcf03af1edc0173",
+          "output": "wmf/1.23wmf11",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "f703ee280380291934211573463ec099",
+          "output": "wmf/1.23wmf11",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "6d9e1cd55e30a73a820e116e33c9eb30",
+          "output": "wmf/1.23wmf11",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "d138e95988cc1c5d5c6f95bcadb6106e",
+          "output": "wmf/1.23wmf11",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "6d92129f557f9a20c5afbce025b0218a",
+          "output": "wmf/1.23wmf11",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.23wmf12",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "2e4ccc208f1187e85a633312ad07516c",
+          "output": "wmf/1.23wmf12",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "aa3a249009c85a16f387235da00a589e",
+          "output": "wmf/1.23wmf12",
+          "url": "/skins/modern/main.css"
+     },
+     {
+          "md5": "9d93eb35c9afdf62fdcf03af1edc0173",
+          "output": "wmf/1.23wmf12",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "f703ee280380291934211573463ec099",
+          "output": "wmf/1.23wmf12",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "6d9e1cd55e30a73a820e116e33c9eb30",
+          "output": "wmf/1.23wmf12",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "601a868ac3a69111d9df64a1b5304772",
+          "output": "wmf/1.23wmf12",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "6d92129f557f9a20c5afbce025b0218a",
+          "output": "wmf/1.23wmf12",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.23wmf13",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "2e4ccc208f1187e85a633312ad07516c",
+          "output": "wmf/1.23wmf13",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "aa3a249009c85a16f387235da00a589e",
+          "output": "wmf/1.23wmf13",
+          "url": "/skins/modern/main.css"
+     },
+     {
+          "md5": "9d93eb35c9afdf62fdcf03af1edc0173",
+          "output": "wmf/1.23wmf13",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "f703ee280380291934211573463ec099",
+          "output": "wmf/1.23wmf13",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "6d9e1cd55e30a73a820e116e33c9eb30",
+          "output": "wmf/1.23wmf13",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "601a868ac3a69111d9df64a1b5304772",
+          "output": "wmf/1.23wmf13",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "6d92129f557f9a20c5afbce025b0218a",
+          "output": "wmf/1.23wmf13",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.23wmf14",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "2e4ccc208f1187e85a633312ad07516c",
+          "output": "wmf/1.23wmf14",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "aa3a249009c85a16f387235da00a589e",
+          "output": "wmf/1.23wmf14",
+          "url": "/skins/modern/main.css"
+     },
+     {
+          "md5": "9d93eb35c9afdf62fdcf03af1edc0173",
+          "output": "wmf/1.23wmf14",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "f703ee280380291934211573463ec099",
+          "output": "wmf/1.23wmf14",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "6d9e1cd55e30a73a820e116e33c9eb30",
+          "output": "wmf/1.23wmf14",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "601a868ac3a69111d9df64a1b5304772",
+          "output": "wmf/1.23wmf14",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "4b73d63562a60fbf8f2580b4d1cd78ae",
+          "output": "wmf/1.23wmf14",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.23wmf15",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "2e4ccc208f1187e85a633312ad07516c",
+          "output": "wmf/1.23wmf15",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "aa3a249009c85a16f387235da00a589e",
+          "output": "wmf/1.23wmf15",
+          "url": "/skins/modern/main.css"
+     },
+     {
+          "md5": "9d93eb35c9afdf62fdcf03af1edc0173",
+          "output": "wmf/1.23wmf15",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "f703ee280380291934211573463ec099",
+          "output": "wmf/1.23wmf15",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "6d9e1cd55e30a73a820e116e33c9eb30",
+          "output": "wmf/1.23wmf15",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "601a868ac3a69111d9df64a1b5304772",
+          "output": "wmf/1.23wmf15",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "4b73d63562a60fbf8f2580b4d1cd78ae",
+          "output": "wmf/1.23wmf15",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.23wmf16",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "2e4ccc208f1187e85a633312ad07516c",
+          "output": "wmf/1.23wmf16",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "aa3a249009c85a16f387235da00a589e",
+          "output": "wmf/1.23wmf16",
+          "url": "/skins/modern/main.css"
+     },
+     {
+          "md5": "9d93eb35c9afdf62fdcf03af1edc0173",
+          "output": "wmf/1.23wmf16",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "f703ee280380291934211573463ec099",
+          "output": "wmf/1.23wmf16",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "6d9e1cd55e30a73a820e116e33c9eb30",
+          "output": "wmf/1.23wmf16",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "601a868ac3a69111d9df64a1b5304772",
+          "output": "wmf/1.23wmf16",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "4b73d63562a60fbf8f2580b4d1cd78ae",
+          "output": "wmf/1.23wmf16",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.23wmf17",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "2e4ccc208f1187e85a633312ad07516c",
+          "output": "wmf/1.23wmf17",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "aa3a249009c85a16f387235da00a589e",
+          "output": "wmf/1.23wmf17",
+          "url": "/skins/modern/main.css"
+     },
+     {
+          "md5": "9d93eb35c9afdf62fdcf03af1edc0173",
+          "output": "wmf/1.23wmf17",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "f703ee280380291934211573463ec099",
+          "output": "wmf/1.23wmf17",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "6d9e1cd55e30a73a820e116e33c9eb30",
+          "output": "wmf/1.23wmf17",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "601a868ac3a69111d9df64a1b5304772",
+          "output": "wmf/1.23wmf17",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "4b73d63562a60fbf8f2580b4d1cd78ae",
+          "output": "wmf/1.23wmf17",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.23wmf18",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "2e4ccc208f1187e85a633312ad07516c",
+          "output": "wmf/1.23wmf18",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "aa3a249009c85a16f387235da00a589e",
+          "output": "wmf/1.23wmf18",
+          "url": "/skins/modern/main.css"
+     },
+     {
+          "md5": "9d93eb35c9afdf62fdcf03af1edc0173",
+          "output": "wmf/1.23wmf18",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "9f38283781112b33cb36bc6be8898379",
+          "output": "wmf/1.23wmf18",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "6d9e1cd55e30a73a820e116e33c9eb30",
+          "output": "wmf/1.23wmf18",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "601a868ac3a69111d9df64a1b5304772",
+          "output": "wmf/1.23wmf18",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "4b73d63562a60fbf8f2580b4d1cd78ae",
+          "output": "wmf/1.23wmf18",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.23wmf19",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "2e4ccc208f1187e85a633312ad07516c",
+          "output": "wmf/1.23wmf19",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "aa3a249009c85a16f387235da00a589e",
+          "output": "wmf/1.23wmf19",
+          "url": "/skins/modern/main.css"
+     },
+     {
+          "md5": "3223be0b5ffb43f0423fef8d003cb5a1",
+          "output": "wmf/1.23wmf19",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "9f38283781112b33cb36bc6be8898379",
+          "output": "wmf/1.23wmf19",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "6d9e1cd55e30a73a820e116e33c9eb30",
+          "output": "wmf/1.23wmf19",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "601a868ac3a69111d9df64a1b5304772",
+          "output": "wmf/1.23wmf19",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "4b73d63562a60fbf8f2580b4d1cd78ae",
+          "output": "wmf/1.23wmf19",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
           "output": "wmf/1.23wmf2",
           "url": "/skins/common/images/spinner.gif"
      },
@@ -7707,6 +8187,126 @@
      {
           "md5": "6d92129f557f9a20c5afbce025b0218a",
           "output": "wmf/1.23wmf2",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.23wmf20",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "e308af0d619e11b1a9c083ed1029d2fc",
+          "output": "wmf/1.23wmf20",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "aa3a249009c85a16f387235da00a589e",
+          "output": "wmf/1.23wmf20",
+          "url": "/skins/modern/main.css"
+     },
+     {
+          "md5": "3223be0b5ffb43f0423fef8d003cb5a1",
+          "output": "wmf/1.23wmf20",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "ba1c96cf774fbc90342cb0683198cfc7",
+          "output": "wmf/1.23wmf20",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "9cb27e449ef2f4e89eef9721c38b0fdc",
+          "output": "wmf/1.23wmf20",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "601a868ac3a69111d9df64a1b5304772",
+          "output": "wmf/1.23wmf20",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "f3e93f284ec1c4981a9a789f17fb11cd",
+          "output": "wmf/1.23wmf20",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.23wmf21",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "e308af0d619e11b1a9c083ed1029d2fc",
+          "output": "wmf/1.23wmf21",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "aa3a249009c85a16f387235da00a589e",
+          "output": "wmf/1.23wmf21",
+          "url": "/skins/modern/main.css"
+     },
+     {
+          "md5": "3223be0b5ffb43f0423fef8d003cb5a1",
+          "output": "wmf/1.23wmf21",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "ba1c96cf774fbc90342cb0683198cfc7",
+          "output": "wmf/1.23wmf21",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "9cb27e449ef2f4e89eef9721c38b0fdc",
+          "output": "wmf/1.23wmf21",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "7df8825c7b3c26f7176531adbf24223b",
+          "output": "wmf/1.23wmf21",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "f3e93f284ec1c4981a9a789f17fb11cd",
+          "output": "wmf/1.23wmf21",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.23wmf22",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "e308af0d619e11b1a9c083ed1029d2fc",
+          "output": "wmf/1.23wmf22",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "aa3a249009c85a16f387235da00a589e",
+          "output": "wmf/1.23wmf22",
+          "url": "/skins/modern/main.css"
+     },
+     {
+          "md5": "838181dd9a1ce3c9e4d50a29a9945f5e",
+          "output": "wmf/1.23wmf22",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "ba1c96cf774fbc90342cb0683198cfc7",
+          "output": "wmf/1.23wmf22",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "344049ac8209ccd6a056affbbf453700",
+          "output": "wmf/1.23wmf22",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "601a868ac3a69111d9df64a1b5304772",
+          "output": "wmf/1.23wmf22",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "f3e93f284ec1c4981a9a789f17fb11cd",
+          "output": "wmf/1.23wmf22",
           "url": "/skins/vector/vector.js"
      },
      {
@@ -7987,6 +8587,601 @@
      {
           "md5": "6d92129f557f9a20c5afbce025b0218a",
           "output": "wmf/1.23wmf9",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.24wmf1",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "e308af0d619e11b1a9c083ed1029d2fc",
+          "output": "wmf/1.24wmf1",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "aa3a249009c85a16f387235da00a589e",
+          "output": "wmf/1.24wmf1",
+          "url": "/skins/modern/main.css"
+     },
+     {
+          "md5": "838181dd9a1ce3c9e4d50a29a9945f5e",
+          "output": "wmf/1.24wmf1",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "ba1c96cf774fbc90342cb0683198cfc7",
+          "output": "wmf/1.24wmf1",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "9f4c4df360f56018cb577a7054082c7d",
+          "output": "wmf/1.24wmf1",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "601a868ac3a69111d9df64a1b5304772",
+          "output": "wmf/1.24wmf1",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "f3e93f284ec1c4981a9a789f17fb11cd",
+          "output": "wmf/1.24wmf1",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.24wmf10",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "e308af0d619e11b1a9c083ed1029d2fc",
+          "output": "wmf/1.24wmf10",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "d5e993d4f71429c213d20e25627daca1",
+          "output": "wmf/1.24wmf10",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "463a727a5fd1abaefcf3cae502d6409e",
+          "output": "wmf/1.24wmf10",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "4c8947bd2aed3e29fa0fa089516d0908",
+          "output": "wmf/1.24wmf10",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "fd15ce8fa59f3b7244d3585926df5c8c",
+          "output": "wmf/1.24wmf10",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "8fcbc7bb0ce53927b3cfb08d99690fa7",
+          "output": "wmf/1.24wmf10",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.24wmf11",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "e308af0d619e11b1a9c083ed1029d2fc",
+          "output": "wmf/1.24wmf11",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "d5e993d4f71429c213d20e25627daca1",
+          "output": "wmf/1.24wmf11",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "4c8947bd2aed3e29fa0fa089516d0908",
+          "output": "wmf/1.24wmf11",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "fd15ce8fa59f3b7244d3585926df5c8c",
+          "output": "wmf/1.24wmf11",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.24wmf12",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "e308af0d619e11b1a9c083ed1029d2fc",
+          "output": "wmf/1.24wmf12",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "d5e993d4f71429c213d20e25627daca1",
+          "output": "wmf/1.24wmf12",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "4c8947bd2aed3e29fa0fa089516d0908",
+          "output": "wmf/1.24wmf12",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "fd15ce8fa59f3b7244d3585926df5c8c",
+          "output": "wmf/1.24wmf12",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.24wmf14",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "e308af0d619e11b1a9c083ed1029d2fc",
+          "output": "wmf/1.24wmf14",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "7a84fd708dfa32a27583437edc62d6d4",
+          "output": "wmf/1.24wmf14",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "4c8947bd2aed3e29fa0fa089516d0908",
+          "output": "wmf/1.24wmf14",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "fd15ce8fa59f3b7244d3585926df5c8c",
+          "output": "wmf/1.24wmf14",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.24wmf15",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "e308af0d619e11b1a9c083ed1029d2fc",
+          "output": "wmf/1.24wmf15",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "6ffc0063b5b95d040aaf75961d0d81a7",
+          "output": "wmf/1.24wmf15",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "c824c36a45756b7920a201e1d60ad179",
+          "output": "wmf/1.24wmf15",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "c0f2991e94c7d4c8477fb1f4e37232b4",
+          "output": "wmf/1.24wmf15",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.24wmf16",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "e308af0d619e11b1a9c083ed1029d2fc",
+          "output": "wmf/1.24wmf16",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "6ffc0063b5b95d040aaf75961d0d81a7",
+          "output": "wmf/1.24wmf16",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "c824c36a45756b7920a201e1d60ad179",
+          "output": "wmf/1.24wmf16",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "c0f2991e94c7d4c8477fb1f4e37232b4",
+          "output": "wmf/1.24wmf16",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.24wmf17",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "e308af0d619e11b1a9c083ed1029d2fc",
+          "output": "wmf/1.24wmf17",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "6ffc0063b5b95d040aaf75961d0d81a7",
+          "output": "wmf/1.24wmf17",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "224f3dad4417a3c1fc1b436e19a1579a",
+          "output": "wmf/1.24wmf17",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "c0f2991e94c7d4c8477fb1f4e37232b4",
+          "output": "wmf/1.24wmf17",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.24wmf18",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "e308af0d619e11b1a9c083ed1029d2fc",
+          "output": "wmf/1.24wmf18",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "116391eb7918c91a4c7800bb4b71f1a6",
+          "output": "wmf/1.24wmf18",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "224f3dad4417a3c1fc1b436e19a1579a",
+          "output": "wmf/1.24wmf18",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "c0f2991e94c7d4c8477fb1f4e37232b4",
+          "output": "wmf/1.24wmf18",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.24wmf19",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "e308af0d619e11b1a9c083ed1029d2fc",
+          "output": "wmf/1.24wmf19",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "f38f23b29782fd1e7c102805286315f1",
+          "output": "wmf/1.24wmf19",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "224f3dad4417a3c1fc1b436e19a1579a",
+          "output": "wmf/1.24wmf19",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "c0f2991e94c7d4c8477fb1f4e37232b4",
+          "output": "wmf/1.24wmf19",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.24wmf2",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "e308af0d619e11b1a9c083ed1029d2fc",
+          "output": "wmf/1.24wmf2",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "94c082e0e293505f75e9d299cecc2ecb",
+          "output": "wmf/1.24wmf2",
+          "url": "/skins/modern/main.css"
+     },
+     {
+          "md5": "3fa4b4f507b1e10679397838c6249423",
+          "output": "wmf/1.24wmf2",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "463a727a5fd1abaefcf3cae502d6409e",
+          "output": "wmf/1.24wmf2",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "9f4c4df360f56018cb577a7054082c7d",
+          "output": "wmf/1.24wmf2",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "fd15ce8fa59f3b7244d3585926df5c8c",
+          "output": "wmf/1.24wmf2",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "f3e93f284ec1c4981a9a789f17fb11cd",
+          "output": "wmf/1.24wmf2",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "2ca57ac0b46829c55433b6e5d6901a62",
+          "output": "wmf/1.24wmf20",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "2ca57ac0b46829c55433b6e5d6901a62",
+          "output": "wmf/1.24wmf21",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "2ca57ac0b46829c55433b6e5d6901a62",
+          "output": "wmf/1.24wmf22",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.24wmf3",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "e308af0d619e11b1a9c083ed1029d2fc",
+          "output": "wmf/1.24wmf3",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "94c082e0e293505f75e9d299cecc2ecb",
+          "output": "wmf/1.24wmf3",
+          "url": "/skins/modern/main.css"
+     },
+     {
+          "md5": "3fa4b4f507b1e10679397838c6249423",
+          "output": "wmf/1.24wmf3",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "463a727a5fd1abaefcf3cae502d6409e",
+          "output": "wmf/1.24wmf3",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "3599e7a6a917ca32ba52575bcfd3d523",
+          "output": "wmf/1.24wmf3",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "fd15ce8fa59f3b7244d3585926df5c8c",
+          "output": "wmf/1.24wmf3",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "f3e93f284ec1c4981a9a789f17fb11cd",
+          "output": "wmf/1.24wmf3",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.24wmf4",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "e308af0d619e11b1a9c083ed1029d2fc",
+          "output": "wmf/1.24wmf4",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "94c082e0e293505f75e9d299cecc2ecb",
+          "output": "wmf/1.24wmf4",
+          "url": "/skins/modern/main.css"
+     },
+     {
+          "md5": "3fa4b4f507b1e10679397838c6249423",
+          "output": "wmf/1.24wmf4",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "463a727a5fd1abaefcf3cae502d6409e",
+          "output": "wmf/1.24wmf4",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "3599e7a6a917ca32ba52575bcfd3d523",
+          "output": "wmf/1.24wmf4",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "fd15ce8fa59f3b7244d3585926df5c8c",
+          "output": "wmf/1.24wmf4",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "04aa8806fab28f2490c10fdac1bb781f",
+          "output": "wmf/1.24wmf4",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.24wmf5",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "e308af0d619e11b1a9c083ed1029d2fc",
+          "output": "wmf/1.24wmf5",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "94c082e0e293505f75e9d299cecc2ecb",
+          "output": "wmf/1.24wmf5",
+          "url": "/skins/modern/main.css"
+     },
+     {
+          "md5": "d5e993d4f71429c213d20e25627daca1",
+          "output": "wmf/1.24wmf5",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "463a727a5fd1abaefcf3cae502d6409e",
+          "output": "wmf/1.24wmf5",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "4c8947bd2aed3e29fa0fa089516d0908",
+          "output": "wmf/1.24wmf5",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "fd15ce8fa59f3b7244d3585926df5c8c",
+          "output": "wmf/1.24wmf5",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "04aa8806fab28f2490c10fdac1bb781f",
+          "output": "wmf/1.24wmf5",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.24wmf6",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "e308af0d619e11b1a9c083ed1029d2fc",
+          "output": "wmf/1.24wmf6",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "94c082e0e293505f75e9d299cecc2ecb",
+          "output": "wmf/1.24wmf6",
+          "url": "/skins/modern/main.css"
+     },
+     {
+          "md5": "d5e993d4f71429c213d20e25627daca1",
+          "output": "wmf/1.24wmf6",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "463a727a5fd1abaefcf3cae502d6409e",
+          "output": "wmf/1.24wmf6",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "4c8947bd2aed3e29fa0fa089516d0908",
+          "output": "wmf/1.24wmf6",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "fd15ce8fa59f3b7244d3585926df5c8c",
+          "output": "wmf/1.24wmf6",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "04aa8806fab28f2490c10fdac1bb781f",
+          "output": "wmf/1.24wmf6",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.24wmf7",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "e308af0d619e11b1a9c083ed1029d2fc",
+          "output": "wmf/1.24wmf7",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "d5e993d4f71429c213d20e25627daca1",
+          "output": "wmf/1.24wmf7",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "463a727a5fd1abaefcf3cae502d6409e",
+          "output": "wmf/1.24wmf7",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "4c8947bd2aed3e29fa0fa089516d0908",
+          "output": "wmf/1.24wmf7",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "fd15ce8fa59f3b7244d3585926df5c8c",
+          "output": "wmf/1.24wmf7",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "51e7eab9ec7135ff196896ab935197d4",
+          "output": "wmf/1.24wmf7",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.24wmf8",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "e308af0d619e11b1a9c083ed1029d2fc",
+          "output": "wmf/1.24wmf8",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "d5e993d4f71429c213d20e25627daca1",
+          "output": "wmf/1.24wmf8",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "463a727a5fd1abaefcf3cae502d6409e",
+          "output": "wmf/1.24wmf8",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "4c8947bd2aed3e29fa0fa089516d0908",
+          "output": "wmf/1.24wmf8",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "fd15ce8fa59f3b7244d3585926df5c8c",
+          "output": "wmf/1.24wmf8",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "b9d747ae368a1ce4ab888df32e1dd84b",
+          "output": "wmf/1.24wmf8",
+          "url": "/skins/vector/vector.js"
+     },
+     {
+          "md5": "ca65bd9886c4369c969085904717e546",
+          "output": "wmf/1.24wmf9",
+          "url": "/skins/common/images/spinner.gif"
+     },
+     {
+          "md5": "e308af0d619e11b1a9c083ed1029d2fc",
+          "output": "wmf/1.24wmf9",
+          "url": "/skins/common/upload.js"
+     },
+     {
+          "md5": "d5e993d4f71429c213d20e25627daca1",
+          "output": "wmf/1.24wmf9",
+          "url": "/skins/common/shared.css"
+     },
+     {
+          "md5": "463a727a5fd1abaefcf3cae502d6409e",
+          "output": "wmf/1.24wmf9",
+          "url": "/skins/monobook/main.css"
+     },
+     {
+          "md5": "4c8947bd2aed3e29fa0fa089516d0908",
+          "output": "wmf/1.24wmf9",
+          "url": "/skins/common/wikibits.js"
+     },
+     {
+          "md5": "fd15ce8fa59f3b7244d3585926df5c8c",
+          "output": "wmf/1.24wmf9",
+          "url": "/skins/common/commonElements.css"
+     },
+     {
+          "md5": "8fcbc7bb0ce53927b3cfb08d99690fa7",
+          "output": "wmf/1.24wmf9",
           "url": "/skins/vector/vector.js"
      }
 ]
