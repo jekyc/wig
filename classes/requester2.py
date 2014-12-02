@@ -35,7 +35,7 @@ class RequesterThread(threading.Thread):
 					self.cache[r.get_url()] = request
 
 			except Exception as e:
-				print(e)
+				#print(e)
 				request = None
 		else:
 			request = self.cache[fetcher.url]
