@@ -27,13 +27,12 @@ class RequesterThread(threading.Thread):
 		if not fetcher.url in self.cache:
 			try:
 				# make the request, and add it to the cache
-				# r = requests.get(uri, verify=False, headers={'User-Agent': self.useragent}, timeout=10)
 				request = fetcher.get()
 
-				# add the response to the cache 
-				# as an entry for both the original and potential redirected url
 				self.cache[fetcher.url] = request
 				self.cache[request.get_url()] = request
+				for r in request.history:
+					self.cache[r.get_url()] = request
 
 			except Exception as e:
 				print(e)
