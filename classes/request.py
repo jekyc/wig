@@ -1,4 +1,4 @@
-import http.client, hashlib, re
+import http.client, hashlib, re, string, random
 
 class Request(object):
 	def __init__(self):
@@ -13,6 +13,9 @@ class Request(object):
 		self.md5 = ''
 		self.md5_404 = ''
 		self.should_be_error_page = False
+
+		chars=string.ascii_uppercase + string.digits
+		self.id = ''.join(random.choice(chars) for _ in range(16))
 
 
 	def get_url(self):

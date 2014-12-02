@@ -98,7 +98,7 @@ class Cache(queue.Queue):
 
 
 	def get_num_urls(self):
-		return len(self.queue.keys())
+		return len(set([self.queue[key].id for key in self.queue]))
 
 
 	def get_responses(self):
