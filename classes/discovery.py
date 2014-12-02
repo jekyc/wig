@@ -367,8 +367,6 @@ class DiscoverJavaScript(object):
 		self.result = results
 		self.category = "JavaScript Libraries"
 
-
-
 	def run(self):
 		for response in self.cache.get_responses():
 			
@@ -383,27 +381,4 @@ class DiscoverJavaScript(object):
 				matches = self.matcher.get_result(self.fingerprints, response)
 				for fp in matches:
 					self.result.add( self.category, fp['name'], fp['output'], fingerprint=fp, weight=1)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
