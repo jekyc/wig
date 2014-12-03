@@ -73,8 +73,13 @@ class PageFetcher(object):
 		self.host = None
 		self.protocol = 'http' # default to http
 		self.path = ''
-		self.proto, self.host, self.path = self.get_parts(address)
+		self.proto, self.host, self.path, in_scope = self.get_parts(address)
+		if not in_scope:
+			print("This is odd...")
+			return None
+
 		self.url = self.proto + '://' + self.host + self.path
+		self.out_of_scope = set()
 
 		if user_agent == None:
 			self.user_agent = 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36'
@@ -87,9 +92,11 @@ class PageFetcher(object):
 			# check if the host starts with www
 			prefix = 'www.'+host == self.host or host == 'www.' + self.host
 			if prefix:
-				self.host = host
+				return False
 			else:
-				raise Exception("Host is out of scope: %s is not %s" % (host, self.host))
+				self.out_of_scope.add(host)
+				return True
+				#raise Exception("Host is out of scope: %s is not %s" % (host, self.host))
 
 	
 	def get_parts(self, address):
@@ -106,7 +113,9 @@ class PageFetcher(object):
 
 			parts = url.split('/')
 			host = parts[0]
-			self.check_out_of_scope(host)
+			
+			if self.check_out_of_scope(host):
+				return (None,None,None,False)
 
 			path = '/'.join(parts[1:])
 			path = '/' + path if not path.startswith('/') else path
@@ -130,7 +139,7 @@ class PageFetcher(object):
 
 		if host.endswith('/'): host = host[:-1]
 
-		return (proto, host, path)
+		return (proto, host, path, True)
 
 
 	def _clean_page_404(self, page):
@@ -199,10 +208,11 @@ class PageFetcher(object):
 		location = 'Location'.lower()
 		while location in r.headers:
 			address = r.headers[location]
-			protocol, host, path = self.get_parts(address)
+			protocol, host, path, in_scope = self.get_parts(address)
 			
-			r = self.request(protocol, host, path)
-			hist.append(r)
+			if in_scope:
+				r = self.request(protocol, host, path)
+				hist.append(r)
 
 		r.history = hist[:-1]
 
