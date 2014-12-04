@@ -5,5 +5,12 @@
 		"weight": 0.1,
 		"output": "",
 		"note": "Joomla! administration page"
+	},
+	{
+		"url": "/test.htm",
+		"string": "	<title>500 - View not found [name, type, prefix]: article, htm, contentView</title>",
+		"weight": 0.1,
+		"output": "",
+		"code": 500
 	}
 ]
