@@ -1,0 +1,68 @@
+[
+	{
+		"url":  "/robots.txt",
+		"note": "robots.txt index",
+		"string": "Disallow"
+	},
+	{
+		"url":  "/changelog",
+		"note": "ChangeLog text file",
+		"ext": ["php", "aspx", "asp", "txt", "old", "htm", "html", "jsp"],
+		"string": ""
+	},
+	{
+		"url":  "/readme",
+		"note": "Readme file",
+		"ext": ["php", "aspx", "asp", "txt", "old", "htm", "html", "jsp"],
+		"string": ""
+	},
+	{
+		"url":  "/install",
+		"note": "Installation file",
+		"ext": ["php", "aspx", "asp", "txt", "old", "htm", "html", "jsp"],
+		"string": ""
+	},
+	{
+		"url":  "/phpinfo.php",
+		"note": "PHP info file",
+		"string": "phpinfo()"
+	},
+	{
+		"url":  "/info.php",
+		"note": "PHP info file",
+		"string": "phpinfo()"
+	},
+	{
+		"url":  "/test",
+		"note": "Test file",
+		"ext": ["php", "aspx", "asp", "txt", "old", "htm", "html", "jsp", "zip"],
+		"string": ""
+	},
+	{
+		"url":  "/test1",
+		"note": "Test file",
+		"ext": ["php", "aspx", "asp", "txt", "old", "htm", "html", "jsp", "zip"],
+		"string": ""
+	},
+	{
+		"url":  "/test/",
+		"note": "Test directory",
+		"string": ""
+	},
+	{
+		"url":  "/old",
+		"note": "This might be interesting",
+		"ext": ["php", "aspx", "asp", "txt", "old", "htm", "html", "jsp", "zip"],
+		"string": ""
+	},
+	{
+		"url":  "/old/",
+		"note": "This might be interesting",
+		"string": ""
+	},
+	{
+		"url":  "/sql/",
+		"note": "This might be interesting",
+		"string": ""
+	}
+]
