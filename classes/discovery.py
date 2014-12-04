@@ -406,5 +406,9 @@ class DiscoverInteresting(object):
 				fps,response = results.get()
 
 				matches = self.matcher.get_result(fps, response)
-				for fp in matches:
-					self.result.add( self.category, None, None, fp, weight=1)
+		
+				# their should not have been a redirection 
+				# when requesting these files
+				if len(response.history) == 0:
+					for fp in matches:
+						self.result.add( self.category, None, None, fp, weight=1)
