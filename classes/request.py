@@ -208,11 +208,14 @@ class PageFetcher(object):
 		location = 'Location'.lower()
 		while location in r.headers:
 			address = r.headers[location]
+
 			protocol, host, path, in_scope = self.get_parts(address)
 			
 			if in_scope:
 				r = self.request(protocol, host, path)
 				hist.append(r)
+			else:
+				break
 
 		r.history = hist[:-1]
 
