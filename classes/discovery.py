@@ -382,3 +382,29 @@ class DiscoverJavaScript(object):
 				for fp in matches:
 					self.result.add( self.category, fp['name'], fp['output'], fingerprint=fp, weight=1)
 
+
+class DiscoverInteresting(object):
+	def __init__(self, requester, fingerprints, matcher, results):
+		self.requester = requester
+		self.fingerprints = fingerprints
+		self.matcher = matcher
+		self.result = results
+		self.threads = 10
+		self.category = "Interesting"
+
+	def run(self):
+		interesting_files = self.fingerprints.get_interesting_fingerprints()
+		num_fp = len(interesting_files)
+		cs = self.threads
+
+		for i in range(0, num_fp, cs):
+			chunk = interesting_files[i:i+cs]
+
+			self.requester.set_fingerprints(chunk)
+			results = self.requester.run()
+			while results.qsize() > 0:
+				fps,response = results.get()
+
+				matches = self.matcher.get_result(fps, response)
+				for fp in matches:
+					self.result.add( self.category, None, None, fp, weight=1)

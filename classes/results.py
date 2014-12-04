@@ -86,7 +86,7 @@ class Results(object):
 				self.scores['CMS'][cms][ver] += 1
 
 	
-	def add(self, category, name, version, fingerprint=None, weight=1):
+	def add(self, category, name, version=None, fingerprint=None, weight=1):
 
 		if fingerprint is not None:
 
@@ -100,9 +100,14 @@ class Results(object):
 				note = fingerprint['note']
 				self.scores["Interesting"][url][note] += weight
 
+		# if there has been no version detection (interesting file discovery)
+		# skip adding the versions to the scores
+		if version == None:
+			pass
+
 		# if the version is blank or true, add '0' to 
 		# set it to the worst match
-		if version == '' or version == True:
+		elif version == '' or version == True:
 			self.scores[category][name][version] += 0
 
 		# else add the weight

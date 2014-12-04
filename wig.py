@@ -9,6 +9,7 @@ from classes.fingerprints import Fingerprints
 from classes.discovery import DiscoverCMS, DiscoverVersion
 from classes.discovery import DiscoverOS, DiscoverJavaScript, DiscoverAllCMS
 from classes.discovery import DiscoverRedirect, DiscoverErrorPage, DiscoverMore
+from classes.discovery import DiscoverInteresting
 from classes.headers import ExtractHeaders
 from classes.matcher import Match
 from classes.printer import Printer
@@ -145,23 +146,31 @@ class Wig(object):
 
 				printer.print(' Done', 1)
 
+
+		########################################################################
+		# POST PROCESSING
+		########################################################################
+
+		# find interesting files
+		printer.print('Checking for interesting Files...', 1, '')
+		interesting = DiscoverInteresting(requester, fps, matcher, self.results)
+		interesting.run()
+		printer.print(' Done', 1)
+
+
 		# iterate over the results stored in the cache and check all the
 		# fingerprints against all of the responses, as the URLs
 		# for the fingerprints are no longer valid
 		printer.print('Fetching extra ressources...', 1, '')
 		cache_items = self.cache.get_num_urls()
 
-		fps = self.fingerprints.get_all()
-		crawler = DiscoverMore(self.host, requester, self.cache, fps, matcher, self.results)
+		fps_list = self.fingerprints.get_all()
+		crawler = DiscoverMore(self.host, requester, self.cache, fps_list, matcher, self.results)
 		crawler.run()
 
 		new_items = self.cache.get_num_urls() - cache_items
 		printer.print(' (Found %s new items)' %  new_items, 2, '')
 		printer.print(' Done', 1)
-
-		########################################################################
-		# POST PROCESSING
-		########################################################################
 
 		# check for headers
 		printer.print('Checking for headers...', 1, '')

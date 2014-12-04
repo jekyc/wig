@@ -21,6 +21,16 @@ class Fingerprints(object):
 		self._cms_types = []
 		self._cms_type_index = []
 
+		# operating system fingerprints
+		#                      _ Software          _ Version   _ set of tuples (OS, version)
+		self.os_fingerprints = defaultdict(lambda: defaultdict(set))
+	
+		# javascript fingerprints
+		self.js_fingerprints = []
+
+		# generic interesting files
+		self.interesting = []
+
 		# the number of cms fingerprints
 		self.count = 0
 
@@ -35,8 +45,6 @@ class Fingerprints(object):
 		self.create_ordered_list()
 
 		# load the operating system fingerprints
-		self.os_fingerprints = defaultdict(lambda: defaultdict(set))
-		#                      ^ Software          ^ Version   ^ set of tuples (OS, version)
 		self._load('os', 'data/os')
 
 		# load error pages
@@ -44,8 +52,32 @@ class Fingerprints(object):
 			self.error_pages = json.load(fh)
 
 		# load JavaScript
-		self.js_fingerprints = []
 		self._load('js', 'data/js/md5')	
+
+		# load interesting files
+		self._load_interesting()
+
+
+	def _load_interesting(self):
+		path = 'data/interesting.json'
+		with open(path) as fh:
+			for fp in json.load(fh):
+				if 'string' in fp:
+					fp_type = 'string'
+				elif 'regex' in fp:
+					fp_type = 'regex'
+
+				if 'ext' in fp:
+					for ext in fp['ext']:
+						self.interesting.append([{
+							'url': fp['url'] + '.' + ext,
+							'note': fp['note'],
+							'string': fp['string'],
+							'type': fp_type
+						}])
+				else:
+					fp['type'] = fp_type
+					self.interesting.append([fp])
 
 
 	def _load(self, fp_type, data_dir):
@@ -76,7 +108,7 @@ class Fingerprints(object):
 
 
 		def add_js(data_file):
-			name = fp_type = data_file.split('/')[-1].split('.')[0]
+			name = data_file.split('/')[-1].split('.')[0]
 			fp_type = data_file.split('/')[-2]
 			with open(data_file) as fh:
 				items = json.load(fh)
@@ -211,5 +243,10 @@ class Fingerprints(object):
 	# fingerprints used for JavaScript detection
 	def get_js_fingerprints(self):
 		return self.js_fingerprints
+
+
+	# get fingerprints used to search for interesting files
+	def get_interesting_fingerprints(self):
+		return self.interesting
 
 
