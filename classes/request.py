@@ -86,6 +86,8 @@ class PageFetcher(object):
 		else:
 			self.user_agent = user_agent
 
+		self.max_redirs = 10
+
 
 	def check_out_of_scope(self, host):
 		if not (host == self.host or self.host == None):
@@ -206,9 +208,9 @@ class PageFetcher(object):
 		hist = [r]
 
 		location = 'Location'.lower()
-		while location in r.headers:
+		redirs = 0
+		while location in r.headers and redirs < self.max_redirs:
 			address = r.headers[location]
-
 			protocol, host, path, in_scope = self.get_parts(address)
 			
 			if in_scope:
@@ -216,6 +218,8 @@ class PageFetcher(object):
 				hist.append(r)
 			else:
 				break
+
+			redirs += 1
 
 		r.history = hist[:-1]
 
