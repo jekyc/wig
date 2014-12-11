@@ -1,9 +1,9 @@
 [
 	{
-		"url": "/",
 		"header": "Set-Cookie",
 		"regex": "#sc_wede=1",
 		"output": "",
-		"weight": 1		
+		"weight": 1,
+		"code": "any"
 	}
 ]

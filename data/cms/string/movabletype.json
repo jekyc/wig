@@ -1,16 +1,13 @@
 [
 	{
-		"url": "/",
 		"string": "<meta name=\"generator\" content=\"http://www.movabletype.org/\" />",
 		"output": ""
 	},
 	{
-		"url": "/",
 		"string": "<meta name=\"generator\" content=\"Movable Type",
 		"output": ""
 	},
 	{
-		"url": "/",
 		"string": "/mt-static/",
 		"output": ""
 	}

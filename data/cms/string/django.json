@@ -7,7 +7,6 @@
 		"note": "Django administration page"
 	},
 	{
-		"url": "/",
 		"string": "name='csrfmiddlewaretoken'",
 		"output": "",
 		"weight": 0.1

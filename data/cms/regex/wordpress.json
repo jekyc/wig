@@ -1,6 +1,5 @@
 [
 	{
-		"url": "/",
 		"regex": "<meta name=\"generator\" content=\"WordPress (\\d[\\.\\d]*)\" />",
 		"weight": 10,
 		"output": "%s"

@@ -9,7 +9,7 @@ from classes.fingerprints import Fingerprints
 from classes.discovery import DiscoverCMS, DiscoverVersion
 from classes.discovery import DiscoverOS, DiscoverJavaScript, DiscoverAllCMS
 from classes.discovery import DiscoverRedirect, DiscoverErrorPage, DiscoverMore
-from classes.discovery import DiscoverInteresting
+from classes.discovery import DiscoverInteresting, DiscoverUrlLess
 from classes.headers import ExtractHeaders
 from classes.matcher import Match
 from classes.printer import Printer
@@ -183,6 +183,12 @@ class Wig(object):
 		js_fps = self.fingerprints.get_js_fingerprints()
 		js = DiscoverJavaScript(self.cache, js_fps, matcher, self.results)
 		js.run()
+		printer.print(' Done', 1)
+
+		# run matching on all the fingerprints without an url specified
+		printer.print('Checking for extra matches...', 1, '')
+		url_less = DiscoverUrlLess(self.cache, fps, matcher, self.results)
+		url_less.run()
 		printer.print(' Done', 1)
 
 		# match all fingerprints against all responses ?

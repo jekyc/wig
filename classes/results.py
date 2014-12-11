@@ -89,7 +89,6 @@ class Results(object):
 	def add(self, category, name, version=None, fingerprint=None, weight=1):
 
 		if fingerprint is not None:
-
 			# add to the sitemap
 			if 'url' in fingerprint:
 				self.sitemap.add(fingerprint['url'])

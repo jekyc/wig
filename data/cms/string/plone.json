@@ -1,21 +1,17 @@
 [
 	{
-		"url": "/",
 		"string": "<meta name=\"generator\" content=\"Plone - http://plone.org\"/>",
 		"output": ""
 	},
 	{
-		"url": "/",
 		"string": "resourcetinymce",
 		"output": ""
 	},
 	{
-		"url": "/",
 		"string": "resourceplone",
 		"output": ""
 	},
 	{
-		"url": "/",
 		"string": "Plone Powered</a>",
 		"output": ""
 	}

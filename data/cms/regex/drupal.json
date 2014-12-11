@@ -1,8 +1,8 @@
 [
 	{
-		"url": "/",
 		"regex": "<meta name=\"[g|G]enerator\" content=\"Drupal (\\d[.\\d]*)",
-		"output": "%s"
+		"output": "%s",
+		"code": "any"
 	},
 	{
 		"url": "/CHANGELOG.txt",

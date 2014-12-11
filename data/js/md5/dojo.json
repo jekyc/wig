@@ -174,5 +174,33 @@
      {
           "md5": "a2221ecc2a8d06bec449b56bbc13d2f4",
           "output": "1.9.5"
+     },
+     {
+          "md5": "71024fed8b2ae7aaf11e33c7bc08ee8c",
+          "output": "1.10.3"
+     },
+     {
+          "md5": "e80d79f3564d83f970bbf99a569475a8",
+          "output": "1.6.3"
+     },
+     {
+          "md5": "a5eceff3ac35136e0eb803c442f1945e",
+          "output": "1.9.6"
+     },
+     {
+          "md5": "47ba7e7f935f97cd4f6e94c5ab1b1f83",
+          "output": "1.8.9"
+     },
+     {
+          "md5": "236773fb6591a973bca9d7f9aec239cb",
+          "output": "1.4.6"
+     },
+     {
+          "md5": "4abcba1a57166873cee80849e7477a09",
+          "output": "1.5.4"
+     },
+     {
+          "md5": "5188a3343c88af3fb87a62ddf8ba382b",
+          "output": "1.7.8"
      }
 ]

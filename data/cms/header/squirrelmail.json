@@ -1,9 +1,9 @@
 [
 	{
-		"url": "/src/login.php",
 		"header": "Set-Cookie",
 		"regex": "SQMSESSID",
 		"output": "",
-		"weight": 1		
+		"weight": 1,
+		"code": "any"
 	}
 ]

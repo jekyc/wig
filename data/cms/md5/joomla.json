@@ -1670,6 +1670,66 @@
           "url": "/README.txt"
      },
      {
+          "md5": "6a7e0111d7a6cd19d56607f3113b8d27",
+          "output": "2.5.28",
+          "url": "/administrator/templates/hathor/css/template.css"
+     },
+     {
+          "md5": "c44a6d6a50c888f879009d62bff52e4f",
+          "output": "2.5.28",
+          "url": "/administrator/templates/hathor/css/colour_brown.css"
+     },
+     {
+          "md5": "b2d14e621570ad477127237230bd4c97",
+          "output": "2.5.28",
+          "url": "/templates/system/css/toolbar.css"
+     },
+     {
+          "md5": "dfff4ae25b1554dee9222adec5d379ff",
+          "output": "2.5.28",
+          "url": "/templates/system/css/editor.css"
+     },
+     {
+          "md5": "98bd98ba330eaa59c3c1ef6eb73d5387",
+          "output": "2.5.28",
+          "url": "/language/en-GB/en-GB.ini"
+     },
+     {
+          "md5": "0bcd607ad6014326222d9d3c5413030b",
+          "output": "2.5.28",
+          "url": "/language/en-GB/en-GB.lib_joomla.ini"
+     },
+     {
+          "md5": "b36c952816a1374b6459fd62e3e3e419",
+          "output": "2.5.28",
+          "url": "/plugins/editors/tinymce/tinymce.xml"
+     },
+     {
+          "md5": "d98624050643741215c0b7f46e0488e9",
+          "output": "2.5.28",
+          "url": "/administrator/language/en-GB/en-GB.ini"
+     },
+     {
+          "md5": "85d4239effad283068b7622b40fe6e52",
+          "output": "2.5.28",
+          "url": "/media/system/js/core-uncompressed.js"
+     },
+     {
+          "md5": "4b59c964036a5a6ba36d4cfa34968c2a",
+          "output": "2.5.28",
+          "url": "/media/system/js/core.js"
+     },
+     {
+          "md5": "6b70640ee71a267970319f0e151e509d",
+          "output": "2.5.28",
+          "url": "/media/cms/css/debug.css"
+     },
+     {
+          "md5": "558dcbb86d8712b5e6713f54cb37e68e",
+          "output": "2.5.28",
+          "url": "/README.txt"
+     },
+     {
           "md5": "751518a090c1a88551359b40ed5e6183",
           "output": "2.5.3",
           "url": "/administrator/templates/hathor/css/template.css"

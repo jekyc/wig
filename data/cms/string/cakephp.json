@@ -1,7 +1,7 @@
 [
 	{
-		"url": "/",
 		"string": "Powered by <a href=\"http://cakephp.org\">CakePHP</a>",
-		"output": ""
+		"output": "",
+		"code": "any"
 	}
 ]

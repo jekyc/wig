@@ -1,38 +1,38 @@
 [
 	{
-		"url": "/Util/login.aspx",
 		"header": "EPiServerLoginScreen",
 		"regex": "(true)",
-		"output": "6.0"
+		"output": "6.0",
+		"code": "any"
 	},
 	{
-		"url": "/Util/login.aspx",
 		"header": "Set-Cookie",
 		"regex": "(EPi.+NumberOfVisits)",
-		"output": "6.0"
+		"output": "6.0",
+		"code": "any"
 	},
 	{
-		"url": "/Util/login.aspx",
 		"header": "Set-Cookie",
 		"regex": "(_epiAntiForgeryToken)",
-		"output": "6.0"
+		"output": "6.0",
+		"code": "any"
 	},
 	{
-		"url": "/Util/login.aspx",
 		"header": "X-EPiLogOnScreen",
 		"regex": "(true)",
-		"output": "7"
+		"output": "7",
+		"code": "any"
 	},
 	{
-		"url": "/Util/login.aspx",
 		"header": "X-EPiLogOnScreen-PostUrl",
 		"regex": "(.*)login.aspx",
-		"output": "7"
+		"output": "7",
+		"code": "any"
 	},
 	{
-		"url": "/Util/login.aspx",
 		"header": "Set-Cookie",
 		"regex": "(epiXSRF)",
-		"output": "7"
+		"output": "7",
+		"code": "any"
 	}
 ]

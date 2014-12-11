@@ -1,18 +1,15 @@
 [
 	{
-		"url": "/",
 		"string": "<link href=\"/sitecore/shell/applications/analytics/visitor.css.aspx\"",
 		"output": "",
 		"weight": 0.01
 	},
 	{
-		"url": "/",
 		"string": "<link href=\"/sitecore%20modules/shell/",
 		"output": "",
 		"weight": 0.01
 	},
 	{
-		"url": "/",
 		"string": "<meta id=scPath content=\"/sitecore/content/Home/404\" name=scPath>",
 		"output": "",
 		"weight": 0.01

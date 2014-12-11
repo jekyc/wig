@@ -105,7 +105,6 @@ class DiscoverCMS(object):
 		# process the results and find matches
 		while results.qsize() > 0:
 			fps,response = results.get()
-
 			matches = self.matcher.get_result(fps, response)
 			if matches:
 				return [cms['cms'] for cms in matches]
@@ -345,7 +344,7 @@ class DiscoverAllCMS(object):
 
 	def __init__(self, cache, fingerprints, matcher, results):
 		self.cache = cache
-		self.fps = fingerprints
+		self.fps = fingerprints.get_all()
 		self.results = results
 		self.matcher = matcher
 
@@ -365,7 +364,6 @@ class DiscoverJavaScript(object):
 		self.fingerprints = fingerprints
 		self.matcher = matcher
 		self.result = results
-		self.category = "JavaScript Libraries"
 
 	def run(self):
 		for response in self.cache.get_responses():
@@ -380,7 +378,7 @@ class DiscoverJavaScript(object):
 			if is_js:
 				matches = self.matcher.get_result(self.fingerprints, response)
 				for fp in matches:
-					self.result.add( self.category, fp['name'], fp['output'], fingerprint=fp, weight=1)
+					self.result.add( fp['category'], fp['name'], fp['output'], fingerprint=fp, weight=1)
 
 
 class DiscoverInteresting(object):
@@ -412,3 +410,22 @@ class DiscoverInteresting(object):
 				if len(response.history) == 0:
 					for fp in matches:
 						self.result.add( self.category, None, None, fp, weight=1)
+
+
+class DiscoverUrlLess(object):
+	def __init__(self, cache, fingerprints, matcher, results):
+		self.cache = cache
+		self.fps = fingerprints.get_url_less()
+		self.results = results
+		self.matcher = matcher
+
+	def run(self):
+		# find matches for all the responses in the cache
+		for response in self.cache.get_responses():
+			matches = self.matcher.get_result(self.fps, response)
+			for fp in matches:
+				if 'name' in fp:	name = fp['name']
+				elif 'cms' in fp:	name = fp['cms']
+				else:				name = ''
+
+				self.results.add(fp['category'], name, fp['output'], fingerprint=fp, weight=1)

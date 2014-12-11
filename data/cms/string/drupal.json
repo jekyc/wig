@@ -37,6 +37,12 @@
 		"output": "",
 		"weight": 0.1,
 		"note": "Drupal administration page"
+	},
+	{
+		"url": "/user",
+		"string": "<form action=\"/user\"  accept-charset=\"UTF-8\" method=\"post\" id=\"user-login\">",
+		"output": "",
+		"weight": 0.1,
+		"note": "Drupal user account page"
 	}
-
 ]

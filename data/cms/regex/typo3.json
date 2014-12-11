@@ -1,6 +1,5 @@
 [
 	{
-		"url": "/",
 		"regex": "<meta name=\"generator\" content=\"TYPO3 ([\\d\\.?]+)",
 		"output": "%s",
 		"weight": 5

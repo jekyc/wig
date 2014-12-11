@@ -11,61 +11,44 @@ class Fingerprints(object):
 		# when iterating over over the dict.
 		# For this reason fingerprints are not stored in a dict
 
-		# the list used for storing cms fingerprints
-		self.all = []
-
-		# a list of cms names
-		self._cms_names = []
-
-		# a list of cms types
-		self._cms_types = []
-		self._cms_type_index = []
+		# the number of cms fingerprints
+		self.count = 0
 
 		# operating system fingerprints
 		#                      _ Software          _ Version   _ set of tuples (OS, version)
 		self.os_fingerprints = defaultdict(lambda: defaultdict(set))
 	
-		# javascript fingerprints
-		self.js_fingerprints = []
-
-		# generic interesting files
-		self.interesting = []
-
-		# the number of cms fingerprints
-		self.count = 0
-
-		# an ordered list of cms fingerprints. See 'create_ordered_list'
-		self.ordered = []
-
-		# cms types
-		self.types = ['md5', 'regex', 'string']
+		self.all = []				# the list used for storing cms fingerprints
+		self.ordered = []			# an ordered list of cms fingerprints. See 'create_ordered_list'
+		self._cms_names = []		# a list of cms names
+		self.interesting = []		# generic interesting files
+		self.js_fingerprints = []	# javascript fingerprints
+		self.url_less = []			# fingerprints that don't have an url specified
 
 		# load the cms fingerprints and create the ordered list
-		self._load('cms', 'data/cms/')
-		self.create_ordered_list()
-
-		# load the operating system fingerprints
-		self._load('os', 'data/os')
-
-		# load error pages
-		with open('data/error_pages.json') as fh:
-			self.error_pages = json.load(fh)
-
-		# load JavaScript
-		self._load('js', 'data/js/md5')	
-
-		# load interesting files
+		self._load_cms()
+		self._load_os()
+		self._load_js()	
 		self._load_interesting()
+		self._load_error()
+		
+		self.create_ordered_list()
+		
+
+	def _load_error(self):
+		path = 'data/error_pages.json'
+		with open(path) as fh:
+			self.error_pages = json.load(fh)
 
 
 	def _load_interesting(self):
 		path = 'data/interesting.json'
+		category = 'Interesting'
+
 		with open(path) as fh:
 			for fp in json.load(fh):
-				if 'string' in fp:
-					fp_type = 'string'
-				elif 'regex' in fp:
-					fp_type = 'regex'
+				fp_type = 'string' if 'string' in fp else 'regex'
+				fp['category'] = category
 
 				if 'ext' in fp:
 					for ext in fp['ext']:
@@ -80,75 +63,95 @@ class Fingerprints(object):
 					self.interesting.append([fp])
 
 
-	def _load(self, fp_type, data_dir):
+	def _load_cms(self):
+		path = 'data/cms/'
+		types = ['md5', 'regex', 'string', 'header']
+		category = 'CMS'
+		dirs = [path + t for t in types]
 		
-		def add_cms(cms, data_file):
-			fp_type = data_file.split('/')[2]
-			# add the fingerprints to the fingerprint storage
-			with open(data_file) as fh:
-				for fp in json.load(fh):
-					fp['type'] = fp_type
-					fp['cms'] = cms
-					self.count += 1
-					self.all.append(fp)
+		for data_dir in types:
+			for f in os.listdir(path + data_dir):
+				data_file = path + '/' + data_dir +'/'+ f
 
-
-		def add_os(data_file):
-			with open(data_file) as fh:
-				item = json.load(fh)
-				for sw in item:
-					for ver in item[sw]:
-						for data in item[sw][ver]:
-							self.count += 1
-							self.os_fingerprints[sw.lower()][ver].add(( 
-								data[0],
-								data[1],
-								1 if len(data) == 2 else data[2]
-							))
-
-
-		def add_js(data_file):
-			name = data_file.split('/')[-1].split('.')[0]
-			fp_type = data_file.split('/')[-2]
-			with open(data_file) as fh:
-				items = json.load(fh)
-				for item in items:
-					self.count += 1
-					item['name'] = name
-					item['type'] = fp_type
-					self.js_fingerprints.append(item)
-
-
-		if fp_type == 'cms':
-			dirs = [data_dir + t for t in self.types]
-		else:
-			dirs = [data_dir]
-		
-		for data_dir in dirs:
-			for f in os.listdir(data_dir):
 				try:
-					# only load json files
+					# exit if not json file
 					if not len(f.split('.')) == 2: continue
 					name,ext = f.split('.')
 					if not ext == 'json': continue
-
-					data_file = data_dir +'/'+ f
-
-					if fp_type == 'cms':
-						add_cms(name, data_file)
-						if not name in self._cms_names:
-							self._cms_names.append(name)
 					
-					elif fp_type == 'os':
-						add_os(data_file)
-					
-					elif fp_type == 'js':
-						add_js(data_file)
+					# add the fingerprints to the fingerprint storage
+					with open(data_file) as fh:
+						for fp in json.load(fh):
+							fp['type'] = data_dir
+							fp['cms']  = name
+							fp['category'] = category
+							
+							self.count += 1
 
+							if 'url' in fp:
+								self.all.append(fp)
+							else:
+								# if the fingerprint does not have the 'url' key
+								# it should be added to the list of fingerprints
+								# that are checked during post-processing 
+								self.url_less.append(fp)
+							
+							if not name in self._cms_names:
+								self._cms_names.append(name)
 
 				except Exception as e:
 					continue
-		
+
+
+	def _load_os(self):
+		path = 'data/os'
+
+		for f in os.listdir(path):
+			try:
+				# only load json files
+				if not len(f.split('.')) == 2: continue
+				name,ext = f.split('.')
+				if not ext == 'json': continue
+
+				with open(path +'/'+ f) as fh:
+					item = json.load(fh)
+					for sw in item:
+						for ver in item[sw]:
+							for data in item[sw][ver]:
+								self.count += 1
+								self.os_fingerprints[sw.lower()][ver].add(( 
+									data[0],
+									data[1],
+									1 if len(data) == 2 else data[2]
+								))
+
+			except Exception as e:
+				continue
+
+
+	def _load_js(self):
+		path = 'data/js/md5'
+		category = 'JavaScript Libraries'
+
+		for f in os.listdir(path):
+			try:
+				# only load json files
+				if not len(f.split('.')) == 2: continue
+				name,ext = f.split('.')
+				if not ext == 'json': continue
+
+				with open(data_file) as fh:
+					items = json.load(fh)
+					for item in items:
+						self.count += 1
+						item['name'], item['type'] = name, 'md5'
+						item['category'] = category
+						self.js_fingerprints.append(item)
+						self.url_less.append(item)
+								
+			except Exception as e:
+				continue
+
 
 	def create_ordered_list(self):
 		
@@ -203,6 +206,10 @@ class Fingerprints(object):
 	# mainly used for the crawler 
 	def get_all(self):
 		return self.all
+
+	# get all the fingerprints that don't have an url
+	def get_url_less(self):
+		return self.url_less
 
 
 	# get the URLs that should produce an error page

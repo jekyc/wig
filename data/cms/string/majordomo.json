@@ -1,11 +1,9 @@
 [
 	{
-		"url": "/",
 		"string": "/cgi-bin/mj_wwwusr",
 		"output": ""
 	},
 	{
-		"url": "/",
 		"string": "<!-- Majordomo head format file -->",
 		"output": ""
 	}

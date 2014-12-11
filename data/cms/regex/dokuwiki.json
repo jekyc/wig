@@ -1,6 +1,5 @@
 [
 	{
-		"url": "/",
 		"regex": "<meta name=\"generator\" content=\"DokuWiki Release ([^\"]*)\" />",
 		"output": "%s"
 	},

@@ -2,9 +2,7 @@ import re
 
 class Match(object):
 	def __init__(self):
-		self.error_pages = set()
-		pass
-	
+		self.error_pages = set()	
 	
 	def _check_page(self, response, fingerprint):
 
@@ -15,8 +13,11 @@ class Match(object):
 		# find the 'code' of the current fingerprint
 		fp_code = 200 if not 'code' in fingerprint else fingerprint['code']
 
+		if fp_code == 'any':
+			return True
+
 		# if the fingerprint is for a 404 but the page is not a 404, do not match
-		if (not is_404) and fp_code == 404:
+		elif (not is_404) and fp_code == 404:
 			return False
 
 		# if the page is a 404 but the fingerprint is not for a 404, do not match
@@ -63,6 +64,9 @@ class Match(object):
 			elif fingerprint['type'] == 'regex' and not is_image:
 				matches.append(self.regex(fingerprint, response))
 
+			elif fingerprint['type'] == 'header':
+				matches.append(self.header(fingerprint, response))
+
 			else:
 				# fingerprint type is not supported yet
 				matches.append(None)
@@ -78,6 +82,7 @@ class Match(object):
 		else:
 			return None
 
+	
 	def string(self, fingerprint, response):
 		if fingerprint["string"] in response.body:
 			return fingerprint
@@ -89,11 +94,10 @@ class Match(object):
 		# create copy of fingerprint
 		copy = {key:fingerprint[key] for key in fingerprint}
 
-		body = response.body
 		regex = copy["regex"]
 		output = copy["output"]
 
-		matches = re.findall(regex, body)
+		matches = re.findall(regex, response.body)
 		if len(matches):
 			if not output == "":
 				copy['output'] = output % matches[0]
@@ -102,21 +106,28 @@ class Match(object):
 		else:
 			return None
 
+	
+	def header(self, fingerprint, response):
+		fp_header = fingerprint['header']
+		match_type = 'string' if 'string' in fingerprint else 'regex'
 
+		# a dummy class to mimic a response
+		class response_dummy(object):
+			self.body = ''
 
+		# parse the headers searching for a match
+		for header in response.headers:
+			if header == fp_header.lower():
 
+				# create an intance of the dummy class
+				r = response_dummy()
+				r.body = response.headers[header]
 
-
-
-
-
-
-
-
-
-
-
-
+				# call the Match instances methods for string or regex matching
+				if 'string' in fingerprint:
+					return self.string(fingerprint, r)
+				else:
+					return self.regex(fingerprint, r)
 
 
 

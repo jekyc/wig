@@ -1,11 +1,9 @@
 [
 	{
-		"url": "/",
 		"regex": "\\(c\\) 1999-\\d\\d\\d\\d (Dynamicweb) Software A/S", 
 		"output": "%s"
 	},
 	{
-		"url": "/",
 		"regex": "<meta name=\"Generator\" content=\"Dynamicweb (\\d)\"", 
 		"output": "%s"
 	},

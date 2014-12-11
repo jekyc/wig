@@ -2,11 +2,13 @@
 	{
 		"url": "/src/login.php",
 		"regex": "<small>SquirrelMail version (.*)<br />",
-		"output": "%s"
+		"output": "%s",
+		"note": "SquirrelMail login"
 	},
 	{
 		"url": "/mail/src/login.php",
 		"regex": "<small>SquirrelMail version (.*)<br />",
-		"output": "%s"
+		"output": "%s",
+		"note": "SquirrelMail login"
 	}	
 ]

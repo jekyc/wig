@@ -1,12 +1,13 @@
 [
 	{
-		"url": "/",
 		"regex": "<meta name=\"generator\" content=\"vBulletin (\\d[\\.\\d*]*)\" />",
-		"output": "%s"
+		"output": "%s",
+		"code": "any"
+
 	},
 	{
-		"url": "/",
 		"regex": "%* vBulletin (\\d%[\\.\\d]*) CSS",
-		"output": "%s"
+		"output": "%s",
+		"code": "any"
 	}
 ]

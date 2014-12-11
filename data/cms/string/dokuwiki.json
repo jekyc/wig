@@ -1,11 +1,9 @@
 [
 	{
-		"url": "/",
 		"string": "<meta name=\"generator\" content=\"DokuWiki\"/>",
 		"output": ""
 	},
 	{
-		"url": "/",
 		"string": "Driven by DokuWiki",
 		"output": ""
 	}

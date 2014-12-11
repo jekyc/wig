@@ -1,12 +1,10 @@
 [
 	{
-		"url": "/",
 		"string": "This website is powered by TYPO3",
 		"output": "",
 		"weight": 0.1
 	},
 	{
-		"url": "/",
 		"string": "TTYPO3SEARCH_begin",
 		"output": "",
 		"weight": 0.1

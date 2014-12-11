@@ -74,6 +74,7 @@ class PageFetcher(object):
 		self.protocol = 'http' # default to http
 		self.path = ''
 		self.proto, self.host, self.path, in_scope = self.get_parts(address)
+
 		if not in_scope:
 			print("This is odd...")
 			return None
@@ -129,15 +130,27 @@ class PageFetcher(object):
 			path = address
 
 		# the address starts with the host name with out protocol
+		# or the address starts with a relative path without a '/' 
+		# at the beginning
 		else:
+
 			proto = self.protocol
 			parts = address.split('/')
-			host = parts[0]
 
-			self.check_out_of_scope(host)
+			# this check needs more work - it is not clear if the
+			# first part of the string is a host or a relative path.
+			# the presence of a '.' does not guarantee that its a 
+			# host name 
+			if '.' in parts[0]:
+				host = parts[0]
+				self.check_out_of_scope(host)
+				path = '/'.join(parts[1:])
+				path = '/' + path if not path.startswith('/') else path
 
-			path = '/'.join(parts[1:])
-			path = '/' + path if not path.startswith('/') else path
+			else:
+				host = self.host
+				path = '/' + address
+
 
 		if host.endswith('/'): host = host[:-1]
 

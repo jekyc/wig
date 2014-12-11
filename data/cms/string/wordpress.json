@@ -1,12 +1,10 @@
 [
 	{
-		"url": "/",
 		"string": "/wp-content/themes/",
 		"output": "",
 		"weight": 0.001
 	},
 	{
-		"url": "/", 
 		"string": "/wp-includes/wlwmanifest.xml", 
 		"output": "",
 		"weight": 0.001
