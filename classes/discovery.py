@@ -186,7 +186,8 @@ class DiscoverOS(object):
 				except Exception as e:
 					continue
 
-		if 'X-Powered-By'.lower() in headers:
+
+		"""if 'X-Powered-By'.lower() in headers:
 			line = headers['X-Powered-By'.lower()]
 			try:
 				pkg,version =  list(map(str.lower, line.split('/')))
@@ -198,11 +199,33 @@ class DiscoverOS(object):
 						os, os_version, weight = i
 					
 					self.matched_packages.add( (os, os_version, pkg, version) )
+
 					self.os[(os, os_version)] += weight
 			except Exception as e:
-				pass
+				pass"""
 
 	def finalize(self):
+		# this might not be stable for items other than php at the moment
+		# recheck this process
+		# changed in order to eliminate the 'X-Powered-by' check here
+		platforms = self.results.get_platform_results()
+		for pkg in platforms:
+			for version in platforms[pkg]:
+				score = platforms[pkg][version]
+				try:
+					for i in self.fingerprints[pkg.lower()][version]:
+						if len(i) == 2:
+							os, os_version = i
+							weight = 1
+						elif len(i) == 3:
+							os, os_version, weight = i
+
+						self.matched_packages.add( (os, os_version, pkg, version) )
+						self.os[(os, os_version)] += score*weight
+
+				except Exception as e:
+					pass
+
 		# if an os string 'self.oss' has been found in the header
 		# prioritize the identified os's in self.os
 
