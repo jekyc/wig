@@ -1,0 +1,13 @@
+[
+	{
+		"header": "Set-Cookie",
+		"string": "JSESSION",
+		"output": ""
+	},
+	{
+		"header": "X-Powered-By",
+		"regex": "(Servlet/\\d\\.\\d )?JSP/(.*) ",
+		"output": "%s",
+		"weight": 10
+	}
+]

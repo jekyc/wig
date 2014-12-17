@@ -1,0 +1,16 @@
+[
+	{
+		"header": "X-Powered-By",
+		"regex": "PHP/(.*)",
+		"output": "%s",
+		"code": "any",
+		"weight": 10
+	},
+	{
+		"header": "Set-Cookie",
+		"string": "PHPSESSID",
+		"output": "",
+		"code": "any",
+		"weight": 0.1
+	}	
+]

@@ -1,0 +1,7 @@
+[
+	{
+		"header": "X-Powered-By",
+		"regex": ".*JBoss([^/]*/JBossWeb[^\n]*)",
+		"output": "%s"
+	}
+]

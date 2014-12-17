@@ -1,0 +1,30 @@
+[
+	{
+		"header": "X-Powered-By",
+		"string": "ASP.NET",
+		"output": "",
+		"code": "any",
+		"weight": 0.1
+	},
+	{
+		"header": "Set-Cookie",
+		"string": "ASP.NET_SessionId",
+		"output": "",
+		"code": "any",
+		"weight": 0.1
+	},
+	{
+		"header": "Set-Cookie",
+		"string": ".ASPX",
+		"output": "",
+		"code": "any",
+		"weight": 0.1
+	},
+	{
+		"header": "X-AspNet-Version",
+		"regex": ".*",
+		"output": "%s",
+		"code": "any",
+		"weight": 2
+	}
+]
