@@ -1,16 +1,13 @@
 [
 	{
-		"url": "/",
 		"string": "<title>Welcome to JBoss AS</title>",
 		"output": ""
 	},
 	{
-		"url": "/",
 		"string": "<link rel=\"StyleSheet\" href=\"css/jboss.css\" type=\"text/css\"/>",
 		"output": ""
 	},
 	{
-		"url": "/",
 		"string": "<a href=\"http://www.jboss.org/jbossas/\">JBoss Application Server</a>",
 		"output": ""
 	}
