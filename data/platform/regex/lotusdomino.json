@@ -1,6 +1,5 @@
 [
 	{
-		"url": "/",
 		"regex": "<\\!-- Domino Release (.*) -->",
 		"output": "%s"
 	},
