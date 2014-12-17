@@ -24,9 +24,12 @@ class Fingerprints(object):
 		self.interesting = []		# generic interesting files
 		self.js_fingerprints = []	# javascript fingerprints
 		self.url_less = []			# fingerprints that don't have an url specified
+		self.translator = {}		# dict containing file name mappings
 
-		# load the cms fingerprints and create the ordered list
-		self._load_cms()
+
+		# load fingerprints
+		self._load_dictionary()
+		self._load()
 		self._load_os()
 		self._load_js()	
 		self._load_interesting()
@@ -34,6 +37,12 @@ class Fingerprints(object):
 		
 		self.create_ordered_list()
 		
+
+	def _load_dictionary(self):
+		path = 'data/dictionary.json'
+		with open(path) as fh:
+			self.translator = json.load(fh)
+
 
 	def _load_error(self):
 		path = 'data/error_pages.json'
@@ -63,44 +72,47 @@ class Fingerprints(object):
 					self.interesting.append([fp])
 
 
-	def _load_cms(self):
-		path = 'data/cms/'
+	def _load(self):
+		paths = {'CMS': 'data/cms/', 'Platform': 'data/platform/'}
 		types = ['md5', 'regex', 'string', 'header']
-		category = 'CMS'
-		dirs = [path + t for t in types]
 		
-		for data_dir in types:
-			for f in os.listdir(path + data_dir):
-				data_file = path + '/' + data_dir +'/'+ f
+		for category in paths:
+			path =  paths[category]
+			dirs = [path + t for t in types]
 
-				try:
-					# exit if not json file
-					if not len(f.split('.')) == 2: continue
-					name,ext = f.split('.')
-					if not ext == 'json': continue
-					
-					# add the fingerprints to the fingerprint storage
-					with open(data_file) as fh:
-						for fp in json.load(fh):
-							fp['type'] = data_dir
-							fp['cms']  = name
-							fp['category'] = category
-							
-							self.count += 1
+			for data_dir in types:
+				for f in os.listdir(path + data_dir):
+					data_file = path + '/' + data_dir +'/'+ f
 
-							if 'url' in fp:
-								self.all.append(fp)
-							else:
-								# if the fingerprint does not have the 'url' key
-								# it should be added to the list of fingerprints
-								# that are checked during post-processing 
-								self.url_less.append(fp)
-							
-							if not name in self._cms_names:
-								self._cms_names.append(name)
+					try:
+						# exit if not json file
+						if not len(f.split('.')) == 2: continue
+						name,ext = f.split('.')
+						if not ext == 'json': continue
+						
+						# add the fingerprints to the fingerprint storage
+						name = self.translator[name]
+						with open(data_file) as fh:
+							for fp in json.load(fh):
+								fp['type'] = data_dir
+								fp['cms']  = name
+								fp['category'] = category
+								
+								self.count += 1
 
-				except Exception as e:
-					continue
+								if 'url' in fp:
+									self.all.append(fp)
+								else:
+									# if the fingerprint does not have the 'url' key
+									# it should be added to the list of fingerprints
+									# that are checked during post-processing 
+									self.url_less.append(fp)
+								
+								if not name in self._cms_names:
+									self._cms_names.append(name)
+
+					except Exception as e:
+						continue
 
 
 	def _load_os(self):
@@ -110,7 +122,7 @@ class Fingerprints(object):
 			try:
 				# only load json files
 				if not len(f.split('.')) == 2: continue
-				name,ext = f.split('.')
+				_,ext = f.split('.')
 				if not ext == 'json': continue
 
 				with open(path +'/'+ f) as fh:
@@ -140,6 +152,7 @@ class Fingerprints(object):
 				name,ext = f.split('.')
 				if not ext == 'json': continue
 
+				name = self.translator[name]
 				with open(data_file) as fh:
 					items = json.load(fh)
 					for item in items:

@@ -123,6 +123,10 @@ class Results(object):
 		return str(self.sitemap)
 
 
+	def get_platform_results(self):
+		return self.scores['Platform']
+
+
 	def get_results(self):
 		self._calc_md5_score()
 
