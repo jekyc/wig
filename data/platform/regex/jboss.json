@@ -1,7 +1,0 @@
-[
-	{
-		"url": "/",
-		"regex": "X-Powered-By: .*JBoss([^/]*/JBossWeb[^\n]*)",
-		"output": "%s"
-	}
-]
