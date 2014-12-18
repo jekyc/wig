@@ -139,7 +139,7 @@ class DiscoverOS(object):
 	def __init__(self, data):
 		self.cache = data['cache']
 		self.results = data['results']
-		self.fingerprints = data['fingerprints']
+		self.fingerprints = data['fingerprints'].get_os_fingerprints()
 
 		self.category = "Operating System"
 		self.os = Counter()
