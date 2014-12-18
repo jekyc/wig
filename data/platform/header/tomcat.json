@@ -1,0 +1,14 @@
+[
+	{
+		"header": "X-Powered-By",
+		"regex": "Tomcat-(\\d[\\.\\d]*)",
+		"output": "%s",
+		"code": "any"
+	},
+	{
+		"header": "Servlet-Engine",
+		"regex": "Tomcat Web Server/(\\d[\\.\\d]*)",
+		"output": "%s",
+		"code": "any"
+	}
+]
