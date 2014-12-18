@@ -110,7 +110,7 @@ class Wig(object):
 				# skip checking the cms, if it has already been detected
 				if cms in self.data['detected_cms']: continue
 
-				version_finder.run(self.options, self.data, cms)
+				version_finder.run(cms)
 
 				# if a match was found, then it has been added to the results object
 				# and the detected_cms list should be updated
