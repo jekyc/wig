@@ -1188,5 +1188,25 @@
           "md5": "51c9135022cb6eb5bb9ad5e3f6c61a14",
           "minified": false,
           "output": "migrate-1.0.0b1"
+     },
+     {
+          "md5": "1fcc34cc14f943523a767703dc88869c",
+          "minified": true,
+          "output": "2.1.2"
+     },
+     {
+          "md5": "5790ead7ad3ba27397aedfa3d263b867",
+          "minified": true,
+          "output": "1.11.2"
+     },
+     {
+          "md5": "a1aacfb27d5f3e78065095fd1b5f7b10",
+          "minified": false,
+          "output": "2.1.2"
+     },
+     {
+          "md5": "c0b3962f9f23a89256a055c89a4aecf6",
+          "minified": false,
+          "output": "1.11.2"
      }
 ]
