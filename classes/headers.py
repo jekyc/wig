@@ -54,34 +54,3 @@ class ExtractHeaders(object):
 					except Exception as e:
 						continue
 
-			# "X-Powered-By" can be used to identify the PHP version (and potentially the OS)
-			elif hdr == 'X-Powered-By'.lower():
-				# 2014-07-27: the length of val.split('/') is not always 2 (e.g.: X-Powered-By: ASP.NET)
-				vals = val.split('/')
-				if len(vals) == 2:
-					pkg,version = val.split('/')
-					weight = 1
-				else:
-					pkg,version,weight = val,'',0.1
-
-				#self.log.add( {url: {pkg: [version]} } )
-				self.results.add(self.category, pkg, version, weight=weight)
-
-			elif hdr == 'X-AspNet-Version'.lower():
-				pkg = "ASP.NET"
-				version = val
-
-				#self.log.add( {url: {pkg: [version]} } )
-				self.results.add(self.category, pkg, version, weight=1)				
-
-			elif hdr == 'Set-Cookie'.lower():
-				if 'ASP.NET_SessionId' in val:
-					pkg = "ASP.NET"
-					version = ''
-					
-					#self.log.add( {url: {pkg: [version]} } )
-					self.results.add(self.category, pkg, version, weight=0.1)	
-
-
-
-
