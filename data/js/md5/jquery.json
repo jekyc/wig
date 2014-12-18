@@ -1208,5 +1208,15 @@
           "md5": "c0b3962f9f23a89256a055c89a4aecf6",
           "minified": false,
           "output": "1.11.2"
+     },
+     {
+          "md5": "32015dd42e9582a80a84736f5d9a44d7",
+          "minified": true,
+          "output": "2.1.3"
+     },
+     {
+          "md5": "cf26f8f0ccb06be71e92d8db0fb64ab5",
+          "minified": false,
+          "output": "2.1.3"
      }
 ]

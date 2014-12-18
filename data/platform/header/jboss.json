@@ -2,6 +2,13 @@
 	{
 		"header": "X-Powered-By",
 		"regex": ".*JBoss([^/]*/JBossWeb[^\n]*)",
-		"output": "%s"
+		"output": "%s",
+		"code": "any"
+	},
+	{
+		"header": "X-Powered-By",
+		"regex": ".*JBoss-(\\d[\\.\\d]*[\\.A-Z]*)",
+		"output": "%s",
+		"code": "any"
 	}
 ]

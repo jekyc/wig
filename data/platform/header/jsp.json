@@ -2,12 +2,14 @@
 	{
 		"header": "Set-Cookie",
 		"string": "JSESSION",
-		"output": ""
+		"output": "",
+		"code": "any"
 	},
 	{
 		"header": "X-Powered-By",
-		"regex": "(Servlet/\\d\\.\\d )?JSP/(.*) ",
+		"regex": "JSP/(\\d[\\.\\d]*) ",
 		"output": "%s",
-		"weight": 10
+		"weight": 10,
+		"code": "any"
 	}
 ]
