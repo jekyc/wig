@@ -8,9 +8,9 @@ from classes.request import PageFetcher, Request
 
 class DiscoverRedirect(object):
 
-	def __init__(self, url):
-		self.org = url
-		self.url = url
+	def __init__(self, options):
+		self.org = options['host']
+		self.url = options['host']
 
 		fetcher = PageFetcher(self.url)
 		try:
@@ -40,7 +40,7 @@ class DiscoverRedirect(object):
 	def get_valid_url(self):
 		return self.url
 
-		
+
 
 class DiscoverErrorPage(object):
 	# find error pages on the site
@@ -48,11 +48,11 @@ class DiscoverErrorPage(object):
 	# to remove before calculating a checksum of pages that
 	# should not exists
 
-	def __init__(self, requester, host, url_list):
-		self.host = host
-		self.urls = url_list
+	def __init__(self, options, data):
+		self.host = options['host']
+		self.urls = data['fingerprints'].get_error_urls()
 		self.error_pages = set()
-		self.requester = requester
+		self.requester = data['requester']
 
 
 	def run(self):
@@ -73,25 +73,22 @@ class DiscoverErrorPage(object):
 		return self.error_pages
 
 
-
-
 class DiscoverCMS(object):
 
-	def __init__(self, requester, matcher, ordered_fingerprints, chunk_size):
-		self.fps = ordered_fingerprints
+	def __init__(self, options, data):
+		self.chunk_size = options['chunk_size']
+		self.matcher = data['matcher']
+		self.requester = data['requester']
+		self.fps = data['fingerprints'].get_ordered_list()
 		self.fps_iter = iter(self.fps)
-		self.chunk_size = chunk_size
 		self.index = 0
-		self.matcher = matcher
-		self.requester = requester
 
-
+		
 	def is_done(self):
 		return self.index >= len(self.fps)
 
 
-	def run(self, host, cms_skip_list):
-
+	def run(self):
 		i = self.index
 		cs = self.chunk_size
 
@@ -112,46 +109,43 @@ class DiscoverCMS(object):
 		return []
 
 
-
-
-
 class DiscoverVersion(object):
-	def __init__(self, requester, matcher, result, chunk_size):
-		self.result = result
-		self.chunk_size = chunk_size
-		self.matcher = matcher
-		self.requester = requester
+	def __init__(self, options, data):
+		self.chunk_size = options['chunk_size']
+		self.result = data['results']
+		self.matcher = data['matcher']
+		self.requester = data['requester']
+		self.fingerprints = data['fingerprints']
 
 
-	def run(self, host, fingerprints):
+	def run(self, cms):
 		cs = self.chunk_size
+		fps = self.fingerprints.get_fingerprints_for_cms(cms)
 
-		num_fp = len(fingerprints)
-		for i in range(0, num_fp, cs):
-			chunk = fingerprints[i:i+cs]
+		for i in range(0, len(fps), cs):
+			chunk = fps[i:i+cs]
 
 			self.requester.set_fingerprints(chunk)
 			results = self.requester.run()
 
 			while results.qsize() > 0:
-				fps,response = results.get()
-				matches = self.matcher.get_result(fps, response)
-				for fp in matches:
+				res_fps,response = results.get()
+				for fp in self.matcher.get_result(res_fps, response):
 					self.result.add_cms(fp)
 
 
 
 class DiscoverOS(object):
-	def __init__(self, cache, results, fingerprints):
-		self.cache = cache
-		self.results = results
+	def __init__(self, data):
+		self.cache = data['cache']
+		self.results = data['results']
+		self.fingerprints = data['fingerprints']
 
 		self.category = "Operating System"
 		self.os = Counter()
 		self.packages = Counter()
 		self.oss = []
 		self.matched_packages = set()
-		self.fingerprints = fingerprints
 
 
 	def find_match(self, response):
@@ -186,23 +180,6 @@ class DiscoverOS(object):
 				except Exception as e:
 					continue
 
-
-		"""if 'X-Powered-By'.lower() in headers:
-			line = headers['X-Powered-By'.lower()]
-			try:
-				pkg,version =  list(map(str.lower, line.split('/')))
-				for i in self.fingerprints[pkg][version]:
-					if len(i) == 2:
-						os, os_version = i
-						weight = 1
-					elif len(i) == 3:
-						os, os_version, weight = i
-					
-					self.matched_packages.add( (os, os_version, pkg, version) )
-
-					self.os[(os, os_version)] += weight
-			except Exception as e:
-				pass"""
 
 	def finalize(self):
 		# this might not be stable for items other than php at the moment
@@ -290,14 +267,14 @@ class LinkExtractor(HTMLParser):
 
 class DiscoverMore(object):
 
-	def __init__(self, host, requester, cache, fingerprints, matcher, results):
-		self.host = host
-		self.requester = requester
-		self.cache = cache
-		self.fingerprints = fingerprints
-		self.matcher = matcher
-		self.result = results
-		self.threads = 10
+	def __init__(self, options, data):
+		self.host = options['host']
+		self.threads = options['threads']
+		self.cache = data['cache']
+		self.result = data['results']
+		self.matcher = data['matcher']
+		self.requester = data['requester']
+		self.fingerprints = data['fingerprints']
 
 
 	def _get_urls(self, response):
@@ -365,11 +342,11 @@ class DiscoverAllCMS(object):
 	# match all fingerprints against all responses
 	# this might generate false positives
 
-	def __init__(self, cache, fingerprints, matcher, results):
-		self.cache = cache
-		self.fps = fingerprints.get_all()
-		self.results = results
-		self.matcher = matcher
+	def __init__(self, data):
+		self.cache = data['cache']
+		self.fps = data['fingerprints'].get_all()
+		self.results = data['results']
+		self.matcher = data['matcher']
 
 
 	def run(self):
@@ -382,11 +359,11 @@ class DiscoverAllCMS(object):
 
 
 class DiscoverJavaScript(object):
-	def __init__(self, cache, fingerprints, matcher, results):
-		self.cache = cache
-		self.fingerprints = fingerprints
-		self.matcher = matcher
-		self.result = results
+	def __init__(self, data):
+		self.cache = data['cache']
+		self.fingerprints = data['fingerprints'].get_js_fingerprints()
+		self.matcher = data['matcher']
+		self.result = data['results']
 
 	def run(self):
 		for response in self.cache.get_responses():
@@ -405,21 +382,19 @@ class DiscoverJavaScript(object):
 
 
 class DiscoverInteresting(object):
-	def __init__(self, requester, fingerprints, matcher, results):
-		self.requester = requester
-		self.fingerprints = fingerprints
-		self.matcher = matcher
-		self.result = results
-		self.threads = 10
+	def __init__(self, options, data):
+		self.requester = data['requester']
+		self.interesting = data['fingerprints'].get_interesting_fingerprints()
+		self.matcher = data['matcher']
+		self.result = data['results']
+		self.threads = options['threads']
 		self.category = "Interesting"
 
 	def run(self):
-		interesting_files = self.fingerprints.get_interesting_fingerprints()
-		num_fp = len(interesting_files)
 		cs = self.threads
 
-		for i in range(0, num_fp, cs):
-			chunk = interesting_files[i:i+cs]
+		for i in range(0, len(self.interesting), cs):
+			chunk = self.interesting[i:i+cs]
 
 			self.requester.set_fingerprints(chunk)
 			results = self.requester.run()
@@ -436,11 +411,11 @@ class DiscoverInteresting(object):
 
 
 class DiscoverUrlLess(object):
-	def __init__(self, cache, fingerprints, matcher, results):
-		self.cache = cache
-		self.fps = fingerprints.get_url_less()
-		self.results = results
-		self.matcher = matcher
+	def __init__(self, data):
+		self.cache = data['cache']
+		self.fps = data['fingerprints'].get_url_less()
+		self.results = data['results']
+		self.matcher = data['matcher']
 
 	def run(self):
 		# find matches for all the responses in the cache

@@ -22,62 +22,47 @@ from classes.requester2 import Requester
 class Wig(object):
 
 	def __init__(self, host, verbosity, stop_after=1, run_all=False, match_all=False, no_load_cache=False, no_save_cache=False):
-		self.verbosity = verbosity
-		self.colorizer = Color()
-		self.printer = Printer(verbosity, self.colorizer)
+		c = Color()
 
-		self.cache = Cache()					# cache for requests
-		self.results = Results()				# storage of results
-		self.threads = 10						# number of threads to run
-		
-		self.printer.print('Loading fingerprints... ', 1, '')
-		self.fingerprints = Fingerprints()		# load fingerprints
-		self.printer.print(' Done', 1)
+		self.options = {
+			'host': host,
+			'verbosity': verbosity,
+			'printer': Printer(verbosity, c),
+			'threads': 10,
+			'chunk_size': 10, # same as threads
+			'run_all': run_all,
+			'match_all': match_all,
+			'stop_after': stop_after,
+			'no_cache_load': no_load_cache,
+			'no_cache_save': no_save_cache,
+		}
 
-		self.host = host
-		self.run_all = run_all
-		self.match_all = match_all
-		self.stop_after = stop_after
-
-		self.no_cache_load = no_load_cache
-		self.no_cache_save = no_save_cache
-
-		# set the amount of urls to fetch in parallel to the
-		# amount of threads
-		self.chuck_size = self.threads
-
-		# get an ordered list of fingerprints
-		# the list is ordered such that a breadth first search is performed
-		self.ordered_list = self.fingerprints.get_ordered_list()
-
-		# a list containing the cms' detected so far
-		# this is used to skip detection for a CMS that has alreay been
-		# through version discovery
-		self.detected_cms = set()
-
-		# a set of md5sums for error pages
-		self.error_pages = set()
+		self.data = {
+			'cache': Cache(),
+			'results': Results(),
+			'fingerprints': Fingerprints(),
+			'matcher': Match(),
+			'colorizer': c,
+			'detected_cms': set(),
+			'error_pages': set()
+		}
 
 	def run(self):
-		fps = self.fingerprints
-		num_fps = fps.get_size()
-		printer = self.printer
-
+		
 		########################################################################
 		# PRE PROCESSING
 		########################################################################
 
 		# check if the input URL redirects to somewhere else
-		dr = DiscoverRedirect(self.host)
+		dr = DiscoverRedirect(self.options)
 
 		# make sure that the input is valid
 		if dr.get_valid_url() is None:
-			printer.print('Invalid host name')
 			sys.exit(1)
 
 		# if the hosts redirects, ask user if the redirection should be followed
 		elif dr.is_redirected():
-			hilight_host = self.colorizer.format(dr.get_valid_url(), 'red', False)
+			hilight_host = self.data['colorizer'].format(dr.get_valid_url(), 'red', False)
 			choice = input("Redirected to %s. Continue? [Y|n]:" % (hilight_host,))
 
 			# if not, exit
@@ -85,148 +70,82 @@ class Wig(object):
 				sys.exit(1)
 			# else update the host
 			else:
-				self.host = dr.get_valid_url()
+				self.options['host'] = dr.get_valid_url()
 
 		# timer started after the user interaction
-		t = time.time()
+		self.data['timer'] = time.time()
 
 		# load cache if this is not disabled
-		self.cache.set_host(self.host)
-		if not self.no_cache_load:
-			printer.print('Loading results from cache...', 1, '')
-			self.cache.load()
-			printer.print(' Done.', 1)
+		self.data['cache'].set_host(self.options['host'])
+		if not self.options['no_cache_load']:
+			self.data['cache'].load()
 
 		# set a requester instance to use for all the requests
-		requester = Requester(self.host, self.cache)
+		self.data['requester'] = Requester(self.options, self.data)
 
 		# find error pages
-		printer.print('Detecting error pages...', 1, '')
-		find_error = DiscoverErrorPage(requester, self.host, self.fingerprints.get_error_urls())
+		find_error = DiscoverErrorPage(self.options, self.data)
 		find_error.run()
-		error_pages = find_error.get_error_pages()
-		printer.print(' (Found %s error page(s))' % len(error_pages),2, '')
-		printer.print(' Done', 1)
+		self.data['error_pages'] = find_error.get_error_pages()
 
 		# create a matcher
-		matcher = Match()
-		matcher.set_404s(error_pages)
+		self.data['matcher'].set_404s(self.data['error_pages'])
 
 		########################################################################
 		# PROCESSING
 		########################################################################
-		cms_finder = DiscoverCMS(requester, matcher, self.ordered_list, self.chuck_size)
-		version_finder = DiscoverVersion(requester, matcher, self.results, self.chuck_size)
+		cms_finder = DiscoverCMS(self.options, self.data)
+		version_finder = DiscoverVersion(self.options, self.data)
 
 		# as long as there are more fingerprints to check, and
 		# no cms' have been detected
-		printer.print('Beginning CMS detection...', 1)
 		counter = 0
-		while not cms_finder.is_done() and (len(self.detected_cms) < self.stop_after or self.run_all):
-			printer.print('Requests: %s' % (counter * self.threads,), 1, '                                                \r')
+		while not cms_finder.is_done() and (len(self.data['detected_cms']) < self.options['stop_after'] or self.options['run_all']):
 			counter += 1
 
 			# check the next chunk of urls for cms detection
-			cms_list = list(set(cms_finder.run(self.host, self.detected_cms)))
+			cms_list = list(set(cms_finder.run()))
 			for cms in cms_list:
 
 				# skip checking the cms, if it has already been detected
-				if cms in self.detected_cms: continue
+				if cms in self.data['detected_cms']: continue
 
-				printer.print(' Found %s. Running version detection...' % cms, 1, '')
-				version_finder.run(self.host, fps.get_fingerprints_for_cms(cms))
+				version_finder.run(self.options, self.data, cms)
 
 				# if a match was found, then it has been added to the results object
 				# and the detected_cms list should be updated
-				if self.results.found_match(cms):
-					printer.print(' Found something!', 2, '')
-					self.detected_cms.add(cms)
+				if self.data['results'].found_match(cms):
+					self.data['detected_cms'].add(cms)
 				else:
-					printer.print(' Found nothing.', 2, '')
-
-				printer.print(' Done', 1)
-
+					pass
 
 		########################################################################
 		# POST PROCESSING
 		########################################################################
 
 		# find interesting files
-		printer.print('Checking for interesting Files...', 1, '')
-		interesting = DiscoverInteresting(requester, fps, matcher, self.results)
-		interesting.run()
-		printer.print(' Done', 1)
+		DiscoverInteresting(self.options, self.data). run()
+		DiscoverMore(self.options, self.data).run()
+		ExtractHeaders(self.data).run()
+		DiscoverJavaScript(self.data).run()
+		DiscoverUrlLess(self.data).run()
+		
+		if self.options['match_all']:
+			DiscoverAllCMS(self.data).run()
 
+		DiscoverOS(self.data).run()
 
-		# iterate over the results stored in the cache and check all the
-		# fingerprints against all of the responses, as the URLs
-		# for the fingerprints are no longer valid
-		printer.print('Fetching extra ressources...', 1, '')
-		cache_items = self.cache.get_num_urls()
-
-		fps_list = self.fingerprints.get_all()
-		crawler = DiscoverMore(self.host, requester, self.cache, fps_list, matcher, self.results)
-		crawler.run()
-
-		new_items = self.cache.get_num_urls() - cache_items
-		printer.print(' (Found %s new items)' %  new_items, 2, '')
-		printer.print(' Done', 1)
-
-		# check for headers
-		printer.print('Checking for headers...', 1, '')
-		header_finder = ExtractHeaders(self.cache, self.results)
-		header_finder.run()
-		printer.print(' Done', 1)
-
-		# detect JavaScript libraries
-		printer.print('Checking for JavaScript...', 1, '')
-		js_fps = self.fingerprints.get_js_fingerprints()
-		js = DiscoverJavaScript(self.cache, js_fps, matcher, self.results)
-		js.run()
-		printer.print(' Done', 1)
-
-		# run matching on all the fingerprints without an url specified
-		printer.print('Checking for extra matches...', 1, '')
-		url_less = DiscoverUrlLess(self.cache, fps, matcher, self.results)
-		url_less.run()
-		printer.print(' Done', 1)
-
-		# match all fingerprints against all responses ?
-		# this might produce false positives
-		if self.match_all:
-			printer.print('Running desparate mode - checking for all matches...', 1, '')			
-			desparate = DiscoverAllCMS(self.cache, fps, matcher, self.results)
-			desparate.run()
-			printer.print(' Done', 1)
-
-		# find Operating system
-		printer.print('Checking for operating system...', 1, '')		
-		os_finder = DiscoverOS(self.cache, self.results, self.fingerprints.get_os_fingerprints())
-		os_finder.run()
-		printer.print(' Done', 1)
-
-
-		# save the cache
-		if not self.no_cache_save:
-			printer.print('Saving cache...', 1, '')
-			self.cache.save()
-			printer.print(' Done', 1)
-
+		if not self.options['no_cache_save']:
+			self.data['cache'].save()
+	
 		########################################################################
 		# RESULT PRINTING
 		########################################################################
-		runtime = time.time() - t
-		num_urls = self.cache.get_num_urls()
+		self.data['runtime'] = time.time() - self.data['timer']
+		self.data['url_count'] = self.data['cache'].get_num_urls()
 
-		o = Output(self.results.get_results(), runtime, num_urls, num_fps)
+		o = Output(self.options, self.data)
 		print(o.get_results())
-
-
-
-		
-		# urls_200 = [ r.url for r in self.cache.get_responses() if r.status_code == 200 ]
-		# urls_200.sort()
-		# for u in urls_200: print(u)
 
 
 if __name__ == '__main__':
@@ -277,28 +196,3 @@ if __name__ == '__main__':
 		for w in wig.workers:
 			w.kill = True
 		raise
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

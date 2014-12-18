@@ -60,14 +60,13 @@ class RequesterThread(threading.Thread):
 
 
 class Requester(object):
-	def __init__(self, host, cache):
+	def __init__(self, options, data):
 		self.threads = None
 		self.workers = []
-		self.host = host
+		self.host = options['host']
 		self.find_404s = False
 
-		self.cache = cache
-		self.results = Results()
+		self.cache = data['cache']
 		self.queue = queue.Queue()
 		self.requested = queue.Queue()
 

@@ -2,14 +2,15 @@ from classes.color import Color
 
 class Output(object):
 
-	def __init__(self, results, runtime, url_count, fp_count):
-		self.results = results
-		self.color = Color()
+	def __init__(self, options, data):
+		self.results = data['results'].get_results()
+		self.color = data['colorizer']
+
 
 		self.stats = {
-			'runtime':		'Time: %.1f sec' % (runtime, ),
-			'url_count':	'Urls: %s' % (url_count, ),
-			'fp_count':		'Fingerprints: %s' % (fp_count, ),
+			'runtime':		'Time: %.1f sec' % (data['runtime'], ),
+			'url_count':	'Urls: %s' % (data['url_count'], ),
+			'fp_count':		'Fingerprints: %s' % (data['fingerprints'].get_size(), ),
 		}
 
 		self.col_widths =  {1: 0, 2: 0, 3: 0}
@@ -46,9 +47,9 @@ class Output(object):
 		self.seperator = ' | '
 		self.seperator_color = self.color.format(self.seperator, 'blue', True)
 
-		self._set_col_1_width(results)
-		self._set_col_2_width(results)
-		self._set_col_3_width(results)
+		self._set_col_1_width(self.results)
+		self._set_col_2_width(self.results)
+		self._set_col_3_width(self.results)
 
 
 

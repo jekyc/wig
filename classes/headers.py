@@ -1,9 +1,9 @@
 
 class ExtractHeaders(object):
 
-	def __init__(self, cache, results, log=None):
-		self.cache = cache
-		self.results = results
+	def __init__(self, data, log=None):
+		self.cache = data['cache']
+		self.results = data['results']
 		self.log = log
 		self.headers = set()
 		self.category = "Platform"
