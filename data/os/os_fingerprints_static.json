@@ -92,5 +92,91 @@
                 "2003"
             ]
         ]
+    },
+    "ASP.NET":{
+        "1.1.4322": [
+            [
+                "Microsoft Windows Server",
+                "2003"
+            ]
+        ],
+        "2.0.50727": [
+            [
+                "Microsoft Windows Server",
+                "2003"
+            ],
+            [
+                "Microsoft Windows Server",
+                "2008 SP2"
+            ],
+            [
+                "Microsoft Windows Server",
+                "2008 R2"
+            ]
+        ],
+        "4.0.30319": [
+            [
+                "Microsoft Windows Server",
+                "2003"
+            ],
+            [
+                "Microsoft Windows Server",
+                "2008 SP2"
+            ],
+            [
+                "Microsoft Windows Server",
+                "2008 R2"
+            ]
+        ],
+        "4.5": [
+            [
+                "Microsoft Windows Server",
+                "2008 SP2"
+            ],
+            [
+                "Microsoft Windows Server",
+                "2008 R2"
+            ],
+            [
+                "Microsoft Windows Server",
+                "2012"
+            ]
+        ],
+        "4.5.1": [
+            [
+                "Microsoft Windows Server",
+                "2008 SP2"
+            ],
+            [
+                "Microsoft Windows Server",
+                "2008 R2"
+            ],
+            [
+                "Microsoft Windows Server",
+                "2012"
+            ],
+            [
+                "Microsoft Windows Server",
+                "2012 R2"
+            ]
+        ],
+        "4.5.2": [
+            [
+                "Microsoft Windows Server",
+                "2008 SP2"
+            ],
+            [
+                "Microsoft Windows Server",
+                "2008 R2"
+            ],
+            [
+                "Microsoft Windows Server",
+                "2012"
+            ],
+            [
+                "Microsoft Windows Server",
+                "2012 R2"
+            ]
+        ]
     }
 }
