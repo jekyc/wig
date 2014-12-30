@@ -1,0 +1,7 @@
+[
+	{
+		"regex": "modernizr-([\\d\\.?]+)\\.[min\\.]*js",
+		"output": "%s",
+		"code": "any"
+	}
+]
