@@ -82,7 +82,7 @@ optional arguments:
   --no_cache_load  Do not load cached responses
   --no_cache_save  Do not save the cache for later use
   -N               Shortcut for --no_cache_load and --no_cache_save
-  --verbosity, -v  Increase verbosity. Use twice for even more info
+  --verbosity, -v  Increase verbosity. Use multiple times for more info
   -e               Use the built-in list of common files and directories (much
                    like dirbuster). NOT IMPLEMENTED YET
 ```
