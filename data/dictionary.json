@@ -56,5 +56,6 @@
     "wordpress": "WordPress",
     "xoops": "XOOPS",
     "zencart": "Zen Cart",
-    "zenphoto": "Zenphoto"
+    "zenphoto": "Zenphoto",
+    "modernizr": "Modernizr"
 }
