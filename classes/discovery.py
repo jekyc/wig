@@ -188,6 +188,10 @@ class DiscoverOS(object):
 		platforms = self.results.get_platform_results()
 		for pkg in platforms:
 			for version in platforms[pkg]:
+				# hack for asp.net
+				if pkg == 'ASP.NET':
+					version = version[:3] if not version.startswith("4.5") else version[:5]
+
 				score = platforms[pkg][version]
 				try:
 					for i in self.fingerprints[pkg.lower()][version]:
