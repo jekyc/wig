@@ -3,14 +3,14 @@
 		"header": "X-Generator",
 		"regex": "Drupal (\\d) ",
 		"output": "%s",
-		"weight": 0.5,
+		"weight": 0.01,
 		"code": "any"	
 	},
 	{
 		"header": "X-Drupal-Cache",
 		"regex": "(?:HIT|MISS)",
 		"output": "",
-		"weight": 0.1,
+		"weight": 0.01,
 		"code": "any"
 	}
 ]
