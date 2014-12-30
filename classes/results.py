@@ -63,7 +63,6 @@ class Results(object):
 			note = fp['note']
 			self.scores["Interesting"][url][note] += 1
 
-
 		# if the type of the fingerprint is md5, then the we need 
 		# to keep track of how many cms versions have been detected 
 		# the a given URL, as this determines the weight score of
@@ -87,8 +86,13 @@ class Results(object):
 
 	
 	def add(self, category, name, version=None, fingerprint=None, weight=1):
-
+		
 		if fingerprint is not None:
+
+			# overwrite weight if defined in fingerprint
+			if 'weight' in fingerprint:
+				weight = fingerprint['weight']
+
 			# add to the sitemap
 			if 'url' in fingerprint:
 				self.sitemap.add(fingerprint['url'])
@@ -112,7 +116,6 @@ class Results(object):
 		# else add the weight
 		else:
 			self.scores[category][name][version] += weight
-
 
 
 	def set_width(self, width):
