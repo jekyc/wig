@@ -2,11 +2,14 @@
 	{
 		"regex": "<meta name=\"[g|G]enerator\" content=\"Drupal (\\d[.\\d]*)",
 		"output": "%s",
-		"code": "any"
+		"code": "any",
+		"weight": 0.01
 	},
 	{
 		"url": "/CHANGELOG.txt",
 		"regex": "Drupal (\\d[.\\d]*)",
-		"output": "%s"
+		"output": "%s",
+		"note": "Drupal CHANGELOG",
+		"weight": 10
 	}
 ]
