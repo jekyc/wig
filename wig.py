@@ -39,7 +39,7 @@ class Wig(object):
 
 		self.data = {
 			'cache': Cache(),
-			'results': Results(),
+			'results': Results(self.options),
 			'fingerprints': Fingerprints(),
 			'matcher': Match(),
 			'colorizer': c,
@@ -96,20 +96,23 @@ class Wig(object):
 		########################################################################
 		cms_finder = DiscoverCMS(self.options, self.data)
 		version_finder = DiscoverVersion(self.options, self.data)
+		p = self.options['printer']
 
 		# as long as there are more fingerprints to check, and
 		# no cms' have been detected
 		counter = 0
+		p.print('Running CMS detection...' ,1)
 		while not cms_finder.is_done() and (len(self.data['detected_cms']) < self.options['stop_after'] or self.options['run_all']):
 			counter += 1
 
 			# check the next chunk of urls for cms detection
 			cms_list = list(set(cms_finder.run()))
 			for cms in cms_list:
-
+				
 				# skip checking the cms, if it has already been detected
 				if cms in self.data['detected_cms']: continue
 
+				p.print('- Running CMS version detection on %s' % (cms, ) ,2)
 				version_finder.run(cms)
 
 				# if a match was found, then it has been added to the results object
@@ -127,13 +130,13 @@ class Wig(object):
 		DiscoverInteresting(self.options, self.data). run()
 		DiscoverMore(self.options, self.data).run()
 		ExtractHeaders(self.data).run()
-		DiscoverJavaScript(self.data).run()
-		DiscoverUrlLess(self.data).run()
+		DiscoverJavaScript(self.options, self.data).run()
+		DiscoverUrlLess(self.options, self.data).run()
 		
 		if self.options['match_all']:
 			DiscoverAllCMS(self.data).run()
 
-		DiscoverOS(self.data).run()
+		DiscoverOS(self.options, self.data).run()
 
 		if not self.options['no_cache_save']:
 			self.data['cache'].save()

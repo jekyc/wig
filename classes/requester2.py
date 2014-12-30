@@ -116,7 +116,7 @@ class Requester(object):
 			error_pages = queue.Queue()
 			while self.requested.qsize() > 0:
 				_,response = self.requested.get()
-				error_pages.put(response.md5_404)
+				error_pages.put((response.md5_404, response.url))
 
 			return error_pages
 

@@ -5,12 +5,17 @@ from classes.fingerprints import Fingerprints
 from classes.requester2 import Requester
 from classes.matcher import Match
 from classes.request import PageFetcher, Request
+from classes.printer import Printer
+
 
 class DiscoverRedirect(object):
 
 	def __init__(self, options):
 		self.org = options['host']
 		self.url = options['host']
+		self.printer = options['printer']
+
+		self.printer.print('Redirection detection...', 1, '')
 
 		fetcher = PageFetcher(self.url)
 		try:
@@ -28,8 +33,16 @@ class DiscoverRedirect(object):
 					self.url = http + '//' + netloc.split('/')[0] + '/'
 				else:
 					self.url = http + '//' + netloc + '/'
+
 		except:
 			self.url = None
+
+		if self.is_redirected:
+			self.printer.print(' %s redirects to %s' % (self.org, self.url), 2, '')
+		else:
+			self.printer.print(' %s does not redirect' % (self.org, ), 2, '')
+
+		self.printer.print('', 1)		
 
 
 	# check if the host redirects to another location
@@ -53,9 +66,12 @@ class DiscoverErrorPage(object):
 		self.urls = data['fingerprints'].get_error_urls()
 		self.error_pages = set()
 		self.requester = data['requester']
+		self.printer = options['printer']
 
 
 	def run(self):
+		self.printer.print('Error page detection...', 1)
+
 		urls = [ [{'host': self.host, 'url': u}] for u in self.urls ]
 
 		self.requester.set_fingerprints(urls)
@@ -63,8 +79,9 @@ class DiscoverErrorPage(object):
 
 		results = self.requester.run()
 		while results.qsize() > 0:
-			response = results.get()
-			self.error_pages.add(response)
+			md5sum, url = results.get()
+			self.error_pages.add(md5sum)
+			self.printer.print('- Error page fingerprint: %s - %s' % (md5sum, url), 3)
 
 		self.requester.set_find_404(False)
 
@@ -77,13 +94,14 @@ class DiscoverCMS(object):
 
 	def __init__(self, options, data):
 		self.chunk_size = options['chunk_size']
+		self.printer = options['printer']
 		self.matcher = data['matcher']
 		self.requester = data['requester']
 		self.fps = data['fingerprints'].get_ordered_list()
 		self.fps_iter = iter(self.fps)
 		self.index = 0
-
 		
+
 	def is_done(self):
 		return self.index >= len(self.fps)
 
@@ -112,6 +130,7 @@ class DiscoverCMS(object):
 class DiscoverVersion(object):
 	def __init__(self, options, data):
 		self.chunk_size = options['chunk_size']
+		self.printer = options['printer']
 		self.result = data['results']
 		self.matcher = data['matcher']
 		self.requester = data['requester']
@@ -119,6 +138,7 @@ class DiscoverVersion(object):
 
 
 	def run(self, cms):
+		self.printer.print('Version detection...', 1)
 		cs = self.chunk_size
 		fps = self.fingerprints.get_fingerprints_for_cms(cms)
 
@@ -134,9 +154,9 @@ class DiscoverVersion(object):
 					self.result.add_cms(fp)
 
 
-
 class DiscoverOS(object):
-	def __init__(self, data):
+	def __init__(self, options, data):
+		self.printer = options['printer']
 		self.cache = data['cache']
 		self.results = data['results']
 		self.fingerprints = data['fingerprints'].get_os_fingerprints()
@@ -152,13 +172,16 @@ class DiscoverOS(object):
 		headers = response.headers
 		if 'server' in headers:
 			line = headers['server']
+			
 			if "(" in line:
 				os = line[line.find('(')+1:line.find(')')]
 				line = line[:line.find('(')-1] + line[line.find(')')+1: ]
 			else:
 				os = False
 
-			if os: self.oss.append(os.lower())
+			if os:
+				self.oss.append(os.lower())
+				self.printer.print('- OS Family: %s' % (os, ), 4)
 
 			for part in line.split(" "):
 				try:
@@ -182,9 +205,7 @@ class DiscoverOS(object):
 
 
 	def finalize(self):
-		# this might not be stable for items other than php at the moment
-		# recheck this process
-		# changed in order to eliminate the 'X-Powered-by' check here
+		
 		platforms = self.results.get_platform_results()
 		for pkg in platforms:
 			for version in platforms[pkg]:
@@ -192,7 +213,6 @@ class DiscoverOS(object):
 				if pkg == 'ASP.NET':
 					version = version[:3] if not version.startswith("4.5") else version[:5]
 
-				score = platforms[pkg][version]
 				try:
 					for i in self.fingerprints[pkg.lower()][version]:
 						if len(i) == 2:
@@ -202,19 +222,19 @@ class DiscoverOS(object):
 							os, os_version, weight = i
 
 						self.matched_packages.add( (os, os_version, pkg, version) )
-						self.os[(os, os_version)] += score*weight
+						self.os[(os, os_version)] += platforms[pkg][version]*weight
 
 				except Exception as e:
 					pass
 
 		# if an os string 'self.oss' has been found in the header
 		# prioritize the identified os's in self.os
-
 		# iterate over the list of os strings found
 		for os in self.oss:
 			# iterate over the fingerprinted os's
 			for key in self.os:
 				if os in key[0].lower():
+					self.printer.print('- Prioritizing fingerprints for OS: %s' % (key, ), 4)
 					self.os[key] += 100
 
 		# add OS to results: self.os: {(os, version): weight, ...}
@@ -226,16 +246,15 @@ class DiscoverOS(object):
 
 		prio = sorted(results, key=lambda x:x['count'], reverse=True)
 		max_count = prio[0]['count']
-		relevant = []
 		for i in prio:
 			if i['count'] == max_count:
-				if len(relevant) > 0  and i[0] == "": continue
 				self.results.add(self.category, i['os'], i['version'], weight=i['count'])
 			else:
 				break
 
 
 	def run(self):
+		self.printer.print('OS detection...', 1)
 		headers = set()
 		responses = self.cache.get_responses()
 		for response in responses:
@@ -274,6 +293,7 @@ class DiscoverMore(object):
 	def __init__(self, options, data):
 		self.host = options['host']
 		self.threads = options['threads']
+		self.printer = options['printer']
 		self.cache = data['cache']
 		self.result = data['results']
 		self.matcher = data['matcher']
@@ -296,6 +316,7 @@ class DiscoverMore(object):
 
 	
 	def run(self):
+		self.printer.print('Link extraction...', 1, '')
 		resources = set()
 		parser = LinkExtractor(strict=False)
 
@@ -332,7 +353,7 @@ class DiscoverMore(object):
 		# the items in the resource set should mimic a list of fingerprints:
 		# a fingerprint is a dict with at least an URL key
 		urls = [ [{'url':i}] for i in resources ]
-
+		self.printer.print(' Discovered %s new resources' % (len(urls), ), 2, '')
 
 		# fetch the discovered resources.
 		# As this class' purpose only is to fetch the resource (add to cache)
@@ -340,6 +361,9 @@ class DiscoverMore(object):
 		for i in range(0, len(urls), self.threads):
 			self.requester.set_fingerprints( urls[i:i+self.threads] )
 			results = self.requester.run()
+
+		self.printer.print('', 1)
+
 
 
 class DiscoverAllCMS(object):
@@ -361,15 +385,16 @@ class DiscoverAllCMS(object):
 				self.results.add_cms(fp)
 	
 
-
 class DiscoverJavaScript(object):
-	def __init__(self, data):
+	def __init__(self, options, data):
+		self.printer = options['printer']
 		self.cache = data['cache']
 		self.fingerprints = data['fingerprints'].get_js_fingerprints()
 		self.matcher = data['matcher']
 		self.result = data['results']
 
 	def run(self):
+		self.printer.print('Javascript detection...', 1)
 		for response in self.cache.get_responses():
 			
 			# match only if the response is JavaScript
@@ -387,6 +412,7 @@ class DiscoverJavaScript(object):
 
 class DiscoverInteresting(object):
 	def __init__(self, options, data):
+		self.printer = options['printer']
 		self.requester = data['requester']
 		self.interesting = data['fingerprints'].get_interesting_fingerprints()
 		self.matcher = data['matcher']
@@ -395,6 +421,8 @@ class DiscoverInteresting(object):
 		self.category = "Interesting"
 
 	def run(self):
+		self.printer.print('Detecting interesting files...', 1)
+
 		cs = self.threads
 
 		for i in range(0, len(self.interesting), cs):
@@ -415,13 +443,16 @@ class DiscoverInteresting(object):
 
 
 class DiscoverUrlLess(object):
-	def __init__(self, data):
+	def __init__(self, options, data):
+		self.printer = options['printer']
 		self.cache = data['cache']
 		self.fps = data['fingerprints'].get_url_less()
 		self.results = data['results']
 		self.matcher = data['matcher']
 
 	def run(self):
+		self.printer.print('Matching urlless fingerprints...', 1)
+		
 		# find matches for all the responses in the cache
 		for response in self.cache.get_responses():
 			matches = self.matcher.get_result(self.fps, response)

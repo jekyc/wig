@@ -6,9 +6,10 @@ import pprint
 
 class Results(object):
 
-	def __init__(self):
+	def __init__(self, options):
 		self.width = None
 		self.color = Color()
+		self.printer = options['printer']
 		
 		# the storage for 'string' and 'regex' matched fingerprints 
 		# since these don't need extra processing they are added directly 
@@ -61,6 +62,7 @@ class Results(object):
 		if 'note' in fp:
 			url = fp['url']
 			note = fp['note']
+			self.printer.print('- %s: %s' % (note, url), 2)
 			self.scores["Interesting"][url][note] += 1
 
 		# if the type of the fingerprint is md5, then the we need 
@@ -69,6 +71,7 @@ class Results(object):
 		# fingerprint match
 		if fp['type'] == 'md5':
 			self.md5_matches[url][cms].add(ver)
+			matched = fp['md5']
 
 		# if the type is either 'string' or 'regex' then the match show
 		# should be summed with previous matches
@@ -77,6 +80,12 @@ class Results(object):
 		# else if the fingerprint has weights, then this should be used, 
 		# else default to the value 1
 		else:
+			if 'string' in fp:
+				matched = fp['string']
+			elif 'regex' in fp:
+				matched = fp['regex']
+
+
 			if ver == '':
 				self.scores['CMS'][cms][ver] += 0
 			elif 'weight' in fp:
@@ -84,24 +93,49 @@ class Results(object):
 			else:
 				self.scores['CMS'][cms][ver] += 1
 
+		self.printer.print('- Found match: %s - %s %s - %s: %s' % (url, cms, ver, fp['type'], matched), 5)
+		
+
 	
 	def add(self, category, name, version=None, fingerprint=None, weight=1):
-		
+		matched = ''
+		match_type = ''
+		url = ''
+
 		if fingerprint is not None:
 
 			# overwrite weight if defined in fingerprint
 			if 'weight' in fingerprint:
 				weight = fingerprint['weight']
 
+			if 'header' in fingerprint:
+				matched = fingerprint['header'] + ': '
+				match_type = 'header/'
+			
+			if 'string' in fingerprint:
+				matched += fingerprint['string']
+				match_type += 'string'
+			elif 'regex' in fingerprint:
+				matched += fingerprint['regex']
+				match_type += 'regex'
+			elif 'md5' in fingerprint:
+				matched += fingerprint['md5']
+				match_type += 'md5'
+
 			# add to the sitemap
 			if 'url' in fingerprint:
 				self.sitemap.add(fingerprint['url'])
+				url = fingerprint['url']
+			else:
+				url = ''
 
 			# add note if present
 			if 'note' in fingerprint:
-				url = fingerprint['url']
 				note = fingerprint['note']
+				self.printer.print('- %s: %s' % (note, url), 2)
 				self.scores["Interesting"][url][note] += weight
+
+		self.printer.print('- Found match: %s - %s %s - %s: %s' % (url, name, version, match_type, matched), 5)
 
 		# if there has been no version detection (interesting file discovery)
 		# skip adding the versions to the scores
@@ -134,14 +168,19 @@ class Results(object):
 		self._calc_md5_score()
 
 		results = {}
+		self.printer.print('Results:', 2)
 		for category in self.scores:
 			if category not in results: results[category] = {}
 			
-			for plugin in sorted(self.scores[category]):	
+			for plugin in sorted(self.scores[category]):
 				v = self.scores[category][plugin]
-				versions = sorted(v.items(), key=lambda x:x[1], reverse=True)
-				relevant = sorted(i[0] for i in versions if i[1] == versions[0][1])
 
+				versions = sorted(v.items(), key=lambda x:x[1], reverse=True)
+				
+				for i in versions:
+					self.printer.print('- %s: %s - Version: %s [%s]' % (category, plugin, i[0], i[1]), 2)
+
+				relevant = sorted(i[0] for i in versions if i[1] == versions[0][1])
 				results[category][plugin] = relevant
 
 		return results
