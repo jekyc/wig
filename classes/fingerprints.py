@@ -142,28 +142,30 @@ class Fingerprints(object):
 
 
 	def _load_js(self):
-		path = 'data/js/md5'
+		paths = {'md5': 'data/js/md5', 'regex':'data/js/regex'}
 		category = 'JavaScript Libraries'
 
-		for f in os.listdir(path):
-			try:
-				# only load json files
-				if not len(f.split('.')) == 2: continue
-				name,ext = f.split('.')
-				if not ext == 'json': continue
+		for fp_type in paths:
+			path = paths[fp_type]
+			for f in os.listdir(path):
+				try:
+					# only load json files
+					if not len(f.split('.')) == 2: continue
+					name,ext = f.split('.')
+					if not ext == 'json': continue
 
-				name = self.translator[name]
-				with open(data_file) as fh:
-					items = json.load(fh)
-					for item in items:
-						self.count += 1
-						item['name'], item['type'] = name, 'md5'
-						item['category'] = category
-						self.js_fingerprints.append(item)
-						self.url_less.append(item)
+					name = self.translator[name]
+					with open(os.path.join(path, f)) as fh:
+						items = json.load(fh)
+						for item in items:
+							self.count += 1
+							item['name'], item['type'] = name, fp_type
+							item['category'] = category
+							self.js_fingerprints.append(item)
+							self.url_less.append(item)
 								
-			except Exception as e:
-				continue
+				except Exception as e:
+					continue
 
 
 	def create_ordered_list(self):
