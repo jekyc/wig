@@ -99,7 +99,7 @@ class Match(object):
 
 		matches = re.findall(regex, response.body)
 		if len(matches):
-			if not output == "":
+			if "%" in output:
 				copy['output'] = output % matches[0]
 			
 			return copy
