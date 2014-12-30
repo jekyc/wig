@@ -1,7 +1,7 @@
 [
 	{
 		"header": "EPiServerLoginScreen",
-		"regex": "(true)",
+		"string": "(true)",
 		"output": "6.0",
 		"code": "any"
 	},
@@ -19,7 +19,7 @@
 	},
 	{
 		"header": "X-EPiLogOnScreen",
-		"regex": "(true)",
+		"string": "(true)",
 		"output": "7",
 		"code": "any"
 	},
@@ -31,7 +31,7 @@
 	},
 	{
 		"header": "Set-Cookie",
-		"regex": "(epiXSRF)",
+		"string": "(epiXSRF)",
 		"output": "7",
 		"code": "any"
 	}
