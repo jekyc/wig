@@ -490,6 +490,31 @@
           "url": "/themes/default-bootstrap/css/global.css"
      },
      {
+          "md5": "3660ca3e6d19782ec73265c12e7001dc",
+          "output": "1.6.0.11",
+          "url": "/img/logo.jpg"
+     },
+     {
+          "md5": "7ad7e4030d0fd557bff90b60e2531761",
+          "output": "1.6.0.11",
+          "url": "/js/admin.js"
+     },
+     {
+          "md5": "38a0dd6b354598abe5a7ab7ae0bc103d",
+          "output": "1.6.0.11",
+          "url": "/js/price.js"
+     },
+     {
+          "md5": "cb59615f63af15dba18d0bd06048b0e5",
+          "output": "1.6.0.11",
+          "url": "/js/admin-dnd.js"
+     },
+     {
+          "md5": "0dbdbbcef3ead2c7610dbe7991c230f4",
+          "output": "1.6.0.11",
+          "url": "/themes/default-bootstrap/css/global.css"
+     },
+     {
           "md5": "3074c3c5fb7f6a2b17f59bdd5a608d52",
           "output": "1.6.0.2",
           "url": "/img/logo.jpg"

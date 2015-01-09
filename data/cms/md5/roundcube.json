@@ -900,6 +900,96 @@
           "url": "/skins/larry/ui.js"
      },
      {
+          "md5": "1f1f667b3b7f23034726748035e2c333",
+          "output": "1.1-rc",
+          "url": "/plugins/acl/acl.js"
+     },
+     {
+          "md5": "0641cdb9bbca5ecc9b47b76df4813741",
+          "output": "1.1-rc",
+          "url": "/plugins/archive/archive.js"
+     },
+     {
+          "md5": "c64f5bb145a7194f799ef65ba4d0266a",
+          "output": "1.1-rc",
+          "url": "/plugins/managesieve/managesieve.js"
+     },
+     {
+          "md5": "e7545ca0b5c31a4c9f71a78bf6186bb3",
+          "output": "1.1-rc",
+          "url": "/plugins/password/password.js"
+     },
+     {
+          "md5": "6a787e57328affadfa9d78fc1c20175d",
+          "output": "1.1-rc",
+          "url": "/plugins/zipdownload/skins/larry/zipdownload.css"
+     },
+     {
+          "md5": "4bae28c0a61c0d1275895123e65d2801",
+          "output": "1.1-rc",
+          "url": "/program/js/app.js"
+     },
+     {
+          "md5": "101d42167feb8ad65bc39a53049f72dc",
+          "output": "1.1-rc",
+          "url": "/program/js/common.js"
+     },
+     {
+          "md5": "ef2100c3d607d519ef5419f481e2a083",
+          "output": "1.1-rc",
+          "url": "/program/js/editor.js"
+     },
+     {
+          "md5": "7b3773e5c57728751c18cdfd6e391786",
+          "output": "1.1-rc",
+          "url": "/program/js/googiespell.js"
+     },
+     {
+          "md5": "54bb9b664931ec17caefa1caf35ee203",
+          "output": "1.1-rc",
+          "url": "/program/js/jstz.min.js"
+     },
+     {
+          "md5": "9cb8794c7bae9404a073f371b683738d",
+          "output": "1.1-rc",
+          "url": "/program/js/list.js"
+     },
+     {
+          "md5": "ba9e4b1dfef345d7a8bdba7e36ae2587",
+          "output": "1.1-rc",
+          "url": "/skins/classic/common.css"
+     },
+     {
+          "md5": "83e04ed5cac4fb66e1cedf83877de106",
+          "output": "1.1-rc",
+          "url": "/skins/classic/functions.js"
+     },
+     {
+          "md5": "d5440c968f7dcf9edf78b1879b76ffe8",
+          "output": "1.1-rc",
+          "url": "/skins/classic/mail.css"
+     },
+     {
+          "md5": "c344bf2b813693240b327482466dda95",
+          "output": "1.1-rc",
+          "url": "/skins/larry/images/roundcube_logo.png"
+     },
+     {
+          "md5": "3002a340a0524dffced63debefa7b6bb",
+          "output": "1.1-rc",
+          "url": "/skins/larry/mail.css"
+     },
+     {
+          "md5": "fc392b579c185610db6ffcc28c7f2354",
+          "output": "1.1-rc",
+          "url": "/skins/larry/styles.css"
+     },
+     {
+          "md5": "fcf821a7b1bda954fb8c61ef57d770a3",
+          "output": "1.1-rc",
+          "url": "/skins/larry/ui.js"
+     },
+     {
           "md5": "0b72d490a9d56e19876b934da3534807",
           "output": "v0.1-beta2",
           "url": "/program/js/app.js"
