@@ -27,6 +27,9 @@ class Cache(queue.Queue):
 		# (currently this is set for 24 hours)
 		self.cache_ttl = 60*60*24
 
+		# check if cache dir exists - create if not
+		self._check_or_create_cache()
+
 		# check if there are caches that are older than ttl
 		self._remove_old_caches()
 
@@ -43,6 +46,11 @@ class Cache(queue.Queue):
 	def __contains__(self, url):
 		with self.mutex:
 			return url in self.queue
+
+
+	def _check_or_create_cache(self):
+		if not os.path.exists(self.cache_dir):
+			os.makedirs(self.cache_dir)
 
 
 	def _remove_old_caches(self):
