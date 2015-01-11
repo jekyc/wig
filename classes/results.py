@@ -176,6 +176,11 @@ class Results(object):
 				v = self.scores[category][plugin]
 
 				versions = sorted(v.items(), key=lambda x:x[1], reverse=True)
+
+				# hack for umbraco output - remove '[r|R]elease-' to minimize output 
+				if category == 'CMS':
+					versions = [(v[0].replace('release-', ''), v[1]) for v in versions]
+					versions = [(v[0].replace('Release-', ''), v[1]) for v in versions]
 				
 				for i in versions:
 					self.printer.print('- %s: %s - Version: %s [%s]' % (category, plugin, i[0], i[1]), 2)

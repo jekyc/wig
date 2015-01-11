@@ -170,13 +170,14 @@ class Fingerprints(object):
 
 	def create_ordered_list(self):
 		
-		# list of fp with unique urls
 		seen_urls = set()
 		fp_unique_urls = []
 		for fp in self.all: 
 			if fp['url'] not in seen_urls:
 				fp_unique_urls.append(fp)
 				seen_urls.add(fp['url'])
+
+		# ---------------------------------------
 
 		# count the max number of urls for the cms
 		count = defaultdict(set)
