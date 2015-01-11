@@ -109,9 +109,7 @@ class Fingerprints(object):
 						name = self.translator[name]
 						with open(data_file) as fh:
 							for fp in json.load(fh):
-								print('org: ' + fp['output'])
 								fp['output'] = self._replace_version_text(fp['output'])
-								print('mod: ' + fp['output'])
 
 								fp['type'] = data_dir
 								fp['cms']  = name
