@@ -16,5 +16,13 @@
 		"string": "    DJANGO Admin styles",
 		"output": "",
 		"weight": 0.1
+	},
+	{
+		"url": "/static/admin/css/base.css",
+		"string": "your Django settings file. Change that to <code>False</code>, and Django",
+		"output": "",
+		"weight": 0.1,
+		"code": 404,
+		"note": "Django debugging enabled"
 	}
 ]
