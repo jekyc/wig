@@ -127,7 +127,7 @@ class Wig(object):
 		########################################################################
 
 		# find interesting files
-		DiscoverInteresting(self.options, self.data). run()
+		DiscoverInteresting(self.options, self.data).run()
 		DiscoverMore(self.options, self.data).run()
 		ExtractHeaders(self.data).run()
 		DiscoverJavaScript(self.options, self.data).run()
@@ -173,7 +173,7 @@ if __name__ == '__main__':
 	parser.add_argument('-N', action='store_true', dest='no_cache', default=False,
 						help='Shortcut for --no_cache_load and --no_cache_save')
 
-	parser.add_argument('--verbosity', '-v', action='count', help='Increase verbosity. Use twice for even more info')
+	parser.add_argument('--verbosity', '-v', action='count', help='Increase verbosity. Use multiple times for more info')
 
 	parser.add_argument('-e',   action='store_true', dest='enumerate', default=False,
 						help='Use the built-in list of common files and directories (much like dirbuster). NOT IMPLEMENTED YET')
