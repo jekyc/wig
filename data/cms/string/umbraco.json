@@ -1,0 +1,50 @@
+[
+	{
+		"url": "/random_file_name_14123432099.aspx",
+		"string": "<p>This page can be replaced with a custom 404. Check the documentation for \"custom 404\".</p><p style=\"border-top: 1px solid #ccc; padding-top: 10px\"><small>This page is intentionally left ugly ;-)</small></p></body></html>",
+		"output": "",
+		"weight": 1,
+		"code": "any",
+		"note": "Umbraco default error page"
+	},
+	{
+		"url": "/umbraco/login.aspx",
+		"string": "<a href=\"http://umbraco.org\" style=\"text-decoration: none\" target=\"_blank\">umbraco.org</a> </small>",
+		"output": "",
+		"weight": 1,
+		"note": "Umbraco administrator login"
+	},
+	{
+		"url": "/umbraco/webService.asmx",
+		"string": "<link rel=\"alternate\" type=\"text/xml\" href=\"/umbraco/webService.asmx?disco\" />",
+		"output": "",
+		"weight": 1,
+		"note": "Umbraco webservices"
+	},
+	{
+		"url": "/umbraco/ping.aspx",
+		"string": "I'm alive!",
+		"output": "",
+		"weight": 1
+	},
+	{
+		"url": "/umbraco/dialogs/empty.htm",
+		"string": "<title>Umbraco - empty document</title>",
+		"output": "",
+		"weight": 1
+	},
+	{
+		"url": "/umbraco/channels/wlwmanifest.aspx",
+		"string": "<default>WebLayout</default>",
+		"output": "",
+		"weight": 1,
+		"note": "Umbraco manifest file"
+	},
+	{
+		"url": "/umbraco/channels/rsd.aspx",
+		"string": "<engineName>umbraco</engineName>",
+		"output": "",
+		"weight": 1,
+		"note": "Umbraco rsd file"
+	}
+]
