@@ -1,4 +1,4 @@
-import json,os, sys, pprint
+import json,os, sys, pprint, re
 from collections import defaultdict
 
 
@@ -37,6 +37,21 @@ class Fingerprints(object):
 		
 		self.create_ordered_list()
 		
+
+	def _replace_version_text(self, text):
+		# replace text in version output with something else
+		# (most likely an emtpy string) to improve output
+		text = re.sub('^wmf/', '', text)
+		text = re.sub('^develsnap_', '', text)
+		text = re.sub('^release_candidate_', '', text)
+		text = re.sub('^release_stable_', '', text)
+		text = re.sub('^[r|R]elease[-|_]', '', text)	# Umbraco
+		text = re.sub('^[R|r][E|e][L|l]_', '', text)				
+		text = re.sub('^mt', '', text)				# Movable Type
+		text = re.sub('^mybb_', '', text)			# myBB
+
+		return text
+
 
 	def _load_dictionary(self):
 		path = 'data/dictionary.json'
@@ -94,6 +109,10 @@ class Fingerprints(object):
 						name = self.translator[name]
 						with open(data_file) as fh:
 							for fp in json.load(fh):
+								print('org: ' + fp['output'])
+								fp['output'] = self._replace_version_text(fp['output'])
+								print('mod: ' + fp['output'])
+
 								fp['type'] = data_dir
 								fp['cms']  = name
 								fp['category'] = category
