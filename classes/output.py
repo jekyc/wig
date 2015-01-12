@@ -51,7 +51,9 @@ class Output(object):
 		self._set_col_2_width(self.results)
 		self._set_col_3_width(self.results)
 
-
+		self.ip = data['results'].site_info['ip']
+		self.title = data['results'].site_info['title']
+		self.cookies = data['results'].site_info['cookies']
 
 
 	def _find_section_index(self, section):
@@ -126,10 +128,19 @@ class Output(object):
 
 		return out
 
+
+
 	
 	def get_results(self):
 		
-		out = ''
+		out  = '\n'
+		out += self.color.format('TITLE    ', 'blue', True) + '\n' + self.title + '\n\n'
+		
+		if self.cookies:
+			out += self.color.format('COOKIES  ', 'blue', True) + '\n' + ', '.join(list(self.cookies)) + '\n\n'
+	
+		out += self.color.format('IP       ', 'blue', True) + '\n' + self.ip + '\n\n'
+
 		for section in ['version', 'interesting']:
 
 			tmp = ''

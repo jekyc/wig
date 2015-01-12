@@ -27,6 +27,11 @@ class Results(object):
 
 		self.sitemap = Sitemap()
 
+		self.site_info = {
+			'ip': '',
+			'title': '',
+			'cookies': ''
+		}
 
 	def _calc_md5_score(self):
 
@@ -154,6 +159,18 @@ class Results(object):
 
 	def set_width(self, width):
 		self.width = width
+
+
+	def set_ip(self, ip):
+		self.site_info['ip'] = ip
+
+
+	def set_title(self, title):
+		self.site_info['title'] = title
+
+
+	def set_cookies(self, cookies):
+		self.site_info['cookies'] = cookies
 
 
 	def get_sitemap(self):

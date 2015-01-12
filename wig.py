@@ -6,6 +6,7 @@ from classes.color import Color
 from classes.cache import Cache
 from classes.results import Results
 from classes.fingerprints import Fingerprints
+from classes.discovery import DiscoverTitle, DiscoverIP, DiscoverCookies
 from classes.discovery import DiscoverCMS, DiscoverVersion
 from classes.discovery import DiscoverOS, DiscoverJavaScript, DiscoverAllCMS
 from classes.discovery import DiscoverRedirect, DiscoverErrorPage, DiscoverMore
@@ -44,8 +45,9 @@ class Wig(object):
 			'matcher': Match(),
 			'colorizer': c,
 			'detected_cms': set(),
-			'error_pages': set()
+			'error_pages': set(),
 		}
+
 
 	def run(self):
 		
@@ -54,7 +56,7 @@ class Wig(object):
 		########################################################################
 
 		# check if the input URL redirects to somewhere else
-		dr = DiscoverRedirect(self.options)
+		dr = DiscoverRedirect(self.options, self.data)
 
 		# make sure that the input is valid
 		if dr.get_valid_url() is None:
@@ -90,6 +92,13 @@ class Wig(object):
 
 		# create a matcher
 		self.data['matcher'].set_404s(self.data['error_pages'])
+
+		# set site into
+		ip = DiscoverIP(self.options['host']).run()
+		self.data['results'].set_ip(ip)
+
+		title = DiscoverTitle(self.options, self.data).run()
+		self.data['results'].set_title(title)
 
 		########################################################################
 		# PROCESSING
@@ -138,6 +147,9 @@ class Wig(object):
 
 		DiscoverOS(self.options, self.data).run()
 
+		cookies = DiscoverCookies(self.data).run()
+		self.data['results'].set_cookies(cookies)
+
 		if not self.options['no_cache_save']:
 			self.data['cache'].save()
 	
@@ -147,8 +159,8 @@ class Wig(object):
 		self.data['runtime'] = time.time() - self.data['timer']
 		self.data['url_count'] = self.data['cache'].get_num_urls()
 
-		o = Output(self.options, self.data)
-		print(o.get_results())
+		outputter = Output(self.options, self.data)
+		print(outputter.get_results())
 
 
 if __name__ == '__main__':

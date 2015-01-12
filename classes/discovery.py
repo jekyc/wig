@@ -1,4 +1,4 @@
-import re, hashlib, pprint
+import re, hashlib, pprint, socket
 from collections import Counter
 from html.parser import HTMLParser
 from classes.fingerprints import Fingerprints
@@ -10,7 +10,7 @@ from classes.printer import Printer
 
 class DiscoverRedirect(object):
 
-	def __init__(self, options):
+	def __init__(self, options, data):
 		self.org = options['host']
 		self.url = options['host']
 		self.printer = options['printer']
@@ -20,7 +20,13 @@ class DiscoverRedirect(object):
 		fetcher = PageFetcher(self.url)
 		try:
 			r = fetcher.get()
-			request_url = r.get_url() 
+			request_url = r.get_url()
+
+			# add to cache
+			data['cache'][fetcher.url] = r
+			data['cache'][request_url] = r
+			for request in r.history:
+				data['cache'][request.get_url()] = r
 
 			if not request_url == self.url:
 				# ensure that folders and files are removed
@@ -34,8 +40,9 @@ class DiscoverRedirect(object):
 				else:
 					self.url = http + '//' + netloc + '/'
 
-		except:
+		except Exception as e:
 			self.url = None
+
 
 		if self.is_redirected:
 			self.printer.print(' %s redirects to %s' % (self.org, self.url), 2, '')
@@ -52,6 +59,57 @@ class DiscoverRedirect(object):
 	# return a cleaned URL
 	def get_valid_url(self):
 		return self.url
+
+
+class DiscoverIP(object):
+
+	def __init__(self, path):
+		self.path = path
+
+	def run(self):
+		try:
+			hostname = self.path.split('//')[1]
+			hostname = hostname.split('/')[0]
+			ip = socket.gethostbyname(hostname)
+		except Exception as e:
+			print(e)
+			ip = 'Unknown'
+
+		return ip
+
+
+class DiscoverTitle(object):
+
+	def __init__(self, options, data):
+		self.data = data
+		self.url = options['host']
+
+	def run(self):
+		front_page = self.data['cache'][self.url]
+		try:
+			title = re.findall('<title>\s*(.*)\s*</title>', front_page.body)[0]
+			title = title.strip()
+		except:
+			title = ''
+
+		return title
+
+
+class DiscoverCookies(object):
+
+	def __init__(self, data):
+		self.data = data
+
+	def run(self):
+		cookies = set()
+		for r in self.data['cache'].get_responses():
+			try:
+				c = r.headers['set-cookie']
+				cookies.add(c.strip().split('=')[0])
+			except:
+				pass
+
+		return cookies
 
 
 

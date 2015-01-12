@@ -85,6 +85,7 @@ class Requester(object):
 	def set_find_404(self, find_404s):
 		self.find_404s = find_404s
 
+
 	def run(self):
 
 		for fp_list in self.fps:

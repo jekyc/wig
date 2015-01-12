@@ -108,7 +108,8 @@ class Fingerprints(object):
 						# add the fingerprints to the fingerprint storage
 						name = self.translator[name]
 						with open(data_file) as fh:
-							for fp in json.load(fh):
+							json_data = json.load(fh) 
+							for fp in json_data:
 								fp['output'] = self._replace_version_text(fp['output'])
 
 								fp['type'] = data_dir
@@ -153,6 +154,7 @@ class Fingerprints(object):
 									data[1],
 									1 if len(data) == 2 else data[2]
 								))
+					del item
 
 			except Exception as e:
 				continue
@@ -194,7 +196,7 @@ class Fingerprints(object):
 				fp_unique_urls.append(fp)
 				seen_urls.add(fp['url'])
 
-		# ---------------------------------------
+		del seen_urls
 
 		# count the max number of urls for the cms
 		count = defaultdict(set)
@@ -202,6 +204,7 @@ class Fingerprints(object):
 			count[fp['cms']].add( fp['url'] )
 
 		max_number_urls = max( [len(count[i]) for i in count] )
+		del count
 
 		# create a matrix of names vs fps
 		# [
@@ -225,6 +228,8 @@ class Fingerprints(object):
 				except:
 					pass
 
+		del matrix
+
 		# collect all urls for each fp
 		# crappy O(n^2) implementation - should be redone at some point
 		out = []
@@ -233,6 +238,7 @@ class Fingerprints(object):
 			out.append( [fp for fp in self.all if fp['url'] == url] )
 
 		self.ordered = out
+		del out
 
 
 	# this returns the raw list of fingerprints
