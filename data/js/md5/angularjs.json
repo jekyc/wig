@@ -166,5 +166,21 @@
      {
           "md5": "eeefd310d11dfd032621c06917e7d7fa",
           "output": "1.3.5"
+     },
+     {
+          "md5": "44633ce20bcd420672971716aea260b5",
+          "output": "1.3.9"
+     },
+     {
+          "md5": "6a7688284ec564db3d40fdde9690d2c8",
+          "output": "1.3.7"
+     },
+     {
+          "md5": "c5135af99d2b3ad249473e6ded1dfb61",
+          "output": "1.3.8"
+     },
+     {
+          "md5": "fa392f1d76ff2c33fd9dde1aab24eedd",
+          "output": "1.3.6"
      }
 ]
