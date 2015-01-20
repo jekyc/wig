@@ -45,7 +45,7 @@ class Fingerprints(object):
 		text = re.sub('^develsnap_', '', text)
 		text = re.sub('^release_candidate_', '', text)
 		text = re.sub('^release_stable_', '', text)
-		text = re.sub('^[r|R]elease[-|_]', '', text)	# Umbraco
+		text = re.sub('^(?i)release[-|_]', '', text)	# Umbraco, phpmyadmin
 		text = re.sub('^[R|r][E|e][L|l]_', '', text)				
 		text = re.sub('^mt', '', text)				# Movable Type
 		text = re.sub('^mybb_', '', text)			# myBB
