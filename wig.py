@@ -204,6 +204,17 @@ if __name__ == '__main__':
 
 
 	try:
+		title = """
+dP   dP   dP    dP     .88888.  
+88   88   88    88    d8'   `88 
+88  .8P  .8P    88    88        
+88  d8'  d8'    88    88   YP88 
+88.d8P8.d8P     88    Y8.   .88 
+8888' Y88'      dP     `88888'  
+
+  WebApp Information Gatherer
+"""
+		print(title)
 		wig = Wig(args.host, verbosity, args.stop_after, args.run_all, args.match_all, args.no_cache_load, args.no_cache_save)
 		wig.run()
 	except KeyboardInterrupt:
