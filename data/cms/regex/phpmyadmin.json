@@ -1,31 +1,35 @@
 [
 	{
-		"url": "/Documentation.txt",
+		"url": "/phpmyadmin/Documentation.txt",
 		"regex": "phpMyAdmin (\\d[\\.\\d\\d?]*) Documentation",
 		"output": "%s",
-		"note": "phpMyAdmin Documentation page"		
-
+		"note": "phpMyAdmin Documentation page",
+		"weight": 10
 	},
 	{
-		"url": "/Documentation.html",
+		"url": "/phpmyadmin/Documentation.html",
 		"regex": "phpMyAdmin (\\d[\\.\\d\\d?]*) - Documentation",
 		"output": "%s",
-		"note": "phpMyAdmin Documentation page"		
+		"note": "phpMyAdmin Documentation page",
+		"weight": 10
 	},
 	{
-		"url": "/README",
+		"url": "/phpmyadmin/README",
 		"regex": "\\sVersion (\\d[\\.\\d\\d?]*)",
 		"output": "%s",
-		"note": "phpMyAdmin readme"
+		"note": "phpMyAdmin readme",
+		"weight": 10
 	},
 	{
-		"url": "/translators.html",
+		"url": "/phpmyadmin/translators.html",
 		"regex": "phpMyAdmin (\\d[\\.\\d\\d?]*) - Official translators",
-		"output": "%s"
+		"output": "%s",
+		"weight": 10
 	},
 	{
-		"url": "/js/messages.php",
+		"url": "/phpmyadmin/js/messages.php",
 		"regex": "var pmaversion = '(\\d[\\.\\d\\d?]*)';",
-		"output": "%s"
+		"output": "%s",
+		"weight": 10
 	}
 ]

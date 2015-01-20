@@ -17,5 +17,12 @@
 		"output": "",
 		"weight": 0.1,
 		"note": "PHPMyAdmin page"
+	},
+	{
+		"url": "/phpmyadmin/setup/index.php",
+		"string": "php</span><span class=\"orange\">MyAdmin</span>  setup</h1>",
+		"output": "",
+		"weight": 0.1,
+		"note": "PHPMyAdmin setup page"
 	}
 ]
