@@ -72,7 +72,7 @@ class DiscoverIP(object):
 			hostname = hostname.split('/')[0]
 			ip = socket.gethostbyname(hostname)
 		except Exception as e:
-			print(e)
+			#print(e)
 			ip = 'Unknown'
 
 		return ip
@@ -222,7 +222,7 @@ class DiscoverOS(object):
 		self.category = "Operating System"
 		self.os = Counter()
 		self.packages = Counter()
-		self.oss = []
+		self.oss = set()
 		self.matched_packages = set()
 
 
@@ -238,7 +238,7 @@ class DiscoverOS(object):
 				os = False
 
 			if os:
-				self.oss.append(os.lower())
+				self.oss.add(os.lower())
 				self.printer.print('- OS Family: %s' % (os, ), 4)
 
 			for part in line.split(" "):
