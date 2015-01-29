@@ -37,7 +37,7 @@
 		"string": "<label for=\"rcmloginuser\">Username</label>",
 		"output": "",
 		"weight": 0.1
-	}
+	},
 	{
 		"url": "/mail/",
 		"string": "<label for=\"rcmloginuser\">Username</label>",

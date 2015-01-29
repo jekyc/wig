@@ -39,10 +39,31 @@
 		"note": "Drupal administration page"
 	},
 	{
+		"url": "/admin",
+		"string": "<div class=\"block block-theme\"><form action=\"/admin\"  accept-charset=\"UTF-8\" method=\"post\" id=\"search-theme-form\">",
+		"output": "",
+		"weight": 0.1,
+		"note": "Drupal administration page"
+	},
+	{
 		"url": "/user",
 		"string": "<form action=\"/user\"  accept-charset=\"UTF-8\" method=\"post\" id=\"user-login\">",
 		"output": "",
 		"weight": 0.1,
 		"note": "Drupal user account page"
+	},
+	{
+		"url": "/install.php",
+		"string": "<title>Drupal already installed | Drupal</title>",
+		"output": "7",
+		"weight": 1,
+		"note": "Drupal installation file"
+	},
+	{
+		"url": "/update.php",
+		"string": "<code>$update_free_access = FALSE;</code>.",
+		"output": "",
+		"weight": 0.1,
+		"note": "Drupal update file"
 	}
 ]
