@@ -2670,6 +2670,136 @@
           "url": "/docs/CHANGELOG.html"
      },
      {
+          "md5": "acaea89d4118e7ac9209b597947970a4",
+          "output": "release-3.0.13",
+          "url": "/styles/prosilver/theme/tweaks.css"
+     },
+     {
+          "md5": "51b4c450d888c56160a95d6cdc6a01eb",
+          "output": "release-3.0.13",
+          "url": "/adm/style/admin.css"
+     },
+     {
+          "md5": "1198cc5b195ca9a166e3d7f335c29c7f",
+          "output": "release-3.0.13",
+          "url": "/styles/subsilver2/theme/stylesheet.css"
+     },
+     {
+          "md5": "468c883e80eb2c8f389bcbd3d7761bd3",
+          "output": "release-3.0.13",
+          "url": "/adm/style/editor.js"
+     },
+     {
+          "md5": "ea42efcb642ec582809df045880685fc",
+          "output": "release-3.0.13",
+          "url": "/styles/prosilver/template/editor.js"
+     },
+     {
+          "md5": "cb3e4abc0d411118b6dfd208bbdb5528",
+          "output": "release-3.0.13",
+          "url": "/styles/prosilver/template/forum_fn.js"
+     },
+     {
+          "md5": "eb911c685010ab14d7b0a36c60319ee3",
+          "output": "release-3.0.13",
+          "url": "/language/en/email/user_welcome_inactive.txt"
+     },
+     {
+          "md5": "f4f7a1cab3528d511e1da1f5a22ae346",
+          "output": "release-3.0.13",
+          "url": "/language/en/email/user_resend_inactive.txt"
+     },
+     {
+          "md5": "cea2cf7c68ea476006f29d9767c116eb",
+          "output": "release-3.0.13",
+          "url": "/language/en/email/topic_notify.txt"
+     },
+     {
+          "md5": "f2ed7f634fa7f2b0d6510859771f8c5d",
+          "output": "release-3.0.13",
+          "url": "/language/en/email/newtopic_notify.txt"
+     },
+     {
+          "md5": "39c68ab9987f561eac6fe36a1f4a169e",
+          "output": "release-3.0.13",
+          "url": "/docs/README.html"
+     },
+     {
+          "md5": "999a887b3ac86bc7c95e93ea5fadfbd7",
+          "output": "release-3.0.13",
+          "url": "/docs/INSTALL.html"
+     },
+     {
+          "md5": "26fae79f681025691d80da37cf789006",
+          "output": "release-3.0.13",
+          "url": "/docs/CHANGELOG.html"
+     },
+     {
+          "md5": "acaea89d4118e7ac9209b597947970a4",
+          "output": "release-3.0.13-RC1",
+          "url": "/styles/prosilver/theme/tweaks.css"
+     },
+     {
+          "md5": "51b4c450d888c56160a95d6cdc6a01eb",
+          "output": "release-3.0.13-RC1",
+          "url": "/adm/style/admin.css"
+     },
+     {
+          "md5": "1198cc5b195ca9a166e3d7f335c29c7f",
+          "output": "release-3.0.13-RC1",
+          "url": "/styles/subsilver2/theme/stylesheet.css"
+     },
+     {
+          "md5": "468c883e80eb2c8f389bcbd3d7761bd3",
+          "output": "release-3.0.13-RC1",
+          "url": "/adm/style/editor.js"
+     },
+     {
+          "md5": "ea42efcb642ec582809df045880685fc",
+          "output": "release-3.0.13-RC1",
+          "url": "/styles/prosilver/template/editor.js"
+     },
+     {
+          "md5": "cb3e4abc0d411118b6dfd208bbdb5528",
+          "output": "release-3.0.13-RC1",
+          "url": "/styles/prosilver/template/forum_fn.js"
+     },
+     {
+          "md5": "eb911c685010ab14d7b0a36c60319ee3",
+          "output": "release-3.0.13-RC1",
+          "url": "/language/en/email/user_welcome_inactive.txt"
+     },
+     {
+          "md5": "f4f7a1cab3528d511e1da1f5a22ae346",
+          "output": "release-3.0.13-RC1",
+          "url": "/language/en/email/user_resend_inactive.txt"
+     },
+     {
+          "md5": "cea2cf7c68ea476006f29d9767c116eb",
+          "output": "release-3.0.13-RC1",
+          "url": "/language/en/email/topic_notify.txt"
+     },
+     {
+          "md5": "f2ed7f634fa7f2b0d6510859771f8c5d",
+          "output": "release-3.0.13-RC1",
+          "url": "/language/en/email/newtopic_notify.txt"
+     },
+     {
+          "md5": "39c68ab9987f561eac6fe36a1f4a169e",
+          "output": "release-3.0.13-RC1",
+          "url": "/docs/README.html"
+     },
+     {
+          "md5": "999a887b3ac86bc7c95e93ea5fadfbd7",
+          "output": "release-3.0.13-RC1",
+          "url": "/docs/INSTALL.html"
+     },
+     {
+          "md5": "9c43e59445d23211a9e5aaf7c29a7064",
+          "output": "release-3.0.13-RC1",
+          "url": "/docs/CHANGELOG.html"
+     },
+     {
           "md5": "ec309fe3422cca61bfea68cf7f4fc978",
           "output": "release-3.0.2",
           "url": "/styles/prosilver/theme/tweaks.css"

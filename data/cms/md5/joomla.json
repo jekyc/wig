@@ -6240,6 +6240,106 @@
           "url": "/README.txt"
      },
      {
+          "md5": "4fae47f3c98248c9643ac62326565788",
+          "output": "3.4.0-beta1",
+          "url": "/administrator/templates/isis/css/template.css"
+     },
+     {
+          "md5": "13fe63ab5413609346e1fd9999cbdef7",
+          "output": "3.4.0-beta1",
+          "url": "/administrator/templates/hathor/css/template.css"
+     },
+     {
+          "md5": "cac6bb23f244777bcd7f1b889074ff0e",
+          "output": "3.4.0-beta1",
+          "url": "/administrator/templates/hathor/css/colour_brown.css"
+     },
+     {
+          "md5": "b053cea57d97304d3c2b4638581e457a",
+          "output": "3.4.0-beta1",
+          "url": "/templates/system/css/toolbar.css"
+     },
+     {
+          "md5": "ac445d4a16939649b85aa0588f341eac",
+          "output": "3.4.0-beta1",
+          "url": "/templates/system/css/editor.css"
+     },
+     {
+          "md5": "ad4db00bf3c49b89f76e5444bc524e32",
+          "output": "3.4.0-beta1",
+          "url": "/templates/protostar/js/template.js"
+     },
+     {
+          "md5": "60f0ea9771b6034b41ec1958926b5e96",
+          "output": "3.4.0-beta1",
+          "url": "/templates/protostar/css/template.css"
+     },
+     {
+          "md5": "ad4db00bf3c49b89f76e5444bc524e32",
+          "output": "3.4.0-beta1",
+          "url": "/templates/beez3/javascript/template.js"
+     },
+     {
+          "md5": "505d8c85acefa948a40bc1371b8865ed",
+          "output": "3.4.0-beta1",
+          "url": "/templates/beez3/css/general.css"
+     },
+     {
+          "md5": "eb2be7e28c91b598febc2ea659d49870",
+          "output": "3.4.0-beta1",
+          "url": "/templates/beez3/css/nature.css"
+     },
+     {
+          "md5": "ac289d0ad9b5ac703b725b27f433fcc1",
+          "output": "3.4.0-beta1",
+          "url": "/templates/beez3/css/red.css"
+     },
+     {
+          "md5": "e9456aa0152a1d71aee6844893bdc41b",
+          "output": "3.4.0-beta1",
+          "url": "/language/en-GB/en-GB.ini"
+     },
+     {
+          "md5": "8c426b572571514e3a186c70b41361d2",
+          "output": "3.4.0-beta1",
+          "url": "/language/en-GB/en-GB.lib_joomla.ini"
+     },
+     {
+          "md5": "a3ebabeabb833ac42d89ce351825f5f7",
+          "output": "3.4.0-beta1",
+          "url": "/language/en-GB/en-GB.com_ajax.ini"
+     },
+     {
+          "md5": "020f1a35fc99eb7252ae7800b7ddf667",
+          "output": "3.4.0-beta1",
+          "url": "/plugins/editors/tinymce/tinymce.xml"
+     },
+     {
+          "md5": "806c1765e17ef0bf2d2744d1ffed28e5",
+          "output": "3.4.0-beta1",
+          "url": "/administrator/language/en-GB/en-GB.ini"
+     },
+     {
+          "md5": "3eb6d9f2b137aff9a89465bb476dd3fb",
+          "output": "3.4.0-beta1",
+          "url": "/media/system/js/core-uncompressed.js"
+     },
+     {
+          "md5": "991cf9564af95f675b0b97c167eb7793",
+          "output": "3.4.0-beta1",
+          "url": "/media/system/js/core.js"
+     },
+     {
+          "md5": "f7127080d77a326f9ae4d440354eff02",
+          "output": "3.4.0-beta1",
+          "url": "/media/cms/css/debug.css"
+     },
+     {
+          "md5": "7025abc335b8c7c5cb1a88bf8350923b",
+          "output": "3.4.0-beta1",
+          "url": "/README.txt"
+     },
+     {
           "md5": "50af70e3630073c0a2a797e494279ea5",
           "output": "search1",
           "url": "/administrator/templates/hathor/css/template.css"

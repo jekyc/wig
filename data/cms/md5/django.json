@@ -1196,6 +1196,41 @@
      },
      {
           "md5": "b11ab56ec4873a9d8213daf17090e294",
+          "output": "1.4.19",
+          "url": "/static/admin/css/base.css"
+     },
+     {
+          "md5": "e51e4c8d6400fb72238560ceec411e76",
+          "output": "1.4.19",
+          "url": "/static/admin/css/login.css"
+     },
+     {
+          "md5": "80b2765846631cd22c8b8189c48f2ee9",
+          "output": "1.4.19",
+          "url": "/static/admin/css/ie.css"
+     },
+     {
+          "md5": "41a10c2541af8c2d877357e59c583998",
+          "output": "1.4.19",
+          "url": "/static/admin/js/inlines.min.js"
+     },
+     {
+          "md5": "0f1d7ea3b04a4be897f38c02ba584f8c",
+          "output": "1.4.19",
+          "url": "/static/admin/js/actions.js"
+     },
+     {
+          "md5": "15c78c79b0ba65c55192a82d84d430b3",
+          "output": "1.4.19",
+          "url": "/static/admin/js/SelectFilter2.js"
+     },
+     {
+          "md5": "116c2824468f010eb392f6eb960495ed",
+          "output": "1.4.19",
+          "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+     },
+     {
+          "md5": "b11ab56ec4873a9d8213daf17090e294",
           "output": "1.4.2",
           "url": "/static/admin/css/base.css"
      },
@@ -2837,6 +2872,41 @@
      {
           "md5": "3dcaf1c8322263b914b60bda6a15b3a6",
           "output": "1.7.3",
+          "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+     },
+     {
+          "md5": "c52f7bea4f70a7b827442810c0065f86",
+          "output": "1.7.4",
+          "url": "/static/admin/css/base.css"
+     },
+     {
+          "md5": "9ee3563a2bfe932b3de39c2025d568c7",
+          "output": "1.7.4",
+          "url": "/static/admin/css/login.css"
+     },
+     {
+          "md5": "80b2765846631cd22c8b8189c48f2ee9",
+          "output": "1.7.4",
+          "url": "/static/admin/css/ie.css"
+     },
+     {
+          "md5": "e3cd9638369fd990e2828d48f94d0e5f",
+          "output": "1.7.4",
+          "url": "/static/admin/js/inlines.min.js"
+     },
+     {
+          "md5": "42b74ac13f07ba78ce8a424958324c68",
+          "output": "1.7.4",
+          "url": "/static/admin/js/actions.js"
+     },
+     {
+          "md5": "2f2bc9e0964bda405331bfdbdcb8866b",
+          "output": "1.7.4",
+          "url": "/static/admin/js/SelectFilter2.js"
+     },
+     {
+          "md5": "3dcaf1c8322263b914b60bda6a15b3a6",
+          "output": "1.7.4",
           "url": "/static/admin/js/admin/DateTimeShortcuts.js"
      },
      {
