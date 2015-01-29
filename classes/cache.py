@@ -109,6 +109,9 @@ class Cache(queue.Queue):
 		return len(set([self.queue[key].id for key in self.queue]))
 
 
+	def get_urls(self):
+		return [k for k in self.queue]
+
 	def get_responses(self):
 		return [self.queue[key] for key in self.queue]
 

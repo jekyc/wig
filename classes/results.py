@@ -9,8 +9,8 @@ class Results(object):
 	def __init__(self, options):
 		self.width = None
 		self.color = Color()
-		self.printer = options['printer']
-		
+		self.printer = None
+
 		# the storage for 'string' and 'regex' matched fingerprints 
 		# since these don't need extra processing they are added directly 
 		# to the final scores
@@ -32,6 +32,11 @@ class Results(object):
 			'title': '',
 			'cookies': ''
 		}
+
+
+	def set_printer(self, printer):
+		self.printer = printer
+
 
 	def _calc_md5_score(self):
 

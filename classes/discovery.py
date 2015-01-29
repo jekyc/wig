@@ -1,64 +1,11 @@
-import re, hashlib, pprint, socket
+import re, hashlib, pprint, socket, urllib
 from collections import Counter
 from html.parser import HTMLParser
 from classes.fingerprints import Fingerprints
-from classes.requester2 import Requester
+#from classes.requester2 import Requester
 from classes.matcher import Match
-from classes.request import PageFetcher, Request
+from classes.request2 import Response, Requester
 from classes.printer import Printer
-
-
-class DiscoverRedirect(object):
-
-	def __init__(self, options, data):
-		self.org = options['host']
-		self.url = options['host']
-		self.printer = options['printer']
-
-		self.printer.print('Redirection detection...', 1, '')
-
-		fetcher = PageFetcher(self.url)
-		try:
-			r = fetcher.get()
-			request_url = r.get_url()
-
-			# add to cache
-			data['cache'][fetcher.url] = r
-			data['cache'][request_url] = r
-			for request in r.history:
-				data['cache'][request.get_url()] = r
-
-			if not request_url == self.url:
-				# ensure that folders and files are removed
-				parts = request_url.split('//')
-				http, netloc = parts[0:2]
-
-				# remove subfolders and/or files
-				# http://example.com/test -> http://example.com/
-				if '/' in netloc:
-					self.url = http + '//' + netloc.split('/')[0] + '/'
-				else:
-					self.url = http + '//' + netloc + '/'
-
-		except Exception as e:
-			self.url = None
-
-
-		if self.is_redirected:
-			self.printer.print(' %s redirects to %s' % (self.org, self.url), 2, '')
-		else:
-			self.printer.print(' %s does not redirect' % (self.org, ), 2, '')
-
-		self.printer.print('', 1)		
-
-
-	# check if the host redirects to another location
-	def is_redirected(self):
-		return not self.org == self.url
-
-	# return a cleaned URL
-	def get_valid_url(self):
-		return self.url
 
 
 class DiscoverIP(object):
@@ -82,10 +29,14 @@ class DiscoverTitle(object):
 
 	def __init__(self, options, data):
 		self.data = data
-		self.url = options['host']
+		self.url = options['url']
 
 	def run(self):
+		self.data['requester'].set_fingerprints([ [{'host': self.url, 'url': '/', }] ])
+		r = self.data['requester'].run()
+
 		front_page = self.data['cache'][self.url]
+
 		try:
 			title = re.findall('<title>\s*(.*)\s*</title>', front_page.body)[0]
 			title = title.strip()
@@ -113,18 +64,17 @@ class DiscoverCookies(object):
 
 
 
-class DiscoverErrorPage(object):
+class DiscoverErrorPage:
 	# find error pages on the site
 	# the requester has a built-in list of items and patterns
 	# to remove before calculating a checksum of pages that
 	# should not exists
 
 	def __init__(self, options, data):
-		self.host = options['host']
+		self.host = options['url']
 		self.urls = data['fingerprints'].get_error_urls()
-		self.error_pages = set()
 		self.requester = data['requester']
-		self.printer = options['printer']
+		self.printer = data['printer']
 
 
 	def run(self):
@@ -134,25 +84,25 @@ class DiscoverErrorPage(object):
 
 		self.requester.set_fingerprints(urls)
 		self.requester.set_find_404(True)
-
 		results = self.requester.run()
+
+		error_pages = set()
 		while results.qsize() > 0:
 			md5sum, url = results.get()
-			self.error_pages.add(md5sum)
+			error_pages.add(md5sum)
 			self.printer.print('- Error page fingerprint: %s - %s' % (md5sum, url), 3)
 
 		self.requester.set_find_404(False)
 
-
-	def get_error_pages(self):
-		return self.error_pages
+		return error_pages
+		
 
 
 class DiscoverCMS(object):
 
 	def __init__(self, options, data):
 		self.chunk_size = options['chunk_size']
-		self.printer = options['printer']
+		self.printer = data['printer']
 		self.matcher = data['matcher']
 		self.requester = data['requester']
 		self.fps = data['fingerprints'].get_ordered_list()
@@ -188,7 +138,7 @@ class DiscoverCMS(object):
 class DiscoverVersion(object):
 	def __init__(self, options, data):
 		self.chunk_size = options['chunk_size']
-		self.printer = options['printer']
+		self.printer = data['printer']
 		self.result = data['results']
 		self.matcher = data['matcher']
 		self.requester = data['requester']
@@ -209,12 +159,13 @@ class DiscoverVersion(object):
 			while results.qsize() > 0:
 				res_fps,response = results.get()
 				for fp in self.matcher.get_result(res_fps, response):
-					self.result.add_cms(fp)
+
+					self.result.add( fp['category'], fp['cms'], fp['output'], fp)
 
 
 class DiscoverOS(object):
 	def __init__(self, options, data):
-		self.printer = options['printer']
+		self.printer = data['printer']
 		self.cache = data['cache']
 		self.results = data['results']
 		self.fingerprints = data['fingerprints'].get_os_fingerprints()
@@ -222,7 +173,7 @@ class DiscoverOS(object):
 		self.category = "Operating System"
 		self.os = Counter()
 		self.packages = Counter()
-		self.oss = set()
+		self.oss = []
 		self.matched_packages = set()
 
 
@@ -238,7 +189,7 @@ class DiscoverOS(object):
 				os = False
 
 			if os:
-				self.oss.add(os.lower())
+				self.oss.append(os.lower())
 				self.printer.print('- OS Family: %s' % (os, ), 4)
 
 			for part in line.split(" "):
@@ -349,9 +300,9 @@ class LinkExtractor(HTMLParser):
 class DiscoverMore(object):
 
 	def __init__(self, options, data):
-		self.host = options['host']
+		self.host = options['url']
 		self.threads = options['threads']
-		self.printer = options['printer']
+		self.printer = data['printer']
 		self.cache = data['cache']
 		self.result = data['results']
 		self.matcher = data['matcher']
@@ -404,7 +355,7 @@ class DiscoverMore(object):
 
 						# else update the url so that it only contains the relative location
 						else:
-							i = '/'.join(parts[3:])
+							i = '/' + '/'.join(parts[3:])
 
 					resources.add( i )
 
@@ -445,7 +396,7 @@ class DiscoverAllCMS(object):
 
 class DiscoverJavaScript(object):
 	def __init__(self, options, data):
-		self.printer = options['printer']
+		self.printer = data['printer']
 		self.cache = data['cache']
 		self.fingerprints = data['fingerprints'].get_js_fingerprints()
 		self.matcher = data['matcher']
@@ -470,7 +421,7 @@ class DiscoverJavaScript(object):
 
 class DiscoverInteresting(object):
 	def __init__(self, options, data):
-		self.printer = options['printer']
+		self.printer = data['printer']
 		self.requester = data['requester']
 		self.interesting = data['fingerprints'].get_interesting_fingerprints()
 		self.matcher = data['matcher']
@@ -490,19 +441,13 @@ class DiscoverInteresting(object):
 			results = self.requester.run()
 			while results.qsize() > 0:
 				fps,response = results.get()
-
-				matches = self.matcher.get_result(fps, response)
-		
-				# their should not have been a redirection 
-				# when requesting these files
-				if len(response.history) == 0:
-					for fp in matches:
-						self.result.add( self.category, None, None, fp, weight=1)
+				for fp in self.matcher.get_result(fps, response):
+					self.result.add( self.category, None, None, fp, weight=1)
 
 
 class DiscoverUrlLess(object):
 	def __init__(self, options, data):
-		self.printer = options['printer']
+		self.printer = data['printer']
 		self.cache = data['cache']
 		self.fps = data['fingerprints'].get_url_less()
 		self.results = data['results']

@@ -55,6 +55,9 @@ class Match(object):
 			if not self._check_page(response, fingerprint):
 				matches.append(None)
 
+			elif 'type' not in fingerprint:
+				matches.append(None)
+
 			elif fingerprint['type'] == 'md5':
 				matches.append(self.md5(fingerprint, response))
 			

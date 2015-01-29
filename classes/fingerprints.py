@@ -111,7 +111,6 @@ class Fingerprints(object):
 							json_data = json.load(fh) 
 							for fp in json_data:
 								fp['output'] = self._replace_version_text(fp['output'])
-
 								fp['type'] = data_dir
 								fp['cms']  = name
 								fp['category'] = category
@@ -130,6 +129,7 @@ class Fingerprints(object):
 									self._cms_names.append(name)
 
 					except Exception as e:
+						print(e)
 						continue
 
 
