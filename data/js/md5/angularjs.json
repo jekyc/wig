@@ -182,5 +182,13 @@
      {
           "md5": "fa392f1d76ff2c33fd9dde1aab24eedd",
           "output": "1.3.6"
+     },
+     {
+          "md5": "fa01f26d0b1419bb939f5d6401517f3e",
+          "output": "1.3.10"
+     },
+     {
+          "md5": "ba3df8d1987e201d5666690b8e3278ae",
+          "output": "1.3.11"
      }
 ]
