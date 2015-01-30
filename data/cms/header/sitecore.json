@@ -5,5 +5,19 @@
 		"output": "",
 		"weight": 1,
 		"code": "any"
+	},
+	{
+		"header": "Set-Cookie",
+		"regex": "website#lang",
+		"output": "",
+		"weight": 1,
+		"code": "any"
+	},
+	{
+		"header": "Set-Cookie",
+		"regex": "SC_ANALYTICS_GLOBAL_COOKIE",
+		"output": "",
+		"weight": 1,
+		"code": "any"
 	}
 ]
