@@ -77,6 +77,15 @@ class OutOfScopeException(Exception):
 		return repr( "%s is not in scope %s" % (self.new_netloc, self.original_netloc)  )
 
 
+class UnknownHostName(Exception):
+	def __init__(self, url):
+		self.url = url
+
+	def __str__(self):
+		return "Unknown host: %s" % (self.url,)
+
+
+
 class ErrorHandler(urllib.request.HTTPDefaultErrorHandler):
 	def http_error_default(self, req, fp, code, msg, hdrs):
 		return(fp)
@@ -296,8 +305,11 @@ class Requester:
 		org_url = self.url_data
 
 		# get an opener doing redirections 
-		opener = self._create_fetcher(redirect_handler=False)
-		response = opener.open(self.url)
+		try:
+			opener = self._create_fetcher(redirect_handler=False)
+			response = opener.open(self.url)
+		except:
+			raise UnknownHostName(self.url)	
 
 		# the new url
 		new_url = parse(response.geturl())
@@ -305,6 +317,7 @@ class Requester:
 		# detect a redirection
 		new_loc = new_url.scheme + '://' + new_url.netloc
 		org_loc = org_url.scheme + '://' + org_url.netloc
+
 		self.is_redirected = not(new_loc == org_loc)
 
 		if self.is_redirected:
@@ -314,10 +327,10 @@ class Requester:
 
 		# create an response object and add it to the cache
 		R = _create_response(response)
-		self.cache[response.geturl()] = R
+		self.cache[new_loc] = R
 		self.cache[self.url] = R
 
-		return (self.is_redirected, response.geturl())
+		return (self.is_redirected, new_loc)
 
 
 	def run(self):

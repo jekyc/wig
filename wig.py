@@ -15,7 +15,7 @@ from classes.headers import ExtractHeaders
 from classes.matcher import Match
 from classes.printer import Printer
 from classes.output import Output
-from classes.request2 import Requester
+from classes.request2 import Requester, UnknownHostName
 
 
 
@@ -60,7 +60,14 @@ class Wig(object):
 		########################################################################
 		# PRE PROCESSING
 		########################################################################
-		is_redirected, new_url = self.data['requester'].detect_redirect()
+		
+		try:
+			is_redirected, new_url = self.data['requester'].detect_redirect()
+		except UnknownHostName as e:
+			error = self.data['colorizer'].format(e, 'red', False)
+			print(error)
+			sys.exit(1)
+
 
 		if is_redirected:
 			hilight_host = self.data['colorizer'].format(new_url, 'red', False)
