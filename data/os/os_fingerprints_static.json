@@ -1,206 +1,95 @@
 {
     "Apache": {
-        "2.2.8": [
-            [
-                "Ubuntu",
-                "8.04"
-            ]
-        ],
-        "2.2.23": [
-            [
-                "FreeBSD",
-                "9.1 p4"
-            ]
-        ],
-        "2.2.25": [
-            [
-                "FreeBSD",
-                "9.1"
-            ]
-        ],
-	"2.2.27": [
-            [
-                "FreeBSD",
-                "9.2"
-            ]
-        ],
-        "2.4.10": [
-            [
-                "Debian",
-                "8.0 (pre release)"
-            ]
-        ]
+        "2.2.8": [["Ubuntu", "8.04"]],
+        "2.2.23": [["FreeBSD", "9.1 p4"]],
+        "2.2.25": [["FreeBSD", "9.1"]],
+    	"2.2.27": [["FreeBSD", "9.2"]],
+        "2.4.10": [["Debian", "8.0 (pre release)"]]
     },
     "php": {
-        "5.2.4": [
-            [
-                "Ubuntu",
-                "8.04"
-            ]
-        ]
+        "5.2.4": [["Ubuntu", "8.04"]]
     },
     "Microsoft-IIS": {
-        "5.0": [
-            [
-                "Microsoft Windows Server",
-                "2000"
-            ]
-        ],
-        "5.1": [
-            [
-                "Microsoft Windows Server",
-                "XP"
-            ]
-        ],
-        "6.0": [
-            [
-                "Microsoft Windows Server",
-                "2003"
-            ]
-        ],
-        "7.0": [
-            [
-                "Microsoft Windows Server",
-                "2008"
-            ]
-        ],        
-        "7.5": [
-            [
-                "Microsoft Windows Server",
-                "2008 R2"
-            ]
-        ],
-        "8.0": [
-            [
-                "Microsoft Windows Server",
-                "2012"
-            ]
-        ],
-        "8.5": [
-            [
-                "Microsoft Windows Server",
-                "2012 R2"
-            ]
-        ]     
+        "5.0": [["Microsoft Windows Server", "2000"]],
+        "5.1": [["Microsoft Windows Server", "XP"]],
+        "6.0": [["Microsoft Windows Server", "2003"]],
+        "7.0": [["Microsoft Windows Server", "2008"]],
+        "7.5": [["Microsoft Windows Server", "2008 R2"]],
+        "8.0": [["Microsoft Windows Server", "2012"]],
+        "8.5": [["Microsoft Windows Server", "2012 R2"]]
     },
     "Microsoft-HTTPAPI": {
+        "1.0": [["Microsoft Windows Server", "2003"]],
         "2.0": [
-            [
-                "Microsoft Windows Server",
-                "2003 SP2"
-            ],
-            [
-                "Microsoft Windows",
-                "7"
-            ],
-            [
-                "Microsoft Windows Server",
-                "2008"
-            ],
-            [
-                "Microsoft Windows Server",
-                "2008 R2"
-            ],
-            [
-                "Microsoft Windows Server",
-                "2012"
-            ],
-            [
-                "Microsoft Windows Server",
-                "2012 R2"
-            ]
-        ],
-        "1.0": [
-            [
-                "Microsoft Windows Server",
-                "2003"
-            ]
+            ["Microsoft Windows Server", "2003 SP2"],
+            ["Microsoft Windows", "7"],
+            ["Microsoft Windows Server", "2008"],
+            ["Microsoft Windows Server", "2008 R2"],
+            ["Microsoft Windows Server", "2012"],
+            ["Microsoft Windows Server", "2012 R2"]
         ]
     },
-    "ASP.NET":{
-        "1.1.4322": [
-            [
-                "Microsoft Windows Server",
-                "2003"
-            ]
-        ],
-        "2.0.50727": [
-            [
-                "Microsoft Windows Server",
-                "2003"
-            ],
-            [
-                "Microsoft Windows Server",
-                "2008 SP2"
-            ],
-            [
-                "Microsoft Windows Server",
-                "2008 R2"
-            ]
-        ],
-        "4.0.30319": [
-            [
-                "Microsoft Windows Server",
-                "2003"
-            ],
-            [
-                "Microsoft Windows Server",
-                "2008 SP2"
-            ],
-            [
-                "Microsoft Windows Server",
-                "2008 R2"
-            ]
-        ],
-        "4.5": [
-            [
-                "Microsoft Windows Server",
-                "2008 SP2"
-            ],
-            [
-                "Microsoft Windows Server",
-                "2008 R2"
-            ],
-            [
-                "Microsoft Windows Server",
-                "2012"
-            ]
-        ],
-        "4.5.1": [
-            [
-                "Microsoft Windows Server",
-                "2008 SP2"
-            ],
-            [
-                "Microsoft Windows Server",
-                "2008 R2"
-            ],
-            [
-                "Microsoft Windows Server",
-                "2012"
-            ],
-            [
-                "Microsoft Windows Server",
-                "2012 R2"
-            ]
-        ],
-        "4.5.2": [
-            [
-                "Microsoft Windows Server",
-                "2008 SP2"
-            ],
-            [
-                "Microsoft Windows Server",
-                "2008 R2"
-            ],
-            [
-                "Microsoft Windows Server",
-                "2012"
-            ],
-            [
-                "Microsoft Windows Server",
-                "2012 R2"
-            ]
-        ]
+    "ASP.NET":{        
+        "1.0.2204.21":   [["Microsoft Windows Server", "2003"]],
+        "1.0.2914.0":    [["Microsoft Windows Server", "2003"]],
+        "1.0.3705.0":    [["Microsoft Windows Server", "2003"]],        
+        "1.0.3705.209":  [["Microsoft Windows Server", "2003"]],
+        "1.0.3705.288":  [["Microsoft Windows Server", "2003"]],        
+        "1.0.3705.6018": [["Microsoft Windows Server", "2003"]],        
+        "1.1.4322.510":  [["Microsoft Windows Server", "2003"]],        
+        "1.1.4322.573":  [["Microsoft Windows Server", "2003"]],        
+        "1.1.4322.2032": [["Microsoft Windows Server", "2003"]],        
+        "1.1.4322.2300": [["Microsoft Windows Server", "2003"]],        
+        "1.1.4322.2310": [["Microsoft Windows Server", "2003"]],        
+        "1.1.4322.2407": [["Microsoft Windows Server", "2003"]],
+        "1.1.4322.2443": [["Microsoft Windows Server", "2003"]],
+        "2.0.40607.16":   [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
+        "2.0.50215.44":   [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
+        "2.0.50727.42":   [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
+        "2.0.50727.312":  [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
+        "2.0.50727.832":  [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
+        "2.0.50727.1433": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
+        "2.0.50727.1434": [["Microsoft Windows Server", "2008"]],
+        "2.0.50727.3053": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
+        "2.0.50727.3082": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
+        "2.0.50727.3603": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
+        "2.0.50727.3607": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
+        "2.0.50727.3615": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
+        "2.0.50727.4016": [["Microsoft Windows Server", "2008"]],
+        "2.0.50727.4918": [["Microsoft Windows", "7 RC"]],
+        "2.0.50727.4927": [["Microsoft Windows", "7 RTM"]],
+        "2.0.50727.4952": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
+        "2.0.50727.3649": [["Microsoft Windows Server", "2003"]],
+        "2.0.50727.5472": [["Microsoft Windows Server", "2008 R2"]],
+        "3.0.4506.30":   [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
+        "3.0.4506.26":   [["Microsoft Windows", "Vista"]],
+        "3.0.4506.590":  [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
+        "3.0.4506.648":  [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
+        "3.0.4506.2123": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
+        "3.0.4506.2254": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
+        "3.5.20404.0":  [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"], ["Microsoft Windows Server", "2012"], ["Microsoft Windows Server", "2012 R2"]],
+        "3.5.20706.1":  [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"], ["Microsoft Windows Server", "2012"], ["Microsoft Windows Server", "2012 R2"]],
+        "3.5.21022.8":  [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"], ["Microsoft Windows Server", "2012"], ["Microsoft Windows Server", "2012 R2"]],
+        "3.5.30428.1":  [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"], ["Microsoft Windows Server", "2012"], ["Microsoft Windows Server", "2012 R2"]],
+        "3.5.30729.01": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"], ["Microsoft Windows Server", "2012"], ["Microsoft Windows Server", "2012 R2"]],
+        "4.0.20506":       [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"]],
+        "4.0.21006":       [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"]],
+        "4.0.30128.1":     [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"]],
+        "4.0.30319":       [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"]],
+        "4.0.30319.1":     [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"]],
+        "4.0.30319.17020": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"]],
+        "4.0.30319.17379": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"]],
+        "4.0.30319.17626": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"]],
+        "4.0.30319.18033": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"]],
+        "4.0.30319.18046": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"]],
+        "4.0.30319.18408": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"]],
+        "4.0.30319.18444": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"]],
+        "4.0.30319.34209": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"]],
+        "4.5.40805": [["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"], ["Microsoft Windows Server", "2012"]],
+        "4.5.50131": [["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"], ["Microsoft Windows Server", "2012"]],
+        "4.5.50501": [["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"], ["Microsoft Windows Server", "2012"]],
+        "4.5.50709": [["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"], ["Microsoft Windows Server", "2012"]],
+        "4.5.51641": [["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"], ["Microsoft Windows Server", "2012"], ["Microsoft Windows Server", "2012 R2"]],
+        "4.5.51650": [["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"], ["Microsoft Windows Server", "2012"], ["Microsoft Windows Server", "2012 R2"]]
     }
 }
