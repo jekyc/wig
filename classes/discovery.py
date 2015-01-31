@@ -346,8 +346,11 @@ class DiscoverMore(object):
 					
 					# ensure that only resources located on the domain /sub-domain is requested 
 					if i.startswith('http') or i.startswith('//'):
-						parts = i.split('/')
-						host = parts[2]
+						try:
+							parts = i.split('/')
+							host = parts[2]
+						except:
+							continue
 
 						# if the resource is out side of the domain, skip it
 						if not host in self.host.split('/')[2]:
