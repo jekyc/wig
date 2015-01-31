@@ -39,6 +39,12 @@
 		"string": ""
 	},
 	{
+		"url":  "/login",
+		"note": "Test file",
+		"ext": ["php", "aspx", "asp", "txt", "old", "htm", "html", "jsp", "zip"],
+		"string": ""
+	},
+	{
 		"url":  "/test1",
 		"note": "Test file",
 		"ext": ["php", "aspx", "asp", "txt", "old", "htm", "html", "jsp", "zip"],
@@ -46,6 +52,11 @@
 	},
 	{
 		"url":  "/test/",
+		"note": "Test directory",
+		"string": ""
+	},
+	{
+		"url":  "/login/",
 		"note": "Test directory",
 		"string": ""
 	},
