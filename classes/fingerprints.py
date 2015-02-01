@@ -25,10 +25,11 @@ class Fingerprints(object):
 		self.js_fingerprints = []	# javascript fingerprints
 		self.url_less = []			# fingerprints that don't have an url specified
 		self.translator = {}		# dict containing file name mappings
-
+		self.vulnerabilities = {}	# cvedetails vulnerability counts
 
 		# load fingerprints
 		self._load_dictionary()
+		self._load_vulnerabilities()
 		self._load()
 		self._load_os()
 		self._load_js()	
@@ -51,6 +52,12 @@ class Fingerprints(object):
 		text = re.sub('^mybb_', '', text)			# myBB
 
 		return text
+
+
+	def _load_vulnerabilities(self):
+		path = 'data/vulnerabilities.json'
+		with open(path) as fh:
+			self.vulnerabilities = json.load(fh)
 
 
 	def _load_dictionary(self):
@@ -106,7 +113,7 @@ class Fingerprints(object):
 						if not ext == 'json': continue
 						
 						# add the fingerprints to the fingerprint storage
-						name = self.translator[name]
+						name = self.translator[name]['name']
 						with open(data_file) as fh:
 							json_data = json.load(fh) 
 							for fp in json_data:
@@ -129,6 +136,7 @@ class Fingerprints(object):
 									self._cms_names.append(name)
 
 					except Exception as e:
+						print(data_file)
 						print(e)
 						continue
 
@@ -162,7 +170,7 @@ class Fingerprints(object):
 
 	def _load_js(self):
 		paths = {'md5': 'data/js/md5', 'regex':'data/js/regex'}
-		category = 'JavaScript Libraries'
+		category = 'JavaScript'
 
 		for fp_type in paths:
 			path = paths[fp_type]
@@ -173,7 +181,7 @@ class Fingerprints(object):
 					name,ext = f.split('.')
 					if not ext == 'json': continue
 
-					name = self.translator[name]
+					name = self.translator[name]['name']
 					with open(os.path.join(path, f)) as fh:
 						items = json.load(fh)
 						for item in items:

@@ -3,8 +3,9 @@ from classes.color import Color
 class Output(object):
 
 	def __init__(self, options, data):
-		self.results = data['results'].get_results()
+		self.results = None
 		self.color = data['colorizer']
+		self.data = data
 
 
 		self.stats = {
@@ -22,21 +23,43 @@ class Output(object):
 				'headers': {
 					1: {'title': 'SOFTWARE', 'color': 'blue', 'bold': True},
 					2: {'title': 'VERSION',  'color': 'blue', 'bold': True},
-					3: {'title': 'COMMENT',  'color': 'blue', 'bold': True}
+					3: {'title': 'CATEGORY',  'color': 'blue', 'bold': True}
 				},
 				'titles': [
 					{'category': 'CMS',                  'title': 'CMS'},
-					{'category': 'JavaScript Libraries', 'title': 'JavaScript'},
+					{'category': 'JavaScript',           'title': 'JavaScript'},
 					{'category': 'Platform',             'title': 'Platform'},
 					{'category': 'Operating System',     'title': 'Operating System'},
 				]
 			},
 			{
+				'name': 'vulnerabilities',
+				'headers': {
+					1: {'title': 'SOFTWARE',        'color': 'blue', 'bold': True},
+					2: {'title': 'VULNERABILITIES', 'color': 'blue', 'bold': True},
+					3: {'title': 'LINK',            'color': 'blue', 'bold': True}
+				},
+				'titles': [
+					{'category': 'Vulnerability',          'title': '%s'},
+				]
+			},
+			{
+				'name': 'tool',
+				'headers': {
+					1: {'title': 'SOFTWARE',        'color': 'blue', 'bold': True},
+					2: {'title': 'TOOL',            'color': 'blue', 'bold': True},
+					3: {'title': 'LINK',            'color': 'blue', 'bold': True}
+				},
+				'titles': [
+					{'category': 'Tool',             'title': '%s'},
+				]
+			},
+			{
 				'name': 'interesting',
 				'headers':{
-					1: {'title': 'URL',     'color': 'blue', 'bold': True},
-					2: {'title': 'NOTE',    'color': 'blue', 'bold': True},
-					3: {'title': 'COMMENT', 'color': 'blue', 'bold': True}
+					1: {'title': 'URL',      'color': 'blue', 'bold': True},
+					2: {'title': 'NOTE',     'color': 'blue', 'bold': True},
+					3: {'title': 'CATEGORY', 'color': 'blue', 'bold': True}
 				},
 				'titles': [
 					{'category': 'Interesting',          'title': 'Interesting URL'},
@@ -46,14 +69,20 @@ class Output(object):
 
 		self.seperator = ' | '
 		self.seperator_color = self.color.format(self.seperator, 'blue', True)
+		self.ip = self.title = self.cookies = None
 
+
+	def _update(self):
+		self.data['results'].update()
+		self.results = self.data['results'].get_results()
+		
 		self._set_col_1_width(self.results)
 		self._set_col_2_width(self.results)
 		self._set_col_3_width(self.results)
 
-		self.ip = data['results'].site_info['ip']
-		self.title = data['results'].site_info['title']
-		self.cookies = data['results'].site_info['cookies']
+		self.ip = self.data['results'].site_info['ip']
+		self.title = self.data['results'].site_info['title']
+		self.cookies = self.data['results'].site_info['cookies']
 
 
 	def _find_section_index(self, section):
@@ -123,16 +152,14 @@ class Output(object):
 			out += ' ' * (self.col_widths[2] - len(versions[0]))
 
 		# col3
-		out += category 
-		out += '\n'
+		out += category + '\n'
 
 		return out
 
 
-
-	
 	def get_results(self):
-		
+		self._update()
+
 		out  = '\n'
 		out += self.color.format('TITLE    ', 'blue', True) + '\n' + self.title + '\n\n'
 		
@@ -141,20 +168,28 @@ class Output(object):
 	
 		out += self.color.format('IP       ', 'blue', True) + '\n' + self.ip + '\n\n'
 
-		for section in ['version', 'interesting']:
-
+		for section in ['version', 'vulnerabilities', 'tool', 'interesting']:
 			tmp = ''
 			versions = self.sections[self._find_section_index(section)]
 			for item in versions['titles']:
 				if item['category'] not in self.results: continue
 				for plugin in sorted(self.results[item['category']]):
-					tmp += self.create_line(plugin, self.results[item['category']][plugin], item['title'])
+					
+					# if the name is a dict (used for vulnerabilities) extract the 
+					# items, and replace the '%' in 'title'.
+					# this is a crappy hack to support the special case of vulnerabilities
+					# this needs to be redone!
+					if type(self.results[item['category']][plugin]) == dict:
+						col2 = [self.results[item['category']][plugin]['col2']]
+						col3 = item['title'] % (self.results[item['category']][plugin]['col3'],)
+					else:
+						col2 = self.results[item['category']][plugin]
+						col3 = item['title']
+
+					tmp += self.create_line(plugin, col2, col3)
 
 			if not tmp == '':
-				out += '\n'
-				out += self.create_header(section)
-				out += tmp
-
+				out += '\n'+ self.create_header(section) + tmp
 
 		# status bar
 		time = self.stats['runtime']   + ' ' * (self.col_widths[1] - len(self.stats['runtime']))

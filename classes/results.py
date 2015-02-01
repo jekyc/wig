@@ -10,6 +10,7 @@ class Results(object):
 		self.width = None
 		self.color = Color()
 		self.printer = None
+		self.results = {}
 
 		# the storage for 'string' and 'regex' matched fingerprints 
 		# since these don't need extra processing they are added directly 
@@ -26,20 +27,14 @@ class Results(object):
 		#		           ^ Url               ^ cms               ^ versions
 
 		self.sitemap = Sitemap()
-
+		
 		self.site_info = {
 			'ip': '',
 			'title': '',
 			'cookies': ''
 		}
 
-
-	def set_printer(self, printer):
-		self.printer = printer
-
-
 	def _calc_md5_score(self):
-
 		# calculate the final scores for md5 fingerprints, and add
 		# them to the final scores 
 		for url in self.md5_matches:
@@ -52,6 +47,9 @@ class Results(object):
 				for version in self.md5_matches[url][cms]:
 					self.scores['CMS'][cms][version] += (1 / number_of_hits)
 
+
+	def set_printer(self, printer):
+		self.printer = printer
 
 
 	def found_match(self,cms):
@@ -178,6 +176,46 @@ class Results(object):
 		self.site_info['cookies'] = cookies
 
 
+	def update(self):
+		self._calc_md5_score()
+		for category in self.scores:
+			
+			# initiate the entry for the category 
+			if category not in self.results: self.results[category] = {}
+			
+			# loop over the entries for the category 
+			for cms_name in sorted(self.scores[category]):
+				
+				# get the versions and remove the ones that are most unlikely  
+				v = self.scores[category][cms_name]
+				versions = sorted(v.items(), key=lambda x:x[1], reverse=True)
+				relevant = sorted(i[0] for i in versions if i[1] == versions[0][1])
+				
+				self.results[category][cms_name] = relevant
+
+
+	def add_vulnerabilities(self, cms, version, num_vuln, link):
+		name = cms + ' ' + version
+		if 'Vulnerability' not in self.results: self.results['Vulnerability'] = {}
+		self.results['Vulnerability'][name] = {'col2': num_vuln, 'col3': link}
+
+
+	def add_tool(self, cms, tool_name, tool_link):
+		if 'Tool' not in self.results: self.results['Tool'] = {}
+		self.results['Tool'][cms] = {'col2': tool_name, 'col3': tool_link}
+
+
+	def get_versions(self):
+		versions = []
+		for cat in ['CMS', 'JavaScript', 'Operating System']:
+			if cat not in self.results: continue
+			for cms in self.results[cat]:
+				for version in self.results[cat][cms]:
+					versions.append( (cms, version) )
+
+		return versions
+
+
 	def get_sitemap(self):
 		return str(self.sitemap)
 
@@ -187,22 +225,4 @@ class Results(object):
 
 
 	def get_results(self):
-		self._calc_md5_score()
-
-		results = {}
-		self.printer.print('Results:', 2)
-		for category in self.scores:
-			if category not in results: results[category] = {}
-			
-			for plugin in sorted(self.scores[category]):
-				v = self.scores[category][plugin]
-
-				versions = sorted(v.items(), key=lambda x:x[1], reverse=True)
-				
-				for i in versions:
-					self.printer.print('- %s: %s - Version: %s [%s]' % (category, plugin, i[0], i[1]), 2)
-
-				relevant = sorted(i[0] for i in versions if i[1] == versions[0][1])
-				results[category][plugin] = relevant
-
-		return results
+		return self.results

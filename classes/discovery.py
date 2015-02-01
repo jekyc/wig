@@ -468,3 +468,52 @@ class DiscoverUrlLess(object):
 				else:				name = ''
 
 				self.results.add(fp['category'], name, fp['output'], fingerprint=fp, weight=1)
+
+
+class DiscoverVulnerabilities:
+	def __init__(self, data):
+		self.results = data['results']
+		self.fps = data['fingerprints']
+
+	def run(self):
+		self.results.update()
+		cms_results = self.results.get_versions()
+
+		vendors = Counter()
+		for r in cms_results: vendors[r[0]] += 1
+
+		# if there are more than 5 results,
+		# skip displaying vuln count, as the 
+		# results are unreliable
+		for cms, version in cms_results:
+			if vendors[cms] > 5: continue
+
+			try:
+				vulns = self.fps.vulnerabilities[cms][version]
+				num_vulns = vulns['num_vulns']
+				link = vulns['version_id']
+				self.results.add_vulnerabilities(cms, version, num_vulns, link)
+			except Exception as e:
+				pass
+
+
+class DiscoverTools:
+	def __init__(self, data):
+		self.fps = data['fingerprints']
+		self.results = data['results']
+
+	def run(self):
+		self.results.update()
+		cms_results = self.results.get_versions()
+
+		# loop over the cms' in the results
+		for cms,_ in cms_results:
+			# loop over all the translations
+			for fn in self.fps.translator:
+				# check if the translated name is the same as the cms
+				if self.fps.translator[fn]['name'] == cms and 'tool' in self.fps.translator[fn]:
+					for tool in self.fps.translator[fn]['tool']:
+						self.results.add_tool(cms, tool['name'], tool['link'])
+
+		
+

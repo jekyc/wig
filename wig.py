@@ -11,6 +11,7 @@ from classes.discovery import DiscoverCMS, DiscoverVersion
 from classes.discovery import DiscoverOS, DiscoverJavaScript, DiscoverAllCMS
 from classes.discovery import DiscoverErrorPage, DiscoverMore
 from classes.discovery import DiscoverInteresting, DiscoverUrlLess
+from classes.discovery import DiscoverVulnerabilities, DiscoverTools
 from classes.headers import ExtractHeaders
 from classes.matcher import Match
 from classes.printer import Printer
@@ -153,6 +154,8 @@ class Wig(object):
 
 		cookies = DiscoverCookies(self.data).run()
 		self.data['results'].set_cookies(cookies)
+
+		DiscoverVulnerabilities(self.data).run()
 
 		if not self.options['no_cache_save']:
 			self.data['cache'].save()
