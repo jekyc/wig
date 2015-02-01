@@ -2736,6 +2736,71 @@
      },
      {
           "md5": "acaea89d4118e7ac9209b597947970a4",
+          "output": "release-3.0.13-PL1",
+          "url": "/styles/prosilver/theme/tweaks.css"
+     },
+     {
+          "md5": "51b4c450d888c56160a95d6cdc6a01eb",
+          "output": "release-3.0.13-PL1",
+          "url": "/adm/style/admin.css"
+     },
+     {
+          "md5": "1198cc5b195ca9a166e3d7f335c29c7f",
+          "output": "release-3.0.13-PL1",
+          "url": "/styles/subsilver2/theme/stylesheet.css"
+     },
+     {
+          "md5": "468c883e80eb2c8f389bcbd3d7761bd3",
+          "output": "release-3.0.13-PL1",
+          "url": "/adm/style/editor.js"
+     },
+     {
+          "md5": "ea42efcb642ec582809df045880685fc",
+          "output": "release-3.0.13-PL1",
+          "url": "/styles/prosilver/template/editor.js"
+     },
+     {
+          "md5": "cb3e4abc0d411118b6dfd208bbdb5528",
+          "output": "release-3.0.13-PL1",
+          "url": "/styles/prosilver/template/forum_fn.js"
+     },
+     {
+          "md5": "eb911c685010ab14d7b0a36c60319ee3",
+          "output": "release-3.0.13-PL1",
+          "url": "/language/en/email/user_welcome_inactive.txt"
+     },
+     {
+          "md5": "f4f7a1cab3528d511e1da1f5a22ae346",
+          "output": "release-3.0.13-PL1",
+          "url": "/language/en/email/user_resend_inactive.txt"
+     },
+     {
+          "md5": "cea2cf7c68ea476006f29d9767c116eb",
+          "output": "release-3.0.13-PL1",
+          "url": "/language/en/email/topic_notify.txt"
+     },
+     {
+          "md5": "f2ed7f634fa7f2b0d6510859771f8c5d",
+          "output": "release-3.0.13-PL1",
+          "url": "/language/en/email/newtopic_notify.txt"
+     },
+     {
+          "md5": "39c68ab9987f561eac6fe36a1f4a169e",
+          "output": "release-3.0.13-PL1",
+          "url": "/docs/README.html"
+     },
+     {
+          "md5": "61f13f54a6889b74f6ff3e81a0f41601",
+          "output": "release-3.0.13-PL1",
+          "url": "/docs/INSTALL.html"
+     },
+     {
+          "md5": "3c7a0cb47eaa71068e08ca2f885a581e",
+          "output": "release-3.0.13-PL1",
+          "url": "/docs/CHANGELOG.html"
+     },
+     {
+          "md5": "acaea89d4118e7ac9209b597947970a4",
           "output": "release-3.0.13-RC1",
           "url": "/styles/prosilver/theme/tweaks.css"
      },
@@ -5422,6 +5487,61 @@
      {
           "md5": "c100d6c9a77ffd4169e678932e44c9b1",
           "output": "release-3.1.3-RC1",
+          "url": "/docs/CHANGELOG.html"
+     },
+     {
+          "md5": "b0d0ebf4b9dad1e507eaa398385c78fb",
+          "output": "release-3.1.3-RC2",
+          "url": "/styles/prosilver/theme/tweaks.css"
+     },
+     {
+          "md5": "c51ea12b5e1d3741f85b490b3ff925f9",
+          "output": "release-3.1.3-RC2",
+          "url": "/adm/style/admin.css"
+     },
+     {
+          "md5": "d10af4bcf66f005860eda0a91a452a6d",
+          "output": "release-3.1.3-RC2",
+          "url": "/styles/subsilver2/theme/stylesheet.css"
+     },
+     {
+          "md5": "dc76990cdaa061ba110c9befb3cb7d05",
+          "output": "release-3.1.3-RC2",
+          "url": "/styles/prosilver/template/forum_fn.js"
+     },
+     {
+          "md5": "1da3a89ffe0ccf9b73c864390566b3b9",
+          "output": "release-3.1.3-RC2",
+          "url": "/language/en/email/user_welcome_inactive.txt"
+     },
+     {
+          "md5": "940daa2e776e847ba080df11e21ff04d",
+          "output": "release-3.1.3-RC2",
+          "url": "/language/en/email/user_resend_inactive.txt"
+     },
+     {
+          "md5": "79d013af3059c53047f187f21199a4fa",
+          "output": "release-3.1.3-RC2",
+          "url": "/language/en/email/topic_notify.txt"
+     },
+     {
+          "md5": "30356514cd1c68ada5ea4a5cf6af13ad",
+          "output": "release-3.1.3-RC2",
+          "url": "/language/en/email/newtopic_notify.txt"
+     },
+     {
+          "md5": "2125dcd1e803d9c2776bb5d0b6debd46",
+          "output": "release-3.1.3-RC2",
+          "url": "/docs/README.html"
+     },
+     {
+          "md5": "13b2e616cdb0ab20c62ed14997b72169",
+          "output": "release-3.1.3-RC2",
+          "url": "/docs/INSTALL.html"
+     },
+     {
+          "md5": "1d7a55f2a5027e47670e2eaeff649746",
+          "output": "release-3.1.3-RC2",
           "url": "/docs/CHANGELOG.html"
      }
 ]
