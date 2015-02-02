@@ -422,13 +422,13 @@
 	{
 		"header": "MicrosoftSharePointTeamServices",
 		"string": "14.0.0.7011",
-		"output": "2010 SP2 (​SP2 Public Beta)",
+		"output": "2010 SP2 (SP2 Public Beta)",
 		"code": "any"
 	},
 	{
 		"header": "MicrosoftSharePointTeamServices",
 		"string": "14.0.0.7015",
-		"output": "2010 SP2 (​Initial)",
+		"output": "2010 SP2 (Initial)",
 		"code": "any"
 	},
 	{
