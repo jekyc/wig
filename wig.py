@@ -167,7 +167,13 @@ class Wig(object):
 		self.data['url_count'] = self.data['cache'].get_num_urls()
 
 		outputter = Output(self.options, self.data)
-		print(outputter.get_results())
+		title, data = outputter.get_results()
+		try:
+			print(title)
+		except:
+			pass
+
+		print(data)
 
 
 if __name__ == '__main__':

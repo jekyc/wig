@@ -160,14 +160,15 @@ class Output(object):
 	def get_results(self):
 		self._update()
 
-		out  = '\n'
-		out += self.color.format('TITLE    ', 'blue', True) + '\n' + self.title + '\n\n'
+		title  = '\n'
+		title += self.color.format('TITLE    ', 'blue', True) + '\n' + self.title + '\n\n'
 		
 		if self.cookies:
-			out += self.color.format('COOKIES  ', 'blue', True) + '\n' + ', '.join(list(self.cookies)) + '\n\n'
+			title += self.color.format('COOKIES  ', 'blue', True) + '\n' + ', '.join(list(self.cookies)) + '\n\n'
 	
-		out += self.color.format('IP       ', 'blue', True) + '\n' + self.ip + '\n\n'
+		title += self.color.format('IP       ', 'blue', True) + '\n' + self.ip + '\n'
 
+		data = '\n'
 		for section in ['version', 'vulnerabilities', 'tool', 'interesting']:
 			tmp = ''
 			versions = self.sections[self._find_section_index(section)]
@@ -189,7 +190,7 @@ class Output(object):
 					tmp += self.create_line(plugin, col2, col3)
 
 			if not tmp == '':
-				out += '\n'+ self.create_header(section) + tmp
+				data += '\n'+ self.create_header(section) + tmp
 
 		# status bar
 		time = self.stats['runtime']   + ' ' * (self.col_widths[1] - len(self.stats['runtime']))
@@ -199,4 +200,4 @@ class Output(object):
 		status  = self.color.format('_'*sum(self.col_widths.values()), 'blue', True) + '\n'
 		status += ''.join([ time, urls, fps ])
 
-		return out + status + '\n'
+		return (title, data + status + '\n')
