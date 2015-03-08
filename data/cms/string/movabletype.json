@@ -1,14 +1,20 @@
 [
 	{
-		"string": "<meta name=\"generator\" content=\"http://www.movabletype.org/\" />",
+		"url": "",
+		"type": "string",
+		"match": "<meta name=\"generator\" content=\"http://www.movabletype.org/\" />",
 		"output": ""
 	},
 	{
-		"string": "<meta name=\"generator\" content=\"Movable Type",
+		"url": "",
+		"type": "string",
+		"match": "<meta name=\"generator\" content=\"Movable Type",
 		"output": ""
 	},
 	{
-		"string": "/mt-static/",
+		"url": "",
+		"type": "string",
+		"match": "/mt-static/",
 		"output": ""
 	}
 ]

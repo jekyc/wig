@@ -1,22 +1,30 @@
 [
 	{
-		"string": "<!-- DotNetNuke - http://www.dotnetnuke.com",
+		"url": "",
+		"type": "string",
+		"match": "<!-- DotNetNuke - http://www.dotnetnuke.com",
 		"output": "",
 		"weight": 0.1
 	},
 	{
-		"string": "<!-- by DotNetNuke Corporation",
+		"url": "",
+		"type": "string",
+		"match": "<!-- by DotNetNuke Corporation",
 		"output": "",
 		"weight": 0.1
 	},
 	{
-		"string": "name=\"GENERATOR\" content=\"DotNetNuke",
+		"url": "",
+		"type": "string",
+		"match": "name=\"GENERATOR\" content=\"DotNetNuke",
 		"output": "",
 		"weight": 0.1
 
 	},	
 	{
-		"string": "<input name=\"__dnnVariable\" type=\"hidden\" id=\"__dnnVariable\" autocomplete=\"off\" />",
+		"url": "",
+		"type": "string",
+		"match": "<input name=\"__dnnVariable\" type=\"hidden\" id=\"__dnnVariable\" autocomplete=\"off\" />",
 		"output": "",
 		"weight": 0.1
 	}

@@ -1,51 +1,59 @@
 [
 	{
 		"url": "/util/login.aspx",
-		"string": "<div class=\"epi-credentialsContainer\">",
+		"type": "string",
+		"match": "<div class=\"epi-credentialsContainer\">",
 		"output": "",
 		"note": "EpiServer login page",
 		"weight": 0.1
 	},
 	{
 		"url": "/admui/report/default.aspx",
-		"string": "Report Center - EPiServer CMS",
+		"type": "string",
+		"match": "Report Center - EPiServer CMS",
 		"output": "",
 		"note": "EpiServer Report page",
 		"weight": 0.1 
 	},
 	{
 		"url": "/admui/help/en/Start.htm",
-		"string": "<title>Help in EPiServer CMS 5</title>",
+		"type": "string",
+		"match": "<title>Help in EPiServer CMS 5</title>",
 		"output": "5.0",
 		"weight": 0.1
 	},
 	{
 		"url": "/admui/help/en/ChangedPages.htm",
-		"string": "<title>Help in EPiServer CMS 5</title>",
+		"type": "string",
+		"match": "<title>Help in EPiServer CMS 5</title>",
 		"output": "5.0",
 		"weight": 0.1
 	},
 	{
 		"url": "/admui/javascript/edit.js",
-		"string": "JavaScript support routines for EPiServer",
+		"type": "string",
+		"match": "JavaScript support routines for EPiServer",
 		"output": "",
 		"weight": 0.1
 	},
 	{
 		"url": "/admui/javascript/resizewindows.js",
-		"string": "JavaScript support routines for EPiServer",
+		"type": "string",
+		"match": "JavaScript support routines for EPiServer",
 		"output": "",
 		"weight": 0.1
 	},
 	{
 		"url": "/util/javascript/common.js",
-		"string": "JavaScript support routines for EPiServer",
+		"type": "string",
+		"match": "JavaScript support routines for EPiServer",
 		"output": "",
 		"weight": 0.1
 	},
 	{
 		"url": "/App_Themes/Default/Styles/system.css",
-		"string": "Basic configuration for EPiServer system pages",
+		"type": "string",
+		"match": "Basic configuration for EPiServer system pages",
 		"output": "",
 		"weight": 0.1
 	}

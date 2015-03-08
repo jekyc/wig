@@ -1,18 +1,26 @@
 [
 	{
-		"string": "<meta name=\"generator\" content=\"Plone - http://plone.org\"/>",
+		"url": "",
+		"type": "string",
+		"match": "<meta name=\"generator\" content=\"Plone - http://plone.org\"/>",
 		"output": ""
 	},
 	{
-		"string": "resourcetinymce",
+		"url": "",
+		"type": "string",
+		"match": "resourcetinymce",
 		"output": ""
 	},
 	{
-		"string": "resourceplone",
+		"url": "",
+		"type": "string",
+		"match": "resourceplone",
 		"output": ""
 	},
 	{
-		"string": "Plone Powered</a>",
+		"url": "",
+		"type": "string",
+		"match": "Plone Powered</a>",
 		"output": ""
 	}
 ]

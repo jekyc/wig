@@ -6,10 +6,11 @@ class Printer():
 		self.color = color
 
 		self.colors = {
-			2: 'yellow',
-			3: 'red',
-			4: 'cyan',
-			5: 'magenta'
+			1: 'yellow',
+			2: 'cyan',
+			3: 'blue',
+			4: 'red',
+			5: 'white'
 		}
 
 	def print(self, msg, verbosity_level=0, line_ending='\n'):

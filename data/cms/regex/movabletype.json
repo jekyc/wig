@@ -1,11 +1,15 @@
 [
 	{
-		"regex": "<meta name=\"generator\" content=\"Movable Type (\\d[\\.\\d*]*)\" />",
+        "url": "",
+		"type": "regex",
+		"match": "<meta name=\"generator\" content=\"Movable Type (\\d[\\.\\d*]*)\" />",
 		"output": "%s",
 		"code": "any"
 	},
 	{
-		"regex": "<meta name=\"generator\" content=\"Movable Type (Pro \\d[\\.\\d*]*)\" />",
+        "url": "",
+		"type": "regex",
+		"match": "<meta name=\"generator\" content=\"Movable Type (Pro \\d[\\.\\d*]*)\" />",
 		"output": "%s",
 		"code": "any"
 	}

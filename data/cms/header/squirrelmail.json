@@ -1,7 +1,9 @@
 [
 	{
+		"url": "",
 		"header": "Set-Cookie",
-		"regex": "SQMSESSID",
+		"type":"string",
+		"match": "SQMSESSID",
 		"output": "",
 		"weight": 1,
 		"code": "any"

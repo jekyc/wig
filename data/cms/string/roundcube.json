@@ -1,52 +1,64 @@
 [
 	{
-		"string": "Welcome to RoundCube Webmail",
+        "url": "",
+		"type": "string",
+		"match": "Welcome to RoundCube Webmail",
 		"output": "",
 		"weight": 0.1
 	},
 	{
 		"url": "/mail/",
-		"string": "Welcome to RoundCube Webmail",
+		"type": "string",
+		"match": "Welcome to RoundCube Webmail",
 		"output": "",
 		"weight": 0.1
 	},
 	{
 		"url": "/roundcube",
-		"string": "Welcome to RoundCube Webmail",
+		"type": "string",
+		"match": "Welcome to RoundCube Webmail",
 		"output": "",
 		"weight": 0.1
 	},
 	{
-		"string": "var rcmail = new rcube_webmail();",
+        "url": "",
+		"type": "string",
+		"match": "var rcmail = new rcube_webmail();",
 		"output": "",
 		"weight": 0.1
 	},	
 	{
 		"url": "/mail/",
-		"string": "var rcmail = new rcube_webmail();",
+		"type": "string",
+		"match": "var rcmail = new rcube_webmail();",
 		"output": "",
 		"weight": 0.1
 	},
 	{
 		"url": "/roundcube",
-		"string": "var rcmail = new rcube_webmail();",
+		"type": "string",
+		"match": "var rcmail = new rcube_webmail();",
 		"output": "",
 		"weight": 0.1
 	},
 	{
-		"string": "<label for=\"rcmloginuser\">Username</label>",
+        "url": "",
+		"type": "string",
+		"match": "<label for=\"rcmloginuser\">Username</label>",
 		"output": "",
 		"weight": 0.1
 	},
 	{
 		"url": "/mail/",
-		"string": "<label for=\"rcmloginuser\">Username</label>",
+		"type": "string",
+		"match": "<label for=\"rcmloginuser\">Username</label>",
 		"output": "",
 		"weight": 0.1
 	},
 	{
 		"url": "/roundcube",
-		"string": "<label for=\"rcmloginuser\">Username</label>",
+		"type": "string",
+		"match": "<label for=\"rcmloginuser\">Username</label>",
 		"output": "",
 		"weight": 0.1
 	}

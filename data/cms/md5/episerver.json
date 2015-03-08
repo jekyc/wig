@@ -1,117 +1,140 @@
 [
 	{
 		"url": "/util/styles/login.css",
-		"md5": "5343c1a8b203c162a3bf3870d9f50fd4",
+		"type":"md5",
+		"match": "5343c1a8b203c162a3bf3870d9f50fd4",
 		"output": "5"
 	},
 	{
 		"url": "/util/styles/login.css",
-		"md5": "337e3c9d0f02a16c4f7439b3465ddc67",
+		"type":"md5",
+		"match": "337e3c9d0f02a16c4f7439b3465ddc67",
 		"output": "6.0"
 	},
 	{
 		"url": "/util/styles/login.css",
-		"md5": "59719203f1f95b1edcf6a48d9330df0c",
+		"type":"md5",
+		"match": "59719203f1f95b1edcf6a48d9330df0c",
 		"output": "6.0"
 	},
 	{
 		"url": "/util/styles/login.css",
-		"md5": "39d568c0a83e6b0c92daa82c306d18dd",
+		"type":"md5",
+		"match": "39d568c0a83e6b0c92daa82c306d18dd",
 		"output": "7"
 	},
 	{
 		"url": "/util/javascript/episerverscriptmanager.js",
-		"md5": "ca15fdce8a3ef839de764da91555cda3",
+		"type":"md5",
+		"match": "ca15fdce8a3ef839de764da91555cda3",
 		"output": "5"
 	},
 	{
 		"url": "/util/javascript/episerverscriptmanager.js",
-		"md5": "49db8174bc822e711d63c5a3d5c51d50",
+		"type":"md5",
+		"match": "49db8174bc822e711d63c5a3d5c51d50",
 		"output": "6.0"
 	},
 	{
 		"url": "/util/javascript/episerverscriptmanager.js",
-		"md5": "680eff9820921bfa5720f248ffa9a539",
+		"type":"md5",
+		"match": "680eff9820921bfa5720f248ffa9a539",
 		"output": "6.0"
 	},
 	{
 		"url": "/util/javascript/episerverscriptmanager.js",
-		"md5": "ac30c2d8fe68b0851bc1ab64796db982",
+		"type":"md5",
+		"match": "ac30c2d8fe68b0851bc1ab64796db982",
 		"output": "6.0 R2"
 	},
 	{
 		"url": "/util/javascript/episerverscriptmanager.js",
-		"md5": "9b63d775bfdaf9d7e1b6abf904595c7c",
+		"type":"md5",
+		"match": "9b63d775bfdaf9d7e1b6abf904595c7c",
 		"output": "7"
 	},
 	{
 		"url": "/App_themes/default/styles/system.css",
-		"md5": "6cd3abf5de498a5c4fd6a351299af333",
+		"type":"md5",
+		"match": "6cd3abf5de498a5c4fd6a351299af333",
 		"output": "5"
 	},
 	{
 		"url": "/App_themes/default/styles/system.css",
-		"md5": "09742434906b66a3e4ef1b313501d442",
+		"type":"md5",
+		"match": "09742434906b66a3e4ef1b313501d442",
 		"output": "6.0"
 	},
 	{
 		"url": "/App_themes/default/styles/system.css",
-		"md5": "54b497a4c1f81442e7bb37eba9703bed",
+		"type":"md5",
+		"match": "54b497a4c1f81442e7bb37eba9703bed",
 		"output": "6.0 R2"
 	},
 	{
 		"url": "/App_themes/default/styles/system.css",
-		"md5": "25540b24625805e4f4c1c18cf6991cb1",
+		"type":"md5",
+		"match": "25540b24625805e4f4c1c18cf6991cb1",
 		"output": "7.0"
 	},
 	{
 		"url": "/App_themes/default/styles/system.css",
-		"md5": "7914c7e9579f1761525baff3fd3de5d7",
+		"type":"md5",
+		"match": "7914c7e9579f1761525baff3fd3de5d7",
 		"output": "7.5"
 	},
 	{
 		"url": "/App_Themes/Default/Styles/ToolButton.css",
-		"md5": "f3cad9d32b2f7c5e0e514fc816c677df",
+		"type":"md5",
+		"match": "f3cad9d32b2f7c5e0e514fc816c677df",
 		"output": "5"
 	},
 	{
 		"url": "/App_Themes/Default/Styles/ToolButton.css",
-		"md5": "bf922b0e4e6f0bff158e890777a28b27",
+		"type":"md5",
+		"match": "bf922b0e4e6f0bff158e890777a28b27",
 		"output": "6.0"
 	},
 	{
 		"url": "/App_Themes/Default/Styles/ToolButton.css",
-		"md5": "cc40f9b426357a0e85f9fd3b1c3755e3",
+		"type":"md5",
+		"match": "cc40f9b426357a0e85f9fd3b1c3755e3",
 		"output": "6.0 R2"
 	},
 	{
 		"url": "/App_Themes/Default/Styles/ToolButton.css",
-		"md5": "cc40f9b426357a0e85f9fd3b1c3755e3",
+		"type":"md5",
+		"match": "cc40f9b426357a0e85f9fd3b1c3755e3",
 		"output": "7"
 	},
 	{
 		"url": "/util/images/episerver-artwork.png",
-		"md5": "c1a0e6fadfccc78b85802356bbd0c89f",
+		"type":"md5",
+		"match": "c1a0e6fadfccc78b85802356bbd0c89f",
 		"output": "7"
 	},
 	{
 		"url": "/util/images/episerver-logo.png",
-		"md5": "dbc3e1ff859613bd3973900562ccf9c1",
+		"type":"md5",
+		"match": "dbc3e1ff859613bd3973900562ccf9c1",
 		"output": "7"
 	},
 	{
 		"url": "/util/javascript/datebrowser.js",
-		"md5": "260b2f5db9dd1c77ea1d4a9b3291c0f9",
+		"type":"md5",
+		"match": "260b2f5db9dd1c77ea1d4a9b3291c0f9",
 		"output": "7.0"
 	},
 	{
 		"url": "/util/javascript/common.js",
-		"md5": "7ed41dcf7b82ac4af332f44ab1f7cd0a",
+		"type":"md5",
+		"match": "7ed41dcf7b82ac4af332f44ab1f7cd0a",
 		"output": "7.0"
 	},
 	{
 		"url": "/util/javascript/common.js",
-		"md5": "7ed41dcf7b82ac4af332f44ab1f7cd0a",
+		"type":"md5",
+		"match": "7ed41dcf7b82ac4af332f44ab1f7cd0a",
 		"output": "6.0"
 	}	
 ]

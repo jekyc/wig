@@ -1,13 +1,14 @@
 [
-	"/random_file_name_14123432099",
-	"/random_file_name_14123432099.asp",
-	"/random_file_name_14123432099.aspx",
-	"/random_file_name_14123432099.php",
-	"/random_file_name_14123432099.txt",
-	"/random_file_name_14123432099.htm",
-	"/random_file_name_14123432099.html",
-	"/random_file_name_14123432099.old",
-	"/random_file_name_14123432099.zip",
-	"/random/dir/name/123123/",
-	"/random/dir/name/123123"
+	{"url": "/random_file_name_14123432099"},
+	{"url": "/random_file_name_14123432099.asp"},
+	{"url": "/random_file_name_14123432099.aspx"},
+	{"url": "/random_file_name_14123432099.php"},
+	{"url": "/random_file_name_14123432099.txt"},
+	{"url": "/random_file_name_14123432099.htm"},
+	{"url": "/random_file_name_14123432099.html"},
+	{"url": "/random_file_name_14123432099.old"},
+	{"url": "/random_file_name_14123432099.zip"},
+	{"url": "/random/dir/name/123123/"},
+	{"url": "/random/dir/name/123123"},
+	{"url": "/|~.aspx"}
 ]

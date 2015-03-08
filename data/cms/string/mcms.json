@@ -1,10 +1,14 @@
 [
 	{
-		"string": "/NR/rdonlyres/",
+		"url": "",
+		"type": "string",
+		"match": "/NR/rdonlyres/",
 		"output": "2001"
 	},
 	{
-		"string": "/NR/rdonlyres/",
+		"url": "",
+		"type": "string",
+		"match": "/NR/rdonlyres/",
 		"output": "2002"
 	}
 ]

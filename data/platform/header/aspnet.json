@@ -1,28 +1,36 @@
 [
 	{
+		"url": "",
 		"header": "X-Powered-By",
-		"string": "ASP.NET",
+		"type": "string",
+		"match": "ASP.NET",
 		"output": "",
 		"code": "any",
 		"weight": 0.1
 	},
 	{
+		"url": "",
 		"header": "Set-Cookie",
-		"string": "ASP.NET_SessionId",
+		"type": "string",
+		"match": "ASP.NET_SessionId",
 		"output": "",
 		"code": "any",
 		"weight": 0.1
 	},
 	{
+		"url": "",
 		"header": "Set-Cookie",
-		"string": ".ASPX",
+		"type": "string",
+		"match": ".ASPX",
 		"output": "",
 		"code": "any",
 		"weight": 0.1
 	},
 	{
+		"url": "",
 		"header": "X-AspNet-Version",
-		"regex": ".*",
+		"type": "regex",
+		"match": "([\\d?\\.]*)",
 		"output": "%s",
 		"code": "any",
 		"weight": 2

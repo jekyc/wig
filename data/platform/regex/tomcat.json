@@ -1,8 +1,34 @@
 [
 	{
-		"url": "/none_existing_page_123.aspx",
-		"regex": "<title>Apache Tomcat/([^\\s]*)   Error report</title>",
+		"url": "",
+		"type": "regex",
+		"match": "<title>Apache Tomcat/([^\\s]*)",
 		"output": "%s",
 		"code": 404
+	},
+	{
+		"url": "/manager/",
+		"type": "regex",
+		"match": "<title>Apache Tomcat/([^\\s]*)",
+		"output": "%s",
+		"code": "any",
+		"note": "Tomcat manager"
+	},
+	{
+		"url": "/host-manager/html",
+		"type": "regex",
+		"match": "<title>Apache Tomcat/([^\\s]*)",
+		"output": "%s",
+		"code": "any",
+		"note": "Tomcat host manager"
+	},
+	{
+		"url": "/docs/",
+		"type": "regex",
+		"match": "<title>Apache Tomcat \\d?[\\.\\d]* \\(([^\\s]*)\\)",
+		"output": "%s",
+		"code": "any",
+		"note": "Tomcat docs"
 	}
 ]
+

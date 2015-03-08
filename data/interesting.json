@@ -2,78 +2,92 @@
 	{
 		"url":  "/robots.txt",
 		"note": "robots.txt index",
-		"string": "Disallow"
+		"type": "string",
+		"match": "Disallow"
 	},
 	{
 		"url":  "/changelog",
 		"note": "ChangeLog text file",
 		"ext": ["php", "aspx", "asp", "txt", "old", "htm", "html", "jsp"],
-		"string": ""
+		"type": "string",
+		"match": ""
 	},
 	{
 		"url":  "/readme",
 		"note": "Readme file",
 		"ext": ["php", "aspx", "asp", "txt", "old", "htm", "html", "jsp"],
-		"string": ""
+		"type": "string",
+		"match": ""
 	},
 	{
 		"url":  "/install",
 		"note": "Installation file",
 		"ext": ["php", "aspx", "asp", "txt", "old", "htm", "html", "jsp"],
-		"string": ""
+		"type": "string",
+		"match": ""
 	},
 	{
 		"url":  "/phpinfo.php",
 		"note": "PHP info file",
-		"string": "phpinfo()"
+		"type": "string",
+		"match": "phpinfo()"
 	},
 	{
 		"url":  "/info.php",
 		"note": "PHP info file",
-		"string": "phpinfo()"
+		"type": "string",
+		"match": "phpinfo()"
 	},
 	{
 		"url":  "/test",
 		"note": "Test file",
 		"ext": ["php", "aspx", "asp", "txt", "old", "htm", "html", "jsp", "zip"],
-		"string": ""
+		"type": "string",
+		"match": ""
 	},
 	{
 		"url":  "/login",
 		"note": "Test file",
 		"ext": ["php", "aspx", "asp", "txt", "old", "htm", "html", "jsp", "zip"],
-		"string": ""
+		"type": "string",
+		"match": ""
 	},
 	{
 		"url":  "/test1",
 		"note": "Test file",
 		"ext": ["php", "aspx", "asp", "txt", "old", "htm", "html", "jsp", "zip"],
-		"string": ""
+		"type": "string",
+		"match": ""
 	},
 	{
 		"url":  "/test/",
 		"note": "Test directory",
-		"string": ""
+		"type": "string",
+		"match": ""
 	},
 	{
 		"url":  "/login/",
 		"note": "Test directory",
-		"string": ""
+		"type": "string",
+		"match": ""
 	},
 	{
 		"url":  "/old",
 		"note": "This might be interesting",
 		"ext": ["php", "aspx", "asp", "txt", "old", "htm", "html", "jsp", "zip"],
-		"string": ""
+		"type": "string",
+		"match": ""
 	},
 	{
 		"url":  "/old/",
 		"note": "This might be interesting",
-		"string": ""
+		"type": "string",
+		"match": ""
 	},
 	{
 		"url":  "/sql/",
 		"note": "This might be interesting",
-		"string": ""
+		"type": "string",
+		"match": ""
 	}
 ]

@@ -1,21 +1,26 @@
 [
 	{
-		"regex": "<meta name=\"generator\" content=\"Joomla\\!\\s*(\\d[\\.\\d]*)",
+        "url": "",
+		"type": "regex",
+		"match": "<meta name=\"generator\" content=\"Joomla\\!\\s*(\\d[\\.\\d]*)",
 		"output": "%s"
 	},
 	{
 		"url": "/index.php?format=feed&type=rss",
-		"regex": "generator=\"Joomla\\!\\s*(\\d[\\.\\d]*)",
+		"type": "regex",
+		"match": "generator=\"Joomla\\!\\s*(\\d[\\.\\d]*)",
 		"output": "%s"
 	},
 	{
 		"url": "/index.php?format=feed&type=atom",
-		"regex": "generator=\"Joomla\\!\\s*(\\d[\\.\\d]*)",
+		"type": "regex",
+		"match": "generator=\"Joomla\\!\\s*(\\d[\\.\\d]*)",
 		"output": "%s"
 	},
 	{
 		"url": "/feed/rss.html",
-		"regex": "generator=\"Joomla\\!\\s*(\\d[\\.\\d]*)",
+		"type": "regex",
+		"match": "generator=\"Joomla\\!\\s*(\\d[\\.\\d]*)",
 		"output": "%s"
 	}
 ]

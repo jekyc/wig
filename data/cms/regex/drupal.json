@@ -1,13 +1,16 @@
 [
 	{
-		"regex": "<meta name=\"[g|G]enerator\" content=\"Drupal (\\d[.\\d]*)",
+        "url": "",
+		"type": "regex",
+		"match": "<meta name=\"[g|G]enerator\" content=\"Drupal (\\d[.\\d]*)",
 		"output": "%s",
 		"code": "any",
 		"weight": 0.01
 	},
 	{
 		"url": "/CHANGELOG.txt",
-		"regex": "Drupal (\\d[.\\d]*)",
+		"type": "regex",
+		"match": "Drupal (\\d[.\\d]*)",
 		"output": "%s",
 		"note": "Drupal CHANGELOG",
 		"weight": 10

@@ -1,11 +1,13 @@
 [
 	{
+		"url": "",
 		"header": "X-Powered-By",
 		"regex": ".*JBoss([^/]*/JBossWeb[^\n]*)",
 		"output": "%s",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "X-Powered-By",
 		"regex": ".*JBoss-(\\d[\\.\\d]*[\\.A-Z]*)",
 		"output": "%s",

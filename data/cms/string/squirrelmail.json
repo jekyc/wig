@@ -1,25 +1,29 @@
 [
 	{
 		"url": "/src/login.php",
-		"string": "alt=\"SquirrelMail Logo\" width=\"308\" height=\"111\" /><br />",
+		"type": "string",
+		"match": "alt=\"SquirrelMail Logo\" width=\"308\" height=\"111\" /><br />",
 		"output": "",
 		"note": "SquirrelMail login"
 	},
 	{
 		"url": "/src/login.php",
-		"string": "<title>SquirrelMail - Login</title><script language=\"JavaScript\" type=\"text/javascript\">",
+		"type": "string",
+		"match": "<title>SquirrelMail - Login</title><script language=\"JavaScript\" type=\"text/javascript\">",
 		"output": "",
 		"note": "SquirrelMail login"
 	},
 	{
 		"url": "/mail/src/login.php",
-		"string": "alt=\"SquirrelMail Logo\" width=\"308\" height=\"111\" /><br />",
+		"type": "string",
+		"match": "alt=\"SquirrelMail Logo\" width=\"308\" height=\"111\" /><br />",
 		"output": "",
 		"note": "SquirrelMail login"
 	},
 	{
 		"url": "/mail/src/login.php",
-		"string": "<title>SquirrelMail - Login</title><script language=\"JavaScript\" type=\"text/javascript\">",
+		"type": "string",
+		"match": "<title>SquirrelMail - Login</title><script language=\"JavaScript\" type=\"text/javascript\">",
 		"output": "",
 		"note": "SquirrelMail login"
 	}

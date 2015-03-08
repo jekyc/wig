@@ -1,4 +1,5 @@
 from classes.color import Color
+import re
 
 class Output(object):
 
@@ -7,11 +8,20 @@ class Output(object):
 		self.color = data['colorizer']
 		self.data = data
 
+		# calc the amount of fingerprints
+		fps = data['fingerprints'].data
+		num_fps_js		= sum([len(fps['js'][fp_type]['fps']) for fp_type in fps['js']])
+		num_fps_os		= len(fps['os']['fps'])
+		num_fps_cms		= sum([len(fps['cms'][fp_type]['fps']) for fp_type in fps['cms']])
+		num_fps_plat	= sum([len(fps['platform'][fp_type]['fps']) for fp_type in fps['platform']])
+		num_fps_vuln	= sum([len(fps['vulnerabilities'][source]['fps']) for source in fps['vulnerabilities']])
+		num_fps = num_fps_js + num_fps_os + num_fps_cms + num_fps_plat + num_fps_vuln
+
 
 		self.stats = {
 			'runtime':		'Time: %.1f sec' % (data['runtime'], ),
 			'url_count':	'Urls: %s' % (data['url_count'], ),
-			'fp_count':		'Fingerprints: %s' % (data['fingerprints'].get_size(), ),
+			'fp_count':		'Fingerprints: %s' % (num_fps, ),
 		}
 
 		self.col_widths =  {1: 0, 2: 0, 3: 0}
@@ -26,10 +36,10 @@ class Output(object):
 					3: {'title': 'CATEGORY',  'color': 'blue', 'bold': True}
 				},
 				'titles': [
-					{'category': 'CMS',                  'title': 'CMS'},
-					{'category': 'JavaScript',           'title': 'JavaScript'},
-					{'category': 'Platform',             'title': 'Platform'},
-					{'category': 'Operating System',     'title': 'Operating System'},
+					{'category': 'cms',					'title': 'CMS'},
+					{'category': 'js',					'title': 'JavaScript'},
+					{'category': 'platform',			'title': 'Platform'},
+					{'category': 'os',					'title': 'Operating System'},
 				]
 			},
 			{
@@ -40,7 +50,7 @@ class Output(object):
 					3: {'title': 'LINK',            'color': 'blue', 'bold': True}
 				},
 				'titles': [
-					{'category': 'Vulnerability',          'title': '%s'},
+					{'category': 'vulnerability',          'title': '%s'},
 				]
 			},
 			{
@@ -51,7 +61,7 @@ class Output(object):
 					3: {'title': 'LINK',            'color': 'blue', 'bold': True}
 				},
 				'titles': [
-					{'category': 'Tool',             'title': '%s'},
+					{'category': 'tool',             'title': '%s'},
 				]
 			},
 			{
@@ -62,7 +72,7 @@ class Output(object):
 					3: {'title': 'CATEGORY', 'color': 'blue', 'bold': True}
 				},
 				'titles': [
-					{'category': 'Interesting',          'title': 'Interesting URL'},
+					{'category': 'interesting',          'title': 'Interesting URL'},
 				]
 			}
 		]
@@ -70,6 +80,20 @@ class Output(object):
 		self.seperator = ' | '
 		self.seperator_color = self.color.format(self.seperator, 'blue', True)
 		self.ip = self.title = self.cookies = None
+
+
+	def _replace_version_text(self, text):
+		# replace text in version output with something else
+		# (most likely an emtpy string) to improve output
+		text = re.sub('^wmf/', '', text)
+		text = re.sub('^develsnap_', '', text)
+		text = re.sub('^release_candidate_', '', text)
+		text = re.sub('^release_stable_', '', text)
+		text = re.sub('^release[-|_]', '', text, flags=re.IGNORECASE)	# Umbraco, phpmyadmin
+		text = re.sub('^[R|r][E|e][L|l]_', '', text)				
+		text = re.sub('^mt', '', text)				# Movable Type
+		text = re.sub('^mybb_', '', text)			# myBB
+		return text
 
 
 	def _update(self):
@@ -145,11 +169,13 @@ class Output(object):
 		
 		#col 2
 		if len(versions) > 1:
-			out += self.seperator_color.join(versions)
-			out += ' ' * (self.col_widths[2] - len(self.seperator.join(versions)))			
+			v = [self._replace_version_text(i) for i in versions]
+			out += self.seperator_color.join(v)
+			out += ' ' * (self.col_widths[2] - len(self.seperator.join(v)))			
 		else:
-			out += versions[0]
-			out += ' ' * (self.col_widths[2] - len(versions[0]))
+			v = self._replace_version_text(versions[0])
+			out += v
+			out += ' ' * (self.col_widths[2] - len(v))
 
 		# col3
 		out += category + '\n'
@@ -158,6 +184,7 @@ class Output(object):
 
 
 	def get_results(self):
+		
 		self._update()
 
 		title  = '\n'

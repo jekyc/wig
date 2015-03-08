@@ -1,6 +1,8 @@
 [
 	{
-		"string": "Powered by <a href=\"http://cakephp.org\">CakePHP</a>",
+		"url": "",
+		"type": "string",
+		"match": "Powered by <a href=\"http://cakephp.org\">CakePHP</a>",
 		"output": "",
 		"code": "any"
 	}

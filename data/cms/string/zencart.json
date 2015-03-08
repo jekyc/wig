@@ -1,11 +1,15 @@
 [
 	{
-		"string": "<meta name=\"generator\" content=\"shopping cart program by Zen Cart",
+        "url": "",
+		"type": "string",
+		"match": "<meta name=\"generator\" content=\"shopping cart program by Zen Cart",
 		"output": "",
 		"code": "any"
 	},
 	{
-		"string": "<meta name=\"author\" content=\"The Zen Cart",
+        "url": "",
+		"type": "string",
+		"match": "<meta name=\"author\" content=\"The Zen Cart",
 		"output": "",
 		"code": "any"
 	}

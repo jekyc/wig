@@ -6,7 +6,7 @@ class ExtractHeaders(object):
 		self.results = data['results']
 		self.log = log
 		self.headers = set()
-		self.category = "Platform"
+		self.category = "platform"
 
 	def _split_server_line(self, line):
 		if "(" in line:
@@ -25,7 +25,7 @@ class ExtractHeaders(object):
 			# if the header and value is not in the header set, add them along with the url.
 			# only the first header,value,url set should be added. 
 			if not (header, response.headers[header]) in headers:
-				self.headers.add( (header, response.headers[header], response.url))
+				self.headers.add((header, response.headers[header], response.url))
 
 	def run(self):
 		# get all the headers seen during the scan

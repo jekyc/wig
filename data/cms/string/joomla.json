@@ -1,14 +1,16 @@
 [
 	{
 		"url": "/administrator",
-		"string": "Warning! JavaScript must be enabled for proper operation of the Administrator backend.",
+		"type": "string",
+		"match": "Warning! JavaScript must be enabled for proper operation of the Administrator backend.",
 		"weight": 0.1,
 		"output": "",
 		"note": "Joomla! administration page"
 	},
 	{
 		"url": "/test.htm",
-		"string": " <title>500 - View not found [name, type, prefix]: article, htm, contentView</title>",
+		"type": "string",
+		"match": " <title>500 - View not found [name, type, prefix]: article, htm, contentView</title>",
 		"weight": 0.1,
 		"output": "",
 		"code": 500

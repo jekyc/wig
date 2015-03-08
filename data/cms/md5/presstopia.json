@@ -1,27 +1,32 @@
 [
-     {
-          "md5": "93e2094eda928380d3fda5cbe8c8ba53",
-          "output": "",
-          "url": "/pt/admin/MasterStyle.css"
-     },
-     {
-          "md5": "71346b7872fd103feebd99a85cf9d96c",
-          "output": "",
-          "url": "/pt/admin/images/adminlogo.gif"     	
-     },
-     {
-          "md5": "c062d166895af856b6a41f09092dc815",
-          "output": "",
-          "url": "/pt/admin/Logon.aspx"
-     },
-     {
-          "md5": "4d33296a676bf8093b31436358c7bb2d",
-          "output": "",
-          "url": "/pt/themes/default/images/link.gif"
-     },
-     {
-          "md5": "3b15abc9670f7dc54ac19021a90db1a1",
-          "output": "",
-          "url": "/pt/themes/default/Style.css"
-     }
+	{
+		"type": "md5",
+		"match": "93e2094eda928380d3fda5cbe8c8ba53",
+		"output": "",
+		"url": "/pt/admin/MasterStyle.css"
+	},
+	{
+		"type": "md5",
+		"match": "71346b7872fd103feebd99a85cf9d96c",
+		"output": "",
+		"url": "/pt/admin/images/adminlogo.gif"     	
+	},
+	{
+		"type": "md5",
+		"match": "c062d166895af856b6a41f09092dc815",
+		"output": "",
+		"url": "/pt/admin/Logon.aspx"
+	},
+	{
+		"type": "md5",
+		"match": "4d33296a676bf8093b31436358c7bb2d",
+		"output": "",
+		"url": "/pt/themes/default/images/link.gif"
+	},
+	{
+		"type": "md5",
+		"match": "3b15abc9670f7dc54ac19021a90db1a1",
+		"output": "",
+		"url": "/pt/themes/default/Style.css"
+	}
 ]

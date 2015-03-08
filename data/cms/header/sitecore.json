@@ -1,21 +1,27 @@
 [
 	{
+		"url": "",
 		"header": "Set-Cookie",
-		"regex": "#sc_wede=1",
+		"type":"string",
+		"match": "#sc_wede=1",
 		"output": "",
 		"weight": 1,
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "Set-Cookie",
-		"regex": "website#lang",
+		"type":"string",
+		"match": "website#lang",
 		"output": "",
 		"weight": 1,
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "Set-Cookie",
-		"regex": "SC_ANALYTICS_GLOBAL_COOKIE",
+		"type":"string",
+		"match": "SC_ANALYTICS_GLOBAL_COOKIE",
 		"output": "",
 		"weight": 1,
 		"code": "any"

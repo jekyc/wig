@@ -1,38 +1,45 @@
 [
 	{
-		"regex": "<meta name=\"generator\" content=\"TYPO3 ([\\d\\.?]+)",
+        "url": "",
+		"type": "regex",
+		"match": "<meta name=\"generator\" content=\"TYPO3 ([\\d\\.?]+)",
 		"output": "%s",
 		"weight": 5
 	},
 	{
 		"url": "/typo3/sysext/version/ChangeLog",
-		"regex": "Raised version to (\\d[\\.\\d]*)",
+		"type": "regex",
+		"match": "Raised version to (\\d[\\.\\d]*)",
 		"output": "%s",
 		"note": "Typo3 ChangeLog",
 		"weight": 5
 	},
 	{
 		"url": "/ChangeLog",
-		"regex": "Raised version to (\\d[\\.\\d]*)",
+		"type": "regex",
+		"match": "Raised version to (\\d[\\.\\d]*)",
 		"output": "%s",
 		"note": "Typo3 ChangeLog",
 		"weight": 5
 	},
 	{
 		"url": "/NEWS.txt",
-		"regex": "IMPROVEMENTS in TYPO3 (\\d[\\.\\d]*)",
+		"type": "regex",
+		"match": "IMPROVEMENTS in TYPO3 (\\d[\\.\\d]*)",
 		"output": "%s",
 		"weight": 5
 	},
 	{
 		"url": "/NEWS.txt",
-		"regex": "IMPROVEMENTS between TYPO3 \\d\\.\\d and (\\d[\\.\\d]*)",
+		"type": "regex",
+		"match": "IMPROVEMENTS between TYPO3 \\d\\.\\d and (\\d[\\.\\d]*)",
 		"output": "%s",
 		"weight": 5
 	},
 	{
 		"url": "/RELEASE_NOTES.txt",
-		"regex": "RELEASE NOTES FOR TYPO3 (\\d[\\.\\d]*)",
+		"type": "regex",
+		"match": "RELEASE NOTES FOR TYPO3 (\\d[\\.\\d]*)",
 		"output": "%s",
 		"note": "Typo3 Release notes",
 		"weight": 5

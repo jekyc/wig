@@ -1,619 +1,825 @@
 [
 	{
+		"url": "",
 		"header": "X-SharePoinHealthScore",
-		"string": "",
+		"type":"string",
+		"match": "",
 		"output": "",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "SPRequestGuid",
-		"string": "",
+		"type":"string",
+		"match": "",
 		"output": "",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"regex": "(\\d{2}\\.0\\.0\\.\\d{4})",
+		"type":"regex",
+		"match": "(\\d{2}\\.0\\.0\\.\\d{4})",
 		"output": "%s",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6690",
+		"type":"string",
+		"match": "12.0.0.6690",
 		"output": "3.0/2007 SP3 (MS14-022)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6679",
+		"type":"string",
+		"match": "12.0.0.6679",
 		"output": "3.0/2007 SP3 (June 2013)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6676",
+		"type":"string",
+		"match": "12.0.0.6676",
 		"output": "3.0/2007 SP3 (April 2013)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6673",
+		"type":"string",
+		"match": "12.0.0.6673",
 		"output": "3.0/2007 SP3 (February 2013)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6670",
+		"type":"string",
+		"match": "12.0.0.6670",
 		"output": "3.0/2007 SP3 (December 2012)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6668",
+		"type":"string",
+		"match": "12.0.0.6668",
 		"output": "3.0/2007 SP3 (October 2012)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6665",
+		"type":"string",
+		"match": "12.0.0.6665",
 		"output": "3.0/2007 SP3 (August 2012)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6662",
+		"type":"string",
+		"match": "12.0.0.6662",
 		"output": "3.0/2007 SP3 (June 2012)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6661",
+		"type":"string",
+		"match": "12.0.0.6661",
 		"output": "3.0/2007 SP3 (April 2012)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6658",
+		"type":"string",
+		"match": "12.0.0.6658",
 		"output": "3.0/2007 SP3 (February 2012)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6656",
+		"type":"string",
+		"match": "12.0.0.6656",
 		"output": "3.0/2007 SP3 (December 2011)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6654",
+		"type":"string",
+		"match": "12.0.0.6654",
 		"output": "3.0/2007 (October 2011)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6606",
+		"type":"string",
+		"match": "12.0.0.6606",
 		"output": "3.0/2007 SP3 (2011)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6565",
+		"type":"string",
+		"match": "12.0.0.6565",
 		"output": "3.0/2007 SP2 (August 2011)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6562",
+		"type":"string",
+		"match": "12.0.0.6562",
 		"output": "3.0/2007 SP2 (June 2011)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6557",
+		"type":"string",
+		"match": "12.0.0.6557",
 		"output": "3.0/2007 SP2 (April 2011)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6554",
+		"type":"string",
+		"match": "12.0.0.6554",
 		"output": "3.0/2007 SP2 (February 2011)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6550",
+		"type":"string",
+		"match": "12.0.0.6550",
 		"output": "3.0/2007 SP2 (December 2010)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6548",
+		"type":"string",
+		"match": "12.0.0.6548",
 		"output": "3.0/2007 SP2 (October 2010)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6545",
+		"type":"string",
+		"match": "12.0.0.6545",
 		"output": "3.0/2007 SP2 (August 2010)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6539",
+		"type":"string",
+		"match": "12.0.0.6539",
 		"output": "3.0/2007 SP2 (June 2010)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6535",
+		"type":"string",
+		"match": "12.0.0.6535",
 		"output": "3.0/2007 SP2 (April 2010)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6529",
+		"type":"string",
+		"match": "12.0.0.6529",
 		"output": "3.0/2007 SP2 (February 2010)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6524",
+		"type":"string",
+		"match": "12.0.0.6524",
 		"output": "3.0/2007 SP2 (December 2009)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6520",
+		"type":"string",
+		"match": "12.0.0.6520",
 		"output": "3.0/2007 SP2 (October 2009)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6514",
+		"type":"string",
+		"match": "12.0.0.6514",
 		"output": "3.0/2007 SP2 (August 2009)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6510",
+		"type":"string",
+		"match": "12.0.0.6510",
 		"output": "3.0/2007 SP2 (June 2009)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6504",
+		"type":"string",
+		"match": "12.0.0.6504",
 		"output": "3.0/2007 SP2 (April 2009)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6421",
+		"type":"string",
+		"match": "12.0.0.6421",
 		"output": "3.0/2007 SP2",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6341",
+		"type":"string",
+		"match": "12.0.0.6341",
 		"output": "3.0/2007 SP1 (February 2009)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6335",
+		"type":"string",
+		"match": "12.0.0.6335",
 		"output": "3.0/2007 SP1 (December 2008)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6332",
+		"type":"string",
+		"match": "12.0.0.6332",
 		"output": "3.0/2007 SP1 (October 2008)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6327",
+		"type":"string",
+		"match": "12.0.0.6327",
 		"output": "3.0/2007 SP1 (August 2008)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6318",
+		"type":"string",
+		"match": "12.0.0.6318",
 		"output": "3.0/2007 SP1 (July 2008)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6317",
+		"type":"string",
+		"match": "12.0.0.6317",
 		"output": "3.0/2007 SP1 (June 2008)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6316",
+		"type":"string",
+		"match": "12.0.0.6316",
 		"output": "3.0/2007 SP1 (May 2009)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6315",
+		"type":"string",
+		"match": "12.0.0.6315",
 		"output": "3.0/2007 SP1?",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6303",
+		"type":"string",
+		"match": "12.0.0.6303",
 		"output": "3.0/2007 SP1 (February 2008)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6301",
+		"type":"string",
+		"match": "12.0.0.6301",
 		"output": "3.0/2007 SP1 (January 2008)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6300",
+		"type":"string",
+		"match": "12.0.0.6300",
 		"output": "3.0/2007 SP1 (January 2008)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6219",
+		"type":"string",
+		"match": "12.0.0.6219",
 		"output": "3.0/2007 SP1 (initial)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6039",
+		"type":"string",
+		"match": "12.0.0.6039",
 		"output": "3.0/2007 (October 2007)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.6036",
+		"type":"string",
+		"match": "12.0.0.6036",
 		"output": "3.0/2007 (August 2007)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.4518",
+		"type":"string",
+		"match": "12.0.0.4518",
 		"output": "3.0/2007 (RTM)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.4407",
+		"type":"string",
+		"match": "12.0.0.4407",
 		"output": "3.0/2007 (Beta 2 TR)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "12.0.0.4017",
+		"type":"string",
+		"match": "12.0.0.4017",
 		"output": "3.0/2007 (Beta 2)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.4762",
+		"type":"string",
+		"match": "14.0.0.4762",
 		"output": "2010 (RTM)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.4763",
+		"type":"string",
+		"match": "14.0.0.4763",
 		"output": "2010 (RTM)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.5114",
+		"type":"string",
+		"match": "14.0.0.5114",
 		"output": "2010 (June 2010)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.5123",
+		"type":"string",
+		"match": "14.0.0.5123",
 		"output": "2010 (August 2010)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.5128",
+		"type":"string",
+		"match": "14.0.0.5128",
 		"output": "2010 (October 2010)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.5130",
+		"type":"string",
+		"match": "14.0.0.5130",
 		"output": "2010 (December 2010)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.5136",
+		"type":"string",
+		"match": "14.0.0.5136",
 		"output": "2010 (February 2011)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.5138",
+		"type":"string",
+		"match": "14.0.0.5138",
 		"output": "2010 (April 2011)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.6029",
+		"type":"string",
+		"match": "14.0.0.6029",
 		"output": "2010 SP1",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.6106",
+		"type":"string",
+		"match": "14.0.0.6106",
 		"output": "2010 SP1 (June 2011)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.6109",
+		"type":"string",
+		"match": "14.0.0.6109",
 		"output": "2010 SP1 (August 2011)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.6112",
+		"type":"string",
+		"match": "14.0.0.6112",
 		"output": "2010 SP1 (October 2011)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.6114",
+		"type":"string",
+		"match": "14.0.0.6114",
 		"output": "2010 SP1 (December 2011)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.6117",
+		"type":"string",
+		"match": "14.0.0.6117",
 		"output": "2010 SP1 (February 2012)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.6120",
+		"type":"string",
+		"match": "14.0.0.6120",
 		"output": "2010 SP1 (April 2012)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.6123",
+		"type":"string",
+		"match": "14.0.0.6123",
 		"output": "2010 SP1 (June 2012)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.6126",
+		"type":"string",
+		"match": "14.0.0.6126",
 		"output": "2010 SP1 (August 2012)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.6129",
+		"type":"string",
+		"match": "14.0.0.6129",
 		"output": "2010 SP1 (October 2012)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.6131",
+		"type":"string",
+		"match": "14.0.0.6131",
 		"output": "2010 SP1 (December 2012)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.6134",
+		"type":"string",
+		"match": "14.0.0.6134",
 		"output": "2010 SP1 (February 2013)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.6137",
+		"type":"string",
+		"match": "14.0.0.6137",
 		"output": "2010 SP1 (April 2013)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.7011",
+		"type":"string",
+		"match": "14.0.0.7011",
 		"output": "2010 SP2 (SP2 Public Beta)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.7015",
+		"type":"string",
+		"match": "14.0.0.7015",
 		"output": "2010 SP2 (Initial)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.7102",
+		"type":"string",
+		"match": "14.0.0.7102",
 		"output": "2010 SP2 (June 2013)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.7106",
+		"type":"string",
+		"match": "14.0.0.7106",
 		"output": "2010 SP2 (August 2013)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.7110",
+		"type":"string",
+		"match": "14.0.0.7110",
 		"output": "2010 SP2 (October 2013)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.7113",
+		"type":"string",
+		"match": "14.0.0.7113",
 		"output": "2010 SP2 (December 2013)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.7116",
+		"type":"string",
+		"match": "14.0.0.7116",
 		"output": "2010 SP2 (February 2014)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.7121",
+		"type":"string",
+		"match": "14.0.0.7121",
 		"output": "2010 SP2 (April 2014)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.7123",
+		"type":"string",
+		"match": "14.0.0.7123",
 		"output": "2010 SP2 (MS14-022)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.7125",
+		"type":"string",
+		"match": "14.0.0.7125",
 		"output": "2010 SP2 (June 2014)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.7130",
+		"type":"string",
+		"match": "14.0.0.7130",
 		"output": "2010 SP2 (August 2014)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.7132",
+		"type":"string",
+		"match": "14.0.0.7132",
 		"output": "2010 SP2 (September 2014)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.7134",
+		"type":"string",
+		"match": "14.0.0.7134",
 		"output": "2010 SP2 (October 2014)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "14.0.0.7137",
+		"type":"string",
+		"match": "14.0.0.7137",
 		"output": "2010 SP2 (November 2014)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "15.0.0.4128",
+		"type":"string",
+		"match": "15.0.0.4128",
 		"output": "2013 (Public Beta Preview)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "15.0.0.4420",
+		"type":"string",
+		"match": "15.0.0.4420",
 		"output": "2013 (RTM)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "15.0.0.4433",
+		"type":"string",
+		"match": "15.0.0.4433",
 		"output": "2013 (December 2012)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "15.0.0.4481",
+		"type":"string",
+		"match": "15.0.0.4481",
 		"output": "2013 (March 2013)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "15.0.0.4505",
+		"type":"string",
+		"match": "15.0.0.4505",
 		"output": "2013 (April 2013)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "15.0.0.4517",
+		"type":"string",
+		"match": "15.0.0.4517",
 		"output": "2013 (June 2013)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "15.0.0.4535",
+		"type":"string",
+		"match": "15.0.0.4535",
 		"output": "2013 (August 2013)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "15.0.0.4551",
+		"type":"string",
+		"match": "15.0.0.4551",
 		"output": "2013 (October 2013)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "15.0.0.4551",
+		"type":"string",
+		"match": "15.0.0.4551",
 		"output": "2013 (October/December 2013)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "15.0.0.4569",
+		"type":"string",
+		"match": "15.0.0.4569",
 		"output": "2013 SP1 (April 2013)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "15.0.0.4571",
+		"type":"string",
+		"match": "15.0.0.4571",
 		"output": "2013 SP1 (April 2013)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "15.0.0.4605",
+		"type":"string",
+		"match": "15.0.0.4605",
 		"output": "2013 SP1 (April 2013)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "15.0.0.4615",
+		"type":"string",
+		"match": "15.0.0.4615",
 		"output": "2013 SP1 (MS14-022)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "15.0.0.4623",
+		"type":"string",
+		"match": "15.0.0.4623",
 		"output": "2013 SP1 (June 2014)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "15.0.0.4631",
+		"type":"string",
+		"match": "15.0.0.4631",
 		"output": "2013 SP1 (July 2014)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "15.0.0.4641",
+		"type":"string",
+		"match": "15.0.0.4641",
 		"output": "2013 SP1 (August 2014)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "15.0.0.4649",
+		"type":"string",
+		"match": "15.0.0.4649",
 		"output": "2013 SP1 (September 2014)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "15.0.0.4659",
+		"type":"string",
+		"match": "15.0.0.4659",
 		"output": "2013 SP1 (October 2014)",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "MicrosoftSharePointTeamServices",
-		"string": "15.0.0.4667",
+		"type":"string",
+		"match": "15.0.0.4667",
 		"output": "2013 SP1 (November 2014)",
 		"code": "any"
 	}

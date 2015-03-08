@@ -1,10 +1,14 @@
 [
 	{
-		"string": "\"sb_state_cookie\": \"vb5sitebuilder_active\"",
+        "url": "",
+		"type": "string",
+		"match": "\"sb_state_cookie\": \"vb5sitebuilder_active\"",
 		"output": "5.x"
 	},
 	{
-		"string": "vb_disable_ajax = parseInt%(\"0\", 10%);",
+        "url": "",
+		"type": "string",
+		"match": "vb_disable_ajax = parseInt%(\"0\", 10%);",
 		"output": ""
 	}
 ]

@@ -1,95 +1,482 @@
-{
-    "Apache": {
-        "2.2.8": [["Ubuntu", "8.04"]],
-        "2.2.23": [["FreeBSD", "9.1 p4"]],
-        "2.2.25": [["FreeBSD", "9.1"]],
-    	"2.2.27": [["FreeBSD", "9.2"]],
-        "2.4.10": [["Debian", "8.0 (pre release)"]]
+[
+    {
+        "pkg_name":    "Apache",
+        "pkg_version": "2.2.8",
+        "os_name":     "Ubuntu",
+        "os_version":  "8.04"
     },
-    "php": {
-        "5.2.4": [["Ubuntu", "8.04"]]
+    {
+        "pkg_name":    "Apache",
+        "pkg_version": "2.2.23",
+        "os_name":     "FreeBSD",
+        "os_version":  "9.1 p4"
     },
-    "Microsoft-IIS": {
-        "5.0": [["Microsoft Windows Server", "2000"]],
-        "5.1": [["Microsoft Windows Server", "XP"]],
-        "6.0": [["Microsoft Windows Server", "2003"]],
-        "7.0": [["Microsoft Windows Server", "2008"]],
-        "7.5": [["Microsoft Windows Server", "2008 R2"]],
-        "8.0": [["Microsoft Windows Server", "2012"]],
-        "8.5": [["Microsoft Windows Server", "2012 R2"]]
+    {
+        "pkg_name":    "Apache",
+        "pkg_version": "2.2.25",
+        "os_name":     "FreeBSD",
+        "os_version":  "9.1"
     },
-    "Microsoft-HTTPAPI": {
-        "1.0": [["Microsoft Windows Server", "2003"]],
-        "2.0": [
-            ["Microsoft Windows Server", "2003 SP2"],
-            ["Microsoft Windows", "7"],
-            ["Microsoft Windows Server", "2008"],
-            ["Microsoft Windows Server", "2008 R2"],
-            ["Microsoft Windows Server", "2012"],
-            ["Microsoft Windows Server", "2012 R2"]
-        ]
+    {
+        "pkg_name":    "Apache",
+        "pkg_version": "2.2.27",
+        "os_name":     "FreeBSD",
+        "os_version":  "9.2"
     },
-    "ASP.NET":{        
-        "1.0.2204.21":   [["Microsoft Windows Server", "2003"]],
-        "1.0.2914.0":    [["Microsoft Windows Server", "2003"]],
-        "1.0.3705.0":    [["Microsoft Windows Server", "2003"]],        
-        "1.0.3705.209":  [["Microsoft Windows Server", "2003"]],
-        "1.0.3705.288":  [["Microsoft Windows Server", "2003"]],        
-        "1.0.3705.6018": [["Microsoft Windows Server", "2003"]],        
-        "1.1.4322.510":  [["Microsoft Windows Server", "2003"]],        
-        "1.1.4322.573":  [["Microsoft Windows Server", "2003"]],        
-        "1.1.4322.2032": [["Microsoft Windows Server", "2003"]],        
-        "1.1.4322.2300": [["Microsoft Windows Server", "2003"]],        
-        "1.1.4322.2310": [["Microsoft Windows Server", "2003"]],        
-        "1.1.4322.2407": [["Microsoft Windows Server", "2003"]],
-        "1.1.4322.2443": [["Microsoft Windows Server", "2003"]],
-        "2.0.40607.16":   [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
-        "2.0.50215.44":   [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
-        "2.0.50727.42":   [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
-        "2.0.50727.312":  [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
-        "2.0.50727.832":  [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
-        "2.0.50727.1433": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
-        "2.0.50727.1434": [["Microsoft Windows Server", "2008"]],
-        "2.0.50727.3053": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
-        "2.0.50727.3082": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
-        "2.0.50727.3603": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
-        "2.0.50727.3607": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
-        "2.0.50727.3615": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
-        "2.0.50727.4016": [["Microsoft Windows Server", "2008"]],
-        "2.0.50727.4918": [["Microsoft Windows", "7 RC"]],
-        "2.0.50727.4927": [["Microsoft Windows", "7 RTM"]],
-        "2.0.50727.4952": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
-        "2.0.50727.3649": [["Microsoft Windows Server", "2003"]],
-        "2.0.50727.5472": [["Microsoft Windows Server", "2008 R2"]],
-        "3.0.4506.30":   [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
-        "3.0.4506.26":   [["Microsoft Windows", "Vista"]],
-        "3.0.4506.590":  [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
-        "3.0.4506.648":  [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
-        "3.0.4506.2123": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
-        "3.0.4506.2254": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"],["Microsoft Windows Server", "2008 R2"]],
-        "3.5.20404.0":  [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"], ["Microsoft Windows Server", "2012"], ["Microsoft Windows Server", "2012 R2"]],
-        "3.5.20706.1":  [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"], ["Microsoft Windows Server", "2012"], ["Microsoft Windows Server", "2012 R2"]],
-        "3.5.21022.8":  [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"], ["Microsoft Windows Server", "2012"], ["Microsoft Windows Server", "2012 R2"]],
-        "3.5.30428.1":  [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"], ["Microsoft Windows Server", "2012"], ["Microsoft Windows Server", "2012 R2"]],
-        "3.5.30729.01": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"], ["Microsoft Windows Server", "2012"], ["Microsoft Windows Server", "2012 R2"]],
-        "4.0.20506":       [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"]],
-        "4.0.21006":       [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"]],
-        "4.0.30128.1":     [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"]],
-        "4.0.30319":       [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"]],
-        "4.0.30319.1":     [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"]],
-        "4.0.30319.17020": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"]],
-        "4.0.30319.17379": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"]],
-        "4.0.30319.17626": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"]],
-        "4.0.30319.18033": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"]],
-        "4.0.30319.18046": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"]],
-        "4.0.30319.18408": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"]],
-        "4.0.30319.18444": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"]],
-        "4.0.30319.34209": [["Microsoft Windows Server", "2003"], ["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"]],
-        "4.5.40805": [["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"], ["Microsoft Windows Server", "2012"]],
-        "4.5.50131": [["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"], ["Microsoft Windows Server", "2012"]],
-        "4.5.50501": [["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"], ["Microsoft Windows Server", "2012"]],
-        "4.5.50709": [["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"], ["Microsoft Windows Server", "2012"]],
-        "4.5.51641": [["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"], ["Microsoft Windows Server", "2012"], ["Microsoft Windows Server", "2012 R2"]],
-        "4.5.51650": [["Microsoft Windows Server", "2008"], ["Microsoft Windows Server", "2008 R2"], ["Microsoft Windows Server", "2012"], ["Microsoft Windows Server", "2012 R2"]]
+    {
+        "pkg_name":    "Apache",
+        "pkg_version": "2.4.10",
+        "os_name":     "Debian",
+        "os_version":  "8.0 (pre-release)"
+    },
+    {
+        "pkg_name":    "php",
+        "pkg_version": "5.2.4",
+        "os_name":     "Ubuntu",
+        "os_version":  "8.04"
+    },
+    {
+        "pkg_name":    "php",
+        "pkg_version": "5.2.4",
+        "os_name":     "Ubuntu",
+        "os_version":  "8.04"
+    },
+    {
+        "pkg_name":    "Microsoft-IIS",
+        "pkg_version": "5.0",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  "2000"
+    },
+    {
+        "pkg_name":    "Microsoft-IIS",
+        "pkg_version": "5.1",
+        "os_name":     "Microsoft Windows",
+        "os_version":  "XP"
+    },
+    {
+        "pkg_name":    "Microsoft-IIS",
+        "pkg_version": "6.0",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2003 SP2"]
+    },
+    {
+        "pkg_name":    "Microsoft-IIS",
+        "pkg_version": "7.0",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  "2008"
+    },
+    {
+        "pkg_name":    "Microsoft-IIS",
+        "pkg_version": "7.5",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  "2008 R2"
+    },
+    {
+        "pkg_name":    "Microsoft-IIS",
+        "pkg_version": "8.0",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  "2012"
+    },
+    {
+        "pkg_name":    "Microsoft-IIS",
+        "pkg_version": "8.5",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  "2012 R2"
+    },
+    {
+        "pkg_name":    "Microsoft-HTTPAPI",
+        "pkg_version": "1.0",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2003 SP1"]
+    },
+    {
+        "pkg_name":    "Microsoft-HTTPAPI",
+        "pkg_version": "2.0",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003 SP2", "2003 SP3", "2008", "2008 R2", "2012", "2012 R2"]
+    },
+    {
+        "pkg_name":    "Microsoft-HTTPAPI",
+        "pkg_version": "2.0",
+        "os_name":     "Microsoft Windows",
+        "os_version":  "7"
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "1.0.2204.21",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  "2003"
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "1.0.2914.0",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  "2003"
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "1.0.3705.0",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  "2003"
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "1.0.3705.209",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  "2003"
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "1.0.3705.288",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  "2003"
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "1.0.3705.6018",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  "2003"
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "1.1.4322.510",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  "2003"
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "1.1.4322.573",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  "2003"
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "1.1.4322.2032",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  "2003"
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "1.1.4322.2300",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  "2003"
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "1.1.4322.2310",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  "2003"
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "1.1.4322.2407",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  "2003"
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "1.1.4322.2443",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  "2003"
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "2.0.40607.16",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "2.0.50215.44",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "2.0.50727.42",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "2.0.50727.312",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "2.0.50727.832",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "2.0.50727.1433",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "2.0.50727.1434",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  "2008"
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "2.0.50727.3053",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "2.0.50727.3082",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "2.0.50727.3603",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "2.0.50727.3607",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "2.0.50727.3615",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "2.0.50727.4016",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  "2008"
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "2.0.50727.4918",
+        "os_name":     "Microsoft Windows",
+        "os_version":  "7 RC"
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "2.0.50727.4927",
+        "os_name":     "Microsoft Windows",
+        "os_version":  "7 RTM"
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "2.0.50727.4952",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "2.0.50727.4952",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "2.0.50727.3649",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  "2003"
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "2.0.50727.5472",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  "2008 R2"
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "3.0.4506.30",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "3.0.4506.26",
+        "os_name":     "Microsoft Windows",
+        "os_version":  "Vista"
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "3.0.4506.590",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "3.0.4506.648",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "3.0.4506.2123",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "3.0.4506.2254",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "3.5.20404.0",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2", "2012", "2012 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "3.5.20706.1",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2", "2012", "2012 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "3.5.21022.8",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2", "2012", "2012 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "3.5.30428.1",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2", "2012", "2012 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "3.5.30729.01",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2", "2012", "2012 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "4.0.20506",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "4.0.21006",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "4.0.30128.1",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "4.0.30319",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "4.0.30319.1",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "4.0.30319.17020",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "4.0.30319.17379",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "4.0.30319.17626",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "4.0.30319.18033",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "4.0.30319.18046",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "4.0.30319.18408",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "4.0.30319.18444",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "4.0.30319.34209",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2003", "2008", "2008 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "4.5.40805",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2008", "2008 R2", "2012"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "4.5.50131",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2008", "2008 R2", "2012"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "4.5.50501",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2008", "2008 R2", "2012"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "4.5.50709",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2008", "2008 R2", "2012"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "4.0.30319.34209",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2008", "2008 R2", "2012"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "4.5.51641",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2008", "2008 R2", "2012", "2012 R2"]
+    },
+    {
+        "pkg_name":    "ASP.NET",
+        "pkg_version": "4.5.51650",
+        "os_name":     "Microsoft Windows Server",
+        "os_version":  ["2008", "2008 R2", "2012", "2012 R2"]
     }
-}
+]

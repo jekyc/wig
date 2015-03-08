@@ -1,27 +1,28 @@
 [
-     {
-          "string": "Powered By Presstopia",
-          "output": "",
-          "weight": 0.1
-     },
-     {
-          "url": "/pt/blog/default.aspx",
-          "string": "This Blog is powered by <a href=\"http://presstopia.com\">Presstopia</a>.",
-          "output": "",
-          "weight": 0.1
-     },
-     {
-          "url": "/pt/admin/Logon.aspx",
-          "string": "&nbsp;&nbsp;<img src=\"images/Bullet.jpg\" alt=\"\" />&nbsp; <a href=\"Config.aspx\">",
-          "output": "",
-          "weight": 1,
-          "note": "Presstopia Administration Login"
-     },
-     {
-          "url": "/pt/admin/Logon.aspx",
-          "string": "<span class=\"smallText\">&copy; Presstopia. All rights reserved.</span>",
-          "output": "",
-          "weight": 1,
-          "note": "Presstopia Administration Login"
-     }
+    {
+        "url": "",
+        "string": "Powered By Presstopia",
+        "output": "",
+        "weight": 0.1
+    },
+    {
+        "url": "/pt/blog/default.aspx",
+        "string": "This Blog is powered by <a href=\"http://presstopia.com\">Presstopia</a>.",
+        "output": "",
+        "weight": 0.1
+    },
+    {
+        "url": "/pt/admin/Logon.aspx",
+        "string": "&nbsp;&nbsp;<img src=\"images/Bullet.jpg\" alt=\"\" />&nbsp; <a href=\"Config.aspx\">",
+        "output": "",
+        "weight": 1,
+        "note": "Presstopia Administration Login"
+    },
+    {
+        "url": "/pt/admin/Logon.aspx",
+        "string": "<span class=\"smallText\">&copy; Presstopia. All rights reserved.</span>",
+        "output": "",
+        "weight": 1,
+        "note": "Presstopia Administration Login"
+    }
 ]

@@ -1,12 +1,14 @@
 [
 	{
 		"url": "/adm/gfx/logon-logo.gif",
-		"md5": "1b0df975dbf4b9fa06473205456d5fd3",
+		"type":"md5",
+		"match": "1b0df975dbf4b9fa06473205456d5fd3",
 		"output": ""
 	},
 	{
 		"url": "/favicon.ico",
-		"md5": "b9ded64736836f2c4e56448a2c8903ad",
+		"type":"md5",
+		"match": "b9ded64736836f2c4e56448a2c8903ad",
 		"output": ""
 	}
 ]

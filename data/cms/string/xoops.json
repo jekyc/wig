@@ -1,16 +1,22 @@
 [
 	{
-		"string": "<meta name=\"generator\" content=\"XOOPS\" />",
+        "url": "",
+		"type": "string",
+		"match": "<meta name=\"generator\" content=\"XOOPS\" />",
 		"output": "",
 		"code": "any"
 	},
 	{
-		"string": "<input type=\"hidden\" name=\"xoops_redirect\" value=\"/\"/>",
+        "url": "",
+		"type": "string",
+		"match": "<input type=\"hidden\" name=\"xoops_redirect\" value=\"/\"/>",
 		"output": "",
 		"code": "any"
 	},
 	{
-		"string": "xoops.css",
+        "url": "",
+		"type": "string",
+		"match": "xoops.css",
 		"output": ""
 	}
 ]

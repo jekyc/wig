@@ -1,14 +1,18 @@
 [
 	{
+		"url": "",
 		"header": "X-Generator",
-		"regex": "Drupal (\\d) ",
+		"type": "regex",
+		"match": "Drupal (\\d) ",
 		"output": "%s",
 		"weight": 0.01,
 		"code": "any"	
 	},
 	{
+		"url": "",
+		"type": "regex",
 		"header": "X-Drupal-Cache",
-		"regex": "(?:HIT|MISS)",
+		"match": "(?:HIT|MISS)",
 		"output": "",
 		"weight": 0.01,
 		"code": "any"

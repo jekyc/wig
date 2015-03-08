@@ -1,11 +1,14 @@
 [
 	{
+		"url": "",
 		"header": "Set-Cookie",
-		"string": "JSESSION",
+		"type": "string",
+		"match": "JSESSION",
 		"output": "",
 		"code": "any"
 	},
 	{
+		"url": "",
 		"header": "X-Powered-By",
 		"regex": "JSP/(\\d[\\.\\d]*) ",
 		"output": "%s",

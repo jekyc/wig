@@ -1,5 +1,5 @@
 import queue
-import threading
+import concurrent.futures
 import time
 import hashlib
 import sys
@@ -7,10 +7,25 @@ import re
 import string
 import random
 import urllib.request
+import urllib.parse
 
+from html.parser import HTMLParser
 from collections import namedtuple
 from classes.cache import Cache
 from classes.results import Results
+from classes.queue import FingerprintQueue
+
+
+class HTMLStripper(HTMLParser):
+	def __init__(self):
+		self.reset()
+		self.strict = False
+		self.convert_charrefs = True
+		self.tagtext = []
+	def handle_data(self, d):
+		self.tagtext.append(d)
+	def get_tagtext(self):
+		return ''.join(self.tagtext)
 
 
 def _clean_page(page):
@@ -50,6 +65,11 @@ def _create_response(response):
 	response_info = urllib.request.urlparse(url)
 	body = response.read()
 
+	# get the page text only
+	parser = HTMLStripper()
+	parser.feed(body.decode('utf-8', 'ignore'))
+	page_text = parser.get_tagtext()
+
 	R.set_body(body)
 	R.protocol = response_info.scheme
 	R.host = response_info.netloc
@@ -58,6 +78,7 @@ def _create_response(response):
 	R.headers = {pair[0].lower():pair[1] for pair in response.getheaders()}
 	R.md5 = hashlib.md5(body).hexdigest().lower()
 	R.md5_404 = _clean_page(body)
+	R.md5_404_text = _clean_page(page_text.encode('utf-8', 'ignore'))
 
 	return(R)
 
@@ -70,8 +91,8 @@ def _create_response(response):
 
 class OutOfScopeException(Exception):
 	def __init__(self, org_url, new_url):
-		self.original_netloc = org_url
-		self.new_netloc = new_url
+		self.original_netloc = org_url.netloc
+		self.new_netloc = new_url.netloc
 
 	def __str__(self):
 		return repr( "%s is not in scope %s" % (self.new_netloc, self.original_netloc)  )
@@ -83,7 +104,6 @@ class UnknownHostName(Exception):
 
 	def __str__(self):
 		return "Unknown host: %s" % (self.url,)
-
 
 
 class ErrorHandler(urllib.request.HTTPDefaultErrorHandler):
@@ -102,12 +122,17 @@ class RedirectHandler(urllib.request.HTTPRedirectHandler):
 
 	def http_error_302(self, req, fp, code, msg, headers):
 		if 'location' in headers:
-			new_url = urllib.request.urlparse(headers['location'])
 			org_url = urllib.request.urlparse(req.get_full_url())
+			new_url = urllib.request.urlparse(headers['location'])
 
-			if new_url.netloc is not org_url.netloc:
-				raise OutOfScopeException(org_url.netloc, new_url.netloc)
+			# if the location starts with '/' the path is relative
+			if headers['location'].startswith('/'):
+				new_url = new_url._replace(scheme=org_url.scheme, netloc=org_url.netloc)
 
+			if not new_url.netloc == org_url.netloc:
+				raise OutOfScopeException(org_url, new_url)
+
+		# call python's built-in redirection handler
 		return urllib.request.HTTPRedirectHandler.http_error_302(self, req, fp, code, msg, headers)
 
 	http_error_301 = http_error_303 = http_error_307 = http_error_302
@@ -144,7 +169,12 @@ class Response:
 
 
 	def get_url(self):
-		return self.protocol + '://' + self.host + self.url
+		url_data =  urllib.request.urlparse(self.url)
+
+		if url_data.scheme == '': url_data._replace(scheme=self.protocol)
+		if url_data.netloc == '': url_data._replace(netloc=self.host)
+
+		return url_data.geturl()
 
 
 	def set_body(self, body):
@@ -176,7 +206,7 @@ class Response:
 
 	def __repr__(self):
 		def get_string(r):
-			string = r.protocol + '://' + r.host + r.url + '\n'
+			string = r.url + '\n'
 			string += '%s %s\n' %(r.status['code'], r.status['text'])
 			string += '\n'.join([header +': '+ r.headers[header] for header in r.headers])
 			string += '\n\n'
@@ -187,82 +217,90 @@ class Response:
 		return get_string(self)
 		
 
-
+"""
 class RequesterThread(threading.Thread):
-	def __init__(self, id, data, opener):
+	def __init__(self, id, host, queue, data, opener, run_type):
 		threading.Thread.__init__(self)
 		self.id = id
-		self.kill = False
-		self.queue = data['queue']
+		self.host = host
+
+		self.fingerprintQueue = queue
 		self.cache = data['cache']
 		self.requested = data['requested']
+		
 		self.opener = opener
+		self.run_type = run_type
+		
 
+	def make_request(self, fingerprint_list):
+		# the fingerprints in the fingerprint_list
+		# should all have the same url, so it should
+		# be safe to extract the url of the first 
+		# fingerprint
+		url = fingerprint_list[0]['url']
+		complete_url = urllib.parse.urljoin(self.host, url)
 
-	def make_request(self, item):
-		url = item['url']
 		R = None
 
-		if not url in self.cache:
+		# check if the url is out of scope
+		url_data = urllib.parse.urlparse(complete_url)
+		host_data = urllib.parse.urlparse(self.host)
+		if not url_data.netloc == host_data.netloc:
+			pass
+
+		elif not complete_url in self.cache:
 			try:
-				request = urllib.request.Request(url)
+				request = urllib.request.Request(complete_url)
 				response = self.opener.open(request)
-
 				R = _create_response(response)
-
-				self.cache[url] = R
+				self.cache[complete_url] = R
 				self.cache[response.geturl()] = R
-
 			except Exception as e:
-				# print(e)
 				pass
 		else:
-			R = self.cache[url]
+			R = self.cache[complete_url]
 
 		return R
 
 
 	def run(self):
-		while not self.kill:
-			item = self.queue.get()
 
-			if item is None:
-				self.queue.task_done()
-				break
+		while True:
+			# get the next item in the queue
+			fingerprint_list = self.fingerprintQueue.get()
+			
+			# make the request and get the response
+			response = self.make_request(fingerprint_list)
 
-			response = self.make_request(item)
-			if response is None:
-				self.queue.task_done()
-				continue
-
-			self.requested.put( (item['fps'], response ) )
-			self.queue.task_done()
-
+			# if the response failed or for some other reason 
+			# is none, mark the task as done, and move on
+			if response is not None:
+				self.requested.put( (fingerprint_list, response ) )
+			
+			self.fingerprintQueue.task_done()
+"""
 
 
 class Requester:
 	def __init__(self, options, data):
-		self.threads = None
-		self.workers = []
+		self.threads = options['threads']
+		self.proxy = options['proxy']
+		self.user_agent = options['user_agent']
+
+		self.data = data
+		self.cache = data['cache']
+		self.requested = data['requested']
+		self.printer = data['printer']
+
 		self.is_redirected = False
+		self.find_404s = False
+		self.fingerprintQueue = None
 
 		self.url_data = urllib.request.urlparse(options['url'])
 		if options['prefix']:
 			self.url_data.path = options['prefix'] + self.url_data.path
 		self.url = urllib.request.urlunparse(self.url_data)
 
-		self.find_404s = False
-
-		self.data = data
-		self.cache = data['cache']
-		self.queue = data['queue']
-		self.requested = data['requested']
-		self.printer = data['printer']
-
-		self.proxy = options['proxy']
-		self.user_agent = options['user_agent']
-
-	
 	def _create_fetcher(self, redirect_handler=True):
 		args = [ErrorHandler]
 		if self.proxy == None:
@@ -277,26 +315,6 @@ class Requester:
 		opener = urllib.request.build_opener(*args)
 		opener.addheaders = [('User-agent', self.user_agent)]
 		return opener
-
-
-	# set the fingerprints for the requester to get.	
-	# fps should be a list of lists of fingerprints:
-	# [ [fp, fp, fp], [fp, fp, ...], ...]
-	# each fingerprinter in the innerlist must have the same URL
-	# The number of elements in the outer list equals the number
-	# of threads used
-	def set_fingerprints(self, fps):
-		self.fps = fps
-		self.threads = len(fps)
-
-
-	def set_find_404(self, find_404s):
-		self.find_404s = find_404s
-
-
-	def set_url(self, url):
-		self.url = url
-
 
 	def detect_redirect(self):
 		parse = urllib.request.urlparse
@@ -333,37 +351,45 @@ class Requester:
 		return (self.is_redirected, new_loc)
 
 
-	def run(self):
+	def run(self, run_type, fp_lists):
 
-		for fp_list in self.fps:
-			self.queue.put({ "url": self.url + fp_list[0]['url'], "fps": fp_list })
 
-		# add 'None' to queue - stops threads when no items are left
-		for i in range(self.threads): self.queue.put( None )
+		def worker(host, fp_list, cache, opener):
+			url = fp_list[0]['url']
+			complete_url = urllib.parse.urljoin(host, url)
 
-		# start the threads
-		self.works = []
-		for i in range(self.threads):
-			w = RequesterThread(i, self.data, self._create_fetcher())
-			w.daemon = True
-			self.workers.append(w)
-			w.start()
+			R = None
 
-		# join when all work is done
-		self.queue.join()
+			# check if the url is out of scope
+			url_data = urllib.parse.urlparse(complete_url)
+			host_data = urllib.parse.urlparse(host)
+			if not url_data.netloc == host_data.netloc:
+				pass
 
-		# the define_404 should only be true during the 
-		# preprocessing. 
-		if not self.find_404s:
-			return self.requested
+			elif not complete_url in cache:
+				try:
+					request = urllib.request.Request(complete_url)
+					response = opener.open(request)
+					R = _create_response(response)
+					cache[complete_url] = R
+					cache[response.geturl()] = R
+				except Exception as e:
+					pass
+			else:
+				R = cache[complete_url]
 
-		# if the define_404 flag is set, then the 
-		# supplied URLs are to be used for identification of 404 
-		# pages
-		else:
-			error_pages = queue.Queue()
-			while self.requested.qsize() > 0:
-				_,response = self.requested.get()
-				error_pages.put((response.md5_404, response.url))
+			return (fp_list, R)
 
-			return error_pages
+
+		with concurrent.futures.ThreadPoolExecutor(max_workers=self.threads) as executor:
+			
+			future_list = []
+
+			for fp_list in fp_lists:
+				future_list.append(executor.submit(worker, self.url, fp_list, self.cache, self._create_fetcher()))
+				
+			for future in concurrent.futures.as_completed(future_list):
+				self.requested.put(future.result())
+
+		
+		return self.requested

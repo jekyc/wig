@@ -6,18 +6,15 @@ from classes.color import Color
 from classes.cache import Cache
 from classes.results import Results
 from classes.fingerprints import Fingerprints
-from classes.discovery import DiscoverTitle, DiscoverIP, DiscoverCookies
-from classes.discovery import DiscoverCMS, DiscoverVersion
-from classes.discovery import DiscoverOS, DiscoverJavaScript, DiscoverAllCMS
-from classes.discovery import DiscoverErrorPage, DiscoverMore
-from classes.discovery import DiscoverInteresting, DiscoverUrlLess
-from classes.discovery import DiscoverVulnerabilities, DiscoverTools
+from classes.queue import FingerprintQueue
+
+from classes.discovery import *
+
 from classes.headers import ExtractHeaders
 from classes.matcher import Match
 from classes.printer import Printer
 from classes.output import Output
 from classes.request2 import Requester, UnknownHostName
-
 
 
 
@@ -32,7 +29,7 @@ class Wig(object):
 			'proxy': args.proxy,
 			'verbosity': args.verbosity,
 			'threads': 10,
-			'chunk_size': 10, # same as threads
+			'batch_size': 20,
 			'run_all': args.run_all,
 			'match_all': args.match_all,
 			'stop_after': args.stop_after,
@@ -49,7 +46,6 @@ class Wig(object):
 			'printer': Printer(args.verbosity, Color()),
 			'detected_cms': set(),
 			'error_pages': set(),
-			'queue': queue.Queue(),
 			'requested': queue.Queue()
 		}
 
@@ -58,17 +54,14 @@ class Wig(object):
 
 	def run(self):
 		
-		########################################################################
-		# PRE PROCESSING
-		########################################################################
-		
+
+		""" --- DETECT REDIRECTION ------------- """
 		try:
 			is_redirected, new_url = self.data['requester'].detect_redirect()
 		except UnknownHostName as e:
 			error = self.data['colorizer'].format(e, 'red', False)
 			print(error)
 			sys.exit(1)
-
 
 		if is_redirected:
 			hilight_host = self.data['colorizer'].format(new_url, 'red', False)
@@ -80,100 +73,118 @@ class Wig(object):
 			# else update the host
 			else:
 				self.options['url'] = new_url
-				self.data['requester'].set_url(new_url)
+				self.data['requester'].url = new_url
+		""" ------------------------------------ """
 
-		# timer started after the user interaction
-		self.data['timer'] = time.time()
 
 		# load cache if this is not disabled
 		self.data['cache'].set_host(self.options['url'])
 		if not self.options['no_cache_load']:
 			self.data['cache'].load()
 
-		# find error pages
-		self.data['error_pages'] = DiscoverErrorPage(self.options, self.data).run()
 
-		# create a matcher
-		self.data['matcher'].set_404s(self.data['error_pages'])
+		# timer started after the user interaction
+		self.data['timer'] = time.time()
 
-		ip = DiscoverIP(self.options['url']).run()
-		self.data['results'].set_ip(ip)
 
-		########################################################################
-		# PROCESSING
-		########################################################################
-		cms_finder = DiscoverCMS(self.options, self.data)
-		version_finder = DiscoverVersion(self.options, self.data)
-		p = self.data['printer']
-
-		# as long as there are more fingerprints to check, and
-		# no cms' have been detected
-		counter = 0
-		p.print('Running CMS detection...' ,1)
-		while not cms_finder.is_done() and (len(self.data['detected_cms']) < self.options['stop_after'] or self.options['run_all']):
-			counter += 1
-
-			# check the next chunk of urls for cms detection
-			cms_list = list(set(cms_finder.run()))
-			for cms in cms_list:
-				
-				# skip checking the cms, if it has already been detected
-				if cms in self.data['detected_cms']: continue
-
-				p.print('- Running CMS version detection on %s' % (cms, ) ,2)
-				version_finder.run(cms)
-
-				# if a match was found, then it has been added to the results object
-				# and the detected_cms list should be updated
-				if self.data['results'].found_match(cms):
-					self.data['detected_cms'].add(cms)
-				else:
-					pass
-
-		########################################################################
-		# POST PROCESSING
-		########################################################################
-
-		# set site into
-		ip = DiscoverIP(self.options['url']).run()
-		self.data['results'].set_ip(ip)
+		""" --- GET SITE INFO ------------------ """
+		# get the title
 		title = DiscoverTitle(self.options, self.data).run()
 		self.data['results'].set_title(title)
 
+		# get the IP of the domain
+		ip = DiscoverIP(self.options['url']).run()
+		self.data['results'].set_ip(ip)
+		""" ------------------------------------ """
+
+
+
+		""" --- DETECT ERROR PAGES ------------- """
+		# find error pages
+		self.data['error_pages'] = DiscoverErrorPage(self.options, self.data).run()
+
+		# set matcher error pages
+		self.data['matcher'].error_pages = self.data['error_pages']
+		""" ------------------------------------ """
+
+
+		""" --- VERSION DETECTION -------------- """
+		# Search for the first CMS
+		cms_finder = DiscoverCMS(self.options, self.data).run()
+
+		# find Platform
+		platform_finder = DiscoverPlatform(self.options, self.data).run()
+		""" ------------------------------------ """
+
+
+		""" --- GET MORE DATA FROM THE SITE ---- """
 		# find interesting files
 		DiscoverInteresting(self.options, self.data).run()
-		DiscoverMore(self.options, self.data).run()
-		ExtractHeaders(self.data).run()
-		DiscoverJavaScript(self.options, self.data).run()
-		DiscoverUrlLess(self.options, self.data).run()
-		
-		if self.options['match_all']:
-			DiscoverAllCMS(self.data).run()
 
+		# find and request links to static files on the pages		
+		DiscoverMore(self.options, self.data).run()
+		""" ------------------------------------ """
+
+
+		""" --- SEARCH FOR JAVASCRIPT LIBS ----- """
+		# do this after 'DiscoverMore' has been run, to detect JS libs
+		# located in places not covered by the fingerprints
+		DiscoverJavaScript(self.options, self.data).run()
+		""" ------------------------------------ """
+
+
+		""" --- SEARCH THE CACHE --------------- """
+		# some fingerprints do not have urls - search the cache
+		# for matches
+		DiscoverUrlLess(self.options, self.data).run()
+
+		# search for cookies
+		DiscoverCookies(self.data).run()
+
+		# search the cache for headers
+		ExtractHeaders(self.data).run()
+
+		# search for indications of the used operating system
 		DiscoverOS(self.options, self.data).run()
 
-		cookies = DiscoverCookies(self.data).run()
-		self.data['results'].set_cookies(cookies)
+		# search for all CMS if specified by the user
+		if self.options['match_all']:
+			DiscoverAllCMS(self.data).run()
+		""" ------------------------------------ """
+		
 
+		""" --- SEARCH FOR VULNERABILITIES ----- """
+		# search the vulnerability fingerprints for matches
 		DiscoverVulnerabilities(self.data).run()
+		""" ------------------------------------ """
 
+
+		""" --- SAVE THE CACHE ----------------- """
 		if not self.options['no_cache_save']:
 			self.data['cache'].save()
+		""" ------------------------------------ """
 	
-		########################################################################
-		# RESULT PRINTING
-		########################################################################
+
+		""" --- PRINT RESULTS ------------------ """
+		# calc an set run time
 		self.data['runtime'] = time.time() - self.data['timer']
+
+		# update the URL count 
 		self.data['url_count'] = self.data['cache'].get_num_urls()
 
+		# Create outputter and get results
 		outputter = Output(self.options, self.data)
 		title, data = outputter.get_results()
+		
+		# quick, ugly hack for issue 5 (https://github.com/jekyc/wig/issues/5) 
 		try:
+			# this will fail, if the title contains unprintable chars
 			print(title)
 		except:
 			pass
 
 		print(data)
+		""" ------------------------------------ """
 
 
 if __name__ == '__main__':

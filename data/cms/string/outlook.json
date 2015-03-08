@@ -1,27 +1,32 @@
 [
 	{
 		"url": "/exchweb/bin/auth/owalogon.asp",
-		"string": "Microsoft Office Outlook Web Access provided by Microsoft Exchange Server 2003",
+		"type": "string",
+		"match": "Microsoft Office Outlook Web Access provided by Microsoft Exchange Server 2003",
 		"output": "2003"
 	},
 	{
 		"url": "/owa/auth/logon.aspx?url=https://google.com&reason=0",
-		"string": "<!-- OwaPage = ASP.auth_logon_aspx -->",
+		"type": "string",
+		"match": "<!-- OwaPage = ASP.auth_logon_aspx -->",
 		"output": "2007"
 	},
 	{
 		"url": "/owa/auth/logon.aspx?url=https://google.com&reason=0",
-		"string": "<!-- OwaPage = ASP.auth_logon_aspx -->",
+		"type": "string",
+		"match": "<!-- OwaPage = ASP.auth_logon_aspx -->",
 		"output": "2010"
 	},
 	{
 		"url": "/owa/auth/logon.aspx?url=https://google.com&reason=0",
-		"string": "<td class=\"tdCopy\">&copy; 2007 Microsoft Corporation. All rights reserved. </td>",
+		"type": "string",
+		"match": "<td class=\"tdCopy\">&copy; 2007 Microsoft Corporation. All rights reserved. </td>",
 		"output": "2007"
 	},
 	{
 		"url": "/owa/auth/logon.aspx?url=https://google.com&reason=0",
-		"string": "<td class=\"tdCopy\">&copy; 2010 Microsoft Corporation. All rights reserved.</td>",
+		"type": "string",
+		"match": "<td class=\"tdCopy\">&copy; 2010 Microsoft Corporation. All rights reserved.</td>",
 		"output": "2007"
 	}
 ]

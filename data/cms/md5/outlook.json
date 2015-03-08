@@ -1,37 +1,44 @@
 [
 	{
 		"url": "/owa/8.3.342.1/themes/base/lgnexlogo.gif",
-		"md5": "d8c4ac210a1bbbdc7c6a4a77ad537ac5",
+		"type":"md5",
+		"match": "d8c4ac210a1bbbdc7c6a4a77ad537ac5",
 		"output": "2007"
 	},
 	{
 		"url": "/owa/8.3.342.1/themes/base/lgntopl.gif",
-		"md5": "e5c0f2cfdf453501ce25a05a8de26c5d",
+		"type":"md5",
+		"match": "e5c0f2cfdf453501ce25a05a8de26c5d",
 		"output": "2007"
 	},
 	{
 		"url": "/exchweb/img/logon_Nav.gif",
-		"md5": "e88b62d90f0d99119b8033e6dc80911d",
+		"type":"md5",
+		"match": "e88b62d90f0d99119b8033e6dc80911d",
 		"output": "2003"
 	},
 	{
 		"url": "/exchweb/img/logon_logo.gif",
-		"md5": "c2ddbb7f28017184a34d76b25c3698a8",
+		"type":"md5",
+		"match": "c2ddbb7f28017184a34d76b25c3698a8",
 		"output": "2003"
 	},
 	{
 		"url": "/owa/8.3.342.1/scripts/premium/flogon.js",
-		"md5": "a31323a3268f8537392bec30f0d39dc1",
+		"type":"md5",
+		"match": "a31323a3268f8537392bec30f0d39dc1",
 		"output": "2007"
 	},
 	{
 		"url": "/owa/14.3.158.1/themes/resources/favicon.ico",
-		"md5": "af0e7a63be394e3d5b0691ff91f4f3ea",
+		"type":"md5",
+		"match": "af0e7a63be394e3d5b0691ff91f4f3ea",
 		"output": "2010"
 	},
 	{
 		"url": "/owa/14.3.174.1/themes/resources/favicon.ico",
-		"md5": "af0e7a63be394e3d5b0691ff91f4f3ea",
+		"type":"md5",
+		"match": "af0e7a63be394e3d5b0691ff91f4f3ea",
 		"output": "2010"
 	}
 ]

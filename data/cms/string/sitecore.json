@@ -1,57 +1,69 @@
 [
 	{
-		"string": "<link href=\"/sitecore/shell/applications/analytics/visitor.css.aspx\"",
+        "url": "",
+		"type": "string",
+		"match": "<link href=\"/sitecore/shell/applications/analytics/visitor.css.aspx\"",
 		"output": "",
 		"weight": 0.01
 	},
 	{
-		"string": "<link href=\"/sitecore%20modules/shell/",
+        "url": "",
+		"type": "string",
+		"match": "<link href=\"/sitecore%20modules/shell/",
 		"output": "",
 		"weight": 0.01
 	},
 	{
-		"string": "<meta id=scPath content=\"/sitecore/content/Home/404\" name=scPath>",
+        "url": "",
+		"type": "string",
+		"match": "<meta id=scPath content=\"/sitecore/content/Home/404\" name=scPath>",
 		"output": "",
 		"weight": 0.01
 	},
 	{
 		"url": "/sitecore/shell/webservice/service.asmx",
-		"string": "Visual Sitecore Service Web Service",
+		"type": "string",
+		"match": "Visual Sitecore Service Web Service",
 		"output": "",
 		"weight": 0.01,
 		"note":  "Sitecore Web Service Page"
 	},
 	{
 		"url": "/sitecore/login/passwordrecovery.aspx",
-		"string": "<form method=\"post\" action=\"/sitecore/login/passwordrecovery.aspx\"",
+		"type": "string",
+		"match": "<form method=\"post\" action=\"/sitecore/login/passwordrecovery.aspx\"",
 		"output": "",
 		"weight": 0.01,
 		"note": "Sitecore Password Recovery"
 	},
 	{
 		"url": "/sitecore/admin/unlock_admin.aspx",
-		"string": "Unlock Administrator Page",
+		"type": "string",
+		"match": "Unlock Administrator Page",
 		"output": "",
 		"weight": 0.01,
 		"note": "Sitecore Unlock Administrator Account"
 	},
 	{
 		"url": "/sitecore/admin/cache.aspx",
-		"string": "<title>Cache Admin</title>",
+		"type": "string",
+		"match": "<title>Cache Admin</title>",
 		"output": "",
 		"weight": 0.01,
 		"note": "Sitecore Cache Admin"
 	},
 	{
 		"url": "/sitecore/admin/showconfig.aspx",
-		"string": "sitecore database",
+		"type": "string",
+		"match": "sitecore database",
 		"output": "",
 		"weight": 0.01,
 		"note": "Sitecore Config page"
 	},
 	{
 		"url": "/sitecore/admin/cache.aspx",
-		"string": "<title>Cache Admin</title>",
+		"type": "string",
+		"match": "<title>Cache Admin</title>",
 		"output": "",
 		"weight": 0.01,
 		"note": "Sitecore Cache Admin"

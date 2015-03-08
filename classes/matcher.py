@@ -29,9 +29,6 @@ class Match(object):
 			return True
 
 
-	def set_404s(self, set_of_404s):
-		self.error_pages = set_of_404s
-
 
 	def get_result(self, fingerprints, response):
 		# find the matching method to use
@@ -50,44 +47,49 @@ class Match(object):
 			is_image = True
 
 		for fingerprint in fingerprints:
-
+			match = None
+			
 			# only check the page if the status codes match
 			if not self._check_page(response, fingerprint):
-				matches.append(None)
+				match = None
 
 			elif 'type' not in fingerprint:
-				matches.append(None)
+				match = None
+
+			elif 'header' in fingerprint:
+				match = self.header(fingerprint, response)
 
 			elif fingerprint['type'] == 'md5':
-				matches.append(self.md5(fingerprint, response))
-			
+				match = self.md5(fingerprint, response)
+
 			elif fingerprint['type'] == 'string' and not is_image:
-				matches.append(self.string(fingerprint, response))
+				match = self.string(fingerprint, response)
 			
 			elif fingerprint['type'] == 'regex' and not is_image:
-				matches.append(self.regex(fingerprint, response))
-
-			elif fingerprint['type'] == 'header':
-				matches.append(self.header(fingerprint, response))
+				match = self.regex(fingerprint, response)
 
 			else:
 				# fingerprint type is not supported yet
-				matches.append(None)
+				match = None
 
-		matches = [fp for fp in matches if fp is not None]
+			if match is not None:
+				if match['url'] == '':
+					match['url'] = response.get_url()
+
+				matches.append(match)
 
 		return matches
 
 	
 	def md5(self, fingerprint, response):
-		if fingerprint["md5"] == response.md5:
+		if fingerprint["match"] == response.md5:
 			return fingerprint
 		else:
 			return None
 
 	
 	def string(self, fingerprint, response):
-		if fingerprint["string"] in response.body:
+		if fingerprint["match"] in response.body:
 			return fingerprint
 		else:
 			return None
@@ -96,8 +98,7 @@ class Match(object):
 	def regex(self, fingerprint, response):
 		# create copy of fingerprint
 		copy = {key:fingerprint[key] for key in fingerprint}
-
-		regex = copy["regex"]
+		regex = copy["match"]
 		output = copy["output"]
 
 		matches = re.findall(regex, response.body)
@@ -112,7 +113,7 @@ class Match(object):
 	
 	def header(self, fingerprint, response):
 		fp_header = fingerprint['header']
-		match_type = 'string' if 'string' in fingerprint else 'regex'
+		match_type = fingerprint['type']
 
 		# a dummy class to mimic a response
 		class response_dummy(object):
@@ -127,9 +128,9 @@ class Match(object):
 				r.body = response.headers[header]
 
 				# call the Match instances methods for string or regex matching
-				if 'string' in fingerprint:
+				if match_type == 'string':
 					return self.string(fingerprint, r)
-				else:
+				elif match_type == 'regex':
 					return self.regex(fingerprint, r)
 
 

@@ -1,27 +1,32 @@
 [
 	{
 		"url": "/Admin/Images/cms-Logo.png",
-		"md5": "be59a94bc832b05cf427a84c0ccabad6",
+		"type":"md5",
+		"match": "be59a94bc832b05cf427a84c0ccabad6",
 		"output": ""
 	},
 	{
 		"url": "/Admin/Embed.js",
-		"md5": "de1debe7df83fd9dc61ff71f990ed6aa",
+		"type":"md5",
+		"match": "de1debe7df83fd9dc61ff71f990ed6aa",
 		"output": ""
 	},
 	{
 		"url": "/Admin/Public/Module/Ipaper/swfobject.js",
-		"md5": "de89a5739a7e333071160a552aa32b63",
+		"type":"md5",
+		"match": "de89a5739a7e333071160a552aa32b63",
 		"output": ""
 	},
 	{
 		"url": "/Admin/Public/Module/Ipaper/popup.js",
-		"md5": "9c625e872c4fb0b0486da6bca03d14b1",
+		"type":"md5",
+		"match": "9c625e872c4fb0b0486da6bca03d14b1",
 		"output": ""
 	},
 	{
 		"url": "/Admin/Public/Module/Ipaper/popup.js",
-		"md5": "d8893b18520541779f81f09897f0d466",
+		"type":"md5",
+		"match": "d8893b18520541779f81f09897f0d466",
 		"output": ""
 	}
 ]

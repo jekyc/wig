@@ -1,25 +1,30 @@
 [
 	{
 		"url": "/admin/",
-		"string": "<h1 id=\"site-name\">Django administration</h1>",
+		"type": "string",
+		"match": "<h1 id=\"site-name\">Django administration</h1>",
 		"output": "",
 		"weight": 0.1,
 		"note": "Django administration page"
 	},
 	{
-		"string": "name='csrfmiddlewaretoken'",
+		"url": "",
+		"type": "string",
+		"match": "name='csrfmiddlewaretoken'",
 		"output": "",
 		"weight": 0.1
 	},
 	{
 		"url": "/static/admin/css/base.css",
-		"string": "    DJANGO Admin styles",
+		"type": "string",
+		"match": "    DJANGO Admin styles",
 		"output": "",
 		"weight": 0.1
 	},
 	{
 		"url": "/static/admin/css/base.css",
-		"string": "your Django settings file. Change that to <code>False</code>, and Django",
+		"type": "string",
+		"match": "your Django settings file. Change that to <code>False</code>, and Django",
 		"output": "",
 		"weight": 0.1,
 		"code": 404,

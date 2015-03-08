@@ -1,226 +1,218 @@
-{
-    "Apache": {
-        "2.0.46": [
-            [
-                "Scientific Linux",
-                "3.0.9"
-            ]
-        ],
-        "2.0.52": [
-            [
-                "Scientific Linux",
-                "4.8"
-            ]
-        ],
-        "2.2.15": [
-            [
-                "Scientific Linux",
-                "6.6"
-            ]
-        ],
-        "2.2.3": [
-            [
-                "Scientific Linux",
-                "5.11"
-            ]
-        ],
-        "2.4.6": [
-            [
-                "Scientific Linux",
-                "7.0"
-            ]
-        ]
+[
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "7.0",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "7.0.42"
     },
-    "apache-tomcat": {
-        "5.5.23": [
-            [
-                "Scientific Linux",
-                "5.11"
-            ]
-        ],
-        "6.0.24": [
-            [
-                "Scientific Linux",
-                "6.6"
-            ]
-        ],
-        "7.0.42": [
-            [
-                "Scientific Linux",
-                "7.0"
-            ]
-        ]
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "6.6",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "6.0.24"
     },
-    "mod_perl": {
-        "1.99_09": [
-            [
-                "Scientific Linux",
-                "3.0.9"
-            ]
-        ],
-        "1.99_16": [
-            [
-                "Scientific Linux",
-                "4.8"
-            ]
-        ],
-        "2.0.4": [
-            [
-                "Scientific Linux",
-                "6.6"
-            ],
-            [
-                "Scientific Linux",
-                "5.11"
-            ]
-        ]
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "5.11",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "5.5.23"
     },
-    "openssl": {
-        "0.9.7a": [
-            [
-                "Scientific Linux",
-                "4.8"
-            ],
-            [
-                "Scientific Linux",
-                "3.0.9"
-            ]
-        ],
-        "0.9.8b": [
-            [
-                "Scientific Linux",
-                "5.11"
-            ]
-        ],
-        "1.0.1e": [
-            [
-                "Scientific Linux",
-                "7.0"
-            ],
-            [
-                "Scientific Linux",
-                "6.6"
-            ]
-        ]
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "7.0",
+        "pkg_name": "Apache",
+        "pkg_version": "2.4.6"
     },
-    "perl": {
-        "5.10.1": [
-            [
-                "Scientific Linux",
-                "6.6"
-            ]
-        ],
-        "5.16.3": [
-            [
-                "Scientific Linux",
-                "7.0"
-            ]
-        ],
-        "5.8.0": [
-            [
-                "Scientific Linux",
-                "3.0.9"
-            ]
-        ],
-        "5.8.5": [
-            [
-                "Scientific Linux",
-                "4.8"
-            ]
-        ],
-        "5.8.8": [
-            [
-                "Scientific Linux",
-                "5.11"
-            ]
-        ]
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "6.6",
+        "pkg_name": "Apache",
+        "pkg_version": "2.2.15"
     },
-    "php": {
-        "4.3.2": [
-            [
-                "Scientific Linux",
-                "3.0.9"
-            ]
-        ],
-        "4.3.9": [
-            [
-                "Scientific Linux",
-                "4.8"
-            ]
-        ],
-        "5.1.6": [
-            [
-                "Scientific Linux",
-                "5.11"
-            ]
-        ],
-        "5.3.3": [
-            [
-                "Scientific Linux",
-                "6.6"
-            ]
-        ],
-        "5.4.16": [
-            [
-                "Scientific Linux",
-                "7.0"
-            ]
-        ]
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "5.11",
+        "pkg_name": "Apache",
+        "pkg_version": "2.2.3"
     },
-    "ruby": {
-        "1.6.8": [
-            [
-                "Scientific Linux",
-                "3.0.9"
-            ]
-        ],
-        "1.8.1": [
-            [
-                "Scientific Linux",
-                "4.8"
-            ]
-        ],
-        "1.8.5": [
-            [
-                "Scientific Linux",
-                "5.11"
-            ]
-        ],
-        "1.8.7-p374": [
-            [
-                "Scientific Linux",
-                "6.6"
-            ]
-        ],
-        "2.0.0-p353": [
-            [
-                "Scientific Linux",
-                "7.0"
-            ]
-        ]
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "4.8",
+        "pkg_name": "Apache",
+        "pkg_version": "2.0.52"
     },
-    "subversion": {
-        "1.1.4": [
-            [
-                "Scientific Linux",
-                "4.8"
-            ]
-        ],
-        "1.6.11": [
-            [
-                "Scientific Linux",
-                "6.6"
-            ],
-            [
-                "Scientific Linux",
-                "5.11"
-            ]
-        ],
-        "1.7.14": [
-            [
-                "Scientific Linux",
-                "7.0"
-            ]
-        ]
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "3.0.9",
+        "pkg_name": "Apache",
+        "pkg_version": "2.0.46"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "6.6",
+        "pkg_name": "mod_perl",
+        "pkg_version": "2.0.4"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "5.11",
+        "pkg_name": "mod_perl",
+        "pkg_version": "2.0.4"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "4.8",
+        "pkg_name": "mod_perl",
+        "pkg_version": "1.99_16"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "3.0.9",
+        "pkg_name": "mod_perl",
+        "pkg_version": "1.99_09"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "7.0",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.1e"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "6.6",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.1e"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "5.11",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.8b"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "4.8",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.7a"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "3.0.9",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.7a"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "7.0",
+        "pkg_name": "perl",
+        "pkg_version": "5.16.3"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "6.6",
+        "pkg_name": "perl",
+        "pkg_version": "5.10.1"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "5.11",
+        "pkg_name": "perl",
+        "pkg_version": "5.8.8"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "4.8",
+        "pkg_name": "perl",
+        "pkg_version": "5.8.5"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "3.0.9",
+        "pkg_name": "perl",
+        "pkg_version": "5.8.0"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "7.0",
+        "pkg_name": "php",
+        "pkg_version": "5.4.16"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "6.6",
+        "pkg_name": "php",
+        "pkg_version": "5.3.3"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "5.11",
+        "pkg_name": "php",
+        "pkg_version": "5.1.6"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "4.8",
+        "pkg_name": "php",
+        "pkg_version": "4.3.9"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "3.0.9",
+        "pkg_name": "php",
+        "pkg_version": "4.3.2"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "7.0",
+        "pkg_name": "ruby",
+        "pkg_version": "2.0.0-p353"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "6.6",
+        "pkg_name": "ruby",
+        "pkg_version": "1.8.7-p374"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "5.11",
+        "pkg_name": "ruby",
+        "pkg_version": "1.8.5"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "4.8",
+        "pkg_name": "ruby",
+        "pkg_version": "1.8.1"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "3.0.9",
+        "pkg_name": "ruby",
+        "pkg_version": "1.6.8"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "7.0",
+        "pkg_name": "subversion",
+        "pkg_version": "1.7.14"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "6.6",
+        "pkg_name": "subversion",
+        "pkg_version": "1.6.11"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "5.11",
+        "pkg_name": "subversion",
+        "pkg_version": "1.6.11"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "4.8",
+        "pkg_name": "subversion",
+        "pkg_version": "1.1.4"
     }
-}
+]

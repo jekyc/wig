@@ -1,18 +1,21 @@
 [
 	{
 		"url": "/",
-		"string": "<meta name=\"Generator\" content=\"Dynamicweb .NET\" />",
+		"type": "string",
+		"match": "<meta name=\"Generator\" content=\"Dynamicweb .NET\" />",
 		"output" : ""
 	},
 	{
 		"url": "/Admin/access/default.aspx",
-		"string": "<small>Dynamicweb CMS</small>",
+		"type": "string",
+		"match": "<small>Dynamicweb CMS</small>",
 		"output" : "",
 		"note": "DynamicWeb administration page"
 	},
 	{
 		"url": "/Admin/access/default.aspx",
-		"string": "alt=\"Dynamicweb CMS\" /></a></div>",
+		"type": "string",
+		"match": "alt=\"Dynamicweb CMS\" /></a></div>",
 		"output" : "",
 		"note": "DynamicWeb administration page"
 	}

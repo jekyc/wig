@@ -1,584 +1,608 @@
-{
-    "Apache": {
-        "2.0.40": [
-            [
-                "openSUSE",
-                "8.1"
-            ]
-        ],
-        "2.0.44": [
-            [
-                "openSUSE",
-                "8.2"
-            ]
-        ],
-        "2.0.47": [
-            [
-                "openSUSE",
-                "9.0"
-            ]
-        ],
-        "2.0.49": [
-            [
-                "openSUSE",
-                "9.1"
-            ]
-        ],
-        "2.0.50": [
-            [
-                "openSUSE",
-                "9.2"
-            ]
-        ],
-        "2.0.53": [
-            [
-                "openSUSE",
-                "9.3"
-            ]
-        ],
-        "2.0.54": [
-            [
-                "openSUSE",
-                "10.0"
-            ]
-        ],
-        "2.2.0": [
-            [
-                "openSUSE",
-                "10.1"
-            ]
-        ],
-        "2.2.10": [
-            [
-                "openSUSE",
-                "11.1"
-            ]
-        ],
-        "2.2.13": [
-            [
-                "openSUSE",
-                "11.2"
-            ]
-        ],
-        "2.2.15": [
-            [
-                "openSUSE",
-                "11.3"
-            ]
-        ],
-        "2.2.17": [
-            [
-                "openSUSE",
-                "11.4"
-            ]
-        ],
-        "2.2.21": [
-            [
-                "openSUSE",
-                "12.1"
-            ]
-        ],
-        "2.2.22": [
-            [
-                "openSUSE",
-                "12.3"
-            ],
-            [
-                "openSUSE",
-                "12.2"
-            ]
-        ],
-        "2.2.3": [
-            [
-                "openSUSE",
-                "10.2"
-            ]
-        ],
-        "2.2.4": [
-            [
-                "openSUSE",
-                "10.3"
-            ]
-        ],
-        "2.2.8": [
-            [
-                "openSUSE",
-                "11.0"
-            ]
-        ],
-        "2.4.10": [
-            [
-                "openSUSE",
-                "13.2"
-            ]
-        ],
-        "2.4.6": [
-            [
-                "openSUSE",
-                "13.1"
-            ]
-        ]
+[
+    {
+        "os_name": "openSUSE",
+        "os_version": "13.2",
+        "pkg_name": "Apache",
+        "pkg_version": "2.4.10"
     },
-    "openssl": {
-        "0.9.6": [
-            [
-                "openSUSE",
-                "7.1"
-            ]
-        ],
-        "0.9.6a": [
-            [
-                "openSUSE",
-                "7.2"
-            ]
-        ],
-        "0.9.6b": [
-            [
-                "openSUSE",
-                "7.3"
-            ]
-        ],
-        "0.9.6c": [
-            [
-                "openSUSE",
-                "8.0"
-            ]
-        ],
-        "0.9.6g": [
-            [
-                "openSUSE",
-                "8.1"
-            ]
-        ],
-        "0.9.6i": [
-            [
-                "openSUSE",
-                "8.2"
-            ]
-        ],
-        "0.9.7b": [
-            [
-                "openSUSE",
-                "9.0"
-            ]
-        ],
-        "0.9.7d": [
-            [
-                "openSUSE",
-                "9.2"
-            ],
-            [
-                "openSUSE",
-                "9.1"
-            ]
-        ],
-        "0.9.7e": [
-            [
-                "openSUSE",
-                "9.3"
-            ]
-        ],
-        "0.9.7g": [
-            [
-                "openSUSE",
-                "10.0"
-            ]
-        ],
-        "0.9.8a": [
-            [
-                "openSUSE",
-                "10.1"
-            ]
-        ],
-        "0.9.8d": [
-            [
-                "openSUSE",
-                "10.2"
-            ]
-        ],
-        "0.9.8e": [
-            [
-                "openSUSE",
-                "10.3"
-            ]
-        ],
-        "0.9.8g": [
-            [
-                "openSUSE",
-                "11.0"
-            ]
-        ],
-        "0.9.8h": [
-            [
-                "openSUSE",
-                "11.1"
-            ]
-        ],
-        "0.9.8k": [
-            [
-                "openSUSE",
-                "11.2"
-            ]
-        ],
-        "1.0.0": [
-            [
-                "openSUSE",
-                "11.3"
-            ]
-        ],
-        "1.0.0c": [
-            [
-                "openSUSE",
-                "11.4"
-            ]
-        ],
-        "1.0.0e": [
-            [
-                "openSUSE",
-                "12.1"
-            ]
-        ],
-        "1.0.1c": [
-            [
-                "openSUSE",
-                "12.2"
-            ]
-        ],
-        "1.0.1e": [
-            [
-                "openSUSE",
-                "13.1"
-            ],
-            [
-                "openSUSE",
-                "12.3"
-            ]
-        ],
-        "1.0.1i": [
-            [
-                "openSUSE",
-                "13.2"
-            ]
-        ]
+    {
+        "os_name": "openSUSE",
+        "os_version": "13.1",
+        "pkg_name": "Apache",
+        "pkg_version": "2.4.6"
     },
-    "perl": {
-        "5.10.0": [
-            [
-                "openSUSE",
-                "11.2"
-            ],
-            [
-                "openSUSE",
-                "11.1"
-            ],
-            [
-                "openSUSE",
-                "11.0"
-            ]
-        ],
-        "5.12.1": [
-            [
-                "openSUSE",
-                "11.3"
-            ]
-        ],
-        "5.12.3": [
-            [
-                "openSUSE",
-                "11.4"
-            ]
-        ],
-        "5.14.2": [
-            [
-                "openSUSE",
-                "12.1"
-            ]
-        ],
-        "5.16.0": [
-            [
-                "openSUSE",
-                "12.2"
-            ]
-        ],
-        "5.16.2": [
-            [
-                "openSUSE",
-                "12.3"
-            ]
-        ],
-        "5.18.1": [
-            [
-                "openSUSE",
-                "13.1"
-            ]
-        ],
-        "5.20.1": [
-            [
-                "openSUSE",
-                "13.2"
-            ]
-        ],
-        "5.4.4": [
-            [
-                "openSUSE",
-                "5.3"
-            ],
-            [
-                "openSUSE",
-                "5.2"
-            ]
-        ],
-        "5.5.2": [
-            [
-                "openSUSE",
-                "6.1"
-            ],
-            [
-                "openSUSE",
-                "6.0"
-            ]
-        ],
-        "5.5.3": [
-            [
-                "openSUSE",
-                "7.0"
-            ],
-            [
-                "openSUSE",
-                "6.4"
-            ],
-            [
-                "openSUSE",
-                "6.3"
-            ],
-            [
-                "openSUSE",
-                "6.2"
-            ]
-        ],
-        "5.6.0": [
-            [
-                "openSUSE",
-                "7.2"
-            ],
-            [
-                "openSUSE",
-                "7.1"
-            ]
-        ],
-        "5.6.1": [
-            [
-                "openSUSE",
-                "8.0"
-            ],
-            [
-                "openSUSE",
-                "7.3"
-            ]
-        ],
-        "5.8.0": [
-            [
-                "openSUSE",
-                "8.2"
-            ],
-            [
-                "openSUSE",
-                "8.1"
-            ]
-        ],
-        "5.8.1": [
-            [
-                "openSUSE",
-                "9.0"
-            ]
-        ],
-        "5.8.3": [
-            [
-                "openSUSE",
-                "9.1"
-            ]
-        ],
-        "5.8.5": [
-            [
-                "openSUSE",
-                "9.2"
-            ]
-        ],
-        "5.8.6": [
-            [
-                "openSUSE",
-                "9.3"
-            ]
-        ],
-        "5.8.7": [
-            [
-                "openSUSE",
-                "10.0"
-            ]
-        ],
-        "5.8.8": [
-            [
-                "openSUSE",
-                "10.3"
-            ],
-            [
-                "openSUSE",
-                "10.2"
-            ],
-            [
-                "openSUSE",
-                "10.1"
-            ]
-        ]
+    {
+        "os_name": "openSUSE",
+        "os_version": "12.3",
+        "pkg_name": "Apache",
+        "pkg_version": "2.2.22"
     },
-    "php": {
-        "4.0.0": [
-            [
-                "openSUSE",
-                "7.0"
-            ]
-        ],
-        "4.0.4pl1": [
-            [
-                "openSUSE",
-                "7.2"
-            ],
-            [
-                "openSUSE",
-                "7.1"
-            ]
-        ],
-        "4.0.6": [
-            [
-                "openSUSE",
-                "7.3"
-            ]
-        ],
-        "4.1.0": [
-            [
-                "openSUSE",
-                "8.0"
-            ]
-        ],
-        "4.2.2": [
-            [
-                "openSUSE",
-                "8.1"
-            ]
-        ],
-        "4.3.1": [
-            [
-                "openSUSE",
-                "8.2"
-            ]
-        ],
-        "4.3.3": [
-            [
-                "openSUSE",
-                "9.0"
-            ]
-        ],
-        "4.3.4": [
-            [
-                "openSUSE",
-                "9.1"
-            ]
-        ],
-        "4.3.8": [
-            [
-                "openSUSE",
-                "9.2"
-            ]
-        ],
-        "5.0.3": [
-            [
-                "openSUSE",
-                "9.3"
-            ]
-        ],
-        "5.0.4": [
-            [
-                "openSUSE",
-                "10.0"
-            ]
-        ],
-        "5.1.2": [
-            [
-                "openSUSE",
-                "10.1"
-            ]
-        ],
-        "5.2.0": [
-            [
-                "openSUSE",
-                "10.2"
-            ]
-        ],
-        "5.2.4": [
-            [
-                "openSUSE",
-                "10.3"
-            ]
-        ],
-        "5.2.5": [
-            [
-                "openSUSE",
-                "11.0"
-            ]
-        ],
-        "5.2.6": [
-            [
-                "openSUSE",
-                "11.1"
-            ]
-        ],
-        "5.3.0": [
-            [
-                "openSUSE",
-                "11.2"
-            ]
-        ],
-        "5.3.15": [
-            [
-                "openSUSE",
-                "12.2"
-            ]
-        ],
-        "5.3.17": [
-            [
-                "openSUSE",
-                "12.3"
-            ]
-        ],
-        "5.3.2": [
-            [
-                "openSUSE",
-                "11.3"
-            ]
-        ],
-        "5.3.5": [
-            [
-                "openSUSE",
-                "11.4"
-            ]
-        ],
-        "5.3.8": [
-            [
-                "openSUSE",
-                "12.1"
-            ]
-        ],
-        "5.4.20": [
-            [
-                "openSUSE",
-                "13.1"
-            ]
-        ],
-        "5.6.1": [
-            [
-                "openSUSE",
-                "13.2"
-            ]
-        ]
+    {
+        "os_name": "openSUSE",
+        "os_version": "12.2",
+        "pkg_name": "Apache",
+        "pkg_version": "2.2.22"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "12.1",
+        "pkg_name": "Apache",
+        "pkg_version": "2.2.21"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.4",
+        "pkg_name": "Apache",
+        "pkg_version": "2.2.17"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.3",
+        "pkg_name": "Apache",
+        "pkg_version": "2.2.15"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.2",
+        "pkg_name": "Apache",
+        "pkg_version": "2.2.13"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.1",
+        "pkg_name": "Apache",
+        "pkg_version": "2.2.10"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.0",
+        "pkg_name": "Apache",
+        "pkg_version": "2.2.8"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "10.3",
+        "pkg_name": "Apache",
+        "pkg_version": "2.2.4"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "10.2",
+        "pkg_name": "Apache",
+        "pkg_version": "2.2.3"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "10.1",
+        "pkg_name": "Apache",
+        "pkg_version": "2.2.0"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "10.0",
+        "pkg_name": "Apache",
+        "pkg_version": "2.0.54"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "9.3",
+        "pkg_name": "Apache",
+        "pkg_version": "2.0.53"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "9.2",
+        "pkg_name": "Apache",
+        "pkg_version": "2.0.50"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "9.1",
+        "pkg_name": "Apache",
+        "pkg_version": "2.0.49"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "9.0",
+        "pkg_name": "Apache",
+        "pkg_version": "2.0.47"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "8.2",
+        "pkg_name": "Apache",
+        "pkg_version": "2.0.44"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "8.1",
+        "pkg_name": "Apache",
+        "pkg_version": "2.0.40"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "13.2",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.1i"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "13.1",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.1e"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "12.3",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.1e"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "12.2",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.1c"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "12.1",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.0e"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.4",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.0c"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.3",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.0"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.2",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.8k"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.1",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.8h"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.0",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.8g"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "10.3",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.8e"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "10.2",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.8d"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "10.1",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.8a"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "10.0",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.7g"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "9.3",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.7e"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "9.2",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.7d"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "9.1",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.7d"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "9.0",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.7b"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "8.2",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.6i"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "8.1",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.6g"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "8.0",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.6c"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "7.3",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.6b"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "7.2",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.6a"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "7.1",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.6"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "13.2",
+        "pkg_name": "perl",
+        "pkg_version": "5.20.1"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "13.1",
+        "pkg_name": "perl",
+        "pkg_version": "5.18.1"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "12.3",
+        "pkg_name": "perl",
+        "pkg_version": "5.16.2"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "12.2",
+        "pkg_name": "perl",
+        "pkg_version": "5.16.0"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "12.1",
+        "pkg_name": "perl",
+        "pkg_version": "5.14.2"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.4",
+        "pkg_name": "perl",
+        "pkg_version": "5.12.3"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.3",
+        "pkg_name": "perl",
+        "pkg_version": "5.12.1"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.2",
+        "pkg_name": "perl",
+        "pkg_version": "5.10.0"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.1",
+        "pkg_name": "perl",
+        "pkg_version": "5.10.0"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.0",
+        "pkg_name": "perl",
+        "pkg_version": "5.10.0"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "10.3",
+        "pkg_name": "perl",
+        "pkg_version": "5.8.8"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "10.2",
+        "pkg_name": "perl",
+        "pkg_version": "5.8.8"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "10.1",
+        "pkg_name": "perl",
+        "pkg_version": "5.8.8"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "10.0",
+        "pkg_name": "perl",
+        "pkg_version": "5.8.7"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "9.3",
+        "pkg_name": "perl",
+        "pkg_version": "5.8.6"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "9.2",
+        "pkg_name": "perl",
+        "pkg_version": "5.8.5"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "9.1",
+        "pkg_name": "perl",
+        "pkg_version": "5.8.3"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "9.0",
+        "pkg_name": "perl",
+        "pkg_version": "5.8.1"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "8.2",
+        "pkg_name": "perl",
+        "pkg_version": "5.8.0"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "8.1",
+        "pkg_name": "perl",
+        "pkg_version": "5.8.0"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "8.0",
+        "pkg_name": "perl",
+        "pkg_version": "5.6.1"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "7.3",
+        "pkg_name": "perl",
+        "pkg_version": "5.6.1"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "7.2",
+        "pkg_name": "perl",
+        "pkg_version": "5.6.0"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "7.1",
+        "pkg_name": "perl",
+        "pkg_version": "5.6.0"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "7.0",
+        "pkg_name": "perl",
+        "pkg_version": "5.5.3"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "6.4",
+        "pkg_name": "perl",
+        "pkg_version": "5.5.3"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "6.3",
+        "pkg_name": "perl",
+        "pkg_version": "5.5.3"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "6.2",
+        "pkg_name": "perl",
+        "pkg_version": "5.5.3"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "6.1",
+        "pkg_name": "perl",
+        "pkg_version": "5.5.2"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "6.0",
+        "pkg_name": "perl",
+        "pkg_version": "5.5.2"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "5.3",
+        "pkg_name": "perl",
+        "pkg_version": "5.4.4"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "5.2",
+        "pkg_name": "perl",
+        "pkg_version": "5.4.4"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "13.2",
+        "pkg_name": "php",
+        "pkg_version": "5.6.1"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "13.1",
+        "pkg_name": "php",
+        "pkg_version": "5.4.20"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "12.3",
+        "pkg_name": "php",
+        "pkg_version": "5.3.17"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "12.2",
+        "pkg_name": "php",
+        "pkg_version": "5.3.15"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "12.1",
+        "pkg_name": "php",
+        "pkg_version": "5.3.8"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.4",
+        "pkg_name": "php",
+        "pkg_version": "5.3.5"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.3",
+        "pkg_name": "php",
+        "pkg_version": "5.3.2"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.2",
+        "pkg_name": "php",
+        "pkg_version": "5.3.0"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.1",
+        "pkg_name": "php",
+        "pkg_version": "5.2.6"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.0",
+        "pkg_name": "php",
+        "pkg_version": "5.2.5"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "10.3",
+        "pkg_name": "php",
+        "pkg_version": "5.2.4"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "10.2",
+        "pkg_name": "php",
+        "pkg_version": "5.2.0"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "10.1",
+        "pkg_name": "php",
+        "pkg_version": "5.1.2"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "10.0",
+        "pkg_name": "php",
+        "pkg_version": "5.0.4"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "9.3",
+        "pkg_name": "php",
+        "pkg_version": "5.0.3"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "9.2",
+        "pkg_name": "php",
+        "pkg_version": "4.3.8"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "9.1",
+        "pkg_name": "php",
+        "pkg_version": "4.3.4"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "9.0",
+        "pkg_name": "php",
+        "pkg_version": "4.3.3"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "8.2",
+        "pkg_name": "php",
+        "pkg_version": "4.3.1"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "8.1",
+        "pkg_name": "php",
+        "pkg_version": "4.2.2"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "8.0",
+        "pkg_name": "php",
+        "pkg_version": "4.1.0"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "7.3",
+        "pkg_name": "php",
+        "pkg_version": "4.0.6"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "7.2",
+        "pkg_name": "php",
+        "pkg_version": "4.0.4pl1"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "7.1",
+        "pkg_name": "php",
+        "pkg_version": "4.0.4pl1"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "7.0",
+        "pkg_name": "php",
+        "pkg_version": "4.0.0"
     }
-}
+]

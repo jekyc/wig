@@ -1,47 +1,56 @@
 [
 	{
 		"url": "/favicon.ico",
-		"md5": "4644f2d45601037b8423d45e13194c93",
+		"type": "md5",
+		"match": "4644f2d45601037b8423d45e13194c93",
 		"output": ""
 	},
 	{
 		"url": "/manager/images/tomcat.gif",
-		"md5": "b8ebd781db53b856efa8e873fa4d2f6e",
+		"type": "md5",
+		"match": "b8ebd781db53b856efa8e873fa4d2f6e",
 		"output": ""
 	},
 	{
 		"url": "/jsp-examples/",
-		"md5": "bee344f665cb8cc0fd8788a8fd7463b5",
+		"type": "md5",
+		"match": "bee344f665cb8cc0fd8788a8fd7463b5",
 		"output": "5.5.23"
 	},
 	{
 		"url": "/jsp-examples/",
-		"md5": "fb77ff05b0dc2d5be1a9022b1b7ae39e",
+		"type": "md5",
+		"match": "fb77ff05b0dc2d5be1a9022b1b7ae39e",
 		"output": "5.5.23"
 	},
 	{
 		"url": "/jsp-examples/",
-		"md5": "1e5a91a7a67377266be7aff5cfc1e5e5",
+		"type": "md5",
+		"match": "1e5a91a7a67377266be7aff5cfc1e5e5",
 		"output": "5.5.34"
 	},
 	{
 		"url": "jsp-examples/jsp2/simpletag/book.jsp",
-		"md5": "a6d036e86c771020cd24e5700c9838d3",
+		"type": "md5",
+		"match": "a6d036e86c771020cd24e5700c9838d3",
 		"output": "5.0.27"
 	},	
 	{
 		"url": "jsp-examples/jsp2/simpletag/book.jsp",
-		"md5": "df046dbc55836acd47d78f54ae7b7fee",
+		"type": "md5",
+		"match": "df046dbc55836acd47d78f54ae7b7fee",
 		"output": "5.5.23"
 	},	
 	{
 		"url": "jsp-examples/jsp2/simpletag/book.jsp",
-		"md5": "38b4b38408a1b7f5a6b0eb24aad9c2e6",
+		"type": "md5",
+		"match": "38b4b38408a1b7f5a6b0eb24aad9c2e6",
 		"output": "5.5.26"
 	},
 	{
 		"url": "jsp-examples/jsp2/simpletag/book.jsp",
-		"md5": "38b4b38408a1b7f5a6b0eb24aad9c2e6",
+		"type": "md5",
+		"match": "38b4b38408a1b7f5a6b0eb24aad9c2e6",
 		"output": "5.5.34"
 	}
 ]

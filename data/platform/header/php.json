@@ -1,5 +1,6 @@
 [
 	{
+		"url": "",
 		"header": "X-Powered-By",
 		"regex": "PHP/(.*)",
 		"output": "%s",
@@ -7,8 +8,10 @@
 		"weight": 10
 	},
 	{
+		"url": "",
 		"header": "Set-Cookie",
-		"string": "PHPSESSID",
+		"type": "string",
+		"match": "PHPSESSID",
 		"output": "",
 		"code": "any",
 		"weight": 0.1

@@ -1,12 +1,16 @@
 [
 	{
-		"regex": "<meta name=\"generator\" content=\"vBulletin (\\d[\\.\\d*]*)\" />",
+        "url": "",
+		"type": "regex",
+		"match": "<meta name=\"generator\" content=\"vBulletin (\\d[\\.\\d*]*)\" />",
 		"output": "%s",
 		"code": "any"
 
 	},
 	{
-		"regex": "%* vBulletin (\\d%[\\.\\d]*) CSS",
+        "url": "",
+		"type": "regex",
+		"match": "%* vBulletin (\\d%[\\.\\d]*) CSS",
 		"output": "%s",
 		"code": "any"
 	}
