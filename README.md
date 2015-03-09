@@ -69,20 +69,44 @@ optional arguments:
 ## Example of run:
 
 ```
-# python3 wig.py http://www.example.com/  
-Redirected to http://example.com/. Continue? [Y|n]:
+kyckel@development:/Development/wig_testing/wig$ ./wig.py example.com
 
-SOFTWARE                                 VERSION                                COMMENT
-sitecore                                 6.4.1 (rev. 110621)                    CMS
-jquery                                   1.3.2                                  JavaScript
-ASP.NET                                  4.0.30319                              Platform
-Microsoft-IIS                            7.5                                    Platform
-Microsoft Windows Server                 2008 R2                                Operating System
+dP   dP   dP    dP     .88888.
+88   88   88    88    d8'   `88
+88  .8P  .8P    88    88
+88  d8'  d8'    88    88   YP88
+88.d8P8.d8P     88    Y8.   .88
+8888' Y88'      dP     `88888'
 
-URL                                      NOTE                                   COMMENT
-/sitecore/admin/unlock_admin.aspx        Sitecore Unlock Administrator Account  Interesting URL
-/sitecore/login/passwordrecovery.aspx    Sitecore Password Recovery             Interesting URL
-/sitecore/shell/webservice/service.asmx  Sitecore Web Service Page              Interesting URL
-________________________________________________________________________________________________
-Time: 10.5 sec                           Urls: 120                           Fingerprints: 21804
+  WebApp Information Gatherer
+
+Redirected to http://www.example.com. Continue? [Y|n]:
+
+TITLE
+--- HTML TITLE ---
+
+IP
+255.255.255.256
+
+
+
+SOFTWARE                  VERSION                           CATEGORY
+Drupal                    7.28 | 7.29 | 7.30 | 7.31 | 7.32  CMS
+ASP.NET                   4.0.30319.18067                   Platform
+Microsoft-HTTPAPI         2.0                               Platform
+Microsoft-IIS             6.0 | 7.0 | 7.5 | 8.0             Platform
+Microsoft Windows Server  2003 SP2 | 2008 | 2008 R2 | 2012  Operating System
+
+SOFTWARE                  VULNERABILITIES                   LINK
+Drupal 7.28               7                                 http://cvedetails.com/version/169265
+Drupal 7.29               3                                 http://cvedetails.com/version/169917
+Drupal 7.30               3                                 http://cvedetails.com/version/169916
+
+URL                       NOTE                              CATEGORY
+/login/                   Test directory                    Interesting URL
+/login/index_form.html    ASP.NET detailed error            Interesting URL
+/robots.txt               robots.txt index                  Interesting URL
+/test/                    Test directory                    Interesting URL
+_______________________________________________________________________________
+Time: 15.7 sec            Urls: 351                         Fingerprints: 28989
 ```
