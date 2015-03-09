@@ -1,0 +1,572 @@
+[
+    {
+        "link": "http://cvedetails.com/version/20631",
+        "name": "SquirrelMail",
+        "num_vulns": "7",
+        "version": "1.44"
+    },
+    {
+        "link": "http://cvedetails.com/version/34652",
+        "name": "SquirrelMail",
+        "num_vulns": "1",
+        "version": "1.5.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/14813",
+        "name": "SquirrelMail",
+        "num_vulns": "3",
+        "version": "1.5 Dev"
+    },
+    {
+        "link": "http://cvedetails.com/version/111488",
+        "name": "SquirrelMail",
+        "num_vulns": "5",
+        "version": "1.4.21"
+    },
+    {
+        "link": "http://cvedetails.com/version/93247",
+        "name": "SquirrelMail",
+        "num_vulns": "7",
+        "version": "1.4.20"
+    },
+    {
+        "link": "http://cvedetails.com/version/80326",
+        "name": "SquirrelMail",
+        "num_vulns": "8",
+        "version": "1.4.19"
+    },
+    {
+        "link": "http://cvedetails.com/version/80323",
+        "name": "SquirrelMail",
+        "num_vulns": "8",
+        "version": "1.4.18"
+    },
+    {
+        "link": "http://cvedetails.com/version/76719",
+        "name": "SquirrelMail",
+        "num_vulns": "12",
+        "version": "1.4.17"
+    },
+    {
+        "link": "http://cvedetails.com/version/66060",
+        "name": "SquirrelMail",
+        "num_vulns": "13",
+        "version": "1.4.16"
+    },
+    {
+        "link": "http://cvedetails.com/version/62474",
+        "name": "SquirrelMail",
+        "num_vulns": "14",
+        "version": "1.4.15"
+    },
+    {
+        "link": "http://cvedetails.com/version/66065",
+        "name": "SquirrelMail",
+        "num_vulns": "6",
+        "version": "1.4.15 Rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/80324",
+        "name": "SquirrelMail",
+        "num_vulns": "7",
+        "version": "1.4.15rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/80325",
+        "name": "SquirrelMail",
+        "num_vulns": "8",
+        "version": "1.4.13"
+    },
+    {
+        "link": "http://cvedetails.com/version/50184",
+        "name": "SquirrelMail",
+        "num_vulns": "14",
+        "version": "1.4.12"
+    },
+    {
+        "link": "http://cvedetails.com/version/50183",
+        "name": "SquirrelMail",
+        "num_vulns": "14",
+        "version": "1.4.11"
+    },
+    {
+        "link": "http://cvedetails.com/version/45983",
+        "name": "SquirrelMail",
+        "num_vulns": "15",
+        "version": "1.4.10a"
+    },
+    {
+        "link": "http://cvedetails.com/version/66064",
+        "name": "SquirrelMail",
+        "num_vulns": "12",
+        "version": "1.4.10"
+    },
+    {
+        "link": "http://cvedetails.com/version/44548",
+        "name": "SquirrelMail",
+        "num_vulns": "12",
+        "version": "1.4.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/44549",
+        "name": "SquirrelMail",
+        "num_vulns": "12",
+        "version": "1.4.9a"
+    },
+    {
+        "link": "http://cvedetails.com/version/44603",
+        "name": "SquirrelMail",
+        "num_vulns": "10",
+        "version": "1.4.8.4fc6"
+    },
+    {
+        "link": "http://cvedetails.com/version/44547",
+        "name": "SquirrelMail",
+        "num_vulns": "12",
+        "version": "1.4.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/35934",
+        "name": "SquirrelMail",
+        "num_vulns": "14",
+        "version": "1.4.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/31729",
+        "name": "SquirrelMail",
+        "num_vulns": "11",
+        "version": "1.4.6 Rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/34256",
+        "name": "SquirrelMail",
+        "num_vulns": "16",
+        "version": "1.4.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/38816",
+        "name": "SquirrelMail",
+        "num_vulns": "10",
+        "version": "1.4.6 Cvs"
+    },
+    {
+        "link": "http://cvedetails.com/version/31728",
+        "name": "SquirrelMail",
+        "num_vulns": "18",
+        "version": "1.4.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/66063",
+        "name": "SquirrelMail",
+        "num_vulns": "3",
+        "version": "1.4.5 Rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/31726",
+        "name": "SquirrelMail",
+        "num_vulns": "18",
+        "version": "1.4.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/31727",
+        "name": "SquirrelMail",
+        "num_vulns": "12",
+        "version": "1.4.4 Rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/14812",
+        "name": "SquirrelMail",
+        "num_vulns": "19",
+        "version": "1.4.3 Rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/20449",
+        "name": "SquirrelMail",
+        "num_vulns": "24",
+        "version": "1.4.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/20450",
+        "name": "SquirrelMail",
+        "num_vulns": "23",
+        "version": "1.4.3a"
+    },
+    {
+        "link": "http://cvedetails.com/version/31725",
+        "name": "SquirrelMail",
+        "num_vulns": "10",
+        "version": "1.4.3 R3"
+    },
+    {
+        "link": "http://cvedetails.com/version/38815",
+        "name": "SquirrelMail",
+        "num_vulns": "12",
+        "version": "1.4.3aa"
+    },
+    {
+        "link": "http://cvedetails.com/version/14811",
+        "name": "SquirrelMail",
+        "num_vulns": "29",
+        "version": "1.4.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/77070",
+        "name": "SquirrelMail",
+        "num_vulns": "9",
+        "version": "1.4.2-r1"
+    },
+    {
+        "link": "http://cvedetails.com/version/77071",
+        "name": "SquirrelMail",
+        "num_vulns": "9",
+        "version": "1.4.2-r2"
+    },
+    {
+        "link": "http://cvedetails.com/version/77072",
+        "name": "SquirrelMail",
+        "num_vulns": "9",
+        "version": "1.4.2-r3"
+    },
+    {
+        "link": "http://cvedetails.com/version/77073",
+        "name": "SquirrelMail",
+        "num_vulns": "9",
+        "version": "1.4.2-r4"
+    },
+    {
+        "link": "http://cvedetails.com/version/77074",
+        "name": "SquirrelMail",
+        "num_vulns": "9",
+        "version": "1.4.2-r5"
+    },
+    {
+        "link": "http://cvedetails.com/version/14810",
+        "name": "SquirrelMail",
+        "num_vulns": "32",
+        "version": "1.4.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/13326",
+        "name": "SquirrelMail",
+        "num_vulns": "23",
+        "version": "1.4.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/66061",
+        "name": "SquirrelMail",
+        "num_vulns": "6",
+        "version": "1.4.0 Rc2a"
+    },
+    {
+        "link": "http://cvedetails.com/version/66062",
+        "name": "SquirrelMail",
+        "num_vulns": "6",
+        "version": "1.4.0 Rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/77069",
+        "name": "SquirrelMail",
+        "num_vulns": "9",
+        "version": "1.4.0-r1"
+    },
+    {
+        "link": "http://cvedetails.com/version/14809",
+        "name": "SquirrelMail",
+        "num_vulns": "26",
+        "version": "1.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/31730",
+        "name": "SquirrelMail",
+        "num_vulns": "7",
+        "version": "1.4 Rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/66068",
+        "name": "SquirrelMail",
+        "num_vulns": "11",
+        "version": "1.3.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/66067",
+        "name": "SquirrelMail",
+        "num_vulns": "11",
+        "version": "1.3.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/66066",
+        "name": "SquirrelMail",
+        "num_vulns": "12",
+        "version": "1.3.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/10661",
+        "name": "SquirrelMail",
+        "num_vulns": "23",
+        "version": "1.2.11"
+    },
+    {
+        "link": "http://cvedetails.com/version/8425",
+        "name": "SquirrelMail",
+        "num_vulns": "23",
+        "version": "1.2.10"
+    },
+    {
+        "link": "http://cvedetails.com/version/8427",
+        "name": "SquirrelMail",
+        "num_vulns": "23",
+        "version": "1.2.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/8344",
+        "name": "SquirrelMail",
+        "num_vulns": "24",
+        "version": "1.2.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/7571",
+        "name": "SquirrelMail",
+        "num_vulns": "26",
+        "version": "1.2.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/8426",
+        "name": "SquirrelMail",
+        "num_vulns": "25",
+        "version": "1.2.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/77068",
+        "name": "SquirrelMail",
+        "num_vulns": "2",
+        "version": "1.2.6-rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/7397",
+        "name": "SquirrelMail",
+        "num_vulns": "25",
+        "version": "1.2.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/7396",
+        "name": "SquirrelMail",
+        "num_vulns": "24",
+        "version": "1.2.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/7395",
+        "name": "SquirrelMail",
+        "num_vulns": "24",
+        "version": "1.2.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/7394",
+        "name": "SquirrelMail",
+        "num_vulns": "27",
+        "version": "1.2.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/7393",
+        "name": "SquirrelMail",
+        "num_vulns": "24",
+        "version": "1.2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/7392",
+        "name": "SquirrelMail",
+        "num_vulns": "23",
+        "version": "1.2.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/66069",
+        "name": "SquirrelMail",
+        "num_vulns": "5",
+        "version": "1.2.0 Rc3"
+    },
+    {
+        "link": "http://cvedetails.com/version/20448",
+        "name": "SquirrelMail",
+        "num_vulns": "12",
+        "version": "1.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/66073",
+        "name": "SquirrelMail",
+        "num_vulns": "12",
+        "version": "1.1.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/66072",
+        "name": "SquirrelMail",
+        "num_vulns": "12",
+        "version": "1.1.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/66071",
+        "name": "SquirrelMail",
+        "num_vulns": "11",
+        "version": "1.1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/66070",
+        "name": "SquirrelMail",
+        "num_vulns": "12",
+        "version": "1.1.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/66081",
+        "name": "SquirrelMail",
+        "num_vulns": "12",
+        "version": "1.0.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/4209",
+        "name": "SquirrelMail",
+        "num_vulns": "21",
+        "version": "1.0.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/4208",
+        "name": "SquirrelMail",
+        "num_vulns": "21",
+        "version": "1.0.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/66080",
+        "name": "SquirrelMail",
+        "num_vulns": "12",
+        "version": "1.0.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/66079",
+        "name": "SquirrelMail",
+        "num_vulns": "12",
+        "version": "1.0.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/66078",
+        "name": "SquirrelMail",
+        "num_vulns": "12",
+        "version": "1.0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/66074",
+        "name": "SquirrelMail",
+        "num_vulns": "12",
+        "version": "1.0pre1"
+    },
+    {
+        "link": "http://cvedetails.com/version/66075",
+        "name": "SquirrelMail",
+        "num_vulns": "12",
+        "version": "1.0pre2"
+    },
+    {
+        "link": "http://cvedetails.com/version/66076",
+        "name": "SquirrelMail",
+        "num_vulns": "12",
+        "version": "1.0pre3"
+    },
+    {
+        "link": "http://cvedetails.com/version/66077",
+        "name": "SquirrelMail",
+        "num_vulns": "12",
+        "version": "1.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/66082",
+        "name": "SquirrelMail",
+        "num_vulns": "11",
+        "version": "0.5pre1"
+    },
+    {
+        "link": "http://cvedetails.com/version/66083",
+        "name": "SquirrelMail",
+        "num_vulns": "11",
+        "version": "0.5pre2"
+    },
+    {
+        "link": "http://cvedetails.com/version/66084",
+        "name": "SquirrelMail",
+        "num_vulns": "11",
+        "version": "0.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/66085",
+        "name": "SquirrelMail",
+        "num_vulns": "11",
+        "version": "0.4pre1"
+    },
+    {
+        "link": "http://cvedetails.com/version/66086",
+        "name": "SquirrelMail",
+        "num_vulns": "11",
+        "version": "0.4pre2"
+    },
+    {
+        "link": "http://cvedetails.com/version/66087",
+        "name": "SquirrelMail",
+        "num_vulns": "11",
+        "version": "0.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/66091",
+        "name": "SquirrelMail",
+        "num_vulns": "11",
+        "version": "0.3.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/66088",
+        "name": "SquirrelMail",
+        "num_vulns": "11",
+        "version": "0.3pre1"
+    },
+    {
+        "link": "http://cvedetails.com/version/66089",
+        "name": "SquirrelMail",
+        "num_vulns": "11",
+        "version": "0.3pre2"
+    },
+    {
+        "link": "http://cvedetails.com/version/66090",
+        "name": "SquirrelMail",
+        "num_vulns": "11",
+        "version": "0.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/66093",
+        "name": "SquirrelMail",
+        "num_vulns": "11",
+        "version": "0.2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/66092",
+        "name": "SquirrelMail",
+        "num_vulns": "11",
+        "version": "0.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/66096",
+        "name": "SquirrelMail",
+        "num_vulns": "12",
+        "version": "0.1.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/66095",
+        "name": "SquirrelMail",
+        "num_vulns": "12",
+        "version": "0.1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/66094",
+        "name": "SquirrelMail",
+        "num_vulns": "11",
+        "version": "0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/129048",
+        "name": "SquirrelMail",
+        "num_vulns": "1",
+        "version": "-"
+    }
+]

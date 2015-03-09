@@ -1,0 +1,1382 @@
+[
+    {
+        "link": "http://cvedetails.com/version/178523",
+        "name": "TYPO3",
+        "num_vulns": "2",
+        "version": "7.0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/178522",
+        "name": "TYPO3",
+        "num_vulns": "2",
+        "version": "7.0.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/178529",
+        "name": "TYPO3",
+        "num_vulns": "2",
+        "version": "6.2.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/178528",
+        "name": "TYPO3",
+        "num_vulns": "2",
+        "version": "6.2.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/178527",
+        "name": "TYPO3",
+        "num_vulns": "2",
+        "version": "6.2.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/178526",
+        "name": "TYPO3",
+        "num_vulns": "2",
+        "version": "6.2.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/178525",
+        "name": "TYPO3",
+        "num_vulns": "2",
+        "version": "6.2.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/178524",
+        "name": "TYPO3",
+        "num_vulns": "2",
+        "version": "6.2.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/166994",
+        "name": "TYPO3",
+        "num_vulns": "6",
+        "version": "6.2.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/166993",
+        "name": "TYPO3",
+        "num_vulns": "6",
+        "version": "6.2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/166995",
+        "name": "TYPO3",
+        "num_vulns": "6",
+        "version": "6.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/167018",
+        "name": "TYPO3",
+        "num_vulns": "3",
+        "version": "6.1.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/166996",
+        "name": "TYPO3",
+        "num_vulns": "6",
+        "version": "6.1.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/166997",
+        "name": "TYPO3",
+        "num_vulns": "6",
+        "version": "6.1.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/157461",
+        "name": "TYPO3",
+        "num_vulns": "13",
+        "version": "6.1.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/157460",
+        "name": "TYPO3",
+        "num_vulns": "13",
+        "version": "6.1.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/157459",
+        "name": "TYPO3",
+        "num_vulns": "13",
+        "version": "6.1.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/157458",
+        "name": "TYPO3",
+        "num_vulns": "15",
+        "version": "6.1.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/157457",
+        "name": "TYPO3",
+        "num_vulns": "16",
+        "version": "6.1.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/157456",
+        "name": "TYPO3",
+        "num_vulns": "16",
+        "version": "6.1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/157455",
+        "name": "TYPO3",
+        "num_vulns": "16",
+        "version": "6.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/167017",
+        "name": "TYPO3",
+        "num_vulns": "3",
+        "version": "6.0.14"
+    },
+    {
+        "link": "http://cvedetails.com/version/166998",
+        "name": "TYPO3",
+        "num_vulns": "6",
+        "version": "6.0.13"
+    },
+    {
+        "link": "http://cvedetails.com/version/166999",
+        "name": "TYPO3",
+        "num_vulns": "6",
+        "version": "6.0.12"
+    },
+    {
+        "link": "http://cvedetails.com/version/157490",
+        "name": "TYPO3",
+        "num_vulns": "14",
+        "version": "6.0.11"
+    },
+    {
+        "link": "http://cvedetails.com/version/157489",
+        "name": "TYPO3",
+        "num_vulns": "14",
+        "version": "6.0.10"
+    },
+    {
+        "link": "http://cvedetails.com/version/157488",
+        "name": "TYPO3",
+        "num_vulns": "15",
+        "version": "6.0.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/157487",
+        "name": "TYPO3",
+        "num_vulns": "15",
+        "version": "6.0.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/157486",
+        "name": "TYPO3",
+        "num_vulns": "17",
+        "version": "6.0.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/157485",
+        "name": "TYPO3",
+        "num_vulns": "17",
+        "version": "6.0.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/157484",
+        "name": "TYPO3",
+        "num_vulns": "17",
+        "version": "6.0.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/157483",
+        "name": "TYPO3",
+        "num_vulns": "17",
+        "version": "6.0.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/157482",
+        "name": "TYPO3",
+        "num_vulns": "17",
+        "version": "6.0.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/143416",
+        "name": "TYPO3",
+        "num_vulns": "19",
+        "version": "6.0.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/143415",
+        "name": "TYPO3",
+        "num_vulns": "19",
+        "version": "6.0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/133560",
+        "name": "TYPO3",
+        "num_vulns": "23",
+        "version": "6.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/69991",
+        "name": "TYPO3",
+        "num_vulns": "3",
+        "version": "4.11"
+    },
+    {
+        "link": "http://cvedetails.com/version/69992",
+        "name": "TYPO3",
+        "num_vulns": "3",
+        "version": "4.10"
+    },
+    {
+        "link": "http://cvedetails.com/version/69993",
+        "name": "TYPO3",
+        "num_vulns": "1",
+        "version": "4.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/69994",
+        "name": "TYPO3",
+        "num_vulns": "1",
+        "version": "4.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/178530",
+        "name": "TYPO3",
+        "num_vulns": "2",
+        "version": "4.7.20"
+    },
+    {
+        "link": "http://cvedetails.com/version/167016",
+        "name": "TYPO3",
+        "num_vulns": "3",
+        "version": "4.7.19"
+    },
+    {
+        "link": "http://cvedetails.com/version/166989",
+        "name": "TYPO3",
+        "num_vulns": "6",
+        "version": "4.7.18"
+    },
+    {
+        "link": "http://cvedetails.com/version/166990",
+        "name": "TYPO3",
+        "num_vulns": "6",
+        "version": "4.7.17"
+    },
+    {
+        "link": "http://cvedetails.com/version/157468",
+        "name": "TYPO3",
+        "num_vulns": "14",
+        "version": "4.7.16"
+    },
+    {
+        "link": "http://cvedetails.com/version/157467",
+        "name": "TYPO3",
+        "num_vulns": "14",
+        "version": "4.7.15"
+    },
+    {
+        "link": "http://cvedetails.com/version/157466",
+        "name": "TYPO3",
+        "num_vulns": "14",
+        "version": "4.7.14"
+    },
+    {
+        "link": "http://cvedetails.com/version/157465",
+        "name": "TYPO3",
+        "num_vulns": "14",
+        "version": "4.7.13"
+    },
+    {
+        "link": "http://cvedetails.com/version/157464",
+        "name": "TYPO3",
+        "num_vulns": "14",
+        "version": "4.7.12"
+    },
+    {
+        "link": "http://cvedetails.com/version/157463",
+        "name": "TYPO3",
+        "num_vulns": "14",
+        "version": "4.7.11"
+    },
+    {
+        "link": "http://cvedetails.com/version/157462",
+        "name": "TYPO3",
+        "num_vulns": "14",
+        "version": "4.7.10"
+    },
+    {
+        "link": "http://cvedetails.com/version/157469",
+        "name": "TYPO3",
+        "num_vulns": "14",
+        "version": "4.7.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/143414",
+        "name": "TYPO3",
+        "num_vulns": "16",
+        "version": "4.7.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/143413",
+        "name": "TYPO3",
+        "num_vulns": "16",
+        "version": "4.7.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/143412",
+        "name": "TYPO3",
+        "num_vulns": "16",
+        "version": "4.7.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/143411",
+        "name": "TYPO3",
+        "num_vulns": "21",
+        "version": "4.7.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/143410",
+        "name": "TYPO3",
+        "num_vulns": "21",
+        "version": "4.7.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/133730",
+        "name": "TYPO3",
+        "num_vulns": "26",
+        "version": "4.7.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/133729",
+        "name": "TYPO3",
+        "num_vulns": "26",
+        "version": "4.7.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/133728",
+        "name": "TYPO3",
+        "num_vulns": "26",
+        "version": "4.7.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/133727",
+        "name": "TYPO3",
+        "num_vulns": "26",
+        "version": "4.7.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/69969",
+        "name": "TYPO3",
+        "num_vulns": "20",
+        "version": "4.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/167015",
+        "name": "TYPO3",
+        "num_vulns": "4",
+        "version": "4.6.18"
+    },
+    {
+        "link": "http://cvedetails.com/version/167014",
+        "name": "TYPO3",
+        "num_vulns": "4",
+        "version": "4.6.17"
+    },
+    {
+        "link": "http://cvedetails.com/version/143409",
+        "name": "TYPO3",
+        "num_vulns": "6",
+        "version": "4.6.16"
+    },
+    {
+        "link": "http://cvedetails.com/version/143408",
+        "name": "TYPO3",
+        "num_vulns": "6",
+        "version": "4.6.15"
+    },
+    {
+        "link": "http://cvedetails.com/version/143407",
+        "name": "TYPO3",
+        "num_vulns": "6",
+        "version": "4.6.14"
+    },
+    {
+        "link": "http://cvedetails.com/version/143406",
+        "name": "TYPO3",
+        "num_vulns": "11",
+        "version": "4.6.13"
+    },
+    {
+        "link": "http://cvedetails.com/version/143405",
+        "name": "TYPO3",
+        "num_vulns": "11",
+        "version": "4.6.12"
+    },
+    {
+        "link": "http://cvedetails.com/version/133726",
+        "name": "TYPO3",
+        "num_vulns": "16",
+        "version": "4.6.11"
+    },
+    {
+        "link": "http://cvedetails.com/version/133725",
+        "name": "TYPO3",
+        "num_vulns": "16",
+        "version": "4.6.10"
+    },
+    {
+        "link": "http://cvedetails.com/version/133723",
+        "name": "TYPO3",
+        "num_vulns": "16",
+        "version": "4.6.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/133724",
+        "name": "TYPO3",
+        "num_vulns": "16",
+        "version": "4.6.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/133014",
+        "name": "TYPO3",
+        "num_vulns": "17",
+        "version": "4.6.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/133013",
+        "name": "TYPO3",
+        "num_vulns": "21",
+        "version": "4.6.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/133012",
+        "name": "TYPO3",
+        "num_vulns": "21",
+        "version": "4.6.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/133011",
+        "name": "TYPO3",
+        "num_vulns": "21",
+        "version": "4.6.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/133010",
+        "name": "TYPO3",
+        "num_vulns": "21",
+        "version": "4.6.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/133009",
+        "name": "TYPO3",
+        "num_vulns": "21",
+        "version": "4.6.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/122166",
+        "name": "TYPO3",
+        "num_vulns": "22",
+        "version": "4.6.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/133008",
+        "name": "TYPO3",
+        "num_vulns": "21",
+        "version": "4.6.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/69968",
+        "name": "TYPO3",
+        "num_vulns": "17",
+        "version": "4.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/180102",
+        "name": "TYPO3",
+        "num_vulns": "1",
+        "version": "4.5.39"
+    },
+    {
+        "link": "http://cvedetails.com/version/178534",
+        "name": "TYPO3",
+        "num_vulns": "3",
+        "version": "4.5.38"
+    },
+    {
+        "link": "http://cvedetails.com/version/178533",
+        "name": "TYPO3",
+        "num_vulns": "3",
+        "version": "4.5.37"
+    },
+    {
+        "link": "http://cvedetails.com/version/178532",
+        "name": "TYPO3",
+        "num_vulns": "3",
+        "version": "4.5.36"
+    },
+    {
+        "link": "http://cvedetails.com/version/178531",
+        "name": "TYPO3",
+        "num_vulns": "3",
+        "version": "4.5.35"
+    },
+    {
+        "link": "http://cvedetails.com/version/167013",
+        "name": "TYPO3",
+        "num_vulns": "4",
+        "version": "4.5.34"
+    },
+    {
+        "link": "http://cvedetails.com/version/166991",
+        "name": "TYPO3",
+        "num_vulns": "7",
+        "version": "4.5.33"
+    },
+    {
+        "link": "http://cvedetails.com/version/166992",
+        "name": "TYPO3",
+        "num_vulns": "7",
+        "version": "4.5.32"
+    },
+    {
+        "link": "http://cvedetails.com/version/157476",
+        "name": "TYPO3",
+        "num_vulns": "15",
+        "version": "4.5.31"
+    },
+    {
+        "link": "http://cvedetails.com/version/157475",
+        "name": "TYPO3",
+        "num_vulns": "15",
+        "version": "4.5.30"
+    },
+    {
+        "link": "http://cvedetails.com/version/157474",
+        "name": "TYPO3",
+        "num_vulns": "15",
+        "version": "4.5.29"
+    },
+    {
+        "link": "http://cvedetails.com/version/157473",
+        "name": "TYPO3",
+        "num_vulns": "15",
+        "version": "4.5.28"
+    },
+    {
+        "link": "http://cvedetails.com/version/157481",
+        "name": "TYPO3",
+        "num_vulns": "15",
+        "version": "4.5.27"
+    },
+    {
+        "link": "http://cvedetails.com/version/157480",
+        "name": "TYPO3",
+        "num_vulns": "15",
+        "version": "4.5.26"
+    },
+    {
+        "link": "http://cvedetails.com/version/157479",
+        "name": "TYPO3",
+        "num_vulns": "15",
+        "version": "4.5.25"
+    },
+    {
+        "link": "http://cvedetails.com/version/157478",
+        "name": "TYPO3",
+        "num_vulns": "15",
+        "version": "4.5.24"
+    },
+    {
+        "link": "http://cvedetails.com/version/143404",
+        "name": "TYPO3",
+        "num_vulns": "17",
+        "version": "4.5.23"
+    },
+    {
+        "link": "http://cvedetails.com/version/143402",
+        "name": "TYPO3",
+        "num_vulns": "17",
+        "version": "4.5.22"
+    },
+    {
+        "link": "http://cvedetails.com/version/157477",
+        "name": "TYPO3",
+        "num_vulns": "15",
+        "version": "4.5.21"
+    },
+    {
+        "link": "http://cvedetails.com/version/147510",
+        "name": "TYPO3",
+        "num_vulns": "20",
+        "version": "4.5.20"
+    },
+    {
+        "link": "http://cvedetails.com/version/143403",
+        "name": "TYPO3",
+        "num_vulns": "22",
+        "version": "4.5.19"
+    },
+    {
+        "link": "http://cvedetails.com/version/133722",
+        "name": "TYPO3",
+        "num_vulns": "27",
+        "version": "4.5.18"
+    },
+    {
+        "link": "http://cvedetails.com/version/133721",
+        "name": "TYPO3",
+        "num_vulns": "27",
+        "version": "4.5.17"
+    },
+    {
+        "link": "http://cvedetails.com/version/133719",
+        "name": "TYPO3",
+        "num_vulns": "27",
+        "version": "4.5.16"
+    },
+    {
+        "link": "http://cvedetails.com/version/133720",
+        "name": "TYPO3",
+        "num_vulns": "27",
+        "version": "4.5.15"
+    },
+    {
+        "link": "http://cvedetails.com/version/133007",
+        "name": "TYPO3",
+        "num_vulns": "28",
+        "version": "4.5.14"
+    },
+    {
+        "link": "http://cvedetails.com/version/133006",
+        "name": "TYPO3",
+        "num_vulns": "31",
+        "version": "4.5.13"
+    },
+    {
+        "link": "http://cvedetails.com/version/133005",
+        "name": "TYPO3",
+        "num_vulns": "31",
+        "version": "4.5.12"
+    },
+    {
+        "link": "http://cvedetails.com/version/133004",
+        "name": "TYPO3",
+        "num_vulns": "31",
+        "version": "4.5.11"
+    },
+    {
+        "link": "http://cvedetails.com/version/133003",
+        "name": "TYPO3",
+        "num_vulns": "31",
+        "version": "4.5.10"
+    },
+    {
+        "link": "http://cvedetails.com/version/133002",
+        "name": "TYPO3",
+        "num_vulns": "31",
+        "version": "4.5.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/122165",
+        "name": "TYPO3",
+        "num_vulns": "32",
+        "version": "4.5.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/122164",
+        "name": "TYPO3",
+        "num_vulns": "32",
+        "version": "4.5.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/122163",
+        "name": "TYPO3",
+        "num_vulns": "32",
+        "version": "4.5.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/122162",
+        "name": "TYPO3",
+        "num_vulns": "32",
+        "version": "4.5.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/122161",
+        "name": "TYPO3",
+        "num_vulns": "32",
+        "version": "4.5.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/122160",
+        "name": "TYPO3",
+        "num_vulns": "32",
+        "version": "4.5.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/122159",
+        "name": "TYPO3",
+        "num_vulns": "32",
+        "version": "4.5.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/122158",
+        "name": "TYPO3",
+        "num_vulns": "32",
+        "version": "4.5.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/133001",
+        "name": "TYPO3",
+        "num_vulns": "31",
+        "version": "4.5.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/69967",
+        "name": "TYPO3",
+        "num_vulns": "17",
+        "version": "4.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/167012",
+        "name": "TYPO3",
+        "num_vulns": "2",
+        "version": "4.4.15"
+    },
+    {
+        "link": "http://cvedetails.com/version/133000",
+        "name": "TYPO3",
+        "num_vulns": "3",
+        "version": "4.4.14"
+    },
+    {
+        "link": "http://cvedetails.com/version/132999",
+        "name": "TYPO3",
+        "num_vulns": "6",
+        "version": "4.4.13"
+    },
+    {
+        "link": "http://cvedetails.com/version/132998",
+        "name": "TYPO3",
+        "num_vulns": "6",
+        "version": "4.4.12"
+    },
+    {
+        "link": "http://cvedetails.com/version/132997",
+        "name": "TYPO3",
+        "num_vulns": "6",
+        "version": "4.4.11"
+    },
+    {
+        "link": "http://cvedetails.com/version/132996",
+        "name": "TYPO3",
+        "num_vulns": "6",
+        "version": "4.4.10"
+    },
+    {
+        "link": "http://cvedetails.com/version/132995",
+        "name": "TYPO3",
+        "num_vulns": "6",
+        "version": "4.4.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/132994",
+        "name": "TYPO3",
+        "num_vulns": "6",
+        "version": "4.4.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/132993",
+        "name": "TYPO3",
+        "num_vulns": "6",
+        "version": "4.4.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/132992",
+        "name": "TYPO3",
+        "num_vulns": "6",
+        "version": "4.4.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/132991",
+        "name": "TYPO3",
+        "num_vulns": "6",
+        "version": "4.4.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/126113",
+        "name": "TYPO3",
+        "num_vulns": "14",
+        "version": "4.4.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/98726",
+        "name": "TYPO3",
+        "num_vulns": "18",
+        "version": "4.4.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/98725",
+        "name": "TYPO3",
+        "num_vulns": "18",
+        "version": "4.4.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/98724",
+        "name": "TYPO3",
+        "num_vulns": "18",
+        "version": "4.4.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/127094",
+        "name": "TYPO3",
+        "num_vulns": "7",
+        "version": "4.4.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/69966",
+        "name": "TYPO3",
+        "num_vulns": "10",
+        "version": "4.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/167010",
+        "name": "TYPO3",
+        "num_vulns": "2",
+        "version": "4.3.14"
+    },
+    {
+        "link": "http://cvedetails.com/version/167009",
+        "name": "TYPO3",
+        "num_vulns": "2",
+        "version": "4.3.13"
+    },
+    {
+        "link": "http://cvedetails.com/version/167008",
+        "name": "TYPO3",
+        "num_vulns": "2",
+        "version": "4.3.12"
+    },
+    {
+        "link": "http://cvedetails.com/version/167007",
+        "name": "TYPO3",
+        "num_vulns": "2",
+        "version": "4.3.11"
+    },
+    {
+        "link": "http://cvedetails.com/version/167006",
+        "name": "TYPO3",
+        "num_vulns": "2",
+        "version": "4.3.10"
+    },
+    {
+        "link": "http://cvedetails.com/version/167011",
+        "name": "TYPO3",
+        "num_vulns": "2",
+        "version": "4.3.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/126112",
+        "name": "TYPO3",
+        "num_vulns": "10",
+        "version": "4.3.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/126111",
+        "name": "TYPO3",
+        "num_vulns": "10",
+        "version": "4.3.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/98723",
+        "name": "TYPO3",
+        "num_vulns": "15",
+        "version": "4.3.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/98722",
+        "name": "TYPO3",
+        "num_vulns": "15",
+        "version": "4.3.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/98721",
+        "name": "TYPO3",
+        "num_vulns": "15",
+        "version": "4.3.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/98720",
+        "name": "TYPO3",
+        "num_vulns": "15",
+        "version": "4.3.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/89237",
+        "name": "TYPO3",
+        "num_vulns": "16",
+        "version": "4.3.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/89236",
+        "name": "TYPO3",
+        "num_vulns": "16",
+        "version": "4.3.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/87154",
+        "name": "TYPO3",
+        "num_vulns": "17",
+        "version": "4.3.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/69976",
+        "name": "TYPO3",
+        "num_vulns": "12",
+        "version": "4.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/69995",
+        "name": "TYPO3",
+        "num_vulns": "1",
+        "version": "4.3alpha1"
+    },
+    {
+        "link": "http://cvedetails.com/version/167005",
+        "name": "TYPO3",
+        "num_vulns": "1",
+        "version": "4.2.17"
+    },
+    {
+        "link": "http://cvedetails.com/version/167004",
+        "name": "TYPO3",
+        "num_vulns": "1",
+        "version": "4.2.16"
+    },
+    {
+        "link": "http://cvedetails.com/version/126114",
+        "name": "TYPO3",
+        "num_vulns": "8",
+        "version": "4.2.15"
+    },
+    {
+        "link": "http://cvedetails.com/version/98719",
+        "name": "TYPO3",
+        "num_vulns": "13",
+        "version": "4.2.14"
+    },
+    {
+        "link": "http://cvedetails.com/version/98718",
+        "name": "TYPO3",
+        "num_vulns": "13",
+        "version": "4.2.13"
+    },
+    {
+        "link": "http://cvedetails.com/version/98717",
+        "name": "TYPO3",
+        "num_vulns": "13",
+        "version": "4.2.12"
+    },
+    {
+        "link": "http://cvedetails.com/version/98716",
+        "name": "TYPO3",
+        "num_vulns": "13",
+        "version": "4.2.11"
+    },
+    {
+        "link": "http://cvedetails.com/version/98715",
+        "name": "TYPO3",
+        "num_vulns": "13",
+        "version": "4.2.10"
+    },
+    {
+        "link": "http://cvedetails.com/version/82884",
+        "name": "TYPO3",
+        "num_vulns": "21",
+        "version": "4.2.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/82883",
+        "name": "TYPO3",
+        "num_vulns": "21",
+        "version": "4.2.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/82882",
+        "name": "TYPO3",
+        "num_vulns": "21",
+        "version": "4.2.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/69978",
+        "name": "TYPO3",
+        "num_vulns": "23",
+        "version": "4.2.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/69977",
+        "name": "TYPO3",
+        "num_vulns": "25",
+        "version": "4.2.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/69984",
+        "name": "TYPO3",
+        "num_vulns": "25",
+        "version": "4.2.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/69985",
+        "name": "TYPO3",
+        "num_vulns": "28",
+        "version": "4.2.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/66578",
+        "name": "TYPO3",
+        "num_vulns": "31",
+        "version": "4.2.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/66589",
+        "name": "TYPO3",
+        "num_vulns": "30",
+        "version": "4.2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/66588",
+        "name": "TYPO3",
+        "num_vulns": "29",
+        "version": "4.2.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/57160",
+        "name": "TYPO3",
+        "num_vulns": "8",
+        "version": "4.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/167003",
+        "name": "TYPO3",
+        "num_vulns": "1",
+        "version": "4.1.15"
+    },
+    {
+        "link": "http://cvedetails.com/version/167002",
+        "name": "TYPO3",
+        "num_vulns": "1",
+        "version": "4.1.14"
+    },
+    {
+        "link": "http://cvedetails.com/version/167001",
+        "name": "TYPO3",
+        "num_vulns": "1",
+        "version": "4.1.13"
+    },
+    {
+        "link": "http://cvedetails.com/version/82880",
+        "name": "TYPO3",
+        "num_vulns": "9",
+        "version": "4.1.12"
+    },
+    {
+        "link": "http://cvedetails.com/version/82881",
+        "name": "TYPO3",
+        "num_vulns": "9",
+        "version": "4.1.11"
+    },
+    {
+        "link": "http://cvedetails.com/version/69983",
+        "name": "TYPO3",
+        "num_vulns": "10",
+        "version": "4.1.10"
+    },
+    {
+        "link": "http://cvedetails.com/version/69982",
+        "name": "TYPO3",
+        "num_vulns": "12",
+        "version": "4.1.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/69981",
+        "name": "TYPO3",
+        "num_vulns": "12",
+        "version": "4.1.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/69987",
+        "name": "TYPO3",
+        "num_vulns": "16",
+        "version": "4.1.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/57159",
+        "name": "TYPO3",
+        "num_vulns": "18",
+        "version": "4.1.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/57158",
+        "name": "TYPO3",
+        "num_vulns": "18",
+        "version": "4.1.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/57157",
+        "name": "TYPO3",
+        "num_vulns": "18",
+        "version": "4.1.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/50229",
+        "name": "TYPO3",
+        "num_vulns": "19",
+        "version": "4.1.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/50228",
+        "name": "TYPO3",
+        "num_vulns": "19",
+        "version": "4.1.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/50227",
+        "name": "TYPO3",
+        "num_vulns": "18",
+        "version": "4.1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/69988",
+        "name": "TYPO3",
+        "num_vulns": "15",
+        "version": "4.1.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/50226",
+        "name": "TYPO3",
+        "num_vulns": "7",
+        "version": "4.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/82886",
+        "name": "TYPO3",
+        "num_vulns": "3",
+        "version": "4.0.13"
+    },
+    {
+        "link": "http://cvedetails.com/version/69963",
+        "name": "TYPO3",
+        "num_vulns": "10",
+        "version": "4.0.12"
+    },
+    {
+        "link": "http://cvedetails.com/version/69964",
+        "name": "TYPO3",
+        "num_vulns": "11",
+        "version": "4.0.11"
+    },
+    {
+        "link": "http://cvedetails.com/version/69962",
+        "name": "TYPO3",
+        "num_vulns": "11",
+        "version": "4.0.10"
+    },
+    {
+        "link": "http://cvedetails.com/version/69990",
+        "name": "TYPO3",
+        "num_vulns": "15",
+        "version": "4.0.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/57156",
+        "name": "TYPO3",
+        "num_vulns": "17",
+        "version": "4.0.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/50225",
+        "name": "TYPO3",
+        "num_vulns": "18",
+        "version": "4.0.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/50224",
+        "name": "TYPO3",
+        "num_vulns": "18",
+        "version": "4.0.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/50223",
+        "name": "TYPO3",
+        "num_vulns": "18",
+        "version": "4.0.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/42002",
+        "name": "TYPO3",
+        "num_vulns": "19",
+        "version": "4.0.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/39334",
+        "name": "TYPO3",
+        "num_vulns": "19",
+        "version": "4.0.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/39333",
+        "name": "TYPO3",
+        "num_vulns": "19",
+        "version": "4.0.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/37261",
+        "name": "TYPO3",
+        "num_vulns": "20",
+        "version": "4.0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/167000",
+        "name": "TYPO3",
+        "num_vulns": "1",
+        "version": "4.0.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/37260",
+        "name": "TYPO3",
+        "num_vulns": "22",
+        "version": "4.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/30440",
+        "name": "TYPO3",
+        "num_vulns": "3",
+        "version": "3.8.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/29943",
+        "name": "TYPO3",
+        "num_vulns": "2",
+        "version": "3.8.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/69974",
+        "name": "TYPO3",
+        "num_vulns": "8",
+        "version": "3.8.x"
+    },
+    {
+        "link": "http://cvedetails.com/version/39332",
+        "name": "TYPO3",
+        "num_vulns": "9",
+        "version": "3.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/30439",
+        "name": "TYPO3",
+        "num_vulns": "9",
+        "version": "3.7.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/29942",
+        "name": "TYPO3",
+        "num_vulns": "10",
+        "version": "3.7.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/69980",
+        "name": "TYPO3",
+        "num_vulns": "8",
+        "version": "3.7.x"
+    },
+    {
+        "link": "http://cvedetails.com/version/69972",
+        "name": "TYPO3",
+        "num_vulns": "8",
+        "version": "3.6.x"
+    },
+    {
+        "link": "http://cvedetails.com/version/69971",
+        "name": "TYPO3",
+        "num_vulns": "8",
+        "version": "3.5.x"
+    },
+    {
+        "link": "http://cvedetails.com/version/78199",
+        "name": "TYPO3",
+        "num_vulns": "6",
+        "version": "3.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/69979",
+        "name": "TYPO3",
+        "num_vulns": "8",
+        "version": "3.3.x"
+    },
+    {
+        "link": "http://cvedetails.com/version/50222",
+        "name": "TYPO3",
+        "num_vulns": "8",
+        "version": "3.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/69965",
+        "name": "TYPO3",
+        "num_vulns": "7",
+        "version": "1.3.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/69970",
+        "name": "TYPO3",
+        "num_vulns": "7",
+        "version": "1.3.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/56280",
+        "name": "TYPO3",
+        "num_vulns": "8",
+        "version": "1.2.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/69996",
+        "name": "TYPO3",
+        "num_vulns": "7",
+        "version": "1.1.10"
+    },
+    {
+        "link": "http://cvedetails.com/version/55733",
+        "name": "TYPO3",
+        "num_vulns": "8",
+        "version": "1.1.09"
+    },
+    {
+        "link": "http://cvedetails.com/version/69973",
+        "name": "TYPO3",
+        "num_vulns": "7",
+        "version": "1.1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/29941",
+        "name": "TYPO3",
+        "num_vulns": "8",
+        "version": "1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/69975",
+        "name": "TYPO3",
+        "num_vulns": "7",
+        "version": "1.0.14"
+    },
+    {
+        "link": "http://cvedetails.com/version/56279",
+        "name": "TYPO3",
+        "num_vulns": "9",
+        "version": "0.1.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/137864",
+        "name": "TYPO3",
+        "num_vulns": "3",
+        "version": "-"
+    }
+]

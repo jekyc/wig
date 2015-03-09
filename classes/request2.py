@@ -13,7 +13,6 @@ from html.parser import HTMLParser
 from collections import namedtuple
 from classes.cache import Cache
 from classes.results import Results
-from classes.queue import FingerprintQueue
 
 
 class HTMLStripper(HTMLParser):

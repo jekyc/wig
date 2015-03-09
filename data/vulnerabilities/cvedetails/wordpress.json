@@ -1,0 +1,896 @@
+[
+    {
+        "link": "http://cvedetails.com/version/176072",
+        "name": "WordPress",
+        "num_vulns": "8",
+        "version": "4.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/176071",
+        "name": "WordPress",
+        "num_vulns": "9",
+        "version": "3.9.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/169908",
+        "name": "WordPress",
+        "num_vulns": "14",
+        "version": "3.9.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/169907",
+        "name": "WordPress",
+        "num_vulns": "6",
+        "version": "3.9.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/176070",
+        "name": "WordPress",
+        "num_vulns": "8",
+        "version": "3.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/176069",
+        "name": "WordPress",
+        "num_vulns": "8",
+        "version": "3.8.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/176068",
+        "name": "WordPress",
+        "num_vulns": "7",
+        "version": "3.8.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/176067",
+        "name": "WordPress",
+        "num_vulns": "7",
+        "version": "3.8.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/162923",
+        "name": "WordPress",
+        "num_vulns": "12",
+        "version": "3.8.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/162922",
+        "name": "WordPress",
+        "num_vulns": "12",
+        "version": "3.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/176066",
+        "name": "WordPress",
+        "num_vulns": "8",
+        "version": "3.7.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/162921",
+        "name": "WordPress",
+        "num_vulns": "5",
+        "version": "3.7.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/162920",
+        "name": "WordPress",
+        "num_vulns": "5",
+        "version": "3.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/162924",
+        "name": "WordPress",
+        "num_vulns": "5",
+        "version": "3.6.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/151648",
+        "name": "WordPress",
+        "num_vulns": "10",
+        "version": "3.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/147174",
+        "name": "WordPress",
+        "num_vulns": "13",
+        "version": "3.5.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/147623",
+        "name": "WordPress",
+        "num_vulns": "15",
+        "version": "3.5.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/135687",
+        "name": "WordPress",
+        "num_vulns": "17",
+        "version": "3.4.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/134490",
+        "name": "WordPress",
+        "num_vulns": "17",
+        "version": "3.4.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/130595",
+        "name": "WordPress",
+        "num_vulns": "20",
+        "version": "3.4.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/170857",
+        "name": "WordPress",
+        "num_vulns": "0",
+        "version": "3.3.5.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/130596",
+        "name": "WordPress",
+        "num_vulns": "19",
+        "version": "3.3.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/130597",
+        "name": "WordPress",
+        "num_vulns": "22",
+        "version": "3.3.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/121200",
+        "name": "WordPress",
+        "num_vulns": "32",
+        "version": "3.3.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/119429",
+        "name": "WordPress",
+        "num_vulns": "35",
+        "version": "3.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/121201",
+        "name": "WordPress",
+        "num_vulns": "18",
+        "version": "3.2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/130598",
+        "name": "WordPress",
+        "num_vulns": "13",
+        "version": "3.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/121202",
+        "name": "WordPress",
+        "num_vulns": "18",
+        "version": "3.1.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/121203",
+        "name": "WordPress",
+        "num_vulns": "24",
+        "version": "3.1.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/112478",
+        "name": "WordPress",
+        "num_vulns": "31",
+        "version": "3.1.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/112477",
+        "name": "WordPress",
+        "num_vulns": "31",
+        "version": "3.1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/112476",
+        "name": "WordPress",
+        "num_vulns": "33",
+        "version": "3.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/121204",
+        "name": "WordPress",
+        "num_vulns": "26",
+        "version": "3.0.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/121205",
+        "name": "WordPress",
+        "num_vulns": "27",
+        "version": "3.0.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/105577",
+        "name": "WordPress",
+        "num_vulns": "30",
+        "version": "3.0.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/102105",
+        "name": "WordPress",
+        "num_vulns": "30",
+        "version": "3.0.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/102106",
+        "name": "WordPress",
+        "num_vulns": "4",
+        "version": "3.0.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/102104",
+        "name": "WordPress",
+        "num_vulns": "31",
+        "version": "3.0.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/100796",
+        "name": "WordPress",
+        "num_vulns": "36",
+        "version": "3.0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/100795",
+        "name": "WordPress",
+        "num_vulns": "37",
+        "version": "3.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/100794",
+        "name": "WordPress",
+        "num_vulns": "40",
+        "version": "2.9.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/125411",
+        "name": "WordPress",
+        "num_vulns": "31",
+        "version": "2.9.1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/87179",
+        "name": "WordPress",
+        "num_vulns": "40",
+        "version": "2.9.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/87176",
+        "name": "WordPress",
+        "num_vulns": "40",
+        "version": "2.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/121206",
+        "name": "WordPress",
+        "num_vulns": "35",
+        "version": "2.8.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/125413",
+        "name": "WordPress",
+        "num_vulns": "31",
+        "version": "2.8.5.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/125412",
+        "name": "WordPress",
+        "num_vulns": "31",
+        "version": "2.8.5.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/83629",
+        "name": "WordPress",
+        "num_vulns": "41",
+        "version": "2.8.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/82708",
+        "name": "WordPress",
+        "num_vulns": "42",
+        "version": "2.8.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/82709",
+        "name": "WordPress",
+        "num_vulns": "7",
+        "version": "2.8.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/79842",
+        "name": "WordPress",
+        "num_vulns": "43",
+        "version": "2.8.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/79843",
+        "name": "WordPress",
+        "num_vulns": "45",
+        "version": "2.8.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/80033",
+        "name": "WordPress",
+        "num_vulns": "8",
+        "version": "2.8.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/79844",
+        "name": "WordPress",
+        "num_vulns": "46",
+        "version": "2.8.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/80031",
+        "name": "WordPress",
+        "num_vulns": "8",
+        "version": "2.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/80032",
+        "name": "WordPress",
+        "num_vulns": "43",
+        "version": "2.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/79030",
+        "name": "WordPress",
+        "num_vulns": "51",
+        "version": "2.7.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/79850",
+        "name": "WordPress",
+        "num_vulns": "10",
+        "version": "2.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/79851",
+        "name": "WordPress",
+        "num_vulns": "46",
+        "version": "2.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/79031",
+        "name": "WordPress",
+        "num_vulns": "50",
+        "version": "2.6.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/65172",
+        "name": "WordPress",
+        "num_vulns": "52",
+        "version": "2.6.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/80030",
+        "name": "WordPress",
+        "num_vulns": "43",
+        "version": "2.6.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/62174",
+        "name": "WordPress",
+        "num_vulns": "52",
+        "version": "2.6.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/61279",
+        "name": "WordPress",
+        "num_vulns": "55",
+        "version": "2.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/56029",
+        "name": "WordPress",
+        "num_vulns": "54",
+        "version": "2.5.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/55357",
+        "name": "WordPress",
+        "num_vulns": "57",
+        "version": "2.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/56028",
+        "name": "WordPress",
+        "num_vulns": "54",
+        "version": "2.3.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/51942",
+        "name": "WordPress",
+        "num_vulns": "58",
+        "version": "2.3.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/49431",
+        "name": "WordPress",
+        "num_vulns": "58",
+        "version": "2.3.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/49013",
+        "name": "WordPress",
+        "num_vulns": "61",
+        "version": "2.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/128188",
+        "name": "WordPress",
+        "num_vulns": "0",
+        "version": "2.2.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/128187",
+        "name": "WordPress",
+        "num_vulns": "0",
+        "version": "2.2.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/49430",
+        "name": "WordPress",
+        "num_vulns": "60",
+        "version": "2.2.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/47597",
+        "name": "WordPress",
+        "num_vulns": "63",
+        "version": "2.2.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/45986",
+        "name": "WordPress",
+        "num_vulns": "67",
+        "version": "2.2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/45835",
+        "name": "WordPress",
+        "num_vulns": "22",
+        "version": "2.2.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/43240",
+        "name": "WordPress",
+        "num_vulns": "19",
+        "version": "2.2 Revision5002"
+    },
+    {
+        "link": "http://cvedetails.com/version/45317",
+        "name": "WordPress",
+        "num_vulns": "69",
+        "version": "2.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/47598",
+        "name": "WordPress",
+        "num_vulns": "18",
+        "version": "2.2 Revision5003"
+    },
+    {
+        "link": "http://cvedetails.com/version/79831",
+        "name": "WordPress",
+        "num_vulns": "8",
+        "version": "2.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/79841",
+        "name": "WordPress",
+        "num_vulns": "10",
+        "version": "2.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/42906",
+        "name": "WordPress",
+        "num_vulns": "21",
+        "version": "2.1.3 Rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/44984",
+        "name": "WordPress",
+        "num_vulns": "64",
+        "version": "2.1.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/47596",
+        "name": "WordPress",
+        "num_vulns": "19",
+        "version": "2.1.3 Rc2"
+    },
+    {
+        "link": "http://cvedetails.com/version/42887",
+        "name": "WordPress",
+        "num_vulns": "69",
+        "version": "2.1.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/42244",
+        "name": "WordPress",
+        "num_vulns": "69",
+        "version": "2.1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/80059",
+        "name": "WordPress",
+        "num_vulns": "8",
+        "version": "2.1.1beta"
+    },
+    {
+        "link": "http://cvedetails.com/version/42186",
+        "name": "WordPress",
+        "num_vulns": "65",
+        "version": "2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/49427",
+        "name": "WordPress",
+        "num_vulns": "63",
+        "version": "2.0.11"
+    },
+    {
+        "link": "http://cvedetails.com/version/42904",
+        "name": "WordPress",
+        "num_vulns": "62",
+        "version": "2.0.10"
+    },
+    {
+        "link": "http://cvedetails.com/version/42905",
+        "name": "WordPress",
+        "num_vulns": "19",
+        "version": "2.0.10 Rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/47595",
+        "name": "WordPress",
+        "num_vulns": "18",
+        "version": "2.0.10 Rc2"
+    },
+    {
+        "link": "http://cvedetails.com/version/49429",
+        "name": "WordPress",
+        "num_vulns": "60",
+        "version": "2.0.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/80048",
+        "name": "WordPress",
+        "num_vulns": "8",
+        "version": "2.0.9rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/49428",
+        "name": "WordPress",
+        "num_vulns": "57",
+        "version": "2.0.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/41962",
+        "name": "WordPress",
+        "num_vulns": "67",
+        "version": "2.0.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/40500",
+        "name": "WordPress",
+        "num_vulns": "69",
+        "version": "2.0.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/36830",
+        "name": "WordPress",
+        "num_vulns": "74",
+        "version": "2.0.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/36829",
+        "name": "WordPress",
+        "num_vulns": "74",
+        "version": "2.0.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/35159",
+        "name": "WordPress",
+        "num_vulns": "41",
+        "version": "2.0.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/34080",
+        "name": "WordPress",
+        "num_vulns": "73",
+        "version": "2.0.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/28662",
+        "name": "WordPress",
+        "num_vulns": "77",
+        "version": "2.0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/31373",
+        "name": "WordPress",
+        "num_vulns": "82",
+        "version": "2.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/141810",
+        "name": "WordPress",
+        "num_vulns": "12",
+        "version": "1.6.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/55617",
+        "name": "WordPress",
+        "num_vulns": "19",
+        "version": "1.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/31956",
+        "name": "WordPress",
+        "num_vulns": "60",
+        "version": "1.5.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/24969",
+        "name": "WordPress",
+        "num_vulns": "65",
+        "version": "1.5.1.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/24056",
+        "name": "WordPress",
+        "num_vulns": "68",
+        "version": "1.5.1.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/49426",
+        "name": "WordPress",
+        "num_vulns": "47",
+        "version": "1.5.1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/23602",
+        "name": "WordPress",
+        "num_vulns": "68",
+        "version": "1.5.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/22388",
+        "name": "WordPress",
+        "num_vulns": "70",
+        "version": "1.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/49425",
+        "name": "WordPress",
+        "num_vulns": "16",
+        "version": "1.5-strayhorn"
+    },
+    {
+        "link": "http://cvedetails.com/version/79833",
+        "name": "WordPress",
+        "num_vulns": "11",
+        "version": "1.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/55616",
+        "name": "WordPress",
+        "num_vulns": "19",
+        "version": "1.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/125414",
+        "name": "WordPress",
+        "num_vulns": "26",
+        "version": "1.3.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/125417",
+        "name": "WordPress",
+        "num_vulns": "26",
+        "version": "1.3.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/51941",
+        "name": "WordPress",
+        "num_vulns": "20",
+        "version": "1.3.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/125416",
+        "name": "WordPress",
+        "num_vulns": "26",
+        "version": "1.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/125406",
+        "name": "WordPress",
+        "num_vulns": "26",
+        "version": "1.2.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/125409",
+        "name": "WordPress",
+        "num_vulns": "26",
+        "version": "1.2.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/125408",
+        "name": "WordPress",
+        "num_vulns": "26",
+        "version": "1.2.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/32302",
+        "name": "WordPress",
+        "num_vulns": "60",
+        "version": "1.2.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/32301",
+        "name": "WordPress",
+        "num_vulns": "60",
+        "version": "1.2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/16875",
+        "name": "WordPress",
+        "num_vulns": "68",
+        "version": "1.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/62172",
+        "name": "WordPress",
+        "num_vulns": "13",
+        "version": "1.2-delta"
+    },
+    {
+        "link": "http://cvedetails.com/version/62173",
+        "name": "WordPress",
+        "num_vulns": "13",
+        "version": "1.2-mingus"
+    },
+    {
+        "link": "http://cvedetails.com/version/79836",
+        "name": "WordPress",
+        "num_vulns": "11",
+        "version": "1.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/125410",
+        "name": "WordPress",
+        "num_vulns": "26",
+        "version": "1.1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/24055",
+        "name": "WordPress",
+        "num_vulns": "59",
+        "version": "1.0.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/62170",
+        "name": "WordPress",
+        "num_vulns": "13",
+        "version": "1.0.2-blakey"
+    },
+    {
+        "link": "http://cvedetails.com/version/79832",
+        "name": "WordPress",
+        "num_vulns": "11",
+        "version": "1.0.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/24054",
+        "name": "WordPress",
+        "num_vulns": "59",
+        "version": "1.0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/62169",
+        "name": "WordPress",
+        "num_vulns": "13",
+        "version": "1.0.1-miles"
+    },
+    {
+        "link": "http://cvedetails.com/version/79834",
+        "name": "WordPress",
+        "num_vulns": "11",
+        "version": "1.0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/24053",
+        "name": "WordPress",
+        "num_vulns": "59",
+        "version": "1.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/62171",
+        "name": "WordPress",
+        "num_vulns": "13",
+        "version": "1.0-platinum"
+    },
+    {
+        "link": "http://cvedetails.com/version/79830",
+        "name": "WordPress",
+        "num_vulns": "11",
+        "version": "1.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/55615",
+        "name": "WordPress",
+        "num_vulns": "24",
+        "version": "0.711"
+    },
+    {
+        "link": "http://cvedetails.com/version/61271",
+        "name": "WordPress",
+        "num_vulns": "22",
+        "version": "0.72"
+    },
+    {
+        "link": "http://cvedetails.com/version/80034",
+        "name": "WordPress",
+        "num_vulns": "3",
+        "version": "0.72"
+    },
+    {
+        "link": "http://cvedetails.com/version/80035",
+        "name": "WordPress",
+        "num_vulns": "7",
+        "version": "0.72"
+    },
+    {
+        "link": "http://cvedetails.com/version/32300",
+        "name": "WordPress",
+        "num_vulns": "57",
+        "version": "0.71"
+    },
+    {
+        "link": "http://cvedetails.com/version/62168",
+        "name": "WordPress",
+        "num_vulns": "15",
+        "version": "0.71-gold"
+    },
+    {
+        "link": "http://cvedetails.com/version/79837",
+        "name": "WordPress",
+        "num_vulns": "11",
+        "version": "0.71"
+    },
+    {
+        "link": "http://cvedetails.com/version/173922",
+        "name": "WordPress",
+        "num_vulns": "1",
+        "version": "0.70"
+    },
+    {
+        "link": "http://cvedetails.com/version/32299",
+        "name": "WordPress",
+        "num_vulns": "33",
+        "version": "0.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/47594",
+        "name": "WordPress",
+        "num_vulns": "22",
+        "version": "0.6.2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/47593",
+        "name": "WordPress",
+        "num_vulns": "22",
+        "version": "0.6.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/128189",
+        "name": "WordPress",
+        "num_vulns": "5",
+        "version": "-"
+    }
+]

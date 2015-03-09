@@ -6,7 +6,6 @@ from classes.color import Color
 from classes.cache import Cache
 from classes.results import Results
 from classes.fingerprints import Fingerprints
-from classes.queue import FingerprintQueue
 
 from classes.discovery import *
 

@@ -1,0 +1,650 @@
+[
+    {
+        "link": "http://cvedetails.com/version/179476",
+        "name": "Movable Type",
+        "num_vulns": "1",
+        "version": "6.0.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/179477",
+        "name": "Movable Type",
+        "num_vulns": "1",
+        "version": "6.0.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/179478",
+        "name": "Movable Type",
+        "num_vulns": "1",
+        "version": "6.0.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/179479",
+        "name": "Movable Type",
+        "num_vulns": "1",
+        "version": "6.0.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/179480",
+        "name": "Movable Type",
+        "num_vulns": "1",
+        "version": "6.0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/179481",
+        "name": "Movable Type",
+        "num_vulns": "1",
+        "version": "6.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/122634",
+        "name": "Movable Type",
+        "num_vulns": "2",
+        "version": "5.051"
+    },
+    {
+        "link": "http://cvedetails.com/version/122655",
+        "name": "Movable Type",
+        "num_vulns": "2",
+        "version": "5.051"
+    },
+    {
+        "link": "http://cvedetails.com/version/122665",
+        "name": "Movable Type",
+        "num_vulns": "2",
+        "version": "5.051"
+    },
+    {
+        "link": "http://cvedetails.com/version/122668",
+        "name": "Movable Type",
+        "num_vulns": "4",
+        "version": "5.031"
+    },
+    {
+        "link": "http://cvedetails.com/version/179492",
+        "name": "Movable Type",
+        "num_vulns": "1",
+        "version": "5.17"
+    },
+    {
+        "link": "http://cvedetails.com/version/170642",
+        "name": "Movable Type",
+        "num_vulns": "1",
+        "version": "5.13"
+    },
+    {
+        "link": "http://cvedetails.com/version/122630",
+        "name": "Movable Type",
+        "num_vulns": "2",
+        "version": "5.12"
+    },
+    {
+        "link": "http://cvedetails.com/version/122651",
+        "name": "Movable Type",
+        "num_vulns": "2",
+        "version": "5.12"
+    },
+    {
+        "link": "http://cvedetails.com/version/122659",
+        "name": "Movable Type",
+        "num_vulns": "2",
+        "version": "5.12"
+    },
+    {
+        "link": "http://cvedetails.com/version/122631",
+        "name": "Movable Type",
+        "num_vulns": "2",
+        "version": "5.11"
+    },
+    {
+        "link": "http://cvedetails.com/version/122652",
+        "name": "Movable Type",
+        "num_vulns": "2",
+        "version": "5.11"
+    },
+    {
+        "link": "http://cvedetails.com/version/122660",
+        "name": "Movable Type",
+        "num_vulns": "2",
+        "version": "5.11"
+    },
+    {
+        "link": "http://cvedetails.com/version/122663",
+        "name": "Movable Type",
+        "num_vulns": "2",
+        "version": "5.07"
+    },
+    {
+        "link": "http://cvedetails.com/version/122633",
+        "name": "Movable Type",
+        "num_vulns": "2",
+        "version": "5.06"
+    },
+    {
+        "link": "http://cvedetails.com/version/122654",
+        "name": "Movable Type",
+        "num_vulns": "2",
+        "version": "5.06"
+    },
+    {
+        "link": "http://cvedetails.com/version/122664",
+        "name": "Movable Type",
+        "num_vulns": "2",
+        "version": "5.06"
+    },
+    {
+        "link": "http://cvedetails.com/version/122635",
+        "name": "Movable Type",
+        "num_vulns": "2",
+        "version": "5.05"
+    },
+    {
+        "link": "http://cvedetails.com/version/122656",
+        "name": "Movable Type",
+        "num_vulns": "2",
+        "version": "5.05"
+    },
+    {
+        "link": "http://cvedetails.com/version/122666",
+        "name": "Movable Type",
+        "num_vulns": "4",
+        "version": "5.05"
+    },
+    {
+        "link": "http://cvedetails.com/version/122636",
+        "name": "Movable Type",
+        "num_vulns": "2",
+        "version": "5.04"
+    },
+    {
+        "link": "http://cvedetails.com/version/122657",
+        "name": "Movable Type",
+        "num_vulns": "2",
+        "version": "5.04"
+    },
+    {
+        "link": "http://cvedetails.com/version/122667",
+        "name": "Movable Type",
+        "num_vulns": "4",
+        "version": "5.04"
+    },
+    {
+        "link": "http://cvedetails.com/version/122669",
+        "name": "Movable Type",
+        "num_vulns": "4",
+        "version": "5.03"
+    },
+    {
+        "link": "http://cvedetails.com/version/179491",
+        "name": "Movable Type",
+        "num_vulns": "1",
+        "version": "5.2.10"
+    },
+    {
+        "link": "http://cvedetails.com/version/179490",
+        "name": "Movable Type",
+        "num_vulns": "1",
+        "version": "5.2.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/179489",
+        "name": "Movable Type",
+        "num_vulns": "1",
+        "version": "5.2.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/179488",
+        "name": "Movable Type",
+        "num_vulns": "1",
+        "version": "5.2.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/179487",
+        "name": "Movable Type",
+        "num_vulns": "1",
+        "version": "5.2.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/179486",
+        "name": "Movable Type",
+        "num_vulns": "1",
+        "version": "5.2.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/179485",
+        "name": "Movable Type",
+        "num_vulns": "1",
+        "version": "5.2.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/179484",
+        "name": "Movable Type",
+        "num_vulns": "1",
+        "version": "5.2.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/179483",
+        "name": "Movable Type",
+        "num_vulns": "1",
+        "version": "5.2.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/122637",
+        "name": "Movable Type",
+        "num_vulns": "2",
+        "version": "5.02"
+    },
+    {
+        "link": "http://cvedetails.com/version/122658",
+        "name": "Movable Type",
+        "num_vulns": "2",
+        "version": "5.02"
+    },
+    {
+        "link": "http://cvedetails.com/version/122670",
+        "name": "Movable Type",
+        "num_vulns": "4",
+        "version": "5.02"
+    },
+    {
+        "link": "http://cvedetails.com/version/179482",
+        "name": "Movable Type",
+        "num_vulns": "1",
+        "version": "5.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/91478",
+        "name": "Movable Type",
+        "num_vulns": "5",
+        "version": "5.01"
+    },
+    {
+        "link": "http://cvedetails.com/version/122632",
+        "name": "Movable Type",
+        "num_vulns": "2",
+        "version": "5.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/122638",
+        "name": "Movable Type",
+        "num_vulns": "2",
+        "version": "5.01"
+    },
+    {
+        "link": "http://cvedetails.com/version/122653",
+        "name": "Movable Type",
+        "num_vulns": "2",
+        "version": "5.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/91477",
+        "name": "Movable Type",
+        "num_vulns": "5",
+        "version": "5.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/122639",
+        "name": "Movable Type",
+        "num_vulns": "2",
+        "version": "5.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/122641",
+        "name": "Movable Type",
+        "num_vulns": "3",
+        "version": "4.361"
+    },
+    {
+        "link": "http://cvedetails.com/version/122679",
+        "name": "Movable Type",
+        "num_vulns": "3",
+        "version": "4.361"
+    },
+    {
+        "link": "http://cvedetails.com/version/122643",
+        "name": "Movable Type",
+        "num_vulns": "3",
+        "version": "4.292"
+    },
+    {
+        "link": "http://cvedetails.com/version/122647",
+        "name": "Movable Type",
+        "num_vulns": "3",
+        "version": "4.292"
+    },
+    {
+        "link": "http://cvedetails.com/version/122682",
+        "name": "Movable Type",
+        "num_vulns": "5",
+        "version": "4.292"
+    },
+    {
+        "link": "http://cvedetails.com/version/122644",
+        "name": "Movable Type",
+        "num_vulns": "3",
+        "version": "4.291"
+    },
+    {
+        "link": "http://cvedetails.com/version/122648",
+        "name": "Movable Type",
+        "num_vulns": "3",
+        "version": "4.291"
+    },
+    {
+        "link": "http://cvedetails.com/version/122683",
+        "name": "Movable Type",
+        "num_vulns": "5",
+        "version": "4.291"
+    },
+    {
+        "link": "http://cvedetails.com/version/122687",
+        "name": "Movable Type",
+        "num_vulns": "5",
+        "version": "4.261"
+    },
+    {
+        "link": "http://cvedetails.com/version/140421",
+        "name": "Movable Type",
+        "num_vulns": "1",
+        "version": "4.38"
+    },
+    {
+        "link": "http://cvedetails.com/version/140422",
+        "name": "Movable Type",
+        "num_vulns": "1",
+        "version": "4.38"
+    },
+    {
+        "link": "http://cvedetails.com/version/122640",
+        "name": "Movable Type",
+        "num_vulns": "3",
+        "version": "4.37"
+    },
+    {
+        "link": "http://cvedetails.com/version/122678",
+        "name": "Movable Type",
+        "num_vulns": "3",
+        "version": "4.37"
+    },
+    {
+        "link": "http://cvedetails.com/version/122642",
+        "name": "Movable Type",
+        "num_vulns": "3",
+        "version": "4.36"
+    },
+    {
+        "link": "http://cvedetails.com/version/122680",
+        "name": "Movable Type",
+        "num_vulns": "5",
+        "version": "4.36"
+    },
+    {
+        "link": "http://cvedetails.com/version/122681",
+        "name": "Movable Type",
+        "num_vulns": "5",
+        "version": "4.35"
+    },
+    {
+        "link": "http://cvedetails.com/version/140420",
+        "name": "Movable Type",
+        "num_vulns": "1",
+        "version": "4.34"
+    },
+    {
+        "link": "http://cvedetails.com/version/140419",
+        "name": "Movable Type",
+        "num_vulns": "1",
+        "version": "4.33"
+    },
+    {
+        "link": "http://cvedetails.com/version/140418",
+        "name": "Movable Type",
+        "num_vulns": "1",
+        "version": "4.32"
+    },
+    {
+        "link": "http://cvedetails.com/version/140417",
+        "name": "Movable Type",
+        "num_vulns": "1",
+        "version": "4.31"
+    },
+    {
+        "link": "http://cvedetails.com/version/122645",
+        "name": "Movable Type",
+        "num_vulns": "3",
+        "version": "4.29"
+    },
+    {
+        "link": "http://cvedetails.com/version/122649",
+        "name": "Movable Type",
+        "num_vulns": "3",
+        "version": "4.29"
+    },
+    {
+        "link": "http://cvedetails.com/version/122684",
+        "name": "Movable Type",
+        "num_vulns": "5",
+        "version": "4.29"
+    },
+    {
+        "link": "http://cvedetails.com/version/122646",
+        "name": "Movable Type",
+        "num_vulns": "3",
+        "version": "4.28"
+    },
+    {
+        "link": "http://cvedetails.com/version/122650",
+        "name": "Movable Type",
+        "num_vulns": "3",
+        "version": "4.28"
+    },
+    {
+        "link": "http://cvedetails.com/version/122685",
+        "name": "Movable Type",
+        "num_vulns": "5",
+        "version": "4.28"
+    },
+    {
+        "link": "http://cvedetails.com/version/122686",
+        "name": "Movable Type",
+        "num_vulns": "5",
+        "version": "4.27"
+    },
+    {
+        "link": "http://cvedetails.com/version/79176",
+        "name": "Movable Type",
+        "num_vulns": "6",
+        "version": "4.26"
+    },
+    {
+        "link": "http://cvedetails.com/version/79177",
+        "name": "Movable Type",
+        "num_vulns": "6",
+        "version": "4.25"
+    },
+    {
+        "link": "http://cvedetails.com/version/122688",
+        "name": "Movable Type",
+        "num_vulns": "5",
+        "version": "4.24"
+    },
+    {
+        "link": "http://cvedetails.com/version/79178",
+        "name": "Movable Type",
+        "num_vulns": "6",
+        "version": "4.23"
+    },
+    {
+        "link": "http://cvedetails.com/version/122689",
+        "name": "Movable Type",
+        "num_vulns": "5",
+        "version": "4.22"
+    },
+    {
+        "link": "http://cvedetails.com/version/67756",
+        "name": "Movable Type",
+        "num_vulns": "7",
+        "version": "4.21"
+    },
+    {
+        "link": "http://cvedetails.com/version/122696",
+        "name": "Movable Type",
+        "num_vulns": "4",
+        "version": "4.12"
+    },
+    {
+        "link": "http://cvedetails.com/version/67757",
+        "name": "Movable Type",
+        "num_vulns": "8",
+        "version": "4.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/124483",
+        "name": "Movable Type",
+        "num_vulns": "2",
+        "version": "4.01"
+    },
+    {
+        "link": "http://cvedetails.com/version/124487",
+        "name": "Movable Type",
+        "num_vulns": "2",
+        "version": "4.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/122700",
+        "name": "Movable Type",
+        "num_vulns": "4",
+        "version": "4.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/67635",
+        "name": "Movable Type",
+        "num_vulns": "5",
+        "version": "3.35"
+    },
+    {
+        "link": "http://cvedetails.com/version/67634",
+        "name": "Movable Type",
+        "num_vulns": "5",
+        "version": "3.34"
+    },
+    {
+        "link": "http://cvedetails.com/version/67633",
+        "name": "Movable Type",
+        "num_vulns": "5",
+        "version": "3.33"
+    },
+    {
+        "link": "http://cvedetails.com/version/67632",
+        "name": "Movable Type",
+        "num_vulns": "5",
+        "version": "3.32"
+    },
+    {
+        "link": "http://cvedetails.com/version/67629",
+        "name": "Movable Type",
+        "num_vulns": "5",
+        "version": "3.17"
+    },
+    {
+        "link": "http://cvedetails.com/version/67628",
+        "name": "Movable Type",
+        "num_vulns": "5",
+        "version": "3.16"
+    },
+    {
+        "link": "http://cvedetails.com/version/67627",
+        "name": "Movable Type",
+        "num_vulns": "5",
+        "version": "3.15"
+    },
+    {
+        "link": "http://cvedetails.com/version/67626",
+        "name": "Movable Type",
+        "num_vulns": "5",
+        "version": "3.14"
+    },
+    {
+        "link": "http://cvedetails.com/version/67625",
+        "name": "Movable Type",
+        "num_vulns": "5",
+        "version": "3.12"
+    },
+    {
+        "link": "http://cvedetails.com/version/67624",
+        "name": "Movable Type",
+        "num_vulns": "5",
+        "version": "3.11"
+    },
+    {
+        "link": "http://cvedetails.com/version/67631",
+        "name": "Movable Type",
+        "num_vulns": "5",
+        "version": "3.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/67630",
+        "name": "Movable Type",
+        "num_vulns": "5",
+        "version": "3.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/67621",
+        "name": "Movable Type",
+        "num_vulns": "5",
+        "version": "3.01d"
+    },
+    {
+        "link": "http://cvedetails.com/version/67623",
+        "name": "Movable Type",
+        "num_vulns": "5",
+        "version": "3.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/67622",
+        "name": "Movable Type",
+        "num_vulns": "5",
+        "version": "3.0d"
+    },
+    {
+        "link": "http://cvedetails.com/version/67619",
+        "name": "Movable Type",
+        "num_vulns": "3",
+        "version": "1.31"
+    },
+    {
+        "link": "http://cvedetails.com/version/67614",
+        "name": "Movable Type",
+        "num_vulns": "3",
+        "version": "1.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/67620",
+        "name": "Movable Type",
+        "num_vulns": "3",
+        "version": "1.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/67618",
+        "name": "Movable Type",
+        "num_vulns": "3",
+        "version": "1.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/67617",
+        "name": "Movable Type",
+        "num_vulns": "3",
+        "version": "1.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/67616",
+        "name": "Movable Type",
+        "num_vulns": "3",
+        "version": "1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/67615",
+        "name": "Movable Type",
+        "num_vulns": "3",
+        "version": "1.00"
+    }
+]

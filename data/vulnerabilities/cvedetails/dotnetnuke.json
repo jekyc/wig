@@ -1,0 +1,542 @@
+[
+    {
+        "link": "http://cvedetails.com/version/179656",
+        "name": "DotNetNuke",
+        "num_vulns": "1",
+        "version": "07.03.04"
+    },
+    {
+        "link": "http://cvedetails.com/version/161522",
+        "name": "DotNetNuke",
+        "num_vulns": "3",
+        "version": "7.1.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/161521",
+        "name": "DotNetNuke",
+        "num_vulns": "3",
+        "version": "7.0.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/161520",
+        "name": "DotNetNuke",
+        "num_vulns": "3",
+        "version": "7.0.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/161519",
+        "name": "DotNetNuke",
+        "num_vulns": "3",
+        "version": "7.0.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/161518",
+        "name": "DotNetNuke",
+        "num_vulns": "3",
+        "version": "7.0.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/161517",
+        "name": "DotNetNuke",
+        "num_vulns": "3",
+        "version": "7.0.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/161516",
+        "name": "DotNetNuke",
+        "num_vulns": "3",
+        "version": "7.0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/161515",
+        "name": "DotNetNuke",
+        "num_vulns": "3",
+        "version": "7.0.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/161514",
+        "name": "DotNetNuke",
+        "num_vulns": "3",
+        "version": "6.2.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/161513",
+        "name": "DotNetNuke",
+        "num_vulns": "3",
+        "version": "6.2.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/161512",
+        "name": "DotNetNuke",
+        "num_vulns": "3",
+        "version": "6.2.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/161511",
+        "name": "DotNetNuke",
+        "num_vulns": "3",
+        "version": "6.2.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/161510",
+        "name": "DotNetNuke",
+        "num_vulns": "3",
+        "version": "6.2.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/161509",
+        "name": "DotNetNuke",
+        "num_vulns": "3",
+        "version": "6.2.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/161508",
+        "name": "DotNetNuke",
+        "num_vulns": "3",
+        "version": "6.2.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/161507",
+        "name": "DotNetNuke",
+        "num_vulns": "3",
+        "version": "6.2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/161506",
+        "name": "DotNetNuke",
+        "num_vulns": "3",
+        "version": "6.2.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/161505",
+        "name": "DotNetNuke",
+        "num_vulns": "3",
+        "version": "6.1.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/161504",
+        "name": "DotNetNuke",
+        "num_vulns": "3",
+        "version": "6.1.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/161503",
+        "name": "DotNetNuke",
+        "num_vulns": "3",
+        "version": "6.1.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/161502",
+        "name": "DotNetNuke",
+        "num_vulns": "3",
+        "version": "6.1.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/161501",
+        "name": "DotNetNuke",
+        "num_vulns": "3",
+        "version": "6.1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/161500",
+        "name": "DotNetNuke",
+        "num_vulns": "3",
+        "version": "6.1.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/124641",
+        "name": "DotNetNuke",
+        "num_vulns": "5",
+        "version": "6.0.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/124640",
+        "name": "DotNetNuke",
+        "num_vulns": "5",
+        "version": "6.0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/124639",
+        "name": "DotNetNuke",
+        "num_vulns": "5",
+        "version": "6.0.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/124642",
+        "name": "DotNetNuke",
+        "num_vulns": "1",
+        "version": "5.6.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/124643",
+        "name": "DotNetNuke",
+        "num_vulns": "1",
+        "version": "5.6.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/124644",
+        "name": "DotNetNuke",
+        "num_vulns": "1",
+        "version": "5.6.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/101087",
+        "name": "DotNetNuke",
+        "num_vulns": "4",
+        "version": "5.06.00"
+    },
+    {
+        "link": "http://cvedetails.com/version/124645",
+        "name": "DotNetNuke",
+        "num_vulns": "1",
+        "version": "5.6.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/101086",
+        "name": "DotNetNuke",
+        "num_vulns": "4",
+        "version": "5.05.01"
+    },
+    {
+        "link": "http://cvedetails.com/version/124646",
+        "name": "DotNetNuke",
+        "num_vulns": "1",
+        "version": "5.5.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/124647",
+        "name": "DotNetNuke",
+        "num_vulns": "1",
+        "version": "5.5.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/124648",
+        "name": "DotNetNuke",
+        "num_vulns": "1",
+        "version": "5.4.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/124649",
+        "name": "DotNetNuke",
+        "num_vulns": "1",
+        "version": "5.4.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/124650",
+        "name": "DotNetNuke",
+        "num_vulns": "1",
+        "version": "5.4.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/124651",
+        "name": "DotNetNuke",
+        "num_vulns": "1",
+        "version": "5.4.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/124652",
+        "name": "DotNetNuke",
+        "num_vulns": "1",
+        "version": "5.4.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/124653",
+        "name": "DotNetNuke",
+        "num_vulns": "1",
+        "version": "5.3.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/124654",
+        "name": "DotNetNuke",
+        "num_vulns": "1",
+        "version": "5.3.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/124655",
+        "name": "DotNetNuke",
+        "num_vulns": "1",
+        "version": "5.2.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/124656",
+        "name": "DotNetNuke",
+        "num_vulns": "1",
+        "version": "5.2.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/124657",
+        "name": "DotNetNuke",
+        "num_vulns": "1",
+        "version": "5.2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/124658",
+        "name": "DotNetNuke",
+        "num_vulns": "1",
+        "version": "5.2.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/84089",
+        "name": "DotNetNuke",
+        "num_vulns": "6",
+        "version": "5.1.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/84086",
+        "name": "DotNetNuke",
+        "num_vulns": "6",
+        "version": "5.1.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/84087",
+        "name": "DotNetNuke",
+        "num_vulns": "6",
+        "version": "5.1.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/84088",
+        "name": "DotNetNuke",
+        "num_vulns": "6",
+        "version": "5.1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/124659",
+        "name": "DotNetNuke",
+        "num_vulns": "1",
+        "version": "5.1.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/84085",
+        "name": "DotNetNuke",
+        "num_vulns": "5",
+        "version": "5.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/124660",
+        "name": "DotNetNuke",
+        "num_vulns": "1",
+        "version": "5.0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/124661",
+        "name": "DotNetNuke",
+        "num_vulns": "1",
+        "version": "5.0.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/71008",
+        "name": "DotNetNuke",
+        "num_vulns": "6",
+        "version": "5.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/124662",
+        "name": "DotNetNuke",
+        "num_vulns": "1",
+        "version": "4.9.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/124663",
+        "name": "DotNetNuke",
+        "num_vulns": "1",
+        "version": "4.9.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/124664",
+        "name": "DotNetNuke",
+        "num_vulns": "1",
+        "version": "4.9.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/75537",
+        "name": "DotNetNuke",
+        "num_vulns": "7",
+        "version": "4.9.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/75538",
+        "name": "DotNetNuke",
+        "num_vulns": "7",
+        "version": "4.9.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/124665",
+        "name": "DotNetNuke",
+        "num_vulns": "1",
+        "version": "4.9.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/69228",
+        "name": "DotNetNuke",
+        "num_vulns": "7",
+        "version": "4.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/69229",
+        "name": "DotNetNuke",
+        "num_vulns": "10",
+        "version": "4.8.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/69230",
+        "name": "DotNetNuke",
+        "num_vulns": "13",
+        "version": "4.8.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/69231",
+        "name": "DotNetNuke",
+        "num_vulns": "13",
+        "version": "4.8.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/69232",
+        "name": "DotNetNuke",
+        "num_vulns": "16",
+        "version": "4.8.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/70336",
+        "name": "DotNetNuke",
+        "num_vulns": "10",
+        "version": "4.8.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/70335",
+        "name": "DotNetNuke",
+        "num_vulns": "9",
+        "version": "4.7.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/70330",
+        "name": "DotNetNuke",
+        "num_vulns": "10",
+        "version": "4.6.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/70334",
+        "name": "DotNetNuke",
+        "num_vulns": "9",
+        "version": "4.6.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/70333",
+        "name": "DotNetNuke",
+        "num_vulns": "9",
+        "version": "4.6.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/70332",
+        "name": "DotNetNuke",
+        "num_vulns": "9",
+        "version": "4.5.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/70331",
+        "name": "DotNetNuke",
+        "num_vulns": "9",
+        "version": "4.5.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/69227",
+        "name": "DotNetNuke",
+        "num_vulns": "14",
+        "version": "4.5.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/71007",
+        "name": "DotNetNuke",
+        "num_vulns": "7",
+        "version": "4.4.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/69855",
+        "name": "DotNetNuke",
+        "num_vulns": "11",
+        "version": "4.3.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/37139",
+        "name": "DotNetNuke",
+        "num_vulns": "13",
+        "version": "4.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/69856",
+        "name": "DotNetNuke",
+        "num_vulns": "9",
+        "version": "3.3.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/37138",
+        "name": "DotNetNuke",
+        "num_vulns": "11",
+        "version": "3.1.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/23296",
+        "name": "DotNetNuke",
+        "num_vulns": "11",
+        "version": "3.0.11"
+    },
+    {
+        "link": "http://cvedetails.com/version/37137",
+        "name": "DotNetNuke",
+        "num_vulns": "11",
+        "version": "3.0.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/37136",
+        "name": "DotNetNuke",
+        "num_vulns": "11",
+        "version": "3.0.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/37135",
+        "name": "DotNetNuke",
+        "num_vulns": "11",
+        "version": "2.1.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/37134",
+        "name": "DotNetNuke",
+        "num_vulns": "11",
+        "version": "2.1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/18368",
+        "name": "DotNetNuke",
+        "num_vulns": "13",
+        "version": "1.0.10d"
+    },
+    {
+        "link": "http://cvedetails.com/version/37133",
+        "name": "DotNetNuke",
+        "num_vulns": "10",
+        "version": "1.0.10e"
+    },
+    {
+        "link": "http://cvedetails.com/version/18372",
+        "name": "DotNetNuke",
+        "num_vulns": "13",
+        "version": "1.0.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/18371",
+        "name": "DotNetNuke",
+        "num_vulns": "13",
+        "version": "1.0.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/18370",
+        "name": "DotNetNuke",
+        "num_vulns": "13",
+        "version": "1.0.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/18369",
+        "name": "DotNetNuke",
+        "num_vulns": "13",
+        "version": "1.0.6"
+    }
+]

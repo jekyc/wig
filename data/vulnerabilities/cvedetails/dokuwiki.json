@@ -1,0 +1,290 @@
+[
+    {
+        "link": "http://cvedetails.com/version/87072",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2009-02-14"
+    },
+    {
+        "link": "http://cvedetails.com/version/87073",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2006-06-04"
+    },
+    {
+        "link": "http://cvedetails.com/version/87074",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2006-03-09e"
+    },
+    {
+        "link": "http://cvedetails.com/version/87075",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2006-03-09"
+    },
+    {
+        "link": "http://cvedetails.com/version/87076",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2006-03-05"
+    },
+    {
+        "link": "http://cvedetails.com/version/87077",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2005-09-22"
+    },
+    {
+        "link": "http://cvedetails.com/version/87078",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2005-09-19"
+    },
+    {
+        "link": "http://cvedetails.com/version/87079",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2005-07-13"
+    },
+    {
+        "link": "http://cvedetails.com/version/87080",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2005-07-01"
+    },
+    {
+        "link": "http://cvedetails.com/version/87081",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2005-05-07"
+    },
+    {
+        "link": "http://cvedetails.com/version/87082",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2005-02-18"
+    },
+    {
+        "link": "http://cvedetails.com/version/87083",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2005-02-06"
+    },
+    {
+        "link": "http://cvedetails.com/version/87084",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2005-01-16a"
+    },
+    {
+        "link": "http://cvedetails.com/version/87085",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2005-01-15"
+    },
+    {
+        "link": "http://cvedetails.com/version/87086",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2005-01-14"
+    },
+    {
+        "link": "http://cvedetails.com/version/87087",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2004-11-10"
+    },
+    {
+        "link": "http://cvedetails.com/version/87088",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2004-11-02"
+    },
+    {
+        "link": "http://cvedetails.com/version/87089",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2004-11-01"
+    },
+    {
+        "link": "http://cvedetails.com/version/87090",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2004-09-30"
+    },
+    {
+        "link": "http://cvedetails.com/version/87091",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2004-09-25"
+    },
+    {
+        "link": "http://cvedetails.com/version/87092",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2004-09-12"
+    },
+    {
+        "link": "http://cvedetails.com/version/87093",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2004-08-22"
+    },
+    {
+        "link": "http://cvedetails.com/version/87094",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2004-08-15a"
+    },
+    {
+        "link": "http://cvedetails.com/version/87095",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2004-08-08"
+    },
+    {
+        "link": "http://cvedetails.com/version/87096",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2004-07-25"
+    },
+    {
+        "link": "http://cvedetails.com/version/87097",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2004-07-21"
+    },
+    {
+        "link": "http://cvedetails.com/version/87098",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2004-07-12"
+    },
+    {
+        "link": "http://cvedetails.com/version/87099",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2004-07-07"
+    },
+    {
+        "link": "http://cvedetails.com/version/87100",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "Release 2004-07-04"
+    },
+    {
+        "link": "http://cvedetails.com/version/77814",
+        "name": "DokuWiki",
+        "num_vulns": "1",
+        "version": "Rc2009-02-06"
+    },
+    {
+        "link": "http://cvedetails.com/version/77815",
+        "name": "DokuWiki",
+        "num_vulns": "1",
+        "version": "Rc2009-01-30"
+    },
+    {
+        "link": "http://cvedetails.com/version/178091",
+        "name": "DokuWiki",
+        "num_vulns": "1",
+        "version": "2014-05-05c"
+    },
+    {
+        "link": "http://cvedetails.com/version/173725",
+        "name": "DokuWiki",
+        "num_vulns": "1",
+        "version": "2014-05-05a"
+    },
+    {
+        "link": "http://cvedetails.com/version/173724",
+        "name": "DokuWiki",
+        "num_vulns": "3",
+        "version": "2013-12-08"
+    },
+    {
+        "link": "http://cvedetails.com/version/111499",
+        "name": "DokuWiki",
+        "num_vulns": "1",
+        "version": "2010-11-07a"
+    },
+    {
+        "link": "http://cvedetails.com/version/111500",
+        "name": "DokuWiki",
+        "num_vulns": "2",
+        "version": "2009-12-25c"
+    },
+    {
+        "link": "http://cvedetails.com/version/111501",
+        "name": "DokuWiki",
+        "num_vulns": "1",
+        "version": "2009-02-14b"
+    },
+    {
+        "link": "http://cvedetails.com/version/77816",
+        "name": "DokuWiki",
+        "num_vulns": "1",
+        "version": "2009-02-14"
+    },
+    {
+        "link": "http://cvedetails.com/version/111502",
+        "name": "DokuWiki",
+        "num_vulns": "1",
+        "version": "2008-05-05"
+    },
+    {
+        "link": "http://cvedetails.com/version/111503",
+        "name": "DokuWiki",
+        "num_vulns": "1",
+        "version": "2007-06-26"
+    },
+    {
+        "link": "http://cvedetails.com/version/111504",
+        "name": "DokuWiki",
+        "num_vulns": "1",
+        "version": "2006-11-06"
+    },
+    {
+        "link": "http://cvedetails.com/version/111505",
+        "name": "DokuWiki",
+        "num_vulns": "1",
+        "version": "2006-03-09"
+    },
+    {
+        "link": "http://cvedetails.com/version/111506",
+        "name": "DokuWiki",
+        "num_vulns": "1",
+        "version": "2006-03-05"
+    },
+    {
+        "link": "http://cvedetails.com/version/111507",
+        "name": "DokuWiki",
+        "num_vulns": "1",
+        "version": "2005-09-22"
+    },
+    {
+        "link": "http://cvedetails.com/version/111508",
+        "name": "DokuWiki",
+        "num_vulns": "1",
+        "version": "2005-09-19"
+    },
+    {
+        "link": "http://cvedetails.com/version/111509",
+        "name": "DokuWiki",
+        "num_vulns": "1",
+        "version": "2005-07-13"
+    },
+    {
+        "link": "http://cvedetails.com/version/111510",
+        "name": "DokuWiki",
+        "num_vulns": "1",
+        "version": "2005-07-01"
+    },
+    {
+        "link": "http://cvedetails.com/version/138769",
+        "name": "DokuWiki",
+        "num_vulns": "1",
+        "version": "-"
+    }
+]

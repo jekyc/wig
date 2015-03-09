@@ -1,0 +1,110 @@
+[
+    {
+        "link": "http://cvedetails.com/version/179674",
+        "name": "phpBB",
+        "num_vulns": "2",
+        "version": "3.0.12"
+    },
+    {
+        "link": "http://cvedetails.com/version/91467",
+        "name": "phpBB",
+        "num_vulns": "1",
+        "version": "3.0.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/91474",
+        "name": "phpBB",
+        "num_vulns": "1",
+        "version": "3.0.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/69480",
+        "name": "phpBB",
+        "num_vulns": "3",
+        "version": "3.0.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/69479",
+        "name": "phpBB",
+        "num_vulns": "3",
+        "version": "3.0.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/58211",
+        "name": "phpBB",
+        "num_vulns": "4",
+        "version": "3.0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/58210",
+        "name": "phpBB",
+        "num_vulns": "3",
+        "version": "3.0.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/69477",
+        "name": "phpBB",
+        "num_vulns": "1",
+        "version": "3.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/69476",
+        "name": "phpBB",
+        "num_vulns": "1",
+        "version": "2.01"
+    },
+    {
+        "link": "http://cvedetails.com/version/71050",
+        "name": "phpBB",
+        "num_vulns": "1",
+        "version": "2.0.23"
+    },
+    {
+        "link": "http://cvedetails.com/version/47341",
+        "name": "phpBB",
+        "num_vulns": "4",
+        "version": "2.0.22"
+    },
+    {
+        "link": "http://cvedetails.com/version/94076",
+        "name": "phpBB",
+        "num_vulns": "1",
+        "version": "2.0.20"
+    },
+    {
+        "link": "http://cvedetails.com/version/9618",
+        "name": "phpBB",
+        "num_vulns": "4",
+        "version": "2.0.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/9775",
+        "name": "phpBB",
+        "num_vulns": "2",
+        "version": "2.0.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/9774",
+        "name": "phpBB",
+        "num_vulns": "2",
+        "version": "2.0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/9773",
+        "name": "phpBB",
+        "num_vulns": "2",
+        "version": "2.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/62175",
+        "name": "phpBB",
+        "num_vulns": "1",
+        "version": "2"
+    },
+    {
+        "link": "http://cvedetails.com/version/37416",
+        "name": "phpBB",
+        "num_vulns": "2",
+        "version": "1.0"
+    }
+]

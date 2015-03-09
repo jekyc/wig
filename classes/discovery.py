@@ -8,7 +8,6 @@ from classes.fingerprints import Fingerprints
 from classes.matcher import Match
 from classes.request2 import Response, Requester
 from classes.printer import Printer
-from classes.queue import FingerprintQueue
 
 class DiscoverAllCMS(object):
 	# match all fingerprints against all responses

@@ -1,0 +1,866 @@
+[
+    {
+        "link": "http://cvedetails.com/version/175911",
+        "name": "Moodle",
+        "num_vulns": "15",
+        "version": "2.7.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/171438",
+        "name": "Moodle",
+        "num_vulns": "16",
+        "version": "2.7.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/169522",
+        "name": "Moodle",
+        "num_vulns": "28",
+        "version": "2.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/175910",
+        "name": "Moodle",
+        "num_vulns": "15",
+        "version": "2.6.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/171437",
+        "name": "Moodle",
+        "num_vulns": "16",
+        "version": "2.6.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/169523",
+        "name": "Moodle",
+        "num_vulns": "26",
+        "version": "2.6.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/166185",
+        "name": "Moodle",
+        "num_vulns": "32",
+        "version": "2.6.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/162025",
+        "name": "Moodle",
+        "num_vulns": "42",
+        "version": "2.6.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/158708",
+        "name": "Moodle",
+        "num_vulns": "45",
+        "version": "2.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/175909",
+        "name": "Moodle",
+        "num_vulns": "15",
+        "version": "2.5.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/171436",
+        "name": "Moodle",
+        "num_vulns": "16",
+        "version": "2.5.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/169521",
+        "name": "Moodle",
+        "num_vulns": "27",
+        "version": "2.5.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/166184",
+        "name": "Moodle",
+        "num_vulns": "32",
+        "version": "2.5.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/162026",
+        "name": "Moodle",
+        "num_vulns": "41",
+        "version": "2.5.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/158707",
+        "name": "Moodle",
+        "num_vulns": "44",
+        "version": "2.5.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/154800",
+        "name": "Moodle",
+        "num_vulns": "49",
+        "version": "2.5.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/151686",
+        "name": "Moodle",
+        "num_vulns": "53",
+        "version": "2.5.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/148944",
+        "name": "Moodle",
+        "num_vulns": "63",
+        "version": "2.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/171435",
+        "name": "Moodle",
+        "num_vulns": "16",
+        "version": "2.4.11"
+    },
+    {
+        "link": "http://cvedetails.com/version/169520",
+        "name": "Moodle",
+        "num_vulns": "11",
+        "version": "2.4.10"
+    },
+    {
+        "link": "http://cvedetails.com/version/166183",
+        "name": "Moodle",
+        "num_vulns": "16",
+        "version": "2.4.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/162027",
+        "name": "Moodle",
+        "num_vulns": "25",
+        "version": "2.4.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/158709",
+        "name": "Moodle",
+        "num_vulns": "28",
+        "version": "2.4.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/156228",
+        "name": "Moodle",
+        "num_vulns": "32",
+        "version": "2.4.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/151687",
+        "name": "Moodle",
+        "num_vulns": "36",
+        "version": "2.4.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/148943",
+        "name": "Moodle",
+        "num_vulns": "46",
+        "version": "2.4.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/146101",
+        "name": "Moodle",
+        "num_vulns": "51",
+        "version": "2.4.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/146100",
+        "name": "Moodle",
+        "num_vulns": "51",
+        "version": "2.4.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/143514",
+        "name": "Moodle",
+        "num_vulns": "59",
+        "version": "2.4.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/140537",
+        "name": "Moodle",
+        "num_vulns": "69",
+        "version": "2.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/158710",
+        "name": "Moodle",
+        "num_vulns": "26",
+        "version": "2.3.11"
+    },
+    {
+        "link": "http://cvedetails.com/version/158711",
+        "name": "Moodle",
+        "num_vulns": "28",
+        "version": "2.3.10"
+    },
+    {
+        "link": "http://cvedetails.com/version/156229",
+        "name": "Moodle",
+        "num_vulns": "32",
+        "version": "2.3.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/151688",
+        "name": "Moodle",
+        "num_vulns": "36",
+        "version": "2.3.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/148942",
+        "name": "Moodle",
+        "num_vulns": "45",
+        "version": "2.3.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/146098",
+        "name": "Moodle",
+        "num_vulns": "50",
+        "version": "2.3.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/146099",
+        "name": "Moodle",
+        "num_vulns": "50",
+        "version": "2.3.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/143519",
+        "name": "Moodle",
+        "num_vulns": "57",
+        "version": "2.3.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/140536",
+        "name": "Moodle",
+        "num_vulns": "66",
+        "version": "2.3.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/138018",
+        "name": "Moodle",
+        "num_vulns": "72",
+        "version": "2.3.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/134665",
+        "name": "Moodle",
+        "num_vulns": "78",
+        "version": "2.3.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/130604",
+        "name": "Moodle",
+        "num_vulns": "83",
+        "version": "2.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/148945",
+        "name": "Moodle",
+        "num_vulns": "26",
+        "version": "2.2.11"
+    },
+    {
+        "link": "http://cvedetails.com/version/146104",
+        "name": "Moodle",
+        "num_vulns": "35",
+        "version": "2.2.10"
+    },
+    {
+        "link": "http://cvedetails.com/version/146103",
+        "name": "Moodle",
+        "num_vulns": "38",
+        "version": "2.2.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/146102",
+        "name": "Moodle",
+        "num_vulns": "38",
+        "version": "2.2.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/143518",
+        "name": "Moodle",
+        "num_vulns": "45",
+        "version": "2.2.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/140535",
+        "name": "Moodle",
+        "num_vulns": "53",
+        "version": "2.2.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/138017",
+        "name": "Moodle",
+        "num_vulns": "58",
+        "version": "2.2.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/134664",
+        "name": "Moodle",
+        "num_vulns": "63",
+        "version": "2.2.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/130605",
+        "name": "Moodle",
+        "num_vulns": "74",
+        "version": "2.2.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/130410",
+        "name": "Moodle",
+        "num_vulns": "87",
+        "version": "2.2.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/130411",
+        "name": "Moodle",
+        "num_vulns": "87",
+        "version": "2.2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/118480",
+        "name": "Moodle",
+        "num_vulns": "95",
+        "version": "2.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/143515",
+        "name": "Moodle",
+        "num_vulns": "40",
+        "version": "2.1.10"
+    },
+    {
+        "link": "http://cvedetails.com/version/140534",
+        "name": "Moodle",
+        "num_vulns": "45",
+        "version": "2.1.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/138016",
+        "name": "Moodle",
+        "num_vulns": "49",
+        "version": "2.1.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/134666",
+        "name": "Moodle",
+        "num_vulns": "52",
+        "version": "2.1.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/130606",
+        "name": "Moodle",
+        "num_vulns": "61",
+        "version": "2.1.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/130408",
+        "name": "Moodle",
+        "num_vulns": "74",
+        "version": "2.1.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/130409",
+        "name": "Moodle",
+        "num_vulns": "74",
+        "version": "2.1.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/130105",
+        "name": "Moodle",
+        "num_vulns": "83",
+        "version": "2.1.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/118479",
+        "name": "Moodle",
+        "num_vulns": "95",
+        "version": "2.1.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/118478",
+        "name": "Moodle",
+        "num_vulns": "105",
+        "version": "2.1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/118477",
+        "name": "Moodle",
+        "num_vulns": "110",
+        "version": "2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/130607",
+        "name": "Moodle",
+        "num_vulns": "33",
+        "version": "2.0.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/130412",
+        "name": "Moodle",
+        "num_vulns": "40",
+        "version": "2.0.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/130413",
+        "name": "Moodle",
+        "num_vulns": "40",
+        "version": "2.0.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/130104",
+        "name": "Moodle",
+        "num_vulns": "47",
+        "version": "2.0.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/118476",
+        "name": "Moodle",
+        "num_vulns": "58",
+        "version": "2.0.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/118475",
+        "name": "Moodle",
+        "num_vulns": "68",
+        "version": "2.0.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/118474",
+        "name": "Moodle",
+        "num_vulns": "73",
+        "version": "2.0.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/118473",
+        "name": "Moodle",
+        "num_vulns": "78",
+        "version": "2.0.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/114158",
+        "name": "Moodle",
+        "num_vulns": "88",
+        "version": "2.0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/118472",
+        "name": "Moodle",
+        "num_vulns": "87",
+        "version": "2.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/143520",
+        "name": "Moodle",
+        "num_vulns": "1",
+        "version": "1.9.19"
+    },
+    {
+        "link": "http://cvedetails.com/version/130608",
+        "name": "Moodle",
+        "num_vulns": "10",
+        "version": "1.9.18"
+    },
+    {
+        "link": "http://cvedetails.com/version/130415",
+        "name": "Moodle",
+        "num_vulns": "13",
+        "version": "1.9.17"
+    },
+    {
+        "link": "http://cvedetails.com/version/130414",
+        "name": "Moodle",
+        "num_vulns": "13",
+        "version": "1.9.16"
+    },
+    {
+        "link": "http://cvedetails.com/version/130103",
+        "name": "Moodle",
+        "num_vulns": "18",
+        "version": "1.9.15"
+    },
+    {
+        "link": "http://cvedetails.com/version/118471",
+        "name": "Moodle",
+        "num_vulns": "25",
+        "version": "1.9.14"
+    },
+    {
+        "link": "http://cvedetails.com/version/118470",
+        "name": "Moodle",
+        "num_vulns": "30",
+        "version": "1.9.13"
+    },
+    {
+        "link": "http://cvedetails.com/version/118469",
+        "name": "Moodle",
+        "num_vulns": "31",
+        "version": "1.9.12"
+    },
+    {
+        "link": "http://cvedetails.com/version/118467",
+        "name": "Moodle",
+        "num_vulns": "33",
+        "version": "1.9.11"
+    },
+    {
+        "link": "http://cvedetails.com/version/118466",
+        "name": "Moodle",
+        "num_vulns": "37",
+        "version": "1.9.10"
+    },
+    {
+        "link": "http://cvedetails.com/version/118468",
+        "name": "Moodle",
+        "num_vulns": "37",
+        "version": "1.9.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/94052",
+        "name": "Moodle",
+        "num_vulns": "41",
+        "version": "1.9.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/89689",
+        "name": "Moodle",
+        "num_vulns": "48",
+        "version": "1.9.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/84651",
+        "name": "Moodle",
+        "num_vulns": "57",
+        "version": "1.9.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/84650",
+        "name": "Moodle",
+        "num_vulns": "57",
+        "version": "1.9.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/74547",
+        "name": "Moodle",
+        "num_vulns": "58",
+        "version": "1.9.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/72342",
+        "name": "Moodle",
+        "num_vulns": "62",
+        "version": "1.9.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/66353",
+        "name": "Moodle",
+        "num_vulns": "63",
+        "version": "1.9.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/66352",
+        "name": "Moodle",
+        "num_vulns": "61",
+        "version": "1.9.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/66351",
+        "name": "Moodle",
+        "num_vulns": "64",
+        "version": "1.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/143516",
+        "name": "Moodle",
+        "num_vulns": "7",
+        "version": "1.8.14"
+    },
+    {
+        "link": "http://cvedetails.com/version/143517",
+        "name": "Moodle",
+        "num_vulns": "7",
+        "version": "1.8.13"
+    },
+    {
+        "link": "http://cvedetails.com/version/94051",
+        "name": "Moodle",
+        "num_vulns": "11",
+        "version": "1.8.12"
+    },
+    {
+        "link": "http://cvedetails.com/version/89688",
+        "name": "Moodle",
+        "num_vulns": "18",
+        "version": "1.8.11"
+    },
+    {
+        "link": "http://cvedetails.com/version/84649",
+        "name": "Moodle",
+        "num_vulns": "27",
+        "version": "1.8.10"
+    },
+    {
+        "link": "http://cvedetails.com/version/84648",
+        "name": "Moodle",
+        "num_vulns": "27",
+        "version": "1.8.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/74546",
+        "name": "Moodle",
+        "num_vulns": "28",
+        "version": "1.8.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/72341",
+        "name": "Moodle",
+        "num_vulns": "32",
+        "version": "1.8.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/66350",
+        "name": "Moodle",
+        "num_vulns": "24",
+        "version": "1.8.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/66349",
+        "name": "Moodle",
+        "num_vulns": "34",
+        "version": "1.8.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/53448",
+        "name": "Moodle",
+        "num_vulns": "35",
+        "version": "1.8.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/51326",
+        "name": "Moodle",
+        "num_vulns": "36",
+        "version": "1.8.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/53449",
+        "name": "Moodle",
+        "num_vulns": "36",
+        "version": "1.8.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/53450",
+        "name": "Moodle",
+        "num_vulns": "35",
+        "version": "1.8.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/53451",
+        "name": "Moodle",
+        "num_vulns": "35",
+        "version": "1.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/53452",
+        "name": "Moodle",
+        "num_vulns": "16",
+        "version": "1.7.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/53453",
+        "name": "Moodle",
+        "num_vulns": "17",
+        "version": "1.7.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/53454",
+        "name": "Moodle",
+        "num_vulns": "20",
+        "version": "1.7.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/53455",
+        "name": "Moodle",
+        "num_vulns": "20",
+        "version": "1.7.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/53456",
+        "name": "Moodle",
+        "num_vulns": "21",
+        "version": "1.7.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/42543",
+        "name": "Moodle",
+        "num_vulns": "23",
+        "version": "1.7.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/53457",
+        "name": "Moodle",
+        "num_vulns": "21",
+        "version": "1.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/72343",
+        "name": "Moodle",
+        "num_vulns": "13",
+        "version": "1.6.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/53458",
+        "name": "Moodle",
+        "num_vulns": "15",
+        "version": "1.6.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/53459",
+        "name": "Moodle",
+        "num_vulns": "18",
+        "version": "1.6.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/53460",
+        "name": "Moodle",
+        "num_vulns": "20",
+        "version": "1.6.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/53461",
+        "name": "Moodle",
+        "num_vulns": "19",
+        "version": "1.6.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/53462",
+        "name": "Moodle",
+        "num_vulns": "19",
+        "version": "1.6.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/37431",
+        "name": "Moodle",
+        "num_vulns": "19",
+        "version": "1.6.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/36878",
+        "name": "Moodle",
+        "num_vulns": "33",
+        "version": "1.6.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/37107",
+        "name": "Moodle",
+        "num_vulns": "28",
+        "version": "1.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/30157",
+        "name": "Moodle",
+        "num_vulns": "17",
+        "version": "1.5.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/26981",
+        "name": "Moodle",
+        "num_vulns": "18",
+        "version": "1.5.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/39236",
+        "name": "Moodle",
+        "num_vulns": "15",
+        "version": "1.5.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/24275",
+        "name": "Moodle",
+        "num_vulns": "16",
+        "version": "1.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/24276",
+        "name": "Moodle",
+        "num_vulns": "2",
+        "version": "1.5 Beta"
+    },
+    {
+        "link": "http://cvedetails.com/version/24274",
+        "name": "Moodle",
+        "num_vulns": "14",
+        "version": "1.4.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/24273",
+        "name": "Moodle",
+        "num_vulns": "14",
+        "version": "1.4.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/24272",
+        "name": "Moodle",
+        "num_vulns": "14",
+        "version": "1.4.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/17040",
+        "name": "Moodle",
+        "num_vulns": "16",
+        "version": "1.4.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/17039",
+        "name": "Moodle",
+        "num_vulns": "17",
+        "version": "1.4.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/17038",
+        "name": "Moodle",
+        "num_vulns": "17",
+        "version": "1.3.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/15261",
+        "name": "Moodle",
+        "num_vulns": "19",
+        "version": "1.3.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/14681",
+        "name": "Moodle",
+        "num_vulns": "21",
+        "version": "1.3.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/14680",
+        "name": "Moodle",
+        "num_vulns": "22",
+        "version": "1.3.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/14679",
+        "name": "Moodle",
+        "num_vulns": "22",
+        "version": "1.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/14206",
+        "name": "Moodle",
+        "num_vulns": "23",
+        "version": "1.2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/14205",
+        "name": "Moodle",
+        "num_vulns": "23",
+        "version": "1.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/14204",
+        "name": "Moodle",
+        "num_vulns": "25",
+        "version": "1.1.1"
+    }
+]

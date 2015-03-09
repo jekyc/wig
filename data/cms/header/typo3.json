@@ -1,0 +1,13 @@
+[
+	{
+		"url": "",
+		"header": "Set-Cookie",
+		"type": "string",
+		"match": "fe_typo_user",
+		"output": "",
+		"weight": 1,
+		"code": "any"	
+	}
+]
+
+

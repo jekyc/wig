@@ -1,0 +1,254 @@
+[
+    {
+        "link": "http://cvedetails.com/version/40634",
+        "name": "Joomla!",
+        "num_vulns": "1",
+        "version": "2007-01-18"
+    },
+    {
+        "link": "http://cvedetails.com/version/53838",
+        "name": "Joomla!",
+        "num_vulns": "0",
+        "version": "2.5.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/129399",
+        "name": "Joomla!",
+        "num_vulns": "1",
+        "version": "2.5.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/129400",
+        "name": "Joomla!",
+        "num_vulns": "1",
+        "version": "2.5.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/129401",
+        "name": "Joomla!",
+        "num_vulns": "1",
+        "version": "2.5.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/129402",
+        "name": "Joomla!",
+        "num_vulns": "1",
+        "version": "2.5.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/129403",
+        "name": "Joomla!",
+        "num_vulns": "1",
+        "version": "2.5.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/81434",
+        "name": "Joomla!",
+        "num_vulns": "0",
+        "version": "1.8.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/77729",
+        "name": "Joomla!",
+        "num_vulns": "3",
+        "version": "1.5.10"
+    },
+    {
+        "link": "http://cvedetails.com/version/75008",
+        "name": "Joomla!",
+        "num_vulns": "5",
+        "version": "1.5.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/66719",
+        "name": "Joomla!",
+        "num_vulns": "6",
+        "version": "1.5.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/69043",
+        "name": "Joomla!",
+        "num_vulns": "6",
+        "version": "1.5.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/62166",
+        "name": "Joomla!",
+        "num_vulns": "10",
+        "version": "1.5.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/62165",
+        "name": "Joomla!",
+        "num_vulns": "10",
+        "version": "1.5.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/62164",
+        "name": "Joomla!",
+        "num_vulns": "10",
+        "version": "1.5.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/58214",
+        "name": "Joomla!",
+        "num_vulns": "14",
+        "version": "1.5.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/58213",
+        "name": "Joomla!",
+        "num_vulns": "14",
+        "version": "1.5.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/58212",
+        "name": "Joomla!",
+        "num_vulns": "14",
+        "version": "1.5.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/40626",
+        "name": "Joomla!",
+        "num_vulns": "13",
+        "version": "1.5.0 Beta"
+    },
+    {
+        "link": "http://cvedetails.com/version/47468",
+        "name": "Joomla!",
+        "num_vulns": "11",
+        "version": "1.5.0 Beta2"
+    },
+    {
+        "link": "http://cvedetails.com/version/47469",
+        "name": "Joomla!",
+        "num_vulns": "11",
+        "version": "1.5.0 Rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/47470",
+        "name": "Joomla!",
+        "num_vulns": "8",
+        "version": "1.5.0 Beta1"
+    },
+    {
+        "link": "http://cvedetails.com/version/50053",
+        "name": "Joomla!",
+        "num_vulns": "2",
+        "version": "1.5rc3"
+    },
+    {
+        "link": "http://cvedetails.com/version/50637",
+        "name": "Joomla!",
+        "num_vulns": "5",
+        "version": "1.5rc4"
+    },
+    {
+        "link": "http://cvedetails.com/version/53796",
+        "name": "Joomla!",
+        "num_vulns": "14",
+        "version": "1.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/29433",
+        "name": "Joomla!",
+        "num_vulns": "6",
+        "version": "1.03"
+    },
+    {
+        "link": "http://cvedetails.com/version/66660",
+        "name": "Joomla!",
+        "num_vulns": "2",
+        "version": "1.0.14"
+    },
+    {
+        "link": "http://cvedetails.com/version/48676",
+        "name": "Joomla!",
+        "num_vulns": "7",
+        "version": "1.0.13"
+    },
+    {
+        "link": "http://cvedetails.com/version/46698",
+        "name": "Joomla!",
+        "num_vulns": "12",
+        "version": "1.0.12"
+    },
+    {
+        "link": "http://cvedetails.com/version/39564",
+        "name": "Joomla!",
+        "num_vulns": "10",
+        "version": "1.0.11"
+    },
+    {
+        "link": "http://cvedetails.com/version/36525",
+        "name": "Joomla!",
+        "num_vulns": "18",
+        "version": "1.0.10"
+    },
+    {
+        "link": "http://cvedetails.com/version/35230",
+        "name": "Joomla!",
+        "num_vulns": "18",
+        "version": "1.0.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/35229",
+        "name": "Joomla!",
+        "num_vulns": "13",
+        "version": "1.0.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/31979",
+        "name": "Joomla!",
+        "num_vulns": "21",
+        "version": "1.0.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/32042",
+        "name": "Joomla!",
+        "num_vulns": "11",
+        "version": "1.0.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/30125",
+        "name": "Joomla!",
+        "num_vulns": "18",
+        "version": "1.0.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/30388",
+        "name": "Joomla!",
+        "num_vulns": "18",
+        "version": "1.0.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/27259",
+        "name": "Joomla!",
+        "num_vulns": "20",
+        "version": "1.0.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/27258",
+        "name": "Joomla!",
+        "num_vulns": "20",
+        "version": "1.0.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/27257",
+        "name": "Joomla!",
+        "num_vulns": "20",
+        "version": "1.0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/32041",
+        "name": "Joomla!",
+        "num_vulns": "10",
+        "version": "1.0.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/27256",
+        "name": "Joomla!",
+        "num_vulns": "17",
+        "version": "1.0"
+    }
+]

@@ -1,0 +1,152 @@
+[
+    {
+        "link": "http://cvedetails.com/version/92932",
+        "name": "Dojo",
+        "num_vulns": "4",
+        "version": "1.4.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/92931",
+        "name": "Dojo",
+        "num_vulns": "4",
+        "version": "1.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/92930",
+        "name": "Dojo",
+        "num_vulns": "4",
+        "version": "1.3.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/92929",
+        "name": "Dojo",
+        "num_vulns": "4",
+        "version": "1.3.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/92928",
+        "name": "Dojo",
+        "num_vulns": "4",
+        "version": "1.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/92927",
+        "name": "Dojo",
+        "num_vulns": "4",
+        "version": "1.2.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/92926",
+        "name": "Dojo",
+        "num_vulns": "4",
+        "version": "1.2.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/92925",
+        "name": "Dojo",
+        "num_vulns": "4",
+        "version": "1.2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/92924",
+        "name": "Dojo",
+        "num_vulns": "4",
+        "version": "1.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/92923",
+        "name": "Dojo",
+        "num_vulns": "4",
+        "version": "1.1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/92922",
+        "name": "Dojo",
+        "num_vulns": "4",
+        "version": "1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/92921",
+        "name": "Dojo",
+        "num_vulns": "4",
+        "version": "1.0.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/92920",
+        "name": "Dojo",
+        "num_vulns": "4",
+        "version": "1.0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/70185",
+        "name": "Dojo",
+        "num_vulns": "5",
+        "version": "1.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/70186",
+        "name": "Dojo",
+        "num_vulns": "2",
+        "version": "0.9.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/70187",
+        "name": "Dojo",
+        "num_vulns": "4",
+        "version": "0.4.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/51155",
+        "name": "Dojo",
+        "num_vulns": "5",
+        "version": "0.4.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/51154",
+        "name": "Dojo",
+        "num_vulns": "5",
+        "version": "0.4.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/70188",
+        "name": "Dojo",
+        "num_vulns": "4",
+        "version": "0.4.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/70189",
+        "name": "Dojo",
+        "num_vulns": "2",
+        "version": "0.3.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/70190",
+        "name": "Dojo",
+        "num_vulns": "2",
+        "version": "0.3.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/70191",
+        "name": "Dojo",
+        "num_vulns": "2",
+        "version": "0.2.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/70192",
+        "name": "Dojo",
+        "num_vulns": "2",
+        "version": "0.2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/70193",
+        "name": "Dojo",
+        "num_vulns": "2",
+        "version": "0.2.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/70194",
+        "name": "Dojo",
+        "num_vulns": "2",
+        "version": "0.1.0"
+    }
+]

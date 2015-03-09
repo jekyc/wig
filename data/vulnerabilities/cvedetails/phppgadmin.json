@@ -1,0 +1,104 @@
+[
+    {
+        "link": "http://cvedetails.com/version/115516",
+        "name": "phpPgAdmin",
+        "num_vulns": "1",
+        "version": "5.0.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/115515",
+        "name": "phpPgAdmin",
+        "num_vulns": "1",
+        "version": "5.0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/115514",
+        "name": "phpPgAdmin",
+        "num_vulns": "1",
+        "version": "5.0.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/115513",
+        "name": "phpPgAdmin",
+        "num_vulns": "1",
+        "version": "4.2.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/115512",
+        "name": "phpPgAdmin",
+        "num_vulns": "1",
+        "version": "4.2.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/66472",
+        "name": "phpPgAdmin",
+        "num_vulns": "2",
+        "version": "4.2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/45029",
+        "name": "phpPgAdmin",
+        "num_vulns": "4",
+        "version": "4.1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/24300",
+        "name": "phpPgAdmin",
+        "num_vulns": "4",
+        "version": "3.5.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/49034",
+        "name": "phpPgAdmin",
+        "num_vulns": "3",
+        "version": "3.5.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/49033",
+        "name": "phpPgAdmin",
+        "num_vulns": "3",
+        "version": "3.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/24299",
+        "name": "phpPgAdmin",
+        "num_vulns": "3",
+        "version": "3.4.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/24298",
+        "name": "phpPgAdmin",
+        "num_vulns": "2",
+        "version": "3.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/24297",
+        "name": "phpPgAdmin",
+        "num_vulns": "2",
+        "version": "3.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/24296",
+        "name": "phpPgAdmin",
+        "num_vulns": "2",
+        "version": "3.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/24295",
+        "name": "phpPgAdmin",
+        "num_vulns": "3",
+        "version": "3.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/4117",
+        "name": "phpPgAdmin",
+        "num_vulns": "3",
+        "version": "2.2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/4116",
+        "name": "phpPgAdmin",
+        "num_vulns": "3",
+        "version": "2.2"
+    }
+]

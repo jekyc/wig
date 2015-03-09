@@ -1,0 +1,10 @@
+[
+	{
+		"url": "/manager/html/",
+		"type": "string",
+		"match": "user username=\"tomcat\" password=\"s3cret\" roles=\"manager-gui\"",
+		"output": "",
+		"code": "any",
+		"note": "Tomcat admin login page"
+	}	
+]

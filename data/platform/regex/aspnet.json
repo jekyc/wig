@@ -1,0 +1,12 @@
+[
+	{
+		"url": "",
+		"type": "regex",
+		"match": "<b>Version Information:</b>.*; ASP.NET Version:([\\d?\\.]*)",
+		"output": "%s",
+		"code": "any",
+		"weight": 100,
+		"note": "ASP.NET detailed error",
+		"show_all_detections": false
+	}
+]

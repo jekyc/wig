@@ -1,0 +1,20 @@
+[
+    {
+        "link": "http://cvedetails.com/version/143433",
+        "name": "jQuery",
+        "num_vulns": "1",
+        "version": "1.6.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/143434",
+        "name": "jQuery",
+        "num_vulns": "1",
+        "version": "1.6.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/143435",
+        "name": "jQuery",
+        "num_vulns": "1",
+        "version": "1.6"
+    }
+]

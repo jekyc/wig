@@ -1,0 +1,38 @@
+[
+    {
+        "link": "http://cvedetails.com/version/178544",
+        "name": "concrete5",
+        "num_vulns": "1",
+        "version": "5.7.2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/178545",
+        "name": "concrete5",
+        "num_vulns": "1",
+        "version": "5.7.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/169525",
+        "name": "concrete5",
+        "num_vulns": "2",
+        "version": "5.6.2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/169526",
+        "name": "concrete5",
+        "num_vulns": "2",
+        "version": "5.6.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/169527",
+        "name": "concrete5",
+        "num_vulns": "2",
+        "version": "5.6.1.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/169528",
+        "name": "concrete5",
+        "num_vulns": "2",
+        "version": "5.6.1"
+    }
+]

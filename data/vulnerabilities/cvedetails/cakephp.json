@@ -1,0 +1,128 @@
+[
+    {
+        "link": "http://cvedetails.com/version/136356",
+        "name": "CakePHP",
+        "num_vulns": "1",
+        "version": "2.2.0-beta"
+    },
+    {
+        "link": "http://cvedetails.com/version/136358",
+        "name": "CakePHP",
+        "num_vulns": "1",
+        "version": "2.2.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/136352",
+        "name": "CakePHP",
+        "num_vulns": "1",
+        "version": "2.1.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/136351",
+        "name": "CakePHP",
+        "num_vulns": "1",
+        "version": "2.1.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/136350",
+        "name": "CakePHP",
+        "num_vulns": "1",
+        "version": "2.1.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/136349",
+        "name": "CakePHP",
+        "num_vulns": "1",
+        "version": "2.1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/136348",
+        "name": "CakePHP",
+        "num_vulns": "1",
+        "version": "2.1.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/114119",
+        "name": "CakePHP",
+        "num_vulns": "1",
+        "version": "1.3.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/102672",
+        "name": "CakePHP",
+        "num_vulns": "1",
+        "version": "1.3.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/102671",
+        "name": "CakePHP",
+        "num_vulns": "1",
+        "version": "1.3.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/102670",
+        "name": "CakePHP",
+        "num_vulns": "1",
+        "version": "1.3.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/102669",
+        "name": "CakePHP",
+        "num_vulns": "1",
+        "version": "1.3.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/102668",
+        "name": "CakePHP",
+        "num_vulns": "1",
+        "version": "1.3.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/102667",
+        "name": "CakePHP",
+        "num_vulns": "1",
+        "version": "1.3.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/102673",
+        "name": "CakePHP",
+        "num_vulns": "1",
+        "version": "1.2.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/137729",
+        "name": "CakePHP",
+        "num_vulns": "1",
+        "version": "1.1.7.3363"
+    },
+    {
+        "link": "http://cvedetails.com/version/137728",
+        "name": "CakePHP",
+        "num_vulns": "1",
+        "version": "1.1.6.3264"
+    },
+    {
+        "link": "http://cvedetails.com/version/137727",
+        "name": "CakePHP",
+        "num_vulns": "1",
+        "version": "1.1.5.3148"
+    },
+    {
+        "link": "http://cvedetails.com/version/137726",
+        "name": "CakePHP",
+        "num_vulns": "1",
+        "version": "1.1.4.3104"
+    },
+    {
+        "link": "http://cvedetails.com/version/137725",
+        "name": "CakePHP",
+        "num_vulns": "1",
+        "version": "1.1.3.2967"
+    },
+    {
+        "link": "http://cvedetails.com/version/137724",
+        "name": "CakePHP",
+        "num_vulns": "1",
+        "version": "1.0.1.2708"
+    }
+]

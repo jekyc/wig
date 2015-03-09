@@ -1,0 +1,134 @@
+[
+    {
+        "link": "http://cvedetails.com/version/162705",
+        "name": "dotCMS",
+        "num_vulns": "1",
+        "version": "2.3.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/162697",
+        "name": "dotCMS",
+        "num_vulns": "1",
+        "version": "2.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/162704",
+        "name": "dotCMS",
+        "num_vulns": "1",
+        "version": "2.2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/162698",
+        "name": "dotCMS",
+        "num_vulns": "1",
+        "version": "2.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/162703",
+        "name": "dotCMS",
+        "num_vulns": "1",
+        "version": "2.1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/162699",
+        "name": "dotCMS",
+        "num_vulns": "1",
+        "version": "2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/162700",
+        "name": "dotCMS",
+        "num_vulns": "1",
+        "version": "2.0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/162701",
+        "name": "dotCMS",
+        "num_vulns": "1",
+        "version": "2.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/162702",
+        "name": "dotCMS",
+        "num_vulns": "1",
+        "version": "1.9.5.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/127730",
+        "name": "dotCMS",
+        "num_vulns": "1",
+        "version": "1.9.2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/127729",
+        "name": "dotCMS",
+        "num_vulns": "1",
+        "version": "1.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/60625",
+        "name": "dotCMS",
+        "num_vulns": "1",
+        "version": "1.6.0.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/56043",
+        "name": "dotCMS",
+        "num_vulns": "1",
+        "version": "1.6.0.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/56042",
+        "name": "dotCMS",
+        "num_vulns": "1",
+        "version": "1.6.0.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/56041",
+        "name": "dotCMS",
+        "num_vulns": "1",
+        "version": "1.6.0.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/56040",
+        "name": "dotCMS",
+        "num_vulns": "1",
+        "version": "1.6.0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/56039",
+        "name": "dotCMS",
+        "num_vulns": "1",
+        "version": "1.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/56038",
+        "name": "dotCMS",
+        "num_vulns": "1",
+        "version": "1.5.1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/56037",
+        "name": "dotCMS",
+        "num_vulns": "1",
+        "version": "1.5.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/56036",
+        "name": "dotCMS",
+        "num_vulns": "1",
+        "version": "1.5.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/56035",
+        "name": "dotCMS",
+        "num_vulns": "1",
+        "version": "1.2.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/56034",
+        "name": "dotCMS",
+        "num_vulns": "1",
+        "version": "1.0"
+    }
+]

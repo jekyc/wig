@@ -1,0 +1,1886 @@
+[
+    {
+        "link": "http://cvedetails.com/version/177427",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "4.2.13"
+    },
+    {
+        "link": "http://cvedetails.com/version/177426",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "4.2.12"
+    },
+    {
+        "link": "http://cvedetails.com/version/176163",
+        "name": "phpMyAdmin",
+        "num_vulns": "6",
+        "version": "4.2.11"
+    },
+    {
+        "link": "http://cvedetails.com/version/176164",
+        "name": "phpMyAdmin",
+        "num_vulns": "4",
+        "version": "4.2.10.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/174247",
+        "name": "phpMyAdmin",
+        "num_vulns": "5",
+        "version": "4.2.10"
+    },
+    {
+        "link": "http://cvedetails.com/version/176165",
+        "name": "phpMyAdmin",
+        "num_vulns": "4",
+        "version": "4.2.9.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/172339",
+        "name": "phpMyAdmin",
+        "num_vulns": "8",
+        "version": "4.2.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/172337",
+        "name": "phpMyAdmin",
+        "num_vulns": "8",
+        "version": "4.2.8.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/172338",
+        "name": "phpMyAdmin",
+        "num_vulns": "9",
+        "version": "4.2.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/172340",
+        "name": "phpMyAdmin",
+        "num_vulns": "9",
+        "version": "4.2.7.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/170249",
+        "name": "phpMyAdmin",
+        "num_vulns": "9",
+        "version": "4.2.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/170248",
+        "name": "phpMyAdmin",
+        "num_vulns": "9",
+        "version": "4.2.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/169188",
+        "name": "phpMyAdmin",
+        "num_vulns": "15",
+        "version": "4.2.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/169189",
+        "name": "phpMyAdmin",
+        "num_vulns": "15",
+        "version": "4.2.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/168007",
+        "name": "phpMyAdmin",
+        "num_vulns": "17",
+        "version": "4.2.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/168008",
+        "name": "phpMyAdmin",
+        "num_vulns": "17",
+        "version": "4.2.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/168009",
+        "name": "phpMyAdmin",
+        "num_vulns": "17",
+        "version": "4.2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/168010",
+        "name": "phpMyAdmin",
+        "num_vulns": "17",
+        "version": "4.2.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/176162",
+        "name": "phpMyAdmin",
+        "num_vulns": "5",
+        "version": "4.1.14.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/174246",
+        "name": "phpMyAdmin",
+        "num_vulns": "5",
+        "version": "4.1.14.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/172342",
+        "name": "phpMyAdmin",
+        "num_vulns": "6",
+        "version": "4.1.14.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/172341",
+        "name": "phpMyAdmin",
+        "num_vulns": "8",
+        "version": "4.1.14.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/170247",
+        "name": "phpMyAdmin",
+        "num_vulns": "7",
+        "version": "4.1.14.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/169190",
+        "name": "phpMyAdmin",
+        "num_vulns": "13",
+        "version": "4.1.14.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/168015",
+        "name": "phpMyAdmin",
+        "num_vulns": "14",
+        "version": "4.1.14"
+    },
+    {
+        "link": "http://cvedetails.com/version/168014",
+        "name": "phpMyAdmin",
+        "num_vulns": "14",
+        "version": "4.1.13"
+    },
+    {
+        "link": "http://cvedetails.com/version/168013",
+        "name": "phpMyAdmin",
+        "num_vulns": "14",
+        "version": "4.1.12"
+    },
+    {
+        "link": "http://cvedetails.com/version/168012",
+        "name": "phpMyAdmin",
+        "num_vulns": "14",
+        "version": "4.1.11"
+    },
+    {
+        "link": "http://cvedetails.com/version/168011",
+        "name": "phpMyAdmin",
+        "num_vulns": "14",
+        "version": "4.1.10"
+    },
+    {
+        "link": "http://cvedetails.com/version/168018",
+        "name": "phpMyAdmin",
+        "num_vulns": "14",
+        "version": "4.1.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/168017",
+        "name": "phpMyAdmin",
+        "num_vulns": "14",
+        "version": "4.1.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/168016",
+        "name": "phpMyAdmin",
+        "num_vulns": "14",
+        "version": "4.1.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/160473",
+        "name": "phpMyAdmin",
+        "num_vulns": "15",
+        "version": "4.1.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/160472",
+        "name": "phpMyAdmin",
+        "num_vulns": "15",
+        "version": "4.1.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/160471",
+        "name": "phpMyAdmin",
+        "num_vulns": "15",
+        "version": "4.1.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/160470",
+        "name": "phpMyAdmin",
+        "num_vulns": "15",
+        "version": "4.1.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/160469",
+        "name": "phpMyAdmin",
+        "num_vulns": "15",
+        "version": "4.1.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/160468",
+        "name": "phpMyAdmin",
+        "num_vulns": "15",
+        "version": "4.1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/160467",
+        "name": "phpMyAdmin",
+        "num_vulns": "15",
+        "version": "4.1.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/176161",
+        "name": "phpMyAdmin",
+        "num_vulns": "3",
+        "version": "4.0.10.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/174245",
+        "name": "phpMyAdmin",
+        "num_vulns": "3",
+        "version": "4.0.10.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/174244",
+        "name": "phpMyAdmin",
+        "num_vulns": "3",
+        "version": "4.0.10.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/174243",
+        "name": "phpMyAdmin",
+        "num_vulns": "5",
+        "version": "4.0.10.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/170246",
+        "name": "phpMyAdmin",
+        "num_vulns": "4",
+        "version": "4.0.10.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/169192",
+        "name": "phpMyAdmin",
+        "num_vulns": "4",
+        "version": "4.0.10.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/169191",
+        "name": "phpMyAdmin",
+        "num_vulns": "8",
+        "version": "4.0.10"
+    },
+    {
+        "link": "http://cvedetails.com/version/160466",
+        "name": "phpMyAdmin",
+        "num_vulns": "10",
+        "version": "4.0.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/160465",
+        "name": "phpMyAdmin",
+        "num_vulns": "10",
+        "version": "4.0.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/160464",
+        "name": "phpMyAdmin",
+        "num_vulns": "10",
+        "version": "4.0.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/160463",
+        "name": "phpMyAdmin",
+        "num_vulns": "10",
+        "version": "4.0.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/160462",
+        "name": "phpMyAdmin",
+        "num_vulns": "10",
+        "version": "4.0.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/150297",
+        "name": "phpMyAdmin",
+        "num_vulns": "11",
+        "version": "4.0.4.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/149289",
+        "name": "phpMyAdmin",
+        "num_vulns": "18",
+        "version": "4.0.4.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/147613",
+        "name": "phpMyAdmin",
+        "num_vulns": "19",
+        "version": "4.0.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/147612",
+        "name": "phpMyAdmin",
+        "num_vulns": "19",
+        "version": "4.0.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/147605",
+        "name": "phpMyAdmin",
+        "num_vulns": "20",
+        "version": "4.0.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/147604",
+        "name": "phpMyAdmin",
+        "num_vulns": "20",
+        "version": "4.0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/147603",
+        "name": "phpMyAdmin",
+        "num_vulns": "20",
+        "version": "4.0.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/150298",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "3.5.8.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/149288",
+        "name": "phpMyAdmin",
+        "num_vulns": "9",
+        "version": "3.5.8.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/149287",
+        "name": "phpMyAdmin",
+        "num_vulns": "9",
+        "version": "3.5.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/144670",
+        "name": "phpMyAdmin",
+        "num_vulns": "12",
+        "version": "3.5.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/144669",
+        "name": "phpMyAdmin",
+        "num_vulns": "12",
+        "version": "3.5.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/144668",
+        "name": "phpMyAdmin",
+        "num_vulns": "12",
+        "version": "3.5.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/144667",
+        "name": "phpMyAdmin",
+        "num_vulns": "12",
+        "version": "3.5.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/144666",
+        "name": "phpMyAdmin",
+        "num_vulns": "12",
+        "version": "3.5.3.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/135400",
+        "name": "phpMyAdmin",
+        "num_vulns": "15",
+        "version": "3.5.2.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/132524",
+        "name": "phpMyAdmin",
+        "num_vulns": "16",
+        "version": "3.5.2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/132385",
+        "name": "phpMyAdmin",
+        "num_vulns": "17",
+        "version": "3.5.2.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/132384",
+        "name": "phpMyAdmin",
+        "num_vulns": "17",
+        "version": "3.5.1.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/132383",
+        "name": "phpMyAdmin",
+        "num_vulns": "17",
+        "version": "3.5.0.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/132522",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "3.4.11"
+    },
+    {
+        "link": "http://cvedetails.com/version/132523",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "3.4.10.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/124583",
+        "name": "phpMyAdmin",
+        "num_vulns": "3",
+        "version": "3.4.10.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/124582",
+        "name": "phpMyAdmin",
+        "num_vulns": "4",
+        "version": "3.4.10.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/124581",
+        "name": "phpMyAdmin",
+        "num_vulns": "4",
+        "version": "3.4.9.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/118599",
+        "name": "phpMyAdmin",
+        "num_vulns": "6",
+        "version": "3.4.8.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/124580",
+        "name": "phpMyAdmin",
+        "num_vulns": "4",
+        "version": "3.4.7.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/118598",
+        "name": "phpMyAdmin",
+        "num_vulns": "7",
+        "version": "3.4.7.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/116693",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "3.4.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/118597",
+        "name": "phpMyAdmin",
+        "num_vulns": "7",
+        "version": "3.4.6.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/116694",
+        "name": "phpMyAdmin",
+        "num_vulns": "1",
+        "version": "3.4.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/116074",
+        "name": "phpMyAdmin",
+        "num_vulns": "10",
+        "version": "3.4.5.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/116073",
+        "name": "phpMyAdmin",
+        "num_vulns": "12",
+        "version": "3.4.4.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/112826",
+        "name": "phpMyAdmin",
+        "num_vulns": "13",
+        "version": "3.4.3.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/112197",
+        "name": "phpMyAdmin",
+        "num_vulns": "17",
+        "version": "3.4.3.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/111498",
+        "name": "phpMyAdmin",
+        "num_vulns": "21",
+        "version": "3.4.3.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/111497",
+        "name": "phpMyAdmin",
+        "num_vulns": "21",
+        "version": "3.4.2.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/111496",
+        "name": "phpMyAdmin",
+        "num_vulns": "21",
+        "version": "3.4.1.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/111495",
+        "name": "phpMyAdmin",
+        "num_vulns": "23",
+        "version": "3.4.0.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/116692",
+        "name": "phpMyAdmin",
+        "num_vulns": "1",
+        "version": "3.3.10.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/112825",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "3.3.10.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/112196",
+        "name": "phpMyAdmin",
+        "num_vulns": "4",
+        "version": "3.3.10.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/111494",
+        "name": "phpMyAdmin",
+        "num_vulns": "8",
+        "version": "3.3.10.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/111493",
+        "name": "phpMyAdmin",
+        "num_vulns": "10",
+        "version": "3.3.10.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/111492",
+        "name": "phpMyAdmin",
+        "num_vulns": "10",
+        "version": "3.3.9.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/104508",
+        "name": "phpMyAdmin",
+        "num_vulns": "11",
+        "version": "3.3.9.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/103715",
+        "name": "phpMyAdmin",
+        "num_vulns": "14",
+        "version": "3.3.9.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/100883",
+        "name": "phpMyAdmin",
+        "num_vulns": "14",
+        "version": "3.3.8.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/100426",
+        "name": "phpMyAdmin",
+        "num_vulns": "14",
+        "version": "3.3.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/100425",
+        "name": "phpMyAdmin",
+        "num_vulns": "14",
+        "version": "3.3.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/97160",
+        "name": "phpMyAdmin",
+        "num_vulns": "1",
+        "version": "3.3.6.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/100424",
+        "name": "phpMyAdmin",
+        "num_vulns": "14",
+        "version": "3.3.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/96945",
+        "name": "phpMyAdmin",
+        "num_vulns": "16",
+        "version": "3.3.5.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/96445",
+        "name": "phpMyAdmin",
+        "num_vulns": "16",
+        "version": "3.3.5.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/96446",
+        "name": "phpMyAdmin",
+        "num_vulns": "16",
+        "version": "3.3.4.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/96447",
+        "name": "phpMyAdmin",
+        "num_vulns": "16",
+        "version": "3.3.3.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/96448",
+        "name": "phpMyAdmin",
+        "num_vulns": "16",
+        "version": "3.3.2.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/96449",
+        "name": "phpMyAdmin",
+        "num_vulns": "16",
+        "version": "3.3.1.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/96450",
+        "name": "phpMyAdmin",
+        "num_vulns": "16",
+        "version": "3.3.0.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/82531",
+        "name": "phpMyAdmin",
+        "num_vulns": "16",
+        "version": "3.2.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/82530",
+        "name": "phpMyAdmin",
+        "num_vulns": "16",
+        "version": "3.2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/82528",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "3.2.0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/78661",
+        "name": "phpMyAdmin",
+        "num_vulns": "3",
+        "version": "3.2.0-beta1"
+    },
+    {
+        "link": "http://cvedetails.com/version/78662",
+        "name": "phpMyAdmin",
+        "num_vulns": "1",
+        "version": "3.2.0-rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/78663",
+        "name": "phpMyAdmin",
+        "num_vulns": "17",
+        "version": "3.2.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/78658",
+        "name": "phpMyAdmin",
+        "num_vulns": "1",
+        "version": "3.1.5-rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/78660",
+        "name": "phpMyAdmin",
+        "num_vulns": "17",
+        "version": "3.1.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/78657",
+        "name": "phpMyAdmin",
+        "num_vulns": "1",
+        "version": "3.1.4-rc2"
+    },
+    {
+        "link": "http://cvedetails.com/version/78659",
+        "name": "phpMyAdmin",
+        "num_vulns": "17",
+        "version": "3.1.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/78656",
+        "name": "phpMyAdmin",
+        "num_vulns": "17",
+        "version": "3.1.3.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/75151",
+        "name": "phpMyAdmin",
+        "num_vulns": "18",
+        "version": "3.1.3.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/74487",
+        "name": "phpMyAdmin",
+        "num_vulns": "22",
+        "version": "3.1.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/78655",
+        "name": "phpMyAdmin",
+        "num_vulns": "1",
+        "version": "3.1.3-rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/74481",
+        "name": "phpMyAdmin",
+        "num_vulns": "22",
+        "version": "3.1.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/74483",
+        "name": "phpMyAdmin",
+        "num_vulns": "22",
+        "version": "3.1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/66555",
+        "name": "phpMyAdmin",
+        "num_vulns": "7",
+        "version": "3.1.0.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/74485",
+        "name": "phpMyAdmin",
+        "num_vulns": "22",
+        "version": "3.1.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/78654",
+        "name": "phpMyAdmin",
+        "num_vulns": "3",
+        "version": "3.1.0-beta1"
+    },
+    {
+        "link": "http://cvedetails.com/version/78653",
+        "name": "phpMyAdmin",
+        "num_vulns": "17",
+        "version": "3.0.1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/64236",
+        "name": "phpMyAdmin",
+        "num_vulns": "20",
+        "version": "3.0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/78652",
+        "name": "phpMyAdmin",
+        "num_vulns": "1",
+        "version": "3.0.1-rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/64234",
+        "name": "phpMyAdmin",
+        "num_vulns": "20",
+        "version": "3.0.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/78649",
+        "name": "phpMyAdmin",
+        "num_vulns": "3",
+        "version": "3.0.0-alpha"
+    },
+    {
+        "link": "http://cvedetails.com/version/78650",
+        "name": "phpMyAdmin",
+        "num_vulns": "3",
+        "version": "3.0.0-beta"
+    },
+    {
+        "link": "http://cvedetails.com/version/78651",
+        "name": "phpMyAdmin",
+        "num_vulns": "1",
+        "version": "3.0.0-rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/104507",
+        "name": "phpMyAdmin",
+        "num_vulns": "1",
+        "version": "2.11.11.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/104506",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "2.11.11.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/100427",
+        "name": "phpMyAdmin",
+        "num_vulns": "3",
+        "version": "2.11.11"
+    },
+    {
+        "link": "http://cvedetails.com/version/100423",
+        "name": "phpMyAdmin",
+        "num_vulns": "7",
+        "version": "2.11.10.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/96444",
+        "name": "phpMyAdmin",
+        "num_vulns": "9",
+        "version": "2.11.10.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/71392",
+        "name": "phpMyAdmin",
+        "num_vulns": "12",
+        "version": "2.11.9.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/71391",
+        "name": "phpMyAdmin",
+        "num_vulns": "14",
+        "version": "2.11.9.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/71389",
+        "name": "phpMyAdmin",
+        "num_vulns": "17",
+        "version": "2.11.9.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/66554",
+        "name": "phpMyAdmin",
+        "num_vulns": "18",
+        "version": "2.11.9.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/64235",
+        "name": "phpMyAdmin",
+        "num_vulns": "19",
+        "version": "2.11.9.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/62828",
+        "name": "phpMyAdmin",
+        "num_vulns": "19",
+        "version": "2.11.9.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/66553",
+        "name": "phpMyAdmin",
+        "num_vulns": "18",
+        "version": "2.11.9.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/62112",
+        "name": "phpMyAdmin",
+        "num_vulns": "9",
+        "version": "2.11.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/85618",
+        "name": "phpMyAdmin",
+        "num_vulns": "10",
+        "version": "2.11.8.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/62111",
+        "name": "phpMyAdmin",
+        "num_vulns": "10",
+        "version": "2.11.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/66552",
+        "name": "phpMyAdmin",
+        "num_vulns": "7",
+        "version": "2.11.7.12.11.7.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/85619",
+        "name": "phpMyAdmin",
+        "num_vulns": "10",
+        "version": "2.11.7.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/58154",
+        "name": "phpMyAdmin",
+        "num_vulns": "22",
+        "version": "2.11.7.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/62110",
+        "name": "phpMyAdmin",
+        "num_vulns": "10",
+        "version": "2.11.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/66551",
+        "name": "phpMyAdmin",
+        "num_vulns": "18",
+        "version": "2.11.6.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/55126",
+        "name": "phpMyAdmin",
+        "num_vulns": "8",
+        "version": "2.11.6rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/57690",
+        "name": "phpMyAdmin",
+        "num_vulns": "13",
+        "version": "2.11.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/57688",
+        "name": "phpMyAdmin",
+        "num_vulns": "24",
+        "version": "2.11.5.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/55125",
+        "name": "phpMyAdmin",
+        "num_vulns": "25",
+        "version": "2.11.5.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/53853",
+        "name": "phpMyAdmin",
+        "num_vulns": "24",
+        "version": "2.11.5.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/55124",
+        "name": "phpMyAdmin",
+        "num_vulns": "14",
+        "version": "2.11.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/57689",
+        "name": "phpMyAdmin",
+        "num_vulns": "7",
+        "version": "2.11.5rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/53852",
+        "name": "phpMyAdmin",
+        "num_vulns": "22",
+        "version": "2.11.4.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/52817",
+        "name": "phpMyAdmin",
+        "num_vulns": "15",
+        "version": "2.11.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/55123",
+        "name": "phpMyAdmin",
+        "num_vulns": "8",
+        "version": "2.11.4rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/52819",
+        "name": "phpMyAdmin",
+        "num_vulns": "25",
+        "version": "2.11.3.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/52820",
+        "name": "phpMyAdmin",
+        "num_vulns": "16",
+        "version": "2.11.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/55122",
+        "name": "phpMyAdmin",
+        "num_vulns": "8",
+        "version": "2.11.3rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/52821",
+        "name": "phpMyAdmin",
+        "num_vulns": "27",
+        "version": "2.11.2.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/49475",
+        "name": "phpMyAdmin",
+        "num_vulns": "27",
+        "version": "2.11.2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/52822",
+        "name": "phpMyAdmin",
+        "num_vulns": "25",
+        "version": "2.11.2.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/49344",
+        "name": "phpMyAdmin",
+        "num_vulns": "18",
+        "version": "2.11.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/52825",
+        "name": "phpMyAdmin",
+        "num_vulns": "27",
+        "version": "2.11.1.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/48861",
+        "name": "phpMyAdmin",
+        "num_vulns": "28",
+        "version": "2.11.1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/52826",
+        "name": "phpMyAdmin",
+        "num_vulns": "25",
+        "version": "2.11.1.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/48638",
+        "name": "phpMyAdmin",
+        "num_vulns": "17",
+        "version": "2.11.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/55121",
+        "name": "phpMyAdmin",
+        "num_vulns": "8",
+        "version": "2.11.1rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/52829",
+        "name": "phpMyAdmin",
+        "num_vulns": "13",
+        "version": "2.11.0.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/52830",
+        "name": "phpMyAdmin",
+        "num_vulns": "26",
+        "version": "2.11.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/55119",
+        "name": "phpMyAdmin",
+        "num_vulns": "10",
+        "version": "2.11.0beta1"
+    },
+    {
+        "link": "http://cvedetails.com/version/55120",
+        "name": "phpMyAdmin",
+        "num_vulns": "8",
+        "version": "2.11.0rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/53851",
+        "name": "phpMyAdmin",
+        "num_vulns": "8",
+        "version": "2.10.3.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/46798",
+        "name": "phpMyAdmin",
+        "num_vulns": "10",
+        "version": "2.10.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/55118",
+        "name": "phpMyAdmin",
+        "num_vulns": "7",
+        "version": "2.10.3rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/53850",
+        "name": "phpMyAdmin",
+        "num_vulns": "8",
+        "version": "2.10.2.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/55117",
+        "name": "phpMyAdmin",
+        "num_vulns": "9",
+        "version": "2.10.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/43634",
+        "name": "phpMyAdmin",
+        "num_vulns": "9",
+        "version": "2.10.1.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/55116",
+        "name": "phpMyAdmin",
+        "num_vulns": "9",
+        "version": "2.10.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/58153",
+        "name": "phpMyAdmin",
+        "num_vulns": "7",
+        "version": "2.10.01"
+    },
+    {
+        "link": "http://cvedetails.com/version/49474",
+        "name": "phpMyAdmin",
+        "num_vulns": "10",
+        "version": "2.10.0.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/42449",
+        "name": "phpMyAdmin",
+        "num_vulns": "11",
+        "version": "2.10.0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/53849",
+        "name": "phpMyAdmin",
+        "num_vulns": "8",
+        "version": "2.10.0.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/55115",
+        "name": "phpMyAdmin",
+        "num_vulns": "9",
+        "version": "2.10.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/38014",
+        "name": "phpMyAdmin",
+        "num_vulns": "6",
+        "version": "2.9.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/40338",
+        "name": "phpMyAdmin",
+        "num_vulns": "8",
+        "version": "2.9.1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/38013",
+        "name": "phpMyAdmin",
+        "num_vulns": "9",
+        "version": "2.9.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/39691",
+        "name": "phpMyAdmin",
+        "num_vulns": "7",
+        "version": "2.9.1 Rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/39692",
+        "name": "phpMyAdmin",
+        "num_vulns": "7",
+        "version": "2.9.1 Rc2"
+    },
+    {
+        "link": "http://cvedetails.com/version/39688",
+        "name": "phpMyAdmin",
+        "num_vulns": "8",
+        "version": "2.9.0.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/39687",
+        "name": "phpMyAdmin",
+        "num_vulns": "8",
+        "version": "2.9.0.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/39686",
+        "name": "phpMyAdmin",
+        "num_vulns": "8",
+        "version": "2.9.0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/33261",
+        "name": "phpMyAdmin",
+        "num_vulns": "7",
+        "version": "2.9.0 Dev"
+    },
+    {
+        "link": "http://cvedetails.com/version/39685",
+        "name": "phpMyAdmin",
+        "num_vulns": "8",
+        "version": "2.9.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/39689",
+        "name": "phpMyAdmin",
+        "num_vulns": "7",
+        "version": "2.9.0 Beta1"
+    },
+    {
+        "link": "http://cvedetails.com/version/39690",
+        "name": "phpMyAdmin",
+        "num_vulns": "7",
+        "version": "2.9.0 Rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/38012",
+        "name": "phpMyAdmin",
+        "num_vulns": "5",
+        "version": "2.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/38015",
+        "name": "phpMyAdmin",
+        "num_vulns": "4",
+        "version": "2.9 Rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/35158",
+        "name": "phpMyAdmin",
+        "num_vulns": "9",
+        "version": "2.8.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/35157",
+        "name": "phpMyAdmin",
+        "num_vulns": "9",
+        "version": "2.8.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/38011",
+        "name": "phpMyAdmin",
+        "num_vulns": "6",
+        "version": "2.8.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/33260",
+        "name": "phpMyAdmin",
+        "num_vulns": "7",
+        "version": "2.8.1 Dev"
+    },
+    {
+        "link": "http://cvedetails.com/version/35156",
+        "name": "phpMyAdmin",
+        "num_vulns": "10",
+        "version": "2.8.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/32968",
+        "name": "phpMyAdmin",
+        "num_vulns": "12",
+        "version": "2.8.0.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/33259",
+        "name": "phpMyAdmin",
+        "num_vulns": "9",
+        "version": "2.8.0.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/32292",
+        "name": "phpMyAdmin",
+        "num_vulns": "9",
+        "version": "2.8.0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/42506",
+        "name": "phpMyAdmin",
+        "num_vulns": "5",
+        "version": "2.8.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/26935",
+        "name": "phpMyAdmin",
+        "num_vulns": "8",
+        "version": "2.7.0 Beta1"
+    },
+    {
+        "link": "http://cvedetails.com/version/27904",
+        "name": "phpMyAdmin",
+        "num_vulns": "4",
+        "version": "2.7.0 Rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/28455",
+        "name": "phpMyAdmin",
+        "num_vulns": "6",
+        "version": "2.7.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/28627",
+        "name": "phpMyAdmin",
+        "num_vulns": "6",
+        "version": "2.7.0 Pl1"
+    },
+    {
+        "link": "http://cvedetails.com/version/32819",
+        "name": "phpMyAdmin",
+        "num_vulns": "6",
+        "version": "2.7.0 Pl2"
+    },
+    {
+        "link": "http://cvedetails.com/version/35154",
+        "name": "phpMyAdmin",
+        "num_vulns": "5",
+        "version": "2.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/35155",
+        "name": "phpMyAdmin",
+        "num_vulns": "5",
+        "version": "2.7 Pl1"
+    },
+    {
+        "link": "http://cvedetails.com/version/26390",
+        "name": "phpMyAdmin",
+        "num_vulns": "6",
+        "version": "2.6.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/26391",
+        "name": "phpMyAdmin",
+        "num_vulns": "9",
+        "version": "2.6.4 Pl1"
+    },
+    {
+        "link": "http://cvedetails.com/version/26392",
+        "name": "phpMyAdmin",
+        "num_vulns": "11",
+        "version": "2.6.4 Pl3"
+    },
+    {
+        "link": "http://cvedetails.com/version/26393",
+        "name": "phpMyAdmin",
+        "num_vulns": "4",
+        "version": "2.6.4 Pl2"
+    },
+    {
+        "link": "http://cvedetails.com/version/26394",
+        "name": "phpMyAdmin",
+        "num_vulns": "8",
+        "version": "2.6.4 Rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/26934",
+        "name": "phpMyAdmin",
+        "num_vulns": "7",
+        "version": "2.6.4 Pl4"
+    },
+    {
+        "link": "http://cvedetails.com/version/25625",
+        "name": "phpMyAdmin",
+        "num_vulns": "5",
+        "version": "2.6.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/25626",
+        "name": "phpMyAdmin",
+        "num_vulns": "10",
+        "version": "2.6.3 Pl1"
+    },
+    {
+        "link": "http://cvedetails.com/version/21969",
+        "name": "phpMyAdmin",
+        "num_vulns": "4",
+        "version": "2.6.2 Dev"
+    },
+    {
+        "link": "http://cvedetails.com/version/23010",
+        "name": "phpMyAdmin",
+        "num_vulns": "9",
+        "version": "2.6.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/25624",
+        "name": "phpMyAdmin",
+        "num_vulns": "7",
+        "version": "2.6.2 Pl1"
+    },
+    {
+        "link": "http://cvedetails.com/version/27914",
+        "name": "phpMyAdmin",
+        "num_vulns": "6",
+        "version": "2.6.2 Rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/20780",
+        "name": "phpMyAdmin",
+        "num_vulns": "14",
+        "version": "2.6.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/20781",
+        "name": "phpMyAdmin",
+        "num_vulns": "9",
+        "version": "2.6.1 Rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/22741",
+        "name": "phpMyAdmin",
+        "num_vulns": "8",
+        "version": "2.6.1 Pl1"
+    },
+    {
+        "link": "http://cvedetails.com/version/22742",
+        "name": "phpMyAdmin",
+        "num_vulns": "11",
+        "version": "2.6.1 Pl3"
+    },
+    {
+        "link": "http://cvedetails.com/version/19374",
+        "name": "phpMyAdmin",
+        "num_vulns": "13",
+        "version": "2.6.0 Pl1"
+    },
+    {
+        "link": "http://cvedetails.com/version/19983",
+        "name": "phpMyAdmin",
+        "num_vulns": "13",
+        "version": "2.6.0 Pl2"
+    },
+    {
+        "link": "http://cvedetails.com/version/19984",
+        "name": "phpMyAdmin",
+        "num_vulns": "15",
+        "version": "2.6.0 Pl3"
+    },
+    {
+        "link": "http://cvedetails.com/version/19372",
+        "name": "phpMyAdmin",
+        "num_vulns": "16",
+        "version": "2.5.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/19373",
+        "name": "phpMyAdmin",
+        "num_vulns": "16",
+        "version": "2.5.7 Pl1"
+    },
+    {
+        "link": "http://cvedetails.com/version/19370",
+        "name": "phpMyAdmin",
+        "num_vulns": "15",
+        "version": "2.5.6 Rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/19371",
+        "name": "phpMyAdmin",
+        "num_vulns": "9",
+        "version": "2.5.6 Rc2"
+    },
+    {
+        "link": "http://cvedetails.com/version/13688",
+        "name": "phpMyAdmin",
+        "num_vulns": "17",
+        "version": "2.5.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/13689",
+        "name": "phpMyAdmin",
+        "num_vulns": "19",
+        "version": "2.5.5 Pl1"
+    },
+    {
+        "link": "http://cvedetails.com/version/13690",
+        "name": "phpMyAdmin",
+        "num_vulns": "16",
+        "version": "2.5.5 Rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/13691",
+        "name": "phpMyAdmin",
+        "num_vulns": "16",
+        "version": "2.5.5 Rc2"
+    },
+    {
+        "link": "http://cvedetails.com/version/13687",
+        "name": "phpMyAdmin",
+        "num_vulns": "20",
+        "version": "2.5.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/19369",
+        "name": "phpMyAdmin",
+        "num_vulns": "15",
+        "version": "2.5.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/13686",
+        "name": "phpMyAdmin",
+        "num_vulns": "17",
+        "version": "2.5.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/19368",
+        "name": "phpMyAdmin",
+        "num_vulns": "9",
+        "version": "2.5.2 Pl1"
+    },
+    {
+        "link": "http://cvedetails.com/version/13685",
+        "name": "phpMyAdmin",
+        "num_vulns": "17",
+        "version": "2.5.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/13684",
+        "name": "phpMyAdmin",
+        "num_vulns": "15",
+        "version": "2.5.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/13683",
+        "name": "phpMyAdmin",
+        "num_vulns": "13",
+        "version": "2.4.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/13682",
+        "name": "phpMyAdmin",
+        "num_vulns": "11",
+        "version": "2.3.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/13681",
+        "name": "phpMyAdmin",
+        "num_vulns": "11",
+        "version": "2.3.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/26933",
+        "name": "phpMyAdmin",
+        "num_vulns": "6",
+        "version": "2.2.7 Pl1"
+    },
+    {
+        "link": "http://cvedetails.com/version/13680",
+        "name": "phpMyAdmin",
+        "num_vulns": "11",
+        "version": "2.2.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/13679",
+        "name": "phpMyAdmin",
+        "num_vulns": "11",
+        "version": "2.2.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/13678",
+        "name": "phpMyAdmin",
+        "num_vulns": "11",
+        "version": "2.2.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/13677",
+        "name": "phpMyAdmin",
+        "num_vulns": "11",
+        "version": "2.2.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/13676",
+        "name": "phpMyAdmin",
+        "num_vulns": "11",
+        "version": "2.2.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/4115",
+        "name": "phpMyAdmin",
+        "num_vulns": "9",
+        "version": "2.2.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/32814",
+        "name": "phpMyAdmin",
+        "num_vulns": "4",
+        "version": "2.2.0 Pre1"
+    },
+    {
+        "link": "http://cvedetails.com/version/32815",
+        "name": "phpMyAdmin",
+        "num_vulns": "4",
+        "version": "2.2.0 Pre2"
+    },
+    {
+        "link": "http://cvedetails.com/version/32816",
+        "name": "phpMyAdmin",
+        "num_vulns": "4",
+        "version": "2.2.0 Rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/32817",
+        "name": "phpMyAdmin",
+        "num_vulns": "4",
+        "version": "2.2.0 Rc2"
+    },
+    {
+        "link": "http://cvedetails.com/version/32818",
+        "name": "phpMyAdmin",
+        "num_vulns": "4",
+        "version": "2.2.0 Rc3"
+    },
+    {
+        "link": "http://cvedetails.com/version/4644",
+        "name": "phpMyAdmin",
+        "num_vulns": "10",
+        "version": "2.2 Pre1"
+    },
+    {
+        "link": "http://cvedetails.com/version/4645",
+        "name": "phpMyAdmin",
+        "num_vulns": "10",
+        "version": "2.2 Rc1"
+    },
+    {
+        "link": "http://cvedetails.com/version/4646",
+        "name": "phpMyAdmin",
+        "num_vulns": "10",
+        "version": "2.2 Rc2"
+    },
+    {
+        "link": "http://cvedetails.com/version/4647",
+        "name": "phpMyAdmin",
+        "num_vulns": "10",
+        "version": "2.2 Rc3"
+    },
+    {
+        "link": "http://cvedetails.com/version/22739",
+        "name": "phpMyAdmin",
+        "num_vulns": "7",
+        "version": "2.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/22740",
+        "name": "phpMyAdmin",
+        "num_vulns": "7",
+        "version": "2.2 Pre2"
+    },
+    {
+        "link": "http://cvedetails.com/version/4643",
+        "name": "phpMyAdmin",
+        "num_vulns": "15",
+        "version": "2.1.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/4642",
+        "name": "phpMyAdmin",
+        "num_vulns": "15",
+        "version": "2.1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/32813",
+        "name": "phpMyAdmin",
+        "num_vulns": "8",
+        "version": "2.1.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/4641",
+        "name": "phpMyAdmin",
+        "num_vulns": "13",
+        "version": "2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/4640",
+        "name": "phpMyAdmin",
+        "num_vulns": "15",
+        "version": "2.0.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/4639",
+        "name": "phpMyAdmin",
+        "num_vulns": "15",
+        "version": "2.0.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/4638",
+        "name": "phpMyAdmin",
+        "num_vulns": "15",
+        "version": "2.0.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/4637",
+        "name": "phpMyAdmin",
+        "num_vulns": "15",
+        "version": "2.0.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/4636",
+        "name": "phpMyAdmin",
+        "num_vulns": "15",
+        "version": "2.0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/32812",
+        "name": "phpMyAdmin",
+        "num_vulns": "8",
+        "version": "2.0.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/4635",
+        "name": "phpMyAdmin",
+        "num_vulns": "13",
+        "version": "2.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/138876",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "1.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/138878",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "1.2.9.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/138881",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "1.2.9.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/138882",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "1.2.9.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/138883",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "1.2.9.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/138884",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "1.2.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/138885",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "1.2.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/138886",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "1.2.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/138887",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "1.2.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/138888",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "1.2.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/138889",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "1.2.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/138890",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "1.2.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/138891",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "1.2.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/138892",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "1.2.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/138893",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "1.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/138894",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/138895",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "1.0.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/138896",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "1.0.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/138898",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "1.0.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/138899",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "1.0.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/138900",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "1.0.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/138901",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "1.0.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/138902",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "1.0.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/138903",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "1.0.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/138904",
+        "name": "phpMyAdmin",
+        "num_vulns": "2",
+        "version": "1.0.0"
+    }
+]
