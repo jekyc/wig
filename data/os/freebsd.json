@@ -465,7 +465,7 @@
         "os_name": "FreeBSD",
         "os_version": "11",
         "pkg_name": "ruby",
-        "pkg_version": "2.0.0-p598"
+        "pkg_version": "2.1.5"
     },
     {
         "os_name": "FreeBSD",
