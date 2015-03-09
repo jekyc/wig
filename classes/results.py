@@ -48,10 +48,6 @@ class Results(object):
 				for version in self.md5_matches[url][cat_name]:
 					self.scores[category][name][version] += (1 / number_of_hits)
 
-
-	def set_printer(self, printer):
-		self.printer = printer
-
 	
 	def add(self, category, name, version=None, fingerprint=None, weight=1):
 		url = ''
@@ -100,22 +96,6 @@ class Results(object):
 		# else add the weight
 		else:
 			self.scores[category][name][version] += weight
-
-
-	def set_width(self, width):
-		self.width = width
-
-
-	def set_ip(self, ip):
-		self.site_info['ip'] = ip
-
-
-	def set_title(self, title):
-		self.site_info['title'] = title
-
-
-	def set_cookies(self, cookies):
-		self.site_info['cookies'] = cookies
 
 
 	def update(self):

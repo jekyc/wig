@@ -158,20 +158,3 @@ class Cache(queue.Queue):
 							self.__setitem__(path, data[path])
 				except:
 					print('Error loading cache: ' +  file_name)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

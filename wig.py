@@ -50,7 +50,7 @@ class Wig(object):
 			'requested': queue.Queue()
 		}
 
-		self.data['results'].set_printer(self.data['printer'])
+		self.data['results'].printer = self.data['printer']
 		self.data['requester'] = Requester(self.options, self.data)
 
 	def run(self):
@@ -91,11 +91,11 @@ class Wig(object):
 		""" --- GET SITE INFO ------------------ """
 		# get the title
 		title = DiscoverTitle(self.options, self.data).run()
-		self.data['results'].set_title(title)
+		self.data['results'].site_info['title'] = title
 
 		# get the IP of the domain
 		ip = DiscoverIP(self.options['url']).run()
-		self.data['results'].set_ip(ip)
+		self.data['results'].site_info['ip'] = ip
 		""" ------------------------------------ """
 
 
