@@ -13,28 +13,19 @@ wig also tries to guess the operating system on the server based on the 'server'
 - [x] Detects JavaScript libraries
 - [x] Operation system fingerprinting by matching php, apache and other packages against a values in wig's database
 - [x] Checks for files of interest such as administrative login pages, readmes, etc
-- [x] Currently the wig's databases include *20.000* fingerprints
+- [x] Currently the wig's databases include 28,000 fingerprints
 - [x] Reuse information from previous runs (save the cache)
 - [x] Implement a verbose option
 - [x] Remove dependency on 'requests'
-
-
-##### The following features are under consideration for wig:
-- [ ] Implement a dirbuster-ish/enumeration feature
-- [ ] Add more fingerprints for interesting files
-- [ ] Add progress information (non-verbose)
-- [ ] Implement option to generate site map
-- [ ] Improve the crawler/spider
-- [ ] Implement option for output to file: xml,json
-- [ ] Improve a verbose option
-
+- [x] Support for proxy
+- [x] Proper threading support
+- [x] Included check for known vulnerabilities
 
 
 ## Requirements
 
 
 wig is built with **Python 3**, and is therefore not compatible with Python 2. 
-
 
 
 
@@ -46,32 +37,19 @@ This behavior can be overwritten by setting the '-a' flag, in which case wig wil
 As some configurations of applications do not use the default location for files and resources, it is possible to have wig fetch all the static resources it encounters during its scan. This is done with the '-c' option.
 The '-m' option tests all fingerprints against all fetched URLs, which is helpful if the default location has been changed.
 
-##### The normal process of version detection:
-1. Check for redirection
-2. Detect if the application uses custom error pages
-3. Find the CMS
-4. Find the CMS version
-5. Crawl html pages for link, script and img resources
-6. Stop CMS detection unless option '-a' is specified
-7. Extract all the headers encountered
-8. Find JavaScript libraries and their versions without making more requests
-9. Match all fingerprints agains all URLs if '-m' is specified
-10. Find Operating System based on header values and the OS database
-11. Calculate scores and display results 
 
 
 ## Help Screen
 
 ```
-$ python3 wig.py -h
-usage: wig.py [-h] [-n STOP_AFTER] [-a] [-m] [--no_cache_load]
-              [--no_cache_save] [-N] [-e]
-              host
+usage: wig.py [-h] [-n STOP_AFTER] [-a] [-m] [-u] [--no_cache_load]
+              [--no_cache_save] [-N] [--verbosity] [--proxy PROXY]
+              url
 
 WebApp Information Gatherer
 
 positional arguments:
-  host             The host name of the target
+  url              The url to scan e.g. http://example.com
 
 optional arguments:
   -h, --help       show this help message and exit
@@ -79,12 +57,12 @@ optional arguments:
                    1
   -a               Do not stop after the first CMS is detected
   -m               Try harder to find a match without making more requests
+  -u               User-agent to use in the requests
   --no_cache_load  Do not load cached responses
   --no_cache_save  Do not save the cache for later use
   -N               Shortcut for --no_cache_load and --no_cache_save
   --verbosity, -v  Increase verbosity. Use multiple times for more info
-  -e               Use the built-in list of common files and directories (much
-                   like dirbuster). NOT IMPLEMENTED YET
+  --proxy PROXY    Tunnel through a proxy (format: localhost:8080)
 ```
 
 
