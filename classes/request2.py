@@ -216,70 +216,6 @@ class Response:
 		return get_string(self)
 		
 
-"""
-class RequesterThread(threading.Thread):
-	def __init__(self, id, host, queue, data, opener, run_type):
-		threading.Thread.__init__(self)
-		self.id = id
-		self.host = host
-
-		self.fingerprintQueue = queue
-		self.cache = data['cache']
-		self.requested = data['requested']
-		
-		self.opener = opener
-		self.run_type = run_type
-		
-
-	def make_request(self, fingerprint_list):
-		# the fingerprints in the fingerprint_list
-		# should all have the same url, so it should
-		# be safe to extract the url of the first 
-		# fingerprint
-		url = fingerprint_list[0]['url']
-		complete_url = urllib.parse.urljoin(self.host, url)
-
-		R = None
-
-		# check if the url is out of scope
-		url_data = urllib.parse.urlparse(complete_url)
-		host_data = urllib.parse.urlparse(self.host)
-		if not url_data.netloc == host_data.netloc:
-			pass
-
-		elif not complete_url in self.cache:
-			try:
-				request = urllib.request.Request(complete_url)
-				response = self.opener.open(request)
-				R = _create_response(response)
-				self.cache[complete_url] = R
-				self.cache[response.geturl()] = R
-			except Exception as e:
-				pass
-		else:
-			R = self.cache[complete_url]
-
-		return R
-
-
-	def run(self):
-
-		while True:
-			# get the next item in the queue
-			fingerprint_list = self.fingerprintQueue.get()
-			
-			# make the request and get the response
-			response = self.make_request(fingerprint_list)
-
-			# if the response failed or for some other reason 
-			# is none, mark the task as done, and move on
-			if response is not None:
-				self.requested.put( (fingerprint_list, response ) )
-			
-			self.fingerprintQueue.task_done()
-"""
-
-
 class Requester:
 	def __init__(self, options, data):
 		self.threads = options['threads']
@@ -350,42 +286,45 @@ class Requester:
 		return (self.is_redirected, new_loc)
 
 
-	def run(self, run_type, fp_lists):
+	def request(self, fp_list):
+		
+		url = fp_list[0]['url']
+		complete_url = urllib.parse.urljoin(self.url, url)
 
+		R = None
 
-		def worker(host, fp_list, cache, opener):
-			url = fp_list[0]['url']
-			complete_url = urllib.parse.urljoin(host, url)
+		# check if the url is out of scope
+		url_data = urllib.parse.urlparse(complete_url)
+		host_data = urllib.parse.urlparse(self.url)
+		
+		if not url_data.netloc == host_data.netloc:
+			pass
 
-			R = None
-
-			# check if the url is out of scope
-			url_data = urllib.parse.urlparse(complete_url)
-			host_data = urllib.parse.urlparse(host)
-			if not url_data.netloc == host_data.netloc:
+		elif not complete_url in self.cache:
+			try:
+				opener = self._create_fetcher()
+				request = urllib.request.Request(complete_url)
+				response = opener.open(request)
+				R = _create_response(response)
+				self.cache[complete_url] = R
+				self.cache[response.geturl()] = R
+			except Exception as e:
 				pass
+		else:
+			R = self.cache[complete_url]
 
-			elif not complete_url in cache:
-				try:
-					request = urllib.request.Request(complete_url)
-					response = opener.open(request)
-					R = _create_response(response)
-					cache[complete_url] = R
-					cache[response.geturl()] = R
-				except Exception as e:
-					pass
-			else:
-				R = cache[complete_url]
+		return (fp_list, R)
 
-			return (fp_list, R)
 
+
+	def run(self, run_type, fp_lists):
 
 		with concurrent.futures.ThreadPoolExecutor(max_workers=self.threads) as executor:
 			
 			future_list = []
 
 			for fp_list in fp_lists:
-				future_list.append(executor.submit(worker, self.url, fp_list, self.cache, self._create_fetcher()))
+				future_list.append(executor.submit(self.request, fp_list))
 				
 			for future in concurrent.futures.as_completed(future_list):
 				self.requested.put(future.result())
