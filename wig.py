@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import json, pprint, os, time, queue, sys
 import argparse
 from collections import defaultdict, Counter
