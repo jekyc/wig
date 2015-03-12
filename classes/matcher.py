@@ -34,6 +34,8 @@ class Match(object):
 		# find the matching method to use
 		matches = []
 
+		if response is None: return matches
+
 		# find out of the reponse is an image
 		# this is used to avoid the crawler using string and regex
 		# searching for matches in these files
