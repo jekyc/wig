@@ -12,10 +12,16 @@
         "url": "/static/admin/css/login.css"
     },
     {
-        "match": "0e456c648675dff40fa8be71356fa841",
+        "match": "1a205a8af74c3b69234242b68851e04a",
         "output": "1.0",
         "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "0e87964dba452edd5fd9aa1a1a0c8ff2",
+        "output": "1.0",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
     },
     {
         "match": "2eec3d598a2babccb1cfa0c57e67f71c",
@@ -24,6 +30,12 @@
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "c277660846251596464b8c53a2d00874",
+        "output": "1.0",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "5a73cf1f8d08415a58338c4ac58f370c",
         "output": "1.0.1",
         "type": "md5",
@@ -36,10 +48,16 @@
         "url": "/static/admin/css/login.css"
     },
     {
-        "match": "0e456c648675dff40fa8be71356fa841",
+        "match": "1a205a8af74c3b69234242b68851e04a",
         "output": "1.0.1",
         "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "423619b11b8be33610d0a4d5102c1bd6",
+        "output": "1.0.1",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
     },
     {
         "match": "2eec3d598a2babccb1cfa0c57e67f71c",
@@ -48,6 +66,12 @@
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "c277660846251596464b8c53a2d00874",
+        "output": "1.0.1",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "5a73cf1f8d08415a58338c4ac58f370c",
         "output": "1.0.2",
         "type": "md5",
@@ -60,10 +84,16 @@
         "url": "/static/admin/css/login.css"
     },
     {
-        "match": "0e456c648675dff40fa8be71356fa841",
+        "match": "1a205a8af74c3b69234242b68851e04a",
         "output": "1.0.2",
         "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "423619b11b8be33610d0a4d5102c1bd6",
+        "output": "1.0.2",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
     },
     {
         "match": "2eec3d598a2babccb1cfa0c57e67f71c",
@@ -72,6 +102,12 @@
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "c277660846251596464b8c53a2d00874",
+        "output": "1.0.2",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "5a73cf1f8d08415a58338c4ac58f370c",
         "output": "1.0.3",
         "type": "md5",
@@ -84,16 +120,28 @@
         "url": "/static/admin/css/login.css"
     },
     {
-        "match": "0e456c648675dff40fa8be71356fa841",
+        "match": "1a205a8af74c3b69234242b68851e04a",
         "output": "1.0.3",
         "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "423619b11b8be33610d0a4d5102c1bd6",
+        "output": "1.0.3",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
     },
     {
         "match": "8ba85bc69815ab45e66adbd014f62281",
         "output": "1.0.3",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c277660846251596464b8c53a2d00874",
+        "output": "1.0.3",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "5a73cf1f8d08415a58338c4ac58f370c",
@@ -108,10 +156,16 @@
         "url": "/static/admin/css/login.css"
     },
     {
-        "match": "0e456c648675dff40fa8be71356fa841",
+        "match": "1a205a8af74c3b69234242b68851e04a",
         "output": "1.0.4",
         "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "423619b11b8be33610d0a4d5102c1bd6",
+        "output": "1.0.4",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
     },
     {
         "match": "8ba85bc69815ab45e66adbd014f62281",
@@ -120,6 +174,12 @@
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "c277660846251596464b8c53a2d00874",
+        "output": "1.0.4",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "059d0952e9505b9950fc33c57827b443",
         "output": "1.1",
         "type": "md5",
@@ -138,24 +198,36 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "65672aea2c3b8a3ca31435601e069fb6",
+        "output": "1.1",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "556fc00bdafad8baefd80c26951bc6bc",
+        "output": "1.1",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "49585d1c6585ec8a4f3557d4440a0529",
         "output": "1.1",
         "type": "md5",
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "0e456c648675dff40fa8be71356fa841",
-        "output": "1.1",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "8ba85bc69815ab45e66adbd014f62281",
         "output": "1.1",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "c277660846251596464b8c53a2d00874",
+        "output": "1.1",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "059d0952e9505b9950fc33c57827b443",
         "output": "1.1.1",
         "type": "md5",
@@ -174,22 +246,34 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "65672aea2c3b8a3ca31435601e069fb6",
+        "output": "1.1.1",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "556fc00bdafad8baefd80c26951bc6bc",
+        "output": "1.1.1",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "49585d1c6585ec8a4f3557d4440a0529",
         "output": "1.1.1",
         "type": "md5",
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "0e456c648675dff40fa8be71356fa841",
-        "output": "1.1.1",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "8ba85bc69815ab45e66adbd014f62281",
         "output": "1.1.1",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c277660846251596464b8c53a2d00874",
+        "output": "1.1.1",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "059d0952e9505b9950fc33c57827b443",
@@ -210,22 +294,34 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "65672aea2c3b8a3ca31435601e069fb6",
+        "output": "1.1.2",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "5c53ab899551487432b9895397554b25",
+        "output": "1.1.2",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "49585d1c6585ec8a4f3557d4440a0529",
         "output": "1.1.2",
         "type": "md5",
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "0e456c648675dff40fa8be71356fa841",
-        "output": "1.1.2",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "8ba85bc69815ab45e66adbd014f62281",
         "output": "1.1.2",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c277660846251596464b8c53a2d00874",
+        "output": "1.1.2",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "059d0952e9505b9950fc33c57827b443",
@@ -246,22 +342,34 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "65672aea2c3b8a3ca31435601e069fb6",
+        "output": "1.1.3",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "5c53ab899551487432b9895397554b25",
+        "output": "1.1.3",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "49585d1c6585ec8a4f3557d4440a0529",
         "output": "1.1.3",
         "type": "md5",
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "0e456c648675dff40fa8be71356fa841",
-        "output": "1.1.3",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "8ba85bc69815ab45e66adbd014f62281",
         "output": "1.1.3",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c277660846251596464b8c53a2d00874",
+        "output": "1.1.3",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "059d0952e9505b9950fc33c57827b443",
@@ -282,22 +390,34 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "65672aea2c3b8a3ca31435601e069fb6",
+        "output": "1.1.4",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "5c53ab899551487432b9895397554b25",
+        "output": "1.1.4",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "49585d1c6585ec8a4f3557d4440a0529",
         "output": "1.1.4",
         "type": "md5",
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "0e456c648675dff40fa8be71356fa841",
-        "output": "1.1.4",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "8ba85bc69815ab45e66adbd014f62281",
         "output": "1.1.4",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c277660846251596464b8c53a2d00874",
+        "output": "1.1.4",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "a4686b3e4deea26ef5fcb28b0a7bf4dc",
@@ -318,6 +438,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "09c75fea4b772fe364a9a6921a9cd5e9",
+        "output": "1.2",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "a2646a534a3bdb0774f6349960ab7820",
+        "output": "1.2",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "0d9fbccd603530945f14aec6ae5e755c",
         "output": "1.2",
         "type": "md5",
@@ -330,16 +462,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9b1e7c4a880c66c4929e82c39320b8e9",
-        "output": "1.2",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "371667f6bbb0763ad4b73a2d485ff567",
         "output": "1.2",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.2",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.2",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "c549fd6812ac00be6733b70cb84ce3a0",
+        "output": "1.2",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "a4686b3e4deea26ef5fcb28b0a7bf4dc",
@@ -360,6 +504,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "09c75fea4b772fe364a9a6921a9cd5e9",
+        "output": "1.2.1",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "a2646a534a3bdb0774f6349960ab7820",
+        "output": "1.2.1",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "0d9fbccd603530945f14aec6ae5e755c",
         "output": "1.2.1",
         "type": "md5",
@@ -372,16 +528,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9b1e7c4a880c66c4929e82c39320b8e9",
-        "output": "1.2.1",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "371667f6bbb0763ad4b73a2d485ff567",
         "output": "1.2.1",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.2.1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.2.1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "c549fd6812ac00be6733b70cb84ce3a0",
+        "output": "1.2.1",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "05934b5142e3c74cc84958bb078e5045",
@@ -402,6 +570,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "09c75fea4b772fe364a9a6921a9cd5e9",
+        "output": "1.2.2",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "a2646a534a3bdb0774f6349960ab7820",
+        "output": "1.2.2",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "0d9fbccd603530945f14aec6ae5e755c",
         "output": "1.2.2",
         "type": "md5",
@@ -414,16 +594,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9b1e7c4a880c66c4929e82c39320b8e9",
-        "output": "1.2.2",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "371667f6bbb0763ad4b73a2d485ff567",
         "output": "1.2.2",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.2.2",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.2.2",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "c549fd6812ac00be6733b70cb84ce3a0",
+        "output": "1.2.2",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "05934b5142e3c74cc84958bb078e5045",
@@ -444,6 +636,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "09c75fea4b772fe364a9a6921a9cd5e9",
+        "output": "1.2.3",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "a2646a534a3bdb0774f6349960ab7820",
+        "output": "1.2.3",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "0d9fbccd603530945f14aec6ae5e755c",
         "output": "1.2.3",
         "type": "md5",
@@ -456,16 +660,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9b1e7c4a880c66c4929e82c39320b8e9",
-        "output": "1.2.3",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "371667f6bbb0763ad4b73a2d485ff567",
         "output": "1.2.3",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.2.3",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.2.3",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "c549fd6812ac00be6733b70cb84ce3a0",
+        "output": "1.2.3",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "9f024c1dc33d0c655da4f4cf83944724",
@@ -486,6 +702,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "09c75fea4b772fe364a9a6921a9cd5e9",
+        "output": "1.2.4",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "a2646a534a3bdb0774f6349960ab7820",
+        "output": "1.2.4",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "0d9fbccd603530945f14aec6ae5e755c",
         "output": "1.2.4",
         "type": "md5",
@@ -498,16 +726,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9b1e7c4a880c66c4929e82c39320b8e9",
-        "output": "1.2.4",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "371667f6bbb0763ad4b73a2d485ff567",
         "output": "1.2.4",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.2.4",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.2.4",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "c549fd6812ac00be6733b70cb84ce3a0",
+        "output": "1.2.4",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "9f024c1dc33d0c655da4f4cf83944724",
@@ -526,6 +766,18 @@
         "output": "1.2.5",
         "type": "md5",
         "url": "/static/admin/css/ie.css"
+    },
+    {
+        "match": "9d77501e6ea96059d4eabd60fabfc7d2",
+        "output": "1.2.5",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "a2646a534a3bdb0774f6349960ab7820",
+        "output": "1.2.5",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
     },
     {
         "match": "cd26be93be043bc39cf73869ca6c1676",
@@ -540,16 +792,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9b1e7c4a880c66c4929e82c39320b8e9",
-        "output": "1.2.5",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "e0b92808aa9470f93719a2ee71d1b55f",
         "output": "1.2.5",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.2.5",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.2.5",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "c549fd6812ac00be6733b70cb84ce3a0",
+        "output": "1.2.5",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "05d30c9fd4124640c62a071f4ea7bf56",
@@ -570,6 +834,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "9d77501e6ea96059d4eabd60fabfc7d2",
+        "output": "1.2.6",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "a2646a534a3bdb0774f6349960ab7820",
+        "output": "1.2.6",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "7da1bcaffce731b57cd2a6254cd5e95c",
         "output": "1.2.6",
         "type": "md5",
@@ -582,16 +858,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9b1e7c4a880c66c4929e82c39320b8e9",
-        "output": "1.2.6",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "e0b92808aa9470f93719a2ee71d1b55f",
         "output": "1.2.6",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.2.6",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.2.6",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "c549fd6812ac00be6733b70cb84ce3a0",
+        "output": "1.2.6",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "05d30c9fd4124640c62a071f4ea7bf56",
@@ -612,6 +900,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "9d77501e6ea96059d4eabd60fabfc7d2",
+        "output": "1.2.7",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "a2646a534a3bdb0774f6349960ab7820",
+        "output": "1.2.7",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "7da1bcaffce731b57cd2a6254cd5e95c",
         "output": "1.2.7",
         "type": "md5",
@@ -624,18 +924,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9b1e7c4a880c66c4929e82c39320b8e9",
-        "output": "1.2.7",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "e0b92808aa9470f93719a2ee71d1b55f",
         "output": "1.2.7",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.2.7",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.2.7",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "c549fd6812ac00be6733b70cb84ce3a0",
+        "output": "1.2.7",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "ec4ad7970455bbf8677155013c35c61a",
         "output": "1.3",
         "type": "md5",
@@ -654,6 +966,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "a13e8ecffe2f37037bb553ca963a9c57",
+        "output": "1.3",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "a2646a534a3bdb0774f6349960ab7820",
+        "output": "1.3",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "7da1bcaffce731b57cd2a6254cd5e95c",
         "output": "1.3",
         "type": "md5",
@@ -666,16 +990,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "01340a8affd2285048eb186a5f64c925",
-        "output": "1.3",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "e0b92808aa9470f93719a2ee71d1b55f",
         "output": "1.3",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.3",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.3",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "c549fd6812ac00be6733b70cb84ce3a0",
+        "output": "1.3",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "ec4ad7970455bbf8677155013c35c61a",
@@ -696,6 +1032,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "a13e8ecffe2f37037bb553ca963a9c57",
+        "output": "1.3.1",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "3998e31e42795f2a29c309fe759e1f7f",
+        "output": "1.3.1",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "7da1bcaffce731b57cd2a6254cd5e95c",
         "output": "1.3.1",
         "type": "md5",
@@ -708,18 +1056,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "01340a8affd2285048eb186a5f64c925",
-        "output": "1.3.1",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "e0b92808aa9470f93719a2ee71d1b55f",
         "output": "1.3.1",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.3.1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.3.1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "c549fd6812ac00be6733b70cb84ce3a0",
+        "output": "1.3.1",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "ec4ad7970455bbf8677155013c35c61a",
         "output": "1.3.2",
         "type": "md5",
@@ -738,6 +1098,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "a13e8ecffe2f37037bb553ca963a9c57",
+        "output": "1.3.2",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "a2646a534a3bdb0774f6349960ab7820",
+        "output": "1.3.2",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "7da1bcaffce731b57cd2a6254cd5e95c",
         "output": "1.3.2",
         "type": "md5",
@@ -750,18 +1122,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "01340a8affd2285048eb186a5f64c925",
-        "output": "1.3.2",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "e0b92808aa9470f93719a2ee71d1b55f",
         "output": "1.3.2",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.3.2",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.3.2",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "c549fd6812ac00be6733b70cb84ce3a0",
+        "output": "1.3.2",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "ec4ad7970455bbf8677155013c35c61a",
         "output": "1.3.3",
         "type": "md5",
@@ -780,6 +1164,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "a13e8ecffe2f37037bb553ca963a9c57",
+        "output": "1.3.3",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "a2646a534a3bdb0774f6349960ab7820",
+        "output": "1.3.3",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "7da1bcaffce731b57cd2a6254cd5e95c",
         "output": "1.3.3",
         "type": "md5",
@@ -792,16 +1188,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "01340a8affd2285048eb186a5f64c925",
-        "output": "1.3.3",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "e0b92808aa9470f93719a2ee71d1b55f",
         "output": "1.3.3",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.3.3",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.3.3",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "c549fd6812ac00be6733b70cb84ce3a0",
+        "output": "1.3.3",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "ec4ad7970455bbf8677155013c35c61a",
@@ -822,6 +1230,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "a13e8ecffe2f37037bb553ca963a9c57",
+        "output": "1.3.4",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "a2646a534a3bdb0774f6349960ab7820",
+        "output": "1.3.4",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "7da1bcaffce731b57cd2a6254cd5e95c",
         "output": "1.3.4",
         "type": "md5",
@@ -834,16 +1254,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "01340a8affd2285048eb186a5f64c925",
-        "output": "1.3.4",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "e0b92808aa9470f93719a2ee71d1b55f",
         "output": "1.3.4",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.3.4",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.3.4",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "c549fd6812ac00be6733b70cb84ce3a0",
+        "output": "1.3.4",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "ec4ad7970455bbf8677155013c35c61a",
@@ -864,6 +1296,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "a13e8ecffe2f37037bb553ca963a9c57",
+        "output": "1.3.5",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "a2646a534a3bdb0774f6349960ab7820",
+        "output": "1.3.5",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "7da1bcaffce731b57cd2a6254cd5e95c",
         "output": "1.3.5",
         "type": "md5",
@@ -876,16 +1320,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "01340a8affd2285048eb186a5f64c925",
-        "output": "1.3.5",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "e0b92808aa9470f93719a2ee71d1b55f",
         "output": "1.3.5",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.3.5",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.3.5",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "c549fd6812ac00be6733b70cb84ce3a0",
+        "output": "1.3.5",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "ec4ad7970455bbf8677155013c35c61a",
@@ -906,6 +1362,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "a13e8ecffe2f37037bb553ca963a9c57",
+        "output": "1.3.6",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "a2646a534a3bdb0774f6349960ab7820",
+        "output": "1.3.6",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "7da1bcaffce731b57cd2a6254cd5e95c",
         "output": "1.3.6",
         "type": "md5",
@@ -918,16 +1386,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "01340a8affd2285048eb186a5f64c925",
-        "output": "1.3.6",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "e0b92808aa9470f93719a2ee71d1b55f",
         "output": "1.3.6",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.3.6",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.3.6",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "c549fd6812ac00be6733b70cb84ce3a0",
+        "output": "1.3.6",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "ec4ad7970455bbf8677155013c35c61a",
@@ -948,6 +1428,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "a13e8ecffe2f37037bb553ca963a9c57",
+        "output": "1.3.7",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "a2646a534a3bdb0774f6349960ab7820",
+        "output": "1.3.7",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "7da1bcaffce731b57cd2a6254cd5e95c",
         "output": "1.3.7",
         "type": "md5",
@@ -960,18 +1452,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "01340a8affd2285048eb186a5f64c925",
-        "output": "1.3.7",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "e0b92808aa9470f93719a2ee71d1b55f",
         "output": "1.3.7",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.3.7",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.3.7",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "c549fd6812ac00be6733b70cb84ce3a0",
+        "output": "1.3.7",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "b11ab56ec4873a9d8213daf17090e294",
         "output": "1.4",
         "type": "md5",
@@ -990,6 +1494,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "3d88f960dfb5c782e9a3065516bfdcd9",
+        "output": "1.4",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "526c46800ad711a336cc57c514063010",
+        "output": "1.4",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "41a10c2541af8c2d877357e59c583998",
         "output": "1.4",
         "type": "md5",
@@ -1002,16 +1518,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "15c78c79b0ba65c55192a82d84d430b3",
-        "output": "1.4",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.4",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.4",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.4",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.4",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "b11ab56ec4873a9d8213daf17090e294",
@@ -1032,6 +1560,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "0bda5702e32b9b1ad4131c2d059a4346",
+        "output": "1.4.1",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "526c46800ad711a336cc57c514063010",
+        "output": "1.4.1",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "41a10c2541af8c2d877357e59c583998",
         "output": "1.4.1",
         "type": "md5",
@@ -1044,18 +1584,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "15c78c79b0ba65c55192a82d84d430b3",
-        "output": "1.4.1",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.4.1",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.4.1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.4.1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.4.1",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "b11ab56ec4873a9d8213daf17090e294",
         "output": "1.4.10",
         "type": "md5",
@@ -1074,6 +1626,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "0bda5702e32b9b1ad4131c2d059a4346",
+        "output": "1.4.10",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "526c46800ad711a336cc57c514063010",
+        "output": "1.4.10",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "41a10c2541af8c2d877357e59c583998",
         "output": "1.4.10",
         "type": "md5",
@@ -1086,16 +1650,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "15c78c79b0ba65c55192a82d84d430b3",
-        "output": "1.4.10",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.4.10",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.4.10",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.4.10",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.4.10",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "b11ab56ec4873a9d8213daf17090e294",
@@ -1116,6 +1692,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "0bda5702e32b9b1ad4131c2d059a4346",
+        "output": "1.4.11",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "526c46800ad711a336cc57c514063010",
+        "output": "1.4.11",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "41a10c2541af8c2d877357e59c583998",
         "output": "1.4.11",
         "type": "md5",
@@ -1128,18 +1716,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "15c78c79b0ba65c55192a82d84d430b3",
-        "output": "1.4.11",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.4.11",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.4.11",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.4.11",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.4.11",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "b11ab56ec4873a9d8213daf17090e294",
         "output": "1.4.12",
         "type": "md5",
@@ -1158,6 +1758,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "0bda5702e32b9b1ad4131c2d059a4346",
+        "output": "1.4.12",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "526c46800ad711a336cc57c514063010",
+        "output": "1.4.12",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "41a10c2541af8c2d877357e59c583998",
         "output": "1.4.12",
         "type": "md5",
@@ -1170,16 +1782,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "15c78c79b0ba65c55192a82d84d430b3",
-        "output": "1.4.12",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.4.12",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.4.12",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.4.12",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.4.12",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "b11ab56ec4873a9d8213daf17090e294",
@@ -1200,6 +1824,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "0bda5702e32b9b1ad4131c2d059a4346",
+        "output": "1.4.13",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "526c46800ad711a336cc57c514063010",
+        "output": "1.4.13",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "41a10c2541af8c2d877357e59c583998",
         "output": "1.4.13",
         "type": "md5",
@@ -1212,18 +1848,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "15c78c79b0ba65c55192a82d84d430b3",
-        "output": "1.4.13",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.4.13",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.4.13",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.4.13",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.4.13",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "b11ab56ec4873a9d8213daf17090e294",
         "output": "1.4.14",
         "type": "md5",
@@ -1242,6 +1890,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "0bda5702e32b9b1ad4131c2d059a4346",
+        "output": "1.4.14",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "526c46800ad711a336cc57c514063010",
+        "output": "1.4.14",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "41a10c2541af8c2d877357e59c583998",
         "output": "1.4.14",
         "type": "md5",
@@ -1254,16 +1914,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "15c78c79b0ba65c55192a82d84d430b3",
-        "output": "1.4.14",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.4.14",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.4.14",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.4.14",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.4.14",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "b11ab56ec4873a9d8213daf17090e294",
@@ -1284,6 +1956,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "0bda5702e32b9b1ad4131c2d059a4346",
+        "output": "1.4.15",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "526c46800ad711a336cc57c514063010",
+        "output": "1.4.15",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "41a10c2541af8c2d877357e59c583998",
         "output": "1.4.15",
         "type": "md5",
@@ -1296,18 +1980,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "15c78c79b0ba65c55192a82d84d430b3",
-        "output": "1.4.15",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.4.15",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.4.15",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.4.15",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.4.15",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "b11ab56ec4873a9d8213daf17090e294",
         "output": "1.4.16",
         "type": "md5",
@@ -1326,6 +2022,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "0bda5702e32b9b1ad4131c2d059a4346",
+        "output": "1.4.16",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "526c46800ad711a336cc57c514063010",
+        "output": "1.4.16",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "41a10c2541af8c2d877357e59c583998",
         "output": "1.4.16",
         "type": "md5",
@@ -1338,16 +2046,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "15c78c79b0ba65c55192a82d84d430b3",
-        "output": "1.4.16",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.4.16",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.4.16",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.4.16",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.4.16",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "b11ab56ec4873a9d8213daf17090e294",
@@ -1368,6 +2088,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "0bda5702e32b9b1ad4131c2d059a4346",
+        "output": "1.4.17",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "526c46800ad711a336cc57c514063010",
+        "output": "1.4.17",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "41a10c2541af8c2d877357e59c583998",
         "output": "1.4.17",
         "type": "md5",
@@ -1380,18 +2112,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "15c78c79b0ba65c55192a82d84d430b3",
-        "output": "1.4.17",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.4.17",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.4.17",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.4.17",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.4.17",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "b11ab56ec4873a9d8213daf17090e294",
         "output": "1.4.18",
         "type": "md5",
@@ -1410,6 +2154,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "0bda5702e32b9b1ad4131c2d059a4346",
+        "output": "1.4.18",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "526c46800ad711a336cc57c514063010",
+        "output": "1.4.18",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "41a10c2541af8c2d877357e59c583998",
         "output": "1.4.18",
         "type": "md5",
@@ -1422,16 +2178,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "15c78c79b0ba65c55192a82d84d430b3",
-        "output": "1.4.18",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.4.18",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.4.18",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.4.18",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.4.18",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "b11ab56ec4873a9d8213daf17090e294",
@@ -1452,6 +2220,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "0bda5702e32b9b1ad4131c2d059a4346",
+        "output": "1.4.19",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "526c46800ad711a336cc57c514063010",
+        "output": "1.4.19",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "41a10c2541af8c2d877357e59c583998",
         "output": "1.4.19",
         "type": "md5",
@@ -1464,18 +2244,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "15c78c79b0ba65c55192a82d84d430b3",
-        "output": "1.4.19",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.4.19",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.4.19",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.4.19",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.4.19",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "b11ab56ec4873a9d8213daf17090e294",
         "output": "1.4.2",
         "type": "md5",
@@ -1494,6 +2286,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "0bda5702e32b9b1ad4131c2d059a4346",
+        "output": "1.4.2",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "526c46800ad711a336cc57c514063010",
+        "output": "1.4.2",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "41a10c2541af8c2d877357e59c583998",
         "output": "1.4.2",
         "type": "md5",
@@ -1506,16 +2310,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "15c78c79b0ba65c55192a82d84d430b3",
-        "output": "1.4.2",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.4.2",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.4.2",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.4.2",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.4.2",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "b11ab56ec4873a9d8213daf17090e294",
@@ -1536,6 +2352,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "0bda5702e32b9b1ad4131c2d059a4346",
+        "output": "1.4.3",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "526c46800ad711a336cc57c514063010",
+        "output": "1.4.3",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "41a10c2541af8c2d877357e59c583998",
         "output": "1.4.3",
         "type": "md5",
@@ -1548,18 +2376,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "15c78c79b0ba65c55192a82d84d430b3",
-        "output": "1.4.3",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.4.3",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.4.3",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.4.3",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.4.3",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "b11ab56ec4873a9d8213daf17090e294",
         "output": "1.4.4",
         "type": "md5",
@@ -1576,6 +2416,18 @@
         "output": "1.4.4",
         "type": "md5",
         "url": "/static/admin/css/ie.css"
+    },
+    {
+        "match": "0bda5702e32b9b1ad4131c2d059a4346",
+        "output": "1.4.4",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "526c46800ad711a336cc57c514063010",
+        "output": "1.4.4",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
     },
     {
         "match": "41a10c2541af8c2d877357e59c583998",
@@ -1590,18 +2442,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "15c78c79b0ba65c55192a82d84d430b3",
-        "output": "1.4.4",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.4.4",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.4.4",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.4.4",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.4.4",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "b11ab56ec4873a9d8213daf17090e294",
         "output": "1.4.5",
         "type": "md5",
@@ -1618,6 +2482,18 @@
         "output": "1.4.5",
         "type": "md5",
         "url": "/static/admin/css/ie.css"
+    },
+    {
+        "match": "0bda5702e32b9b1ad4131c2d059a4346",
+        "output": "1.4.5",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "526c46800ad711a336cc57c514063010",
+        "output": "1.4.5",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
     },
     {
         "match": "41a10c2541af8c2d877357e59c583998",
@@ -1632,18 +2508,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "15c78c79b0ba65c55192a82d84d430b3",
-        "output": "1.4.5",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.4.5",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.4.5",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.4.5",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.4.5",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "b11ab56ec4873a9d8213daf17090e294",
         "output": "1.4.6",
         "type": "md5",
@@ -1660,6 +2548,18 @@
         "output": "1.4.6",
         "type": "md5",
         "url": "/static/admin/css/ie.css"
+    },
+    {
+        "match": "0bda5702e32b9b1ad4131c2d059a4346",
+        "output": "1.4.6",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "526c46800ad711a336cc57c514063010",
+        "output": "1.4.6",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
     },
     {
         "match": "41a10c2541af8c2d877357e59c583998",
@@ -1674,18 +2574,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "15c78c79b0ba65c55192a82d84d430b3",
-        "output": "1.4.6",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.4.6",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.4.6",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.4.6",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.4.6",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "b11ab56ec4873a9d8213daf17090e294",
         "output": "1.4.7",
         "type": "md5",
@@ -1702,6 +2614,18 @@
         "output": "1.4.7",
         "type": "md5",
         "url": "/static/admin/css/ie.css"
+    },
+    {
+        "match": "0bda5702e32b9b1ad4131c2d059a4346",
+        "output": "1.4.7",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "526c46800ad711a336cc57c514063010",
+        "output": "1.4.7",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
     },
     {
         "match": "41a10c2541af8c2d877357e59c583998",
@@ -1716,16 +2640,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "15c78c79b0ba65c55192a82d84d430b3",
-        "output": "1.4.7",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.4.7",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.4.7",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.4.7",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.4.7",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "b11ab56ec4873a9d8213daf17090e294",
@@ -1744,6 +2680,18 @@
         "output": "1.4.8",
         "type": "md5",
         "url": "/static/admin/css/ie.css"
+    },
+    {
+        "match": "0bda5702e32b9b1ad4131c2d059a4346",
+        "output": "1.4.8",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "526c46800ad711a336cc57c514063010",
+        "output": "1.4.8",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
     },
     {
         "match": "41a10c2541af8c2d877357e59c583998",
@@ -1758,16 +2706,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "15c78c79b0ba65c55192a82d84d430b3",
-        "output": "1.4.8",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.4.8",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.4.8",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.4.8",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.4.8",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "b11ab56ec4873a9d8213daf17090e294",
@@ -1786,6 +2746,18 @@
         "output": "1.4.9",
         "type": "md5",
         "url": "/static/admin/css/ie.css"
+    },
+    {
+        "match": "0bda5702e32b9b1ad4131c2d059a4346",
+        "output": "1.4.9",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "526c46800ad711a336cc57c514063010",
+        "output": "1.4.9",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
     },
     {
         "match": "41a10c2541af8c2d877357e59c583998",
@@ -1800,18 +2772,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "15c78c79b0ba65c55192a82d84d430b3",
-        "output": "1.4.9",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.4.9",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.4.9",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.4.9",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.4.9",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "afb3d4c40046335a7b37a738301010d6",
         "output": "1.5",
         "type": "md5",
@@ -1830,6 +2814,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "275bb1b0f25dc41033e2566e9d3928ca",
+        "output": "1.5",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "b7cbdd4cdc2f8cc9e944986548656d8b",
+        "output": "1.5",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3b5305da6b2bbe98ff93ea364634892",
         "output": "1.5",
         "type": "md5",
@@ -1842,16 +2838,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.5",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.5",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.5",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.5",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.5",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "afb3d4c40046335a7b37a738301010d6",
@@ -1872,6 +2880,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "275bb1b0f25dc41033e2566e9d3928ca",
+        "output": "1.5.1",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "b7cbdd4cdc2f8cc9e944986548656d8b",
+        "output": "1.5.1",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3b5305da6b2bbe98ff93ea364634892",
         "output": "1.5.1",
         "type": "md5",
@@ -1884,18 +2904,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.5.1",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.5.1",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.5.1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.5.1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.5.1",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "afb3d4c40046335a7b37a738301010d6",
         "output": "1.5.10",
         "type": "md5",
@@ -1914,6 +2946,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "275bb1b0f25dc41033e2566e9d3928ca",
+        "output": "1.5.10",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "b7cbdd4cdc2f8cc9e944986548656d8b",
+        "output": "1.5.10",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3b5305da6b2bbe98ff93ea364634892",
         "output": "1.5.10",
         "type": "md5",
@@ -1926,16 +2970,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.5.10",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.5.10",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.5.10",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.5.10",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.5.10",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "afb3d4c40046335a7b37a738301010d6",
@@ -1956,6 +3012,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "275bb1b0f25dc41033e2566e9d3928ca",
+        "output": "1.5.11",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "b7cbdd4cdc2f8cc9e944986548656d8b",
+        "output": "1.5.11",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3b5305da6b2bbe98ff93ea364634892",
         "output": "1.5.11",
         "type": "md5",
@@ -1968,18 +3036,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.5.11",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.5.11",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.5.11",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.5.11",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.5.11",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "afb3d4c40046335a7b37a738301010d6",
         "output": "1.5.12",
         "type": "md5",
@@ -1998,6 +3078,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "275bb1b0f25dc41033e2566e9d3928ca",
+        "output": "1.5.12",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "b7cbdd4cdc2f8cc9e944986548656d8b",
+        "output": "1.5.12",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3b5305da6b2bbe98ff93ea364634892",
         "output": "1.5.12",
         "type": "md5",
@@ -2010,16 +3102,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.5.12",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.5.12",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.5.12",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.5.12",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.5.12",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "afb3d4c40046335a7b37a738301010d6",
@@ -2040,6 +3144,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "275bb1b0f25dc41033e2566e9d3928ca",
+        "output": "1.5.2",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "b7cbdd4cdc2f8cc9e944986548656d8b",
+        "output": "1.5.2",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3b5305da6b2bbe98ff93ea364634892",
         "output": "1.5.2",
         "type": "md5",
@@ -2052,18 +3168,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.5.2",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.5.2",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.5.2",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.5.2",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.5.2",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "afb3d4c40046335a7b37a738301010d6",
         "output": "1.5.3",
         "type": "md5",
@@ -2082,6 +3210,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "275bb1b0f25dc41033e2566e9d3928ca",
+        "output": "1.5.3",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "b7cbdd4cdc2f8cc9e944986548656d8b",
+        "output": "1.5.3",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3b5305da6b2bbe98ff93ea364634892",
         "output": "1.5.3",
         "type": "md5",
@@ -2094,16 +3234,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.5.3",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.5.3",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.5.3",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.5.3",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.5.3",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "afb3d4c40046335a7b37a738301010d6",
@@ -2124,6 +3276,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "275bb1b0f25dc41033e2566e9d3928ca",
+        "output": "1.5.4",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "b7cbdd4cdc2f8cc9e944986548656d8b",
+        "output": "1.5.4",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3b5305da6b2bbe98ff93ea364634892",
         "output": "1.5.4",
         "type": "md5",
@@ -2136,18 +3300,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.5.4",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.5.4",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.5.4",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.5.4",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.5.4",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "afb3d4c40046335a7b37a738301010d6",
         "output": "1.5.5",
         "type": "md5",
@@ -2166,6 +3342,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "275bb1b0f25dc41033e2566e9d3928ca",
+        "output": "1.5.5",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "b7cbdd4cdc2f8cc9e944986548656d8b",
+        "output": "1.5.5",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3b5305da6b2bbe98ff93ea364634892",
         "output": "1.5.5",
         "type": "md5",
@@ -2178,16 +3366,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.5.5",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.5.5",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.5.5",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.5.5",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.5.5",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "afb3d4c40046335a7b37a738301010d6",
@@ -2208,6 +3408,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "275bb1b0f25dc41033e2566e9d3928ca",
+        "output": "1.5.6",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "b7cbdd4cdc2f8cc9e944986548656d8b",
+        "output": "1.5.6",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3b5305da6b2bbe98ff93ea364634892",
         "output": "1.5.6",
         "type": "md5",
@@ -2220,16 +3432,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.5.6",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.5.6",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.5.6",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.5.6",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.5.6",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "afb3d4c40046335a7b37a738301010d6",
@@ -2250,6 +3474,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "275bb1b0f25dc41033e2566e9d3928ca",
+        "output": "1.5.7",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "b7cbdd4cdc2f8cc9e944986548656d8b",
+        "output": "1.5.7",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3b5305da6b2bbe98ff93ea364634892",
         "output": "1.5.7",
         "type": "md5",
@@ -2262,16 +3498,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.5.7",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.5.7",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.5.7",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.5.7",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.5.7",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "afb3d4c40046335a7b37a738301010d6",
@@ -2292,6 +3540,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "275bb1b0f25dc41033e2566e9d3928ca",
+        "output": "1.5.8",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "b7cbdd4cdc2f8cc9e944986548656d8b",
+        "output": "1.5.8",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3b5305da6b2bbe98ff93ea364634892",
         "output": "1.5.8",
         "type": "md5",
@@ -2304,16 +3564,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.5.8",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.5.8",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.5.8",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.5.8",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.5.8",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "afb3d4c40046335a7b37a738301010d6",
@@ -2334,6 +3606,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "275bb1b0f25dc41033e2566e9d3928ca",
+        "output": "1.5.9",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "b7cbdd4cdc2f8cc9e944986548656d8b",
+        "output": "1.5.9",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3b5305da6b2bbe98ff93ea364634892",
         "output": "1.5.9",
         "type": "md5",
@@ -2346,16 +3630,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.5.9",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.5.9",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.5.9",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.5.9",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.5.9",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "b11ab56ec4873a9d8213daf17090e294",
@@ -2376,6 +3672,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "0bda5702e32b9b1ad4131c2d059a4346",
+        "output": "1.5a1",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "b7cbdd4cdc2f8cc9e944986548656d8b",
+        "output": "1.5a1",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3b5305da6b2bbe98ff93ea364634892",
         "output": "1.5a1",
         "type": "md5",
@@ -2388,16 +3696,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.5a1",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.5a1",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.5a1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.5a1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.5a1",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "afb3d4c40046335a7b37a738301010d6",
@@ -2418,6 +3738,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "275bb1b0f25dc41033e2566e9d3928ca",
+        "output": "1.5b1",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "b7cbdd4cdc2f8cc9e944986548656d8b",
+        "output": "1.5b1",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3b5305da6b2bbe98ff93ea364634892",
         "output": "1.5b1",
         "type": "md5",
@@ -2430,16 +3762,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.5b1",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.5b1",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.5b1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.5b1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.5b1",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "afb3d4c40046335a7b37a738301010d6",
@@ -2460,6 +3804,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "275bb1b0f25dc41033e2566e9d3928ca",
+        "output": "1.5b2",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "b7cbdd4cdc2f8cc9e944986548656d8b",
+        "output": "1.5b2",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3b5305da6b2bbe98ff93ea364634892",
         "output": "1.5b2",
         "type": "md5",
@@ -2472,16 +3828,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.5b2",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.5b2",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.5b2",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.5b2",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.5b2",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "afb3d4c40046335a7b37a738301010d6",
@@ -2502,6 +3870,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "275bb1b0f25dc41033e2566e9d3928ca",
+        "output": "1.5c1",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "b7cbdd4cdc2f8cc9e944986548656d8b",
+        "output": "1.5c1",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3b5305da6b2bbe98ff93ea364634892",
         "output": "1.5c1",
         "type": "md5",
@@ -2514,16 +3894,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.5c1",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.5c1",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.5c1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.5c1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.5c1",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "afb3d4c40046335a7b37a738301010d6",
@@ -2544,6 +3936,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "275bb1b0f25dc41033e2566e9d3928ca",
+        "output": "1.5c2",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "b7cbdd4cdc2f8cc9e944986548656d8b",
+        "output": "1.5c2",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3b5305da6b2bbe98ff93ea364634892",
         "output": "1.5c2",
         "type": "md5",
@@ -2556,18 +3960,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.5c2",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "116c2824468f010eb392f6eb960495ed",
         "output": "1.5c2",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "c0ac4e323dfd52aaf1f80c9880b35e7b",
+        "output": "1.5c2",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "10092eee563dec2dca82b77d2cf5a1ae",
+        "output": "1.5c2",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "97374639b90f82703749ec61d1fbffe4",
+        "output": "1.5c2",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "c8269a10a4bc30bb87cbdac24f551e44",
         "output": "1.6",
         "type": "md5",
@@ -2586,6 +4002,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "aa0433eb683478fb99d438875b6c41f4",
+        "output": "1.6",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "1f592183babcd651d8785c399a6073f4",
+        "output": "1.6",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "2c564fa3093fd881931d78948e5087dd",
         "output": "1.6",
         "type": "md5",
@@ -2598,16 +4026,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.6",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "5d58f199725a2d052d20ec6cdf4f6910",
         "output": "1.6",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.6",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.6",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "60081afb9f15d69427fc07ebc9f6b863",
+        "output": "1.6",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "c8269a10a4bc30bb87cbdac24f551e44",
@@ -2628,6 +4068,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "aa0433eb683478fb99d438875b6c41f4",
+        "output": "1.6.1",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "1f592183babcd651d8785c399a6073f4",
+        "output": "1.6.1",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "2c564fa3093fd881931d78948e5087dd",
         "output": "1.6.1",
         "type": "md5",
@@ -2640,18 +4092,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.6.1",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "5d58f199725a2d052d20ec6cdf4f6910",
         "output": "1.6.1",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.6.1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.6.1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "60081afb9f15d69427fc07ebc9f6b863",
+        "output": "1.6.1",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "c8269a10a4bc30bb87cbdac24f551e44",
         "output": "1.6.10",
         "type": "md5",
@@ -2670,6 +4134,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "aa0433eb683478fb99d438875b6c41f4",
+        "output": "1.6.10",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "1f592183babcd651d8785c399a6073f4",
+        "output": "1.6.10",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "2c564fa3093fd881931d78948e5087dd",
         "output": "1.6.10",
         "type": "md5",
@@ -2682,16 +4158,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.6.10",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "5d58f199725a2d052d20ec6cdf4f6910",
         "output": "1.6.10",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.6.10",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.6.10",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "60081afb9f15d69427fc07ebc9f6b863",
+        "output": "1.6.10",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "c8269a10a4bc30bb87cbdac24f551e44",
@@ -2712,6 +4200,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "aa0433eb683478fb99d438875b6c41f4",
+        "output": "1.6.2",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "1f592183babcd651d8785c399a6073f4",
+        "output": "1.6.2",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "2c564fa3093fd881931d78948e5087dd",
         "output": "1.6.2",
         "type": "md5",
@@ -2724,18 +4224,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.6.2",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "5d58f199725a2d052d20ec6cdf4f6910",
         "output": "1.6.2",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.6.2",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.6.2",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "60081afb9f15d69427fc07ebc9f6b863",
+        "output": "1.6.2",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "c8269a10a4bc30bb87cbdac24f551e44",
         "output": "1.6.3",
         "type": "md5",
@@ -2754,6 +4266,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "aa0433eb683478fb99d438875b6c41f4",
+        "output": "1.6.3",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "1f592183babcd651d8785c399a6073f4",
+        "output": "1.6.3",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "2c564fa3093fd881931d78948e5087dd",
         "output": "1.6.3",
         "type": "md5",
@@ -2766,16 +4290,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.6.3",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "5d58f199725a2d052d20ec6cdf4f6910",
         "output": "1.6.3",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.6.3",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.6.3",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "60081afb9f15d69427fc07ebc9f6b863",
+        "output": "1.6.3",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "c8269a10a4bc30bb87cbdac24f551e44",
@@ -2796,6 +4332,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "aa0433eb683478fb99d438875b6c41f4",
+        "output": "1.6.4",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "1f592183babcd651d8785c399a6073f4",
+        "output": "1.6.4",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "2c564fa3093fd881931d78948e5087dd",
         "output": "1.6.4",
         "type": "md5",
@@ -2808,18 +4356,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.6.4",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "5d58f199725a2d052d20ec6cdf4f6910",
         "output": "1.6.4",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.6.4",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.6.4",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "60081afb9f15d69427fc07ebc9f6b863",
+        "output": "1.6.4",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "c8269a10a4bc30bb87cbdac24f551e44",
         "output": "1.6.5",
         "type": "md5",
@@ -2838,6 +4398,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "aa0433eb683478fb99d438875b6c41f4",
+        "output": "1.6.5",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "1f592183babcd651d8785c399a6073f4",
+        "output": "1.6.5",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "2c564fa3093fd881931d78948e5087dd",
         "output": "1.6.5",
         "type": "md5",
@@ -2850,16 +4422,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.6.5",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "5d58f199725a2d052d20ec6cdf4f6910",
         "output": "1.6.5",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.6.5",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.6.5",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "60081afb9f15d69427fc07ebc9f6b863",
+        "output": "1.6.5",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "c8269a10a4bc30bb87cbdac24f551e44",
@@ -2880,6 +4464,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "aa0433eb683478fb99d438875b6c41f4",
+        "output": "1.6.6",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "1f592183babcd651d8785c399a6073f4",
+        "output": "1.6.6",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "2c564fa3093fd881931d78948e5087dd",
         "output": "1.6.6",
         "type": "md5",
@@ -2892,18 +4488,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.6.6",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "5d58f199725a2d052d20ec6cdf4f6910",
         "output": "1.6.6",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.6.6",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.6.6",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "60081afb9f15d69427fc07ebc9f6b863",
+        "output": "1.6.6",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "c8269a10a4bc30bb87cbdac24f551e44",
         "output": "1.6.7",
         "type": "md5",
@@ -2922,6 +4530,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "aa0433eb683478fb99d438875b6c41f4",
+        "output": "1.6.7",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "1f592183babcd651d8785c399a6073f4",
+        "output": "1.6.7",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "2c564fa3093fd881931d78948e5087dd",
         "output": "1.6.7",
         "type": "md5",
@@ -2934,16 +4554,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.6.7",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "5d58f199725a2d052d20ec6cdf4f6910",
         "output": "1.6.7",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.6.7",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.6.7",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "60081afb9f15d69427fc07ebc9f6b863",
+        "output": "1.6.7",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "c8269a10a4bc30bb87cbdac24f551e44",
@@ -2964,6 +4596,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "aa0433eb683478fb99d438875b6c41f4",
+        "output": "1.6.8",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "1f592183babcd651d8785c399a6073f4",
+        "output": "1.6.8",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "2c564fa3093fd881931d78948e5087dd",
         "output": "1.6.8",
         "type": "md5",
@@ -2976,18 +4620,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.6.8",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "5d58f199725a2d052d20ec6cdf4f6910",
         "output": "1.6.8",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.6.8",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.6.8",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "60081afb9f15d69427fc07ebc9f6b863",
+        "output": "1.6.8",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "c8269a10a4bc30bb87cbdac24f551e44",
         "output": "1.6.9",
         "type": "md5",
@@ -3006,6 +4662,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "aa0433eb683478fb99d438875b6c41f4",
+        "output": "1.6.9",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "1f592183babcd651d8785c399a6073f4",
+        "output": "1.6.9",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "2c564fa3093fd881931d78948e5087dd",
         "output": "1.6.9",
         "type": "md5",
@@ -3018,16 +4686,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.6.9",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "5d58f199725a2d052d20ec6cdf4f6910",
         "output": "1.6.9",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.6.9",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.6.9",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "60081afb9f15d69427fc07ebc9f6b863",
+        "output": "1.6.9",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "c8269a10a4bc30bb87cbdac24f551e44",
@@ -3048,6 +4728,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "aa0433eb683478fb99d438875b6c41f4",
+        "output": "1.6a1",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "1f592183babcd651d8785c399a6073f4",
+        "output": "1.6a1",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "2c564fa3093fd881931d78948e5087dd",
         "output": "1.6a1",
         "type": "md5",
@@ -3060,18 +4752,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.6a1",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "5d58f199725a2d052d20ec6cdf4f6910",
         "output": "1.6a1",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.6a1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.6a1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "60081afb9f15d69427fc07ebc9f6b863",
+        "output": "1.6a1",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "c8269a10a4bc30bb87cbdac24f551e44",
         "output": "1.6b1",
         "type": "md5",
@@ -3090,6 +4794,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "aa0433eb683478fb99d438875b6c41f4",
+        "output": "1.6b1",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "1f592183babcd651d8785c399a6073f4",
+        "output": "1.6b1",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "2c564fa3093fd881931d78948e5087dd",
         "output": "1.6b1",
         "type": "md5",
@@ -3102,16 +4818,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.6b1",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "5d58f199725a2d052d20ec6cdf4f6910",
         "output": "1.6b1",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.6b1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.6b1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "60081afb9f15d69427fc07ebc9f6b863",
+        "output": "1.6b1",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "c8269a10a4bc30bb87cbdac24f551e44",
@@ -3132,6 +4860,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "aa0433eb683478fb99d438875b6c41f4",
+        "output": "1.6b2",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "1f592183babcd651d8785c399a6073f4",
+        "output": "1.6b2",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "2c564fa3093fd881931d78948e5087dd",
         "output": "1.6b2",
         "type": "md5",
@@ -3144,16 +4884,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.6b2",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "5d58f199725a2d052d20ec6cdf4f6910",
         "output": "1.6b2",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.6b2",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.6b2",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "60081afb9f15d69427fc07ebc9f6b863",
+        "output": "1.6b2",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "c8269a10a4bc30bb87cbdac24f551e44",
@@ -3174,6 +4926,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "aa0433eb683478fb99d438875b6c41f4",
+        "output": "1.6b3",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "1f592183babcd651d8785c399a6073f4",
+        "output": "1.6b3",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "2c564fa3093fd881931d78948e5087dd",
         "output": "1.6b3",
         "type": "md5",
@@ -3186,16 +4950,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.6b3",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "5d58f199725a2d052d20ec6cdf4f6910",
         "output": "1.6b3",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.6b3",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.6b3",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "60081afb9f15d69427fc07ebc9f6b863",
+        "output": "1.6b3",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "c8269a10a4bc30bb87cbdac24f551e44",
@@ -3216,6 +4992,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "aa0433eb683478fb99d438875b6c41f4",
+        "output": "1.6b4",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "1f592183babcd651d8785c399a6073f4",
+        "output": "1.6b4",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "2c564fa3093fd881931d78948e5087dd",
         "output": "1.6b4",
         "type": "md5",
@@ -3228,16 +5016,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.6b4",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "5d58f199725a2d052d20ec6cdf4f6910",
         "output": "1.6b4",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.6b4",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.6b4",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "60081afb9f15d69427fc07ebc9f6b863",
+        "output": "1.6b4",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "c8269a10a4bc30bb87cbdac24f551e44",
@@ -3258,6 +5058,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "aa0433eb683478fb99d438875b6c41f4",
+        "output": "1.6c1",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "1f592183babcd651d8785c399a6073f4",
+        "output": "1.6c1",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "2c564fa3093fd881931d78948e5087dd",
         "output": "1.6c1",
         "type": "md5",
@@ -3270,16 +5082,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "9825381ac4071d95cb1a1523d8ac3d48",
-        "output": "1.6c1",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "5d58f199725a2d052d20ec6cdf4f6910",
         "output": "1.6c1",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.6c1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.6c1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "60081afb9f15d69427fc07ebc9f6b863",
+        "output": "1.6c1",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "c52f7bea4f70a7b827442810c0065f86",
@@ -3300,6 +5124,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "fd521eb98ffd9aa445172f9c515f59fb",
+        "output": "1.7",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "507c31d51476acf4578c6fd85b9e72d9",
+        "output": "1.7",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3cd9638369fd990e2828d48f94d0e5f",
         "output": "1.7",
         "type": "md5",
@@ -3312,18 +5148,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "1771dc31836b3ea90ff3a6aa3b645cc6",
-        "output": "1.7",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "3dcaf1c8322263b914b60bda6a15b3a6",
         "output": "1.7",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.7",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.7",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "e50342051d6db273c5f39f6590eaaad1",
+        "output": "1.7",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "c52f7bea4f70a7b827442810c0065f86",
         "output": "1.7.1",
         "type": "md5",
@@ -3342,6 +5190,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "fd521eb98ffd9aa445172f9c515f59fb",
+        "output": "1.7.1",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "507c31d51476acf4578c6fd85b9e72d9",
+        "output": "1.7.1",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3cd9638369fd990e2828d48f94d0e5f",
         "output": "1.7.1",
         "type": "md5",
@@ -3354,16 +5214,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "1771dc31836b3ea90ff3a6aa3b645cc6",
-        "output": "1.7.1",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "3dcaf1c8322263b914b60bda6a15b3a6",
         "output": "1.7.1",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.7.1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.7.1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "e50342051d6db273c5f39f6590eaaad1",
+        "output": "1.7.1",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "c52f7bea4f70a7b827442810c0065f86",
@@ -3384,6 +5256,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "fd521eb98ffd9aa445172f9c515f59fb",
+        "output": "1.7.2",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "507c31d51476acf4578c6fd85b9e72d9",
+        "output": "1.7.2",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3cd9638369fd990e2828d48f94d0e5f",
         "output": "1.7.2",
         "type": "md5",
@@ -3396,16 +5280,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "2f2bc9e0964bda405331bfdbdcb8866b",
-        "output": "1.7.2",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "3dcaf1c8322263b914b60bda6a15b3a6",
         "output": "1.7.2",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.7.2",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.7.2",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "e50342051d6db273c5f39f6590eaaad1",
+        "output": "1.7.2",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "c52f7bea4f70a7b827442810c0065f86",
@@ -3426,6 +5322,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "fd521eb98ffd9aa445172f9c515f59fb",
+        "output": "1.7.3",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "507c31d51476acf4578c6fd85b9e72d9",
+        "output": "1.7.3",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3cd9638369fd990e2828d48f94d0e5f",
         "output": "1.7.3",
         "type": "md5",
@@ -3438,16 +5346,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "2f2bc9e0964bda405331bfdbdcb8866b",
-        "output": "1.7.3",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "3dcaf1c8322263b914b60bda6a15b3a6",
         "output": "1.7.3",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.7.3",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.7.3",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "e50342051d6db273c5f39f6590eaaad1",
+        "output": "1.7.3",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "c52f7bea4f70a7b827442810c0065f86",
@@ -3468,6 +5388,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "fd521eb98ffd9aa445172f9c515f59fb",
+        "output": "1.7.4",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "507c31d51476acf4578c6fd85b9e72d9",
+        "output": "1.7.4",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3cd9638369fd990e2828d48f94d0e5f",
         "output": "1.7.4",
         "type": "md5",
@@ -3480,16 +5412,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "2f2bc9e0964bda405331bfdbdcb8866b",
-        "output": "1.7.4",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "3dcaf1c8322263b914b60bda6a15b3a6",
         "output": "1.7.4",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.7.4",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.7.4",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "e50342051d6db273c5f39f6590eaaad1",
+        "output": "1.7.4",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "c52f7bea4f70a7b827442810c0065f86",
@@ -3510,6 +5454,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "fd521eb98ffd9aa445172f9c515f59fb",
+        "output": "1.7.5",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "507c31d51476acf4578c6fd85b9e72d9",
+        "output": "1.7.5",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3cd9638369fd990e2828d48f94d0e5f",
         "output": "1.7.5",
         "type": "md5",
@@ -3522,16 +5478,94 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "2f2bc9e0964bda405331bfdbdcb8866b",
-        "output": "1.7.5",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "3dcaf1c8322263b914b60bda6a15b3a6",
         "output": "1.7.5",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.7.5",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.7.5",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "e50342051d6db273c5f39f6590eaaad1",
+        "output": "1.7.5",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
+        "match": "c52f7bea4f70a7b827442810c0065f86",
+        "output": "1.7.6",
+        "type": "md5",
+        "url": "/static/admin/css/base.css"
+    },
+    {
+        "match": "9ee3563a2bfe932b3de39c2025d568c7",
+        "output": "1.7.6",
+        "type": "md5",
+        "url": "/static/admin/css/login.css"
+    },
+    {
+        "match": "80b2765846631cd22c8b8189c48f2ee9",
+        "output": "1.7.6",
+        "type": "md5",
+        "url": "/static/admin/css/ie.css"
+    },
+    {
+        "match": "fd521eb98ffd9aa445172f9c515f59fb",
+        "output": "1.7.6",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "507c31d51476acf4578c6fd85b9e72d9",
+        "output": "1.7.6",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
+        "match": "e3cd9638369fd990e2828d48f94d0e5f",
+        "output": "1.7.6",
+        "type": "md5",
+        "url": "/static/admin/js/inlines.min.js"
+    },
+    {
+        "match": "42b74ac13f07ba78ce8a424958324c68",
+        "output": "1.7.6",
+        "type": "md5",
+        "url": "/static/admin/js/actions.js"
+    },
+    {
+        "match": "3dcaf1c8322263b914b60bda6a15b3a6",
+        "output": "1.7.6",
+        "type": "md5",
+        "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.7.6",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.7.6",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "e50342051d6db273c5f39f6590eaaad1",
+        "output": "1.7.6",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "93c40717038a36522fabc40d6c122ee3",
@@ -3552,6 +5586,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "fd521eb98ffd9aa445172f9c515f59fb",
+        "output": "1.7a1",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "507c31d51476acf4578c6fd85b9e72d9",
+        "output": "1.7a1",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3cd9638369fd990e2828d48f94d0e5f",
         "output": "1.7a1",
         "type": "md5",
@@ -3564,16 +5610,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "1771dc31836b3ea90ff3a6aa3b645cc6",
-        "output": "1.7a1",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "3dcaf1c8322263b914b60bda6a15b3a6",
         "output": "1.7a1",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.7a1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.7a1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "e50342051d6db273c5f39f6590eaaad1",
+        "output": "1.7a1",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "93c40717038a36522fabc40d6c122ee3",
@@ -3594,6 +5652,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "fd521eb98ffd9aa445172f9c515f59fb",
+        "output": "1.7a2",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "507c31d51476acf4578c6fd85b9e72d9",
+        "output": "1.7a2",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3cd9638369fd990e2828d48f94d0e5f",
         "output": "1.7a2",
         "type": "md5",
@@ -3606,18 +5676,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "1771dc31836b3ea90ff3a6aa3b645cc6",
-        "output": "1.7a2",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "3dcaf1c8322263b914b60bda6a15b3a6",
         "output": "1.7a2",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.7a2",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.7a2",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "e50342051d6db273c5f39f6590eaaad1",
+        "output": "1.7a2",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "c52f7bea4f70a7b827442810c0065f86",
         "output": "1.7b1",
         "type": "md5",
@@ -3636,6 +5718,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "fd521eb98ffd9aa445172f9c515f59fb",
+        "output": "1.7b1",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "507c31d51476acf4578c6fd85b9e72d9",
+        "output": "1.7b1",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3cd9638369fd990e2828d48f94d0e5f",
         "output": "1.7b1",
         "type": "md5",
@@ -3648,16 +5742,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "1771dc31836b3ea90ff3a6aa3b645cc6",
-        "output": "1.7b1",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "3dcaf1c8322263b914b60bda6a15b3a6",
         "output": "1.7b1",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.7b1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.7b1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "e50342051d6db273c5f39f6590eaaad1",
+        "output": "1.7b1",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "c52f7bea4f70a7b827442810c0065f86",
@@ -3678,6 +5784,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "fd521eb98ffd9aa445172f9c515f59fb",
+        "output": "1.7b2",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "507c31d51476acf4578c6fd85b9e72d9",
+        "output": "1.7b2",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3cd9638369fd990e2828d48f94d0e5f",
         "output": "1.7b2",
         "type": "md5",
@@ -3690,18 +5808,30 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "1771dc31836b3ea90ff3a6aa3b645cc6",
-        "output": "1.7b2",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "3dcaf1c8322263b914b60bda6a15b3a6",
         "output": "1.7b2",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.7b2",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.7b2",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "e50342051d6db273c5f39f6590eaaad1",
+        "output": "1.7b2",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "c52f7bea4f70a7b827442810c0065f86",
         "output": "1.7b3",
         "type": "md5",
@@ -3720,6 +5850,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "fd521eb98ffd9aa445172f9c515f59fb",
+        "output": "1.7b3",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "507c31d51476acf4578c6fd85b9e72d9",
+        "output": "1.7b3",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3cd9638369fd990e2828d48f94d0e5f",
         "output": "1.7b3",
         "type": "md5",
@@ -3732,16 +5874,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "1771dc31836b3ea90ff3a6aa3b645cc6",
-        "output": "1.7b3",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "3dcaf1c8322263b914b60bda6a15b3a6",
         "output": "1.7b3",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.7b3",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.7b3",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "e50342051d6db273c5f39f6590eaaad1",
+        "output": "1.7b3",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "c52f7bea4f70a7b827442810c0065f86",
@@ -3762,6 +5916,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "fd521eb98ffd9aa445172f9c515f59fb",
+        "output": "1.7b4",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "507c31d51476acf4578c6fd85b9e72d9",
+        "output": "1.7b4",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3cd9638369fd990e2828d48f94d0e5f",
         "output": "1.7b4",
         "type": "md5",
@@ -3774,16 +5940,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "1771dc31836b3ea90ff3a6aa3b645cc6",
-        "output": "1.7b4",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "3dcaf1c8322263b914b60bda6a15b3a6",
         "output": "1.7b4",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.7b4",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.7b4",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "e50342051d6db273c5f39f6590eaaad1",
+        "output": "1.7b4",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "c52f7bea4f70a7b827442810c0065f86",
@@ -3804,6 +5982,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "fd521eb98ffd9aa445172f9c515f59fb",
+        "output": "1.7c1",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "507c31d51476acf4578c6fd85b9e72d9",
+        "output": "1.7c1",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3cd9638369fd990e2828d48f94d0e5f",
         "output": "1.7c1",
         "type": "md5",
@@ -3816,16 +6006,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "1771dc31836b3ea90ff3a6aa3b645cc6",
-        "output": "1.7c1",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "3dcaf1c8322263b914b60bda6a15b3a6",
         "output": "1.7c1",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.7c1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.7c1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "e50342051d6db273c5f39f6590eaaad1",
+        "output": "1.7c1",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "c52f7bea4f70a7b827442810c0065f86",
@@ -3846,6 +6048,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "fd521eb98ffd9aa445172f9c515f59fb",
+        "output": "1.7c2",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "507c31d51476acf4578c6fd85b9e72d9",
+        "output": "1.7c2",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3cd9638369fd990e2828d48f94d0e5f",
         "output": "1.7c2",
         "type": "md5",
@@ -3858,16 +6072,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "1771dc31836b3ea90ff3a6aa3b645cc6",
-        "output": "1.7c2",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "3dcaf1c8322263b914b60bda6a15b3a6",
         "output": "1.7c2",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.7c2",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.7c2",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "e50342051d6db273c5f39f6590eaaad1",
+        "output": "1.7c2",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "c52f7bea4f70a7b827442810c0065f86",
@@ -3888,6 +6114,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "fd521eb98ffd9aa445172f9c515f59fb",
+        "output": "1.7c3",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "507c31d51476acf4578c6fd85b9e72d9",
+        "output": "1.7c3",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3cd9638369fd990e2828d48f94d0e5f",
         "output": "1.7c3",
         "type": "md5",
@@ -3900,16 +6138,28 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "1771dc31836b3ea90ff3a6aa3b645cc6",
-        "output": "1.7c3",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "3dcaf1c8322263b914b60bda6a15b3a6",
         "output": "1.7c3",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "08c235d357750c657ac1db7d1cf656a9",
+        "output": "1.7c3",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "397754ba49e9e0cf4e7c190da78dda05",
+        "output": "1.7c3",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "e50342051d6db273c5f39f6590eaaad1",
+        "output": "1.7c3",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "f0d165989b7752e133c251bea9ea637e",
@@ -3930,6 +6180,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "84396bf6dde3b1ce8d2e3e29d8c1a1d9",
+        "output": "1.8a1",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "812a4441d47774f6d84c750f7ef70868",
+        "output": "1.8a1",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3cd9638369fd990e2828d48f94d0e5f",
         "output": "1.8a1",
         "type": "md5",
@@ -3942,16 +6204,34 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "54a4515a9134420c2bfca43d23a3ddea",
-        "output": "1.8a1",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "140919a6a17e74843059bfe4e1dd063e",
         "output": "1.8a1",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0b3962f9f23a89256a055c89a4aecf6",
+        "output": "1.8a1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "5790ead7ad3ba27397aedfa3d263b867",
+        "output": "1.8a1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "78280057239ae2dcdea2483ef4988907",
+        "output": "1.8a1",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
+        "match": "3641d148e4330c19f81566ab02a31143",
+        "output": "1.8a1",
+        "type": "md5",
+        "url": "/static/admin/js/related-widget-wrapper.js"
     },
     {
         "match": "f0d165989b7752e133c251bea9ea637e",
@@ -3972,6 +6252,18 @@
         "url": "/static/admin/css/ie.css"
     },
     {
+        "match": "84396bf6dde3b1ce8d2e3e29d8c1a1d9",
+        "output": "1.8b1",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "812a4441d47774f6d84c750f7ef70868",
+        "output": "1.8b1",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
         "match": "e3cd9638369fd990e2828d48f94d0e5f",
         "output": "1.8b1",
         "type": "md5",
@@ -3984,15 +6276,105 @@
         "url": "/static/admin/js/actions.js"
     },
     {
-        "match": "54a4515a9134420c2bfca43d23a3ddea",
-        "output": "1.8b1",
-        "type": "md5",
-        "url": "/static/admin/js/SelectFilter2.js"
-    },
-    {
         "match": "140919a6a17e74843059bfe4e1dd063e",
         "output": "1.8b1",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0b3962f9f23a89256a055c89a4aecf6",
+        "output": "1.8b1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "5790ead7ad3ba27397aedfa3d263b867",
+        "output": "1.8b1",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "78280057239ae2dcdea2483ef4988907",
+        "output": "1.8b1",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
+        "match": "3641d148e4330c19f81566ab02a31143",
+        "output": "1.8b1",
+        "type": "md5",
+        "url": "/static/admin/js/related-widget-wrapper.js"
+    },
+    {
+        "match": "f0d165989b7752e133c251bea9ea637e",
+        "output": "1.8b2",
+        "type": "md5",
+        "url": "/static/admin/css/base.css"
+    },
+    {
+        "match": "9ee3563a2bfe932b3de39c2025d568c7",
+        "output": "1.8b2",
+        "type": "md5",
+        "url": "/static/admin/css/login.css"
+    },
+    {
+        "match": "2ca52592ccf6cab98b0f1e9bf1cbff7c",
+        "output": "1.8b2",
+        "type": "md5",
+        "url": "/static/admin/css/ie.css"
+    },
+    {
+        "match": "84396bf6dde3b1ce8d2e3e29d8c1a1d9",
+        "output": "1.8b2",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "812a4441d47774f6d84c750f7ef70868",
+        "output": "1.8b2",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
+        "match": "e3cd9638369fd990e2828d48f94d0e5f",
+        "output": "1.8b2",
+        "type": "md5",
+        "url": "/static/admin/js/inlines.min.js"
+    },
+    {
+        "match": "42b74ac13f07ba78ce8a424958324c68",
+        "output": "1.8b2",
+        "type": "md5",
+        "url": "/static/admin/js/actions.js"
+    },
+    {
+        "match": "140919a6a17e74843059bfe4e1dd063e",
+        "output": "1.8b2",
+        "type": "md5",
+        "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "c0b3962f9f23a89256a055c89a4aecf6",
+        "output": "1.8b2",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "5790ead7ad3ba27397aedfa3d263b867",
+        "output": "1.8b2",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "78280057239ae2dcdea2483ef4988907",
+        "output": "1.8b2",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
+        "match": "3641d148e4330c19f81566ab02a31143",
+        "output": "1.8b2",
+        "type": "md5",
+        "url": "/static/admin/js/related-widget-wrapper.js"
     }
 ]

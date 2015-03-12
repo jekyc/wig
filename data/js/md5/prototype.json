@@ -1,20 +1,14 @@
 [
     {
         "info": "prototype.js",
-        "md5": "34171a46fc699bfb7d5d887b53bd530d",
-        "output": "1.7.1.0",
+        "md5": "965fe52b851d8ff3c2b915ada9fb273f",
+        "output": "1.6.1.0",
         "url": ""
     },
     {
         "info": "prototype.js",
         "md5": "d3a5b20d5368c1bcabe655b57b52d097",
         "output": "1.6.0.2",
-        "url": ""
-    },
-    {
-        "info": "prototype.js",
-        "md5": "965fe52b851d8ff3c2b915ada9fb273f",
-        "output": "1.6.1.0",
         "url": ""
     },
     {
@@ -33,6 +27,12 @@
         "info": "prototype.js",
         "md5": "b5684120e496c310977713be34be4868",
         "output": "1.6.0.3",
+        "url": ""
+    },
+    {
+        "info": "prototype.js",
+        "md5": "34171a46fc699bfb7d5d887b53bd530d",
+        "output": "1.7.1.0",
         "url": ""
     }
 ]

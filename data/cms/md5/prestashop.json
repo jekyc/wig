@@ -589,6 +589,36 @@
     },
     {
         "match": "3660ca3e6d19782ec73265c12e7001dc",
+        "output": "1.6.0.10",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
+        "match": "c6aeccfc3d9160a3afc061abdc99cfb0",
+        "output": "1.6.0.10",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "ab515c03e3812198a0603b442b215272",
+        "output": "1.6.0.10",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "ee12b40ac4f094f525de729417e7ef15",
+        "output": "1.6.0.10",
+        "type": "md5",
+        "url": "/js/admin-dnd.js"
+    },
+    {
+        "match": "a94984030783126ab14a23df96307d8a",
+        "output": "1.6.0.10",
+        "type": "md5",
+        "url": "/themes/default-bootstrap/css/global.css"
+    },
+    {
+        "match": "3660ca3e6d19782ec73265c12e7001dc",
         "output": "1.6.0.11",
         "type": "md5",
         "url": "/img/logo.jpg"
