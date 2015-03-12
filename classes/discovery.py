@@ -139,10 +139,10 @@ class DiscoverCMS(object):
 			cms_matches = []
 			while not results.empty():
 				fingerprints, response = results.get()
-				matches = self.matcher.get_result(fingerprints, response)
-				if matches:
-					cms_matches.extend([cms['name'] for cms in matches])
 
+				for fp in self.matcher.get_result(fingerprints, response):
+					self.result.add( 'cms', fp['name'], fp['output'], fp)
+					cms_matches.append(fp['name'])
 		
 			# search for the found CMS versions
 			for cms in cms_matches:
