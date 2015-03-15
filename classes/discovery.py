@@ -237,12 +237,13 @@ class DiscoverErrorPage:
 		
 class DiscoverInteresting(object):
 	def __init__(self, options, data):
+		self.url = options['url']
 		self.printer = data['printer']
 		self.requester = data['requester']
 		self.matcher = data['matcher']
 		self.result = data['results']
-		self.threads = options['threads']
-		self.batch_size = options['batch_size']
+		self.error_pages = data['error_pages']
+		self.cache = data['cache']
 		self.category = "interesting"
 
 		# add the fingerprints to the queue, ensuring that
@@ -260,6 +261,13 @@ class DiscoverInteresting(object):
 		
 		while results.qsize() > 0:
 			fps,response = results.get()
+			
+			redirected = response.md5_404 in self.error_pages
+			redirected = redirected or response.md5_404_text in self.error_pages
+			redirected = redirected or response.md5_404_text == self.cache[self.url].md5_404_text
+
+			if redirected: continue
+
 			for fp in self.matcher.get_result(fps, response):
 				self.result.add( self.category, None, None, fp, weight=1)
 				try:
@@ -595,7 +603,6 @@ class DiscoverTools:
 
 	def run(self):
 		self.printer.print('Searching for tools ...', 1)
-		self.results.update()
 		cms_results = self.results.get_versions()
 
 		# loop over the cms' in the results
@@ -671,7 +678,6 @@ class DiscoverVulnerabilities:
 	def run(self):
 		self.printer.print('Searching for vulnerabilities ...', 1)
 
-		self.results.update()
 		cms_results = self.results.get_versions()
 
 		vendors = Counter()
