@@ -14,7 +14,7 @@ from classes.discovery import *
 from classes.headers import ExtractHeaders
 from classes.matcher import Match
 from classes.printer import Printer
-from classes.output import Output
+from classes.output import OutputPrinter, OutputJSON
 from classes.request2 import Requester, UnknownHostName
 
 
@@ -36,6 +36,7 @@ class Wig(object):
 			'stop_after': args.stop_after,
 			'no_cache_load': args.no_cache_load,
 			'no_cache_save': args.no_cache_save,
+			'write_file': args.write_file
 		}
 
 		self.data = {
@@ -152,7 +153,11 @@ class Wig(object):
 		if self.options['match_all']:
 			DiscoverAllCMS(self.data).run()
 		""" ------------------------------------ """
-		
+
+
+		# mark the end of the run
+		self.data['results'].update()
+	
 
 		""" --- SEARCH FOR VULNERABILITIES ----- """
 		# search the vulnerability fingerprints for matches
@@ -174,9 +179,15 @@ class Wig(object):
 		self.data['url_count'] = self.data['cache'].get_num_urls()
 
 		# Create outputter and get results
-		outputter = Output(self.options, self.data)
+		outputter = OutputPrinter(self.options, self.data)
 		title, data = outputter.get_results()
 		
+
+		if self.options['write_file'] is not None:
+			json_outputter = OutputJSON(self.options, self.data)
+			json_outputter.add_results()
+			json_outputter.write_file()
+
 		# quick, ugly hack for issue 5 (https://github.com/jekyc/wig/issues/5) 
 		try:
 			# this will fail, if the title contains unprintable chars
@@ -220,6 +231,8 @@ if __name__ == '__main__':
 	parser.add_argument('--proxy', dest='proxy', default=None, 
 						help='Tunnel through a proxy (format: localhost:8080)')
 
+	parser.add_argument('-w', dest='write_file', default=None, 
+						help='The file to dump results into.')
 
 	args = parser.parse_args()
 

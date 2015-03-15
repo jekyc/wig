@@ -1,12 +1,13 @@
 from classes.color import Color
-import re
+import re, json
 
-class Output(object):
+class Output:
 
 	def __init__(self, options, data):
 		self.results = None
 		self.color = data['colorizer']
 		self.data = data
+		self.options = options
 
 		# calc the amount of fingerprints
 		fps = data['fingerprints'].data
@@ -15,16 +16,13 @@ class Output(object):
 		num_fps_cms		= sum([len(fps['cms'][fp_type]['fps']) for fp_type in fps['cms']])
 		num_fps_plat	= sum([len(fps['platform'][fp_type]['fps']) for fp_type in fps['platform']])
 		num_fps_vuln	= sum([len(fps['vulnerabilities'][source]['fps']) for source in fps['vulnerabilities']])
-		num_fps = num_fps_js + num_fps_os + num_fps_cms + num_fps_plat + num_fps_vuln
-
+		self.num_fps = num_fps_js + num_fps_os + num_fps_cms + num_fps_plat + num_fps_vuln
 
 		self.stats = {
 			'runtime':		'Time: %.1f sec' % (data['runtime'], ),
 			'url_count':	'Urls: %s' % (data['url_count'], ),
-			'fp_count':		'Fingerprints: %s' % (num_fps, ),
+			'fp_count':		'Fingerprints: %s' % (self.num_fps, ),
 		}
-
-		self.col_widths =  {1: 0, 2: 0, 3: 0}
 
 
 		self.sections = [
@@ -77,12 +75,14 @@ class Output(object):
 			}
 		]
 
+		self.sections_names = [s['name'] for s in self.sections]
+
 		self.seperator = ' | '
 		self.seperator_color = self.color.format(self.seperator, 'blue', True)
 		self.ip = self.title = self.cookies = None
 
 
-	def _replace_version_text(self, text):
+	def replace_version_text(self, text):
 		# replace text in version output with something else
 		# (most likely an emtpy string) to improve output
 		text = re.sub('^wmf/', '', text)
@@ -95,27 +95,91 @@ class Output(object):
 		text = re.sub('^mybb_', '', text)			# myBB
 		return text
 
-
-	def _update(self):
-		self.data['results'].update()
-		self.results = self.data['results'].get_results()
-		
-		self._set_col_1_width(self.results)
-		self._set_col_2_width(self.results)
-		self._set_col_3_width(self.results)
-
-		self.ip = self.data['results'].site_info['ip']
-		self.title = self.data['results'].site_info['title']
-		self.cookies = self.data['results'].site_info['cookies']
-
-
-	def _find_section_index(self, section):
+	def find_section_index(self, section):
 		index = 0
 		for elm in self.sections:
 			if elm['name'] == section: return index
 			index += 1
 
 		return None
+
+
+	def loop_results(self, section):
+		versions = self.sections[self.find_section_index(section)]
+		for item in versions['titles']:
+			if item['category'] not in self.results: continue
+			for software in sorted(self.results[item['category']]):
+				version = self.results[item['category']][software]
+				category = item['title']
+				yield (category, software, version)
+
+
+
+
+
+class OutputJSON(Output):
+	def __init__(self, options, data):
+		super().__init__(options, data)
+		self.json_data = []
+	
+	def add_results(self):		
+		self.results = self.data['results'].results
+		site_info = self.data['results'].site_info
+
+		site = {
+			'statistics': {
+				'start_time': None,
+				'run_time': self.data['runtime'],
+				'urls': self.data['url_count'],
+				'fingerprints': self.num_fps
+			},
+			'site_info': {
+				'title': site_info['title'],
+				'cookies': [c for c in site_info['cookies']],
+				'ip': site_info['ip']
+			},
+			'data': []
+		}
+
+		# add versions
+		for section in self.sections_names:
+			tmp = ''
+			for result in self.loop_results(section):
+				category, software, version = result
+
+				if section == 'vulnerabilities':
+					site['data'].append({
+						'category': 'vulnerability',
+						'name': software[0],
+						'version': software[1],
+						'link': version['col3'],
+						'vulnerability_count': version['col2']
+					})
+
+				else:
+					site['data'].append({
+						'category': category,
+						'name': software,
+						'version': version
+					})
+
+		self.json_data.append(site)
+
+
+	def write_file(self):
+		file_name = self.options['write_file']
+		with open(file_name+ '.json', 'w') as fh:
+			fh.write(json.dumps(self.json_data, sort_keys=True, indent=4, separators=(',', ': ')))
+
+
+
+
+
+class OutputPrinter(Output):
+
+	def __init__(self, options, data):
+		super().__init__(options, data)
+		self.col_widths =  {1: 0, 2: 0, 3: 0}
 
 
 	def _set_col_1_width(self, results):
@@ -142,7 +206,7 @@ class Output(object):
 
 
 	def create_header(self, section):
-		section_index = self._find_section_index(section)
+		section_index = self.find_section_index(section)
 		headers = self.sections[section_index]['headers']
 		out  = ''
 
@@ -163,17 +227,17 @@ class Output(object):
 
 	def create_line(self, software, versions, category):
 
-		# col 1
+		# col 1		
 		out  = software
 		out += ' ' * (self.col_widths[1] - len(software))
 		
 		#col 2
 		if len(versions) > 1:
-			v = [self._replace_version_text(i) for i in versions]
+			v = [self.replace_version_text(i) for i in versions]
 			out += self.seperator_color.join(v)
 			out += ' ' * (self.col_widths[2] - len(self.seperator.join(v)))			
 		else:
-			v = self._replace_version_text(versions[0])
+			v = self.replace_version_text(versions[0])
 			out += v
 			out += ' ' * (self.col_widths[2] - len(v))
 
@@ -183,38 +247,44 @@ class Output(object):
 		return out
 
 
-	def get_results(self):
-		
-		self._update()
+	def get_results(self):		
 
-		title  = '\n'
-		title += self.color.format('TITLE    ', 'blue', True) + '\n' + self.title + '\n\n'
+		self.results = self.data['results'].get_results()
+		self._set_col_1_width(self.results)
+		self._set_col_2_width(self.results)
+		self._set_col_3_width(self.results)
+
+		ip = self.data['results'].site_info['ip']
+		site_title = self.data['results'].site_info['title']
+		cookies = self.data['results'].site_info['cookies']
 		
-		if self.cookies:
-			title += self.color.format('COOKIES  ', 'blue', True) + '\n' + ', '.join(list(self.cookies)) + '\n\n'
+		title  = '\n'
+		title += self.color.format('TITLE    ', 'blue', True) + '\n' + site_title + '\n\n'
+		
+		if cookies:
+			title += self.color.format('COOKIES  ', 'blue', True) + '\n' + ', '.join(list(cookies)) + '\n\n'
 	
-		title += self.color.format('IP       ', 'blue', True) + '\n' + self.ip + '\n'
+		title += self.color.format('IP       ', 'blue', True) + '\n' + ip + '\n'
 
 		data = '\n'
-		for section in ['version', 'vulnerabilities', 'tool', 'interesting']:
+		for section in self.sections_names:
 			tmp = ''
-			versions = self.sections[self._find_section_index(section)]
-			for item in versions['titles']:
-				if item['category'] not in self.results: continue
-				for plugin in sorted(self.results[item['category']]):
-					
-					# if the name is a dict (used for vulnerabilities) extract the 
-					# items, and replace the '%' in 'title'.
-					# this is a crappy hack to support the special case of vulnerabilities
-					# this needs to be redone!
-					if type(self.results[item['category']][plugin]) == dict:
-						col2 = [self.results[item['category']][plugin]['col2']]
-						col3 = item['title'] % (self.results[item['category']][plugin]['col3'],)
-					else:
-						col2 = self.results[item['category']][plugin]
-						col3 = item['title']
+			for result in self.loop_results(section):
+				category, software, version = result
 
-					tmp += self.create_line(plugin, col2, col3)
+				# this is a crappy hack to support the special case of vulnerabilities
+				# this needs to be redone!
+
+				if section == 'vulnerabilities':
+					col1 = ' '.join(list(software))
+					col2 = [' '.join(list(version['col2']))]
+					col3 = category % (version['col3'],)
+				else:
+					col1 = software
+					col2 = version
+					col3 = category
+
+				tmp += self.create_line(col1, col2, col3)
 
 			if not tmp == '':
 				data += '\n'+ self.create_header(section) + tmp

@@ -31,7 +31,7 @@ class Results(object):
 		self.site_info = {
 			'ip': '',
 			'title': '',
-			'cookies': ''
+			'cookies': set()
 		}
 
 	def _calc_md5_score(self):
@@ -117,17 +117,14 @@ class Results(object):
 					versions = versions[1:] + [versions[0]]
 
 				relevant = sorted(i[0] for i in versions if i[1] == versions[0][1])
-				if len(relevant) > 5:
-					relevant = relevant[:5] + ['...']
-
-				
 				self.results[category][name] = relevant
+
+		self.is_updated = True
 
 
 	def add_vulnerabilities(self, cms, version, num_vuln, link):
-		name = cms + ' ' + version
 		if 'vulnerability' not in self.results: self.results['vulnerability'] = {}
-		self.results['vulnerability'][name] = {'col2': num_vuln, 'col3': link}
+		self.results['vulnerability'][(cms,version)] = {'col2': num_vuln, 'col3': link}
 
 
 	def add_tool(self, cms, tool_name, tool_link):
@@ -137,7 +134,7 @@ class Results(object):
 
 	def get_versions(self):
 		versions = []
-		for cat in ['cms', 'javascript', 'os']:
+		for cat in ['cms', 'javascript', 'os', 'platform']:
 			if cat not in self.results: continue
 			for cms in self.results[cat]:
 				for version in self.results[cat][cms]:
