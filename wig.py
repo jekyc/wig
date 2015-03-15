@@ -23,8 +23,25 @@ class Wig(object):
 
 	def __init__(self, args):
 
+		urls = None
+		interactive = True
+		
+		if args.input_file is not None:
+			interactive = False
+			with open(args.input_file,'r') as input_file:
+				urls = []
+				for url in input_file.readlines():
+					u = url.strip()
+					urls.append( u if '://' in u else 'http://'+u )
+
+		elif '://' not in args.url:
+			args.url = 'http://' + args.url
+
+
 		self.options = {
 			'url': args.url,
+			'urls': urls,
+			'interactive': interactive,
 			'prefix': '',
 			'user_agent': args.user_agent,
 			'proxy': args.proxy,
@@ -51,12 +68,18 @@ class Wig(object):
 			'requested': queue.Queue()
 		}
 
+		
+		if self.options['write_file'] is not None:
+			self.json_outputter = OutputJSON(self.options, self.data)
+	
+
+
+	def scan_site(self):
+		
 		self.data['results'].printer = self.data['printer']
 		self.data['requester'] = Requester(self.options, self.data)
 
-	def run(self):
 		
-
 		""" --- DETECT REDIRECTION ------------- """
 		try:
 			is_redirected, new_url = self.data['requester'].detect_redirect()
@@ -67,7 +90,11 @@ class Wig(object):
 
 		if is_redirected:
 			hilight_host = self.data['colorizer'].format(new_url, 'red', False)
-			choice = input("Redirected to %s. Continue? [Y|n]:" % (hilight_host,))
+			
+			if self.options['interactive']:
+				choice = input("Redirected to %s. Continue? [Y|n]:" % (hilight_host,))
+			else:
+				choice = 'Y'
 
 			# if not, exit
 			if choice in ['n', 'N']:
@@ -78,7 +105,11 @@ class Wig(object):
 				self.data['requester'].url = new_url
 		""" ------------------------------------ """
 
+		msg = 'Scanning %s...' % (self.options['url'])
+		print(self.data['colorizer'].format(msg, 'green', True))
 
+
+		
 		# load cache if this is not disabled
 		self.data['cache'].set_host(self.options['url'])
 		if not self.options['no_cache_load']:
@@ -179,14 +210,12 @@ class Wig(object):
 		self.data['url_count'] = self.data['cache'].get_num_urls()
 
 		# Create outputter and get results
+		if self.options['write_file'] is not None:
+			self.json_outputter.add_results()
+
 		outputter = OutputPrinter(self.options, self.data)
 		title, data = outputter.get_results()
-		
 
-		if self.options['write_file'] is not None:
-			json_outputter = OutputJSON(self.options, self.data)
-			json_outputter.add_results()
-			json_outputter.write_file()
 
 		# quick, ugly hack for issue 5 (https://github.com/jekyc/wig/issues/5) 
 		try:
@@ -199,9 +228,30 @@ class Wig(object):
 		""" ------------------------------------ """
 
 
+	def run(self):
+		
+		if self.options['urls'] is not None:
+			for url in self.options['urls']:
+				self.options['url'] = url.strip()
+				self.scan_site()
+		else:
+			self.scan_site()
+
+		
+		if self.options['write_file'] is not None:
+			self.json_outputter.write_file()
+
+
+
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description='WebApp Information Gatherer')
-	parser.add_argument('url', type=str, help='The url to scan e.g. http://example.com')
+	
+
+	parser.add_argument('url', nargs='?', type=str, default=None,
+						help='The url to scan e.g. http://example.com')
+	
+	parser.add_argument('-l', type=str, default=None, dest="input_file",
+						help='File with urls, one per line.')
 	
 	parser.add_argument('-n', type=int, default=1, dest="stop_after",
 						help='Stop after this amount of CMSs have been detected. Default: 1')
@@ -232,12 +282,14 @@ if __name__ == '__main__':
 						help='Tunnel through a proxy (format: localhost:8080)')
 
 	parser.add_argument('-w', dest='output_file', default=None, 
-						help='The file to dump results into (JSON)')
+						help='File to dump results into (JSON)')
 
 	args = parser.parse_args()
 
-	if '://' not in args.url:
-		args.url = 'http://' + args.url
+	
+	if args.input_file is None and args.url is None:
+		print('No target(s) specified')
+		sys.exit(1)
 
 	if args.no_cache:
 		args.no_cache_load = True

@@ -18,13 +18,6 @@ class Output:
 		num_fps_vuln	= sum([len(fps['vulnerabilities'][source]['fps']) for source in fps['vulnerabilities']])
 		self.num_fps = num_fps_js + num_fps_os + num_fps_cms + num_fps_plat + num_fps_vuln
 
-		self.stats = {
-			'runtime':		'Time: %.1f sec' % (data['runtime'], ),
-			'url_count':	'Urls: %s' % (data['url_count'], ),
-			'fp_count':		'Fingerprints: %s' % (self.num_fps, ),
-		}
-
-
 		self.sections = [
 			{
 				'name': 'version',
@@ -103,6 +96,12 @@ class Output:
 
 		return None
 
+	def update_stats(self):
+		self.stats = {
+			'runtime':		'Time: %.1f sec' % (self.data['runtime'], ),
+			'url_count':	'Urls: %s' % (self.data['url_count'], ),
+			'fp_count':		'Fingerprints: %s' % (self.num_fps, ),
+		}
 
 	def loop_results(self, section):
 		versions = self.sections[self.find_section_index(section)]
@@ -123,6 +122,7 @@ class OutputJSON(Output):
 		self.json_data = []
 	
 	def add_results(self):		
+
 		self.results = self.data['results'].results
 		site_info = self.data['results'].site_info
 
@@ -134,6 +134,7 @@ class OutputJSON(Output):
 				'fingerprints': self.num_fps
 			},
 			'site_info': {
+				'url': self.options['url'],
 				'title': site_info['title'],
 				'cookies': [c for c in site_info['cookies']],
 				'ip': site_info['ip']
@@ -193,7 +194,7 @@ class OutputPrinter(Output):
 	def _set_col_2_width(self, results):		
 		self.col_widths[2] = 2 + max(
 			max([ len(i['headers'][2]['title']) for i in self.sections ]),							# length of section header titles
-			max([ len(self.seperator.join(results[c][p])) for c in results for p in results[c]] + [0]),	# length of version details from results
+			max([ len(self.seperator.join(results[c][p])) for c in results for p in results[c] ] + [0]),	# length of version details from results
 			len(self.stats['url_count'])															# length of status bar (urls)
 		)
 		
@@ -250,6 +251,14 @@ class OutputPrinter(Output):
 	def get_results(self):		
 
 		self.results = self.data['results'].get_results()
+		for category in self.results:
+			for name in self.results[category]:
+				versions = self.results[category][name]
+				if len(versions) > 5:
+					msg = '... (' + str(len(versions)-5) + ')'
+					self.results[category][name] = versions[:5] + [msg]
+
+		self.update_stats()
 		self._set_col_1_width(self.results)
 		self._set_col_2_width(self.results)
 		self._set_col_3_width(self.results)
