@@ -417,7 +417,7 @@
         "os_name": "FreeBSD",
         "os_version": "11",
         "pkg_name": "phpMyAdmin",
-        "pkg_version": "4.3.10"
+        "pkg_version": "4.3.11.1"
     },
     {
         "os_name": "FreeBSD",

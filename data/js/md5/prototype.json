@@ -1,8 +1,8 @@
 [
     {
         "info": "prototype.js",
-        "md5": "965fe52b851d8ff3c2b915ada9fb273f",
-        "output": "1.6.1.0",
+        "md5": "3b4b13dad33b475e11feb26fd3468ecc",
+        "output": "1.7.0.0",
         "url": ""
     },
     {
@@ -13,8 +13,8 @@
     },
     {
         "info": "prototype.js",
-        "md5": "3b4b13dad33b475e11feb26fd3468ecc",
-        "output": "1.7.0.0",
+        "md5": "b5684120e496c310977713be34be4868",
+        "output": "1.6.0.3",
         "url": ""
     },
     {
@@ -25,8 +25,8 @@
     },
     {
         "info": "prototype.js",
-        "md5": "b5684120e496c310977713be34be4868",
-        "output": "1.6.0.3",
+        "md5": "965fe52b851d8ff3c2b915ada9fb273f",
+        "output": "1.6.1.0",
         "url": ""
     },
     {
