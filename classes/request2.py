@@ -36,6 +36,7 @@ def _clean_page(page):
 	page = re.sub(b'(\d?\d:?){2,3}', b'',page)
 	page = re.sub(b'AM', b'',page, flags=re.IGNORECASE)
 	page = re.sub(b'PM', b'',page, flags=re.IGNORECASE)
+	page = re.sub(b'(\d){13}', b'', page) # timestamp
 
 	# date with 4 digit year
 	page = re.sub(b'(\d){8}', '',page)
