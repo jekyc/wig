@@ -72,7 +72,7 @@ optional arguments:
 ## Example of run:
 
 ```
-./wig.py example.com
+$ ./wig.py example.com
 
 dP   dP   dP    dP     .88888.
 88   88   88    88    d8'   `88
