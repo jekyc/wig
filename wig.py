@@ -28,6 +28,7 @@ class Wig(object):
 		
 		if args.input_file is not None:
 			interactive = False
+
 			with open(args.input_file,'r') as input_file:
 				urls = []
 				for url in input_file.readlines():
@@ -107,7 +108,6 @@ class Wig(object):
 
 		msg = 'Scanning %s...' % (self.options['url'])
 		print(self.data['colorizer'].format(msg, 'green', True))
-
 
 		
 		# load cache if this is not disabled
@@ -228,12 +228,18 @@ class Wig(object):
 		""" ------------------------------------ """
 
 
+	def reset(self):
+		self.data['results'] = Results(self.options)
+		self.data['cache'] = Cache()
+
 	def run(self):
 		
 		if self.options['urls'] is not None:
 			for url in self.options['urls']:
+				self.reset()
 				self.options['url'] = url.strip()
 				self.scan_site()
+
 		else:
 			self.scan_site()
 

@@ -128,7 +128,7 @@ class OutputJSON(Output):
 
 		site = {
 			'statistics': {
-				'start_time': None,
+				'start_time': self.data['timer'],
 				'run_time': self.data['runtime'],
 				'urls': self.data['url_count'],
 				'fingerprints': self.num_fps

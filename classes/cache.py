@@ -80,7 +80,7 @@ class Cache(queue.Queue):
 
 	def _get_name_for_cache_file(self):
 		# check if there already is an older version of the cache
-		# if there is, return the name of this file, such that,
+		# if there is, return the name of this file.
 		# it will be overwritten
 		if not os.path.exists(self.cache_dir):
 			os.makedirs(self.cache_dir)
