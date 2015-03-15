@@ -36,7 +36,7 @@ class Wig(object):
 			'stop_after': args.stop_after,
 			'no_cache_load': args.no_cache_load,
 			'no_cache_save': args.no_cache_save,
-			'write_file': args.write_file
+			'write_file': args.output_file
 		}
 
 		self.data = {
@@ -231,8 +231,8 @@ if __name__ == '__main__':
 	parser.add_argument('--proxy', dest='proxy', default=None, 
 						help='Tunnel through a proxy (format: localhost:8080)')
 
-	parser.add_argument('-w', dest='write_file', default=None, 
-						help='The file to dump results into.')
+	parser.add_argument('-w', dest='output_file', default=None, 
+						help='The file to dump results into (JSON)')
 
 	args = parser.parse_args()
 
