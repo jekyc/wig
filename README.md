@@ -42,9 +42,10 @@ The '-m' option tests all fingerprints against all fetched URLs, which is helpfu
 ## Help Screen
 
 ```
-usage: wig.py [-h] [-n STOP_AFTER] [-a] [-m] [-u] [--no_cache_load]
-              [--no_cache_save] [-N] [--verbosity] [--proxy PROXY]
-              url
+usage: wig.py [-h] [-l INPUT_FILE] [-n STOP_AFTER] [-a] [-m] [-u]
+              [--no_cache_load] [--no_cache_save] [-N] [--verbosity]
+              [--proxy PROXY] [-w OUTPUT_FILE]
+              [url]
 
 WebApp Information Gatherer
 
@@ -53,6 +54,7 @@ positional arguments:
 
 optional arguments:
   -h, --help       show this help message and exit
+  -l INPUT_FILE    File with urls, one per line.
   -n STOP_AFTER    Stop after this amount of CMSs have been detected. Default:
                    1
   -a               Do not stop after the first CMS is detected
@@ -63,6 +65,7 @@ optional arguments:
   -N               Shortcut for --no_cache_load and --no_cache_save
   --verbosity, -v  Increase verbosity. Use multiple times for more info
   --proxy PROXY    Tunnel through a proxy (format: localhost:8080)
+  -w OUTPUT_FILE   File to dump results into (JSON)
 ```
 
 
