@@ -166,6 +166,16 @@ class OutputJSON(Output):
 
 		self.json_data.append(site)
 
+	
+	def add_error(self, msg):
+		self.json_data.append({
+			'site_info': {
+				'url': self.options['url'],
+				'error': msg
+			}
+		})
+
+
 
 	def write_file(self):
 		file_name = self.options['write_file']

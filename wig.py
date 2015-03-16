@@ -87,7 +87,14 @@ class Wig(object):
 		except UnknownHostName as e:
 			error = self.data['colorizer'].format(e, 'red', False)
 			print(error)
-			sys.exit(1)
+
+			# fix for issue 8: https://github.com/jekyc/wig/issues/8
+			# Terminate gracefully if the url is not 
+			# resolvable
+			if self.options['write_file'] is not None:
+				self.json_outputter.add_error(str(e))
+			
+			return
 
 		if is_redirected:
 			hilight_host = self.data['colorizer'].format(new_url, 'red', False)
