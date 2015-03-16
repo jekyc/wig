@@ -160,8 +160,8 @@ class Response:
 		self.headers = {}
 		self.body = ''
 
-		self.md5 = ''
-		self.md5_404 = ''
+		self.md5 = None
+		self.md5_404 = None
 		self.should_be_error_page = False
 
 		chars = string.ascii_uppercase + string.digits

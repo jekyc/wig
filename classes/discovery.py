@@ -262,11 +262,21 @@ class DiscoverInteresting(object):
 		while results.qsize() > 0:
 			fps,response = results.get()
 			
-			redirected = response.md5_404 in self.error_pages
-			redirected = redirected or response.md5_404_text in self.error_pages
-			redirected = redirected or response.md5_404_text == self.cache[self.url].md5_404_text
+			# if the response includes a 404 md5, check if the response
+			# is a redirection to a known error page
+			# this is a fix for https://github.com/jekyc/wig/issues/7
+			if response.md5_404 is not None:
+				redirected = response.md5_404 in self.error_pages
+				redirected = redirected or (response.md5_404_text in self.error_pages)
+				redirected = redirected or (response.md5_404_text == self.cache[self.url].md5_404_text)
 
-			if redirected: continue
+				# if it is an error page, skip it
+				if redirected: continue
+
+			# if the response does not have a 404 md5, something most have gone wrong
+			# skip checking the page
+			else:
+				continue
 
 			for fp in self.matcher.get_result(fps, response):
 				self.result.add( self.category, None, None, fp, weight=1)
