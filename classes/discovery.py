@@ -400,6 +400,11 @@ class DiscoverMore(object):
 			if not 'content-type' in req.headers:
 				continue
 
+			# skip responses that have been discovered 
+			# with 'DiscoverMore'
+			if req.crawled_response:
+				continue
+
 			# only scrape pages that can contain links/references
 			if 'text/html' in req.headers['content-type']:
 				tmp = self._get_urls(req)

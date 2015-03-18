@@ -164,6 +164,8 @@ class Response:
 		self.md5_404 = None
 		self.should_be_error_page = False
 
+		self.crawled_response = False
+
 		chars = string.ascii_uppercase + string.digits
 		self.id = ''.join(random.choice(chars) for _ in range(16))
 
@@ -287,7 +289,7 @@ class Requester:
 		return (self.is_redirected, new_loc)
 
 
-	def request(self, fp_list):
+	def request(self, fp_list, run_type):
 		
 		url = fp_list[0]['url']
 		complete_url = urllib.parse.urljoin(self.url, url)
@@ -307,6 +309,10 @@ class Requester:
 				request = urllib.request.Request(complete_url)
 				response = opener.open(request)
 				R = _create_response(response)
+				
+				if run_type == 'DiscoverMore':
+					R.crawled_response = True
+
 				self.cache[complete_url] = R
 				self.cache[response.geturl()] = R
 			except Exception as e:
@@ -318,14 +324,14 @@ class Requester:
 
 
 
-	def run(self, run_type, fp_lists):
+	def run(self, run_type=None, fp_lists=[]):
 
 		with concurrent.futures.ThreadPoolExecutor(max_workers=self.threads) as executor:
 			
 			future_list = []
 
 			for fp_list in fp_lists:
-				future_list.append(executor.submit(self.request, fp_list))
+				future_list.append(executor.submit(self.request, fp_list, run_type))
 				
 			for future in concurrent.futures.as_completed(future_list):
 				self.requested.put(future.result())
