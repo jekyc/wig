@@ -4,21 +4,21 @@
 		"type": "string",
 		"match": "jQuery.extend(Drupal.settings",
 		"output": "",
-		"weight": 0.1
+		"weight": 0
 	},
 	{
 		"url": "/",
 		"type": "string",
 		"match": "<meta name=\"Generator\" content=\"Drupal",
 		"output": "",
-		"weight": 0.1
+		"weight": 0
 	},
 	{
 		"url": "/",
 		"type": "string",
 		"match": "/sites/default/files",
 		"output": "",
-		"weight": 0.1
+		"weight": 0
 	},
 	{
 		"url": "/none_existing_page_123",
@@ -26,7 +26,7 @@
 		"match": "<meta name=\"Generator\" content=\"Drupal",
 		"output": "" ,
 		"code": 404,
-		"weight": 0.1
+		"weight": 0
 	},
 	{
 		"url": "/none_existing_page_123",
@@ -34,14 +34,14 @@
 		"match": "jQuery.extend(Drupal.settings",
 		"output": "" ,
 		"code": 404,
-		"weight": 0.1
+		"weight": 0
 	},
 	{
 		"url": "/admin",
 		"type": "string",
 		"match": "<div class=\"content\"><form action=\"/admin?destination=admin\"",
 		"output": "",
-		"weight": 0.1,
+		"weight": 0,
 		"note": "Drupal administration page"
 	},
 	{
@@ -49,7 +49,7 @@
 		"type": "string",
 		"match": "<div class=\"block block-theme\"><form action=\"/admin\"  accept-charset=\"UTF-8\" method=\"post\" id=\"search-theme-form\">",
 		"output": "",
-		"weight": 0.1,
+		"weight": 0,
 		"note": "Drupal administration page"
 	},
 	{
@@ -57,7 +57,7 @@
 		"type": "string",
 		"match": "<form action=\"/user\"  accept-charset=\"UTF-8\" method=\"post\" id=\"user-login\">",
 		"output": "",
-		"weight": 0.1,
+		"weight": 0,
 		"note": "Drupal user account page"
 	},
 	{
@@ -73,7 +73,7 @@
 		"type": "string",
 		"match": "<code>$update_free_access = FALSE;</code>.",
 		"output": "",
-		"weight": 0.1,
+		"weight": 0,
 		"note": "Drupal update file"
 	}
 ]
