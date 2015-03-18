@@ -290,13 +290,12 @@ class OutputPrinter(Output):
 			tmp = ''
 			for result in self.loop_results(section):
 				category, software, version = result
-
 				# this is a crappy hack to support the special case of vulnerabilities
 				# this needs to be redone!
 
 				if section == 'vulnerabilities':
 					col1 = ' '.join(list(software))
-					col2 = [' '.join(list(version['col2']))]
+					col2 = [version['col2']]
 					col3 = category % (version['col3'],)
 				else:
 					col1 = software
