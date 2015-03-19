@@ -1,171 +1,87 @@
 [
     {
+        "match": "3074c3c5fb7f6a2b17f59bdd5a608d52",
+        "output": "1.6.0.2",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
+        "match": "3074c3c5fb7f6a2b17f59bdd5a608d52",
+        "output": "1.6.0.3",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
+        "match": "3074c3c5fb7f6a2b17f59bdd5a608d52",
+        "output": "1.6.0.4",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
+        "match": "3660ca3e6d19782ec73265c12e7001dc",
+        "output": "1.6.0.10",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
+        "match": "3660ca3e6d19782ec73265c12e7001dc",
+        "output": "1.6.0.11",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
+        "match": "3660ca3e6d19782ec73265c12e7001dc",
+        "output": "1.6.0.12",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
+        "match": "3660ca3e6d19782ec73265c12e7001dc",
+        "output": "1.6.0.13",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
+        "match": "3660ca3e6d19782ec73265c12e7001dc",
+        "output": "1.6.0.14",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
+        "match": "3660ca3e6d19782ec73265c12e7001dc",
+        "output": "1.6.0.7",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
+        "match": "3660ca3e6d19782ec73265c12e7001dc",
+        "output": "1.6.0.8",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
+        "match": "3660ca3e6d19782ec73265c12e7001dc",
+        "output": "1.6.0.9",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
+        "match": "c8ea17e802b125819d1b956e12b6e1b9",
+        "output": "1.5.0.1",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
+        "match": "c8ea17e802b125819d1b956e12b6e1b9",
+        "output": "1.5.0.2",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
         "match": "caf04f330311ee7c7a7fb377568b4ded",
         "output": "1.5.0.0",
         "type": "md5",
         "url": "/img/logo.jpg"
-    },
-    {
-        "match": "eb062bd95318a7b2e2219feff697d16a",
-        "output": "1.5.0.0",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "91c8b43b387939abf025f4cb48eb8bec",
-        "output": "1.5.0.0",
-        "type": "md5",
-        "url": "/js/price.js"
-    },
-    {
-        "match": "46955deedd3846e4a1768d4de1e43c13",
-        "output": "1.5.0.0",
-        "type": "md5",
-        "url": "/js/admin-dnd.js"
-    },
-    {
-        "match": "c8ea17e802b125819d1b956e12b6e1b9",
-        "output": "1.5.0.1",
-        "type": "md5",
-        "url": "/img/logo.jpg"
-    },
-    {
-        "match": "61cfa7a05b0f0e902b8586ee787bc9af",
-        "output": "1.5.0.1",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "91c8b43b387939abf025f4cb48eb8bec",
-        "output": "1.5.0.1",
-        "type": "md5",
-        "url": "/js/price.js"
-    },
-    {
-        "match": "dffefd93c0cf56afd9acde362fa2c129",
-        "output": "1.5.0.1",
-        "type": "md5",
-        "url": "/js/admin-dnd.js"
-    },
-    {
-        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
-        "output": "1.5.0.13",
-        "type": "md5",
-        "url": "/img/logo.jpg"
-    },
-    {
-        "match": "fa7a963847a8c8be8ead77bb302d9dab",
-        "output": "1.5.0.13",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "9bdd7e635d3cf4f51d95ce9fa28f5669",
-        "output": "1.5.0.13",
-        "type": "md5",
-        "url": "/js/price.js"
-    },
-    {
-        "match": "fa52d7bc35dca0a779f573372053bf1a",
-        "output": "1.5.0.13",
-        "type": "md5",
-        "url": "/js/admin-dnd.js"
-    },
-    {
-        "match": "afb5ecbbf78b6c51ee8c1e00de969539",
-        "output": "1.5.0.13",
-        "type": "md5",
-        "url": "/themes/default/css/global.css"
-    },
-    {
-        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
-        "output": "1.5.0.15",
-        "type": "md5",
-        "url": "/img/logo.jpg"
-    },
-    {
-        "match": "efac8b9c04c68b4c174d0ece6e72f396",
-        "output": "1.5.0.15",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "9bdd7e635d3cf4f51d95ce9fa28f5669",
-        "output": "1.5.0.15",
-        "type": "md5",
-        "url": "/js/price.js"
-    },
-    {
-        "match": "fa52d7bc35dca0a779f573372053bf1a",
-        "output": "1.5.0.15",
-        "type": "md5",
-        "url": "/js/admin-dnd.js"
-    },
-    {
-        "match": "8bae1b600d937244d174756fec218a3a",
-        "output": "1.5.0.15",
-        "type": "md5",
-        "url": "/themes/default/css/global.css"
-    },
-    {
-        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
-        "output": "1.5.0.17",
-        "type": "md5",
-        "url": "/img/logo.jpg"
-    },
-    {
-        "match": "efac8b9c04c68b4c174d0ece6e72f396",
-        "output": "1.5.0.17",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "127c6ffb288278bb6db2b6a05e1ba39c",
-        "output": "1.5.0.17",
-        "type": "md5",
-        "url": "/js/price.js"
-    },
-    {
-        "match": "fa52d7bc35dca0a779f573372053bf1a",
-        "output": "1.5.0.17",
-        "type": "md5",
-        "url": "/js/admin-dnd.js"
-    },
-    {
-        "match": "02d6a32a6313a0fad35f568b8f9be24d",
-        "output": "1.5.0.17",
-        "type": "md5",
-        "url": "/themes/default/css/global.css"
-    },
-    {
-        "match": "c8ea17e802b125819d1b956e12b6e1b9",
-        "output": "1.5.0.2",
-        "type": "md5",
-        "url": "/img/logo.jpg"
-    },
-    {
-        "match": "5467a00cfcb578f5315c6ee624555bdf",
-        "output": "1.5.0.2",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "2dd42db4f69e5f7f94147e5e9cb8e0aa",
-        "output": "1.5.0.2",
-        "type": "md5",
-        "url": "/js/price.js"
-    },
-    {
-        "match": "dffefd93c0cf56afd9acde362fa2c129",
-        "output": "1.5.0.2",
-        "type": "md5",
-        "url": "/js/admin-dnd.js"
-    },
-    {
-        "match": "946f7e071ca29cb42ed7dcf69a46f1d6",
-        "output": "1.5.0.2",
-        "type": "md5",
-        "url": "/themes/default/css/global.css"
     },
     {
         "match": "e0783b0e700e1e9042d508f65500839b",
@@ -174,388 +90,16 @@
         "url": "/img/logo.jpg"
     },
     {
-        "match": "03ecde8c686e4dbd23ec314dc31499c5",
-        "output": "1.5.0.3",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "65fa9e79c35c38ebb294d81798080d86",
-        "output": "1.5.0.3",
-        "type": "md5",
-        "url": "/js/price.js"
-    },
-    {
-        "match": "dffefd93c0cf56afd9acde362fa2c129",
-        "output": "1.5.0.3",
-        "type": "md5",
-        "url": "/js/admin-dnd.js"
-    },
-    {
-        "match": "946f7e071ca29cb42ed7dcf69a46f1d6",
-        "output": "1.5.0.3",
-        "type": "md5",
-        "url": "/themes/default/css/global.css"
-    },
-    {
-        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
-        "output": "1.5.0.5",
+        "match": "e0c68c1abb691e9aa25604d47181b654",
+        "output": "1.6.0.5",
         "type": "md5",
         "url": "/img/logo.jpg"
     },
     {
-        "match": "293e9feacccb704ecac3df031df01af7",
-        "output": "1.5.0.5",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "e9ba65188963562ddb6fad7582b60f56",
-        "output": "1.5.0.5",
-        "type": "md5",
-        "url": "/js/price.js"
-    },
-    {
-        "match": "dffefd93c0cf56afd9acde362fa2c129",
-        "output": "1.5.0.5",
-        "type": "md5",
-        "url": "/js/admin-dnd.js"
-    },
-    {
-        "match": "5c6da1ce7125ce075bc20610e8b15240",
-        "output": "1.5.0.5",
-        "type": "md5",
-        "url": "/themes/default/css/global.css"
-    },
-    {
-        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
-        "output": "1.5.0.9",
+        "match": "e0c68c1abb691e9aa25604d47181b654",
+        "output": "1.6.0.6",
         "type": "md5",
         "url": "/img/logo.jpg"
-    },
-    {
-        "match": "a95214714801dfc6ee6f4106da949888",
-        "output": "1.5.0.9",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "9bdd7e635d3cf4f51d95ce9fa28f5669",
-        "output": "1.5.0.9",
-        "type": "md5",
-        "url": "/js/price.js"
-    },
-    {
-        "match": "0b06a1252858c55f684e52110dd8edca",
-        "output": "1.5.0.9",
-        "type": "md5",
-        "url": "/js/admin-dnd.js"
-    },
-    {
-        "match": "3c54da54b26bfe62cc3ed03f87427f2c",
-        "output": "1.5.0.9",
-        "type": "md5",
-        "url": "/themes/default/css/global.css"
-    },
-    {
-        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
-        "output": "1.5.1.0",
-        "type": "md5",
-        "url": "/img/logo.jpg"
-    },
-    {
-        "match": "24930fdc8afe50d17c9804a45b4396f2",
-        "output": "1.5.1.0",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "127c6ffb288278bb6db2b6a05e1ba39c",
-        "output": "1.5.1.0",
-        "type": "md5",
-        "url": "/js/price.js"
-    },
-    {
-        "match": "fa52d7bc35dca0a779f573372053bf1a",
-        "output": "1.5.1.0",
-        "type": "md5",
-        "url": "/js/admin-dnd.js"
-    },
-    {
-        "match": "06b9a3f075fa86d0ccbbaf57bfc27e86",
-        "output": "1.5.1.0",
-        "type": "md5",
-        "url": "/themes/default/css/global.css"
-    },
-    {
-        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
-        "output": "1.5.2.0",
-        "type": "md5",
-        "url": "/img/logo.jpg"
-    },
-    {
-        "match": "24930fdc8afe50d17c9804a45b4396f2",
-        "output": "1.5.2.0",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "ea83118076f018abb799ab60079973e7",
-        "output": "1.5.2.0",
-        "type": "md5",
-        "url": "/js/price.js"
-    },
-    {
-        "match": "fa52d7bc35dca0a779f573372053bf1a",
-        "output": "1.5.2.0",
-        "type": "md5",
-        "url": "/js/admin-dnd.js"
-    },
-    {
-        "match": "bda9a94ddd3e7ee677391141d8414083",
-        "output": "1.5.2.0",
-        "type": "md5",
-        "url": "/themes/default/css/global.css"
-    },
-    {
-        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
-        "output": "1.5.3.0",
-        "type": "md5",
-        "url": "/img/logo.jpg"
-    },
-    {
-        "match": "fd7c71fd669ac9ca98a919cec3baa845",
-        "output": "1.5.3.0",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "9b2796686fffdec8b636382f9fc5825c",
-        "output": "1.5.3.0",
-        "type": "md5",
-        "url": "/js/price.js"
-    },
-    {
-        "match": "25c65cfad6009d80802d3af76785f408",
-        "output": "1.5.3.0",
-        "type": "md5",
-        "url": "/js/admin-dnd.js"
-    },
-    {
-        "match": "f68d184d003e8c196470a61116f154c3",
-        "output": "1.5.3.0",
-        "type": "md5",
-        "url": "/themes/default/css/global.css"
-    },
-    {
-        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
-        "output": "1.5.3.1",
-        "type": "md5",
-        "url": "/img/logo.jpg"
-    },
-    {
-        "match": "8ea077fa19a112915f290ea194f74b36",
-        "output": "1.5.3.1",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "9b2796686fffdec8b636382f9fc5825c",
-        "output": "1.5.3.1",
-        "type": "md5",
-        "url": "/js/price.js"
-    },
-    {
-        "match": "25c65cfad6009d80802d3af76785f408",
-        "output": "1.5.3.1",
-        "type": "md5",
-        "url": "/js/admin-dnd.js"
-    },
-    {
-        "match": "55fa814e34648712ed5938dd2b415598",
-        "output": "1.5.3.1",
-        "type": "md5",
-        "url": "/themes/default/css/global.css"
-    },
-    {
-        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
-        "output": "1.5.4.0",
-        "type": "md5",
-        "url": "/img/logo.jpg"
-    },
-    {
-        "match": "e61b48940d58a5f0f497eab63e6d740c",
-        "output": "1.5.4.0",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "1f524e66cfd3c3e6b0b794fc77d5c4a3",
-        "output": "1.5.4.0",
-        "type": "md5",
-        "url": "/js/price.js"
-    },
-    {
-        "match": "e69fea0acc8b08263e9b0766ac661367",
-        "output": "1.5.4.0",
-        "type": "md5",
-        "url": "/js/admin-dnd.js"
-    },
-    {
-        "match": "5d324dc6c59990c0a3a96d6d2c854a3c",
-        "output": "1.5.4.0",
-        "type": "md5",
-        "url": "/themes/default/css/global.css"
-    },
-    {
-        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
-        "output": "1.5.4.1",
-        "type": "md5",
-        "url": "/img/logo.jpg"
-    },
-    {
-        "match": "e61b48940d58a5f0f497eab63e6d740c",
-        "output": "1.5.4.1",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "1f524e66cfd3c3e6b0b794fc77d5c4a3",
-        "output": "1.5.4.1",
-        "type": "md5",
-        "url": "/js/price.js"
-    },
-    {
-        "match": "e69fea0acc8b08263e9b0766ac661367",
-        "output": "1.5.4.1",
-        "type": "md5",
-        "url": "/js/admin-dnd.js"
-    },
-    {
-        "match": "6fb2cc075e63cd9e8bdfe77db4372f02",
-        "output": "1.5.4.1",
-        "type": "md5",
-        "url": "/themes/default/css/global.css"
-    },
-    {
-        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
-        "output": "1.5.5.0",
-        "type": "md5",
-        "url": "/img/logo.jpg"
-    },
-    {
-        "match": "07284b5070e5921575052e7437ac3717",
-        "output": "1.5.5.0",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "1f524e66cfd3c3e6b0b794fc77d5c4a3",
-        "output": "1.5.5.0",
-        "type": "md5",
-        "url": "/js/price.js"
-    },
-    {
-        "match": "e69fea0acc8b08263e9b0766ac661367",
-        "output": "1.5.5.0",
-        "type": "md5",
-        "url": "/js/admin-dnd.js"
-    },
-    {
-        "match": "8c473ff22a43317b8df678741cb9c908",
-        "output": "1.5.5.0",
-        "type": "md5",
-        "url": "/themes/default/css/global.css"
-    },
-    {
-        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
-        "output": "1.5.6.0",
-        "type": "md5",
-        "url": "/img/logo.jpg"
-    },
-    {
-        "match": "db736501a09493c3c6c1e0de2925cdb6",
-        "output": "1.5.6.0",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "1f524e66cfd3c3e6b0b794fc77d5c4a3",
-        "output": "1.5.6.0",
-        "type": "md5",
-        "url": "/js/price.js"
-    },
-    {
-        "match": "e69fea0acc8b08263e9b0766ac661367",
-        "output": "1.5.6.0",
-        "type": "md5",
-        "url": "/js/admin-dnd.js"
-    },
-    {
-        "match": "8c473ff22a43317b8df678741cb9c908",
-        "output": "1.5.6.0",
-        "type": "md5",
-        "url": "/themes/default/css/global.css"
-    },
-    {
-        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
-        "output": "1.5.6.1",
-        "type": "md5",
-        "url": "/img/logo.jpg"
-    },
-    {
-        "match": "73611b15174d9be43e26a890fbf9bb16",
-        "output": "1.5.6.1",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "1f524e66cfd3c3e6b0b794fc77d5c4a3",
-        "output": "1.5.6.1",
-        "type": "md5",
-        "url": "/js/price.js"
-    },
-    {
-        "match": "e69fea0acc8b08263e9b0766ac661367",
-        "output": "1.5.6.1",
-        "type": "md5",
-        "url": "/js/admin-dnd.js"
-    },
-    {
-        "match": "8c473ff22a43317b8df678741cb9c908",
-        "output": "1.5.6.1",
-        "type": "md5",
-        "url": "/themes/default/css/global.css"
-    },
-    {
-        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
-        "output": "1.5.6.2",
-        "type": "md5",
-        "url": "/img/logo.jpg"
-    },
-    {
-        "match": "714f5241e85a2cc1074ee63d153545d9",
-        "output": "1.5.6.2",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "1f524e66cfd3c3e6b0b794fc77d5c4a3",
-        "output": "1.5.6.2",
-        "type": "md5",
-        "url": "/js/price.js"
-    },
-    {
-        "match": "e69fea0acc8b08263e9b0766ac661367",
-        "output": "1.5.6.2",
-        "type": "md5",
-        "url": "/js/admin-dnd.js"
-    },
-    {
-        "match": "8c473ff22a43317b8df678741cb9c908",
-        "output": "1.5.6.2",
-        "type": "md5",
-        "url": "/themes/default/css/global.css"
     },
     {
         "match": "e96f488ee8e2d36b795d3601ab00a048",
@@ -564,76 +108,148 @@
         "url": "/img/logo.jpg"
     },
     {
-        "match": "7c4f741a200105502760e3239e3712b8",
-        "output": "1.6.0.1",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "1f524e66cfd3c3e6b0b794fc77d5c4a3",
-        "output": "1.6.0.1",
-        "type": "md5",
-        "url": "/js/price.js"
-    },
-    {
-        "match": "e69fea0acc8b08263e9b0766ac661367",
-        "output": "1.6.0.1",
-        "type": "md5",
-        "url": "/js/admin-dnd.js"
-    },
-    {
-        "match": "59631aea19a1fdff68c2eaa59e2f4111",
-        "output": "1.6.0.1",
-        "type": "md5",
-        "url": "/themes/default-bootstrap/css/global.css"
-    },
-    {
-        "match": "3660ca3e6d19782ec73265c12e7001dc",
-        "output": "1.6.0.10",
+        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
+        "output": "1.5.0.13",
         "type": "md5",
         "url": "/img/logo.jpg"
     },
     {
-        "match": "c6aeccfc3d9160a3afc061abdc99cfb0",
-        "output": "1.6.0.10",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "ab515c03e3812198a0603b442b215272",
-        "output": "1.6.0.10",
-        "type": "md5",
-        "url": "/js/price.js"
-    },
-    {
-        "match": "ee12b40ac4f094f525de729417e7ef15",
-        "output": "1.6.0.10",
-        "type": "md5",
-        "url": "/js/admin-dnd.js"
-    },
-    {
-        "match": "a94984030783126ab14a23df96307d8a",
-        "output": "1.6.0.10",
-        "type": "md5",
-        "url": "/themes/default-bootstrap/css/global.css"
-    },
-    {
-        "match": "3660ca3e6d19782ec73265c12e7001dc",
-        "output": "1.6.0.11",
+        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
+        "output": "1.5.0.15",
         "type": "md5",
         "url": "/img/logo.jpg"
     },
     {
-        "match": "7ad7e4030d0fd557bff90b60e2531761",
-        "output": "1.6.0.11",
+        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
+        "output": "1.5.0.17",
         "type": "md5",
-        "url": "/js/admin.js"
+        "url": "/img/logo.jpg"
     },
     {
-        "match": "38a0dd6b354598abe5a7ab7ae0bc103d",
-        "output": "1.6.0.11",
+        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
+        "output": "1.5.0.5",
         "type": "md5",
-        "url": "/js/price.js"
+        "url": "/img/logo.jpg"
+    },
+    {
+        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
+        "output": "1.5.0.9",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
+        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
+        "output": "1.5.1.0",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
+        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
+        "output": "1.5.2.0",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
+        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
+        "output": "1.5.3.0",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
+        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
+        "output": "1.5.3.1",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
+        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
+        "output": "1.5.4.0",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
+        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
+        "output": "1.5.4.1",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
+        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
+        "output": "1.5.5.0",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
+        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
+        "output": "1.5.6.0",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
+        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
+        "output": "1.5.6.1",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
+        "match": "ff51f17dc9fa99007e9f93fd75aa802f",
+        "output": "1.5.6.2",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
+        "match": "0b06a1252858c55f684e52110dd8edca",
+        "output": "1.5.0.9",
+        "type": "md5",
+        "url": "/js/admin-dnd.js"
+    },
+    {
+        "match": "25c65cfad6009d80802d3af76785f408",
+        "output": "1.5.3.0",
+        "type": "md5",
+        "url": "/js/admin-dnd.js"
+    },
+    {
+        "match": "25c65cfad6009d80802d3af76785f408",
+        "output": "1.5.3.1",
+        "type": "md5",
+        "url": "/js/admin-dnd.js"
+    },
+    {
+        "match": "46955deedd3846e4a1768d4de1e43c13",
+        "output": "1.5.0.0",
+        "type": "md5",
+        "url": "/js/admin-dnd.js"
+    },
+    {
+        "match": "c8830faf1c083f4cf976690eea090c5e",
+        "output": "1.6.0.4",
+        "type": "md5",
+        "url": "/js/admin-dnd.js"
+    },
+    {
+        "match": "c8830faf1c083f4cf976690eea090c5e",
+        "output": "1.6.0.5",
+        "type": "md5",
+        "url": "/js/admin-dnd.js"
+    },
+    {
+        "match": "c8830faf1c083f4cf976690eea090c5e",
+        "output": "1.6.0.6",
+        "type": "md5",
+        "url": "/js/admin-dnd.js"
+    },
+    {
+        "match": "c8830faf1c083f4cf976690eea090c5e",
+        "output": "1.6.0.7",
+        "type": "md5",
+        "url": "/js/admin-dnd.js"
+    },
+    {
+        "match": "c8830faf1c083f4cf976690eea090c5e",
+        "output": "1.6.0.8",
+        "type": "md5",
+        "url": "/js/admin-dnd.js"
     },
     {
         "match": "cb59615f63af15dba18d0bd06048b0e5",
@@ -642,112 +258,28 @@
         "url": "/js/admin-dnd.js"
     },
     {
-        "match": "0dbdbbcef3ead2c7610dbe7991c230f4",
-        "output": "1.6.0.11",
-        "type": "md5",
-        "url": "/themes/default-bootstrap/css/global.css"
-    },
-    {
-        "match": "3660ca3e6d19782ec73265c12e7001dc",
-        "output": "1.6.0.12",
-        "type": "md5",
-        "url": "/img/logo.jpg"
-    },
-    {
-        "match": "0ba6208080e432f9a30dba6d6b893aec",
-        "output": "1.6.0.12",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "e726420b3a11b4bac97190763818988c",
-        "output": "1.6.0.12",
-        "type": "md5",
-        "url": "/themes/default-bootstrap/css/global.css"
-    },
-    {
-        "match": "3660ca3e6d19782ec73265c12e7001dc",
-        "output": "1.6.0.13",
-        "type": "md5",
-        "url": "/img/logo.jpg"
-    },
-    {
-        "match": "0ba6208080e432f9a30dba6d6b893aec",
-        "output": "1.6.0.13",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "e726420b3a11b4bac97190763818988c",
-        "output": "1.6.0.13",
-        "type": "md5",
-        "url": "/themes/default-bootstrap/css/global.css"
-    },
-    {
-        "match": "3660ca3e6d19782ec73265c12e7001dc",
-        "output": "1.6.0.14",
-        "type": "md5",
-        "url": "/img/logo.jpg"
-    },
-    {
-        "match": "0ba6208080e432f9a30dba6d6b893aec",
-        "output": "1.6.0.14",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "e726420b3a11b4bac97190763818988c",
-        "output": "1.6.0.14",
-        "type": "md5",
-        "url": "/themes/default-bootstrap/css/global.css"
-    },
-    {
-        "match": "3074c3c5fb7f6a2b17f59bdd5a608d52",
-        "output": "1.6.0.2",
-        "type": "md5",
-        "url": "/img/logo.jpg"
-    },
-    {
-        "match": "1187ce7b0b04587fcf86c9341507d462",
-        "output": "1.6.0.2",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "1f524e66cfd3c3e6b0b794fc77d5c4a3",
-        "output": "1.6.0.2",
-        "type": "md5",
-        "url": "/js/price.js"
-    },
-    {
-        "match": "e69fea0acc8b08263e9b0766ac661367",
-        "output": "1.6.0.2",
+        "match": "dffefd93c0cf56afd9acde362fa2c129",
+        "output": "1.5.0.1",
         "type": "md5",
         "url": "/js/admin-dnd.js"
     },
     {
-        "match": "3f53e3d548502a80847e629308a72149",
-        "output": "1.6.0.2",
+        "match": "dffefd93c0cf56afd9acde362fa2c129",
+        "output": "1.5.0.2",
         "type": "md5",
-        "url": "/themes/default-bootstrap/css/global.css"
+        "url": "/js/admin-dnd.js"
     },
     {
-        "match": "3074c3c5fb7f6a2b17f59bdd5a608d52",
-        "output": "1.6.0.3",
+        "match": "dffefd93c0cf56afd9acde362fa2c129",
+        "output": "1.5.0.3",
         "type": "md5",
-        "url": "/img/logo.jpg"
+        "url": "/js/admin-dnd.js"
     },
     {
-        "match": "34ce3e3d4127c5b42cf981cc99e4ced8",
-        "output": "1.6.0.3",
+        "match": "dffefd93c0cf56afd9acde362fa2c129",
+        "output": "1.5.0.5",
         "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "663484fe13d01f38d1fd3b7851788cc4",
-        "output": "1.6.0.3",
-        "type": "md5",
-        "url": "/js/price.js"
+        "url": "/js/admin-dnd.js"
     },
     {
         "match": "e648bb5cf9c61aa2f8e710f90dfa650c",
@@ -756,178 +288,58 @@
         "url": "/js/admin-dnd.js"
     },
     {
-        "match": "5a0ab1880a74fad2bef5e579afaecaf0",
-        "output": "1.6.0.3",
-        "type": "md5",
-        "url": "/themes/default-bootstrap/css/global.css"
-    },
-    {
-        "match": "3074c3c5fb7f6a2b17f59bdd5a608d52",
-        "output": "1.6.0.4",
-        "type": "md5",
-        "url": "/img/logo.jpg"
-    },
-    {
-        "match": "05624968db176128709b43226f361149",
-        "output": "1.6.0.4",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "663484fe13d01f38d1fd3b7851788cc4",
-        "output": "1.6.0.4",
-        "type": "md5",
-        "url": "/js/price.js"
-    },
-    {
-        "match": "c8830faf1c083f4cf976690eea090c5e",
-        "output": "1.6.0.4",
+        "match": "e69fea0acc8b08263e9b0766ac661367",
+        "output": "1.5.4.0",
         "type": "md5",
         "url": "/js/admin-dnd.js"
     },
     {
-        "match": "dfc4ecb1e56f0a880a64fb8417d63aa0",
-        "output": "1.6.0.4",
-        "type": "md5",
-        "url": "/themes/default-bootstrap/css/global.css"
-    },
-    {
-        "match": "e0c68c1abb691e9aa25604d47181b654",
-        "output": "1.6.0.5",
-        "type": "md5",
-        "url": "/img/logo.jpg"
-    },
-    {
-        "match": "1db0fb2115e56c42737b6c20535fe63e",
-        "output": "1.6.0.5",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "663484fe13d01f38d1fd3b7851788cc4",
-        "output": "1.6.0.5",
-        "type": "md5",
-        "url": "/js/price.js"
-    },
-    {
-        "match": "c8830faf1c083f4cf976690eea090c5e",
-        "output": "1.6.0.5",
+        "match": "e69fea0acc8b08263e9b0766ac661367",
+        "output": "1.5.4.1",
         "type": "md5",
         "url": "/js/admin-dnd.js"
     },
     {
-        "match": "ef63598dd6a1819685ac9b9070013fbc",
-        "output": "1.6.0.5",
-        "type": "md5",
-        "url": "/themes/default-bootstrap/css/global.css"
-    },
-    {
-        "match": "e0c68c1abb691e9aa25604d47181b654",
-        "output": "1.6.0.6",
-        "type": "md5",
-        "url": "/img/logo.jpg"
-    },
-    {
-        "match": "040efcb82656e6642b57808564f04b83",
-        "output": "1.6.0.6",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "663484fe13d01f38d1fd3b7851788cc4",
-        "output": "1.6.0.6",
-        "type": "md5",
-        "url": "/js/price.js"
-    },
-    {
-        "match": "c8830faf1c083f4cf976690eea090c5e",
-        "output": "1.6.0.6",
+        "match": "e69fea0acc8b08263e9b0766ac661367",
+        "output": "1.5.5.0",
         "type": "md5",
         "url": "/js/admin-dnd.js"
     },
     {
-        "match": "5774d78fa1a2a9fedd7d5507839fa700",
-        "output": "1.6.0.6",
-        "type": "md5",
-        "url": "/themes/default-bootstrap/css/global.css"
-    },
-    {
-        "match": "3660ca3e6d19782ec73265c12e7001dc",
-        "output": "1.6.0.7",
-        "type": "md5",
-        "url": "/img/logo.jpg"
-    },
-    {
-        "match": "342a8e0d82e5ab4726a9ab65987332f2",
-        "output": "1.6.0.7",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "cbfb4f061db81d8e37bc341cbae0c985",
-        "output": "1.6.0.7",
-        "type": "md5",
-        "url": "/js/price.js"
-    },
-    {
-        "match": "c8830faf1c083f4cf976690eea090c5e",
-        "output": "1.6.0.7",
+        "match": "e69fea0acc8b08263e9b0766ac661367",
+        "output": "1.5.6.0",
         "type": "md5",
         "url": "/js/admin-dnd.js"
     },
     {
-        "match": "e7c895b586b5e00c5849974cc4f8f4fd",
-        "output": "1.6.0.7",
-        "type": "md5",
-        "url": "/themes/default-bootstrap/css/global.css"
-    },
-    {
-        "match": "3660ca3e6d19782ec73265c12e7001dc",
-        "output": "1.6.0.8",
-        "type": "md5",
-        "url": "/img/logo.jpg"
-    },
-    {
-        "match": "342a8e0d82e5ab4726a9ab65987332f2",
-        "output": "1.6.0.8",
-        "type": "md5",
-        "url": "/js/admin.js"
-    },
-    {
-        "match": "cbfb4f061db81d8e37bc341cbae0c985",
-        "output": "1.6.0.8",
-        "type": "md5",
-        "url": "/js/price.js"
-    },
-    {
-        "match": "c8830faf1c083f4cf976690eea090c5e",
-        "output": "1.6.0.8",
+        "match": "e69fea0acc8b08263e9b0766ac661367",
+        "output": "1.5.6.1",
         "type": "md5",
         "url": "/js/admin-dnd.js"
     },
     {
-        "match": "e7c895b586b5e00c5849974cc4f8f4fd",
-        "output": "1.6.0.8",
+        "match": "e69fea0acc8b08263e9b0766ac661367",
+        "output": "1.5.6.2",
         "type": "md5",
-        "url": "/themes/default-bootstrap/css/global.css"
+        "url": "/js/admin-dnd.js"
     },
     {
-        "match": "3660ca3e6d19782ec73265c12e7001dc",
-        "output": "1.6.0.9",
+        "match": "e69fea0acc8b08263e9b0766ac661367",
+        "output": "1.6.0.1",
         "type": "md5",
-        "url": "/img/logo.jpg"
+        "url": "/js/admin-dnd.js"
     },
     {
-        "match": "b96227dc7c4c2542068059004f43c4a6",
-        "output": "1.6.0.9",
+        "match": "e69fea0acc8b08263e9b0766ac661367",
+        "output": "1.6.0.2",
         "type": "md5",
-        "url": "/js/admin.js"
+        "url": "/js/admin-dnd.js"
     },
     {
-        "match": "cbfb4f061db81d8e37bc341cbae0c985",
-        "output": "1.6.0.9",
+        "match": "ee12b40ac4f094f525de729417e7ef15",
+        "output": "1.6.0.10",
         "type": "md5",
-        "url": "/js/price.js"
+        "url": "/js/admin-dnd.js"
     },
     {
         "match": "ee12b40ac4f094f525de729417e7ef15",
@@ -936,9 +348,597 @@
         "url": "/js/admin-dnd.js"
     },
     {
+        "match": "fa52d7bc35dca0a779f573372053bf1a",
+        "output": "1.5.0.13",
+        "type": "md5",
+        "url": "/js/admin-dnd.js"
+    },
+    {
+        "match": "fa52d7bc35dca0a779f573372053bf1a",
+        "output": "1.5.0.15",
+        "type": "md5",
+        "url": "/js/admin-dnd.js"
+    },
+    {
+        "match": "fa52d7bc35dca0a779f573372053bf1a",
+        "output": "1.5.0.17",
+        "type": "md5",
+        "url": "/js/admin-dnd.js"
+    },
+    {
+        "match": "fa52d7bc35dca0a779f573372053bf1a",
+        "output": "1.5.1.0",
+        "type": "md5",
+        "url": "/js/admin-dnd.js"
+    },
+    {
+        "match": "fa52d7bc35dca0a779f573372053bf1a",
+        "output": "1.5.2.0",
+        "type": "md5",
+        "url": "/js/admin-dnd.js"
+    },
+    {
+        "match": "03ecde8c686e4dbd23ec314dc31499c5",
+        "output": "1.5.0.3",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "040efcb82656e6642b57808564f04b83",
+        "output": "1.6.0.6",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "05624968db176128709b43226f361149",
+        "output": "1.6.0.4",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "07284b5070e5921575052e7437ac3717",
+        "output": "1.5.5.0",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "0ba6208080e432f9a30dba6d6b893aec",
+        "output": "1.6.0.12",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "0ba6208080e432f9a30dba6d6b893aec",
+        "output": "1.6.0.13",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "0ba6208080e432f9a30dba6d6b893aec",
+        "output": "1.6.0.14",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "1187ce7b0b04587fcf86c9341507d462",
+        "output": "1.6.0.2",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "1db0fb2115e56c42737b6c20535fe63e",
+        "output": "1.6.0.5",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "24930fdc8afe50d17c9804a45b4396f2",
+        "output": "1.5.1.0",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "24930fdc8afe50d17c9804a45b4396f2",
+        "output": "1.5.2.0",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "293e9feacccb704ecac3df031df01af7",
+        "output": "1.5.0.5",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "342a8e0d82e5ab4726a9ab65987332f2",
+        "output": "1.6.0.7",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "342a8e0d82e5ab4726a9ab65987332f2",
+        "output": "1.6.0.8",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "34ce3e3d4127c5b42cf981cc99e4ced8",
+        "output": "1.6.0.3",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "5467a00cfcb578f5315c6ee624555bdf",
+        "output": "1.5.0.2",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "61cfa7a05b0f0e902b8586ee787bc9af",
+        "output": "1.5.0.1",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "714f5241e85a2cc1074ee63d153545d9",
+        "output": "1.5.6.2",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "73611b15174d9be43e26a890fbf9bb16",
+        "output": "1.5.6.1",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "7ad7e4030d0fd557bff90b60e2531761",
+        "output": "1.6.0.11",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "7c4f741a200105502760e3239e3712b8",
+        "output": "1.6.0.1",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "8ea077fa19a112915f290ea194f74b36",
+        "output": "1.5.3.1",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "a95214714801dfc6ee6f4106da949888",
+        "output": "1.5.0.9",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "b96227dc7c4c2542068059004f43c4a6",
+        "output": "1.6.0.9",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "c6aeccfc3d9160a3afc061abdc99cfb0",
+        "output": "1.6.0.10",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "db736501a09493c3c6c1e0de2925cdb6",
+        "output": "1.5.6.0",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "e61b48940d58a5f0f497eab63e6d740c",
+        "output": "1.5.4.0",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "e61b48940d58a5f0f497eab63e6d740c",
+        "output": "1.5.4.1",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "eb062bd95318a7b2e2219feff697d16a",
+        "output": "1.5.0.0",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "efac8b9c04c68b4c174d0ece6e72f396",
+        "output": "1.5.0.15",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "efac8b9c04c68b4c174d0ece6e72f396",
+        "output": "1.5.0.17",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "fa7a963847a8c8be8ead77bb302d9dab",
+        "output": "1.5.0.13",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "fd7c71fd669ac9ca98a919cec3baa845",
+        "output": "1.5.3.0",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "127c6ffb288278bb6db2b6a05e1ba39c",
+        "output": "1.5.0.17",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "127c6ffb288278bb6db2b6a05e1ba39c",
+        "output": "1.5.1.0",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "1f524e66cfd3c3e6b0b794fc77d5c4a3",
+        "output": "1.5.4.0",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "1f524e66cfd3c3e6b0b794fc77d5c4a3",
+        "output": "1.5.4.1",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "1f524e66cfd3c3e6b0b794fc77d5c4a3",
+        "output": "1.5.5.0",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "1f524e66cfd3c3e6b0b794fc77d5c4a3",
+        "output": "1.5.6.0",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "1f524e66cfd3c3e6b0b794fc77d5c4a3",
+        "output": "1.5.6.1",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "1f524e66cfd3c3e6b0b794fc77d5c4a3",
+        "output": "1.5.6.2",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "1f524e66cfd3c3e6b0b794fc77d5c4a3",
+        "output": "1.6.0.1",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "1f524e66cfd3c3e6b0b794fc77d5c4a3",
+        "output": "1.6.0.2",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "2dd42db4f69e5f7f94147e5e9cb8e0aa",
+        "output": "1.5.0.2",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "38a0dd6b354598abe5a7ab7ae0bc103d",
+        "output": "1.6.0.11",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "65fa9e79c35c38ebb294d81798080d86",
+        "output": "1.5.0.3",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "663484fe13d01f38d1fd3b7851788cc4",
+        "output": "1.6.0.3",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "663484fe13d01f38d1fd3b7851788cc4",
+        "output": "1.6.0.4",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "663484fe13d01f38d1fd3b7851788cc4",
+        "output": "1.6.0.5",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "663484fe13d01f38d1fd3b7851788cc4",
+        "output": "1.6.0.6",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "91c8b43b387939abf025f4cb48eb8bec",
+        "output": "1.5.0.0",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "91c8b43b387939abf025f4cb48eb8bec",
+        "output": "1.5.0.1",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "9b2796686fffdec8b636382f9fc5825c",
+        "output": "1.5.3.0",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "9b2796686fffdec8b636382f9fc5825c",
+        "output": "1.5.3.1",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "9bdd7e635d3cf4f51d95ce9fa28f5669",
+        "output": "1.5.0.13",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "9bdd7e635d3cf4f51d95ce9fa28f5669",
+        "output": "1.5.0.15",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "9bdd7e635d3cf4f51d95ce9fa28f5669",
+        "output": "1.5.0.9",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "ab515c03e3812198a0603b442b215272",
+        "output": "1.6.0.10",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "cbfb4f061db81d8e37bc341cbae0c985",
+        "output": "1.6.0.7",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "cbfb4f061db81d8e37bc341cbae0c985",
+        "output": "1.6.0.8",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "cbfb4f061db81d8e37bc341cbae0c985",
+        "output": "1.6.0.9",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "e9ba65188963562ddb6fad7582b60f56",
+        "output": "1.5.0.5",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "ea83118076f018abb799ab60079973e7",
+        "output": "1.5.2.0",
+        "type": "md5",
+        "url": "/js/price.js"
+    },
+    {
+        "match": "0dbdbbcef3ead2c7610dbe7991c230f4",
+        "output": "1.6.0.11",
+        "type": "md5",
+        "url": "/themes/default-bootstrap/css/global.css"
+    },
+    {
+        "match": "3f53e3d548502a80847e629308a72149",
+        "output": "1.6.0.2",
+        "type": "md5",
+        "url": "/themes/default-bootstrap/css/global.css"
+    },
+    {
+        "match": "5774d78fa1a2a9fedd7d5507839fa700",
+        "output": "1.6.0.6",
+        "type": "md5",
+        "url": "/themes/default-bootstrap/css/global.css"
+    },
+    {
+        "match": "59631aea19a1fdff68c2eaa59e2f4111",
+        "output": "1.6.0.1",
+        "type": "md5",
+        "url": "/themes/default-bootstrap/css/global.css"
+    },
+    {
+        "match": "5a0ab1880a74fad2bef5e579afaecaf0",
+        "output": "1.6.0.3",
+        "type": "md5",
+        "url": "/themes/default-bootstrap/css/global.css"
+    },
+    {
         "match": "a452d5f5916c6a512ac53b61e1b1d848",
         "output": "1.6.0.9",
         "type": "md5",
         "url": "/themes/default-bootstrap/css/global.css"
+    },
+    {
+        "match": "a94984030783126ab14a23df96307d8a",
+        "output": "1.6.0.10",
+        "type": "md5",
+        "url": "/themes/default-bootstrap/css/global.css"
+    },
+    {
+        "match": "dfc4ecb1e56f0a880a64fb8417d63aa0",
+        "output": "1.6.0.4",
+        "type": "md5",
+        "url": "/themes/default-bootstrap/css/global.css"
+    },
+    {
+        "match": "e726420b3a11b4bac97190763818988c",
+        "output": "1.6.0.12",
+        "type": "md5",
+        "url": "/themes/default-bootstrap/css/global.css"
+    },
+    {
+        "match": "e726420b3a11b4bac97190763818988c",
+        "output": "1.6.0.13",
+        "type": "md5",
+        "url": "/themes/default-bootstrap/css/global.css"
+    },
+    {
+        "match": "e726420b3a11b4bac97190763818988c",
+        "output": "1.6.0.14",
+        "type": "md5",
+        "url": "/themes/default-bootstrap/css/global.css"
+    },
+    {
+        "match": "e7c895b586b5e00c5849974cc4f8f4fd",
+        "output": "1.6.0.7",
+        "type": "md5",
+        "url": "/themes/default-bootstrap/css/global.css"
+    },
+    {
+        "match": "e7c895b586b5e00c5849974cc4f8f4fd",
+        "output": "1.6.0.8",
+        "type": "md5",
+        "url": "/themes/default-bootstrap/css/global.css"
+    },
+    {
+        "match": "ef63598dd6a1819685ac9b9070013fbc",
+        "output": "1.6.0.5",
+        "type": "md5",
+        "url": "/themes/default-bootstrap/css/global.css"
+    },
+    {
+        "match": "02d6a32a6313a0fad35f568b8f9be24d",
+        "output": "1.5.0.17",
+        "type": "md5",
+        "url": "/themes/default/css/global.css"
+    },
+    {
+        "match": "06b9a3f075fa86d0ccbbaf57bfc27e86",
+        "output": "1.5.1.0",
+        "type": "md5",
+        "url": "/themes/default/css/global.css"
+    },
+    {
+        "match": "3c54da54b26bfe62cc3ed03f87427f2c",
+        "output": "1.5.0.9",
+        "type": "md5",
+        "url": "/themes/default/css/global.css"
+    },
+    {
+        "match": "55fa814e34648712ed5938dd2b415598",
+        "output": "1.5.3.1",
+        "type": "md5",
+        "url": "/themes/default/css/global.css"
+    },
+    {
+        "match": "5c6da1ce7125ce075bc20610e8b15240",
+        "output": "1.5.0.5",
+        "type": "md5",
+        "url": "/themes/default/css/global.css"
+    },
+    {
+        "match": "5d324dc6c59990c0a3a96d6d2c854a3c",
+        "output": "1.5.4.0",
+        "type": "md5",
+        "url": "/themes/default/css/global.css"
+    },
+    {
+        "match": "6fb2cc075e63cd9e8bdfe77db4372f02",
+        "output": "1.5.4.1",
+        "type": "md5",
+        "url": "/themes/default/css/global.css"
+    },
+    {
+        "match": "8bae1b600d937244d174756fec218a3a",
+        "output": "1.5.0.15",
+        "type": "md5",
+        "url": "/themes/default/css/global.css"
+    },
+    {
+        "match": "8c473ff22a43317b8df678741cb9c908",
+        "output": "1.5.5.0",
+        "type": "md5",
+        "url": "/themes/default/css/global.css"
+    },
+    {
+        "match": "8c473ff22a43317b8df678741cb9c908",
+        "output": "1.5.6.0",
+        "type": "md5",
+        "url": "/themes/default/css/global.css"
+    },
+    {
+        "match": "8c473ff22a43317b8df678741cb9c908",
+        "output": "1.5.6.1",
+        "type": "md5",
+        "url": "/themes/default/css/global.css"
+    },
+    {
+        "match": "8c473ff22a43317b8df678741cb9c908",
+        "output": "1.5.6.2",
+        "type": "md5",
+        "url": "/themes/default/css/global.css"
+    },
+    {
+        "match": "946f7e071ca29cb42ed7dcf69a46f1d6",
+        "output": "1.5.0.2",
+        "type": "md5",
+        "url": "/themes/default/css/global.css"
+    },
+    {
+        "match": "946f7e071ca29cb42ed7dcf69a46f1d6",
+        "output": "1.5.0.3",
+        "type": "md5",
+        "url": "/themes/default/css/global.css"
+    },
+    {
+        "match": "afb5ecbbf78b6c51ee8c1e00de969539",
+        "output": "1.5.0.13",
+        "type": "md5",
+        "url": "/themes/default/css/global.css"
+    },
+    {
+        "match": "bda9a94ddd3e7ee677391141d8414083",
+        "output": "1.5.2.0",
+        "type": "md5",
+        "url": "/themes/default/css/global.css"
+    },
+    {
+        "match": "f68d184d003e8c196470a61116f154c3",
+        "output": "1.5.3.0",
+        "type": "md5",
+        "url": "/themes/default/css/global.css"
     }
 ]
