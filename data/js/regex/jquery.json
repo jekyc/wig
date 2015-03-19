@@ -1,10 +1,18 @@
 [
 	{
         "url": "",
-		"type": "reqex",
+		"type": "regex",
 		"match": "\\* jQuery ([\\d\\.?]+) ",
 		"output": "%s",
 		"code": 200,
 		"weight": 0.1
+	},
+	{
+        "url": "",
+		"type": "regex",
+		"match": " \\* jQuery JavaScript Library v([\\d\\.?]*)",
+		"output": "%s",
+		"code": 200,
+		"weight": 1
 	}
 ]
