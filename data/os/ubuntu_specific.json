@@ -8,6 +8,34 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "12.04",
+        "pkg_name": "php",
+        "pkg_version": "5.3.10-1ubuntu3.17",
+        "weight": 110
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "10.04",
+        "pkg_name": "php",
+        "pkg_version": "5.3.2-1ubuntu4.29",
+        "weight": 110
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "14.04",
+        "pkg_name": "php",
+        "pkg_version": "5.5.9+dfsg-1ubuntu4.7",
+        "weight": 110
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "14.10",
+        "pkg_name": "php",
+        "pkg_version": "5.5.12+dfsg-2ubuntu4.3",
+        "weight": 110
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "15.04",
         "pkg_name": "php",
         "pkg_version": "5.6.4+dfsg-4ubuntu2",

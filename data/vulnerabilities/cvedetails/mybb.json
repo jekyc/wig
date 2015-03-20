@@ -1,5 +1,11 @@
 [
     {
+        "link": "http://cvedetails.com/version/180623",
+        "name": "MyBB",
+        "num_vulns": "5",
+        "version": "1.8.3"
+    },
+    {
         "link": "http://cvedetails.com/version/176352",
         "name": "MyBB",
         "num_vulns": "2",

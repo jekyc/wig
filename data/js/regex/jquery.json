@@ -5,7 +5,7 @@
 		"match": "\\* jQuery ([\\d\\.?]+) ",
 		"output": "%s",
 		"code": 200,
-		"weight": 0.1
+		"weight": 0
 	},
 	{
         "url": "",
