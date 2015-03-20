@@ -469,6 +469,11 @@ class DiscoverOS:
 			
 			if "(" in line:
 				os = line[line.find('(')+1:line.find(')')]
+
+				# hack for RHEL
+				if os == 'Red Hat':
+					os = 'Red Hat Enterprise Linux'
+
 				line = line[:line.find('(')-1] + line[line.find(')')+1: ]
 			else:
 				os = None
