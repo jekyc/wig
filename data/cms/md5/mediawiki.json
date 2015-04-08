@@ -235,6 +235,12 @@
     },
     {
         "match": "601a868ac3a69111d9df64a1b5304772",
+        "output": "1.23.9",
+        "type": "md5",
+        "url": "/skins/common/commonElements.css"
+    },
+    {
+        "match": "601a868ac3a69111d9df64a1b5304772",
         "output": "wmf/1.23wmf12",
         "type": "md5",
         "url": "/skins/common/commonElements.css"
@@ -823,6 +829,12 @@
     },
     {
         "match": "bf5453f38f7dd959081dfb3aab5bcfd9",
+        "output": "1.19.24",
+        "type": "md5",
+        "url": "/skins/common/commonElements.css"
+    },
+    {
+        "match": "bf5453f38f7dd959081dfb3aab5bcfd9",
         "output": "1.19.3",
         "type": "md5",
         "url": "/skins/common/commonElements.css"
@@ -1292,6 +1304,12 @@
     {
         "match": "23382881a94125ffb6fff355a0ecce52",
         "output": "1.19.23",
+        "type": "md5",
+        "url": "/skins/common/images/spinner.gif"
+    },
+    {
+        "match": "23382881a94125ffb6fff355a0ecce52",
+        "output": "1.19.24",
         "type": "md5",
         "url": "/skins/common/images/spinner.gif"
     },
@@ -1904,6 +1922,12 @@
     {
         "match": "ca65bd9886c4369c969085904717e546",
         "output": "1.23.8",
+        "type": "md5",
+        "url": "/skins/common/images/spinner.gif"
+    },
+    {
+        "match": "ca65bd9886c4369c969085904717e546",
+        "output": "1.23.9",
         "type": "md5",
         "url": "/skins/common/images/spinner.gif"
     },
@@ -3001,6 +3025,12 @@
     },
     {
         "match": "838181dd9a1ce3c9e4d50a29a9945f5e",
+        "output": "1.23.9",
+        "type": "md5",
+        "url": "/skins/common/shared.css"
+    },
+    {
+        "match": "838181dd9a1ce3c9e4d50a29a9945f5e",
         "output": "wmf/1.23wmf22",
         "type": "md5",
         "url": "/skins/common/shared.css"
@@ -3386,6 +3416,12 @@
     {
         "match": "d8378da0859c5486b65d8c694cc3eb1d",
         "output": "1.19.23",
+        "type": "md5",
+        "url": "/skins/common/shared.css"
+    },
+    {
+        "match": "d8378da0859c5486b65d8c694cc3eb1d",
+        "output": "1.19.24",
         "type": "md5",
         "url": "/skins/common/shared.css"
     },
@@ -4112,6 +4148,12 @@
     {
         "match": "17d650209f4d26c8d66b3b105646466b",
         "output": "1.19.23",
+        "type": "md5",
+        "url": "/skins/common/upload.js"
+    },
+    {
+        "match": "17d650209f4d26c8d66b3b105646466b",
+        "output": "1.19.24",
         "type": "md5",
         "url": "/skins/common/upload.js"
     },
@@ -5120,6 +5162,12 @@
     {
         "match": "e308af0d619e11b1a9c083ed1029d2fc",
         "output": "1.23.8",
+        "type": "md5",
+        "url": "/skins/common/upload.js"
+    },
+    {
+        "match": "e308af0d619e11b1a9c083ed1029d2fc",
+        "output": "1.23.9",
         "type": "md5",
         "url": "/skins/common/upload.js"
     },
@@ -6150,6 +6198,12 @@
         "url": "/skins/common/wikibits.js"
     },
     {
+        "match": "7572703384f90a06c0c2a58fc5543463",
+        "output": "1.23.9",
+        "type": "md5",
+        "url": "/skins/common/wikibits.js"
+    },
+    {
         "match": "7f76c2e70c85a78e501141b24e26f766",
         "output": "1.10.0",
         "type": "md5",
@@ -6991,6 +7045,12 @@
     },
     {
         "match": "f1df6310a5b32aea068f5b805228f195",
+        "output": "1.19.24",
+        "type": "md5",
+        "url": "/skins/common/wikibits.js"
+    },
+    {
+        "match": "f1df6310a5b32aea068f5b805228f195",
         "output": "1.19.3",
         "type": "md5",
         "url": "/skins/common/wikibits.js"
@@ -7687,6 +7747,12 @@
     },
     {
         "match": "73ef43bbf05ec7ccc42b8e28a9e57769",
+        "output": "1.19.24",
+        "type": "md5",
+        "url": "/skins/modern/main.css"
+    },
+    {
+        "match": "73ef43bbf05ec7ccc42b8e28a9e57769",
         "output": "1.19.3",
         "type": "md5",
         "url": "/skins/modern/main.css"
@@ -7982,6 +8048,12 @@
     {
         "match": "aa3a249009c85a16f387235da00a589e",
         "output": "1.23.8",
+        "type": "md5",
+        "url": "/skins/modern/main.css"
+    },
+    {
+        "match": "aa3a249009c85a16f387235da00a589e",
+        "output": "1.23.9",
         "type": "md5",
         "url": "/skins/modern/main.css"
     },
@@ -9805,6 +9877,12 @@
     },
     {
         "match": "ba1c96cf774fbc90342cb0683198cfc7",
+        "output": "1.23.9",
+        "type": "md5",
+        "url": "/skins/monobook/main.css"
+    },
+    {
+        "match": "ba1c96cf774fbc90342cb0683198cfc7",
         "output": "wmf/1.23wmf20",
         "type": "md5",
         "url": "/skins/monobook/main.css"
@@ -9986,6 +10064,12 @@
     {
         "match": "d6e0a903d3f7e889a54af9378d527a80",
         "output": "1.19.23",
+        "type": "md5",
+        "url": "/skins/monobook/main.css"
+    },
+    {
+        "match": "d6e0a903d3f7e889a54af9378d527a80",
+        "output": "1.19.24",
         "type": "md5",
         "url": "/skins/monobook/main.css"
     },
@@ -10939,6 +11023,12 @@
     },
     {
         "match": "9657bd5d71d2e22586b9feb21898c95c",
+        "output": "1.19.24",
+        "type": "md5",
+        "url": "/skins/vector/vector.js"
+    },
+    {
+        "match": "9657bd5d71d2e22586b9feb21898c95c",
         "output": "1.19.3",
         "type": "md5",
         "url": "/skins/vector/vector.js"
@@ -11126,6 +11216,12 @@
     {
         "match": "f3e93f284ec1c4981a9a789f17fb11cd",
         "output": "1.23.8",
+        "type": "md5",
+        "url": "/skins/vector/vector.js"
+    },
+    {
+        "match": "f3e93f284ec1c4981a9a789f17fb11cd",
+        "output": "1.23.9",
         "type": "md5",
         "url": "/skins/vector/vector.js"
     },
