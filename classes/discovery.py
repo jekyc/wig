@@ -201,6 +201,31 @@ class DiscoverCookies(object):
 		self.data['results'].site_info['cookies'] = cookies
 
 
+class DiscoverSubdomains:
+
+	def __init__(self, url, data):
+		self.results = data['results']
+		self.subdomains = data['fingerprints'].data['subdomains']['fps']
+		self.url = url
+
+
+	def run(self):
+		domain = urllib.request.urlparse(self.url).netloc
+		domain = domain.split(':')[0]
+
+		valid = set()
+		for subdomain in self.subdomains:
+			d = subdomain + '.' + domain
+			try:
+				valid.add((d, socket.gethostbyname(d)))
+			except:
+				continue
+
+		return valid
+
+
+
+
 class DiscoverErrorPage:
 	# find error pages on the site
 	# the requester has a built-in list of items and patterns

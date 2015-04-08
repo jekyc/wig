@@ -31,7 +31,8 @@ class Results(object):
 		self.site_info = {
 			'ip': '',
 			'title': '',
-			'cookies': set()
+			'cookies': set(),
+			'subdomains': set(),
 		}
 
 	def _calc_md5_score(self):

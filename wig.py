@@ -80,6 +80,7 @@ class Wig(object):
 		self.data['results'].printer = self.data['printer']
 		self.data['requester'] = Requester(self.options, self.data)
 
+		org_url = self.options['url'] + ''
 		
 		""" --- DETECT REDIRECTION ------------- """
 		try:
@@ -135,6 +136,10 @@ class Wig(object):
 		# get the IP of the domain
 		ip = DiscoverIP(self.options['url']).run()
 		self.data['results'].site_info['ip'] = ip
+
+		# search for subdomains
+		# subdomains = DiscoverSubdomains(org_url, self.data).run()
+		# self.data['results'].site_info['subdomains'] = subdomains
 		""" ------------------------------------ """
 
 

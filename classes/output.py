@@ -176,7 +176,6 @@ class OutputJSON(Output):
 		})
 
 
-
 	def write_file(self):
 		file_name = self.options['write_file']
 		with open(file_name+ '.json', 'w') as fh:
