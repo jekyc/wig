@@ -186,9 +186,15 @@
         "version": "Rc2009-01-30"
     },
     {
-        "link": "http://cvedetails.com/version/178091",
+        "link": "http://cvedetails.com/version/181250",
         "name": "DokuWiki",
         "num_vulns": "1",
+        "version": "2014-09-29b"
+    },
+    {
+        "link": "http://cvedetails.com/version/178091",
+        "name": "DokuWiki",
+        "num_vulns": "2",
         "version": "2014-05-05c"
     },
     {
