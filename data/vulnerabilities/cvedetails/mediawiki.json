@@ -18,274 +18,298 @@
         "version": "Stable 2003-08-29"
     },
     {
+        "link": "http://cvedetails.com/version/181956",
+        "name": "MediaWiki",
+        "num_vulns": "10",
+        "version": "1.24.1"
+    },
+    {
         "link": "http://cvedetails.com/version/178873",
         "name": "MediaWiki",
-        "num_vulns": "6",
+        "num_vulns": "16",
         "version": "1.24.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/181955",
+        "name": "MediaWiki",
+        "num_vulns": "9",
+        "version": "1.23.8"
     },
     {
         "link": "http://cvedetails.com/version/178872",
         "name": "MediaWiki",
-        "num_vulns": "6",
+        "num_vulns": "15",
         "version": "1.23.7"
     },
     {
         "link": "http://cvedetails.com/version/178518",
         "name": "MediaWiki",
-        "num_vulns": "9",
+        "num_vulns": "18",
         "version": "1.23.6"
     },
     {
         "link": "http://cvedetails.com/version/178517",
         "name": "MediaWiki",
-        "num_vulns": "9",
+        "num_vulns": "18",
         "version": "1.23.5"
     },
     {
         "link": "http://cvedetails.com/version/172683",
         "name": "MediaWiki",
-        "num_vulns": "10",
+        "num_vulns": "19",
         "version": "1.23.4"
     },
     {
         "link": "http://cvedetails.com/version/172305",
         "name": "MediaWiki",
-        "num_vulns": "11",
+        "num_vulns": "20",
         "version": "1.23.3"
     },
     {
         "link": "http://cvedetails.com/version/172304",
         "name": "MediaWiki",
-        "num_vulns": "11",
+        "num_vulns": "20",
         "version": "1.23.2"
     },
     {
         "link": "http://cvedetails.com/version/170311",
         "name": "MediaWiki",
-        "num_vulns": "14",
+        "num_vulns": "23",
         "version": "1.23.1"
     },
     {
         "link": "http://cvedetails.com/version/170310",
         "name": "MediaWiki",
-        "num_vulns": "14",
+        "num_vulns": "23",
         "version": "1.23.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/181954",
+        "name": "MediaWiki",
+        "num_vulns": "9",
+        "version": "1.22.15"
     },
     {
         "link": "http://cvedetails.com/version/178871",
         "name": "MediaWiki",
-        "num_vulns": "6",
+        "num_vulns": "15",
         "version": "1.22.14"
     },
     {
         "link": "http://cvedetails.com/version/178515",
         "name": "MediaWiki",
-        "num_vulns": "9",
+        "num_vulns": "18",
         "version": "1.22.13"
     },
     {
         "link": "http://cvedetails.com/version/178516",
         "name": "MediaWiki",
-        "num_vulns": "9",
+        "num_vulns": "18",
         "version": "1.22.12"
     },
     {
         "link": "http://cvedetails.com/version/172682",
         "name": "MediaWiki",
-        "num_vulns": "10",
+        "num_vulns": "19",
         "version": "1.22.11"
     },
     {
         "link": "http://cvedetails.com/version/172303",
         "name": "MediaWiki",
-        "num_vulns": "11",
+        "num_vulns": "20",
         "version": "1.22.10"
     },
     {
         "link": "http://cvedetails.com/version/172302",
         "name": "MediaWiki",
-        "num_vulns": "8",
+        "num_vulns": "17",
         "version": "1.22.9"
     },
     {
         "link": "http://cvedetails.com/version/170309",
         "name": "MediaWiki",
-        "num_vulns": "14",
+        "num_vulns": "23",
         "version": "1.22.8"
     },
     {
         "link": "http://cvedetails.com/version/170308",
         "name": "MediaWiki",
-        "num_vulns": "14",
+        "num_vulns": "23",
         "version": "1.22.7"
     },
     {
         "link": "http://cvedetails.com/version/167341",
         "name": "MediaWiki",
-        "num_vulns": "15",
+        "num_vulns": "24",
         "version": "1.22.6"
     },
     {
         "link": "http://cvedetails.com/version/164538",
         "name": "MediaWiki",
-        "num_vulns": "16",
+        "num_vulns": "25",
         "version": "1.22.5"
     },
     {
         "link": "http://cvedetails.com/version/163709",
         "name": "MediaWiki",
-        "num_vulns": "17",
+        "num_vulns": "26",
         "version": "1.22.4"
     },
     {
         "link": "http://cvedetails.com/version/163710",
         "name": "MediaWiki",
-        "num_vulns": "17",
+        "num_vulns": "26",
         "version": "1.22.3"
     },
     {
         "link": "http://cvedetails.com/version/161056",
         "name": "MediaWiki",
-        "num_vulns": "20",
+        "num_vulns": "29",
         "version": "1.22.2"
     },
     {
         "link": "http://cvedetails.com/version/159377",
         "name": "MediaWiki",
-        "num_vulns": "21",
+        "num_vulns": "30",
         "version": "1.22.1"
     },
     {
         "link": "http://cvedetails.com/version/159376",
         "name": "MediaWiki",
-        "num_vulns": "30",
+        "num_vulns": "39",
         "version": "1.22.0"
     },
     {
         "link": "http://cvedetails.com/version/178514",
         "name": "MediaWiki",
-        "num_vulns": "9",
+        "num_vulns": "18",
         "version": "1.21.11"
     },
     {
         "link": "http://cvedetails.com/version/170511",
         "name": "MediaWiki",
-        "num_vulns": "11",
+        "num_vulns": "20",
         "version": "1.21.10"
     },
     {
         "link": "http://cvedetails.com/version/167340",
         "name": "MediaWiki",
-        "num_vulns": "12",
+        "num_vulns": "21",
         "version": "1.21.9"
     },
     {
         "link": "http://cvedetails.com/version/164537",
         "name": "MediaWiki",
-        "num_vulns": "13",
+        "num_vulns": "22",
         "version": "1.21.8"
     },
     {
         "link": "http://cvedetails.com/version/163711",
         "name": "MediaWiki",
-        "num_vulns": "14",
+        "num_vulns": "23",
         "version": "1.21.7"
     },
     {
         "link": "http://cvedetails.com/version/163712",
         "name": "MediaWiki",
-        "num_vulns": "14",
+        "num_vulns": "23",
         "version": "1.21.6"
     },
     {
         "link": "http://cvedetails.com/version/161057",
         "name": "MediaWiki",
-        "num_vulns": "17",
+        "num_vulns": "26",
         "version": "1.21.5"
     },
     {
         "link": "http://cvedetails.com/version/159374",
         "name": "MediaWiki",
-        "num_vulns": "18",
+        "num_vulns": "27",
         "version": "1.21.4"
     },
     {
         "link": "http://cvedetails.com/version/159375",
         "name": "MediaWiki",
-        "num_vulns": "27",
+        "num_vulns": "36",
         "version": "1.21.3"
     },
     {
         "link": "http://cvedetails.com/version/156230",
         "name": "MediaWiki",
-        "num_vulns": "32",
+        "num_vulns": "41",
         "version": "1.21.2"
     },
     {
         "link": "http://cvedetails.com/version/151630",
         "name": "MediaWiki",
-        "num_vulns": "38",
+        "num_vulns": "47",
         "version": "1.21.1"
     },
     {
         "link": "http://cvedetails.com/version/151629",
         "name": "MediaWiki",
-        "num_vulns": "33",
+        "num_vulns": "42",
         "version": "1.21"
     },
     {
         "link": "http://cvedetails.com/version/161058",
         "name": "MediaWiki",
-        "num_vulns": "16",
+        "num_vulns": "25",
         "version": "1.20.8"
     },
     {
         "link": "http://cvedetails.com/version/156231",
         "name": "MediaWiki",
-        "num_vulns": "21",
+        "num_vulns": "30",
         "version": "1.20.7"
     },
     {
         "link": "http://cvedetails.com/version/151637",
         "name": "MediaWiki",
-        "num_vulns": "27",
+        "num_vulns": "36",
         "version": "1.20.6"
     },
     {
         "link": "http://cvedetails.com/version/151636",
         "name": "MediaWiki",
-        "num_vulns": "26",
+        "num_vulns": "35",
         "version": "1.20.5"
     },
     {
         "link": "http://cvedetails.com/version/151635",
         "name": "MediaWiki",
-        "num_vulns": "28",
+        "num_vulns": "37",
         "version": "1.20.4"
     },
     {
         "link": "http://cvedetails.com/version/151634",
         "name": "MediaWiki",
-        "num_vulns": "28",
+        "num_vulns": "37",
         "version": "1.20.3"
     },
     {
         "link": "http://cvedetails.com/version/151633",
         "name": "MediaWiki",
-        "num_vulns": "29",
+        "num_vulns": "38",
         "version": "1.20.2"
     },
     {
         "link": "http://cvedetails.com/version/151632",
         "name": "MediaWiki",
-        "num_vulns": "29",
+        "num_vulns": "38",
         "version": "1.20.1"
     },
     {
         "link": "http://cvedetails.com/version/151631",
         "name": "MediaWiki",
-        "num_vulns": "26",
+        "num_vulns": "35",
         "version": "1.20"
+    },
+    {
+        "link": "http://cvedetails.com/version/181953",
+        "name": "MediaWiki",
+        "num_vulns": "9",
+        "version": "1.19.23"
     },
     {
         "link": "http://cvedetails.com/version/178870",

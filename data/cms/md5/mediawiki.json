@@ -5742,6 +5742,54 @@
         "url": "/skins/common/wikibits.js"
     },
     {
+        "match": "2ca57ac0b46829c55433b6e5d6901a62",
+        "output": "wmf/1.25wmf1",
+        "type": "md5",
+        "url": "/skins/common/wikibits.js"
+    },
+    {
+        "match": "2ca57ac0b46829c55433b6e5d6901a62",
+        "output": "wmf/1.25wmf2",
+        "type": "md5",
+        "url": "/skins/common/wikibits.js"
+    },
+    {
+        "match": "2ca57ac0b46829c55433b6e5d6901a62",
+        "output": "wmf/1.25wmf3",
+        "type": "md5",
+        "url": "/skins/common/wikibits.js"
+    },
+    {
+        "match": "2ca57ac0b46829c55433b6e5d6901a62",
+        "output": "wmf/1.25wmf4",
+        "type": "md5",
+        "url": "/skins/common/wikibits.js"
+    },
+    {
+        "match": "2ca57ac0b46829c55433b6e5d6901a62",
+        "output": "wmf/1.25wmf5",
+        "type": "md5",
+        "url": "/skins/common/wikibits.js"
+    },
+    {
+        "match": "2ca57ac0b46829c55433b6e5d6901a62",
+        "output": "wmf/1.25wmf6",
+        "type": "md5",
+        "url": "/skins/common/wikibits.js"
+    },
+    {
+        "match": "2ca57ac0b46829c55433b6e5d6901a62",
+        "output": "wmf/1.25wmf7",
+        "type": "md5",
+        "url": "/skins/common/wikibits.js"
+    },
+    {
+        "match": "2ca57ac0b46829c55433b6e5d6901a62",
+        "output": "wmf/1.25wmf8",
+        "type": "md5",
+        "url": "/skins/common/wikibits.js"
+    },
+    {
         "match": "2e79c502e7e43da21d99c59239b383e6",
         "output": "1.12.0",
         "type": "md5",

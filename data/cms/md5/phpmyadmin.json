@@ -3114,6 +3114,18 @@
         "url": "/phpmyadmin/favicon.ico"
     },
     {
+        "match": "d037ef2f629a22ddadcf438e6be7a325",
+        "output": "RELEASE_4_4_1_1",
+        "type": "md5",
+        "url": "/phpmyadmin/favicon.ico"
+    },
+    {
+        "match": "d037ef2f629a22ddadcf438e6be7a325",
+        "output": "RELEASE_4_4_2",
+        "type": "md5",
+        "url": "/phpmyadmin/favicon.ico"
+    },
+    {
         "match": "ef4d6c02d7518d8d114a97b5861c8dd5",
         "output": "RELEASE_2_10_3RC1",
         "type": "md5",
@@ -3140,6 +3152,18 @@
     {
         "match": "0a45f2aab8a5f4e2bcdbedf8dddd9261",
         "output": "RELEASE_4_4_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/ajax.js"
+    },
+    {
+        "match": "0a45f2aab8a5f4e2bcdbedf8dddd9261",
+        "output": "RELEASE_4_4_1_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/ajax.js"
+    },
+    {
+        "match": "0a45f2aab8a5f4e2bcdbedf8dddd9261",
+        "output": "RELEASE_4_4_2",
         "type": "md5",
         "url": "/phpmyadmin/js/ajax.js"
     },
@@ -5664,6 +5688,18 @@
         "url": "/phpmyadmin/js/common.js"
     },
     {
+        "match": "b9d9fd275010fa75c7497be4b5b88667",
+        "output": "RELEASE_4_4_1_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/common.js"
+    },
+    {
+        "match": "b9d9fd275010fa75c7497be4b5b88667",
+        "output": "RELEASE_4_4_2",
+        "type": "md5",
+        "url": "/phpmyadmin/js/common.js"
+    },
+    {
         "match": "be9e4e58e527ddf9208f32a40e6fcafc",
         "output": "RELEASE_3_4_0",
         "type": "md5",
@@ -6086,6 +6122,18 @@
     {
         "match": "3f704d162f082106f775e71f4faac74f",
         "output": "RELEASE_4_4_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/db_operations.js"
+    },
+    {
+        "match": "3f704d162f082106f775e71f4faac74f",
+        "output": "RELEASE_4_4_1_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/db_operations.js"
+    },
+    {
+        "match": "3f704d162f082106f775e71f4faac74f",
+        "output": "RELEASE_4_4_2",
         "type": "md5",
         "url": "/phpmyadmin/js/db_operations.js"
     },
@@ -7214,6 +7262,18 @@
     {
         "match": "35a78a52f16438b6d0a73d4b118031a3",
         "output": "RELEASE_4_4_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/db_search.js"
+    },
+    {
+        "match": "35a78a52f16438b6d0a73d4b118031a3",
+        "output": "RELEASE_4_4_1_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/db_search.js"
+    },
+    {
+        "match": "35a78a52f16438b6d0a73d4b118031a3",
+        "output": "RELEASE_4_4_2",
         "type": "md5",
         "url": "/phpmyadmin/js/db_search.js"
     },
@@ -8400,6 +8460,18 @@
         "url": "/phpmyadmin/js/db_structure.js"
     },
     {
+        "match": "2d25a3ec42586cbf54f8919480efec3b",
+        "output": "RELEASE_4_4_1_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/db_structure.js"
+    },
+    {
+        "match": "2d25a3ec42586cbf54f8919480efec3b",
+        "output": "RELEASE_4_4_2",
+        "type": "md5",
+        "url": "/phpmyadmin/js/db_structure.js"
+    },
+    {
         "match": "56fb9f6f0641d0cbaafdc99f913e09ef",
         "output": "RELEASE_4_1_0",
         "type": "md5",
@@ -9258,6 +9330,18 @@
         "url": "/phpmyadmin/js/error_report.js"
     },
     {
+        "match": "1538744d124652482d0b728d75c2f879",
+        "output": "RELEASE_4_4_1_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/error_report.js"
+    },
+    {
+        "match": "1538744d124652482d0b728d75c2f879",
+        "output": "RELEASE_4_4_2",
+        "type": "md5",
+        "url": "/phpmyadmin/js/error_report.js"
+    },
+    {
         "match": "292bbd22ec01eeeae8760b3a95adc666",
         "output": "RELEASE_4_3_1",
         "type": "md5",
@@ -9860,6 +9944,18 @@
     {
         "match": "37a0b1280596f2c902126b132b7d75be",
         "output": "RELEASE_4_4_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/export.js"
+    },
+    {
+        "match": "37a0b1280596f2c902126b132b7d75be",
+        "output": "RELEASE_4_4_1_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/export.js"
+    },
+    {
+        "match": "37a0b1280596f2c902126b132b7d75be",
+        "output": "RELEASE_4_4_2",
         "type": "md5",
         "url": "/phpmyadmin/js/export.js"
     },
@@ -11484,6 +11580,12 @@
         "url": "/phpmyadmin/js/functions.js"
     },
     {
+        "match": "97ca49b26970582f4a9f0002496d3780",
+        "output": "RELEASE_4_4_1_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/functions.js"
+    },
+    {
         "match": "9be9fbc410314cd7b28877c985923c8b",
         "output": "RELEASE_4_1_14_3",
         "type": "md5",
@@ -11600,6 +11702,12 @@
     {
         "match": "ab0f6b89f9150489392d3227c5fd47a9",
         "output": "RELEASE_4_0_10_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/functions.js"
+    },
+    {
+        "match": "adee4f3f7138ca80c6b60dae04acfaa4",
+        "output": "RELEASE_4_4_2",
         "type": "md5",
         "url": "/phpmyadmin/js/functions.js"
     },
@@ -13614,6 +13722,18 @@
         "url": "/phpmyadmin/js/import.js"
     },
     {
+        "match": "f9d4bd876be95eed013bfc9395501e5f",
+        "output": "RELEASE_4_4_1_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/import.js"
+    },
+    {
+        "match": "f9d4bd876be95eed013bfc9395501e5f",
+        "output": "RELEASE_4_4_2",
+        "type": "md5",
+        "url": "/phpmyadmin/js/import.js"
+    },
+    {
         "match": "22f2b7aa0afca78c95cb1653e18de34a",
         "output": "RELEASE_4_0_0",
         "type": "md5",
@@ -15480,6 +15600,18 @@
         "url": "/phpmyadmin/js/keyhandler.js"
     },
     {
+        "match": "f38afc82922e1a0f8c2fe9b567dd0bea",
+        "output": "RELEASE_4_4_1_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/keyhandler.js"
+    },
+    {
+        "match": "f38afc82922e1a0f8c2fe9b567dd0bea",
+        "output": "RELEASE_4_4_2",
+        "type": "md5",
+        "url": "/phpmyadmin/js/keyhandler.js"
+    },
+    {
         "match": "fbb7cdaae64225fab1ccfe288f9190f1",
         "output": "RELEASE_4_0_0BETA1",
         "type": "md5",
@@ -15914,6 +16046,18 @@
     {
         "match": "d001f5415fbd2c3ad59b5d1af16afe85",
         "output": "RELEASE_4_4_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/makegrid.js"
+    },
+    {
+        "match": "d001f5415fbd2c3ad59b5d1af16afe85",
+        "output": "RELEASE_4_4_1_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/makegrid.js"
+    },
+    {
+        "match": "d001f5415fbd2c3ad59b5d1af16afe85",
+        "output": "RELEASE_4_4_2",
         "type": "md5",
         "url": "/phpmyadmin/js/makegrid.js"
     },
@@ -18102,6 +18246,18 @@
         "url": "/phpmyadmin/js/navigation.js"
     },
     {
+        "match": "c34dbacee4cf00ef2ce27f19baeab997",
+        "output": "RELEASE_4_4_1_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/navigation.js"
+    },
+    {
+        "match": "c34dbacee4cf00ef2ce27f19baeab997",
+        "output": "RELEASE_4_4_2",
+        "type": "md5",
+        "url": "/phpmyadmin/js/navigation.js"
+    },
+    {
         "match": "c72d13ad15a42b6bf5a32cb20674f7bb",
         "output": "RELEASE_4_1_5",
         "type": "md5",
@@ -19272,6 +19428,18 @@
         "url": "/phpmyadmin/js/openlayers/src/openlayers/lib/Firebug/firebug.js"
     },
     {
+        "match": "4ff0e03c14eb81578996b513c31427f7",
+        "output": "RELEASE_4_4_1_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/openlayers/src/openlayers/lib/Firebug/firebug.js"
+    },
+    {
+        "match": "4ff0e03c14eb81578996b513c31427f7",
+        "output": "RELEASE_4_4_2",
+        "type": "md5",
+        "url": "/phpmyadmin/js/openlayers/src/openlayers/lib/Firebug/firebug.js"
+    },
+    {
         "match": "cae3e0ee31fc15e92092c2b09d7d3a01",
         "output": "RELEASE_4_2_1",
         "type": "md5",
@@ -19514,6 +19682,18 @@
     {
         "match": "cae3e0ee31fc15e92092c2b09d7d3a01",
         "output": "RELEASE_4_4_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/openlayers/src/openlayers/lib/Gears/gears_init.js"
+    },
+    {
+        "match": "cae3e0ee31fc15e92092c2b09d7d3a01",
+        "output": "RELEASE_4_4_1_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/openlayers/src/openlayers/lib/Gears/gears_init.js"
+    },
+    {
+        "match": "cae3e0ee31fc15e92092c2b09d7d3a01",
+        "output": "RELEASE_4_4_2",
         "type": "md5",
         "url": "/phpmyadmin/js/openlayers/src/openlayers/lib/Gears/gears_init.js"
     },
@@ -20376,6 +20556,18 @@
         "url": "/phpmyadmin/js/pmd/iecanvas.js"
     },
     {
+        "match": "7672f880fe2f246748fc68912754eb4f",
+        "output": "RELEASE_4_4_1_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/pmd/iecanvas.js"
+    },
+    {
+        "match": "7672f880fe2f246748fc68912754eb4f",
+        "output": "RELEASE_4_4_2",
+        "type": "md5",
+        "url": "/phpmyadmin/js/pmd/iecanvas.js"
+    },
+    {
         "match": "21a49eda98f0bd1fcbdf00d02ab48e65",
         "output": "RELEASE_4_1_10",
         "type": "md5",
@@ -20432,6 +20624,18 @@
     {
         "match": "73e5b24852ce54293a3b6f826693200a",
         "output": "RELEASE_4_4_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/rte.js"
+    },
+    {
+        "match": "73e5b24852ce54293a3b6f826693200a",
+        "output": "RELEASE_4_4_1_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/rte.js"
+    },
+    {
+        "match": "73e5b24852ce54293a3b6f826693200a",
+        "output": "RELEASE_4_4_2",
         "type": "md5",
         "url": "/phpmyadmin/js/rte.js"
     },
@@ -21248,6 +21452,18 @@
     {
         "match": "1fb42b2e0b732932d20cf1651a9ecaa2",
         "output": "RELEASE_4_4_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/server_privileges.js"
+    },
+    {
+        "match": "1fb42b2e0b732932d20cf1651a9ecaa2",
+        "output": "RELEASE_4_4_1_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/server_privileges.js"
+    },
+    {
+        "match": "1fb42b2e0b732932d20cf1651a9ecaa2",
+        "output": "RELEASE_4_4_2",
         "type": "md5",
         "url": "/phpmyadmin/js/server_privileges.js"
     },
@@ -23634,6 +23850,18 @@
         "url": "/phpmyadmin/js/server_status_monitor.js"
     },
     {
+        "match": "d4085b23f9b8cc3fa0b142651eceed0f",
+        "output": "RELEASE_4_4_1_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/server_status_monitor.js"
+    },
+    {
+        "match": "d4085b23f9b8cc3fa0b142651eceed0f",
+        "output": "RELEASE_4_4_2",
+        "type": "md5",
+        "url": "/phpmyadmin/js/server_status_monitor.js"
+    },
+    {
         "match": "d43540ad183a3165f2454cf22f02491e",
         "output": "RELEASE_3_5_6",
         "type": "md5",
@@ -24744,6 +24972,18 @@
         "url": "/phpmyadmin/js/sql.js"
     },
     {
+        "match": "e139be0d9685dc0fee3363a1a37839c7",
+        "output": "RELEASE_4_4_1_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/sql.js"
+    },
+    {
+        "match": "e139be0d9685dc0fee3363a1a37839c7",
+        "output": "RELEASE_4_4_2",
+        "type": "md5",
+        "url": "/phpmyadmin/js/sql.js"
+    },
+    {
         "match": "ecdbcc5865dca6b552cb182a16eaae01",
         "output": "RELEASE_4_0_7",
         "type": "md5",
@@ -25752,6 +25992,18 @@
         "url": "/phpmyadmin/js/tbl_chart.js"
     },
     {
+        "match": "ff806b7e2d7d6c4dd0732172b3ecc1e3",
+        "output": "RELEASE_4_4_1_1",
+        "type": "md5",
+        "url": "/phpmyadmin/js/tbl_chart.js"
+    },
+    {
+        "match": "ff806b7e2d7d6c4dd0732172b3ecc1e3",
+        "output": "RELEASE_4_4_2",
+        "type": "md5",
+        "url": "/phpmyadmin/js/tbl_chart.js"
+    },
+    {
         "match": "32971b677da07a9f73f7067a6166aeec",
         "output": "RELEASE_4_0_10",
         "type": "md5",
@@ -26606,6 +26858,18 @@
     {
         "match": "e73ee6aed8691a18566d341e493b2625",
         "output": "RELEASE_4_4_1",
+        "type": "md5",
+        "url": "/phpmyadmin/libraries/advisory_rules.txt"
+    },
+    {
+        "match": "e73ee6aed8691a18566d341e493b2625",
+        "output": "RELEASE_4_4_1_1",
+        "type": "md5",
+        "url": "/phpmyadmin/libraries/advisory_rules.txt"
+    },
+    {
+        "match": "e73ee6aed8691a18566d341e493b2625",
+        "output": "RELEASE_4_4_2",
         "type": "md5",
         "url": "/phpmyadmin/libraries/advisory_rules.txt"
     },
@@ -28778,6 +29042,18 @@
     {
         "match": "29067a913d2472a9cf1f9b87e9bdac23",
         "output": "RELEASE_4_4_1",
+        "type": "md5",
+        "url": "/phpmyadmin/setup/scripts.js"
+    },
+    {
+        "match": "29067a913d2472a9cf1f9b87e9bdac23",
+        "output": "RELEASE_4_4_1_1",
+        "type": "md5",
+        "url": "/phpmyadmin/setup/scripts.js"
+    },
+    {
+        "match": "29067a913d2472a9cf1f9b87e9bdac23",
+        "output": "RELEASE_4_4_2",
         "type": "md5",
         "url": "/phpmyadmin/setup/scripts.js"
     },
@@ -31458,6 +31734,18 @@
         "url": "/phpmyadmin/setup/styles.css"
     },
     {
+        "match": "eebbc4a61da4538fbf91a383ed5c60cb",
+        "output": "RELEASE_4_4_1_1",
+        "type": "md5",
+        "url": "/phpmyadmin/setup/styles.css"
+    },
+    {
+        "match": "eebbc4a61da4538fbf91a383ed5c60cb",
+        "output": "RELEASE_4_4_2",
+        "type": "md5",
+        "url": "/phpmyadmin/setup/styles.css"
+    },
+    {
         "match": "0c732609d9050c719358124607f2e679",
         "output": "RELEASE_2_10_0",
         "type": "md5",
@@ -33360,6 +33648,18 @@
         "url": "/phpmyadmin/themes/original/img/logo_left.png"
     },
     {
+        "match": "c95465f33822980689a2d1ee1350d13b",
+        "output": "RELEASE_4_4_1_1",
+        "type": "md5",
+        "url": "/phpmyadmin/themes/original/img/logo_left.png"
+    },
+    {
+        "match": "c95465f33822980689a2d1ee1350d13b",
+        "output": "RELEASE_4_4_2",
+        "type": "md5",
+        "url": "/phpmyadmin/themes/original/img/logo_left.png"
+    },
+    {
         "match": "4224681843d7eac256344a893af572c5",
         "output": "RELEASE_3_5_0",
         "type": "md5",
@@ -34364,6 +34664,18 @@
     {
         "match": "4224681843d7eac256344a893af572c5",
         "output": "RELEASE_4_4_1",
+        "type": "md5",
+        "url": "/phpmyadmin/themes/pmahomme/img/pmd/favicon.ico"
+    },
+    {
+        "match": "4224681843d7eac256344a893af572c5",
+        "output": "RELEASE_4_4_1_1",
+        "type": "md5",
+        "url": "/phpmyadmin/themes/pmahomme/img/pmd/favicon.ico"
+    },
+    {
+        "match": "4224681843d7eac256344a893af572c5",
+        "output": "RELEASE_4_4_2",
         "type": "md5",
         "url": "/phpmyadmin/themes/pmahomme/img/pmd/favicon.ico"
     }

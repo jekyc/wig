@@ -3,6 +3,13 @@
         "os_name": "Ubuntu",
         "os_version": "15.04",
         "pkg_name": "php",
+        "pkg_version": "5.6.4+dfsg-4ubuntu6",
+        "weight": 110
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "15.04",
+        "pkg_name": "php",
         "pkg_version": "5.6.4+dfsg-4ubuntu5",
         "weight": 110
     },

@@ -6,6 +6,12 @@
         "url": "/mt-static/css/structure.css"
     },
     {
+        "match": "08806993c4a0ef17f9733e13c736a889",
+        "output": "mt6.1.1",
+        "type": "md5",
+        "url": "/mt-static/css/structure.css"
+    },
+    {
         "match": "0a433da764227c138d7f0cb49d42af31",
         "output": "mt4.3",
         "type": "md5",
@@ -235,6 +241,12 @@
     },
     {
         "match": "80a9d18ad92db1376c2739ce42e19163",
+        "output": "mt5.2.13",
+        "type": "md5",
+        "url": "/mt-static/css/structure.css"
+    },
+    {
+        "match": "80a9d18ad92db1376c2739ce42e19163",
         "output": "mt5.2.6",
         "type": "md5",
         "url": "/mt-static/css/structure.css"
@@ -420,6 +432,12 @@
         "url": "/mt-static/css/structure.css"
     },
     {
+        "match": "f77cd6a4061b61814a86975eaae04d2e",
+        "output": "mt6.0.8",
+        "type": "md5",
+        "url": "/mt-static/css/structure.css"
+    },
+    {
         "match": "fcc1918fcacc4b7c5031480c94a58c10",
         "output": "mt4.2",
         "type": "md5",
@@ -470,6 +488,12 @@
     {
         "match": "088afa4f1b17907390687d364780effc",
         "output": "mt5.2.12",
+        "type": "md5",
+        "url": "/mt-static/jquery/jquery.mt.js"
+    },
+    {
+        "match": "088afa4f1b17907390687d364780effc",
+        "output": "mt5.2.13",
         "type": "md5",
         "url": "/mt-static/jquery/jquery.mt.js"
     },
@@ -612,6 +636,12 @@
         "url": "/mt-static/jquery/jquery.mt.js"
     },
     {
+        "match": "799da06eea16cde95b355343dbafcd75",
+        "output": "mt6.1.1",
+        "type": "md5",
+        "url": "/mt-static/jquery/jquery.mt.js"
+    },
+    {
         "match": "87dea7eb52b2806e5cf004c503bd618e",
         "output": "mt5.13",
         "type": "md5",
@@ -686,6 +716,12 @@
     {
         "match": "c92ab98e3851ed949de49ca6c3c81f5d",
         "output": "mt6.0.7",
+        "type": "md5",
+        "url": "/mt-static/jquery/jquery.mt.js"
+    },
+    {
+        "match": "c92ab98e3851ed949de49ca6c3c81f5d",
+        "output": "mt6.0.8",
         "type": "md5",
         "url": "/mt-static/jquery/jquery.mt.js"
     },
@@ -816,6 +852,12 @@
         "url": "/mt-static/js/dialog.js"
     },
     {
+        "match": "13596fa87a7fdefb508d44ce7cf0ec19",
+        "output": "mt6.0.8",
+        "type": "md5",
+        "url": "/mt-static/js/dialog.js"
+    },
+    {
         "match": "30c11f358194d27a13d9439e2670fbbe",
         "output": "mt4.0",
         "type": "md5",
@@ -872,6 +914,12 @@
     {
         "match": "4d4d69a6cca253a2019dca9399ef6e1e",
         "output": "mt6.1",
+        "type": "md5",
+        "url": "/mt-static/js/dialog.js"
+    },
+    {
+        "match": "4d4d69a6cca253a2019dca9399ef6e1e",
+        "output": "mt6.1.1",
         "type": "md5",
         "url": "/mt-static/js/dialog.js"
     },
@@ -944,6 +992,12 @@
     {
         "match": "6bdfd956f791779076c1a25718ee5e1a",
         "output": "mt5.2.12",
+        "type": "md5",
+        "url": "/mt-static/js/dialog.js"
+    },
+    {
+        "match": "6bdfd956f791779076c1a25718ee5e1a",
+        "output": "mt5.2.13",
         "type": "md5",
         "url": "/mt-static/js/dialog.js"
     },
@@ -1464,6 +1518,12 @@
         "url": "/mt-static/js/edit.js"
     },
     {
+        "match": "ab8f1ba067df1fc4b08b8b7b0ddcfe9d",
+        "output": "mt6.1.1",
+        "type": "md5",
+        "url": "/mt-static/js/edit.js"
+    },
+    {
         "match": "ad78458f16ae7456dab40346cb47e26a",
         "output": "mt6.0.2",
         "type": "md5",
@@ -1506,6 +1566,12 @@
         "url": "/mt-static/js/edit.js"
     },
     {
+        "match": "ad78458f16ae7456dab40346cb47e26a",
+        "output": "mt6.0.8",
+        "type": "md5",
+        "url": "/mt-static/js/edit.js"
+    },
+    {
         "match": "b2fcc253c13b724e6c4497740ddf2830",
         "output": "mt5.05",
         "type": "md5",
@@ -1538,6 +1604,12 @@
     {
         "match": "c42495c2231a76352eb66d5417d1d34d",
         "output": "mt5.2.12",
+        "type": "md5",
+        "url": "/mt-static/js/edit.js"
+    },
+    {
+        "match": "c42495c2231a76352eb66d5417d1d34d",
+        "output": "mt5.2.13",
         "type": "md5",
         "url": "/mt-static/js/edit.js"
     },
@@ -1920,6 +1992,12 @@
         "url": "/mt-static/js/tc/mixer/display.js"
     },
     {
+        "match": "9b1005aef6da45023857e5786dd70db1",
+        "output": "mt6.0.8",
+        "type": "md5",
+        "url": "/mt-static/js/tc/mixer/display.js"
+    },
+    {
         "match": "9d6ce51c8856945475f4e083da4c7bf2",
         "output": "mt4.25",
         "type": "md5",
@@ -1994,6 +2072,12 @@
     {
         "match": "d5b57b0830af79d9bf9af72a2a7d2164",
         "output": "mt5.2.12",
+        "type": "md5",
+        "url": "/mt-static/js/tc/mixer/display.js"
+    },
+    {
+        "match": "d5b57b0830af79d9bf9af72a2a7d2164",
+        "output": "mt5.2.13",
         "type": "md5",
         "url": "/mt-static/js/tc/mixer/display.js"
     },
@@ -2082,6 +2166,12 @@
         "url": "/mt-static/js/tc/mixer/display.js"
     },
     {
+        "match": "e4f5bba611864c81fc4de22c747b0d78",
+        "output": "mt6.1.1",
+        "type": "md5",
+        "url": "/mt-static/js/tc/mixer/display.js"
+    },
+    {
         "match": "ea1ce99abe73e258ba78e0b5d8422b8d",
         "output": "mt6.0",
         "type": "md5",
@@ -2155,6 +2245,12 @@
     },
     {
         "match": "13f7face8b734ed32dcc454fa3a5a432",
+        "output": "mt5.2.13",
+        "type": "md5",
+        "url": "/mt-static/js/tc/tableselect.js"
+    },
+    {
+        "match": "13f7face8b734ed32dcc454fa3a5a432",
         "output": "mt5.2.4",
         "type": "md5",
         "url": "/mt-static/js/tc/tableselect.js"
@@ -2210,6 +2306,12 @@
     {
         "match": "3c74755c43f40600a963fbd1a52edf1b",
         "output": "mt6.1",
+        "type": "md5",
+        "url": "/mt-static/js/tc/tableselect.js"
+    },
+    {
+        "match": "3c74755c43f40600a963fbd1a52edf1b",
+        "output": "mt6.1.1",
         "type": "md5",
         "url": "/mt-static/js/tc/tableselect.js"
     },
@@ -2462,6 +2564,12 @@
     {
         "match": "73973522b09d2454ceb3b1144136fa0e",
         "output": "mt6.0.7",
+        "type": "md5",
+        "url": "/mt-static/js/tc/tableselect.js"
+    },
+    {
+        "match": "73973522b09d2454ceb3b1144136fa0e",
+        "output": "mt6.0.8",
         "type": "md5",
         "url": "/mt-static/js/tc/tableselect.js"
     },
@@ -2838,6 +2946,12 @@
         "url": "/mt-static/mt.js"
     },
     {
+        "match": "7935380ed0c01b47958887d1e63e5d36",
+        "output": "mt6.0.8",
+        "type": "md5",
+        "url": "/mt-static/mt.js"
+    },
+    {
         "match": "7e63de3f6ab91ec5f20d270daf7f1449",
         "output": "mt4.33",
         "type": "md5",
@@ -2870,6 +2984,12 @@
     {
         "match": "830f02af0ea2ea939e5658d707baa9c5",
         "output": "mt5.2.12",
+        "type": "md5",
+        "url": "/mt-static/mt.js"
+    },
+    {
+        "match": "830f02af0ea2ea939e5658d707baa9c5",
+        "output": "mt5.2.13",
         "type": "md5",
         "url": "/mt-static/mt.js"
     },
@@ -3002,6 +3122,12 @@
     {
         "match": "c2fca56a16b304fe0ca8335c1148d899",
         "output": "mt6.1",
+        "type": "md5",
+        "url": "/mt-static/mt.js"
+    },
+    {
+        "match": "c2fca56a16b304fe0ca8335c1148d899",
+        "output": "mt6.1.1",
         "type": "md5",
         "url": "/mt-static/mt.js"
     },
@@ -3277,6 +3403,12 @@
     },
     {
         "match": "f40a429ba17a9b62aa52235fe5f0101a",
+        "output": "mt5.2.13",
+        "type": "md5",
+        "url": "/readme.html"
+    },
+    {
+        "match": "f40a429ba17a9b62aa52235fe5f0101a",
         "output": "mt5.2.2",
         "type": "md5",
         "url": "/readme.html"
@@ -3397,7 +3529,19 @@
     },
     {
         "match": "fe09c51d45558e90e69f19fbbe87c178",
+        "output": "mt6.0.8",
+        "type": "md5",
+        "url": "/readme.html"
+    },
+    {
+        "match": "fe09c51d45558e90e69f19fbbe87c178",
         "output": "mt6.1",
+        "type": "md5",
+        "url": "/readme.html"
+    },
+    {
+        "match": "fe09c51d45558e90e69f19fbbe87c178",
+        "output": "mt6.1.1",
         "type": "md5",
         "url": "/readme.html"
     },
@@ -3553,6 +3697,12 @@
     },
     {
         "match": "c83c5d4e4d1fde82c38ff42415db3546",
+        "output": "mt5.2.13",
+        "type": "md5",
+        "url": "/themes/pico/static/style_library/base.css"
+    },
+    {
+        "match": "c83c5d4e4d1fde82c38ff42415db3546",
         "output": "mt5.2.2",
         "type": "md5",
         "url": "/themes/pico/static/style_library/base.css"
@@ -3667,6 +3817,12 @@
     },
     {
         "match": "c83c5d4e4d1fde82c38ff42415db3546",
+        "output": "mt6.0.8",
+        "type": "md5",
+        "url": "/themes/pico/static/style_library/base.css"
+    },
+    {
+        "match": "c83c5d4e4d1fde82c38ff42415db3546",
         "output": "mt6.0b1",
         "type": "md5",
         "url": "/themes/pico/static/style_library/base.css"
@@ -3674,6 +3830,12 @@
     {
         "match": "c83c5d4e4d1fde82c38ff42415db3546",
         "output": "mt6.1",
+        "type": "md5",
+        "url": "/themes/pico/static/style_library/base.css"
+    },
+    {
+        "match": "c83c5d4e4d1fde82c38ff42415db3546",
+        "output": "mt6.1.1",
         "type": "md5",
         "url": "/themes/pico/static/style_library/base.css"
     },
@@ -3722,6 +3884,12 @@
     {
         "match": "b043f42dd6e872ad0e3722c30db15c16",
         "output": "mt5.2.12",
+        "type": "md5",
+        "url": "/themes/rainier/static/css/base.css"
+    },
+    {
+        "match": "b043f42dd6e872ad0e3722c30db15c16",
+        "output": "mt5.2.13",
         "type": "md5",
         "url": "/themes/rainier/static/css/base.css"
     },
@@ -3800,6 +3968,12 @@
     {
         "match": "bf91aad3011ac749f89fea87ea717221",
         "output": "mt5.2.12",
+        "type": "md5",
+        "url": "/themes/rainier/static/css/editor.css"
+    },
+    {
+        "match": "bf91aad3011ac749f89fea87ea717221",
+        "output": "mt5.2.13",
         "type": "md5",
         "url": "/themes/rainier/static/css/editor.css"
     },
