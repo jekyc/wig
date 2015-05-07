@@ -133,6 +133,18 @@
     },
     {
         "os_name": "OpenBSD",
+        "os_version": "5.7",
+        "pkg_name": "Apache",
+        "pkg_version": "2.2.29"
+    },
+    {
+        "os_name": "OpenBSD",
+        "os_version": "5.7",
+        "pkg_name": "Apache",
+        "pkg_version": "2.2.29"
+    },
+    {
+        "os_name": "OpenBSD",
         "os_version": "4.1",
         "pkg_name": "Apache",
         "pkg_version": "2.2.3"
@@ -505,6 +517,18 @@
     },
     {
         "os_name": "OpenBSD",
+        "os_version": "5.7",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "8.0.18"
+    },
+    {
+        "os_name": "OpenBSD",
+        "os_version": "5.7",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "8.0.18"
+    },
+    {
+        "os_name": "OpenBSD",
         "os_version": "3.6",
         "pkg_name": "lighttpd",
         "pkg_version": "1.3.13"
@@ -752,6 +776,18 @@
     {
         "os_name": "OpenBSD",
         "os_version": "5.6",
+        "pkg_name": "lighttpd",
+        "pkg_version": "1.4.35"
+    },
+    {
+        "os_name": "OpenBSD",
+        "os_version": "5.7",
+        "pkg_name": "lighttpd",
+        "pkg_version": "1.4.35"
+    },
+    {
+        "os_name": "OpenBSD",
+        "os_version": "5.7",
         "pkg_name": "lighttpd",
         "pkg_version": "1.4.35"
     },
@@ -1105,6 +1141,18 @@
     },
     {
         "os_name": "OpenBSD",
+        "os_version": "5.7",
+        "pkg_name": "mod_perl",
+        "pkg_version": "1.32pre"
+    },
+    {
+        "os_name": "OpenBSD",
+        "os_version": "5.7",
+        "pkg_name": "mod_perl",
+        "pkg_version": "1.32pre"
+    },
+    {
+        "os_name": "OpenBSD",
         "os_version": "4.3",
         "pkg_name": "nginx",
         "pkg_version": "0.5.35"
@@ -1270,6 +1318,18 @@
         "os_version": "5.6",
         "pkg_name": "nginx",
         "pkg_version": "1.4.7"
+    },
+    {
+        "os_name": "OpenBSD",
+        "os_version": "5.7",
+        "pkg_name": "nginx",
+        "pkg_version": "1.7.10"
+    },
+    {
+        "os_name": "OpenBSD",
+        "os_version": "5.7",
+        "pkg_name": "nginx",
+        "pkg_version": "1.7.10"
     },
     {
         "os_name": "OpenBSD",
@@ -1645,6 +1705,18 @@
     },
     {
         "os_name": "OpenBSD",
+        "os_version": "5.7",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.1k"
+    },
+    {
+        "os_name": "OpenBSD",
+        "os_version": "5.7",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.1k"
+    },
+    {
+        "os_name": "OpenBSD",
         "os_version": "4.5",
         "pkg_name": "perl",
         "pkg_version": "5.10.0"
@@ -1786,6 +1858,18 @@
         "os_version": "5.6",
         "pkg_name": "perl",
         "pkg_version": "5.18.2"
+    },
+    {
+        "os_name": "OpenBSD",
+        "os_version": "5.7",
+        "pkg_name": "perl",
+        "pkg_version": "5.20.1"
+    },
+    {
+        "os_name": "OpenBSD",
+        "os_version": "5.7",
+        "pkg_name": "perl",
+        "pkg_version": "5.20.1"
     },
     {
         "os_name": "OpenBSD",
@@ -2365,6 +2449,18 @@
     },
     {
         "os_name": "OpenBSD",
+        "os_version": "5.7",
+        "pkg_name": "php",
+        "pkg_version": "5.6.5"
+    },
+    {
+        "os_name": "OpenBSD",
+        "os_version": "5.7",
+        "pkg_name": "php",
+        "pkg_version": "5.6.5"
+    },
+    {
+        "os_name": "OpenBSD",
         "os_version": "4.2",
         "pkg_name": "phpMyAdmin",
         "pkg_version": "2.10.1"
@@ -2614,6 +2710,18 @@
         "os_version": "5.6",
         "pkg_name": "phpMyAdmin",
         "pkg_version": "4.2.2"
+    },
+    {
+        "os_name": "OpenBSD",
+        "os_version": "5.7",
+        "pkg_name": "phpMyAdmin",
+        "pkg_version": "4.3.7"
+    },
+    {
+        "os_name": "OpenBSD",
+        "os_version": "5.7",
+        "pkg_name": "phpMyAdmin",
+        "pkg_version": "4.3.7"
     },
     {
         "os_name": "OpenBSD",
@@ -2977,6 +3085,18 @@
     },
     {
         "os_name": "OpenBSD",
+        "os_version": "5.7",
+        "pkg_name": "ruby",
+        "pkg_version": "2.2.0"
+    },
+    {
+        "os_name": "OpenBSD",
+        "os_version": "5.7",
+        "pkg_name": "ruby",
+        "pkg_version": "2.2.0"
+    },
+    {
+        "os_name": "OpenBSD",
         "os_version": "3.7",
         "pkg_name": "subversion",
         "pkg_version": "1.1.3"
@@ -3190,6 +3310,18 @@
         "os_version": "5.3",
         "pkg_name": "subversion",
         "pkg_version": "1.7.8"
+    },
+    {
+        "os_name": "OpenBSD",
+        "os_version": "5.7",
+        "pkg_name": "subversion",
+        "pkg_version": "1.8.11"
+    },
+    {
+        "os_name": "OpenBSD",
+        "os_version": "5.7",
+        "pkg_name": "subversion",
+        "pkg_version": "1.8.11"
     },
     {
         "os_name": "OpenBSD",
@@ -3478,5 +3610,17 @@
         "os_version": "5.6",
         "pkg_name": "wordpress",
         "pkg_version": "3.9.1"
+    },
+    {
+        "os_name": "OpenBSD",
+        "os_version": "5.7",
+        "pkg_name": "wordpress",
+        "pkg_version": "4.1"
+    },
+    {
+        "os_name": "OpenBSD",
+        "os_version": "5.7",
+        "pkg_name": "wordpress",
+        "pkg_version": "4.1"
     }
 ]
