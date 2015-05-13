@@ -113,3 +113,12 @@ URL                       NOTE                              CATEGORY
 _______________________________________________________________________________
 Time: 15.7 sec            Urls: 351                         Fingerprints: 28989
 ```
+
+
+## Call wig as a function
+```
+>>>> from wig import wig
+>>>> w = wig(url='example.com')
+>>>> w.run()
+>>>> results = w.get_results()
+```
