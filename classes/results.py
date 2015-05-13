@@ -1,5 +1,4 @@
 from collections import defaultdict, Counter
-from classes.color import Color
 from classes.sitemap import Sitemap
 import pprint
 
@@ -8,7 +7,6 @@ class Results(object):
 
 	def __init__(self, options):
 		self.width = None
-		self.color = Color()
 		self.printer = None
 		self.results = {}
 
@@ -71,10 +69,10 @@ class Results(object):
 			# add note if present
 			if 'note' in fingerprint:
 				note = fingerprint['note']
-				self.printer.print('- %s: %s' % (note, url), 7)
+				self.printer.print_debug_line('- %s: %s' % (note, url), 5)
 				self.scores["interesting"][url][note] += weight
 
-		self.printer.print('- Found match: %s - %s %s - %s' % (url, name, version, match_type), 7)
+		self.printer.print_debug_line('- Found match: %s - %s %s - %s' % (url, name, version, match_type), 5)
 
 		#print(category, name, version, weight)
 		# if the type of the fingerprint is md5, then the we need 

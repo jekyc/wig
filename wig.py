@@ -3,14 +3,10 @@
 import json, pprint, os, time, queue, sys
 import argparse
 from collections import defaultdict, Counter
-
-from classes.color import Color
 from classes.cache import Cache
 from classes.results import Results
 from classes.fingerprints import Fingerprints
-
 from classes.discovery import *
-
 from classes.headers import ExtractHeaders
 from classes.matcher import Match
 from classes.printer import Printer
@@ -20,14 +16,11 @@ from classes.request2 import Requester, UnknownHostName
 
 
 class Wig(object):
-
 	def __init__(self, args):
 
-		urls = None
-		interactive = True
-		
+		urls = None		
 		if args.input_file is not None:
-			interactive = False
+			args.interactive = False
 
 			with open(args.input_file,'r') as input_file:
 				urls = []
@@ -38,11 +31,10 @@ class Wig(object):
 		elif '://' not in args.url:
 			args.url = 'http://' + args.url
 
-
 		self.options = {
 			'url': args.url,
 			'urls': urls,
-			'interactive': interactive,
+			'interactive': args.interactive,
 			'prefix': '',
 			'user_agent': args.user_agent,
 			'proxy': args.proxy,
@@ -62,17 +54,18 @@ class Wig(object):
 			'results': Results(self.options),
 			'fingerprints': Fingerprints(),
 			'matcher': Match(),
-			'colorizer': Color(),
-			'printer': Printer(args.verbosity, Color()),
+			'printer': Printer(args.verbosity),
 			'detected_cms': set(),
 			'error_pages': set(),
 			'requested': queue.Queue()
 		}
 
-		
 		if self.options['write_file'] is not None:
 			self.json_outputter = OutputJSON(self.options, self.data)
 	
+		self.data['printer'].print_logo()
+
+		self.results = None
 
 
 	def scan_site(self):
@@ -86,8 +79,7 @@ class Wig(object):
 		try:
 			is_redirected, new_url = self.data['requester'].detect_redirect()
 		except UnknownHostName as e:
-			error = self.data['colorizer'].format(e, 'red', False)
-			print(error)
+			self.data['printer'].print_debug_line(e, 1)
 
 			# fix for issue 8: https://github.com/jekyc/wig/issues/8
 			# Terminate gracefully if the url is not 
@@ -98,10 +90,11 @@ class Wig(object):
 			return
 
 		if is_redirected:
-			hilight_host = self.data['colorizer'].format(new_url, 'red', False)
-			
 			if self.options['interactive']:
-				choice = input("Redirected to %s. Continue? [Y|n]:" % (hilight_host,))
+				self.data['printer'].build_line("Redirected to ")
+				self.data['printer'].build_line(new_url, color='red')
+				self.data['printer'].print_built_line()
+				choice = input("Continue? [Y|n]:")
 			else:
 				choice = 'Y'
 
@@ -113,16 +106,13 @@ class Wig(object):
 				self.options['url'] = new_url
 				self.data['requester'].url = new_url
 		""" ------------------------------------ """
-
 		msg = 'Scanning %s...' % (self.options['url'])
-		print(self.data['colorizer'].format(msg, 'green', True))
-
+		self.data['printer'].print_debug_line(msg, 0, bold=True)
 		
 		# load cache if this is not disabled
 		self.data['cache'].set_host(self.options['url'])
 		if not self.options['no_cache_load']:
 			self.data['cache'].load()
-
 
 		# timer started after the user interaction
 		self.data['timer'] = time.time()
@@ -200,7 +190,7 @@ class Wig(object):
 
 		# mark the end of the run
 		self.data['results'].update()
-	
+
 
 		""" --- SEARCH FOR VULNERABILITIES ----- """
 		# search the vulnerability fingerprints for matches
@@ -226,18 +216,12 @@ class Wig(object):
 			self.json_outputter.add_results()
 
 		outputter = OutputPrinter(self.options, self.data)
-		title, data = outputter.get_results()
+		outputter.print_results()
 
-
-		# quick, ugly hack for issue 5 (https://github.com/jekyc/wig/issues/5) 
-		try:
-			# this will fail, if the title contains unprintable chars
-			print(title)
-		except:
-			pass
-
-		print(data)
 		""" ------------------------------------ """
+
+	def get_results(self):
+		return self.data['results'].results
 
 
 	def reset(self):
@@ -245,32 +229,30 @@ class Wig(object):
 		self.data['cache'] = Cache()
 
 	def run(self):
-		
 		if self.options['urls'] is not None:
 			for url in self.options['urls']:
 				self.reset()
 				self.options['url'] = url.strip()
 				self.scan_site()
-
 		else:
 			self.scan_site()
 
-		
 		if self.options['write_file'] is not None:
 			self.json_outputter.write_file()
 
 
-
-if __name__ == '__main__':
+def parse_args(url=None):
 	parser = argparse.ArgumentParser(description='WebApp Information Gatherer')
 	
-
 	parser.add_argument('url', nargs='?', type=str, default=None,
 						help='The url to scan e.g. http://example.com')
 	
 	parser.add_argument('-l', type=str, default=None, dest="input_file",
 						help='File with urls, one per line.')
 	
+	parser.add_argument('-i', dest='interactive', default=True, 
+						help='Set wig to not prompt for user input during run')
+
 	parser.add_argument('-n', type=int, default=1, dest="stop_after",
 						help='Stop after this amount of CMSs have been detected. Default: 1')
 	
@@ -283,6 +265,9 @@ if __name__ == '__main__':
 	parser.add_argument('-u', action='store_true', dest='user_agent', 
 						default='Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36',
 						help='User-agent to use in the requests')	
+
+	parser.add_argument('-t', dest='threads', default=10, type=int, 
+						help='Number of threads to use')
 
 	parser.add_argument('--no_cache_load', action='store_true', default=False,
 						help='Do not load cached responses')
@@ -303,28 +288,54 @@ if __name__ == '__main__':
 						help='File to dump results into (JSON)')
 
 	args = parser.parse_args()
-
 	
+	if url is not None: args.url = url
+
 	if args.input_file is None and args.url is None:
-		print('No target(s) specified')
-		sys.exit(1)
+		raise Exception('No target(s) specified')
 
 	if args.no_cache:
 		args.no_cache_load = True
 		args.no_cache_save = True
 
-	try:
-		title = """
-dP   dP   dP    dP     .88888.  
-88   88   88    88    d8'   `88 
-88  .8P  .8P    88    88        
-88  d8'  d8'    88    88   YP88 
-88.d8P8.d8P     88    Y8.   .88 
-8888' Y88'      dP     `88888'  
+	return args
 
-  WebApp Information Gatherer
+
 """
-		print(title)
+	Use this to call wig from python:
+
+	>>>> from wig import wig
+	>>>> w = wig(url='example.com')
+	>>>> w.run()
+	>>>> results = w.get_results()
+"""
+def wig(**kwargs):
+
+	# the url parameter must be supplied
+	if 'url' not in kwargs:
+		raise Exception('url parameter not supplied')
+	args = parse_args(kwargs['url'])
+	
+	# set all other parameters supplied in the function call
+	for setting in kwargs:
+		if setting not in args:
+			raise Exception('Unknown keyword supplied: %s' % (setting, ))
+		setattr(args, setting, kwargs[setting])
+
+	# need to be set in order to silence wig
+	args.verbosity = -1
+	args.interactive = False
+
+	# return an instance of wig
+	return Wig(args)
+
+
+
+# if called from the command line
+if __name__ == '__main__':
+	args = parse_args()
+
+	try:
 		wig = Wig(args)
 		wig.run()
 	except KeyboardInterrupt:

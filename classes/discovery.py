@@ -24,7 +24,7 @@ class DiscoverAllCMS(object):
 		self.tmp_set = set()
 
 	def run(self):
-		self.printer.print('Checking for more matches in cache (option -a)  ...', 1)
+		self.printer.print_debug_line('Checking for more matches in cache (option -a)  ...', 1)
 
 		# find matches for all the responses in the cache
 		for fp_category in ['cms', 'platform']:
@@ -37,7 +37,7 @@ class DiscoverAllCMS(object):
 						self.results.add( fp_category, fp['name'], fp['output'], fp )
 
 						if (fp['name'], fp['output']) not in self.tmp_set:
-							self.printer.print('- Found match: %s %s' % (fp['name'], fp['output']) , 2)
+							self.printer.print_debug_line('- Found match: %s %s' % (fp['name'], fp['output']) , 2)
 
 						self.tmp_set.add((fp['name'], fp['output']))
 
@@ -124,13 +124,13 @@ class DiscoverCMS(object):
 
 	def run(self):
 		batch_no = 0
-		self.printer.print('Determining CMS type ...', 1)
+		self.printer.print_debug_line('Determining CMS type ...', 1)
 
 		detected_cms = []
 		stop_searching = len(detected_cms) >= self.num_cms_to_find
 
 		while (not stop_searching or self.find_all_cms) and (not len(self.queue) == 0):
-			self.printer.print('Checking fingerprint group no. %s ...' % (batch_no, ) , 3)
+			self.printer.print_debug_line('Checking fingerprint group no. %s ...' % (batch_no, ) , 3)
 
 			# set the requester queue
 			results = self.requester.run('CMS', self.get_queue())
@@ -152,13 +152,13 @@ class DiscoverCMS(object):
 
 				if cms not in self.tmp_set:
 					self.tmp_set.add(cms)
-					self.printer.print('- Found CMS match: %s' % (cms, ) , 2)
+					self.printer.print_debug_line('- Found CMS match: %s' % (cms, ) , 2)
 
 				# set the requester queue with only fingerprints for the cms
 				results = self.requester.run('CMS_version', self.get_queue(cms))
 
 				# find the results
-				self.printer.print('Determining CMS version ...', 1)
+				self.printer.print_debug_line('Determining CMS version ...', 1)
 				while results.qsize() > 0:
 					res_fps,response = results.get()
 					for fp in self.matcher.get_result(res_fps, response):
@@ -166,7 +166,7 @@ class DiscoverCMS(object):
 
 						if (fp['name'], fp['output']) not in self.tmp_set:
 							self.tmp_set.add((fp['name'], fp['output']))
-							self.printer.print('- Found version: %s %s' % (fp['name'], fp['output']) , 2)
+							self.printer.print_debug_line('- Found version: %s %s' % (fp['name'], fp['output']) , 2)
 
 
 				# update the stop criteria
@@ -184,14 +184,14 @@ class DiscoverCookies(object):
 		self.printer = data['printer']
 
 	def run(self):
-		self.printer.print('Checking for cookies ...' , 1)
+		self.printer.print_debug_line('Checking for cookies ...' , 1)
 
 		cookies = set()
 		for r in self.data['cache'].get_responses():
 			try:
 				c = r.headers['set-cookie'].strip().split('=')[0]
 				if c not in cookies:
-					self.printer.print('- Found cookie: %s' % (c,) , 2)
+					self.printer.print_debug_line('- Found cookie: %s' % (c,) , 2)
 				
 				cookies.add(c)
 
@@ -242,7 +242,7 @@ class DiscoverErrorPage:
 	def run(self):
 		self.requester.find_404s = True
 
-		self.printer.print('Error page detection ...', 1)
+		self.printer.print_debug_line('Error page detection ...', 1)
 
 		queue = [[fp] for fp in self.fps]
 		results = self.requester.run('ErrorPages', queue)
@@ -253,7 +253,7 @@ class DiscoverErrorPage:
 			if response is not None:
 				error_pages.add(response.md5_404)
 				error_pages.add(response.md5_404_text)
-				self.printer.print('- Error page fingerprint: %s, %s - %s' % (response.md5_404, response.md5_404_text, fp[0]['url']), 2)
+				self.printer.print_debug_line('- Error page fingerprint: %s, %s - %s' % (response.md5_404, response.md5_404_text, fp[0]['url']), 2)
 
 		self.requester.find_404s = False
 
@@ -279,7 +279,7 @@ class DiscoverInteresting(object):
 
 
 	def run(self):
-		self.printer.print('Detecting interesting files ...', 1)
+		self.printer.print_debug_line('Detecting interesting files ...', 1)
 
 		# process the results
 		results = self.requester.run('Interesting', list(self.queue.values()))
@@ -306,7 +306,7 @@ class DiscoverInteresting(object):
 			for fp in self.matcher.get_result(fps, response):
 				self.result.add( self.category, None, None, fp, weight=1)
 				try:
-					self.printer.print('- Found file: %s (%s)' % (fp['url'], fp['note'] ), 2)
+					self.printer.print_debug_line('- Found file: %s (%s)' % (fp['url'], fp['note'] ), 2)
 				except:
 					pass
 
@@ -342,7 +342,7 @@ class DiscoverJavaScript(object):
 
 
 	def run(self):
-		self.printer.print('Detecting Javascript ...', 1)
+		self.printer.print_debug_line('Detecting Javascript ...', 1)
 		for response in self.cache.get_responses():
 			
 			# match only if the response is JavaScript
@@ -357,7 +357,7 @@ class DiscoverJavaScript(object):
 				for fp in matches:
 					self.result.add( 'js', fp['name'], fp['output'], fingerprint=fp, weight=1)
 			
-					self.printer.print('- Found JavaScript: %s %s' % (fp['name'], fp['output']), 2)
+					self.printer.print_debug_line('- Found JavaScript: %s %s' % (fp['name'], fp['output']), 2)
 
 
 
@@ -415,7 +415,7 @@ class DiscoverMore(object):
 
 	
 	def run(self):
-		self.printer.print('Detecting links ...', 1)
+		self.printer.print_debug_line('Detecting links ...', 1)
 		resources = set()
 		parser = LinkExtractor(strict=False)
 
@@ -447,7 +447,7 @@ class DiscoverMore(object):
 
 		# the items in the resource set should mimic a list of fingerprints:
 		# a fingerprint is a dict with at least an URL key
-		self.printer.print('- Discovered %s new resources' % (len(resources), ), 2)
+		self.printer.print_debug_line('- Discovered %s new resources' % (len(resources), ), 2)
 
 		# prepare the urls
 		queue = defaultdict(list)
@@ -481,7 +481,7 @@ class DiscoverOS:
 
 				for os_version in fp['os_version']:
 					if fp['os_name'].lower() in self.os_family_list:
-						self.printer.print('- Prioritizing fingerprints for OS: %s' % (fp['os_name'], ), 7)
+						self.printer.print_debug_line('- Prioritizing fingerprints for OS: %s' % (fp['os_name'], ), 7)
 						self.os[ (fp['os_name'], os_version) ] += weight * 100
 					else:
 						self.os[ (fp['os_name'], os_version) ] += weight
@@ -540,13 +540,13 @@ class DiscoverOS:
 		for i in prio:
 			if i['count'] == max_count:
 				self.results.add('os', i['os'], i['version'], weight=i['count'])
-				self.printer.print('- Found OS: %s %s' % (i['os'], i['version']), 2)
+				self.printer.print_debug_line('- Found OS: %s %s' % (i['os'], i['version']), 2)
 			else:
 				break
 
 
 	def run(self):
-		self.printer.print('Detecting OS ...', 1)
+		self.printer.print_debug_line('Detecting OS ...', 1)
 		headers = set()
 		responses = self.cache.get_responses()
 		
@@ -584,7 +584,7 @@ class DiscoverPlatform:
 		self.tmp_set = set()
 			
 	def run(self):
-		self.printer.print('Detecting platform ...', 1)
+		self.printer.print_debug_line('Detecting platform ...', 1)
 		
 		while len(self.queue) > 0:
 			queue = []
@@ -605,7 +605,7 @@ class DiscoverPlatform:
 					self.result.add('platform', fp['name'], fp['output'], fp)
 
 					if (fp['name'], fp['output']) not in self.tmp_set:
-						self.printer.print('- Found platform %s %s' % (fp['name'], fp['output']), 2)
+						self.printer.print_debug_line('- Found platform %s %s' % (fp['name'], fp['output']), 2)
 
 					self.tmp_set.add((fp['name'], fp['output']))
 
@@ -619,7 +619,7 @@ class DiscoverTitle:
 		self.printer = data['printer']
 
 	def run(self):
-		self.printer.print('Getting title ...', 1)
+		self.printer.print_debug_line('Getting title ...', 1)
 
 		r = self.data['requester'].run('Title', [[{'url': '/'}]])
 
@@ -632,7 +632,7 @@ class DiscoverTitle:
 			title = ''
 
 		try:
-			self.printer.print('- Found title: %s' % (title, ), 2)
+			self.printer.print_debug_line('- Found title: %s' % (title, ), 2)
 		except:
 			pass
 
@@ -647,7 +647,7 @@ class DiscoverTools:
 
 
 	def run(self):
-		self.printer.print('Searching for tools ...', 1)
+		self.printer.print_debug_line('Searching for tools ...', 1)
 		cms_results = self.results.get_versions()
 
 		# loop over the cms' in the results
@@ -658,7 +658,7 @@ class DiscoverTools:
 				if self.fps.translator[fn]['name'] == cms and 'tool' in self.fps.translator[fn]:
 					for tool in self.fps.translator[fn]['tool']:
 						self.results.add_tool(cms, tool['name'], tool['link'])
-						self.printer.print('- Found tool: %s (%s)' % (tool['name'], tool['link']), 2)
+						self.printer.print_debug_line('- Found tool: %s (%s)' % (tool['name'], tool['link']), 2)
 
 
 
@@ -672,7 +672,7 @@ class DiscoverUrlLess(object):
 
 
 	def run(self):
-		self.printer.print('Matching urlless fingerprints...', 1)
+		self.printer.print_debug_line('Matching urlless fingerprints...', 1)
 		
 		# only used for pretty printing of debugging info
 		tmp_set = set()
@@ -700,7 +700,7 @@ class DiscoverUrlLess(object):
 								self.results.add(fp_category, fp['name'], fp['output'], fingerprint=fp, weight=1)
 
 						else:
-							self.printer.print('- Found fingerprint: %s %s' % (fp['name'], fp['output']), 2)
+							self.printer.print_debug_line('- Found fingerprint: %s %s' % (fp['name'], fp['output']), 2)
 							self.results.add(fp_category, fp['name'], fp['output'], fingerprint=fp, weight=1)
 						
 						tmp_set.add((fp['name'], fp['output']))
@@ -721,7 +721,7 @@ class DiscoverVulnerabilities:
 
 
 	def run(self):
-		self.printer.print('Searching for vulnerabilities ...', 1)
+		self.printer.print_debug_line('Searching for vulnerabilities ...', 1)
 
 		cms_results = self.results.get_versions()
 
@@ -738,7 +738,7 @@ class DiscoverVulnerabilities:
 				for fp in self.fps:
 					if fp['name'] == cms and fp['version'] == version:
 						self.results.add_vulnerabilities(cms, version, fp['num_vulns'], fp['link'])
-						self.printer.print('- Found vulnerability: %s %s: %s' % (cms, version, fp['num_vulns']), 2)
+						self.printer.print_debug_line('- Found vulnerability: %s %s: %s' % (cms, version, fp['num_vulns']), 2)
 
 			except Exception as e:
 				print(e)

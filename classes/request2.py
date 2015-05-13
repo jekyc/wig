@@ -277,9 +277,9 @@ class Requester:
 		self.is_redirected = not(new_loc == org_loc)
 
 		if self.is_redirected:
-			self.printer.print('%s redirects to %s\n' % (org_loc, new_loc), 2, '')
+			self.printer.print_debug_line('%s redirects to %s' % (org_loc, new_loc),2)
 		else:
-			self.printer.print('%s does not redirect\n' % (org_loc, ), 2, '')
+			self.printer.print_debug_line('%s does not redirect' % (org_loc, ), 2)
 
 		# create an response object and add it to the cache
 		R = _create_response(response)
@@ -323,11 +323,8 @@ class Requester:
 		return (fp_list, R)
 
 
-
 	def run(self, run_type=None, fp_lists=[]):
-
 		with concurrent.futures.ThreadPoolExecutor(max_workers=self.threads) as executor:
-			
 			future_list = []
 
 			for fp_list in fp_lists:
@@ -336,5 +333,4 @@ class Requester:
 			for future in concurrent.futures.as_completed(future_list):
 				self.requested.put(future.result())
 
-		
 		return self.requested
