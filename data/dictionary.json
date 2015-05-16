@@ -82,5 +82,6 @@
     "zencart": {"name": "Zen Cart"},
     "zenphoto": {"name": "Zenphoto"},
     "modernizr": {"name": "Modernizr"},
-    "confixx": {"name": "Parallels Confixx"}
+    "confixx": {"name": "Parallels Confixx"},
+    "zope": {"name": "Zope"}
 }

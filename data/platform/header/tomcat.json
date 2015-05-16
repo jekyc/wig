@@ -2,14 +2,16 @@
 	{
 		"url": "",
 		"header": "X-Powered-By",
-		"regex": "Tomcat-(\\d[\\.\\d]*)",
+		"type": "regex",
+		"match": "Tomcat-(\\d[\\.\\d]*)",
 		"output": "%s",
 		"code": "any"
 	},
 	{
 		"url": "",
 		"header": "Servlet-Engine",
-		"regex": "Tomcat Web Server/(\\d[\\.\\d]*)",
+		"type": "regex",
+		"match": "Tomcat Web Server/(\\d[\\.\\d]*)",
 		"output": "%s",
 		"code": "any"
 	}

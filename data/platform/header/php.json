@@ -2,7 +2,8 @@
 	{
 		"url": "",
 		"header": "X-Powered-By",
-		"regex": "PHP/(.*)",
+		"type": "regex",
+		"match": "PHP/(.*)",
 		"output": "%s",
 		"code": "any",
 		"weight": 10

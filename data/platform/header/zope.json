@@ -1,0 +1,10 @@
+[
+	{
+		"url": "",
+		"header": "server",
+		"type": "regex",
+		"match": "\\(([\\d*\\.]*), ",
+		"output": "%s",
+		"code": "any"
+	}
+]
