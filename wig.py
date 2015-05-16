@@ -20,7 +20,7 @@ class Wig(object):
 
 		urls = None		
 		if args.input_file is not None:
-			args.interactive = False
+			args.quiet = True
 
 			with open(args.input_file,'r') as input_file:
 				urls = []
@@ -32,9 +32,9 @@ class Wig(object):
 			args.url = 'http://' + args.url
 
 		self.options = {
-			'url': args.url,
+			'url': args.url.lower(),
 			'urls': urls,
-			'interactive': args.interactive,
+			'quiet': args.quiet,
 			'prefix': '',
 			'user_agent': args.user_agent,
 			'proxy': args.proxy,
@@ -90,7 +90,7 @@ class Wig(object):
 			return
 
 		if is_redirected:
-			if self.options['interactive']:
+			if not self.options['quiet']:
 				self.data['printer'].build_line("Redirected to ")
 				self.data['printer'].build_line(new_url, color='red')
 				self.data['printer'].print_built_line()
@@ -250,7 +250,7 @@ def parse_args(url=None):
 	parser.add_argument('-l', type=str, default=None, dest="input_file",
 						help='File with urls, one per line.')
 	
-	parser.add_argument('-i', dest='interactive', default=True, 
+	parser.add_argument('-q', action='store_true', dest='quiet', default=False, 
 						help='Set wig to not prompt for user input during run')
 
 	parser.add_argument('-n', type=int, default=1, dest="stop_after",
@@ -324,7 +324,7 @@ def wig(**kwargs):
 
 	# need to be set in order to silence wig
 	args.verbosity = -1
-	args.interactive = False
+	args.quiet = True
 
 	# return an instance of wig
 	return Wig(args)
