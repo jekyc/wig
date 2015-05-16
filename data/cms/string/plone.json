@@ -22,5 +22,17 @@
 		"type": "string",
 		"match": "Plone Powered</a>",
 		"output": ""
+	},
+	{
+		"url": "",
+		"type": "string",
+		"match": "/portal_javascripts/",
+		"output": ""
+	},
+	{
+		"url": "",
+		"type": "string",
+		"match": "/portal_css/",
+		"output": ""
 	}
 ]

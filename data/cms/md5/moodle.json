@@ -379,6 +379,12 @@
     },
     {
         "match": "5ec853aaf8759920d4d777fe67ab7f67",
+        "output": "v2.6.11",
+        "type": "md5",
+        "url": "/README.txt"
+    },
+    {
+        "match": "5ec853aaf8759920d4d777fe67ab7f67",
         "output": "v2.6.2",
         "type": "md5",
         "url": "/README.txt"
@@ -493,6 +499,12 @@
     },
     {
         "match": "5ec853aaf8759920d4d777fe67ab7f67",
+        "output": "v2.7.8",
+        "type": "md5",
+        "url": "/README.txt"
+    },
+    {
+        "match": "5ec853aaf8759920d4d777fe67ab7f67",
         "output": "v2.8.0",
         "type": "md5",
         "url": "/README.txt"
@@ -542,6 +554,18 @@
     {
         "match": "5ec853aaf8759920d4d777fe67ab7f67",
         "output": "v2.8.5",
+        "type": "md5",
+        "url": "/README.txt"
+    },
+    {
+        "match": "5ec853aaf8759920d4d777fe67ab7f67",
+        "output": "v2.8.6",
+        "type": "md5",
+        "url": "/README.txt"
+    },
+    {
+        "match": "5ec853aaf8759920d4d777fe67ab7f67",
+        "output": "v2.9.0",
         "type": "md5",
         "url": "/README.txt"
     },
@@ -1687,6 +1711,12 @@
     },
     {
         "match": "07aa5b28294c6f1274701b9b1ac596d6",
+        "output": "v2.6.11",
+        "type": "md5",
+        "url": "/lib/editor/tinymce/module.js"
+    },
+    {
+        "match": "07aa5b28294c6f1274701b9b1ac596d6",
         "output": "v2.6.2",
         "type": "md5",
         "url": "/lib/editor/tinymce/module.js"
@@ -1801,6 +1831,12 @@
     },
     {
         "match": "07aa5b28294c6f1274701b9b1ac596d6",
+        "output": "v2.7.8",
+        "type": "md5",
+        "url": "/lib/editor/tinymce/module.js"
+    },
+    {
+        "match": "07aa5b28294c6f1274701b9b1ac596d6",
         "output": "v2.8.0",
         "type": "md5",
         "url": "/lib/editor/tinymce/module.js"
@@ -1850,6 +1886,18 @@
     {
         "match": "07aa5b28294c6f1274701b9b1ac596d6",
         "output": "v2.8.5",
+        "type": "md5",
+        "url": "/lib/editor/tinymce/module.js"
+    },
+    {
+        "match": "07aa5b28294c6f1274701b9b1ac596d6",
+        "output": "v2.8.6",
+        "type": "md5",
+        "url": "/lib/editor/tinymce/module.js"
+    },
+    {
+        "match": "07aa5b28294c6f1274701b9b1ac596d6",
+        "output": "v2.9.0",
         "type": "md5",
         "url": "/lib/editor/tinymce/module.js"
     },
@@ -2557,6 +2605,12 @@
     },
     {
         "match": "85dee58e46fb39164413f6631febaed7",
+        "output": "v2.6.11",
+        "type": "md5",
+        "url": "/lib/editor/tinymce/readme_moodle.txt"
+    },
+    {
+        "match": "85dee58e46fb39164413f6631febaed7",
         "output": "v2.6.6",
         "type": "md5",
         "url": "/lib/editor/tinymce/readme_moodle.txt"
@@ -2611,6 +2665,12 @@
     },
     {
         "match": "85dee58e46fb39164413f6631febaed7",
+        "output": "v2.7.8",
+        "type": "md5",
+        "url": "/lib/editor/tinymce/readme_moodle.txt"
+    },
+    {
+        "match": "85dee58e46fb39164413f6631febaed7",
         "output": "v2.8.0",
         "type": "md5",
         "url": "/lib/editor/tinymce/readme_moodle.txt"
@@ -2660,6 +2720,12 @@
     {
         "match": "85dee58e46fb39164413f6631febaed7",
         "output": "v2.8.5",
+        "type": "md5",
+        "url": "/lib/editor/tinymce/readme_moodle.txt"
+    },
+    {
+        "match": "85dee58e46fb39164413f6631febaed7",
+        "output": "v2.8.6",
         "type": "md5",
         "url": "/lib/editor/tinymce/readme_moodle.txt"
     },
@@ -2840,6 +2906,12 @@
     {
         "match": "aca01a99313e8451a8c8f801942814d5",
         "output": "v2.2.2",
+        "type": "md5",
+        "url": "/lib/editor/tinymce/readme_moodle.txt"
+    },
+    {
+        "match": "c858b5a39dd12b76dd83162cc584c013",
+        "output": "v2.9.0",
         "type": "md5",
         "url": "/lib/editor/tinymce/readme_moodle.txt"
     },
@@ -3355,6 +3427,12 @@
     },
     {
         "match": "53f66fe6f93db9901cbc7da3cfa20417",
+        "output": "v2.6.11",
+        "type": "md5",
+        "url": "/lib/form/filemanager.js"
+    },
+    {
+        "match": "53f66fe6f93db9901cbc7da3cfa20417",
         "output": "v2.6.6",
         "type": "md5",
         "url": "/lib/form/filemanager.js"
@@ -3446,6 +3524,18 @@
     {
         "match": "902fa2f7032c3b07730e41ee7929fd72",
         "output": "v2.7.7",
+        "type": "md5",
+        "url": "/lib/form/filemanager.js"
+    },
+    {
+        "match": "902fa2f7032c3b07730e41ee7929fd72",
+        "output": "v2.7.8",
+        "type": "md5",
+        "url": "/lib/form/filemanager.js"
+    },
+    {
+        "match": "94b4d64c84695d5d249d8cb517eaa217",
+        "output": "v2.9.0",
         "type": "md5",
         "url": "/lib/form/filemanager.js"
     },
@@ -3726,6 +3816,12 @@
         "url": "/lib/form/filemanager.js"
     },
     {
+        "match": "ffcbc06859ffe602f0d9289f44679889",
+        "output": "v2.8.6",
+        "type": "md5",
+        "url": "/lib/form/filemanager.js"
+    },
+    {
         "match": "0427ce7c784def5eae7cdec7362581d5",
         "output": "v2.6.1",
         "type": "md5",
@@ -3996,6 +4092,12 @@
         "url": "/lib/javascript-static.js"
     },
     {
+        "match": "27242e60f644606e2bc9172b600c965b",
+        "output": "v2.8.6",
+        "type": "md5",
+        "url": "/lib/javascript-static.js"
+    },
+    {
         "match": "299454a882a5d960211331c8811075bd",
         "output": "v2.0.5",
         "type": "md5",
@@ -4118,6 +4220,12 @@
     {
         "match": "4be82f18b9df857d1dfc03ee275493e9",
         "output": "v2.7.7",
+        "type": "md5",
+        "url": "/lib/javascript-static.js"
+    },
+    {
+        "match": "4be82f18b9df857d1dfc03ee275493e9",
+        "output": "v2.7.8",
         "type": "md5",
         "url": "/lib/javascript-static.js"
     },
@@ -4537,6 +4645,12 @@
     },
     {
         "match": "c5f1cf86b66c485999f2ed855e5d67eb",
+        "output": "v2.6.11",
+        "type": "md5",
+        "url": "/lib/javascript-static.js"
+    },
+    {
+        "match": "c5f1cf86b66c485999f2ed855e5d67eb",
         "output": "v2.6.9",
         "type": "md5",
         "url": "/lib/javascript-static.js"
@@ -4604,6 +4718,12 @@
     {
         "match": "ddc46566f6dfbfc968eb8f4e021291f0",
         "output": "v1.5.4",
+        "type": "md5",
+        "url": "/lib/javascript-static.js"
+    },
+    {
+        "match": "dfbc793e9ff19240df7c7a0cb9e602ac",
+        "output": "v2.9.0",
         "type": "md5",
         "url": "/lib/javascript-static.js"
     },
@@ -5653,6 +5773,12 @@
     },
     {
         "match": "46d2723f33e7795792ce41fadf189e6b",
+        "output": "v2.7.8",
+        "type": "md5",
+        "url": "/login/index_form.html"
+    },
+    {
+        "match": "46d2723f33e7795792ce41fadf189e6b",
         "output": "v2.8.0",
         "type": "md5",
         "url": "/login/index_form.html"
@@ -5707,6 +5833,18 @@
     },
     {
         "match": "46d2723f33e7795792ce41fadf189e6b",
+        "output": "v2.8.6",
+        "type": "md5",
+        "url": "/login/index_form.html"
+    },
+    {
+        "match": "46d2723f33e7795792ce41fadf189e6b",
+        "output": "v2.9.0",
+        "type": "md5",
+        "url": "/login/index_form.html"
+    },
+    {
+        "match": "46d2723f33e7795792ce41fadf189e6b",
         "output": "v2.9.0-beta",
         "type": "md5",
         "url": "/login/index_form.html"
@@ -5726,6 +5864,12 @@
     {
         "match": "55a285c0fdd2b0875b705fd0c59adb31",
         "output": "v2.6.10",
+        "type": "md5",
+        "url": "/login/index_form.html"
+    },
+    {
+        "match": "55a285c0fdd2b0875b705fd0c59adb31",
+        "output": "v2.6.11",
         "type": "md5",
         "url": "/login/index_form.html"
     },
@@ -7350,6 +7494,12 @@
         "url": "/mod/upgrade.txt"
     },
     {
+        "match": "16ac1e770aff1be74ab17480a30bb4ae",
+        "output": "v2.8.6",
+        "type": "md5",
+        "url": "/mod/upgrade.txt"
+    },
+    {
         "match": "20158cfc69fd8084576586b18da11229",
         "output": "v2.3.0",
         "type": "md5",
@@ -7501,6 +7651,12 @@
     },
     {
         "match": "640a4befc8ce8c5eba22d54ae6a1d00d",
+        "output": "v2.6.11",
+        "type": "md5",
+        "url": "/mod/upgrade.txt"
+    },
+    {
+        "match": "640a4befc8ce8c5eba22d54ae6a1d00d",
         "output": "v2.6.2",
         "type": "md5",
         "url": "/mod/upgrade.txt"
@@ -7604,6 +7760,12 @@
     {
         "match": "7ea77b12aa83b934db3bedc426d60158",
         "output": "v2.7.7",
+        "type": "md5",
+        "url": "/mod/upgrade.txt"
+    },
+    {
+        "match": "7ea77b12aa83b934db3bedc426d60158",
+        "output": "v2.7.8",
         "type": "md5",
         "url": "/mod/upgrade.txt"
     },
@@ -7891,6 +8053,12 @@
     },
     {
         "match": "ffcb3c7204a42e89e3e650b274c0b7e3",
+        "output": "v2.9.0",
+        "type": "md5",
+        "url": "/mod/upgrade.txt"
+    },
+    {
+        "match": "ffcb3c7204a42e89e3e650b274c0b7e3",
         "output": "v2.9.0-beta",
         "type": "md5",
         "url": "/mod/upgrade.txt"
@@ -8012,6 +8180,12 @@
     {
         "match": "26502edd37255c274a792c5ff19fcc99",
         "output": "v2.6.10",
+        "type": "md5",
+        "url": "/theme/base/style/core.css"
+    },
+    {
+        "match": "26502edd37255c274a792c5ff19fcc99",
+        "output": "v2.6.11",
         "type": "md5",
         "url": "/theme/base/style/core.css"
     },
@@ -8214,6 +8388,12 @@
         "url": "/theme/base/style/core.css"
     },
     {
+        "match": "82fdc26255d353fe9f0fe655c22f89f0",
+        "output": "v2.7.8",
+        "type": "md5",
+        "url": "/theme/base/style/core.css"
+    },
+    {
         "match": "855e0d794619cea5c4aa258c458bc3a9",
         "output": "v2.7.2",
         "type": "md5",
@@ -8264,6 +8444,12 @@
     {
         "match": "9e0cf44c601a7b5e4a13b5f21a23c806",
         "output": "v2.5.4",
+        "type": "md5",
+        "url": "/theme/base/style/core.css"
+    },
+    {
+        "match": "a0010ca0a8f3c226f396deee2f9f6241",
+        "output": "v2.9.0",
         "type": "md5",
         "url": "/theme/base/style/core.css"
     },
@@ -8354,6 +8540,12 @@
     {
         "match": "afd9e841d09c9c2be1e97237e8c1fb56",
         "output": "v2.8.5",
+        "type": "md5",
+        "url": "/theme/base/style/core.css"
+    },
+    {
+        "match": "afd9e841d09c9c2be1e97237e8c1fb56",
+        "output": "v2.8.6",
         "type": "md5",
         "url": "/theme/base/style/core.css"
     },
@@ -9829,6 +10021,12 @@
     },
     {
         "match": "823842ccd85b9fa0b15222dae490ab27",
+        "output": "v2.6.11",
+        "type": "md5",
+        "url": "/user/message.html"
+    },
+    {
+        "match": "823842ccd85b9fa0b15222dae490ab27",
         "output": "v2.6.3",
         "type": "md5",
         "url": "/user/message.html"
@@ -9925,6 +10123,12 @@
     },
     {
         "match": "823842ccd85b9fa0b15222dae490ab27",
+        "output": "v2.7.8",
+        "type": "md5",
+        "url": "/user/message.html"
+    },
+    {
+        "match": "823842ccd85b9fa0b15222dae490ab27",
         "output": "v2.8.0",
         "type": "md5",
         "url": "/user/message.html"
@@ -9974,6 +10178,18 @@
     {
         "match": "823842ccd85b9fa0b15222dae490ab27",
         "output": "v2.8.5",
+        "type": "md5",
+        "url": "/user/message.html"
+    },
+    {
+        "match": "823842ccd85b9fa0b15222dae490ab27",
+        "output": "v2.8.6",
+        "type": "md5",
+        "url": "/user/message.html"
+    },
+    {
+        "match": "823842ccd85b9fa0b15222dae490ab27",
+        "output": "v2.9.0",
         "type": "md5",
         "url": "/user/message.html"
     },

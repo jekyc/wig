@@ -22,5 +22,11 @@
 		"type":"md5",
 		"match": "f7126cce236c6e85b14c53d0c3408235",
 		"output": ">= 3"
+	},
+	{
+		"url": "/images/spinner.gif",
+		"type":"md5",
+		"match": "444230888deaef05d779ee582116fe03",
+		"output": ""
 	}
 ]
