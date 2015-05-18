@@ -1,5 +1,7 @@
-import queue, pickle, os, time, hashlib, re
-
+import queue
+import pickle
+import os
+import time
 # wig - Cache
 #
 # wig uses a cache to store the requests and responses made during a scan. 

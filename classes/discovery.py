@@ -1,13 +1,10 @@
-import re, hashlib, pprint, socket, urllib, time
+import re
+import socket
+import urllib
 import urllib.request
-from queue import Queue
-from collections import Counter, deque, defaultdict
+from collections import Counter, defaultdict
 from html.parser import HTMLParser
-from classes.fingerprints import Fingerprints
-#from classes.requester2 import Requester
-from classes.matcher import Match
-from classes.request2 import Response, Requester
-from classes.printer import Printer
+
 
 class DiscoverAllCMS(object):
 	# match all fingerprints against all responses
