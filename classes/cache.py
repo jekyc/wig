@@ -2,27 +2,21 @@ import queue
 import pickle
 import os
 import time
-# wig - Cache
-#
-# wig uses a cache to store the requests and responses made during a scan. 
-# This helps limit the amount of requests that it makes, as a request for 
-# resource is only made once.
-# To further limit the amount of requests, wig saves a copy of the cache
-# and will reuse it for scans run within 24 hours.
-#
-# NOTE: The pickle module is used to save and load the cache. This has the
-#       side effect, that the extra variables which are added to a an 
-#       instance of Requests are not kept. Currently 2 variables are added:
-#       md5 and md5_404. These values have to be recalculated when loading 
-#       a pickled cache. Ideally, a custom object should be created for 
-#       the modified requests, so this is on the TODO.
-
 
 class Cache(queue.Queue):
+	"""
+	wig uses a cache to store the requests and responses made during a scan.
+	This helps limit the amount of requests that it makes, as a request for
+	resource is only made once.
+	To further limit the amount of requests, wig saves a copy of the cache
+	and will reuse it for scans run within 24 hours.
+	"""
+
 	def _init(self, maxsize):
 		self.queue = dict()
 		self.host = None
 		self.cache_dir = './cache/'
+		self.cache_name = ''
 		self.now = str(time.time()).split('.')[0]
 
 		# only load cache data that is new than this
@@ -57,20 +51,21 @@ class Cache(queue.Queue):
 
 	def _remove_old_caches(self):
 		# remove caches that are too old
-		
+
 		# bail if the directory does not exist
-		if not os.path.exists(self.cache_dir): return None
+		if not os.path.exists(self.cache_dir):
+			return None
 
 		# iterate over the cache files
 		for cache_file in os.listdir(self.cache_dir):
-			
+
 			# skip the file if it's not a cache file
 			if not cache_file.endswith('.cache'):
 				continue
 
 			# check if the cache is for the host
-			hostname, time_ext = cache_file.split('_-_')
-			save_time,_ = time_ext.split('.')
+			_, time_ext = cache_file.split('_-_')
+			save_time, _ = time_ext.split('.')
 
 			# check the age of the cache, and remove it if older than
 			# ttl
@@ -91,20 +86,20 @@ class Cache(queue.Queue):
 			# skip the file if it's not a cache file
 			if not cache_file.endswith('.cache'):
 				continue
-			
+
 			# check if the cache is for the host
-			hostname,_ = cache_file.split('_-_')
+			hostname, _ = cache_file.split('_-_')
 			if hostname == self.cache_name.split('_-_')[0]:
 				return os.path.join(self.cache_dir, cache_file)
 
-		# if there aren't any previous cache files, generate a 
+		# if there aren't any previous cache files, generate a
 		# new name for the cache
 		return os.path.join(self.cache_dir, self.cache_name)
 
 
 	def set_host(self, host):
 		self.host = host
-		self.cache_name = self.host.replace('/','').replace(':','..') + '_-_' + self.now + '.cache'
+		self.cache_name = self.host.replace('/', '').replace(':', '..') + '_-_' + self.now + '.cache'
 
 
 	def get_num_urls(self):
@@ -114,6 +109,7 @@ class Cache(queue.Queue):
 	def get_urls(self):
 		return [k for k in self.queue]
 
+
 	def get_responses(self):
 		return [self.queue[key] for key in self.queue]
 
@@ -122,19 +118,21 @@ class Cache(queue.Queue):
 		# save the queue for later use
 		# this will help limit the amount of requests made
 		# when scanning the same site multiple times
-		with self.mutex:		
+		with self.mutex:
 			file_name = self._get_name_for_cache_file()
 			with open(file_name, 'wb') as cache_file:
 				try:
 					pickle.dump(self.queue, cache_file)
-				except:
+				except Exception as err:
 					print('Error saving cache: ' + file_name)
-	
+
+
 	def load(self):
 		# loads previously saved cache for the host
 
 		# bail if the host is not set
-		if self.host is None: return None
+		if self.host is None:
+			return None
 
 		# search the cache dir
 		for cache_file in os.listdir(self.cache_dir):
@@ -145,7 +143,7 @@ class Cache(queue.Queue):
 
 			# check if the cache is for the host
 			hostname, time_ext = cache_file.split('_-_')
-			save_time,_ = time_ext.split('.') 
+			save_time, _ = time_ext.split('.')
 
 			# calc the age of the cache
 			age = int(self.now) - int(save_time)
@@ -154,8 +152,8 @@ class Cache(queue.Queue):
 			if hostname == self.cache_name.split('_-_')[0] and age < self.cache_ttl:
 				file_name = os.path.join(self.cache_dir, cache_file)
 				try:
-					with open(file_name, 'rb') as f:
-						data = pickle.load(f)
+					with open(file_name, 'rb') as handle:
+						data = pickle.load(handle)
 						for path in data:
 							self.__setitem__(path, data[path])
 				except:
