@@ -1,5 +1,11 @@
 [
     {
+        "link": "http://cvedetails.com/version/182926",
+        "name": "concrete5",
+        "num_vulns": "2",
+        "version": "5.7.3.1"
+    },
+    {
         "link": "http://cvedetails.com/version/178544",
         "name": "concrete5",
         "num_vulns": "1",

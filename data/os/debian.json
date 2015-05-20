@@ -7,27 +7,9 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "3.1",
-        "pkg_name": "Apache",
-        "pkg_version": "2.0.54"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "6.0",
         "pkg_name": "Apache",
         "pkg_version": "2.2.16"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "6.0",
-        "pkg_name": "Apache",
-        "pkg_version": "2.2.16"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "7.0",
-        "pkg_name": "Apache",
-        "pkg_version": "2.2.22"
     },
     {
         "os_name": "Debian",
@@ -43,27 +25,9 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "4.0",
-        "pkg_name": "Apache",
-        "pkg_version": "2.2.3"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "5.0",
         "pkg_name": "Apache",
         "pkg_version": "2.2.9"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "5.0",
-        "pkg_name": "Apache",
-        "pkg_version": "2.2.9"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "8.0",
-        "pkg_name": "Apache",
-        "pkg_version": "2.4.10"
     },
     {
         "os_name": "Debian",
@@ -79,27 +43,9 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "3.0",
-        "pkg_name": "apache-tomcat",
-        "pkg_version": "4.0.3"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "3.1",
         "pkg_name": "apache-tomcat",
         "pkg_version": "4.1.31"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "3.1",
-        "pkg_name": "apache-tomcat",
-        "pkg_version": "4.1.31"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "4.0",
-        "pkg_name": "apache-tomcat",
-        "pkg_version": "5.5.20"
     },
     {
         "os_name": "Debian",
@@ -115,27 +61,9 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "5.0",
-        "pkg_name": "apache-tomcat",
-        "pkg_version": "5.5.26"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "6.0",
         "pkg_name": "apache-tomcat",
         "pkg_version": "6.0.28"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "6.0",
-        "pkg_name": "apache-tomcat",
-        "pkg_version": "6.0.28"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "7.0",
-        "pkg_name": "apache-tomcat",
-        "pkg_version": "7.0.28"
     },
     {
         "os_name": "Debian",
@@ -151,27 +79,9 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "8.0",
-        "pkg_name": "apache-tomcat",
-        "pkg_version": "8.0.14"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "4.0",
         "pkg_name": "lighttpd",
         "pkg_version": "1.4.13"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "4.0",
-        "pkg_name": "lighttpd",
-        "pkg_version": "1.4.13"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "5.0",
-        "pkg_name": "lighttpd",
-        "pkg_version": "1.4.19"
     },
     {
         "os_name": "Debian",
@@ -187,27 +97,9 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "6.0",
-        "pkg_name": "lighttpd",
-        "pkg_version": "1.4.28"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "7.0",
         "pkg_name": "lighttpd",
         "pkg_version": "1.4.31"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "7.0",
-        "pkg_name": "lighttpd",
-        "pkg_version": "1.4.31"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "8.0",
-        "pkg_name": "lighttpd",
-        "pkg_version": "1.4.35"
     },
     {
         "os_name": "Debian",
@@ -223,27 +115,9 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "2.1",
-        "pkg_name": "mod_perl",
-        "pkg_version": "1.16"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "2.2",
         "pkg_name": "mod_perl",
         "pkg_version": "1.21"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "2.2",
-        "pkg_name": "mod_perl",
-        "pkg_version": "1.21"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "3.0",
-        "pkg_name": "mod_perl",
-        "pkg_version": "1.26"
     },
     {
         "os_name": "Debian",
@@ -259,18 +133,6 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "3.1",
-        "pkg_name": "mod_perl",
-        "pkg_version": "2.0.0pre21"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "4.0",
-        "pkg_name": "mod_perl",
-        "pkg_version": "2.0.2"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "4.0",
         "pkg_name": "mod_perl",
         "pkg_version": "2.0.2"
@@ -278,18 +140,6 @@
     {
         "os_name": "Debian",
         "os_version": "5.0",
-        "pkg_name": "mod_perl",
-        "pkg_version": "2.0.4"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "5.0",
-        "pkg_name": "mod_perl",
-        "pkg_version": "2.0.4"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "6.0",
         "pkg_name": "mod_perl",
         "pkg_version": "2.0.4"
     },
@@ -307,27 +157,9 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "7.0",
-        "pkg_name": "mod_perl",
-        "pkg_version": "2.0.7"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "8.0",
         "pkg_name": "mod_perl",
         "pkg_version": "2.0.9"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "8.0",
-        "pkg_name": "mod_perl",
-        "pkg_version": "2.0.9"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "4.0",
-        "pkg_name": "nginx",
-        "pkg_version": "0.4.13"
     },
     {
         "os_name": "Debian",
@@ -343,27 +175,9 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "5.0",
-        "pkg_name": "nginx",
-        "pkg_version": "0.6.32"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "6.0",
         "pkg_name": "nginx",
         "pkg_version": "0.7.67"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "6.0",
-        "pkg_name": "nginx",
-        "pkg_version": "0.7.67"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "7.0",
-        "pkg_name": "nginx",
-        "pkg_version": "1.2.1"
     },
     {
         "os_name": "Debian",
@@ -379,27 +193,9 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "8.0",
-        "pkg_name": "nginx",
-        "pkg_version": "1.6.2"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "3.0",
         "pkg_name": "openssl",
         "pkg_version": "0.9.6c"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "3.0",
-        "pkg_name": "openssl",
-        "pkg_version": "0.9.6c"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "3.1",
-        "pkg_name": "openssl",
-        "pkg_version": "0.9.7e"
     },
     {
         "os_name": "Debian",
@@ -415,27 +211,9 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "4.0",
-        "pkg_name": "openssl",
-        "pkg_version": "0.9.8c"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "5.0",
         "pkg_name": "openssl",
         "pkg_version": "0.9.8g"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "5.0",
-        "pkg_name": "openssl",
-        "pkg_version": "0.9.8g"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "6.0",
-        "pkg_name": "openssl",
-        "pkg_version": "0.9.8o"
     },
     {
         "os_name": "Debian",
@@ -451,27 +229,9 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "7.0",
-        "pkg_name": "openssl",
-        "pkg_version": "1.0.1e"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "8.0",
         "pkg_name": "openssl",
         "pkg_version": "1.0.1k"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "8.0",
-        "pkg_name": "openssl",
-        "pkg_version": "1.0.1k"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "5.0",
-        "pkg_name": "perl",
-        "pkg_version": "5.10.0"
     },
     {
         "os_name": "Debian",
@@ -487,27 +247,9 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "6.0",
-        "pkg_name": "perl",
-        "pkg_version": "5.10.1"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "7.0",
         "pkg_name": "perl",
         "pkg_version": "5.14.2"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "7.0",
-        "pkg_name": "perl",
-        "pkg_version": "5.14.2"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "1.1",
-        "pkg_name": "perl",
-        "pkg_version": "5.2"
     },
     {
         "os_name": "Debian",
@@ -523,18 +265,6 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "8.0",
-        "pkg_name": "perl",
-        "pkg_version": "5.20.2"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "1.2",
-        "pkg_name": "perl",
-        "pkg_version": "5.3.7"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "1.2",
         "pkg_name": "perl",
         "pkg_version": "5.3.7"
@@ -547,25 +277,7 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "1.3",
-        "pkg_name": "perl",
-        "pkg_version": "5.3.7"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "2.0",
-        "pkg_name": "perl",
-        "pkg_version": "5.4.4"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "2.0",
-        "pkg_name": "perl",
-        "pkg_version": "5.4.4"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "2.1",
         "pkg_name": "perl",
         "pkg_version": "5.4.4"
     },
@@ -583,27 +295,9 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "2.2",
-        "pkg_name": "perl",
-        "pkg_version": "5.4.5"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "3.0",
         "pkg_name": "perl",
         "pkg_version": "5.6.1"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "3.0",
-        "pkg_name": "perl",
-        "pkg_version": "5.6.1"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "3.1",
-        "pkg_name": "perl",
-        "pkg_version": "5.8.4"
     },
     {
         "os_name": "Debian",
@@ -619,27 +313,9 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "4.0",
-        "pkg_name": "perl",
-        "pkg_version": "5.8.8"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "1.3",
         "pkg_name": "php",
         "pkg_version": "2.0b10"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "1.3",
-        "pkg_name": "php",
-        "pkg_version": "2.0b10"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "2.0",
-        "pkg_name": "php",
-        "pkg_version": "3.0"
     },
     {
         "os_name": "Debian",
@@ -655,27 +331,9 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "2.1",
-        "pkg_name": "php",
-        "pkg_version": "3.0.5"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "2.2",
         "pkg_name": "php",
         "pkg_version": "4.0.3pl1"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "2.2",
-        "pkg_name": "php",
-        "pkg_version": "4.0.3pl1"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "3.0",
-        "pkg_name": "php",
-        "pkg_version": "4.1.2"
     },
     {
         "os_name": "Debian",
@@ -691,27 +349,9 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "3.1",
-        "pkg_name": "php",
-        "pkg_version": "4.3.10"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "4.0",
         "pkg_name": "php",
         "pkg_version": "5.2.0"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "4.0",
-        "pkg_name": "php",
-        "pkg_version": "5.2.0"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "5.0",
-        "pkg_name": "php",
-        "pkg_version": "5.2.6"
     },
     {
         "os_name": "Debian",
@@ -727,27 +367,9 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "6.0",
-        "pkg_name": "php",
-        "pkg_version": "5.3.3"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "7.0",
         "pkg_name": "php",
         "pkg_version": "5.4.4"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "7.0",
-        "pkg_name": "php",
-        "pkg_version": "5.4.4"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "8.0",
-        "pkg_name": "php",
-        "pkg_version": "5.6.7"
     },
     {
         "os_name": "Debian",
@@ -763,27 +385,9 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "5.0",
-        "pkg_name": "phpMyAdmin",
-        "pkg_version": "2.11.8.1"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "3.0",
         "pkg_name": "phpMyAdmin",
         "pkg_version": "2.2.3"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "3.0",
-        "pkg_name": "phpMyAdmin",
-        "pkg_version": "2.2.3"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "3.1",
-        "pkg_name": "phpMyAdmin",
-        "pkg_version": "2.6.2"
     },
     {
         "os_name": "Debian",
@@ -799,27 +403,9 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "4.0",
-        "pkg_name": "phpMyAdmin",
-        "pkg_version": "2.9.1.1"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "6.0",
         "pkg_name": "phpMyAdmin",
         "pkg_version": "3.3.7"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "6.0",
-        "pkg_name": "phpMyAdmin",
-        "pkg_version": "3.3.7"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "7.0",
-        "pkg_name": "phpMyAdmin",
-        "pkg_version": "3.4.11.1"
     },
     {
         "os_name": "Debian",
@@ -835,27 +421,9 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "8.0",
-        "pkg_name": "phpMyAdmin",
-        "pkg_version": "4.2.12"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "2.2",
         "pkg_name": "ruby",
         "pkg_version": "1.4.3"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "2.2",
-        "pkg_name": "ruby",
-        "pkg_version": "1.4.3"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "3.0",
-        "pkg_name": "ruby",
-        "pkg_version": "1.6.7"
     },
     {
         "os_name": "Debian",
@@ -871,27 +439,9 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "3.1",
-        "pkg_name": "ruby",
-        "pkg_version": "1.8.2"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "4.0",
         "pkg_name": "ruby",
         "pkg_version": "1.8.5"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "4.0",
-        "pkg_name": "ruby",
-        "pkg_version": "1.8.5"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "6.0",
-        "pkg_name": "ruby",
-        "pkg_version": "1.8.7-p302"
     },
     {
         "os_name": "Debian",
@@ -907,27 +457,9 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "5.0",
-        "pkg_name": "ruby",
-        "pkg_version": "1.8.7-p72"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "7.0",
         "pkg_name": "ruby",
         "pkg_version": "1.9.3-p194"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "7.0",
-        "pkg_name": "ruby",
-        "pkg_version": "1.9.3-p194"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "8.0",
-        "pkg_name": "ruby",
-        "pkg_version": "2.1.5"
     },
     {
         "os_name": "Debian",
@@ -943,27 +475,9 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "3.1",
-        "pkg_name": "subversion",
-        "pkg_version": "1.1.4"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "4.0",
         "pkg_name": "subversion",
         "pkg_version": "1.4.2"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "4.0",
-        "pkg_name": "subversion",
-        "pkg_version": "1.4.2"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "5.0",
-        "pkg_name": "subversion",
-        "pkg_version": "1.5.1"
     },
     {
         "os_name": "Debian",
@@ -979,27 +493,9 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "6.0",
-        "pkg_name": "subversion",
-        "pkg_version": "1.6.12"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "7.0",
         "pkg_name": "subversion",
         "pkg_version": "1.6.17"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "7.0",
-        "pkg_name": "subversion",
-        "pkg_version": "1.6.17"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "8.0",
-        "pkg_name": "subversion",
-        "pkg_version": "1.8.10"
     },
     {
         "os_name": "Debian",
@@ -1015,27 +511,9 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "3.0",
-        "pkg_name": "webmin",
-        "pkg_version": "0.94"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "3.1",
         "pkg_name": "webmin",
         "pkg_version": "1.180"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "3.1",
-        "pkg_name": "webmin",
-        "pkg_version": "1.180"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "4.0",
-        "pkg_name": "wordpress",
-        "pkg_version": "2.0.10"
     },
     {
         "os_name": "Debian",
@@ -1051,18 +529,6 @@
     },
     {
         "os_name": "Debian",
-        "os_version": "5.0",
-        "pkg_name": "wordpress",
-        "pkg_version": "2.5.1"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "6.0",
-        "pkg_name": "wordpress",
-        "pkg_version": "3.0.4"
-    },
-    {
-        "os_name": "Debian",
         "os_version": "6.0",
         "pkg_name": "wordpress",
         "pkg_version": "3.0.4"
@@ -1072,18 +538,6 @@
         "os_version": "7.0",
         "pkg_name": "wordpress",
         "pkg_version": "3.5.1"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "7.0",
-        "pkg_name": "wordpress",
-        "pkg_version": "3.5.1"
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "8.0",
-        "pkg_name": "wordpress",
-        "pkg_version": "4.1"
     },
     {
         "os_name": "Debian",

@@ -1,7 +1,25 @@
 [
     {
         "match": "154e686f18127aa2020c0d325e53f6b7",
+        "output": "Release-4.10.0",
+        "type": "md5",
+        "url": "/umbraco/Search/quickSearch.js"
+    },
+    {
+        "match": "154e686f18127aa2020c0d325e53f6b7",
+        "output": "Release-4.11.0",
+        "type": "md5",
+        "url": "/umbraco/Search/quickSearch.js"
+    },
+    {
+        "match": "154e686f18127aa2020c0d325e53f6b7",
         "output": "Release-4.11.1",
+        "type": "md5",
+        "url": "/umbraco/Search/quickSearch.js"
+    },
+    {
+        "match": "154e686f18127aa2020c0d325e53f6b7",
+        "output": "Release-4.11.2",
         "type": "md5",
         "url": "/umbraco/Search/quickSearch.js"
     },
@@ -19,13 +37,127 @@
     },
     {
         "match": "154e686f18127aa2020c0d325e53f6b7",
+        "output": "Release-4.11.3",
+        "type": "md5",
+        "url": "/umbraco/Search/quickSearch.js"
+    },
+    {
+        "match": "154e686f18127aa2020c0d325e53f6b7",
+        "output": "Release-4.11.4",
+        "type": "md5",
+        "url": "/umbraco/Search/quickSearch.js"
+    },
+    {
+        "match": "154e686f18127aa2020c0d325e53f6b7",
+        "output": "Release-4.11.5",
+        "type": "md5",
+        "url": "/umbraco/Search/quickSearch.js"
+    },
+    {
+        "match": "154e686f18127aa2020c0d325e53f6b7",
+        "output": "Release-4.9.0",
+        "type": "md5",
+        "url": "/umbraco/Search/quickSearch.js"
+    },
+    {
+        "match": "154e686f18127aa2020c0d325e53f6b7",
+        "output": "Release-4.9.1",
+        "type": "md5",
+        "url": "/umbraco/Search/quickSearch.js"
+    },
+    {
+        "match": "154e686f18127aa2020c0d325e53f6b7",
+        "output": "Release-6.0.0",
+        "type": "md5",
+        "url": "/umbraco/Search/quickSearch.js"
+    },
+    {
+        "match": "154e686f18127aa2020c0d325e53f6b7",
+        "output": "Release-6.0.0-RC",
+        "type": "md5",
+        "url": "/umbraco/Search/quickSearch.js"
+    },
+    {
+        "match": "154e686f18127aa2020c0d325e53f6b7",
+        "output": "Release-6.0.0-beta",
+        "type": "md5",
+        "url": "/umbraco/Search/quickSearch.js"
+    },
+    {
+        "match": "154e686f18127aa2020c0d325e53f6b7",
+        "output": "Release-6.0.2",
+        "type": "md5",
+        "url": "/umbraco/Search/quickSearch.js"
+    },
+    {
+        "match": "154e686f18127aa2020c0d325e53f6b7",
         "output": "release-4.11.10",
         "type": "md5",
         "url": "/umbraco/Search/quickSearch.js"
     },
     {
         "match": "154e686f18127aa2020c0d325e53f6b7",
+        "output": "release-4.11.6",
+        "type": "md5",
+        "url": "/umbraco/Search/quickSearch.js"
+    },
+    {
+        "match": "154e686f18127aa2020c0d325e53f6b7",
+        "output": "release-4.11.7",
+        "type": "md5",
+        "url": "/umbraco/Search/quickSearch.js"
+    },
+    {
+        "match": "154e686f18127aa2020c0d325e53f6b7",
+        "output": "release-4.11.9",
+        "type": "md5",
+        "url": "/umbraco/Search/quickSearch.js"
+    },
+    {
+        "match": "154e686f18127aa2020c0d325e53f6b7",
+        "output": "release-6.0.3",
+        "type": "md5",
+        "url": "/umbraco/Search/quickSearch.js"
+    },
+    {
+        "match": "154e686f18127aa2020c0d325e53f6b7",
+        "output": "release-6.0.4",
+        "type": "md5",
+        "url": "/umbraco/Search/quickSearch.js"
+    },
+    {
+        "match": "154e686f18127aa2020c0d325e53f6b7",
+        "output": "release-6.0.6",
+        "type": "md5",
+        "url": "/umbraco/Search/quickSearch.js"
+    },
+    {
+        "match": "154e686f18127aa2020c0d325e53f6b7",
         "output": "release-6.0.7",
+        "type": "md5",
+        "url": "/umbraco/Search/quickSearch.js"
+    },
+    {
+        "match": "154e686f18127aa2020c0d325e53f6b7",
+        "output": "release-6.1.0",
+        "type": "md5",
+        "url": "/umbraco/Search/quickSearch.js"
+    },
+    {
+        "match": "154e686f18127aa2020c0d325e53f6b7",
+        "output": "release-6.1.0-beta",
+        "type": "md5",
+        "url": "/umbraco/Search/quickSearch.js"
+    },
+    {
+        "match": "154e686f18127aa2020c0d325e53f6b7",
+        "output": "release-6.1.0-beta2",
+        "type": "md5",
+        "url": "/umbraco/Search/quickSearch.js"
+    },
+    {
+        "match": "154e686f18127aa2020c0d325e53f6b7",
+        "output": "release-6.1.1",
         "type": "md5",
         "url": "/umbraco/Search/quickSearch.js"
     },
@@ -283,7 +415,25 @@
     },
     {
         "match": "c438194cca07c2012183afb8713b2d5b",
+        "output": "Release-4.10.0",
+        "type": "md5",
+        "url": "/umbraco/css/permissionsEditor.css"
+    },
+    {
+        "match": "c438194cca07c2012183afb8713b2d5b",
+        "output": "Release-4.11.0",
+        "type": "md5",
+        "url": "/umbraco/css/permissionsEditor.css"
+    },
+    {
+        "match": "c438194cca07c2012183afb8713b2d5b",
         "output": "Release-4.11.1",
+        "type": "md5",
+        "url": "/umbraco/css/permissionsEditor.css"
+    },
+    {
+        "match": "c438194cca07c2012183afb8713b2d5b",
+        "output": "Release-4.11.2",
         "type": "md5",
         "url": "/umbraco/css/permissionsEditor.css"
     },
@@ -301,13 +451,127 @@
     },
     {
         "match": "c438194cca07c2012183afb8713b2d5b",
+        "output": "Release-4.11.3",
+        "type": "md5",
+        "url": "/umbraco/css/permissionsEditor.css"
+    },
+    {
+        "match": "c438194cca07c2012183afb8713b2d5b",
+        "output": "Release-4.11.4",
+        "type": "md5",
+        "url": "/umbraco/css/permissionsEditor.css"
+    },
+    {
+        "match": "c438194cca07c2012183afb8713b2d5b",
+        "output": "Release-4.11.5",
+        "type": "md5",
+        "url": "/umbraco/css/permissionsEditor.css"
+    },
+    {
+        "match": "c438194cca07c2012183afb8713b2d5b",
+        "output": "Release-4.9.0",
+        "type": "md5",
+        "url": "/umbraco/css/permissionsEditor.css"
+    },
+    {
+        "match": "c438194cca07c2012183afb8713b2d5b",
+        "output": "Release-4.9.1",
+        "type": "md5",
+        "url": "/umbraco/css/permissionsEditor.css"
+    },
+    {
+        "match": "c438194cca07c2012183afb8713b2d5b",
+        "output": "Release-6.0.0",
+        "type": "md5",
+        "url": "/umbraco/css/permissionsEditor.css"
+    },
+    {
+        "match": "c438194cca07c2012183afb8713b2d5b",
+        "output": "Release-6.0.0-RC",
+        "type": "md5",
+        "url": "/umbraco/css/permissionsEditor.css"
+    },
+    {
+        "match": "c438194cca07c2012183afb8713b2d5b",
+        "output": "Release-6.0.0-beta",
+        "type": "md5",
+        "url": "/umbraco/css/permissionsEditor.css"
+    },
+    {
+        "match": "c438194cca07c2012183afb8713b2d5b",
+        "output": "Release-6.0.2",
+        "type": "md5",
+        "url": "/umbraco/css/permissionsEditor.css"
+    },
+    {
+        "match": "c438194cca07c2012183afb8713b2d5b",
         "output": "release-4.11.10",
         "type": "md5",
         "url": "/umbraco/css/permissionsEditor.css"
     },
     {
         "match": "c438194cca07c2012183afb8713b2d5b",
+        "output": "release-4.11.6",
+        "type": "md5",
+        "url": "/umbraco/css/permissionsEditor.css"
+    },
+    {
+        "match": "c438194cca07c2012183afb8713b2d5b",
+        "output": "release-4.11.7",
+        "type": "md5",
+        "url": "/umbraco/css/permissionsEditor.css"
+    },
+    {
+        "match": "c438194cca07c2012183afb8713b2d5b",
+        "output": "release-4.11.9",
+        "type": "md5",
+        "url": "/umbraco/css/permissionsEditor.css"
+    },
+    {
+        "match": "c438194cca07c2012183afb8713b2d5b",
+        "output": "release-6.0.3",
+        "type": "md5",
+        "url": "/umbraco/css/permissionsEditor.css"
+    },
+    {
+        "match": "c438194cca07c2012183afb8713b2d5b",
+        "output": "release-6.0.4",
+        "type": "md5",
+        "url": "/umbraco/css/permissionsEditor.css"
+    },
+    {
+        "match": "c438194cca07c2012183afb8713b2d5b",
+        "output": "release-6.0.6",
+        "type": "md5",
+        "url": "/umbraco/css/permissionsEditor.css"
+    },
+    {
+        "match": "c438194cca07c2012183afb8713b2d5b",
         "output": "release-6.0.7",
+        "type": "md5",
+        "url": "/umbraco/css/permissionsEditor.css"
+    },
+    {
+        "match": "c438194cca07c2012183afb8713b2d5b",
+        "output": "release-6.1.0",
+        "type": "md5",
+        "url": "/umbraco/css/permissionsEditor.css"
+    },
+    {
+        "match": "c438194cca07c2012183afb8713b2d5b",
+        "output": "release-6.1.0-beta",
+        "type": "md5",
+        "url": "/umbraco/css/permissionsEditor.css"
+    },
+    {
+        "match": "c438194cca07c2012183afb8713b2d5b",
+        "output": "release-6.1.0-beta2",
+        "type": "md5",
+        "url": "/umbraco/css/permissionsEditor.css"
+    },
+    {
+        "match": "c438194cca07c2012183afb8713b2d5b",
+        "output": "release-6.1.1",
         "type": "md5",
         "url": "/umbraco/css/permissionsEditor.css"
     },
@@ -565,7 +829,25 @@
     },
     {
         "match": "d383fa82fe7953ab6eb9db7400e9f166",
+        "output": "Release-4.10.0",
+        "type": "md5",
+        "url": "/umbraco/dashboard/images/logo32x32.png"
+    },
+    {
+        "match": "d383fa82fe7953ab6eb9db7400e9f166",
+        "output": "Release-4.11.0",
+        "type": "md5",
+        "url": "/umbraco/dashboard/images/logo32x32.png"
+    },
+    {
+        "match": "d383fa82fe7953ab6eb9db7400e9f166",
         "output": "Release-4.11.1",
+        "type": "md5",
+        "url": "/umbraco/dashboard/images/logo32x32.png"
+    },
+    {
+        "match": "d383fa82fe7953ab6eb9db7400e9f166",
+        "output": "Release-4.11.2",
         "type": "md5",
         "url": "/umbraco/dashboard/images/logo32x32.png"
     },
@@ -583,13 +865,127 @@
     },
     {
         "match": "d383fa82fe7953ab6eb9db7400e9f166",
+        "output": "Release-4.11.3",
+        "type": "md5",
+        "url": "/umbraco/dashboard/images/logo32x32.png"
+    },
+    {
+        "match": "d383fa82fe7953ab6eb9db7400e9f166",
+        "output": "Release-4.11.4",
+        "type": "md5",
+        "url": "/umbraco/dashboard/images/logo32x32.png"
+    },
+    {
+        "match": "d383fa82fe7953ab6eb9db7400e9f166",
+        "output": "Release-4.11.5",
+        "type": "md5",
+        "url": "/umbraco/dashboard/images/logo32x32.png"
+    },
+    {
+        "match": "d383fa82fe7953ab6eb9db7400e9f166",
+        "output": "Release-4.9.0",
+        "type": "md5",
+        "url": "/umbraco/dashboard/images/logo32x32.png"
+    },
+    {
+        "match": "d383fa82fe7953ab6eb9db7400e9f166",
+        "output": "Release-4.9.1",
+        "type": "md5",
+        "url": "/umbraco/dashboard/images/logo32x32.png"
+    },
+    {
+        "match": "d383fa82fe7953ab6eb9db7400e9f166",
+        "output": "Release-6.0.0",
+        "type": "md5",
+        "url": "/umbraco/dashboard/images/logo32x32.png"
+    },
+    {
+        "match": "d383fa82fe7953ab6eb9db7400e9f166",
+        "output": "Release-6.0.0-RC",
+        "type": "md5",
+        "url": "/umbraco/dashboard/images/logo32x32.png"
+    },
+    {
+        "match": "d383fa82fe7953ab6eb9db7400e9f166",
+        "output": "Release-6.0.0-beta",
+        "type": "md5",
+        "url": "/umbraco/dashboard/images/logo32x32.png"
+    },
+    {
+        "match": "d383fa82fe7953ab6eb9db7400e9f166",
+        "output": "Release-6.0.2",
+        "type": "md5",
+        "url": "/umbraco/dashboard/images/logo32x32.png"
+    },
+    {
+        "match": "d383fa82fe7953ab6eb9db7400e9f166",
         "output": "release-4.11.10",
         "type": "md5",
         "url": "/umbraco/dashboard/images/logo32x32.png"
     },
     {
         "match": "d383fa82fe7953ab6eb9db7400e9f166",
+        "output": "release-4.11.6",
+        "type": "md5",
+        "url": "/umbraco/dashboard/images/logo32x32.png"
+    },
+    {
+        "match": "d383fa82fe7953ab6eb9db7400e9f166",
+        "output": "release-4.11.7",
+        "type": "md5",
+        "url": "/umbraco/dashboard/images/logo32x32.png"
+    },
+    {
+        "match": "d383fa82fe7953ab6eb9db7400e9f166",
+        "output": "release-4.11.9",
+        "type": "md5",
+        "url": "/umbraco/dashboard/images/logo32x32.png"
+    },
+    {
+        "match": "d383fa82fe7953ab6eb9db7400e9f166",
+        "output": "release-6.0.3",
+        "type": "md5",
+        "url": "/umbraco/dashboard/images/logo32x32.png"
+    },
+    {
+        "match": "d383fa82fe7953ab6eb9db7400e9f166",
+        "output": "release-6.0.4",
+        "type": "md5",
+        "url": "/umbraco/dashboard/images/logo32x32.png"
+    },
+    {
+        "match": "d383fa82fe7953ab6eb9db7400e9f166",
+        "output": "release-6.0.6",
+        "type": "md5",
+        "url": "/umbraco/dashboard/images/logo32x32.png"
+    },
+    {
+        "match": "d383fa82fe7953ab6eb9db7400e9f166",
         "output": "release-6.0.7",
+        "type": "md5",
+        "url": "/umbraco/dashboard/images/logo32x32.png"
+    },
+    {
+        "match": "d383fa82fe7953ab6eb9db7400e9f166",
+        "output": "release-6.1.0",
+        "type": "md5",
+        "url": "/umbraco/dashboard/images/logo32x32.png"
+    },
+    {
+        "match": "d383fa82fe7953ab6eb9db7400e9f166",
+        "output": "release-6.1.0-beta",
+        "type": "md5",
+        "url": "/umbraco/dashboard/images/logo32x32.png"
+    },
+    {
+        "match": "d383fa82fe7953ab6eb9db7400e9f166",
+        "output": "release-6.1.0-beta2",
+        "type": "md5",
+        "url": "/umbraco/dashboard/images/logo32x32.png"
+    },
+    {
+        "match": "d383fa82fe7953ab6eb9db7400e9f166",
+        "output": "release-6.1.1",
         "type": "md5",
         "url": "/umbraco/dashboard/images/logo32x32.png"
     },
@@ -661,7 +1057,73 @@
     },
     {
         "match": "267b1dac5c5d2a2925a5fec3bbc17093",
+        "output": "Release-6.0.0",
+        "type": "md5",
+        "url": "/umbraco/images/loginBg.png"
+    },
+    {
+        "match": "267b1dac5c5d2a2925a5fec3bbc17093",
+        "output": "Release-6.0.0-RC",
+        "type": "md5",
+        "url": "/umbraco/images/loginBg.png"
+    },
+    {
+        "match": "267b1dac5c5d2a2925a5fec3bbc17093",
+        "output": "Release-6.0.0-beta",
+        "type": "md5",
+        "url": "/umbraco/images/loginBg.png"
+    },
+    {
+        "match": "267b1dac5c5d2a2925a5fec3bbc17093",
+        "output": "Release-6.0.2",
+        "type": "md5",
+        "url": "/umbraco/images/loginBg.png"
+    },
+    {
+        "match": "267b1dac5c5d2a2925a5fec3bbc17093",
+        "output": "release-6.0.3",
+        "type": "md5",
+        "url": "/umbraco/images/loginBg.png"
+    },
+    {
+        "match": "267b1dac5c5d2a2925a5fec3bbc17093",
+        "output": "release-6.0.4",
+        "type": "md5",
+        "url": "/umbraco/images/loginBg.png"
+    },
+    {
+        "match": "267b1dac5c5d2a2925a5fec3bbc17093",
+        "output": "release-6.0.6",
+        "type": "md5",
+        "url": "/umbraco/images/loginBg.png"
+    },
+    {
+        "match": "267b1dac5c5d2a2925a5fec3bbc17093",
         "output": "release-6.0.7",
+        "type": "md5",
+        "url": "/umbraco/images/loginBg.png"
+    },
+    {
+        "match": "267b1dac5c5d2a2925a5fec3bbc17093",
+        "output": "release-6.1.0",
+        "type": "md5",
+        "url": "/umbraco/images/loginBg.png"
+    },
+    {
+        "match": "267b1dac5c5d2a2925a5fec3bbc17093",
+        "output": "release-6.1.0-beta",
+        "type": "md5",
+        "url": "/umbraco/images/loginBg.png"
+    },
+    {
+        "match": "267b1dac5c5d2a2925a5fec3bbc17093",
+        "output": "release-6.1.0-beta2",
+        "type": "md5",
+        "url": "/umbraco/images/loginBg.png"
+    },
+    {
+        "match": "267b1dac5c5d2a2925a5fec3bbc17093",
+        "output": "release-6.1.1",
         "type": "md5",
         "url": "/umbraco/images/loginBg.png"
     },
@@ -919,7 +1381,25 @@
     },
     {
         "match": "e95ff0ee303000dc9f75fb2dcfef85b4",
+        "output": "Release-4.10.0",
+        "type": "md5",
+        "url": "/umbraco/images/loginBg.png"
+    },
+    {
+        "match": "e95ff0ee303000dc9f75fb2dcfef85b4",
+        "output": "Release-4.11.0",
+        "type": "md5",
+        "url": "/umbraco/images/loginBg.png"
+    },
+    {
+        "match": "e95ff0ee303000dc9f75fb2dcfef85b4",
         "output": "Release-4.11.1",
+        "type": "md5",
+        "url": "/umbraco/images/loginBg.png"
+    },
+    {
+        "match": "e95ff0ee303000dc9f75fb2dcfef85b4",
+        "output": "Release-4.11.2",
         "type": "md5",
         "url": "/umbraco/images/loginBg.png"
     },
@@ -937,13 +1417,79 @@
     },
     {
         "match": "e95ff0ee303000dc9f75fb2dcfef85b4",
+        "output": "Release-4.11.3",
+        "type": "md5",
+        "url": "/umbraco/images/loginBg.png"
+    },
+    {
+        "match": "e95ff0ee303000dc9f75fb2dcfef85b4",
+        "output": "Release-4.11.4",
+        "type": "md5",
+        "url": "/umbraco/images/loginBg.png"
+    },
+    {
+        "match": "e95ff0ee303000dc9f75fb2dcfef85b4",
+        "output": "Release-4.11.5",
+        "type": "md5",
+        "url": "/umbraco/images/loginBg.png"
+    },
+    {
+        "match": "e95ff0ee303000dc9f75fb2dcfef85b4",
+        "output": "Release-4.9.0",
+        "type": "md5",
+        "url": "/umbraco/images/loginBg.png"
+    },
+    {
+        "match": "e95ff0ee303000dc9f75fb2dcfef85b4",
+        "output": "Release-4.9.1",
+        "type": "md5",
+        "url": "/umbraco/images/loginBg.png"
+    },
+    {
+        "match": "e95ff0ee303000dc9f75fb2dcfef85b4",
         "output": "release-4.11.10",
         "type": "md5",
         "url": "/umbraco/images/loginBg.png"
     },
     {
+        "match": "e95ff0ee303000dc9f75fb2dcfef85b4",
+        "output": "release-4.11.6",
+        "type": "md5",
+        "url": "/umbraco/images/loginBg.png"
+    },
+    {
+        "match": "e95ff0ee303000dc9f75fb2dcfef85b4",
+        "output": "release-4.11.7",
+        "type": "md5",
+        "url": "/umbraco/images/loginBg.png"
+    },
+    {
+        "match": "e95ff0ee303000dc9f75fb2dcfef85b4",
+        "output": "release-4.11.9",
+        "type": "md5",
+        "url": "/umbraco/images/loginBg.png"
+    },
+    {
+        "match": "35803fd0a37181f49ae037230f0fb2bf",
+        "output": "Release-4.10.0",
+        "type": "md5",
+        "url": "/umbraco/images/umbracoSplash.gif"
+    },
+    {
+        "match": "35803fd0a37181f49ae037230f0fb2bf",
+        "output": "Release-4.11.0",
+        "type": "md5",
+        "url": "/umbraco/images/umbracoSplash.gif"
+    },
+    {
         "match": "35803fd0a37181f49ae037230f0fb2bf",
         "output": "Release-4.11.1",
+        "type": "md5",
+        "url": "/umbraco/images/umbracoSplash.gif"
+    },
+    {
+        "match": "35803fd0a37181f49ae037230f0fb2bf",
+        "output": "Release-4.11.2",
         "type": "md5",
         "url": "/umbraco/images/umbracoSplash.gif"
     },
@@ -961,13 +1507,79 @@
     },
     {
         "match": "35803fd0a37181f49ae037230f0fb2bf",
+        "output": "Release-4.11.3",
+        "type": "md5",
+        "url": "/umbraco/images/umbracoSplash.gif"
+    },
+    {
+        "match": "35803fd0a37181f49ae037230f0fb2bf",
+        "output": "Release-4.11.4",
+        "type": "md5",
+        "url": "/umbraco/images/umbracoSplash.gif"
+    },
+    {
+        "match": "35803fd0a37181f49ae037230f0fb2bf",
+        "output": "Release-4.11.5",
+        "type": "md5",
+        "url": "/umbraco/images/umbracoSplash.gif"
+    },
+    {
+        "match": "35803fd0a37181f49ae037230f0fb2bf",
+        "output": "Release-4.9.0",
+        "type": "md5",
+        "url": "/umbraco/images/umbracoSplash.gif"
+    },
+    {
+        "match": "35803fd0a37181f49ae037230f0fb2bf",
+        "output": "Release-4.9.1",
+        "type": "md5",
+        "url": "/umbraco/images/umbracoSplash.gif"
+    },
+    {
+        "match": "35803fd0a37181f49ae037230f0fb2bf",
         "output": "release-4.11.10",
         "type": "md5",
         "url": "/umbraco/images/umbracoSplash.gif"
     },
     {
+        "match": "35803fd0a37181f49ae037230f0fb2bf",
+        "output": "release-4.11.6",
+        "type": "md5",
+        "url": "/umbraco/images/umbracoSplash.gif"
+    },
+    {
+        "match": "35803fd0a37181f49ae037230f0fb2bf",
+        "output": "release-4.11.7",
+        "type": "md5",
+        "url": "/umbraco/images/umbracoSplash.gif"
+    },
+    {
+        "match": "35803fd0a37181f49ae037230f0fb2bf",
+        "output": "release-4.11.9",
+        "type": "md5",
+        "url": "/umbraco/images/umbracoSplash.gif"
+    },
+    {
+        "match": "6df1d259a1e3c670f7099b101758ae89",
+        "output": "Release-4.10.0",
+        "type": "md5",
+        "url": "/umbraco/js/guiFunctions.js"
+    },
+    {
+        "match": "6df1d259a1e3c670f7099b101758ae89",
+        "output": "Release-4.11.0",
+        "type": "md5",
+        "url": "/umbraco/js/guiFunctions.js"
+    },
+    {
         "match": "6df1d259a1e3c670f7099b101758ae89",
         "output": "Release-4.11.1",
+        "type": "md5",
+        "url": "/umbraco/js/guiFunctions.js"
+    },
+    {
+        "match": "6df1d259a1e3c670f7099b101758ae89",
+        "output": "Release-4.11.2",
         "type": "md5",
         "url": "/umbraco/js/guiFunctions.js"
     },
@@ -985,13 +1597,127 @@
     },
     {
         "match": "6df1d259a1e3c670f7099b101758ae89",
+        "output": "Release-4.11.3",
+        "type": "md5",
+        "url": "/umbraco/js/guiFunctions.js"
+    },
+    {
+        "match": "6df1d259a1e3c670f7099b101758ae89",
+        "output": "Release-4.11.4",
+        "type": "md5",
+        "url": "/umbraco/js/guiFunctions.js"
+    },
+    {
+        "match": "6df1d259a1e3c670f7099b101758ae89",
+        "output": "Release-4.11.5",
+        "type": "md5",
+        "url": "/umbraco/js/guiFunctions.js"
+    },
+    {
+        "match": "6df1d259a1e3c670f7099b101758ae89",
+        "output": "Release-4.9.0",
+        "type": "md5",
+        "url": "/umbraco/js/guiFunctions.js"
+    },
+    {
+        "match": "6df1d259a1e3c670f7099b101758ae89",
+        "output": "Release-4.9.1",
+        "type": "md5",
+        "url": "/umbraco/js/guiFunctions.js"
+    },
+    {
+        "match": "6df1d259a1e3c670f7099b101758ae89",
+        "output": "Release-6.0.0",
+        "type": "md5",
+        "url": "/umbraco/js/guiFunctions.js"
+    },
+    {
+        "match": "6df1d259a1e3c670f7099b101758ae89",
+        "output": "Release-6.0.0-RC",
+        "type": "md5",
+        "url": "/umbraco/js/guiFunctions.js"
+    },
+    {
+        "match": "6df1d259a1e3c670f7099b101758ae89",
+        "output": "Release-6.0.0-beta",
+        "type": "md5",
+        "url": "/umbraco/js/guiFunctions.js"
+    },
+    {
+        "match": "6df1d259a1e3c670f7099b101758ae89",
+        "output": "Release-6.0.2",
+        "type": "md5",
+        "url": "/umbraco/js/guiFunctions.js"
+    },
+    {
+        "match": "6df1d259a1e3c670f7099b101758ae89",
         "output": "release-4.11.10",
+        "type": "md5",
+        "url": "/umbraco/js/guiFunctions.js"
+    },
+    {
+        "match": "6df1d259a1e3c670f7099b101758ae89",
+        "output": "release-4.11.6",
+        "type": "md5",
+        "url": "/umbraco/js/guiFunctions.js"
+    },
+    {
+        "match": "6df1d259a1e3c670f7099b101758ae89",
+        "output": "release-4.11.7",
+        "type": "md5",
+        "url": "/umbraco/js/guiFunctions.js"
+    },
+    {
+        "match": "6df1d259a1e3c670f7099b101758ae89",
+        "output": "release-4.11.9",
+        "type": "md5",
+        "url": "/umbraco/js/guiFunctions.js"
+    },
+    {
+        "match": "6df1d259a1e3c670f7099b101758ae89",
+        "output": "release-6.0.3",
+        "type": "md5",
+        "url": "/umbraco/js/guiFunctions.js"
+    },
+    {
+        "match": "6df1d259a1e3c670f7099b101758ae89",
+        "output": "release-6.0.4",
+        "type": "md5",
+        "url": "/umbraco/js/guiFunctions.js"
+    },
+    {
+        "match": "6df1d259a1e3c670f7099b101758ae89",
+        "output": "release-6.0.6",
         "type": "md5",
         "url": "/umbraco/js/guiFunctions.js"
     },
     {
         "match": "6df1d259a1e3c670f7099b101758ae89",
         "output": "release-6.0.7",
+        "type": "md5",
+        "url": "/umbraco/js/guiFunctions.js"
+    },
+    {
+        "match": "6df1d259a1e3c670f7099b101758ae89",
+        "output": "release-6.1.0",
+        "type": "md5",
+        "url": "/umbraco/js/guiFunctions.js"
+    },
+    {
+        "match": "6df1d259a1e3c670f7099b101758ae89",
+        "output": "release-6.1.0-beta",
+        "type": "md5",
+        "url": "/umbraco/js/guiFunctions.js"
+    },
+    {
+        "match": "6df1d259a1e3c670f7099b101758ae89",
+        "output": "release-6.1.0-beta2",
+        "type": "md5",
+        "url": "/umbraco/js/guiFunctions.js"
+    },
+    {
+        "match": "6df1d259a1e3c670f7099b101758ae89",
+        "output": "release-6.1.1",
         "type": "md5",
         "url": "/umbraco/js/guiFunctions.js"
     },
@@ -1249,7 +1975,25 @@
     },
     {
         "match": "274d08de525bfc863994ce4343c20fa0",
+        "output": "Release-4.10.0",
+        "type": "md5",
+        "url": "/umbraco_client/Application/HistoryManager.js"
+    },
+    {
+        "match": "274d08de525bfc863994ce4343c20fa0",
+        "output": "Release-4.11.0",
+        "type": "md5",
+        "url": "/umbraco_client/Application/HistoryManager.js"
+    },
+    {
+        "match": "274d08de525bfc863994ce4343c20fa0",
         "output": "Release-4.11.1",
+        "type": "md5",
+        "url": "/umbraco_client/Application/HistoryManager.js"
+    },
+    {
+        "match": "274d08de525bfc863994ce4343c20fa0",
+        "output": "Release-4.11.2",
         "type": "md5",
         "url": "/umbraco_client/Application/HistoryManager.js"
     },
@@ -1262,6 +2006,72 @@
     {
         "match": "274d08de525bfc863994ce4343c20fa0",
         "output": "Release-4.11.2.2",
+        "type": "md5",
+        "url": "/umbraco_client/Application/HistoryManager.js"
+    },
+    {
+        "match": "274d08de525bfc863994ce4343c20fa0",
+        "output": "Release-4.11.3",
+        "type": "md5",
+        "url": "/umbraco_client/Application/HistoryManager.js"
+    },
+    {
+        "match": "274d08de525bfc863994ce4343c20fa0",
+        "output": "Release-4.11.4",
+        "type": "md5",
+        "url": "/umbraco_client/Application/HistoryManager.js"
+    },
+    {
+        "match": "274d08de525bfc863994ce4343c20fa0",
+        "output": "Release-4.11.5",
+        "type": "md5",
+        "url": "/umbraco_client/Application/HistoryManager.js"
+    },
+    {
+        "match": "274d08de525bfc863994ce4343c20fa0",
+        "output": "Release-4.9.0",
+        "type": "md5",
+        "url": "/umbraco_client/Application/HistoryManager.js"
+    },
+    {
+        "match": "274d08de525bfc863994ce4343c20fa0",
+        "output": "Release-4.9.1",
+        "type": "md5",
+        "url": "/umbraco_client/Application/HistoryManager.js"
+    },
+    {
+        "match": "274d08de525bfc863994ce4343c20fa0",
+        "output": "Release-6.0.0",
+        "type": "md5",
+        "url": "/umbraco_client/Application/HistoryManager.js"
+    },
+    {
+        "match": "274d08de525bfc863994ce4343c20fa0",
+        "output": "Release-6.0.0-RC",
+        "type": "md5",
+        "url": "/umbraco_client/Application/HistoryManager.js"
+    },
+    {
+        "match": "274d08de525bfc863994ce4343c20fa0",
+        "output": "Release-6.0.0-beta",
+        "type": "md5",
+        "url": "/umbraco_client/Application/HistoryManager.js"
+    },
+    {
+        "match": "274d08de525bfc863994ce4343c20fa0",
+        "output": "Release-6.0.2",
+        "type": "md5",
+        "url": "/umbraco_client/Application/HistoryManager.js"
+    },
+    {
+        "match": "274d08de525bfc863994ce4343c20fa0",
+        "output": "release-4.11.6",
+        "type": "md5",
+        "url": "/umbraco_client/Application/HistoryManager.js"
+    },
+    {
+        "match": "274d08de525bfc863994ce4343c20fa0",
+        "output": "release-6.0.3",
         "type": "md5",
         "url": "/umbraco_client/Application/HistoryManager.js"
     },
@@ -1465,7 +2275,55 @@
     },
     {
         "match": "8ba7131d9a9d2a4d917901ec5e825c2f",
+        "output": "release-4.11.7",
+        "type": "md5",
+        "url": "/umbraco_client/Application/HistoryManager.js"
+    },
+    {
+        "match": "8ba7131d9a9d2a4d917901ec5e825c2f",
+        "output": "release-4.11.9",
+        "type": "md5",
+        "url": "/umbraco_client/Application/HistoryManager.js"
+    },
+    {
+        "match": "8ba7131d9a9d2a4d917901ec5e825c2f",
+        "output": "release-6.0.4",
+        "type": "md5",
+        "url": "/umbraco_client/Application/HistoryManager.js"
+    },
+    {
+        "match": "8ba7131d9a9d2a4d917901ec5e825c2f",
+        "output": "release-6.0.6",
+        "type": "md5",
+        "url": "/umbraco_client/Application/HistoryManager.js"
+    },
+    {
+        "match": "8ba7131d9a9d2a4d917901ec5e825c2f",
         "output": "release-6.0.7",
+        "type": "md5",
+        "url": "/umbraco_client/Application/HistoryManager.js"
+    },
+    {
+        "match": "8ba7131d9a9d2a4d917901ec5e825c2f",
+        "output": "release-6.1.0",
+        "type": "md5",
+        "url": "/umbraco_client/Application/HistoryManager.js"
+    },
+    {
+        "match": "8ba7131d9a9d2a4d917901ec5e825c2f",
+        "output": "release-6.1.0-beta",
+        "type": "md5",
+        "url": "/umbraco_client/Application/HistoryManager.js"
+    },
+    {
+        "match": "8ba7131d9a9d2a4d917901ec5e825c2f",
+        "output": "release-6.1.0-beta2",
+        "type": "md5",
+        "url": "/umbraco_client/Application/HistoryManager.js"
+    },
+    {
+        "match": "8ba7131d9a9d2a4d917901ec5e825c2f",
+        "output": "release-6.1.1",
         "type": "md5",
         "url": "/umbraco_client/Application/HistoryManager.js"
     },
@@ -1698,8 +2556,62 @@
         "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
     },
     {
+        "match": "6a8e6ddae7d5c1d825ad0fd58cd15224",
+        "output": "Release-4.9.0",
+        "type": "md5",
+        "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
+    },
+    {
+        "match": "6a8e6ddae7d5c1d825ad0fd58cd15224",
+        "output": "Release-4.9.1",
+        "type": "md5",
+        "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
+    },
+    {
+        "match": "6efe803e265abc1e8210451518a43d86",
+        "output": "release-6.1.0",
+        "type": "md5",
+        "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
+    },
+    {
+        "match": "6efe803e265abc1e8210451518a43d86",
+        "output": "release-6.1.0-beta",
+        "type": "md5",
+        "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
+    },
+    {
+        "match": "6efe803e265abc1e8210451518a43d86",
+        "output": "release-6.1.0-beta2",
+        "type": "md5",
+        "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
+    },
+    {
+        "match": "6efe803e265abc1e8210451518a43d86",
+        "output": "release-6.1.1",
+        "type": "md5",
+        "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
+    },
+    {
+        "match": "7c22265c59e587446a2d0d286b244d9f",
+        "output": "Release-4.10.0",
+        "type": "md5",
+        "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
+    },
+    {
+        "match": "7c22265c59e587446a2d0d286b244d9f",
+        "output": "Release-4.11.0",
+        "type": "md5",
+        "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
+    },
+    {
         "match": "7c22265c59e587446a2d0d286b244d9f",
         "output": "Release-4.11.1",
+        "type": "md5",
+        "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
+    },
+    {
+        "match": "7c22265c59e587446a2d0d286b244d9f",
+        "output": "Release-4.11.2",
         "type": "md5",
         "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
     },
@@ -1717,7 +2629,85 @@
     },
     {
         "match": "7c22265c59e587446a2d0d286b244d9f",
+        "output": "Release-4.11.3",
+        "type": "md5",
+        "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
+    },
+    {
+        "match": "7c22265c59e587446a2d0d286b244d9f",
+        "output": "Release-4.11.4",
+        "type": "md5",
+        "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
+    },
+    {
+        "match": "7c22265c59e587446a2d0d286b244d9f",
+        "output": "Release-4.11.5",
+        "type": "md5",
+        "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
+    },
+    {
+        "match": "7c22265c59e587446a2d0d286b244d9f",
+        "output": "Release-6.0.0",
+        "type": "md5",
+        "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
+    },
+    {
+        "match": "7c22265c59e587446a2d0d286b244d9f",
+        "output": "Release-6.0.0-RC",
+        "type": "md5",
+        "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
+    },
+    {
+        "match": "7c22265c59e587446a2d0d286b244d9f",
+        "output": "Release-6.0.0-beta",
+        "type": "md5",
+        "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
+    },
+    {
+        "match": "7c22265c59e587446a2d0d286b244d9f",
+        "output": "Release-6.0.2",
+        "type": "md5",
+        "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
+    },
+    {
+        "match": "7c22265c59e587446a2d0d286b244d9f",
         "output": "release-4.11.10",
+        "type": "md5",
+        "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
+    },
+    {
+        "match": "7c22265c59e587446a2d0d286b244d9f",
+        "output": "release-4.11.6",
+        "type": "md5",
+        "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
+    },
+    {
+        "match": "7c22265c59e587446a2d0d286b244d9f",
+        "output": "release-4.11.7",
+        "type": "md5",
+        "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
+    },
+    {
+        "match": "7c22265c59e587446a2d0d286b244d9f",
+        "output": "release-4.11.9",
+        "type": "md5",
+        "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
+    },
+    {
+        "match": "7c22265c59e587446a2d0d286b244d9f",
+        "output": "release-6.0.3",
+        "type": "md5",
+        "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
+    },
+    {
+        "match": "7c22265c59e587446a2d0d286b244d9f",
+        "output": "release-6.0.4",
+        "type": "md5",
+        "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
+    },
+    {
+        "match": "7c22265c59e587446a2d0d286b244d9f",
+        "output": "release-6.0.6",
         "type": "md5",
         "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
     },
@@ -1837,7 +2827,25 @@
     },
     {
         "match": "1b02a9347630c87f93fd195656da90e2",
+        "output": "Release-4.10.0",
+        "type": "md5",
+        "url": "/umbraco_client/FolderBrowser/Js/folderbrowser.js"
+    },
+    {
+        "match": "1b02a9347630c87f93fd195656da90e2",
+        "output": "Release-4.11.0",
+        "type": "md5",
+        "url": "/umbraco_client/FolderBrowser/Js/folderbrowser.js"
+    },
+    {
+        "match": "1b02a9347630c87f93fd195656da90e2",
         "output": "Release-4.11.1",
+        "type": "md5",
+        "url": "/umbraco_client/FolderBrowser/Js/folderbrowser.js"
+    },
+    {
+        "match": "1b02a9347630c87f93fd195656da90e2",
+        "output": "Release-4.11.2",
         "type": "md5",
         "url": "/umbraco_client/FolderBrowser/Js/folderbrowser.js"
     },
@@ -1850,6 +2858,96 @@
     {
         "match": "1b02a9347630c87f93fd195656da90e2",
         "output": "Release-4.11.2.2",
+        "type": "md5",
+        "url": "/umbraco_client/FolderBrowser/Js/folderbrowser.js"
+    },
+    {
+        "match": "1b02a9347630c87f93fd195656da90e2",
+        "output": "Release-4.11.3",
+        "type": "md5",
+        "url": "/umbraco_client/FolderBrowser/Js/folderbrowser.js"
+    },
+    {
+        "match": "1b02a9347630c87f93fd195656da90e2",
+        "output": "Release-4.11.4",
+        "type": "md5",
+        "url": "/umbraco_client/FolderBrowser/Js/folderbrowser.js"
+    },
+    {
+        "match": "1b02a9347630c87f93fd195656da90e2",
+        "output": "Release-4.11.5",
+        "type": "md5",
+        "url": "/umbraco_client/FolderBrowser/Js/folderbrowser.js"
+    },
+    {
+        "match": "1b02a9347630c87f93fd195656da90e2",
+        "output": "Release-4.9.0",
+        "type": "md5",
+        "url": "/umbraco_client/FolderBrowser/Js/folderbrowser.js"
+    },
+    {
+        "match": "1b02a9347630c87f93fd195656da90e2",
+        "output": "Release-4.9.1",
+        "type": "md5",
+        "url": "/umbraco_client/FolderBrowser/Js/folderbrowser.js"
+    },
+    {
+        "match": "1b02a9347630c87f93fd195656da90e2",
+        "output": "Release-6.0.0",
+        "type": "md5",
+        "url": "/umbraco_client/FolderBrowser/Js/folderbrowser.js"
+    },
+    {
+        "match": "1b02a9347630c87f93fd195656da90e2",
+        "output": "Release-6.0.0-RC",
+        "type": "md5",
+        "url": "/umbraco_client/FolderBrowser/Js/folderbrowser.js"
+    },
+    {
+        "match": "1b02a9347630c87f93fd195656da90e2",
+        "output": "Release-6.0.0-beta",
+        "type": "md5",
+        "url": "/umbraco_client/FolderBrowser/Js/folderbrowser.js"
+    },
+    {
+        "match": "1b02a9347630c87f93fd195656da90e2",
+        "output": "Release-6.0.2",
+        "type": "md5",
+        "url": "/umbraco_client/FolderBrowser/Js/folderbrowser.js"
+    },
+    {
+        "match": "1b02a9347630c87f93fd195656da90e2",
+        "output": "release-4.11.6",
+        "type": "md5",
+        "url": "/umbraco_client/FolderBrowser/Js/folderbrowser.js"
+    },
+    {
+        "match": "1b02a9347630c87f93fd195656da90e2",
+        "output": "release-4.11.7",
+        "type": "md5",
+        "url": "/umbraco_client/FolderBrowser/Js/folderbrowser.js"
+    },
+    {
+        "match": "1b02a9347630c87f93fd195656da90e2",
+        "output": "release-6.0.3",
+        "type": "md5",
+        "url": "/umbraco_client/FolderBrowser/Js/folderbrowser.js"
+    },
+    {
+        "match": "1b02a9347630c87f93fd195656da90e2",
+        "output": "release-6.0.4",
+        "type": "md5",
+        "url": "/umbraco_client/FolderBrowser/Js/folderbrowser.js"
+    },
+    {
+        "match": "1b02a9347630c87f93fd195656da90e2",
+        "output": "release-6.1.0-beta",
+        "type": "md5",
+        "url": "/umbraco_client/FolderBrowser/Js/folderbrowser.js"
+    },
+    {
+        "match": "1b02a9347630c87f93fd195656da90e2",
+        "output": "release-6.1.0-beta2",
         "type": "md5",
         "url": "/umbraco_client/FolderBrowser/Js/folderbrowser.js"
     },
@@ -1944,6 +3042,30 @@
         "url": "/umbraco_client/FolderBrowser/Js/folderbrowser.js"
     },
     {
+        "match": "459364ddc2644fe3927fcda29e87a219",
+        "output": "release-4.11.9",
+        "type": "md5",
+        "url": "/umbraco_client/FolderBrowser/Js/folderbrowser.js"
+    },
+    {
+        "match": "459364ddc2644fe3927fcda29e87a219",
+        "output": "release-6.0.6",
+        "type": "md5",
+        "url": "/umbraco_client/FolderBrowser/Js/folderbrowser.js"
+    },
+    {
+        "match": "459364ddc2644fe3927fcda29e87a219",
+        "output": "release-6.1.0",
+        "type": "md5",
+        "url": "/umbraco_client/FolderBrowser/Js/folderbrowser.js"
+    },
+    {
+        "match": "459364ddc2644fe3927fcda29e87a219",
+        "output": "release-6.1.1",
+        "type": "md5",
+        "url": "/umbraco_client/FolderBrowser/Js/folderbrowser.js"
+    },
+    {
         "match": "94ac76d2ea165d98c80bd18659271246",
         "output": "release-7.1.4",
         "type": "md5",
@@ -2281,7 +3403,25 @@
     },
     {
         "match": "7712db366b8475ee047c54f54ffe8194",
+        "output": "Release-4.10.0",
+        "type": "md5",
+        "url": "/umbraco_client/Panel/style.css"
+    },
+    {
+        "match": "7712db366b8475ee047c54f54ffe8194",
+        "output": "Release-4.11.0",
+        "type": "md5",
+        "url": "/umbraco_client/Panel/style.css"
+    },
+    {
+        "match": "7712db366b8475ee047c54f54ffe8194",
         "output": "Release-4.11.1",
+        "type": "md5",
+        "url": "/umbraco_client/Panel/style.css"
+    },
+    {
+        "match": "7712db366b8475ee047c54f54ffe8194",
+        "output": "Release-4.11.2",
         "type": "md5",
         "url": "/umbraco_client/Panel/style.css"
     },
@@ -2299,13 +3439,127 @@
     },
     {
         "match": "7712db366b8475ee047c54f54ffe8194",
+        "output": "Release-4.11.3",
+        "type": "md5",
+        "url": "/umbraco_client/Panel/style.css"
+    },
+    {
+        "match": "7712db366b8475ee047c54f54ffe8194",
+        "output": "Release-4.11.4",
+        "type": "md5",
+        "url": "/umbraco_client/Panel/style.css"
+    },
+    {
+        "match": "7712db366b8475ee047c54f54ffe8194",
+        "output": "Release-4.11.5",
+        "type": "md5",
+        "url": "/umbraco_client/Panel/style.css"
+    },
+    {
+        "match": "7712db366b8475ee047c54f54ffe8194",
+        "output": "Release-4.9.0",
+        "type": "md5",
+        "url": "/umbraco_client/Panel/style.css"
+    },
+    {
+        "match": "7712db366b8475ee047c54f54ffe8194",
+        "output": "Release-4.9.1",
+        "type": "md5",
+        "url": "/umbraco_client/Panel/style.css"
+    },
+    {
+        "match": "7712db366b8475ee047c54f54ffe8194",
+        "output": "Release-6.0.0",
+        "type": "md5",
+        "url": "/umbraco_client/Panel/style.css"
+    },
+    {
+        "match": "7712db366b8475ee047c54f54ffe8194",
+        "output": "Release-6.0.0-RC",
+        "type": "md5",
+        "url": "/umbraco_client/Panel/style.css"
+    },
+    {
+        "match": "7712db366b8475ee047c54f54ffe8194",
+        "output": "Release-6.0.0-beta",
+        "type": "md5",
+        "url": "/umbraco_client/Panel/style.css"
+    },
+    {
+        "match": "7712db366b8475ee047c54f54ffe8194",
+        "output": "Release-6.0.2",
+        "type": "md5",
+        "url": "/umbraco_client/Panel/style.css"
+    },
+    {
+        "match": "7712db366b8475ee047c54f54ffe8194",
         "output": "release-4.11.10",
         "type": "md5",
         "url": "/umbraco_client/Panel/style.css"
     },
     {
         "match": "7712db366b8475ee047c54f54ffe8194",
+        "output": "release-4.11.6",
+        "type": "md5",
+        "url": "/umbraco_client/Panel/style.css"
+    },
+    {
+        "match": "7712db366b8475ee047c54f54ffe8194",
+        "output": "release-4.11.7",
+        "type": "md5",
+        "url": "/umbraco_client/Panel/style.css"
+    },
+    {
+        "match": "7712db366b8475ee047c54f54ffe8194",
+        "output": "release-4.11.9",
+        "type": "md5",
+        "url": "/umbraco_client/Panel/style.css"
+    },
+    {
+        "match": "7712db366b8475ee047c54f54ffe8194",
+        "output": "release-6.0.3",
+        "type": "md5",
+        "url": "/umbraco_client/Panel/style.css"
+    },
+    {
+        "match": "7712db366b8475ee047c54f54ffe8194",
+        "output": "release-6.0.4",
+        "type": "md5",
+        "url": "/umbraco_client/Panel/style.css"
+    },
+    {
+        "match": "7712db366b8475ee047c54f54ffe8194",
+        "output": "release-6.0.6",
+        "type": "md5",
+        "url": "/umbraco_client/Panel/style.css"
+    },
+    {
+        "match": "7712db366b8475ee047c54f54ffe8194",
         "output": "release-6.0.7",
+        "type": "md5",
+        "url": "/umbraco_client/Panel/style.css"
+    },
+    {
+        "match": "7712db366b8475ee047c54f54ffe8194",
+        "output": "release-6.1.0",
+        "type": "md5",
+        "url": "/umbraco_client/Panel/style.css"
+    },
+    {
+        "match": "7712db366b8475ee047c54f54ffe8194",
+        "output": "release-6.1.0-beta",
+        "type": "md5",
+        "url": "/umbraco_client/Panel/style.css"
+    },
+    {
+        "match": "7712db366b8475ee047c54f54ffe8194",
+        "output": "release-6.1.0-beta2",
+        "type": "md5",
+        "url": "/umbraco_client/Panel/style.css"
+    },
+    {
+        "match": "7712db366b8475ee047c54f54ffe8194",
+        "output": "release-6.1.1",
         "type": "md5",
         "url": "/umbraco_client/Panel/style.css"
     },
@@ -2377,7 +3631,25 @@
     },
     {
         "match": "1698bbf9e299fe946549b30ed670c34a",
+        "output": "Release-4.10.0",
+        "type": "md5",
+        "url": "/umbraco_client/passwordStrength/passwordstrength.js"
+    },
+    {
+        "match": "1698bbf9e299fe946549b30ed670c34a",
+        "output": "Release-4.11.0",
+        "type": "md5",
+        "url": "/umbraco_client/passwordStrength/passwordstrength.js"
+    },
+    {
+        "match": "1698bbf9e299fe946549b30ed670c34a",
         "output": "Release-4.11.1",
+        "type": "md5",
+        "url": "/umbraco_client/passwordStrength/passwordstrength.js"
+    },
+    {
+        "match": "1698bbf9e299fe946549b30ed670c34a",
+        "output": "Release-4.11.2",
         "type": "md5",
         "url": "/umbraco_client/passwordStrength/passwordstrength.js"
     },
@@ -2395,13 +3667,127 @@
     },
     {
         "match": "1698bbf9e299fe946549b30ed670c34a",
+        "output": "Release-4.11.3",
+        "type": "md5",
+        "url": "/umbraco_client/passwordStrength/passwordstrength.js"
+    },
+    {
+        "match": "1698bbf9e299fe946549b30ed670c34a",
+        "output": "Release-4.11.4",
+        "type": "md5",
+        "url": "/umbraco_client/passwordStrength/passwordstrength.js"
+    },
+    {
+        "match": "1698bbf9e299fe946549b30ed670c34a",
+        "output": "Release-4.11.5",
+        "type": "md5",
+        "url": "/umbraco_client/passwordStrength/passwordstrength.js"
+    },
+    {
+        "match": "1698bbf9e299fe946549b30ed670c34a",
+        "output": "Release-4.9.0",
+        "type": "md5",
+        "url": "/umbraco_client/passwordStrength/passwordstrength.js"
+    },
+    {
+        "match": "1698bbf9e299fe946549b30ed670c34a",
+        "output": "Release-4.9.1",
+        "type": "md5",
+        "url": "/umbraco_client/passwordStrength/passwordstrength.js"
+    },
+    {
+        "match": "1698bbf9e299fe946549b30ed670c34a",
+        "output": "Release-6.0.0",
+        "type": "md5",
+        "url": "/umbraco_client/passwordStrength/passwordstrength.js"
+    },
+    {
+        "match": "1698bbf9e299fe946549b30ed670c34a",
+        "output": "Release-6.0.0-RC",
+        "type": "md5",
+        "url": "/umbraco_client/passwordStrength/passwordstrength.js"
+    },
+    {
+        "match": "1698bbf9e299fe946549b30ed670c34a",
+        "output": "Release-6.0.0-beta",
+        "type": "md5",
+        "url": "/umbraco_client/passwordStrength/passwordstrength.js"
+    },
+    {
+        "match": "1698bbf9e299fe946549b30ed670c34a",
+        "output": "Release-6.0.2",
+        "type": "md5",
+        "url": "/umbraco_client/passwordStrength/passwordstrength.js"
+    },
+    {
+        "match": "1698bbf9e299fe946549b30ed670c34a",
         "output": "release-4.11.10",
         "type": "md5",
         "url": "/umbraco_client/passwordStrength/passwordstrength.js"
     },
     {
         "match": "1698bbf9e299fe946549b30ed670c34a",
+        "output": "release-4.11.6",
+        "type": "md5",
+        "url": "/umbraco_client/passwordStrength/passwordstrength.js"
+    },
+    {
+        "match": "1698bbf9e299fe946549b30ed670c34a",
+        "output": "release-4.11.7",
+        "type": "md5",
+        "url": "/umbraco_client/passwordStrength/passwordstrength.js"
+    },
+    {
+        "match": "1698bbf9e299fe946549b30ed670c34a",
+        "output": "release-4.11.9",
+        "type": "md5",
+        "url": "/umbraco_client/passwordStrength/passwordstrength.js"
+    },
+    {
+        "match": "1698bbf9e299fe946549b30ed670c34a",
+        "output": "release-6.0.3",
+        "type": "md5",
+        "url": "/umbraco_client/passwordStrength/passwordstrength.js"
+    },
+    {
+        "match": "1698bbf9e299fe946549b30ed670c34a",
+        "output": "release-6.0.4",
+        "type": "md5",
+        "url": "/umbraco_client/passwordStrength/passwordstrength.js"
+    },
+    {
+        "match": "1698bbf9e299fe946549b30ed670c34a",
+        "output": "release-6.0.6",
+        "type": "md5",
+        "url": "/umbraco_client/passwordStrength/passwordstrength.js"
+    },
+    {
+        "match": "1698bbf9e299fe946549b30ed670c34a",
         "output": "release-6.0.7",
+        "type": "md5",
+        "url": "/umbraco_client/passwordStrength/passwordstrength.js"
+    },
+    {
+        "match": "1698bbf9e299fe946549b30ed670c34a",
+        "output": "release-6.1.0",
+        "type": "md5",
+        "url": "/umbraco_client/passwordStrength/passwordstrength.js"
+    },
+    {
+        "match": "1698bbf9e299fe946549b30ed670c34a",
+        "output": "release-6.1.0-beta",
+        "type": "md5",
+        "url": "/umbraco_client/passwordStrength/passwordstrength.js"
+    },
+    {
+        "match": "1698bbf9e299fe946549b30ed670c34a",
+        "output": "release-6.1.0-beta2",
+        "type": "md5",
+        "url": "/umbraco_client/passwordStrength/passwordstrength.js"
+    },
+    {
+        "match": "1698bbf9e299fe946549b30ed670c34a",
+        "output": "release-6.1.1",
         "type": "md5",
         "url": "/umbraco_client/passwordStrength/passwordstrength.js"
     },
@@ -2647,7 +4033,25 @@
     },
     {
         "match": "554bc76c70351187f4ce05ddc012aaed",
+        "output": "Release-4.10.0",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
+    },
+    {
+        "match": "554bc76c70351187f4ce05ddc012aaed",
+        "output": "Release-4.11.0",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
+    },
+    {
+        "match": "554bc76c70351187f4ce05ddc012aaed",
         "output": "Release-4.11.1",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
+    },
+    {
+        "match": "554bc76c70351187f4ce05ddc012aaed",
+        "output": "Release-4.11.2",
         "type": "md5",
         "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
     },
@@ -2665,13 +4069,127 @@
     },
     {
         "match": "554bc76c70351187f4ce05ddc012aaed",
+        "output": "Release-4.11.3",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
+    },
+    {
+        "match": "554bc76c70351187f4ce05ddc012aaed",
+        "output": "Release-4.11.4",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
+    },
+    {
+        "match": "554bc76c70351187f4ce05ddc012aaed",
+        "output": "Release-4.11.5",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
+    },
+    {
+        "match": "554bc76c70351187f4ce05ddc012aaed",
+        "output": "Release-4.9.0",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
+    },
+    {
+        "match": "554bc76c70351187f4ce05ddc012aaed",
+        "output": "Release-4.9.1",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
+    },
+    {
+        "match": "554bc76c70351187f4ce05ddc012aaed",
+        "output": "Release-6.0.0",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
+    },
+    {
+        "match": "554bc76c70351187f4ce05ddc012aaed",
+        "output": "Release-6.0.0-RC",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
+    },
+    {
+        "match": "554bc76c70351187f4ce05ddc012aaed",
+        "output": "Release-6.0.0-beta",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
+    },
+    {
+        "match": "554bc76c70351187f4ce05ddc012aaed",
+        "output": "Release-6.0.2",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
+    },
+    {
+        "match": "554bc76c70351187f4ce05ddc012aaed",
         "output": "release-4.11.10",
         "type": "md5",
         "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
     },
     {
         "match": "554bc76c70351187f4ce05ddc012aaed",
+        "output": "release-4.11.6",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
+    },
+    {
+        "match": "554bc76c70351187f4ce05ddc012aaed",
+        "output": "release-4.11.7",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
+    },
+    {
+        "match": "554bc76c70351187f4ce05ddc012aaed",
+        "output": "release-4.11.9",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
+    },
+    {
+        "match": "554bc76c70351187f4ce05ddc012aaed",
+        "output": "release-6.0.3",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
+    },
+    {
+        "match": "554bc76c70351187f4ce05ddc012aaed",
+        "output": "release-6.0.4",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
+    },
+    {
+        "match": "554bc76c70351187f4ce05ddc012aaed",
+        "output": "release-6.0.6",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
+    },
+    {
+        "match": "554bc76c70351187f4ce05ddc012aaed",
         "output": "release-6.0.7",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
+    },
+    {
+        "match": "554bc76c70351187f4ce05ddc012aaed",
+        "output": "release-6.1.0",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
+    },
+    {
+        "match": "554bc76c70351187f4ce05ddc012aaed",
+        "output": "release-6.1.0-beta",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
+    },
+    {
+        "match": "554bc76c70351187f4ce05ddc012aaed",
+        "output": "release-6.1.0-beta2",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
+    },
+    {
+        "match": "554bc76c70351187f4ce05ddc012aaed",
+        "output": "release-6.1.1",
         "type": "md5",
         "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
     },
@@ -2929,7 +4447,25 @@
     },
     {
         "match": "0615cf8e30f379d86764b3b2f6dddfa6",
+        "output": "Release-4.10.0",
+        "type": "md5",
+        "url": "/umbraco_client/ui/default.css"
+    },
+    {
+        "match": "0615cf8e30f379d86764b3b2f6dddfa6",
+        "output": "Release-4.11.0",
+        "type": "md5",
+        "url": "/umbraco_client/ui/default.css"
+    },
+    {
+        "match": "0615cf8e30f379d86764b3b2f6dddfa6",
         "output": "Release-4.11.1",
+        "type": "md5",
+        "url": "/umbraco_client/ui/default.css"
+    },
+    {
+        "match": "0615cf8e30f379d86764b3b2f6dddfa6",
+        "output": "Release-4.11.2",
         "type": "md5",
         "url": "/umbraco_client/ui/default.css"
     },
@@ -2947,13 +4483,115 @@
     },
     {
         "match": "0615cf8e30f379d86764b3b2f6dddfa6",
+        "output": "Release-4.11.3",
+        "type": "md5",
+        "url": "/umbraco_client/ui/default.css"
+    },
+    {
+        "match": "0615cf8e30f379d86764b3b2f6dddfa6",
+        "output": "Release-4.11.4",
+        "type": "md5",
+        "url": "/umbraco_client/ui/default.css"
+    },
+    {
+        "match": "0615cf8e30f379d86764b3b2f6dddfa6",
+        "output": "Release-4.11.5",
+        "type": "md5",
+        "url": "/umbraco_client/ui/default.css"
+    },
+    {
+        "match": "0615cf8e30f379d86764b3b2f6dddfa6",
+        "output": "Release-6.0.0",
+        "type": "md5",
+        "url": "/umbraco_client/ui/default.css"
+    },
+    {
+        "match": "0615cf8e30f379d86764b3b2f6dddfa6",
+        "output": "Release-6.0.0-RC",
+        "type": "md5",
+        "url": "/umbraco_client/ui/default.css"
+    },
+    {
+        "match": "0615cf8e30f379d86764b3b2f6dddfa6",
+        "output": "Release-6.0.0-beta",
+        "type": "md5",
+        "url": "/umbraco_client/ui/default.css"
+    },
+    {
+        "match": "0615cf8e30f379d86764b3b2f6dddfa6",
+        "output": "Release-6.0.2",
+        "type": "md5",
+        "url": "/umbraco_client/ui/default.css"
+    },
+    {
+        "match": "0615cf8e30f379d86764b3b2f6dddfa6",
         "output": "release-4.11.10",
         "type": "md5",
         "url": "/umbraco_client/ui/default.css"
     },
     {
         "match": "0615cf8e30f379d86764b3b2f6dddfa6",
+        "output": "release-4.11.6",
+        "type": "md5",
+        "url": "/umbraco_client/ui/default.css"
+    },
+    {
+        "match": "0615cf8e30f379d86764b3b2f6dddfa6",
+        "output": "release-4.11.7",
+        "type": "md5",
+        "url": "/umbraco_client/ui/default.css"
+    },
+    {
+        "match": "0615cf8e30f379d86764b3b2f6dddfa6",
+        "output": "release-4.11.9",
+        "type": "md5",
+        "url": "/umbraco_client/ui/default.css"
+    },
+    {
+        "match": "0615cf8e30f379d86764b3b2f6dddfa6",
+        "output": "release-6.0.3",
+        "type": "md5",
+        "url": "/umbraco_client/ui/default.css"
+    },
+    {
+        "match": "0615cf8e30f379d86764b3b2f6dddfa6",
+        "output": "release-6.0.4",
+        "type": "md5",
+        "url": "/umbraco_client/ui/default.css"
+    },
+    {
+        "match": "0615cf8e30f379d86764b3b2f6dddfa6",
+        "output": "release-6.0.6",
+        "type": "md5",
+        "url": "/umbraco_client/ui/default.css"
+    },
+    {
+        "match": "0615cf8e30f379d86764b3b2f6dddfa6",
         "output": "release-6.0.7",
+        "type": "md5",
+        "url": "/umbraco_client/ui/default.css"
+    },
+    {
+        "match": "0615cf8e30f379d86764b3b2f6dddfa6",
+        "output": "release-6.1.0",
+        "type": "md5",
+        "url": "/umbraco_client/ui/default.css"
+    },
+    {
+        "match": "0615cf8e30f379d86764b3b2f6dddfa6",
+        "output": "release-6.1.0-beta",
+        "type": "md5",
+        "url": "/umbraco_client/ui/default.css"
+    },
+    {
+        "match": "0615cf8e30f379d86764b3b2f6dddfa6",
+        "output": "release-6.1.0-beta2",
+        "type": "md5",
+        "url": "/umbraco_client/ui/default.css"
+    },
+    {
+        "match": "0615cf8e30f379d86764b3b2f6dddfa6",
+        "output": "release-6.1.1",
         "type": "md5",
         "url": "/umbraco_client/ui/default.css"
     },
@@ -2984,6 +4622,12 @@
     {
         "match": "0615cf8e30f379d86764b3b2f6dddfa6",
         "output": "release-6.1.6",
+        "type": "md5",
+        "url": "/umbraco_client/ui/default.css"
+    },
+    {
+        "match": "1c2aeea7239395657d542d38bcc8e6cb",
+        "output": "Release-4.9.0",
         "type": "md5",
         "url": "/umbraco_client/ui/default.css"
     },
@@ -3206,6 +4850,12 @@
     {
         "match": "945207d601c47616034211c20cf581ba",
         "output": "release-6.2.5",
+        "type": "md5",
+        "url": "/umbraco_client/ui/default.css"
+    },
+    {
+        "match": "fd1e4716d38857dce0a73ef0582d52f5",
+        "output": "Release-4.9.1",
         "type": "md5",
         "url": "/umbraco_client/ui/default.css"
     }
