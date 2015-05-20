@@ -1,5 +1,6 @@
-import json,os, sys, pprint, re, copy
-from collections import defaultdict
+import json
+import os
+import copy
 
 
 class Fingerprints(object):

@@ -1,6 +1,6 @@
 from collections import defaultdict, Counter
+
 from classes.sitemap import Sitemap
-import pprint
 
 
 class Results(object):

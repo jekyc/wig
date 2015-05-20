@@ -1,18 +1,11 @@
-import queue
 import concurrent.futures
-import time
 import hashlib
-import sys
 import re
 import string
 import random
 import urllib.request
 import urllib.parse
-
 from html.parser import HTMLParser
-from collections import namedtuple
-from classes.cache import Cache
-from classes.results import Results
 
 
 class HTMLStripper(HTMLParser):
