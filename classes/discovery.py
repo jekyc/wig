@@ -1,3 +1,8 @@
+"""
+Collection of classes to extract information from the site.
+
+"""
+
 import re
 import socket
 import urllib
@@ -6,10 +11,12 @@ from collections import Counter, defaultdict
 from html.parser import HTMLParser
 
 
-class DiscoverAllCMS(object):
-	# match all fingerprints against all responses
-	# this might generate false positives
 
+class DiscoverAllCMS:
+	"""
+	Match all fingerprints against all responses
+	this might generate false positives
+	"""
 	def __init__(self, data):
 		self.cache = data['cache']
 		self.results = data['results']
@@ -31,16 +38,27 @@ class DiscoverAllCMS(object):
 				for response in self.cache.get_responses():
 					matches = self.matcher.get_result(fps, response)
 					for fp in matches:
-						self.results.add( fp_category, fp['name'], fp['output'], fp )
+						self.results.add(fp_category, fp['name'], fp['output'], fp)
 
 						if (fp['name'], fp['output']) not in self.tmp_set:
-							self.printer.print_debug_line('- Found match: %s %s' % (fp['name'], fp['output']) , 2)
+							self.printer.print_debug_line('- Found match: %s %s' % (fp['name'], fp['output']), 2)
 
 						self.tmp_set.add((fp['name'], fp['output']))
 
 
-class DiscoverCMS(object):
+class DiscoverCMS:
+	"""
+	Search for the CMS and its version.
 
+	It searches for a CMS match by splitting the fingerprints
+	into batches of the given size (options['batch_size']).
+	One a batch of fingerprints urls have been requested, the
+	responses are checked for CMS matches. If a match is found,
+	all the URLs for that CMS are requested in order to determine
+	the version. If options['run_all'] is set, this continues until
+	all fingerprints are checked (this is not the default).
+
+	"""
 	def __init__(self, options, data):
 		self.printer = data['printer']
 		self.matcher = data['matcher']
@@ -61,11 +79,10 @@ class DiscoverCMS(object):
 				self.queue[fp['url']].append(fp)
 
 
-
 	def get_queue(self, cms=None):
 		queue = []
 		if cms is None:
-			for i in range(self.batch_size):
+			for _ in range(self.batch_size):
 				try:
 					url, fp_list = self.queue.popitem()
 					queue.append(fp_list)
@@ -73,12 +90,12 @@ class DiscoverCMS(object):
 					break
 		else:
 			# the following procedure is *not* optimal
-			# the self.queue dict is completely destroyed and 
+			# the self.queue dict is completely destroyed and
 			# and rebuilt each time this procedure is called :(
 
 			# create a temp queue dict
 			tmp_queue = defaultdict(list)
-			
+
 			# remove elements from the dict until it is empty
 			while len(self.queue) > 0:
 				url, fp_list = self.queue.popitem()
@@ -86,17 +103,16 @@ class DiscoverCMS(object):
 				# remove all the elements of a queue entry's list
 				# one-by-one and check if the fingerprints are
 				# belong to the specified 'cms'
-				tmp_list = []
-				out_list = []
-				
+				tmp_list, out_list = [], []
+
 				while len(fp_list) > 0:
 					# remove the fingerprint
 					fp = fp_list.pop()
 
-					# if the fingerprint matches the cms, add it to the 
+					# if the fingerprint matches the cms, add it to the
 					# out_list for the current url
 					# otherwise add it to the tmp_list
-					if fp['name'] == cms: 
+					if fp['name'] == cms:
 						out_list.append(fp)
 					else:
 						tmp_list.append(fp)
@@ -118,7 +134,6 @@ class DiscoverCMS(object):
 		return queue
 
 
-
 	def run(self):
 		batch_no = 0
 		self.printer.print_debug_line('Determining CMS type ...', 1)
@@ -127,20 +142,20 @@ class DiscoverCMS(object):
 		stop_searching = len(detected_cms) >= self.num_cms_to_find
 
 		while (not stop_searching or self.find_all_cms) and (not len(self.queue) == 0):
-			self.printer.print_debug_line('Checking fingerprint group no. %s ...' % (batch_no, ) , 3)
+			self.printer.print_debug_line('Checking fingerprint group no. %s ...' % (batch_no, ), 3)
 
 			# set the requester queue
 			results = self.requester.run('CMS', self.get_queue())
-			
+
 			# search for CMS matches
 			cms_matches = []
 			while not results.empty():
 				fingerprints, response = results.get()
 
 				for fp in self.matcher.get_result(fingerprints, response):
-					self.result.add( 'cms', fp['name'], fp['output'], fp)
+					self.result.add('cms', fp['name'], fp['output'], fp)
 					cms_matches.append(fp['name'])
-		
+
 			# search for the found CMS versions
 			for cms in cms_matches:
 
@@ -149,7 +164,7 @@ class DiscoverCMS(object):
 
 				if cms not in self.tmp_set:
 					self.tmp_set.add(cms)
-					self.printer.print_debug_line('- Found CMS match: %s' % (cms, ) , 2)
+					self.printer.print_debug_line('- Found CMS match: %s' % (cms, ), 2)
 
 				# set the requester queue with only fingerprints for the cms
 				results = self.requester.run('CMS_version', self.get_queue(cms))
@@ -157,39 +172,43 @@ class DiscoverCMS(object):
 				# find the results
 				self.printer.print_debug_line('Determining CMS version ...', 1)
 				while results.qsize() > 0:
-					res_fps,response = results.get()
+					res_fps, response = results.get()
 					for fp in self.matcher.get_result(res_fps, response):
-						self.result.add( 'cms', fp['name'], fp['output'], fp)
+						self.result.add('cms', fp['name'], fp['output'], fp)
 
 						if (fp['name'], fp['output']) not in self.tmp_set:
 							self.tmp_set.add((fp['name'], fp['output']))
-							self.printer.print_debug_line('- Found version: %s %s' % (fp['name'], fp['output']) , 2)
-
+							self.printer.print_debug_line('- Found version: %s %s' % (fp['name'], fp['output']), 2)
 
 				# update the stop criteria
 				detected_cms.append(cms)
-			
+
 			stop_searching = (len(detected_cms) >= self.num_cms_to_find) or len(self.queue) == 0
 			batch_no += 1
 
 
 
 class DiscoverCookies(object):
+	"""
+	Check if the site sets any cookies.
 
+	It checks the results in the cache, and therefore
+	it should be run last.
+	"""
 	def __init__(self, data):
 		self.data = data
 		self.printer = data['printer']
 
 	def run(self):
-		self.printer.print_debug_line('Checking for cookies ...' , 1)
+		self.printer.print_debug_line('Checking for cookies ...', 1)
 
 		cookies = set()
 		for r in self.data['cache'].get_responses():
 			try:
 				c = r.headers['set-cookie'].strip().split('=')[0]
 				if c not in cookies:
-					self.printer.print_debug_line('- Found cookie: %s' % (c,) , 2)
-				
+					self.printer.print_debug_line('- Found cookie: %s' % (c, ), 2)
+
 				cookies.add(c)
 
 			except:
@@ -199,7 +218,11 @@ class DiscoverCookies(object):
 
 
 class DiscoverSubdomains:
+	"""
+	Search for sub-domains.
 
+	Currently not implemented.
+	"""
 	def __init__(self, url, data):
 		self.results = data['results']
 		self.subdomains = data['fingerprints'].data['subdomains']['fps']
@@ -224,11 +247,13 @@ class DiscoverSubdomains:
 
 
 class DiscoverErrorPage:
-	# find error pages on the site
-	# the requester has a built-in list of items and patterns
-	# to remove before calculating a checksum of pages that
-	# should not exists
+	"""
+	Find error pages on the site.
 
+	The requester has a built-in list of items and patterns
+	to remove before calculating a checksum of pages that
+	should not exists
+	"""
 	def __init__(self, options, data):
 		self.host = options['url']
 		self.fps = data['fingerprints'].data['error_pages']['fps']
@@ -250,14 +275,19 @@ class DiscoverErrorPage:
 			if response is not None:
 				error_pages.add(response.md5_404)
 				error_pages.add(response.md5_404_text)
-				self.printer.print_debug_line('- Error page fingerprint: %s, %s - %s' % (response.md5_404, response.md5_404_text, fp[0]['url']), 2)
+				error_tuple = (response.md5_404, response.md5_404_text, fp[0]['url'])
+				self.printer.print_debug_line('- Error page fingerprint: %s, %s - %s' % error_tuple, 2)
 
 		self.requester.find_404s = False
 
 		return error_pages
 
-		
+
 class DiscoverInteresting(object):
+	"""
+	Search for commonly interesting files and folders
+	"""
+
 	def __init__(self, options, data):
 		self.url = options['url']
 		self.printer = data['printer']
@@ -280,10 +310,10 @@ class DiscoverInteresting(object):
 
 		# process the results
 		results = self.requester.run('Interesting', list(self.queue.values()))
-		
+
 		while results.qsize() > 0:
-			fps,response = results.get()
-			
+			fps, response = results.get()
+
 			# if the response includes a 404 md5, check if the response
 			# is a redirection to a known error page
 			# this is a fix for https://github.com/jekyc/wig/issues/7
@@ -301,20 +331,23 @@ class DiscoverInteresting(object):
 				continue
 
 			for fp in self.matcher.get_result(fps, response):
-				self.result.add( self.category, None, None, fp, weight=1)
+				self.result.add(self.category, None, None, fp, weight=1)
 				try:
-					self.printer.print_debug_line('- Found file: %s (%s)' % (fp['url'], fp['note'] ), 2)
+					self.printer.print_debug_line('- Found file: %s (%s)' % (fp['url'], fp['note']), 2)
 				except:
 					pass
 
 
+
 class DiscoverIP(object):
+	"""
+	Get the IP address of the host
+	"""
 
 	def __init__(self, path):
 		self.path = path
 
 	def run(self):
-
 		try:
 			hostname = self.path.split('//')[1]
 			hostname = hostname.split('/')[0]
@@ -326,7 +359,12 @@ class DiscoverIP(object):
 		return ip
 
 
+
 class DiscoverJavaScript(object):
+	"""
+	Search for JavaScript
+	"""
+
 	def __init__(self, options, data):
 		self.printer = data['printer']
 		self.cache = data['cache']
@@ -341,26 +379,30 @@ class DiscoverJavaScript(object):
 	def run(self):
 		self.printer.print_debug_line('Detecting Javascript ...', 1)
 		for response in self.cache.get_responses():
-			
+
 			# match only if the response is JavaScript
 			#  check content type
 			content_type = response.headers['content-type'] if 'content-type' in response.headers else ''
 			# and extension
 			is_js = 'javascript' in content_type or '.js' in response.url.split('.')[-1]
 
-			# if the response is JavaScript try to match it to the known fingerprints 
+			# if the response is JavaScript try to match it to the known fingerprints
 			if is_js:
 				matches = self.matcher.get_result(self.fingerprints, response)
 				for fp in matches:
-					self.result.add( 'js', fp['name'], fp['output'], fingerprint=fp, weight=1)
-			
+					self.result.add('js', fp['name'], fp['output'], fingerprint=fp, weight=1)
 					self.printer.print_debug_line('- Found JavaScript: %s %s' % (fp['name'], fp['output']), 2)
 
 
 
 # Used by the DiscoverMore crawler
-# The
 class LinkExtractor(HTMLParser):
+	"""
+	Helper class that extracts linked ressources
+
+	Only checks for img, script, and link tags
+	"""
+
 	def __init__(self, strict):
 		super().__init__(strict=strict)
 		self.results = set()
@@ -370,14 +412,13 @@ class LinkExtractor(HTMLParser):
 
 	def handle_starttag(self, tag, attrs):
 		try:
-			url = ''
 			if tag == 'script' or tag == 'img':
-				for attr in attrs: 
-					if attr[0] == 'src':  
+				for attr in attrs:
+					if attr[0] == 'src':
 						self.results.add(attr[1])
 			if tag == 'link':
-				for attr in attrs: 
-					if attr[0] == 'href': 
+				for attr in attrs:
+					if attr[0] == 'href':
 						self.results.add(attr[1])
 		except:
 			pass
@@ -385,6 +426,14 @@ class LinkExtractor(HTMLParser):
 
 
 class DiscoverMore(object):
+	"""
+	Crawls host to discover more items
+
+	This searches to responses for more items to test.
+	This could help detect CMS and version if the default
+	paths have been changed. However, it does increase the
+	amount of requests send to host
+	"""
 
 	def __init__(self, options, data):
 		self.host = options['url']
@@ -398,19 +447,19 @@ class DiscoverMore(object):
 
 
 	def _get_urls(self, response):
-		# only get urls from elements that use 'src' to avoid 
+		# only get urls from elements that use 'src' to avoid
 		# fetching resources provided by <a>-tags, as this could
 		# lead to the crawling of the whole application
-		regexes = [ 'src="(.+?)"', "src='(.+?)'"]
+		regexes = ['src="(.+?)"', "src='(.+?)'"]
 
 		urls = set()
 		for regex in regexes:
 			for match in re.findall(regex, response.body):
-				urls.add( match )
+				urls.add(match)
 
 		return urls
 
-	
+
 	def run(self):
 		self.printer.print_debug_line('Detecting links ...', 1)
 		resources = set()
@@ -422,7 +471,7 @@ class DiscoverMore(object):
 			if not 'content-type' in req.headers:
 				continue
 
-			# skip responses that have been discovered 
+			# skip responses that have been discovered
 			# with 'DiscoverMore'
 			if req.crawled_response:
 				continue
@@ -430,9 +479,8 @@ class DiscoverMore(object):
 			# only scrape pages that can contain links/references
 			if 'text/html' in req.headers['content-type']:
 				tmp = self._get_urls(req)
-
 				parser.feed(req.body)
-				tmp = tmp.union( parser.get_results())
+				tmp = tmp.union(parser.get_results())
 
 				for i in tmp:
 					url_data = urllib.request.urlparse(i)
@@ -440,7 +488,7 @@ class DiscoverMore(object):
 					# skip data urls
 					if url_data.path.startswith('data:'): continue
 
-					resources.add( i )
+					resources.add(i)
 
 		# the items in the resource set should mimic a list of fingerprints:
 		# a fingerprint is a dict with at least an URL key
@@ -448,15 +496,24 @@ class DiscoverMore(object):
 
 		# prepare the urls
 		queue = defaultdict(list)
-		for url in resources: 
+		for url in resources:
 			queue[url].append({'url': url})
 
-		
 		# fetch'em
 		results = self.requester.run('DiscoverMore', list(queue.values()))
 
 
 class DiscoverOS:
+	"""
+	Try to determine the OS used on the host
+
+	Often Linux/GNU web servers send software package name and version
+	in the HTTP header 'server'. These are compared to a database of
+	Linux/GNU distributions and their versions.
+
+	ASP.NET is also matched.
+	"""
+
 	def __init__(self, options, data):
 		self.printer = data['printer']
 		self.cache = data['cache']
@@ -467,7 +524,7 @@ class DiscoverOS:
 		self.os_family_list = Counter()
 		self.matched_packages = set()
 
-	
+
 	def search_and_prioritize_os(self, pkg_name, pkg_version):
 		for fp in self.fingerprints:
 			if fp['pkg_name'] == pkg_name and fp['pkg_version'] == pkg_version:
@@ -479,16 +536,16 @@ class DiscoverOS:
 				for os_version in fp['os_version']:
 					if fp['os_name'].lower() in self.os_family_list:
 						self.printer.print_debug_line('- Prioritizing fingerprints for OS: %s' % (fp['os_name'], ), 7)
-						self.os[ (fp['os_name'], os_version) ] += weight * 100
+						self.os[(fp['os_name'], os_version)] += weight * 100
 					else:
-						self.os[ (fp['os_name'], os_version) ] += weight
+						self.os[(fp['os_name'], os_version)] += weight
 
 
 	def find_match_in_headers(self, response):
 		headers = response.headers
 		if 'server' in headers:
 			line = headers['server']
-			
+
 			if "(" in line:
 				os = line[line.find('(')+1:line.find(')')]
 
@@ -505,16 +562,15 @@ class DiscoverOS:
 
 			for part in line.split(" "):
 				try:
-					pkg,version = list(map(str.lower, part.split('/')))
+					pkg, version = list(map(str.lower, part.split('/')))
 					self.search_and_prioritize_os(pkg, version)
 
 				except Exception as e:
 					continue
 
-	
+
 	def find_match_in_results(self):
 		platforms = self.results.scores['platform']
-		
 		for pkg in platforms:
 			for version in platforms[pkg]:
 				# hack for asp.net
@@ -532,7 +588,7 @@ class DiscoverOS:
 
 		if len(results) == 0: return
 
-		prio = sorted(results, key=lambda x:x['count'], reverse=True)
+		prio = sorted(results, key=lambda x: x['count'], reverse=True)
 		max_count = prio[0]['count']
 		for i in prio:
 			if i['count'] == max_count:
@@ -546,7 +602,7 @@ class DiscoverOS:
 		self.printer.print_debug_line('Detecting OS ...', 1)
 		headers = set()
 		responses = self.cache.get_responses()
-		
+
 		# find matches in the header
 		for response in responses:
 			self.find_match_in_headers(response)
@@ -558,8 +614,6 @@ class DiscoverOS:
 		self.finalize()
 
 
-
-
 class DiscoverPlatform:
 
 	def __init__(self, options, data):
@@ -568,21 +622,20 @@ class DiscoverPlatform:
 		self.matcher = data['matcher']
 		self.result = data['results']
 		self.printer = data['printer']
-
 		self.threads = options['threads']
 		self.batch_size = options['batch_size']
-		
 		self.queue = defaultdict(list)
+
 		for fp_type in data['fingerprints'].data['platform']:
 			for fp in data['fingerprints'].data['platform'][fp_type]['fps']:
 				self.queue[fp['url']].append(fp)
 
 		# only used for pretty printing of debugging info
 		self.tmp_set = set()
-			
+
 	def run(self):
 		self.printer.print_debug_line('Detecting platform ...', 1)
-		
+
 		while len(self.queue) > 0:
 			queue = []
 			for i in range(self.batch_size):
@@ -593,7 +646,7 @@ class DiscoverPlatform:
 					break
 
 			results = self.requester.run('Plaform', queue)
-			
+
 			# search for CMS matches
 			while not results.empty():
 				fingerprints, response = results.get()
@@ -609,6 +662,9 @@ class DiscoverPlatform:
 
 
 class DiscoverTitle:
+	"""
+	Get the site title.
+	"""
 
 	def __init__(self, options, data):
 		self.data = data
@@ -623,7 +679,7 @@ class DiscoverTitle:
 		front_page = self.data['cache'][self.url]
 
 		try:
-			title = re.findall('<title>\s*(.*)\s*</title>', front_page.body)[0]
+			title = re.findall(r'<title>\s*(.*)\s*</title>', front_page.body)[0]
 			title = title.strip()
 		except:
 			title = ''
@@ -637,6 +693,10 @@ class DiscoverTitle:
 
 
 class DiscoverTools:
+	"""
+	NOT IMPLEMENTED YET
+	"""
+
 	def __init__(self, data):
 		self.fps = data['fingerprints']
 		self.results = data['results']
@@ -648,7 +708,7 @@ class DiscoverTools:
 		cms_results = self.results.get_versions()
 
 		# loop over the cms' in the results
-		for cms,_ in cms_results:
+		for cms, _ in cms_results:
 			# loop over all the translations
 			for fn in self.fps.translator:
 				# check if the translated name is the same as the cms
@@ -660,6 +720,10 @@ class DiscoverTools:
 
 
 class DiscoverUrlLess(object):
+	"""
+	Test fingerprints that don't have a URL.
+	"""
+
 	def __init__(self, options, data):
 		self.printer = data['printer']
 		self.cache = data['cache']
@@ -670,7 +734,7 @@ class DiscoverUrlLess(object):
 
 	def run(self):
 		self.printer.print_debug_line('Matching urlless fingerprints...', 1)
-		
+
 		# only used for pretty printing of debugging info
 		tmp_set = set()
 
@@ -683,10 +747,9 @@ class DiscoverUrlLess(object):
 				for response in self.cache.get_responses():
 					matches = self.matcher.get_result(fps, response)
 					for fp in matches:
-						
+
 						url_data = urllib.request.urlparse(response.get_url())
 						fp['url'] = url_data.path
-							
 
 						show_all_detections = True
 						if 'show_all_detections' in fp:
@@ -699,13 +762,16 @@ class DiscoverUrlLess(object):
 						else:
 							self.printer.print_debug_line('- Found fingerprint: %s %s' % (fp['name'], fp['output']), 2)
 							self.results.add(fp_category, fp['name'], fp['output'], fingerprint=fp, weight=1)
-						
+
 						tmp_set.add((fp['name'], fp['output']))
 
 
-	
-
 class DiscoverVulnerabilities:
+	"""
+	Search the database for known vulnerabilities in the
+	detected CMS version
+	"""
+
 	def __init__(self, data):
 		self.printer = data['printer']
 		self.results = data['results']
@@ -726,7 +792,7 @@ class DiscoverVulnerabilities:
 		for r in cms_results: vendors[r[0]] += 1
 
 		# if there are more than 5 results,
-		# skip displaying vuln count, as the 
+		# skip displaying vuln count, as the
 		# results are unreliable
 		for cms, version in cms_results:
 			if vendors[cms] > 5: continue
@@ -735,7 +801,8 @@ class DiscoverVulnerabilities:
 				for fp in self.fps:
 					if fp['name'] == cms and fp['version'] == version:
 						self.results.add_vulnerabilities(cms, version, fp['num_vulns'], fp['link'])
-						self.printer.print_debug_line('- Found vulnerability: %s %s: %s' % (cms, version, fp['num_vulns']), 2)
+						error = (cms, version, fp['num_vulns'])
+						self.printer.print_debug_line('- Found vulnerability: %s %s: %s' % error, 2)
 
 			except Exception as e:
 				print(e)
