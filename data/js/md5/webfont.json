@@ -121,6 +121,12 @@
     },
     {
         "info": "webfont.js",
+        "md5": "593e60ad549e46f8ca9a60755336c7df",
+        "output": "1.5.18",
+        "url": ""
+    },
+    {
+        "info": "webfont.js",
         "md5": "59f63b09cc1676fc17757c211e4103e3",
         "output": "1.1.0",
         "url": ""
