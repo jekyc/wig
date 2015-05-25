@@ -2,9 +2,10 @@
 	{
 		"url": "/_layouts/create.aspx",
 		"type": "string",
-		"match": "",
+		"match": "401 UNAUTHORIZED",
 		"output": "",
-		"note": "Sharepoint Create Page"
+		"note": "Sharepoint Create Page",
+		"code": "401"
 	},
 	{
 		"url": "/_layouts/MyInfo.aspx",
@@ -21,17 +22,9 @@
 		"note": "Sharepoint Error Page"
 	},
 	{
-		"url": "/_layouts/mobile/mbllists.aspx",
-		"type": "string",
-		"match": "/_layouts/mobile/mbllists.aspx",
-		"output": "",
-		"code": "any",
-		"note": "Sharepoint Mobile Page"
-	},
-	{
 		"url": "/_layouts/settings.aspx",
 		"type": "string",
-		"match": "",
+		"match": "Sign In",
 		"output": "",
 		"note": "Sharepoint Settings Page"
 	}
