@@ -698,23 +698,22 @@ class DiscoverTools:
 	"""
 
 	def __init__(self, data):
-		self.fps = data['fingerprints']
+		self.translator = data['fingerprints'].data['translator']['dictionary']
 		self.results = data['results']
 		self.printer = data['printer']
-
 
 	def run(self):
 		self.printer.print_debug_line('Searching for tools ...', 1)
 		cms_results = self.results.get_versions()
 
 		# loop over the cms' in the results
-		for cms, _ in cms_results:
+		for detected_cms, _ in cms_results:
 			# loop over all the translations
-			for fn in self.fps.translator:
+			for cms_name in self.translator:
 				# check if the translated name is the same as the cms
-				if self.fps.translator[fn]['name'] == cms and 'tool' in self.fps.translator[fn]:
-					for tool in self.fps.translator[fn]['tool']:
-						self.results.add_tool(cms, tool['name'], tool['link'])
+				if self.translator[cms_name]['name'] == detected_cms and 'tool' in self.translator[cms_name]:
+					for tool in self.translator[cms_name]['tool']:
+						self.results.add_tool(detected_cms, tool['name'], tool['link'])
 						self.printer.print_debug_line('- Found tool: %s (%s)' % (tool['name'], tool['link']), 2)
 
 

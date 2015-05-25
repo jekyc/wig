@@ -126,7 +126,7 @@ class Wig(object):
 			else:
 				self.options['url'] = new_url
 				self.data['requester'].url = new_url
-		
+
 
 		#
 		# --- PREP ------------------------------
@@ -176,7 +176,6 @@ class Wig(object):
 
 		# find Platform
 		DiscoverPlatform(self.options, self.data).run()
-		
 
 		#
 		# --- GET MORE DATA FROM THE SITE -------
@@ -216,7 +215,6 @@ class Wig(object):
 		if self.options['match_all']:
 			DiscoverAllCMS(self.data).run()
 
-
 		# mark the end of the run
 		self.data['results'].update()
 
@@ -226,6 +224,12 @@ class Wig(object):
 		#
 		# search the vulnerability fingerprints for matches
 		DiscoverVulnerabilities(self.data).run()
+
+
+		#
+		# --- SEARCH FOR TOOLS --------
+		#
+		DiscoverTools(self.data).run()
 
 
 		#

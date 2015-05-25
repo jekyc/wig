@@ -44,9 +44,9 @@ class Output:
 			{
 				'name': 'tool',
 				'headers': {
-					1: {'title': 'SOFTWARE',        'color': 'blue', 'bold': True},
-					2: {'title': 'TOOL',            'color': 'blue', 'bold': True},
-					3: {'title': 'LINK',            'color': 'blue', 'bold': True}
+					1: {'title': 'TOOL',			'color': 'blue', 'bold': True},
+					2: {'title': 'SOFTWARE',		'color': 'blue', 'bold': True},
+					3: {'title': 'LINK',			'color': 'blue', 'bold': True}
 				},
 				'titles': [
 					{'category': 'tool',             'title': '%s'},
@@ -145,7 +145,13 @@ class OutputJSON(Output):
 						'link': version['col3'],
 						'vulnerability_count': version['col2']
 					})
-
+				elif section == 'tool':
+					site['data'].append({
+						'category': 'tools',
+						'name': software,
+						'version': version
+					})					
+				
 				else:
 					site['data'].append({
 						'category': category,
