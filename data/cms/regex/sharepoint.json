@@ -1,0 +1,9 @@
+[
+	{
+		"url": "/_layouts/help.aspx",
+		"type": "regex",
+		"match": ">SharePoint Server (.*)</a></td>",
+		"output": "%s",
+		"note": "SharePoint Help Page"
+	}
+]

@@ -1,0 +1,38 @@
+[
+	{
+		"url": "/_layouts/create.aspx",
+		"type": "string",
+		"match": "",
+		"output": "",
+		"note": "Sharepoint Create Page"
+	},
+	{
+		"url": "/_layouts/MyInfo.aspx",
+		"type": "string",
+		"match": "Go to Sharepoint",
+		"output": ""
+	},
+	{
+		"url": "/_layouts/none.aspx",
+		"type": "string",
+		"match": "<meta name=\"SharePointError\" content=\"\"/>",
+		"output": "",
+		"code": "any",
+		"note": "Sharepoint Error Page"
+	},
+	{
+		"url": "/_layouts/mobile/mbllists.aspx",
+		"type": "string",
+		"match": "/_layouts/mobile/mbllists.aspx",
+		"output": "",
+		"code": "any",
+		"note": "Sharepoint Mobile Page"
+	},
+	{
+		"url": "/_layouts/settings.aspx",
+		"type": "string",
+		"match": "",
+		"output": "",
+		"note": "Sharepoint Settings Page"
+	}
+]
