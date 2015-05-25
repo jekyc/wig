@@ -231,6 +231,11 @@ class Wig(object):
 		#
 		DiscoverTools(self.data).run()
 
+		#
+		# --- SEARCH FOR SUBDOMAINS --------
+		#
+		DiscoverSubdomains(self.options, self.data).run()
+
 
 		#
 		# --- SAVE THE CACHE --------------------

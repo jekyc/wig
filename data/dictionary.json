@@ -60,7 +60,9 @@
     "sharepoint": {
         "name": "SharePoint",
         "tool": [
-            {"name": "sparty", "link": "https://github.com/alias1/sparty"}
+            {"name": "sparty", "link": "https://github.com/alias1/sparty"},
+            {"name": "spscan", "link": "https://github.com/toddsiegel/spscan"},
+            {"name": "Sharepoint URL Brute", "link": "http://www.bishopfox.com/download/414/"}
         ]
     },
     "sitecore": {"name": "Sitecore"},

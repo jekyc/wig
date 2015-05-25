@@ -283,7 +283,6 @@ class Requester:
 
 
 	def request(self, fp_list, run_type):
-		
 		url = fp_list[0]['url']
 		complete_url = urllib.parse.urljoin(self.url, url)
 

@@ -10,8 +10,6 @@ import urllib.request
 from collections import Counter, defaultdict
 from html.parser import HTMLParser
 
-
-
 class DiscoverAllCMS:
 	"""
 	Match all fingerprints against all responses
@@ -221,29 +219,70 @@ class DiscoverSubdomains:
 	"""
 	Search for sub-domains.
 
-	Currently not implemented.
+	The current implementation does not wig's requester class
+	which means that proxy, threads, user-agent, etc are not
+	used. This should implemented, but it should be ensured
+	that the cache is not used, as this might impact the results
+	of the version detection.
 	"""
-	def __init__(self, url, data):
+
+	def __init__(self, options, data):
+		self.data = data
+		self.options = options
+
 		self.results = data['results']
 		self.subdomains = data['fingerprints'].data['subdomains']['fps']
-		self.url = url
+		self.url = options['url']
+		self.printer = data['printer']
 
+		self.domain = urllib.request.urlparse(self.url).netloc
+		self.domain = '.'.join(self.domain.split(':')[0].split('.')[-2:])
+
+		self.random_domain = 'random98f092f0b7'
+		self.scheme_sets = set([('http', '80'),('https', '443')])
+
+	def check_subdomain(self, subdomain, scheme, port):
+		domain = subdomain + '.' + self.domain
+		
+		try:
+			# lookup the IP of the domain
+			ip = socket.gethostbyname(domain)
+			
+			# try to get the title of the site hosted on the domain
+			try:
+				req = urllib.request.Request(url=scheme + '://' + domain)
+				with urllib.request.urlopen(req, timeout=1) as f:
+					data = f.read().decode('utf-8')
+					title = re.findall(r'<title>\s*(.*)\s*</title>', data)[0].strip()
+					if len(title) > 50:
+						title =  title[:47] + ' ...'
+
+					result = (scheme + '://' + domain + ":" + port, title, ip)
+			except:
+				result = None
+		except:
+			result = None
+
+		return result
 
 	def run(self):
-		domain = urllib.request.urlparse(self.url).netloc
-		domain = domain.split(':')[0]
+		self.printer.print_debug_line('Searching for sub domains ...', 1)
+		
+		# check if the site accepts all sub-domains
+		control_set = set()
+		for scheme, port in self.scheme_sets:
+			domain_test = self.check_subdomain(self.random_domain, scheme, port)
+			if domain_test:
+				control_set.add((domain_test[1], domain_test[2]))
 
-		valid = set()
+		# check all sub domains
 		for subdomain in self.subdomains:
-			d = subdomain + '.' + domain
-			try:
-				valid.add((d, socket.gethostbyname(d)))
-			except:
-				continue
-
-		return valid
-
-
+			for scheme, port in self.scheme_sets:
+				result = self.check_subdomain(subdomain, scheme, port)
+				if result:
+					# compare the current results to the control
+					if not (result[1], result[2]) in control_set:
+						self.results.add_subdomain(*result)
 
 
 class DiscoverErrorPage:
@@ -660,7 +699,6 @@ class DiscoverPlatform:
 					self.tmp_set.add((fp['name'], fp['output']))
 
 
-
 class DiscoverTitle:
 	"""
 	Get the site title.
@@ -673,9 +711,7 @@ class DiscoverTitle:
 
 	def run(self):
 		self.printer.print_debug_line('Getting title ...', 1)
-
-		r = self.data['requester'].run('Title', [[{'url': '/'}]])
-
+		self.data['requester'].run('Title', [[{'url': '/'}]])
 		front_page = self.data['cache'][self.url]
 
 		try:
@@ -694,7 +730,7 @@ class DiscoverTitle:
 
 class DiscoverTools:
 	"""
-	NOT IMPLEMENTED YET
+	Lists tools that can be used for further information gathering.
 	"""
 
 	def __init__(self, data):
@@ -717,8 +753,7 @@ class DiscoverTools:
 						self.printer.print_debug_line('- Found tool: %s (%s)' % (tool['name'], tool['link']), 2)
 
 
-
-class DiscoverUrlLess(object):
+class DiscoverUrlLess:
 	"""
 	Test fingerprints that don't have a URL.
 	"""
