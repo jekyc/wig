@@ -47,7 +47,7 @@
 	},
 	{
 		"url":  "/login",
-		"note": "Test file",
+		"note": "Login Page",
 		"ext": ["php", "aspx", "asp", "txt", "old", "htm", "html", "jsp", "zip"],
 		"type": "string",
 		"match": ""
@@ -67,7 +67,7 @@
 	},
 	{
 		"url":  "/login/",
-		"note": "Test directory",
+		"note": "Login Page",
 		"type": "string",
 		"match": ""
 	},
