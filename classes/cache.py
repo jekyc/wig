@@ -18,6 +18,7 @@ class Cache(queue.Queue):
 		self.cache_dir = './cache/'
 		self.cache_name = ''
 		self.now = str(time.time()).split('.')[0]
+		self.printer = None
 
 		# only load cache data that is new than this
 		# (currently this is set for 24 hours)
@@ -124,7 +125,12 @@ class Cache(queue.Queue):
 				try:
 					pickle.dump(self.queue, cache_file)
 				except Exception as err:
-					print('Error saving cache: ' + file_name)
+					if self.printer:
+						self.printer.print_debug_line('Error saving cache', 1)
+				else:
+					if self.printer:
+						self.printer.print_debug_line('Saved cache to: %s' % (file_name, ), 1)
+
 
 
 	def load(self):
@@ -157,4 +163,9 @@ class Cache(queue.Queue):
 						for path in data:
 							self.__setitem__(path, data[path])
 				except:
-					print('Error loading cache: ' +  file_name)
+					if self.printer:
+						self.printer.print_debug_line('Error loading cache', 1)
+				else:
+					if self.printer:
+						self.printer.print_debug_line('Loaded cache from: %s' % (cache_file, ), 1)
+
