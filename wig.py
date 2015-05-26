@@ -54,6 +54,10 @@ class Wig(object):
 		elif '://' not in args.url:
 			args.url = 'http://' + args.url
 
+		text_printer = Printer(args.verbosity)
+		cache = Cache()
+		cache.printer = text_printer
+
 		self.options = {
 			'url': args.url.lower(),
 			'urls': urls,
@@ -69,15 +73,16 @@ class Wig(object):
 			'stop_after': args.stop_after,
 			'no_cache_load': args.no_cache_load,
 			'no_cache_save': args.no_cache_save,
-			'write_file': args.output_file
+			'write_file': args.output_file,
+			'subdomains': args.subdomains
 		}
 
 		self.data = {
-			'cache': Cache(),
+			'cache': cache,
 			'results': Results(self.options),
 			'fingerprints': Fingerprints(),
 			'matcher': Match(),
-			'printer': Printer(args.verbosity),
+			'printer': text_printer,
 			'detected_cms': set(),
 			'error_pages': set(),
 			'requested': queue.Queue()
@@ -152,10 +157,6 @@ class Wig(object):
 
 		# get the IP of the domain
 		self.data['results'].site_info['ip'] = DiscoverIP(self.options['url']).run()
-
-		# search for subdomains
-		# subdomains = DiscoverSubdomains(org_url, self.data).run()
-		# self.data['results'].site_info['subdomains'] = subdomains
 
 
 		#
@@ -234,7 +235,8 @@ class Wig(object):
 		#
 		# --- SEARCH FOR SUBDOMAINS --------
 		#
-		DiscoverSubdomains(self.options, self.data).run()
+		if self.options['subdomains']:
+			DiscoverSubdomains(self.options, self.data).run()
 
 
 		#
@@ -305,6 +307,9 @@ def parse_args(url=None):
 	parser.add_argument('-u', action='store_true', dest='user_agent',
 		default='Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36',
 		help='User-agent to use in the requests')
+
+	parser.add_argument('-d', action='store_false', dest='subdomains', default=True,
+		help='Disable the search for subdomains')
 
 	parser.add_argument('-t', dest='threads', default=10, type=int,
 		help='Number of threads to use')
