@@ -1,0 +1,9 @@
+[
+	{
+		"url": "/CFIDE/administrator/index.cfm",
+		"type": "string",
+		"match": "<title>ColdFusion Administrator Login</title>",
+		"output": "",
+		"note": "ColdFusion Administration login"
+	}
+]

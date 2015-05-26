@@ -4,6 +4,7 @@
     "aspnet": {"name": "ASP.NET"},
     "cakephp": {"name": "CakePHP"},
     "centos": {"name": "CentOS"},
+    "coldfusion": {"name": "ColdFusion"},
     "concrete5": {"name": "concrete5"},
     "debian": {"name": "Debian"},
     "demandware": {"name": "Demandware"},
