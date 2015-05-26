@@ -281,6 +281,20 @@ class Requester:
 
 		return (self.is_redirected, new_loc)
 
+	def do_request(self, url, run_type=None, method='GET'):
+		opener = self._create_fetcher()
+		request = urllib.request.Request(url, method=method)
+		response = opener.open(request)
+		R = _create_response(response)
+		
+		if run_type == 'DiscoverMore':
+			R.crawled_response = True	
+
+		self.cache[url] = R
+		self.cache[response.geturl()] = R
+
+		return response
+
 
 	def request(self, fp_list, run_type):
 		url = fp_list[0]['url']
@@ -292,21 +306,34 @@ class Requester:
 		url_data = urllib.parse.urlparse(complete_url)
 		host_data = urllib.parse.urlparse(self.url)
 		
+		# check if it is possible to use 'HEAD' instead of 'GET'
+		# this should be possible for all fingerprints, that do not
+		# have a specified a 'code' or 'code' is '200'.
+		# if 'code' is 'any' or something other than '200', the 
+		# resource should be fetched.
+		can_use_head = True
+		for fp in fp_list:
+			if 'code' in fp and (fp['code'] == 'any' or fp['code'] != 200):
+				can_use_head = False
+
 		if not url_data.netloc == host_data.netloc:
 			pass
 
 		elif not complete_url in self.cache:
 			try:
-				opener = self._create_fetcher()
-				request = urllib.request.Request(complete_url)
-				response = opener.open(request)
-				R = _create_response(response)
-				
-				if run_type == 'DiscoverMore':
-					R.crawled_response = True
+				# if it is possible to use 'HEAD', use it. If the result is 
+				# a '200', request the resource with a 'GET'
+				get_resource = True
+				if can_use_head:
+					response = self.do_request(complete_url, run_type, method='HEAD')
+					if not response.code == 200:
+						get_resource = False
 
-				self.cache[complete_url] = R
-				self.cache[response.geturl()] = R
+				# Fetch the ressource if the resource exists or 
+				# if the fingerprint requires any response
+				if get_resource:
+					self.do_request(complete_url, run_type, method='GET')
+			
 			except Exception as e:
 				pass
 		else:
