@@ -79,6 +79,12 @@
     },
     {
         "match": "7332351b160ef8b2222853c2848e25a6",
+        "output": "mybb_1617",
+        "type": "md5",
+        "url": "/admin/styles/default/forum.css"
+    },
+    {
+        "match": "7332351b160ef8b2222853c2848e25a6",
         "output": "mybb_1800",
         "type": "md5",
         "url": "/admin/styles/default/forum.css"
@@ -92,6 +98,12 @@
     {
         "match": "7332351b160ef8b2222853c2848e25a6",
         "output": "mybb_1804",
+        "type": "md5",
+        "url": "/admin/styles/default/forum.css"
+    },
+    {
+        "match": "7332351b160ef8b2222853c2848e25a6",
+        "output": "mybb_1805",
         "type": "md5",
         "url": "/admin/styles/default/forum.css"
     },
@@ -366,6 +378,12 @@
         "url": "/admin/styles/sharepoint/main.css"
     },
     {
+        "match": "dc00f68444d6804dcc3b60291c0bbffb",
+        "output": "mybb_1617",
+        "type": "md5",
+        "url": "/admin/styles/sharepoint/main.css"
+    },
+    {
         "match": "170f37ce2990c4111618924b7928bd60",
         "output": "mybb_1600",
         "type": "md5",
@@ -470,6 +488,12 @@
     {
         "match": "52f27b90761f90ccd45c27dac7b9efa3",
         "output": "mybb_1616",
+        "type": "md5",
+        "url": "/jscripts/editor.js"
+    },
+    {
+        "match": "52f27b90761f90ccd45c27dac7b9efa3",
+        "output": "mybb_1617",
         "type": "md5",
         "url": "/jscripts/editor.js"
     },
@@ -684,6 +708,12 @@
         "url": "/jscripts/post.js"
     },
     {
+        "match": "22c6f9c09d758ff032a03cd491ae481b",
+        "output": "mybb_1617",
+        "type": "md5",
+        "url": "/jscripts/post.js"
+    },
+    {
         "match": "650525194178b3a4fb31ea2c2ac0b607",
         "output": "mybb_1800",
         "type": "md5",
@@ -698,6 +728,12 @@
     {
         "match": "650525194178b3a4fb31ea2c2ac0b607",
         "output": "mybb_1804",
+        "type": "md5",
+        "url": "/jscripts/post.js"
+    },
+    {
+        "match": "650525194178b3a4fb31ea2c2ac0b607",
+        "output": "mybb_1805",
         "type": "md5",
         "url": "/jscripts/post.js"
     },

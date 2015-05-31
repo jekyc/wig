@@ -72,6 +72,12 @@
         "url": "/core/misc/ajax.js"
     },
     {
+        "match": "a6ad2c936f6ca45783a9933c8a5d2f80",
+        "output": "8.0.0-beta11",
+        "type": "md5",
+        "url": "/core/misc/ajax.js"
+    },
+    {
         "match": "bd114b42d91d266b449a866047db4afa",
         "output": "8.0.0-beta5",
         "type": "md5",
@@ -264,6 +270,12 @@
         "url": "/core/misc/autocomplete.js"
     },
     {
+        "match": "a26841b4009b39a05fa7fc6403feb1bf",
+        "output": "8.0.0-beta11",
+        "type": "md5",
+        "url": "/core/misc/autocomplete.js"
+    },
+    {
         "match": "a8f5a35b7f5a3a3b482c66448d9811f7",
         "output": "8.0-alpha1",
         "type": "md5",
@@ -302,6 +314,12 @@
     {
         "match": "48272bdf2288ad023524a4629f884519",
         "output": "8.0.0-beta10",
+        "type": "md5",
+        "url": "/core/misc/collapse.js"
+    },
+    {
+        "match": "48272bdf2288ad023524a4629f884519",
+        "output": "8.0.0-beta11",
         "type": "md5",
         "url": "/core/misc/collapse.js"
     },
@@ -588,6 +606,12 @@
         "url": "/core/misc/drupal.js"
     },
     {
+        "match": "e5fde678c581412066ff56fbbe10a803",
+        "output": "8.0.0-beta11",
+        "type": "md5",
+        "url": "/core/misc/drupal.js"
+    },
+    {
         "match": "fbc00802cae5680f3019afc567875989",
         "output": "8.0.0-beta5",
         "type": "md5",
@@ -698,6 +722,12 @@
     {
         "match": "e0e3bf9d03f021158115e2e34a180699",
         "output": "8.0.0-beta10",
+        "type": "md5",
+        "url": "/core/misc/druplicon.png"
+    },
+    {
+        "match": "e0e3bf9d03f021158115e2e34a180699",
+        "output": "8.0.0-beta11",
         "type": "md5",
         "url": "/core/misc/druplicon.png"
     },
@@ -858,6 +888,12 @@
         "url": "/core/misc/machine-name.js"
     },
     {
+        "match": "a2fdbcd458d6793c2296b7081d398a2c",
+        "output": "8.0.0-beta11",
+        "type": "md5",
+        "url": "/core/misc/machine-name.js"
+    },
+    {
         "match": "ce0c7aafdac0078f92a77de163ada7d0",
         "output": "8.0.0-beta4",
         "type": "md5",
@@ -962,6 +998,12 @@
     {
         "match": "4c2f5790d0a48bd50752627ac5a4b40e",
         "output": "8.0.0-beta9",
+        "type": "md5",
+        "url": "/core/misc/states.js"
+    },
+    {
+        "match": "51a1cf1de8fc9fa54d219aed999ef6a7",
+        "output": "8.0.0-beta11",
         "type": "md5",
         "url": "/core/misc/states.js"
     },
@@ -1200,6 +1242,12 @@
         "url": "/core/misc/tabledrag.js"
     },
     {
+        "match": "8aac070ada80442e56d41ba2435268f0",
+        "output": "8.0.0-beta11",
+        "type": "md5",
+        "url": "/core/misc/tabledrag.js"
+    },
+    {
         "match": "8e83dc0511528231bec6bff3612c5349",
         "output": "8.0-alpha8",
         "type": "md5",
@@ -1338,6 +1386,12 @@
         "url": "/core/misc/tableheader.js"
     },
     {
+        "match": "8bf87bff115759e8104ab462c2fb7b2d",
+        "output": "8.0.0-beta11",
+        "type": "md5",
+        "url": "/core/misc/tableheader.js"
+    },
+    {
         "match": "c07ece6bf0814e091778b2ae2d385ffb",
         "output": "8.0-alpha10",
         "type": "md5",
@@ -1412,6 +1466,12 @@
     {
         "match": "2fc5720e5154994755ea5c3c94a3f6fb",
         "output": "8.0.0-beta10",
+        "type": "md5",
+        "url": "/core/modules/book/book.js"
+    },
+    {
+        "match": "2fc5720e5154994755ea5c3c94a3f6fb",
+        "output": "8.0.0-beta11",
         "type": "md5",
         "url": "/core/modules/book/book.js"
     },
@@ -1645,6 +1705,12 @@
     },
     {
         "match": "da0338462e2513633b605a2409c9e3ee",
+        "output": "8.0.0-beta11",
+        "type": "md5",
+        "url": "/core/modules/book/css/book.theme.css"
+    },
+    {
+        "match": "da0338462e2513633b605a2409c9e3ee",
         "output": "8.0.0-beta8",
         "type": "md5",
         "url": "/core/modules/book/css/book.theme.css"
@@ -1748,6 +1814,12 @@
     {
         "match": "19b242d4edde0c6eee24162396f21da5",
         "output": "8.0.0-beta10",
+        "type": "md5",
+        "url": "/core/modules/contextual/css/contextual.module.css"
+    },
+    {
+        "match": "19b242d4edde0c6eee24162396f21da5",
+        "output": "8.0.0-beta11",
         "type": "md5",
         "url": "/core/modules/contextual/css/contextual.module.css"
     },
@@ -1932,6 +2004,12 @@
         "url": "/core/modules/contextual/js/contextual.js"
     },
     {
+        "match": "c782e56a71de148477464a2e1ff76ed1",
+        "output": "8.0.0-beta11",
+        "type": "md5",
+        "url": "/core/modules/contextual/js/contextual.js"
+    },
+    {
         "match": "e5683fd0d9577e96a56c408daff09e10",
         "output": "8.0.0-beta10",
         "type": "md5",
@@ -2084,6 +2162,12 @@
     {
         "match": "d334a7a9f3db7c9f1f69e7ea41e27d77",
         "output": "8.0-alpha8",
+        "type": "md5",
+        "url": "/core/modules/file/file.js"
+    },
+    {
+        "match": "f2ba4295ee637372b7ecb6422822eae7",
+        "output": "8.0.0-beta11",
         "type": "md5",
         "url": "/core/modules/file/file.js"
     },
@@ -2352,6 +2436,12 @@
         "url": "/core/modules/node/css/node.module.css"
     },
     {
+        "match": "5d0856590414d2c1c5785b8f0290958a",
+        "output": "8.0.0-beta11",
+        "type": "md5",
+        "url": "/core/modules/node/css/node.module.css"
+    },
+    {
         "match": "72137dd055377cc65e6b47519d761abc",
         "output": "8.0-alpha10",
         "type": "md5",
@@ -2402,6 +2492,12 @@
     {
         "match": "72137dd055377cc65e6b47519d761abc",
         "output": "8.0.0-beta10",
+        "type": "md5",
+        "url": "/core/modules/statistics/statistics.js"
+    },
+    {
+        "match": "72137dd055377cc65e6b47519d761abc",
+        "output": "8.0.0-beta11",
         "type": "md5",
         "url": "/core/modules/statistics/statistics.js"
     },
@@ -2624,6 +2720,12 @@
     {
         "match": "a96cd90d134358183dbbe68030677874",
         "output": "8.0.0-beta10",
+        "type": "md5",
+        "url": "/core/modules/user/css/user.module.css"
+    },
+    {
+        "match": "a96cd90d134358183dbbe68030677874",
+        "output": "8.0.0-beta11",
         "type": "md5",
         "url": "/core/modules/user/css/user.module.css"
     },
