@@ -1057,6 +1057,12 @@
     },
     {
         "os_name": "openSUSE",
+        "os_version": "tumbleweed",
+        "pkg_name": "phpMyAdmin",
+        "pkg_version": "4.4.8"
+    },
+    {
+        "os_name": "openSUSE",
         "os_version": "7.0",
         "pkg_name": "ruby",
         "pkg_version": "1.4.5"
