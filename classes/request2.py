@@ -333,6 +333,7 @@ class Requester:
 				# if the fingerprint requires any response
 				if get_resource:
 					self.do_request(complete_url, run_type, method='GET')
+					R = self.cache[complete_url]
 			
 			except Exception as e:
 				pass
