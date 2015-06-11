@@ -52,7 +52,8 @@ class Printer:
 				if not self.current_line == '':
 					print(self.current_line)
 				self.current_line = ''
-		except:
+		except Exception as e:
+			self.current_line = ''
 			pass
 
 	def print_debug_line(self, text, verbosity, bold=False):
