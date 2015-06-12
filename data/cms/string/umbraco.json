@@ -53,5 +53,13 @@
 		"output": "",
 		"weight": 1,
 		"note": "Umbraco rsd file"
+	},
+	{
+		"url": "/umbraco/channels.aspx",
+		"type": "string",
+		"match": "umbraco metablog api",
+		"output": "",
+		"weight": 1,
+		"note": "Umbraco Metablog API"
 	}
 ]
