@@ -6954,6 +6954,930 @@
         "url": "/misc/druplicon.png"
     },
     {
+        "match": "8ea6902e3c1faf342ffe564acc7016e7",
+        "output": "5.0",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "8ea6902e3c1faf342ffe564acc7016e7",
+        "output": "5.0-beta-1",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "8ea6902e3c1faf342ffe564acc7016e7",
+        "output": "5.0-beta-2",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "8ea6902e3c1faf342ffe564acc7016e7",
+        "output": "5.0-rc-1",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "8ea6902e3c1faf342ffe564acc7016e7",
+        "output": "5.0-rc-2",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "8ea6902e3c1faf342ffe564acc7016e7",
+        "output": "5.1",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "8ea6902e3c1faf342ffe564acc7016e7",
+        "output": "5.2",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "8ea6902e3c1faf342ffe564acc7016e7",
+        "output": "6.0-beta-1",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "b6341dfc213100c61db4fb8775878cec",
+        "output": "7.10",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "b6341dfc213100c61db4fb8775878cec",
+        "output": "7.11",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "b6341dfc213100c61db4fb8775878cec",
+        "output": "7.12",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "b6341dfc213100c61db4fb8775878cec",
+        "output": "7.13",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "b6341dfc213100c61db4fb8775878cec",
+        "output": "7.14",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "b6341dfc213100c61db4fb8775878cec",
+        "output": "7.15",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "b6341dfc213100c61db4fb8775878cec",
+        "output": "7.16",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "b6341dfc213100c61db4fb8775878cec",
+        "output": "7.17",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "b6341dfc213100c61db4fb8775878cec",
+        "output": "7.18",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "b6341dfc213100c61db4fb8775878cec",
+        "output": "7.19",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "b6341dfc213100c61db4fb8775878cec",
+        "output": "7.20",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "b6341dfc213100c61db4fb8775878cec",
+        "output": "7.21",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "b6341dfc213100c61db4fb8775878cec",
+        "output": "7.22",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "b6341dfc213100c61db4fb8775878cec",
+        "output": "7.23",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "b6341dfc213100c61db4fb8775878cec",
+        "output": "7.24",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "b6341dfc213100c61db4fb8775878cec",
+        "output": "7.25",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "b6341dfc213100c61db4fb8775878cec",
+        "output": "7.26",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "b6341dfc213100c61db4fb8775878cec",
+        "output": "7.27",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "b6341dfc213100c61db4fb8775878cec",
+        "output": "7.28",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "b6341dfc213100c61db4fb8775878cec",
+        "output": "7.29",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "b6341dfc213100c61db4fb8775878cec",
+        "output": "7.30",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "b6341dfc213100c61db4fb8775878cec",
+        "output": "7.31",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "b6341dfc213100c61db4fb8775878cec",
+        "output": "7.32",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "b6341dfc213100c61db4fb8775878cec",
+        "output": "7.33",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "b6341dfc213100c61db4fb8775878cec",
+        "output": "7.34",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "b6341dfc213100c61db4fb8775878cec",
+        "output": "7.35",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "b6341dfc213100c61db4fb8775878cec",
+        "output": "7.9",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "cf2445dcb53a031c02f9b57e2199bc03",
+        "output": "7.36",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "cf2445dcb53a031c02f9b57e2199bc03",
+        "output": "7.37",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "5.10",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "5.11",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "5.12",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "5.13",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "5.14",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "5.15",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "5.16",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "5.17",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "5.18",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "5.19",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "5.20",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "5.21",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "5.22",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "5.23",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "5.3",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "5.4",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "5.5",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "5.6",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "5.7",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "5.8",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "5.9",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.0",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.0-beta-2",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.0-beta-3",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.0-beta-4",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.0-rc-1",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.0-rc-2",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.0-rc-3",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.0-rc-4",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.1",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.10",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.11",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.12",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.13",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.14",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.15",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.16",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.17",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.18",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.19",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.2",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.20",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.21",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.22",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.23",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.24",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.25",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.26",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.27",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.28",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.29",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.3",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.30",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.31",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.32",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.33",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.34",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.35",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.4",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.5",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.6",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.7",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.8",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "6.9",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.0",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.0-alpha1",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.0-alpha2",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.0-alpha3",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.0-alpha4",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.0-alpha5",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.0-alpha6",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.0-alpha7",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.0-beta1",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.0-beta2",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.0-beta3",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.0-rc-1",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.0-rc-2",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.0-rc-3",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.0-rc-4",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.0-unstable-1",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.0-unstable-10",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.0-unstable-2",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.0-unstable-3",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.0-unstable-4",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.0-unstable-5",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.0-unstable-6",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.0-unstable-7",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.0-unstable-8",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.0-unstable-9",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.1",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.2",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.3",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.4",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.5",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.6",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.7",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "e6a9dc66179d8c9f34288b16a02f987e",
+        "output": "7.8",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "f0ee98b4394dfdab17c16245dd799204",
+        "output": "4.7.0",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "f0ee98b4394dfdab17c16245dd799204",
+        "output": "4.7.0-beta-3",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "f0ee98b4394dfdab17c16245dd799204",
+        "output": "4.7.0-beta-4",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "f0ee98b4394dfdab17c16245dd799204",
+        "output": "4.7.0-beta-5",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "f0ee98b4394dfdab17c16245dd799204",
+        "output": "4.7.0-beta-6",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "f0ee98b4394dfdab17c16245dd799204",
+        "output": "4.7.0-rc-1",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "f0ee98b4394dfdab17c16245dd799204",
+        "output": "4.7.0-rc-2",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "f0ee98b4394dfdab17c16245dd799204",
+        "output": "4.7.0-rc-3",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "f0ee98b4394dfdab17c16245dd799204",
+        "output": "4.7.0-rc-4",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "f0ee98b4394dfdab17c16245dd799204",
+        "output": "4.7.1",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "f0ee98b4394dfdab17c16245dd799204",
+        "output": "4.7.10",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "f0ee98b4394dfdab17c16245dd799204",
+        "output": "4.7.11",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "f0ee98b4394dfdab17c16245dd799204",
+        "output": "4.7.2",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "f0ee98b4394dfdab17c16245dd799204",
+        "output": "4.7.3",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "f0ee98b4394dfdab17c16245dd799204",
+        "output": "4.7.4",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "f0ee98b4394dfdab17c16245dd799204",
+        "output": "4.7.5",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "f0ee98b4394dfdab17c16245dd799204",
+        "output": "4.7.6",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "f0ee98b4394dfdab17c16245dd799204",
+        "output": "4.7.7",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "f0ee98b4394dfdab17c16245dd799204",
+        "output": "4.7.8",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
+        "match": "f0ee98b4394dfdab17c16245dd799204",
+        "output": "4.7.9",
+        "type": "md5",
+        "url": "/misc/favicon.ico"
+    },
+    {
         "match": "017ab07cb0b32a6094384087792dc4bd",
         "output": "6.10",
         "type": "md5",

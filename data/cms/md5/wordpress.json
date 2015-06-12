@@ -8958,6 +8958,660 @@
         "url": "/wp-includes/js/plupload/changelog.txt"
     },
     {
+        "match": "05f72f5183487b3d93ffdea33f521cff",
+        "output": "2.2",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "05f72f5183487b3d93ffdea33f521cff",
+        "output": "2.2.1",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "05f72f5183487b3d93ffdea33f521cff",
+        "output": "2.2.2",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "05f72f5183487b3d93ffdea33f521cff",
+        "output": "2.2.3",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "05f72f5183487b3d93ffdea33f521cff",
+        "output": "2.3",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "05f72f5183487b3d93ffdea33f521cff",
+        "output": "2.3.1",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "05f72f5183487b3d93ffdea33f521cff",
+        "output": "2.3.2",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "05f72f5183487b3d93ffdea33f521cff",
+        "output": "2.3.3",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "13fae754baf95c39371e539c4b627dde",
+        "output": "2.0",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "13fae754baf95c39371e539c4b627dde",
+        "output": "2.0.1",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "13fae754baf95c39371e539c4b627dde",
+        "output": "2.0.10",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "13fae754baf95c39371e539c4b627dde",
+        "output": "2.0.11",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "13fae754baf95c39371e539c4b627dde",
+        "output": "2.0.2",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "13fae754baf95c39371e539c4b627dde",
+        "output": "2.0.3",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "13fae754baf95c39371e539c4b627dde",
+        "output": "2.0.4",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "13fae754baf95c39371e539c4b627dde",
+        "output": "2.0.5",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "13fae754baf95c39371e539c4b627dde",
+        "output": "2.0.6",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "13fae754baf95c39371e539c4b627dde",
+        "output": "2.0.7",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "13fae754baf95c39371e539c4b627dde",
+        "output": "2.0.8",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "13fae754baf95c39371e539c4b627dde",
+        "output": "2.0.9",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "2a040163533eceee9b05c95216bf6764",
+        "output": "3.6",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "2a040163533eceee9b05c95216bf6764",
+        "output": "3.6.1",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "2a040163533eceee9b05c95216bf6764",
+        "output": "3.7",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "2a040163533eceee9b05c95216bf6764",
+        "output": "3.7.1",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "2a040163533eceee9b05c95216bf6764",
+        "output": "3.7.2",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "2a040163533eceee9b05c95216bf6764",
+        "output": "3.7.3",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "2a040163533eceee9b05c95216bf6764",
+        "output": "3.7.4",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "2a040163533eceee9b05c95216bf6764",
+        "output": "3.7.5",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "2a040163533eceee9b05c95216bf6764",
+        "output": "3.7.6",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "2a040163533eceee9b05c95216bf6764",
+        "output": "3.7.7",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "2a040163533eceee9b05c95216bf6764",
+        "output": "3.7.8",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "30ef4fe9bbc2a3259b0a1179f8b3f5d8",
+        "output": "2.5",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "30ef4fe9bbc2a3259b0a1179f8b3f5d8",
+        "output": "2.5.1",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "30ef4fe9bbc2a3259b0a1179f8b3f5d8",
+        "output": "2.6",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "30ef4fe9bbc2a3259b0a1179f8b3f5d8",
+        "output": "2.6.1",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "30ef4fe9bbc2a3259b0a1179f8b3f5d8",
+        "output": "2.6.2",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "30ef4fe9bbc2a3259b0a1179f8b3f5d8",
+        "output": "2.6.3",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "30ef4fe9bbc2a3259b0a1179f8b3f5d8",
+        "output": "2.6.5",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "3ea535778aa41165e0b6fdbe1fa7c4b4",
+        "output": "4.0.1",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "3ea535778aa41165e0b6fdbe1fa7c4b4",
+        "output": "4.0.2",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "3ea535778aa41165e0b6fdbe1fa7c4b4",
+        "output": "4.0.3",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "3ea535778aa41165e0b6fdbe1fa7c4b4",
+        "output": "4.0.4",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "3ea535778aa41165e0b6fdbe1fa7c4b4",
+        "output": "4.0.5",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "4f9b1ffdbbe292ae09a17bd5638c8152",
+        "output": "3.3",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "4f9b1ffdbbe292ae09a17bd5638c8152",
+        "output": "3.3.1",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "4f9b1ffdbbe292ae09a17bd5638c8152",
+        "output": "3.3.2",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "4f9b1ffdbbe292ae09a17bd5638c8152",
+        "output": "3.3.3",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "522dd357ce0e14c054e91851be2c7326",
+        "output": "3.2",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "522dd357ce0e14c054e91851be2c7326",
+        "output": "3.2.1",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "75a2b7d66218b95cc439cd82daea731d",
+        "output": "3.9",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "75a2b7d66218b95cc439cd82daea731d",
+        "output": "3.9.1",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "75a2b7d66218b95cc439cd82daea731d",
+        "output": "3.9.2",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "75a2b7d66218b95cc439cd82daea731d",
+        "output": "3.9.3",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "75a2b7d66218b95cc439cd82daea731d",
+        "output": "3.9.4",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "75a2b7d66218b95cc439cd82daea731d",
+        "output": "3.9.5",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "75a2b7d66218b95cc439cd82daea731d",
+        "output": "3.9.6",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "75a2b7d66218b95cc439cd82daea731d",
+        "output": "4.0",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "77a0503d00ffbf740d3572411c676724",
+        "output": "3.4",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "77a0503d00ffbf740d3572411c676724",
+        "output": "3.4.1",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "77a0503d00ffbf740d3572411c676724",
+        "output": "3.4.2",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "7b69ef69e6e9a070b872a6f95ec9c457",
+        "output": "3.8",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "7b69ef69e6e9a070b872a6f95ec9c457",
+        "output": "3.8.1",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "7b69ef69e6e9a070b872a6f95ec9c457",
+        "output": "3.8.2",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "7b69ef69e6e9a070b872a6f95ec9c457",
+        "output": "3.8.3",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "7b69ef69e6e9a070b872a6f95ec9c457",
+        "output": "3.8.4",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "7b69ef69e6e9a070b872a6f95ec9c457",
+        "output": "3.8.5",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "7b69ef69e6e9a070b872a6f95ec9c457",
+        "output": "3.8.6",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "7b69ef69e6e9a070b872a6f95ec9c457",
+        "output": "3.8.7",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "7b69ef69e6e9a070b872a6f95ec9c457",
+        "output": "3.8.8",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "954c48f2a654620e6c8c286d6016d224",
+        "output": "2.8",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "954c48f2a654620e6c8c286d6016d224",
+        "output": "2.8.1",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "954c48f2a654620e6c8c286d6016d224",
+        "output": "2.8.2",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "954c48f2a654620e6c8c286d6016d224",
+        "output": "2.8.3",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "954c48f2a654620e6c8c286d6016d224",
+        "output": "2.8.4",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "954c48f2a654620e6c8c286d6016d224",
+        "output": "2.8.5",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "954c48f2a654620e6c8c286d6016d224",
+        "output": "2.8.6",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "954c48f2a654620e6c8c286d6016d224",
+        "output": "2.9",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "954c48f2a654620e6c8c286d6016d224",
+        "output": "2.9.1",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "954c48f2a654620e6c8c286d6016d224",
+        "output": "2.9.2",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "954c48f2a654620e6c8c286d6016d224",
+        "output": "3.0",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "954c48f2a654620e6c8c286d6016d224",
+        "output": "3.0.1",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "954c48f2a654620e6c8c286d6016d224",
+        "output": "3.0.2",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "954c48f2a654620e6c8c286d6016d224",
+        "output": "3.0.3",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "954c48f2a654620e6c8c286d6016d224",
+        "output": "3.0.4",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "954c48f2a654620e6c8c286d6016d224",
+        "output": "3.0.5",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "954c48f2a654620e6c8c286d6016d224",
+        "output": "3.0.6",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "954c48f2a654620e6c8c286d6016d224",
+        "output": "3.1",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "954c48f2a654620e6c8c286d6016d224",
+        "output": "3.1.1",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "954c48f2a654620e6c8c286d6016d224",
+        "output": "3.1.2",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "954c48f2a654620e6c8c286d6016d224",
+        "output": "3.1.3",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "954c48f2a654620e6c8c286d6016d224",
+        "output": "3.1.4",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "b70c650cff9a2601ba9d9aebf1215a6e",
+        "output": "2.7",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "b70c650cff9a2601ba9d9aebf1215a6e",
+        "output": "2.7.1",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "bee34afdddc81cd7fb4375bc1950a4c3",
+        "output": "2.1",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "bee34afdddc81cd7fb4375bc1950a4c3",
+        "output": "2.1.1",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "bee34afdddc81cd7fb4375bc1950a4c3",
+        "output": "2.1.2",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "bee34afdddc81cd7fb4375bc1950a4c3",
+        "output": "2.1.3",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "cb35ecf64895decdb22a0f1ae83e4e7c",
+        "output": "3.5",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "cb35ecf64895decdb22a0f1ae83e4e7c",
+        "output": "3.5.1",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "cb35ecf64895decdb22a0f1ae83e4e7c",
+        "output": "3.5.2",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "f623cad23a3ce005fcd054d9e5adcaad",
+        "output": "4.1",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "f623cad23a3ce005fcd054d9e5adcaad",
+        "output": "4.1.1",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "f623cad23a3ce005fcd054d9e5adcaad",
+        "output": "4.1.2",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "f623cad23a3ce005fcd054d9e5adcaad",
+        "output": "4.1.3",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "f623cad23a3ce005fcd054d9e5adcaad",
+        "output": "4.1.4",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "f623cad23a3ce005fcd054d9e5adcaad",
+        "output": "4.1.5",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "f623cad23a3ce005fcd054d9e5adcaad",
+        "output": "4.2",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "f623cad23a3ce005fcd054d9e5adcaad",
+        "output": "4.2.1",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
+        "match": "f623cad23a3ce005fcd054d9e5adcaad",
+        "output": "4.2.2",
+        "type": "md5",
+        "url": "/wp-includes/js/quicktags.js"
+    },
+    {
         "match": "47521cae14f8ff1d8f0438c4eece96dd",
         "output": "3.2",
         "type": "md5",
@@ -9148,6 +9802,372 @@
         "output": "3.8.8",
         "type": "md5",
         "url": "/wp-includes/js/tinymce/plugins/spellchecker/changelog.txt"
+    },
+    {
+        "match": "02ed0a4f130b11ee395676d0e26171b8",
+        "output": "3.7.1",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "02ed0a4f130b11ee395676d0e26171b8",
+        "output": "3.7.2",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "02ed0a4f130b11ee395676d0e26171b8",
+        "output": "3.7.3",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "02ed0a4f130b11ee395676d0e26171b8",
+        "output": "3.7.4",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "02ed0a4f130b11ee395676d0e26171b8",
+        "output": "3.7.5",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "02ed0a4f130b11ee395676d0e26171b8",
+        "output": "3.7.6",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "02ed0a4f130b11ee395676d0e26171b8",
+        "output": "3.7.7",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "02ed0a4f130b11ee395676d0e26171b8",
+        "output": "3.7.8",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "186e45b7613323108c761faee2a1cae1",
+        "output": "3.4",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "186e45b7613323108c761faee2a1cae1",
+        "output": "3.4.1",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "19af2018dbb26944de552ba2df25a95c",
+        "output": "2.7",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "19af2018dbb26944de552ba2df25a95c",
+        "output": "2.7.1",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "2be4c574071c7a785fbad50515738c77",
+        "output": "3.3",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "2be4c574071c7a785fbad50515738c77",
+        "output": "3.3.1",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "2be4c574071c7a785fbad50515738c77",
+        "output": "3.3.2",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "2be4c574071c7a785fbad50515738c77",
+        "output": "3.3.3",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "3e07acce83c1bd7620680fcab0791113",
+        "output": "2.6.1",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "3e07acce83c1bd7620680fcab0791113",
+        "output": "2.6.2",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "3e07acce83c1bd7620680fcab0791113",
+        "output": "2.6.3",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "3e07acce83c1bd7620680fcab0791113",
+        "output": "2.6.5",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "40e9c12914d1afb3978286bb1140b352",
+        "output": "3.1",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "40e9c12914d1afb3978286bb1140b352",
+        "output": "3.1.1",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "40e9c12914d1afb3978286bb1140b352",
+        "output": "3.1.2",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "40e9c12914d1afb3978286bb1140b352",
+        "output": "3.1.3",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "40e9c12914d1afb3978286bb1140b352",
+        "output": "3.1.4",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "40e9c12914d1afb3978286bb1140b352",
+        "output": "3.2",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "40e9c12914d1afb3978286bb1140b352",
+        "output": "3.2.1",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "4eb9923fe07a29b24bac1e21aaa7e6eb",
+        "output": "3.7",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "5b140ddf0f08034402ae78b31d8a1a28",
+        "output": "2.6",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "5f51f325fb3e0b8e1737690dc96e3c9d",
+        "output": "3.5",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "5f51f325fb3e0b8e1737690dc96e3c9d",
+        "output": "3.5.1",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "5f51f325fb3e0b8e1737690dc96e3c9d",
+        "output": "3.5.2",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "5f51f325fb3e0b8e1737690dc96e3c9d",
+        "output": "3.6",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "5f51f325fb3e0b8e1737690dc96e3c9d",
+        "output": "3.6.1",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "663feb32930d3bb5cb2a438f144f9d43",
+        "output": "2.9",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "663feb32930d3bb5cb2a438f144f9d43",
+        "output": "2.9.1",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "663feb32930d3bb5cb2a438f144f9d43",
+        "output": "2.9.2",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "663feb32930d3bb5cb2a438f144f9d43",
+        "output": "3.0",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "663feb32930d3bb5cb2a438f144f9d43",
+        "output": "3.0.1",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "663feb32930d3bb5cb2a438f144f9d43",
+        "output": "3.0.2",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "663feb32930d3bb5cb2a438f144f9d43",
+        "output": "3.0.3",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "663feb32930d3bb5cb2a438f144f9d43",
+        "output": "3.0.4",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "663feb32930d3bb5cb2a438f144f9d43",
+        "output": "3.0.5",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "663feb32930d3bb5cb2a438f144f9d43",
+        "output": "3.0.6",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "8b4d90c058f4f224c9c8f304d67e2dd5",
+        "output": "3.4.2",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "c4c59bfbf6ac1101ee884761914d76da",
+        "output": "2.8",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "c4c59bfbf6ac1101ee884761914d76da",
+        "output": "2.8.1",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "c4c59bfbf6ac1101ee884761914d76da",
+        "output": "2.8.2",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "c4c59bfbf6ac1101ee884761914d76da",
+        "output": "2.8.3",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "c4c59bfbf6ac1101ee884761914d76da",
+        "output": "2.8.4",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "c4c59bfbf6ac1101ee884761914d76da",
+        "output": "2.8.5",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "c4c59bfbf6ac1101ee884761914d76da",
+        "output": "2.8.6",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "cb1aec084f3cd28d6f37990e80174863",
+        "output": "3.8",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "cb1aec084f3cd28d6f37990e80174863",
+        "output": "3.8.1",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "cb1aec084f3cd28d6f37990e80174863",
+        "output": "3.8.2",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "cb1aec084f3cd28d6f37990e80174863",
+        "output": "3.8.3",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "cb1aec084f3cd28d6f37990e80174863",
+        "output": "3.8.4",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "cb1aec084f3cd28d6f37990e80174863",
+        "output": "3.8.5",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "cb1aec084f3cd28d6f37990e80174863",
+        "output": "3.8.6",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "cb1aec084f3cd28d6f37990e80174863",
+        "output": "3.8.7",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
+    },
+    {
+        "match": "cb1aec084f3cd28d6f37990e80174863",
+        "output": "3.8.8",
+        "type": "md5",
+        "url": "/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin.js"
     },
     {
         "match": "128e75ed19d49a94a771586bf83265ec",
