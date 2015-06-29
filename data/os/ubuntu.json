@@ -7,9 +7,27 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "9.10",
+        "pkg_name": "Apache",
+        "pkg_version": "2.2.12"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "10.04",
         "pkg_name": "Apache",
         "pkg_version": "2.2.14"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "10.04",
+        "pkg_name": "Apache",
+        "pkg_version": "2.2.14"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "10.10",
+        "pkg_name": "Apache",
+        "pkg_version": "2.2.16"
     },
     {
         "os_name": "Ubuntu",
@@ -25,6 +43,18 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "11.04",
+        "pkg_name": "Apache",
+        "pkg_version": "2.2.17"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "11.10",
+        "pkg_name": "Apache",
+        "pkg_version": "2.2.20"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "11.10",
         "pkg_name": "Apache",
         "pkg_version": "2.2.20"
@@ -32,6 +62,18 @@
     {
         "os_name": "Ubuntu",
         "os_version": "12.04",
+        "pkg_name": "Apache",
+        "pkg_version": "2.2.22"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "12.04",
+        "pkg_name": "Apache",
+        "pkg_version": "2.2.22"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "12.10",
         "pkg_name": "Apache",
         "pkg_version": "2.2.22"
     },
@@ -49,7 +91,25 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "13.04",
+        "pkg_name": "Apache",
+        "pkg_version": "2.2.22"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "14.10",
+        "pkg_name": "Apache",
+        "pkg_version": "2.4.10"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "14.10",
+        "pkg_name": "Apache",
+        "pkg_version": "2.4.10"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "15.04",
         "pkg_name": "Apache",
         "pkg_version": "2.4.10"
     },
@@ -67,9 +127,27 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "13.10",
+        "pkg_name": "Apache",
+        "pkg_version": "2.4.6"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "14.04",
         "pkg_name": "Apache",
         "pkg_version": "2.4.7"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "14.04",
+        "pkg_name": "Apache",
+        "pkg_version": "2.4.7"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "9.10",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "6.0.20"
     },
     {
         "os_name": "Ubuntu",
@@ -85,7 +163,25 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "10.04",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "6.0.24"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "10.10",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "6.0.28"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "10.10",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "6.0.28"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "11.04",
         "pkg_name": "apache-tomcat",
         "pkg_version": "6.0.28"
     },
@@ -103,9 +199,27 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "11.10",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "6.0.32"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "12.04",
         "pkg_name": "apache-tomcat",
         "pkg_version": "6.0.35"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "12.04",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "6.0.35"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "12.10",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "7.0.30"
     },
     {
         "os_name": "Ubuntu",
@@ -121,9 +235,27 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "13.04",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "7.0.35"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "13.10",
         "pkg_name": "apache-tomcat",
         "pkg_version": "7.0.42"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "13.10",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "7.0.42"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "14.04",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "7.0.52"
     },
     {
         "os_name": "Ubuntu",
@@ -139,6 +271,18 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "14.10",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "7.0.55"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "15.04",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "7.0.56"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "15.04",
         "pkg_name": "apache-tomcat",
         "pkg_version": "7.0.56"
@@ -146,6 +290,18 @@
     {
         "os_name": "Ubuntu",
         "os_version": "10.04",
+        "pkg_name": "mod_perl",
+        "pkg_version": "2.0.4"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "10.04",
+        "pkg_name": "mod_perl",
+        "pkg_version": "2.0.4"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "10.10",
         "pkg_name": "mod_perl",
         "pkg_version": "2.0.4"
     },
@@ -163,6 +319,18 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "11.04",
+        "pkg_name": "mod_perl",
+        "pkg_version": "2.0.4"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "9.10",
+        "pkg_name": "mod_perl",
+        "pkg_version": "2.0.4"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "9.10",
         "pkg_name": "mod_perl",
         "pkg_version": "2.0.4"
@@ -175,7 +343,25 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "11.10",
+        "pkg_name": "mod_perl",
+        "pkg_version": "2.0.5"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "12.04",
+        "pkg_name": "mod_perl",
+        "pkg_version": "2.0.5"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "12.04",
+        "pkg_name": "mod_perl",
+        "pkg_version": "2.0.5"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "12.10",
         "pkg_name": "mod_perl",
         "pkg_version": "2.0.5"
     },
@@ -193,6 +379,18 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "13.04",
+        "pkg_name": "mod_perl",
+        "pkg_version": "2.0.7"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "13.10",
+        "pkg_name": "mod_perl",
+        "pkg_version": "2.0.8"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "13.10",
         "pkg_name": "mod_perl",
         "pkg_version": "2.0.8"
@@ -200,6 +398,18 @@
     {
         "os_name": "Ubuntu",
         "os_version": "14.04",
+        "pkg_name": "mod_perl",
+        "pkg_version": "2.0.8"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "14.04",
+        "pkg_name": "mod_perl",
+        "pkg_version": "2.0.8"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "14.10",
         "pkg_name": "mod_perl",
         "pkg_version": "2.0.8"
     },
@@ -217,9 +427,99 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "15.04",
+        "pkg_name": "mod_perl",
+        "pkg_version": "2.0.9"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "10.04",
+        "pkg_name": "nginx",
+        "pkg_version": "5.00"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "9.10",
+        "pkg_name": "nginx",
+        "pkg_version": "5.00"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "10.10",
+        "pkg_name": "nginx",
+        "pkg_version": "5.21"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "11.04",
+        "pkg_name": "nginx",
+        "pkg_version": "5.21"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "11.10",
+        "pkg_name": "nginx",
+        "pkg_version": "5.21"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "12.04",
+        "pkg_name": "nginx",
+        "pkg_version": "5.21"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "12.10",
+        "pkg_name": "nginx",
+        "pkg_version": "6.00"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "13.04",
+        "pkg_name": "nginx",
+        "pkg_version": "6.00"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "13.10",
+        "pkg_name": "nginx",
+        "pkg_version": "6.40"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "14.04",
+        "pkg_name": "nginx",
+        "pkg_version": "6.40"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "14.10",
+        "pkg_name": "nginx",
+        "pkg_version": "6.46"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "15.04",
+        "pkg_name": "nginx",
+        "pkg_version": "6.47"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "4.10",
         "pkg_name": "openssl",
         "pkg_version": "0.9.7d"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "4.10",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.7d"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "5.04",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.7e"
     },
     {
         "os_name": "Ubuntu",
@@ -235,9 +535,27 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "5.10",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.7g"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "6.06",
         "pkg_name": "openssl",
         "pkg_version": "0.9.8a"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "6.06",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.8a"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "6.10",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.8b"
     },
     {
         "os_name": "Ubuntu",
@@ -253,9 +571,27 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "7.04",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.8c"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "7.10",
         "pkg_name": "openssl",
         "pkg_version": "0.9.8e"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "7.10",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.8e"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "8.04",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.8g"
     },
     {
         "os_name": "Ubuntu",
@@ -271,7 +607,25 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "8.10",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.8g"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "9.04",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.8g"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "9.04",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.8g"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "9.10",
         "pkg_name": "openssl",
         "pkg_version": "0.9.8g"
     },
@@ -289,7 +643,25 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "10.04",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.8k"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "10.10",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.8o"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "10.10",
+        "pkg_name": "openssl",
+        "pkg_version": "0.9.8o"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "11.04",
         "pkg_name": "openssl",
         "pkg_version": "0.9.8o"
     },
@@ -307,6 +679,18 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "11.10",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.0e"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "12.04",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.1"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "12.04",
         "pkg_name": "openssl",
         "pkg_version": "1.0.1"
@@ -314,6 +698,18 @@
     {
         "os_name": "Ubuntu",
         "os_version": "12.10",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.1c"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "12.10",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.1c"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "13.04",
         "pkg_name": "openssl",
         "pkg_version": "1.0.1c"
     },
@@ -331,7 +727,25 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "13.10",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.1e"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "14.04",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.1f"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "14.04",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.1f"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "14.10",
         "pkg_name": "openssl",
         "pkg_version": "1.0.1f"
     },
@@ -349,7 +763,25 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "15.04",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.1f"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "8.10",
+        "pkg_name": "perl",
+        "pkg_version": "5.10.0"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "8.10",
+        "pkg_name": "perl",
+        "pkg_version": "5.10.0"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "9.04",
         "pkg_name": "perl",
         "pkg_version": "5.10.0"
     },
@@ -367,6 +799,18 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "9.10",
+        "pkg_name": "perl",
+        "pkg_version": "5.10.0"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "10.04",
+        "pkg_name": "perl",
+        "pkg_version": "5.10.1"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "10.04",
         "pkg_name": "perl",
         "pkg_version": "5.10.1"
@@ -374,6 +818,18 @@
     {
         "os_name": "Ubuntu",
         "os_version": "10.10",
+        "pkg_name": "perl",
+        "pkg_version": "5.10.1"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "10.10",
+        "pkg_name": "perl",
+        "pkg_version": "5.10.1"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "11.04",
         "pkg_name": "perl",
         "pkg_version": "5.10.1"
     },
@@ -391,6 +847,18 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "11.10",
+        "pkg_name": "perl",
+        "pkg_version": "5.12.4"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "12.04",
+        "pkg_name": "perl",
+        "pkg_version": "5.14.2"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "12.04",
         "pkg_name": "perl",
         "pkg_version": "5.14.2"
@@ -403,7 +871,25 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "12.10",
+        "pkg_name": "perl",
+        "pkg_version": "5.14.2"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "13.04",
+        "pkg_name": "perl",
+        "pkg_version": "5.14.2"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "13.04",
+        "pkg_name": "perl",
+        "pkg_version": "5.14.2"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "13.10",
         "pkg_name": "perl",
         "pkg_version": "5.14.2"
     },
@@ -421,6 +907,24 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "14.04",
+        "pkg_name": "perl",
+        "pkg_version": "5.18.2"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "9.10",
+        "pkg_name": "perl",
+        "pkg_version": "5.2.10"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "14.10",
+        "pkg_name": "perl",
+        "pkg_version": "5.20.0"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "14.10",
         "pkg_name": "perl",
         "pkg_version": "5.20.0"
@@ -433,7 +937,91 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "15.04",
+        "pkg_name": "perl",
+        "pkg_version": "5.20.2"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "12.04",
+        "pkg_name": "perl",
+        "pkg_version": "5.3.10"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "10.04",
+        "pkg_name": "perl",
+        "pkg_version": "5.3.2"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "10.10",
+        "pkg_name": "perl",
+        "pkg_version": "5.3.3"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "11.04",
+        "pkg_name": "perl",
+        "pkg_version": "5.3.5"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "11.10",
+        "pkg_name": "perl",
+        "pkg_version": "5.3.6"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "12.10",
+        "pkg_name": "perl",
+        "pkg_version": "5.4.6"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "13.04",
+        "pkg_name": "perl",
+        "pkg_version": "5.4.9"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "14.10",
+        "pkg_name": "perl",
+        "pkg_version": "5.5.12"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "13.10",
+        "pkg_name": "perl",
+        "pkg_version": "5.5.3"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "14.04",
+        "pkg_name": "perl",
+        "pkg_version": "5.5.9"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "15.04",
+        "pkg_name": "perl",
+        "pkg_version": "5.6.4"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "4.10",
+        "pkg_name": "perl",
+        "pkg_version": "5.8.4"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "4.10",
+        "pkg_name": "perl",
+        "pkg_version": "5.8.4"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "5.04",
         "pkg_name": "perl",
         "pkg_version": "5.8.4"
     },
@@ -451,9 +1039,27 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "5.10",
+        "pkg_name": "perl",
+        "pkg_version": "5.8.7"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "6.06",
         "pkg_name": "perl",
         "pkg_version": "5.8.7"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "6.06",
+        "pkg_name": "perl",
+        "pkg_version": "5.8.7"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "6.10",
+        "pkg_name": "perl",
+        "pkg_version": "5.8.8"
     },
     {
         "os_name": "Ubuntu",
@@ -469,7 +1075,25 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "7.04",
+        "pkg_name": "perl",
+        "pkg_version": "5.8.8"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "7.10",
+        "pkg_name": "perl",
+        "pkg_version": "5.8.8"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "7.10",
+        "pkg_name": "perl",
+        "pkg_version": "5.8.8"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "8.04",
         "pkg_name": "perl",
         "pkg_version": "5.8.8"
     },
@@ -487,9 +1111,27 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "9.10",
+        "pkg_name": "php",
+        "pkg_version": "5.2.10"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "12.04",
         "pkg_name": "php",
         "pkg_version": "5.3.10"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "12.04",
+        "pkg_name": "php",
+        "pkg_version": "5.3.10"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "10.04",
+        "pkg_name": "php",
+        "pkg_version": "5.3.2"
     },
     {
         "os_name": "Ubuntu",
@@ -505,9 +1147,27 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "10.10",
+        "pkg_name": "php",
+        "pkg_version": "5.3.3"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "11.04",
         "pkg_name": "php",
         "pkg_version": "5.3.5"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "11.04",
+        "pkg_name": "php",
+        "pkg_version": "5.3.5"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "11.10",
+        "pkg_name": "php",
+        "pkg_version": "5.3.6"
     },
     {
         "os_name": "Ubuntu",
@@ -523,9 +1183,27 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "12.10",
+        "pkg_name": "php",
+        "pkg_version": "5.4.6"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "13.04",
         "pkg_name": "php",
         "pkg_version": "5.4.9"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "13.04",
+        "pkg_name": "php",
+        "pkg_version": "5.4.9"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "14.10",
+        "pkg_name": "php",
+        "pkg_version": "5.5.12"
     },
     {
         "os_name": "Ubuntu",
@@ -541,6 +1219,18 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "13.10",
+        "pkg_name": "php",
+        "pkg_version": "5.5.3"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "14.04",
+        "pkg_name": "php",
+        "pkg_version": "5.5.9"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "14.04",
         "pkg_name": "php",
         "pkg_version": "5.5.9"
@@ -550,6 +1240,78 @@
         "os_version": "15.04",
         "pkg_name": "php",
         "pkg_version": "5.6.4"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "15.04",
+        "pkg_name": "php",
+        "pkg_version": "5.6.4"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "4.10",
+        "pkg_name": "phpMyAdmin",
+        "pkg_version": "1.0.0"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "5.04",
+        "pkg_name": "phpMyAdmin",
+        "pkg_version": "1.1.4"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "5.10",
+        "pkg_name": "phpMyAdmin",
+        "pkg_version": "1.5.0"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "6.06",
+        "pkg_name": "phpMyAdmin",
+        "pkg_version": "1.5.0"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "6.10",
+        "pkg_name": "phpMyAdmin",
+        "pkg_version": "2.0.0beta3"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "7.04",
+        "pkg_name": "phpMyAdmin",
+        "pkg_version": "2.0.0beta6"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "7.10",
+        "pkg_name": "phpMyAdmin",
+        "pkg_version": "2.2.1"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "8.04",
+        "pkg_name": "phpMyAdmin",
+        "pkg_version": "2.4.1"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "8.10",
+        "pkg_name": "phpMyAdmin",
+        "pkg_version": "2.5.2"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "9.04",
+        "pkg_name": "phpMyAdmin",
+        "pkg_version": "2.5.5"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "5.04",
+        "pkg_name": "ruby",
+        "pkg_version": "1.8.1"
     },
     {
         "os_name": "Ubuntu",
@@ -565,7 +1327,25 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "5.10",
+        "pkg_name": "ruby",
+        "pkg_version": "1.8.2"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "6.06",
+        "pkg_name": "ruby",
+        "pkg_version": "1.8.4"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "6.06",
+        "pkg_name": "ruby",
+        "pkg_version": "1.8.4"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "6.10",
         "pkg_name": "ruby",
         "pkg_version": "1.8.4"
     },
@@ -583,9 +1363,27 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "7.04",
+        "pkg_name": "ruby",
+        "pkg_version": "1.8.5"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "8.04",
         "pkg_name": "ruby",
         "pkg_version": "1.8.6-p111"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "8.04",
+        "pkg_name": "ruby",
+        "pkg_version": "1.8.6-p111"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "7.10",
+        "pkg_name": "ruby",
+        "pkg_version": "1.8.6-p36"
     },
     {
         "os_name": "Ubuntu",
@@ -601,9 +1399,27 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "9.10",
+        "pkg_name": "ruby",
+        "pkg_version": "1.8.7-p174"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "10.04",
         "pkg_name": "ruby",
         "pkg_version": "1.8.7-p249"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "10.04",
+        "pkg_name": "ruby",
+        "pkg_version": "1.8.7-p249"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "10.10",
+        "pkg_name": "ruby",
+        "pkg_version": "1.8.7-p299"
     },
     {
         "os_name": "Ubuntu",
@@ -619,6 +1435,18 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "11.04",
+        "pkg_name": "ruby",
+        "pkg_version": "1.8.7-p302"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "11.10",
+        "pkg_name": "ruby",
+        "pkg_version": "1.8.7-p352"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "11.10",
         "pkg_name": "ruby",
         "pkg_version": "1.8.7-p352"
@@ -631,7 +1459,157 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "8.10",
+        "pkg_name": "ruby",
+        "pkg_version": "1.8.7-p72"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "5.04",
+        "pkg_name": "ruby",
+        "pkg_version": "3.0.10"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "5.10",
+        "pkg_name": "ruby",
+        "pkg_version": "3.0.14a"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "6.06",
+        "pkg_name": "ruby",
+        "pkg_version": "3.0.22"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "6.10",
+        "pkg_name": "ruby",
+        "pkg_version": "3.0.22"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "7.04",
+        "pkg_name": "ruby",
+        "pkg_version": "3.0.24"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "7.10",
+        "pkg_name": "ruby",
+        "pkg_version": "3.0.26a"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "8.04",
+        "pkg_name": "ruby",
+        "pkg_version": "3.0.28a"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "4.10",
+        "pkg_name": "ruby",
+        "pkg_version": "3.0.7"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "8.10",
+        "pkg_name": "ruby",
+        "pkg_version": "3.2.3"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "9.04",
+        "pkg_name": "ruby",
+        "pkg_version": "3.3.2"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "9.10",
+        "pkg_name": "ruby",
+        "pkg_version": "3.4.0"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "10.04",
+        "pkg_name": "ruby",
+        "pkg_version": "3.4.7"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "11.10",
+        "pkg_name": "ruby",
+        "pkg_version": "3.5.11"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "10.10",
+        "pkg_name": "ruby",
+        "pkg_version": "3.5.4"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "11.04",
+        "pkg_name": "ruby",
+        "pkg_version": "3.5.8"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "13.10",
+        "pkg_name": "ruby",
+        "pkg_version": "3.6.18"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "12.04",
+        "pkg_name": "ruby",
+        "pkg_version": "3.6.3"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "12.10",
+        "pkg_name": "ruby",
+        "pkg_version": "3.6.6"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "13.04",
+        "pkg_name": "ruby",
+        "pkg_version": "3.6.9"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "14.10",
+        "pkg_name": "ruby",
+        "pkg_version": "4.1.11"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "15.04",
+        "pkg_name": "ruby",
+        "pkg_version": "4.1.13"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "14.04",
+        "pkg_name": "ruby",
+        "pkg_version": "4.1.6"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "10.10",
+        "pkg_name": "subversion",
+        "pkg_version": "1.6.12"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "10.10",
+        "pkg_name": "subversion",
+        "pkg_version": "1.6.12"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "11.04",
         "pkg_name": "subversion",
         "pkg_version": "1.6.12"
     },
@@ -649,8 +1627,152 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "9.10",
+        "pkg_name": "subversion",
+        "pkg_version": "1.6.5"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "10.04",
         "pkg_name": "subversion",
         "pkg_version": "1.6.6"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "10.04",
+        "pkg_name": "subversion",
+        "pkg_version": "1.6.6"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "5.10",
+        "pkg_name": "webmin",
+        "pkg_version": "1.10"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "6.06",
+        "pkg_name": "webmin",
+        "pkg_version": "1.10.2"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "6.10",
+        "pkg_name": "webmin",
+        "pkg_version": "1.10.2"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "7.04",
+        "pkg_name": "webmin",
+        "pkg_version": "1.10.2"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "7.10",
+        "pkg_name": "webmin",
+        "pkg_version": "1.10.2"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "8.04",
+        "pkg_name": "webmin",
+        "pkg_version": "1.10.2"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "8.10",
+        "pkg_name": "webmin",
+        "pkg_version": "1.11.4"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "9.04",
+        "pkg_name": "webmin",
+        "pkg_version": "1.11.4"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "9.10",
+        "pkg_name": "webmin",
+        "pkg_version": "1.11.4"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "10.04",
+        "pkg_name": "webmin",
+        "pkg_version": "1.12"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "10.10",
+        "pkg_name": "webmin",
+        "pkg_version": "1.12"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "11.04",
+        "pkg_name": "webmin",
+        "pkg_version": "1.12"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "11.10",
+        "pkg_name": "webmin",
+        "pkg_version": "1.12"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "12.04",
+        "pkg_name": "webmin",
+        "pkg_version": "1.13.4"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "12.10",
+        "pkg_name": "webmin",
+        "pkg_version": "1.13.4"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "13.04",
+        "pkg_name": "webmin",
+        "pkg_version": "1.14"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "13.10",
+        "pkg_name": "webmin",
+        "pkg_version": "1.14"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "14.04",
+        "pkg_name": "webmin",
+        "pkg_version": "1.15"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "14.10",
+        "pkg_name": "webmin",
+        "pkg_version": "1.15"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "15.04",
+        "pkg_name": "webmin",
+        "pkg_version": "1.16.1"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "4.10",
+        "pkg_name": "webmin",
+        "pkg_version": "1.9.1"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "5.04",
+        "pkg_name": "webmin",
+        "pkg_version": "1.9.1"
     }
 ]
