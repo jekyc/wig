@@ -216,16 +216,14 @@ class Wig(object):
 		if self.options['match_all']:
 			DiscoverAllCMS(self.data).run()
 
+		#
+		# --- SEARCH FOR SUBDOMAINS --------
+		#
+		if self.options['subdomains']:
+			DiscoverSubdomains(self.options, self.data).run()
+
 		# mark the end of the run
 		self.data['results'].update()
-
-
-		#
-		# --- SEARCH FOR VULNERABILITIES --------
-		#
-		# search the vulnerability fingerprints for matches
-		DiscoverVulnerabilities(self.data).run()
-
 
 		#
 		# --- SEARCH FOR TOOLS --------
@@ -233,11 +231,10 @@ class Wig(object):
 		DiscoverTools(self.data).run()
 
 		#
-		# --- SEARCH FOR SUBDOMAINS --------
+		# --- SEARCH FOR VULNERABILITIES --------
 		#
-		if self.options['subdomains']:
-			DiscoverSubdomains(self.options, self.data).run()
-
+		# search the vulnerability fingerprints for matches
+		DiscoverVulnerabilities(self.data).run()
 
 		#
 		# --- SAVE THE CACHE --------------------

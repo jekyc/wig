@@ -1,4 +1,4 @@
-from collections import defaultdict, Counter
+from collections import defaultdict, Counter, namedtuple
 
 from classes.sitemap import Sitemap
 
@@ -8,7 +8,7 @@ class Results(object):
 	def __init__(self, options):
 		self.width = None
 		self.printer = None
-		self.results = {}
+		self.results = []
 
 		# the storage for 'string' and 'regex' matched fingerprints 
 		# since these don't need extra processing they are added directly 
@@ -48,7 +48,7 @@ class Results(object):
 					self.scores[category][name][version] += (1 / number_of_hits)
 
 	
-	def add(self, category, name, version=None, fingerprint=None, weight=1):
+	def add_version(self, category, name, version=None, fingerprint=None, weight=1):
 		url = ''
 		match_type = ''
 
@@ -70,7 +70,7 @@ class Results(object):
 			if 'note' in fingerprint:
 				note = fingerprint['note']
 				self.printer.print_debug_line('- %s: %s' % (note, url), 5)
-				self.scores["interesting"][url][note] += weight
+				self.add_interesting(note, url)
 
 		self.printer.print_debug_line('- Found match: %s - %s %s - %s' % (url, name, version, match_type), 5)
 
@@ -99,11 +99,15 @@ class Results(object):
 
 	def update(self):
 		self._calc_md5_score()
+		
+		c = {
+			'cms': namedtuple('CMS', ['name', 'version']),
+			'platform': namedtuple('Platform', ['name', 'version']),
+			'js': namedtuple('JavaScript', ['name', 'version']),
+			'os': namedtuple('OS', ['name', 'version'])
+		}
+
 		for category in self.scores:
-			
-			# initiate the entry for the category 
-			if category not in self.results: self.results[category] = {}
-			
 			# loop over the entries for the category 
 			for name in sorted(self.scores[category]):
 				
@@ -116,39 +120,28 @@ class Results(object):
 					versions = versions[1:] + [versions[0]]
 
 				relevant = sorted(i[0] for i in versions if i[1] == versions[0][1])
-				self.results[category][name] = relevant
-
-		self.is_updated = True
+				for version in relevant:
+					self.results.append(c[category](name, version))
 
 
 	def add_vulnerabilities(self, cms, version, num_vuln, link):
-		if 'vulnerability' not in self.results: self.results['vulnerability'] = {}
-		self.results['vulnerability'][(cms,version)] = {'col2': num_vuln, 'col3': link}
+		Vulnerability = namedtuple('Vulnerability', ['software', 'version', 'num_vuln', 'link'])
+		self.results.append(Vulnerability(cms, version, num_vuln, link))
 
 
 	def add_tool(self, cms, tool_name, tool_link):
-		if 'tool' not in self.results:
-			self.results['tool'] = {}
-		
-		self.results['tool'][tool_name] = {'col2': cms, 'col3': tool_link}
+		Tool = namedtuple('Tool', ['software', 'tool_name', 'link'])
+		self.results.append(Tool(cms, tool_name, tool_link))
 
 
 	def add_subdomain(self, subdomain, title, ip):
-		if 'subdomains' not in self.results:
-			self.results['subdomains'] = {}		
-
-		self.results['subdomains'][subdomain] = {'col2': title, 'col3': ip}
+		Subdomain = namedtuple('Subdomain', ['subdomain', 'page_title', 'ip'])
+		self.results.append(Subdomain(subdomain, title, ip))
 
 
-	def get_versions(self):
-		versions = []
-		for cat in ['cms', 'javascript', 'os', 'platform']:
-			if cat not in self.results: continue
-			for cms in self.results[cat]:
-				for version in self.results[cat][cms]:
-					versions.append( (cms, version) )
-
-		return versions
+	def add_interesting(self, note, url):
+		Interesting = namedtuple('Interesting', ['note', 'url'])
+		self.results.append(Interesting(note, url))
 
 
 	def get_sitemap(self):
@@ -157,7 +150,3 @@ class Results(object):
 
 	def get_platform_results(self):
 		return self.scores['platform']
-
-
-	def get_results(self):
-		return self.results

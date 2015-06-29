@@ -1,4 +1,5 @@
 import re, json
+from collections import defaultdict, namedtuple
 
 class Output:
 	def __init__(self, options, data):
@@ -15,68 +16,6 @@ class Output:
 		num_fps_vuln	= sum([len(fps['vulnerabilities'][source]['fps']) for source in fps['vulnerabilities']])
 		self.num_fps = num_fps_js + num_fps_os + num_fps_cms + num_fps_plat + num_fps_vuln
 
-		self.sections = [
-			{
-				'name': 'version',
-				'headers': {
-					1: {'title': 'SOFTWARE', 'color': 'blue', 'bold': True},
-					2: {'title': 'VERSION',  'color': 'blue', 'bold': True},
-					3: {'title': 'CATEGORY',  'color': 'blue', 'bold': True}
-				},
-				'titles': [
-					{'category': 'cms',					'title': 'CMS'},
-					{'category': 'js',					'title': 'JavaScript'},
-					{'category': 'platform',			'title': 'Platform'},
-					{'category': 'os',					'title': 'Operating System'},
-				]
-			},
-			{
-				'name': 'vulnerabilities',
-				'headers': {
-					1: {'title': 'SOFTWARE',        'color': 'blue', 'bold': True},
-					2: {'title': 'VULNERABILITIES', 'color': 'blue', 'bold': True},
-					3: {'title': 'LINK',            'color': 'blue', 'bold': True}
-				},
-				'titles': [
-					{'category': 'vulnerability',          'title': '%s'},
-				]
-			},
-			{
-				'name': 'tool',
-				'headers': {
-					1: {'title': 'TOOL',			'color': 'blue', 'bold': True},
-					2: {'title': 'SOFTWARE',		'color': 'blue', 'bold': True},
-					3: {'title': 'LINK',			'color': 'blue', 'bold': True}
-				},
-				'titles': [
-					{'category': 'tool',             'title': '%s'},
-				]
-			},
-			{
-				'name': 'subdomains',
-				'headers': {
-					1: {'title': 'DOMAIN',			'color': 'blue', 'bold': True},
-					2: {'title': 'TITLE',			'color': 'blue', 'bold': True},
-					3: {'title': 'IP',				'color': 'blue', 'bold': True}
-				},
-				'titles': [
-					{'category': 'subdomains',		'title': '%s'},
-				]
-			},
-			{
-				'name': 'interesting',
-				'headers':{
-					1: {'title': 'URL',				'color': 'blue', 'bold': True},
-					2: {'title': 'NOTE',			'color': 'blue', 'bold': True},
-					3: {'title': 'CATEGORY',		'color': 'blue', 'bold': True}
-				},
-				'titles': [
-					{'category': 'interesting',		'title': 'Interesting URL'},
-				]
-			}
-		]
-
-		self.sections_names = [s['name'] for s in self.sections]
 		self.ip = self.title = self.cookies = None
 
 	def replace_version_text(self, text):
@@ -92,13 +31,8 @@ class Output:
 		text = re.sub('^mybb_', '', text)			# myBB
 		return text
 
-	def find_section_index(self, section):
-		index = 0
-		for elm in self.sections:
-			if elm['name'] == section: return index
-			index += 1
-
-		return None
+	def get_results_of_type(self, result_type):
+		return [r for r in self.results if type(r).__name__ == result_type]
 
 	def update_stats(self):
 		self.stats = {
@@ -106,15 +40,6 @@ class Output:
 			'url_count':	'Urls: %s' % (self.data['url_count'], ),
 			'fp_count':		'Fingerprints: %s' % (self.num_fps, ),
 		}
-
-	def loop_results(self, section):
-		versions = self.sections[self.find_section_index(section)]
-		for item in versions['titles']:
-			if item['category'] not in self.results: continue
-			for software in sorted(self.results[item['category']]):
-				version = self.results[item['category']][software]
-				category = item['title']
-				yield (category, software, version)
 
 
 class OutputJSON(Output):
@@ -142,33 +67,23 @@ class OutputJSON(Output):
 			'data': []
 		}
 
-		# add versions
-		for section in self.sections_names:
-			tmp = ''
-			for result in self.loop_results(section):
-				category, software, version = result
+		get = self.get_results_of_type
 
-				if section == 'vulnerabilities':
-					site['data'].append({
-						'category': 'vulnerability',
-						'name': software[0],
-						'version': software[1],
-						'link': version['col3'],
-						'vulnerability_count': version['col2']
-					})
-				elif section == 'tool':
-					site['data'].append({
-						'category': 'tools',
-						'name': software,
-						'version': version
-					})					
-				
-				else:
-					site['data'].append({
-						'category': category,
-						'name': software,
-						'version': version
-					})
+		# VERSIONS 
+		for version in ['CMS', 'Platform', 'JavaScript', 'OS']:
+			site['data'].extend([{'category': version, 'name': v.name, 'version': v.version} for v in get(version)])
+
+		# SUBDOMAIN
+		site['data'].extend([{'category': 'subdomain', 'hostname': sub.subdomain, 'title': sub.page_title, 'ip': sub.ip} for sub in get('Subdomain')])
+
+		# INTERESTING
+		site['data'].extend([{'category': 'Interesting', 'url': i.url, 'note': i.note} for i in get('Interesting')])
+
+		# TOOLS
+		site['data'].extend([{'category': 'Tool', 'name': t.tool_name, 'link': t.link, 'used_for': t.software} for t in get('Tool')])
+
+		# VULNERABILITIES
+		site['data'].extend([{'category': 'Vulnerability', 'name': v.software, 'version': v.version, 'link': v.link, 'num': v.num_vuln} for v in get('Vulnerability')])
 
 		self.json_data.append(site)
 
@@ -190,101 +105,95 @@ class OutputPrinter(Output):
 
 	def __init__(self, options, data):
 		super().__init__(options, data)
-		self.col_widths =  {1: 0, 2: 0, 3: 0}
+		self.results = self.data['results'].results
+		self.max_col_width = 60
 
 
-	def _set_col_1_width(self, results):
-		self.col_widths[1] = 2 + max(
-			max([len(i['headers'][1]['title']) for i in self.sections]),	# length of section header titles
-			max([len(p) for c in results for p in results[c]] + [0]), 			# length of software name from results
-			len(self.stats['runtime'])										# length of status bar (time)
-		)
+	def split_string(self, string_list):
+		out, tmp = [], []
 
-	def _set_col_2_width(self, results):		
-		self.col_widths[2] = 2 + max(
-			max([ len(i['headers'][2]['title']) for i in self.sections ]),							# length of section header titles
-			max([ len(' | '.join(results[c][p])) for c in results for p in results[c] ] + [0]),	# length of version details from results
-			len(self.stats['url_count'])															# length of status bar (urls)
-		)
-		
-	def _set_col_3_width(self, results):
-		self.col_widths[3] = max(
-			max([len(i['title']) for s in self.sections for i in s['titles']]),	# length of titles
-			len(self.stats['fp_count'])												# length of status bar (fps)
-		)
+		while len(string_list):
+			s = string_list.pop(0)
+			if len(' | '.join(tmp + [s])) > self.max_col_width:
+				out.append(' | '.join(tmp))
+				tmp = [s]
+			else:
+				tmp.append(s)
+
+		out.append(' | '.join(tmp))
+		return out
+
 
 	def print_results(self):
+		_header = namedtuple('Header', ['title'])
+		_caption = namedtuple('Caption', ['left', 'center', 'right'])
+		_result = namedtuple('Result', ['left', 'center', 'right'])
+		_space = namedtuple('Space', ['char'])
+		_status = namedtuple('Status', ['runtime', 'urls', 'fingerprints'])
+
 		p = self.data['printer']
-
-		self.results = self.data['results'].get_results()
-		for category in self.results:
-			for name in self.results[category]:
-				versions = self.results[category][name]
-				if len(versions) > 5:
-					msg = '... (' + str(len(versions)-5) + ')'
-					self.results[category][name] = versions[:5] + [msg]
-
 		self.update_stats()
-		self._set_col_1_width(self.results)
-		self._set_col_2_width(self.results)
-		self._set_col_3_width(self.results)
 
-		p.build_line('\nTITLE\n', 'blue', True)
-		p.build_line(self.data['results'].site_info['title'], 'normal')
-		p.print_built_line()
+		output_lines = [
+			_header('SITE INFO'),
+			_caption('IP', 'Title', ''),
+			_result(self.data['results'].site_info['ip'], self.data['results'].site_info['title'][:self.max_col_width], '')
+		]
 
-		if self.data['results'].site_info['cookies']:
-			p.build_line('\nCOOKIES\n', 'blue', True)
-			p.build_line(', '.join(list(self.data['results'].site_info['cookies'])), 'normal')
-			p.print_built_line()
+		output_lines.extend([_space(' '), _header('VERSION'), _caption('Name', 'Versions', 'Type')])
+		
+		# VERSION 
+		for version in ['CMS', 'Platform', 'JavaScript', 'OS']:
+			data = defaultdict(list)
+			for result in self.get_results_of_type(version):
+				data[result.name].append(result.version)
 
-		p.build_line('\nIP\n', 'blue', True)
-		p.build_line(self.data['results'].site_info['ip'] + '\n', 'normal')
-		p.print_built_line()
+			for result in data:
+				version_list = self.split_string(sorted(data[result])) 
+				output_lines.append(_result(result, version_list[0] , version))
+				output_lines.extend([_result('', v, '') for v in version_list[1:]])
 
-		for section in self.sections_names:
-			lines = []
-			for result in self.loop_results(section):
-				category, software, version = result
-				
-				col1 = ' '.join(list(software)) if type(software) == tuple else software
-				col2 = [version['col2']] if 'col2' in version else version
-				col3 = category % (version['col3'],) if 'col3' in version else category
-						
-				lines.append( (col1, col2, col3) )
+		# SUBDOMAIN
+		subdomains = self.get_results_of_type('Subdomain')
+		if subdomains:
+			output_lines.extend([_space(' '), _header('SUBDOMAINS'), _caption('Name', 'Page Title', 'IP')])
+			output_lines.extend([_result(result.subdomain, result.page_title[:self.max_col_width], result.ip) for result in subdomains])
 
-			if lines:
-				section_index = self.find_section_index(section)
-				headers = self.sections[section_index]['headers']
-				col1,col2,col3 = headers[1], headers[2], headers[3]
+		# INTERESTING
+		interesting = self.get_results_of_type('Interesting')
+		if interesting:
+			output_lines.extend([_space(' '), _header('INTERESTING'), _caption('URL', 'Note', 'Type')])
+			output_lines.extend([_result(result.url, result.note, 'Interesting') for result in interesting])
 
-				p.build_line(col1['title'], col1['color'], col1['bold'])
-				p.build_line(' ' * (self.col_widths[1] - len(col1['title'])), 'normal')
-				p.build_line(col2['title'], col2['color'], col2['bold'])
-				p.build_line(' ' * (self.col_widths[2] - len(headers[2]['title'])), 'normal')
-				p.build_line(col3['title'], col3['color'], col3['bold'])
+		# TOOLS
+		tools = self.get_results_of_type('Tool')
+		if tools:
+			output_lines.extend([_space(' '), _header('TOOLS'), _caption('Name', 'Link', 'Software')])
+			output_lines.extend([_result(result.tool_name, result.link, result.software) for result in tools])
+
+		# VULNERABILITES
+		vulns = self.get_results_of_type('Vulnerability')
+		if vulns:
+			output_lines.extend([_space(' '), _header('VULNERABILITIES'), _caption('Affected', '#Vulns', 'Link')])
+			output_lines.extend([_result(result.software + ' ' +result.version, result.num_vuln, result.link) for result in vulns])	
+
+		# STATUS
+		output_lines.append(_space(' '))
+		output_lines.append(_space('_'))
+		output_lines.append(_status(self.stats['runtime'], self.stats['url_count'], self.stats['fp_count']))
+
+		widths = [max(map(len, col)) for col in zip(*[i for i in output_lines if type(i).__name__ in ['Result', 'Status']])]
+
+		for row in output_lines:
+			if type(row).__name__ == 'Header':
+				p.build_line((' ' + row.title + ' ').center(sum(widths)+4, '_'), 'blue', True)
 				p.print_built_line()
-
-				for col1, col2, col3 in lines:
-					p.build_line(col1 + ' ' * (self.col_widths[1] - len(col1)), 'normal')
-
-					#col 2
-					if len(col2) > 1:
-						v = [self.replace_version_text(i) for i in col2]
-						p.build_line(' | '.join(v) + ' ' * (self.col_widths[2] - len(' | '.join(v))), 'normal')
-					else:
-						v = self.replace_version_text(col2[0])
-						p.build_line(v + ' ' * (self.col_widths[2] - len(v)), 'normal')
-
-					p.build_line(col3 + '\n', 'normal')
-
+			if type(row).__name__ == 'Caption':
+				p.build_line('  '.join((val.ljust(width) for val,width in zip(row, widths))), 'green', False)
 				p.print_built_line()
-
-		# status bar
-		time = self.stats['runtime']   + ' ' * (self.col_widths[1] - len(self.stats['runtime']))
-		urls = self.stats['url_count'] + ' ' * (self.col_widths[2] - len(self.stats['url_count'])) 
-		fps  = self.stats['fp_count']
-
-		p.build_line('_'*sum(self.col_widths.values())+'\n', 'blue', True)
-		p.build_line(''.join([ time, urls, fps ]), 'normal')
-		p.print_built_line()
+			elif type(row).__name__ in ['Caption', 'Result', 'Status', 'Info']:
+				p.build_line('  '.join((val.ljust(width) for val,width in zip(row, widths))), 'normal', False)
+				p.print_built_line()
+			elif type(row).__name__ == 'Space':
+				p.build_line(row.char*(sum(widths)+4), 'blue', True)
+				p.print_built_line()

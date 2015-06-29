@@ -36,7 +36,7 @@ class DiscoverAllCMS:
 				for response in self.cache.get_responses():
 					matches = self.matcher.get_result(fps, response)
 					for fp in matches:
-						self.results.add(fp_category, fp['name'], fp['output'], fp)
+						self.results.add_version(fp_category, fp['name'], fp['output'], fp)
 
 						if (fp['name'], fp['output']) not in self.tmp_set:
 							self.printer.print_debug_line('- Found match: %s %s' % (fp['name'], fp['output']), 2)
@@ -151,7 +151,7 @@ class DiscoverCMS:
 				fingerprints, response = results.get()
 
 				for fp in self.matcher.get_result(fingerprints, response):
-					self.result.add('cms', fp['name'], fp['output'], fp)
+					self.result.add_version('cms', fp['name'], fp['output'], fp)
 					cms_matches.append(fp['name'])
 
 			# search for the found CMS versions
@@ -172,7 +172,7 @@ class DiscoverCMS:
 				while results.qsize() > 0:
 					res_fps, response = results.get()
 					for fp in self.matcher.get_result(res_fps, response):
-						self.result.add('cms', fp['name'], fp['output'], fp)
+						self.result.add_version('cms', fp['name'], fp['output'], fp)
 
 						if (fp['name'], fp['output']) not in self.tmp_set:
 							self.tmp_set.add((fp['name'], fp['output']))
@@ -254,9 +254,6 @@ class DiscoverSubdomains:
 				with urllib.request.urlopen(req, timeout=1) as f:
 					data = f.read().decode('utf-8')
 					title = re.findall(r'<title>\s*(.*)\s*</title>', data)[0].strip()
-					if len(title) > 50:
-						title =  title[:47] + ' ...'
-
 					result = (scheme + '://' + domain + ":" + port, title, ip)
 			except:
 				result = None
@@ -370,7 +367,7 @@ class DiscoverInteresting(object):
 				continue
 
 			for fp in self.matcher.get_result(fps, response):
-				self.result.add(self.category, None, None, fp, weight=1)
+				self.result.add_version(self.category, None, None, fp, weight=1)
 				try:
 					self.printer.print_debug_line('- Found file: %s (%s)' % (fp['url'], fp['note']), 2)
 				except:
@@ -429,7 +426,7 @@ class DiscoverJavaScript(object):
 			if is_js:
 				matches = self.matcher.get_result(self.fingerprints, response)
 				for fp in matches:
-					self.result.add('js', fp['name'], fp['output'], fingerprint=fp, weight=1)
+					self.result.add_version('js', fp['name'], fp['output'], fingerprint=fp, weight=1)
 					self.printer.print_debug_line('- Found JavaScript: %s %s' % (fp['name'], fp['output']), 2)
 
 
@@ -566,7 +563,11 @@ class DiscoverOS:
 
 	def search_and_prioritize_os(self, pkg_name, pkg_version):
 		for fp in self.fingerprints:
-			if fp['pkg_name'] == pkg_name and fp['pkg_version'] == pkg_version:
+
+			pkg_name_match = fp['pkg_name'].lower() == pkg_name.lower()
+			pkg_version_match = fp['pkg_version'].lower() == pkg_version.lower()
+
+			if pkg_name_match and pkg_version_match:
 				weight = 1 if not 'weight' in fp else fp['weight']
 
 				if not type(fp['os_version']) == type([]):
@@ -603,7 +604,6 @@ class DiscoverOS:
 				try:
 					pkg, version = list(map(str.lower, part.split('/')))
 					self.search_and_prioritize_os(pkg, version)
-
 				except Exception as e:
 					continue
 
@@ -631,7 +631,7 @@ class DiscoverOS:
 		max_count = prio[0]['count']
 		for i in prio:
 			if i['count'] == max_count:
-				self.results.add('os', i['os'], i['version'], weight=i['count'])
+				self.results.add_version('os', i['os'], i['version'], weight=i['count'])
 				self.printer.print_debug_line('- Found OS: %s %s' % (i['os'], i['version']), 2)
 			else:
 				break
@@ -691,7 +691,7 @@ class DiscoverPlatform:
 				fingerprints, response = results.get()
 				matches = self.matcher.get_result(fingerprints, response)
 				for fp in matches:
-					self.result.add('platform', fp['name'], fp['output'], fp)
+					self.result.add_version('platform', fp['name'], fp['output'], fp)
 
 					if (fp['name'], fp['output']) not in self.tmp_set:
 						self.printer.print_debug_line('- Found platform %s %s' % (fp['name'], fp['output']), 2)
@@ -740,10 +740,15 @@ class DiscoverTools:
 
 	def run(self):
 		self.printer.print_debug_line('Searching for tools ...', 1)
-		cms_results = self.results.get_versions()
+
+		cms_set = set()
 
 		# loop over the cms' in the results
-		for detected_cms, _ in cms_results:
+		for result_object in self.results.results:
+			if not type(result_object).__name__ == 'CMS': continue
+			cms_set.add(result_object.name)
+
+		for detected_cms in cms_set:
 			# loop over all the translations
 			for cms_name in self.translator:
 				# check if the translated name is the same as the cms
@@ -791,11 +796,11 @@ class DiscoverUrlLess:
 
 						if (fp['name'], fp['output']) in tmp_set:
 							if show_all_detections:
-								self.results.add(fp_category, fp['name'], fp['output'], fingerprint=fp, weight=1)
+								self.results.add_version(fp_category, fp['name'], fp['output'], fingerprint=fp, weight=1)
 
 						else:
 							self.printer.print_debug_line('- Found fingerprint: %s %s' % (fp['name'], fp['output']), 2)
-							self.results.add(fp_category, fp['name'], fp['output'], fingerprint=fp, weight=1)
+							self.results.add_version(fp_category, fp['name'], fp['output'], fingerprint=fp, weight=1)
 
 						tmp_set.add((fp['name'], fp['output']))
 
@@ -820,16 +825,13 @@ class DiscoverVulnerabilities:
 	def run(self):
 		self.printer.print_debug_line('Searching for vulnerabilities ...', 1)
 
-		cms_results = self.results.get_versions()
-
-		vendors = Counter()
-		for r in cms_results: vendors[r[0]] += 1
 
 		# if there are more than 5 results,
 		# skip displaying vuln count, as the
 		# results are unreliable
-		for cms, version in cms_results:
-			if vendors[cms] > 5: continue
+		for result_object in self.results.results:
+			if not type(result_object).__name__ == 'CMS': continue
+			cms, version = result_object
 
 			try:
 				for fp in self.fps:
