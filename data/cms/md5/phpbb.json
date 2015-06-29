@@ -361,6 +361,12 @@
     },
     {
         "match": "c51ea12b5e1d3741f85b490b3ff925f9",
+        "output": "release-3.1.5",
+        "type": "md5",
+        "url": "/adm/style/admin.css"
+    },
+    {
+        "match": "c51ea12b5e1d3741f85b490b3ff925f9",
         "output": "release-3.1.5-RC1",
         "type": "md5",
         "url": "/adm/style/admin.css"
@@ -1260,6 +1266,12 @@
         "url": "/docs/CHANGELOG.html"
     },
     {
+        "match": "b1ef03d300abc11b9c6aa1550f3a0879",
+        "output": "release-3.1.5",
+        "type": "md5",
+        "url": "/docs/CHANGELOG.html"
+    },
+    {
         "match": "b90c8f20ebfb920cc9ac332b60960cef",
         "output": "release-2.0.20",
         "type": "md5",
@@ -1640,6 +1652,12 @@
     {
         "match": "639ec1536afa7941d8efa3ccc3794cf9",
         "output": "release-3.1.4-RC2",
+        "type": "md5",
+        "url": "/docs/INSTALL.html"
+    },
+    {
+        "match": "639ec1536afa7941d8efa3ccc3794cf9",
+        "output": "release-3.1.5",
         "type": "md5",
         "url": "/docs/INSTALL.html"
     },
@@ -2599,6 +2617,12 @@
     },
     {
         "match": "eb7c52349eca2723ba1b10190923d0be",
+        "output": "release-3.1.5",
+        "type": "md5",
+        "url": "/docs/README.html"
+    },
+    {
+        "match": "eb7c52349eca2723ba1b10190923d0be",
         "output": "release-3.1.5-RC1",
         "type": "md5",
         "url": "/docs/README.html"
@@ -3313,6 +3337,12 @@
     },
     {
         "match": "30356514cd1c68ada5ea4a5cf6af13ad",
+        "output": "release-3.1.5",
+        "type": "md5",
+        "url": "/language/en/email/newtopic_notify.txt"
+    },
+    {
+        "match": "30356514cd1c68ada5ea4a5cf6af13ad",
         "output": "release-3.1.5-RC1",
         "type": "md5",
         "url": "/language/en/email/newtopic_notify.txt"
@@ -3853,6 +3883,12 @@
     },
     {
         "match": "79d013af3059c53047f187f21199a4fa",
+        "output": "release-3.1.5",
+        "type": "md5",
+        "url": "/language/en/email/topic_notify.txt"
+    },
+    {
+        "match": "79d013af3059c53047f187f21199a4fa",
         "output": "release-3.1.5-RC1",
         "type": "md5",
         "url": "/language/en/email/topic_notify.txt"
@@ -4375,6 +4411,12 @@
     },
     {
         "match": "940daa2e776e847ba080df11e21ff04d",
+        "output": "release-3.1.5",
+        "type": "md5",
+        "url": "/language/en/email/user_resend_inactive.txt"
+    },
+    {
+        "match": "940daa2e776e847ba080df11e21ff04d",
         "output": "release-3.1.5-RC1",
         "type": "md5",
         "url": "/language/en/email/user_resend_inactive.txt"
@@ -4832,6 +4874,12 @@
     {
         "match": "1da3a89ffe0ccf9b73c864390566b3b9",
         "output": "release-3.1.4-RC2",
+        "type": "md5",
+        "url": "/language/en/email/user_welcome_inactive.txt"
+    },
+    {
+        "match": "1da3a89ffe0ccf9b73c864390566b3b9",
+        "output": "release-3.1.5",
         "type": "md5",
         "url": "/language/en/email/user_welcome_inactive.txt"
     },
@@ -5785,6 +5833,12 @@
     },
     {
         "match": "6a6b8e899fcf49c28973565ed95e9c69",
+        "output": "release-3.1.5",
+        "type": "md5",
+        "url": "/styles/prosilver/template/forum_fn.js"
+    },
+    {
+        "match": "6a6b8e899fcf49c28973565ed95e9c69",
         "output": "release-3.1.5-RC1",
         "type": "md5",
         "url": "/styles/prosilver/template/forum_fn.js"
@@ -6278,6 +6332,12 @@
     {
         "match": "b0d0ebf4b9dad1e507eaa398385c78fb",
         "output": "release-3.1.4-RC2",
+        "type": "md5",
+        "url": "/styles/prosilver/theme/tweaks.css"
+    },
+    {
+        "match": "b0d0ebf4b9dad1e507eaa398385c78fb",
+        "output": "release-3.1.5",
         "type": "md5",
         "url": "/styles/prosilver/theme/tweaks.css"
     },
@@ -6956,6 +7016,12 @@
     {
         "match": "ffecf7a22f113a080756bbefce78873a",
         "output": "release-3.1.4-RC2",
+        "type": "md5",
+        "url": "/styles/subsilver2/theme/stylesheet.css"
+    },
+    {
+        "match": "ffecf7a22f113a080756bbefce78873a",
+        "output": "release-3.1.5",
         "type": "md5",
         "url": "/styles/subsilver2/theme/stylesheet.css"
     },
