@@ -67,6 +67,12 @@
     },
     {
         "info": "angular.js",
+        "md5": "460874b8de3bebf579969d8602ee31d4",
+        "output": "1.4.2",
+        "url": ""
+    },
+    {
+        "info": "angular.js",
         "md5": "46c38e804e450a5f3c84c22de9e8bf9c",
         "output": "1.3.5",
         "url": ""
@@ -105,6 +111,12 @@
         "info": "angular.js",
         "md5": "5679a49357483992600f3efc4f3b43b2",
         "output": "1.2.0",
+        "url": ""
+    },
+    {
+        "info": "angular.js",
+        "md5": "5847c850ea97294458f55b2ce603145e",
+        "output": "1.3.16",
         "url": ""
     },
     {
@@ -187,8 +199,20 @@
     },
     {
         "info": "angular.js",
+        "md5": "83f99acfa1459b09ffb65652e056b1ec",
+        "output": "1.4.0",
+        "url": ""
+    },
+    {
+        "info": "angular.js",
         "md5": "8765c92a359fd0c3077ebb759f3d021a",
         "output": "1.2.14",
+        "url": ""
+    },
+    {
+        "info": "angular.js",
+        "md5": "91280d63af2b0766028538cf8d202b6a",
+        "output": "1.4.1",
         "url": ""
     },
     {
@@ -312,6 +336,12 @@
         "url": ""
     },
     {
+        "info": "angular.js",
+        "md5": "f1b0c8d2881cf1a89badaf1f05bded01",
+        "output": "1.3.17",
+        "url": ""
+    },
+    {
         "info": "angular.min.js",
         "md5": "027d33a76ad746cfedb6cff76188cb4b",
         "output": "1.2.19",
@@ -325,6 +355,12 @@
     },
     {
         "info": "angular.min.js",
+        "md5": "17d1d77a7d0621815853ac3b7f0534d7",
+        "output": "1.4.0",
+        "url": ""
+    },
+    {
+        "info": "angular.min.js",
         "md5": "1832cf173669c417d4c38dca54c69bc6",
         "output": "1.2.9",
         "url": ""
@@ -333,6 +369,12 @@
         "info": "angular.min.js",
         "md5": "18af59e646a32d042fb4fde57bb2f175",
         "output": "1.2.6",
+        "url": ""
+    },
+    {
+        "info": "angular.min.js",
+        "md5": "1a25639e5948e8591dc277edea24dc02",
+        "output": "1.3.16",
         "url": ""
     },
     {
@@ -481,6 +523,12 @@
     },
     {
         "info": "angular.min.js",
+        "md5": "7dea4bf6079d6caf061abf5ee0068495",
+        "output": "1.4.2",
+        "url": ""
+    },
+    {
+        "info": "angular.min.js",
         "md5": "807370fbe6cb6324f9fd4532ca43c261",
         "output": "1.0.4",
         "url": ""
@@ -511,8 +559,20 @@
     },
     {
         "info": "angular.min.js",
+        "md5": "a8cb0e381723a7a9c946d35795651769",
+        "output": "1.3.17",
+        "url": ""
+    },
+    {
+        "info": "angular.min.js",
         "md5": "adeb4d7ed4d2b5e90bb397072f385beb",
         "output": "1.2.21",
+        "url": ""
+    },
+    {
+        "info": "angular.min.js",
+        "md5": "adfa9ffc442e637cfc0dc294321968f0",
+        "output": "1.4.1",
         "url": ""
     },
     {
