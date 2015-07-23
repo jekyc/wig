@@ -433,6 +433,18 @@
     },
     {
         "match": "ea2a85d652f50a98b09522c4861205ac",
+        "output": "release-7.2.7",
+        "type": "md5",
+        "url": "/umbraco/Search/quickSearch.js"
+    },
+    {
+        "match": "ea2a85d652f50a98b09522c4861205ac",
+        "output": "release-7.2.8",
+        "type": "md5",
+        "url": "/umbraco/Search/quickSearch.js"
+    },
+    {
+        "match": "ea2a85d652f50a98b09522c4861205ac",
         "output": "release-7.3.0-beta",
         "type": "md5",
         "url": "/umbraco/Search/quickSearch.js"
@@ -871,6 +883,18 @@
     },
     {
         "match": "c438194cca07c2012183afb8713b2d5b",
+        "output": "release-7.2.7",
+        "type": "md5",
+        "url": "/umbraco/css/permissionsEditor.css"
+    },
+    {
+        "match": "c438194cca07c2012183afb8713b2d5b",
+        "output": "release-7.2.8",
+        "type": "md5",
+        "url": "/umbraco/css/permissionsEditor.css"
+    },
+    {
+        "match": "c438194cca07c2012183afb8713b2d5b",
         "output": "release-7.3.0-beta",
         "type": "md5",
         "url": "/umbraco/css/permissionsEditor.css"
@@ -1453,6 +1477,18 @@
     },
     {
         "match": "267b1dac5c5d2a2925a5fec3bbc17093",
+        "output": "release-7.2.7",
+        "type": "md5",
+        "url": "/umbraco/images/loginBg.png"
+    },
+    {
+        "match": "267b1dac5c5d2a2925a5fec3bbc17093",
+        "output": "release-7.2.8",
+        "type": "md5",
+        "url": "/umbraco/images/loginBg.png"
+    },
+    {
+        "match": "267b1dac5c5d2a2925a5fec3bbc17093",
         "output": "release-7.3.0-beta",
         "type": "md5",
         "url": "/umbraco/images/loginBg.png"
@@ -2071,6 +2107,18 @@
     },
     {
         "match": "73a84701d7de56cb923c824b0696fb9d",
+        "output": "release-7.2.7",
+        "type": "md5",
+        "url": "/umbraco/js/guiFunctions.js"
+    },
+    {
+        "match": "73a84701d7de56cb923c824b0696fb9d",
+        "output": "release-7.2.8",
+        "type": "md5",
+        "url": "/umbraco/js/guiFunctions.js"
+    },
+    {
+        "match": "73a84701d7de56cb923c824b0696fb9d",
         "output": "release-7.3.0-beta",
         "type": "md5",
         "url": "/umbraco/js/guiFunctions.js"
@@ -2384,6 +2432,18 @@
     {
         "match": "3a123aef72a352d3683caa41b4def327",
         "output": "release-7.2.6",
+        "type": "md5",
+        "url": "/umbraco_client/Application/HistoryManager.js"
+    },
+    {
+        "match": "3a123aef72a352d3683caa41b4def327",
+        "output": "release-7.2.7",
+        "type": "md5",
+        "url": "/umbraco_client/Application/HistoryManager.js"
+    },
+    {
+        "match": "3a123aef72a352d3683caa41b4def327",
+        "output": "release-7.2.8",
         "type": "md5",
         "url": "/umbraco_client/Application/HistoryManager.js"
     },
@@ -2690,6 +2750,18 @@
     {
         "match": "4e515cc163517fa520294f801cf88867",
         "output": "release-7.2.6",
+        "type": "md5",
+        "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
+    },
+    {
+        "match": "4e515cc163517fa520294f801cf88867",
+        "output": "release-7.2.7",
+        "type": "md5",
+        "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
+    },
+    {
+        "match": "4e515cc163517fa520294f801cf88867",
+        "output": "release-7.2.8",
         "type": "md5",
         "url": "/umbraco_client/Application/UmbracoApplicationActions.js"
     },
@@ -3026,6 +3098,18 @@
     {
         "match": "3510cde3aa1c0d33fef1f704f4f65d90",
         "output": "release-7.2.6",
+        "type": "md5",
+        "url": "/umbraco_client/Application/UmbracoClientManager.js"
+    },
+    {
+        "match": "3510cde3aa1c0d33fef1f704f4f65d90",
+        "output": "release-7.2.7",
+        "type": "md5",
+        "url": "/umbraco_client/Application/UmbracoClientManager.js"
+    },
+    {
+        "match": "3510cde3aa1c0d33fef1f704f4f65d90",
+        "output": "release-7.2.8",
         "type": "md5",
         "url": "/umbraco_client/Application/UmbracoClientManager.js"
     },
@@ -3691,6 +3775,18 @@
     },
     {
         "match": "35c4b8f78227ce1efad093a0bbb36fe8",
+        "output": "release-7.2.7",
+        "type": "md5",
+        "url": "/umbraco_client/CodeMirror/js/lib/codemirror.js"
+    },
+    {
+        "match": "35c4b8f78227ce1efad093a0bbb36fe8",
+        "output": "release-7.2.8",
+        "type": "md5",
+        "url": "/umbraco_client/CodeMirror/js/lib/codemirror.js"
+    },
+    {
+        "match": "35c4b8f78227ce1efad093a0bbb36fe8",
         "output": "release-7.3.0-beta",
         "type": "md5",
         "url": "/umbraco_client/CodeMirror/js/lib/codemirror.js"
@@ -4123,6 +4219,18 @@
     },
     {
         "match": "920a35010e136a7a03b5391496f6e684",
+        "output": "release-7.2.7",
+        "type": "md5",
+        "url": "/umbraco_client/Dialogs/AssignDomain2.js"
+    },
+    {
+        "match": "920a35010e136a7a03b5391496f6e684",
+        "output": "release-7.2.8",
+        "type": "md5",
+        "url": "/umbraco_client/Dialogs/AssignDomain2.js"
+    },
+    {
+        "match": "920a35010e136a7a03b5391496f6e684",
         "output": "release-7.3.0-beta",
         "type": "md5",
         "url": "/umbraco_client/Dialogs/AssignDomain2.js"
@@ -4422,6 +4530,18 @@
         "url": "/umbraco_client/Editors/EditStyleSheet.js"
     },
     {
+        "match": "e0e41952061789c7d55b41f67a3398c0",
+        "output": "release-7.2.7",
+        "type": "md5",
+        "url": "/umbraco_client/Editors/EditStyleSheet.js"
+    },
+    {
+        "match": "e0e41952061789c7d55b41f67a3398c0",
+        "output": "release-7.2.8",
+        "type": "md5",
+        "url": "/umbraco_client/Editors/EditStyleSheet.js"
+    },
+    {
         "match": "f787bf1f3059b3ab5d06a8d5ad2fd565",
         "output": "7.3.0-beta",
         "type": "md5",
@@ -4610,6 +4730,18 @@
     {
         "match": "0e680f1d720bf05d7b21bb001a07a3fd",
         "output": "release-7.2.6",
+        "type": "md5",
+        "url": "/umbraco_client/Editors/EditTemplate.js"
+    },
+    {
+        "match": "0e680f1d720bf05d7b21bb001a07a3fd",
+        "output": "release-7.2.7",
+        "type": "md5",
+        "url": "/umbraco_client/Editors/EditTemplate.js"
+    },
+    {
+        "match": "0e680f1d720bf05d7b21bb001a07a3fd",
+        "output": "release-7.2.8",
         "type": "md5",
         "url": "/umbraco_client/Editors/EditTemplate.js"
     },
@@ -4844,6 +4976,18 @@
     {
         "match": "7121947417a910d3cdc94f03b143fc5a",
         "output": "release-7.2.6",
+        "type": "md5",
+        "url": "/umbraco_client/Editors/EditView.js"
+    },
+    {
+        "match": "7121947417a910d3cdc94f03b143fc5a",
+        "output": "release-7.2.7",
+        "type": "md5",
+        "url": "/umbraco_client/Editors/EditView.js"
+    },
+    {
+        "match": "7121947417a910d3cdc94f03b143fc5a",
+        "output": "release-7.2.8",
         "type": "md5",
         "url": "/umbraco_client/Editors/EditView.js"
     },
@@ -5467,6 +5611,18 @@
     },
     {
         "match": "e803612b5aea2f9e671cdf24f613e7e2",
+        "output": "release-7.2.7",
+        "type": "md5",
+        "url": "/umbraco_client/Editors/EditXslt.js"
+    },
+    {
+        "match": "e803612b5aea2f9e671cdf24f613e7e2",
+        "output": "release-7.2.8",
+        "type": "md5",
+        "url": "/umbraco_client/Editors/EditXslt.js"
+    },
+    {
+        "match": "e803612b5aea2f9e671cdf24f613e7e2",
         "output": "release-7.3.0-beta",
         "type": "md5",
         "url": "/umbraco_client/Editors/EditXslt.js"
@@ -5857,6 +6013,18 @@
     },
     {
         "match": "94ac76d2ea165d98c80bd18659271246",
+        "output": "release-7.2.7",
+        "type": "md5",
+        "url": "/umbraco_client/FolderBrowser/Js/folderbrowser.js"
+    },
+    {
+        "match": "94ac76d2ea165d98c80bd18659271246",
+        "output": "release-7.2.8",
+        "type": "md5",
+        "url": "/umbraco_client/FolderBrowser/Js/folderbrowser.js"
+    },
+    {
+        "match": "94ac76d2ea165d98c80bd18659271246",
         "output": "release-7.3.0-beta",
         "type": "md5",
         "url": "/umbraco_client/FolderBrowser/Js/folderbrowser.js"
@@ -6133,6 +6301,18 @@
     },
     {
         "match": "bf03f3d96e2278d4ae1d2ffba46513c9",
+        "output": "release-7.2.7",
+        "type": "md5",
+        "url": "/umbraco_client/GenericProperty/genericProperty.js"
+    },
+    {
+        "match": "bf03f3d96e2278d4ae1d2ffba46513c9",
+        "output": "release-7.2.8",
+        "type": "md5",
+        "url": "/umbraco_client/GenericProperty/genericProperty.js"
+    },
+    {
+        "match": "bf03f3d96e2278d4ae1d2ffba46513c9",
         "output": "release-7.3.0-beta",
         "type": "md5",
         "url": "/umbraco_client/GenericProperty/genericProperty.js"
@@ -6685,6 +6865,18 @@
     },
     {
         "match": "2ea31313fbaeaf49aca88ca86d0cdbbc",
+        "output": "release-7.2.7",
+        "type": "md5",
+        "url": "/umbraco_client/Installer/js/jquery.main.js"
+    },
+    {
+        "match": "2ea31313fbaeaf49aca88ca86d0cdbbc",
+        "output": "release-7.2.8",
+        "type": "md5",
+        "url": "/umbraco_client/Installer/js/jquery.main.js"
+    },
+    {
+        "match": "2ea31313fbaeaf49aca88ca86d0cdbbc",
         "output": "release-7.3.0-beta",
         "type": "md5",
         "url": "/umbraco_client/Installer/js/jquery.main.js"
@@ -6980,6 +7172,18 @@
     {
         "match": "2f903fe90ee111ffad6b7170766173a0",
         "output": "release-7.2.6",
+        "type": "md5",
+        "url": "/umbraco_client/Panel/style.css"
+    },
+    {
+        "match": "2f903fe90ee111ffad6b7170766173a0",
+        "output": "release-7.2.7",
+        "type": "md5",
+        "url": "/umbraco_client/Panel/style.css"
+    },
+    {
+        "match": "2f903fe90ee111ffad6b7170766173a0",
+        "output": "release-7.2.8",
         "type": "md5",
         "url": "/umbraco_client/Panel/style.css"
     },
@@ -7657,6 +7861,18 @@
     },
     {
         "match": "ef31f8b80c325234c400239578a2e428",
+        "output": "release-7.2.7",
+        "type": "md5",
+        "url": "/umbraco_client/modal/modal.js"
+    },
+    {
+        "match": "ef31f8b80c325234c400239578a2e428",
+        "output": "release-7.2.8",
+        "type": "md5",
+        "url": "/umbraco_client/modal/modal.js"
+    },
+    {
+        "match": "ef31f8b80c325234c400239578a2e428",
         "output": "release-7.3.0-beta",
         "type": "md5",
         "url": "/umbraco_client/modal/modal.js"
@@ -8425,6 +8641,18 @@
     },
     {
         "match": "809267fc488e5d2175cfe3e19d2fc5b9",
+        "output": "release-7.2.7",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/plugins/umbracoembed/langs/en.js"
+    },
+    {
+        "match": "809267fc488e5d2175cfe3e19d2fc5b9",
+        "output": "release-7.2.8",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/plugins/umbracoembed/langs/en.js"
+    },
+    {
+        "match": "809267fc488e5d2175cfe3e19d2fc5b9",
         "output": "release-7.3.0-beta",
         "type": "md5",
         "url": "/umbraco_client/tinymce3/plugins/umbracoembed/langs/en.js"
@@ -8911,6 +9139,18 @@
     },
     {
         "match": "f29e28ca567065483f42d9073d00c64c",
+        "output": "release-7.2.7",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/plugins/umbracolink/langs/en_us_dlg.js"
+    },
+    {
+        "match": "f29e28ca567065483f42d9073d00c64c",
+        "output": "release-7.2.8",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/plugins/umbracolink/langs/en_us_dlg.js"
+    },
+    {
+        "match": "f29e28ca567065483f42d9073d00c64c",
         "output": "release-7.3.0-beta",
         "type": "md5",
         "url": "/umbraco_client/tinymce3/plugins/umbracolink/langs/en_us_dlg.js"
@@ -9314,6 +9554,18 @@
     {
         "match": "007f36c49b783ece3e8b4b1320e5aad0",
         "output": "release-7.2.6",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/themes/umbraco/langs/it.js"
+    },
+    {
+        "match": "007f36c49b783ece3e8b4b1320e5aad0",
+        "output": "release-7.2.7",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/themes/umbraco/langs/it.js"
+    },
+    {
+        "match": "007f36c49b783ece3e8b4b1320e5aad0",
+        "output": "release-7.2.8",
         "type": "md5",
         "url": "/umbraco_client/tinymce3/themes/umbraco/langs/it.js"
     },
@@ -9782,6 +10034,18 @@
     {
         "match": "9357706b0641e0697b49ef6146119e3d",
         "output": "release-7.2.6",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
+    },
+    {
+        "match": "9357706b0641e0697b49ef6146119e3d",
+        "output": "release-7.2.7",
+        "type": "md5",
+        "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
+    },
+    {
+        "match": "9357706b0641e0697b49ef6146119e3d",
+        "output": "release-7.2.8",
         "type": "md5",
         "url": "/umbraco_client/tinymce3/tiny_mce_popup.js"
     },
@@ -10124,6 +10388,18 @@
     {
         "match": "2319e224581f9df1606aefc8723cddf3",
         "output": "release-7.2.6",
+        "type": "md5",
+        "url": "/umbraco_client/ui/default.css"
+    },
+    {
+        "match": "2319e224581f9df1606aefc8723cddf3",
+        "output": "release-7.2.7",
+        "type": "md5",
+        "url": "/umbraco_client/ui/default.css"
+    },
+    {
+        "match": "2319e224581f9df1606aefc8723cddf3",
+        "output": "release-7.2.8",
         "type": "md5",
         "url": "/umbraco_client/ui/default.css"
     },
@@ -10640,6 +10916,18 @@
     {
         "match": "3f370a312c7edca0ace1124faa1a36f7",
         "output": "release-7.2.6",
+        "type": "md5",
+        "url": "/umbraco_client/ui/jquery.dd.js"
+    },
+    {
+        "match": "3f370a312c7edca0ace1124faa1a36f7",
+        "output": "release-7.2.7",
+        "type": "md5",
+        "url": "/umbraco_client/ui/jquery.dd.js"
+    },
+    {
+        "match": "3f370a312c7edca0ace1124faa1a36f7",
+        "output": "release-7.2.8",
         "type": "md5",
         "url": "/umbraco_client/ui/jquery.dd.js"
     },
