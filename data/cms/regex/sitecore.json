@@ -16,6 +16,14 @@
 		"note": "Sitecore administration page"
 	},
 	{
+		"url": "/sitecore/login/default.aspx",
+		"type": "regex",
+		"match": "<li>Sitecore version Sitecore.NET (.*)</li>",
+		"output": "%s",
+		"weight": 1000,
+		"note": "Sitecore administration page"
+	},
+	{
 		"url": "/sitecore/shell/sitecore.version.xml",
 		"type": "regex",
 		"match": "<major>([^<].*)</major>\\s*<minor>([^<].*)</minor>\\s*<build>([^<].*)</build>\\s*<revision>([^<].*)</revision>",
