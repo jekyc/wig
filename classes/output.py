@@ -109,6 +109,10 @@ class OutputPrinter(Output):
 		self.max_col_width = 60
 
 
+	# Split the list of strings into a list of lists of strings
+	# This is used to prevent very wide cols (e.g. when a precise version 
+	# detection has not been possible and a long list of candidates is 
+	# shown)
 	def split_string(self, string_list):
 		out, tmp = [], []
 
@@ -130,17 +134,13 @@ class OutputPrinter(Output):
 		_result = namedtuple('Result', ['left', 'center', 'right'])
 		_space = namedtuple('Space', ['char'])
 		_status = namedtuple('Status', ['runtime', 'urls', 'fingerprints'])
+		_info = namedtuple('Info', ['left', 'span_rest'])
+
 
 		p = self.data['printer']
 		self.update_stats()
 
-		output_lines = [
-			_header('SITE INFO'),
-			_caption('IP', 'Title', ''),
-			_result(self.data['results'].site_info['ip'], self.data['results'].site_info['title'][:self.max_col_width], '')
-		]
-
-		output_lines.extend([_space(' '), _header('VERSION'), _caption('Name', 'Versions', 'Type')])
+		output_lines = []
 		
 		# VERSION 
 		for version in ['CMS', 'Platform', 'JavaScript', 'OS']:
@@ -182,18 +182,39 @@ class OutputPrinter(Output):
 		output_lines.append(_space('_'))
 		output_lines.append(_status(self.stats['runtime'], self.stats['url_count'], self.stats['fp_count']))
 
+		# calculate the widths of the cols based on 'Results' and 'Status'
 		widths = [max(map(len, col)) for col in zip(*[i for i in output_lines if type(i).__name__ in ['Result', 'Status']])]
 
+
+		# prepend the site information
+		# the site title will span 2 cols. It is added here to allow for calculation of the
+		# actual width of the 2 last cols (instead of just setting the width to 2*self.max_col_width)
+		intro = [
+			_header('SITE INFO'),
+			_caption('IP', 'Title', ''),
+			_info(self.data['results'].site_info['ip'], self.data['results'].site_info['title'][:(widths[1] + widths[2])])
+		]
+		intro.extend([_space(' '), _header('VERSION'), _caption('Name', 'Versions', 'Type')])
+		output_lines = intro + output_lines
+
+
+		# the actual printing of the results
 		for row in output_lines:
 			if type(row).__name__ == 'Header':
 				p.build_line((' ' + row.title + ' ').center(sum(widths)+4, '_'), 'blue', True)
-				p.print_built_line()
-			if type(row).__name__ == 'Caption':
+			
+			elif type(row).__name__ == 'Caption':
 				p.build_line('  '.join((val.ljust(width) for val,width in zip(row, widths))), 'green', False)
-				p.print_built_line()
-			elif type(row).__name__ in ['Caption', 'Result', 'Status', 'Info']:
+
+			elif type(row).__name__ == 'Info':
+				p.build_line('  '.join((val.ljust(width) for val,width in zip(row, [widths[0], widths[1]+widths[2]]))), 'normal', False)
+
+			elif type(row).__name__ in ['Result', 'Status']:
 				p.build_line('  '.join((val.ljust(width) for val,width in zip(row, widths))), 'normal', False)
-				p.print_built_line()
+
 			elif type(row).__name__ == 'Space':
 				p.build_line(row.char*(sum(widths)+4), 'blue', True)
-				p.print_built_line()
+
+			p.print_built_line()
+
+
