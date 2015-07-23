@@ -51,15 +51,17 @@ class Wig(object):
 					url = url.strip()
 					urls.append(url if '://' in url else 'http://'+url)
 
-		elif '://' not in args.url:
-			args.url = 'http://' + args.url
+		else:
+			args.url = args.url.lower()
+			if '://' not in args.url:
+				args.url = 'http://' + args.url
 
 		text_printer = Printer(args.verbosity)
 		cache = Cache()
 		cache.printer = text_printer
 
 		self.options = {
-			'url': args.url.lower(),
+			'url': args.url,
 			'urls': urls,
 			'quiet': args.quiet,
 			'prefix': '',
