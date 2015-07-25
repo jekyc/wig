@@ -8,6 +8,14 @@
 		"note": "Django administration page"
 	},
 	{
+		"url": "/admin/login/",
+		"type": "string",
+		"match": "<form action=\"/admin/login/\" method=\"post\" id=\"login-form\"><input type='hidden' name='csrfmiddlewaretoken' value='",
+		"output": "",
+		"weight": 0.1,
+		"note": "Django administration page"
+	},
+	{
 		"url": "",
 		"type": "string",
 		"match": "name='csrfmiddlewaretoken'",
