@@ -43,6 +43,7 @@
     "mootools": {"name": "MooTools"},
     "movabletype": {"name": "Movable Type"},
     "mybb": {"name": "MyBB"},
+    "nginx": {"name": "nginx"},
     "openbsd": {"name": "OpenBSD"},
     "opensuse": {"name": "openSUSE"},
     "outlook": {"name": "Outlook"},

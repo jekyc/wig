@@ -1,0 +1,19 @@
+[	
+	{
+		"url": "",
+		"header": "Server",
+		"type": "regex",
+		"match": "nginx/([\\d?\\.]*)",
+		"output": "%s",
+		"code": "any",
+		"weight": 2
+	},
+	{
+		"url": "",
+		"header": "Server",
+		"type": "regex",
+		"match": "nginx$",
+		"output": "",
+		"code": "any"
+	}	
+]
