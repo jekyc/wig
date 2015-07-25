@@ -16,6 +16,22 @@
 		"note": "Django administration page"
 	},
 	{
+		"url": "/admin/login/",
+		"type": "string",
+		"match": "<form action=\"/admin/login/\" method=\"post\"><input type='hidden' name='csrfmiddlewaretoken'",
+		"output": "",
+		"weight": 0.1,
+		"note": "Django administration page"
+	},
+	{
+		"url": "/admin/login/",
+		"type": "string",
+		"match": "<script type=\"text/javascript\">window.__admin_media_prefix__ =",
+		"output": "",
+		"weight": 0.1,
+		"note": "Django administration page"
+	},
+	{
 		"url": "",
 		"type": "string",
 		"match": "name='csrfmiddlewaretoken'",
@@ -30,7 +46,7 @@
 		"weight": 0.1
 	},
 	{
-		"url": "/static/admin/css/base.css",
+		"url": "",
 		"type": "string",
 		"match": "your Django settings file. Change that to <code>False</code>, and Django",
 		"output": "",
