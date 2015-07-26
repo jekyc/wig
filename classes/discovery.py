@@ -712,6 +712,8 @@ class DiscoverPlatform:
 				continue
 
 			for part in headers['server'].split(" "):
+				if part[0] == '(' and part[-1] == ')': continue
+				
 				pkg_version = list(map(str.lower, part.split('/')))
 
 				# Example: 'Server: nginx'
