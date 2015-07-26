@@ -165,6 +165,12 @@ class OutputPrinter(Output):
 			output_lines.extend([_space(' '), _header('INTERESTING'), _caption('URL', 'Note', 'Type')])
 			output_lines.extend([_result(result.url, result.note, 'Interesting') for result in interesting])
 
+		# PLATFORM NOTES
+		platform_notes = sorted(self.get_results_of_type('PlatformNote'), key=lambda x: x.platform)
+		if platform_notes:
+			output_lines.extend([_space(' '), _header('PLATFORM OBSERVATIONS'), _caption('Platform', 'URL', 'Type')])
+			output_lines.extend([_result(result.platform, result.url, 'Observation') for result in platform_notes])
+
 		# TOOLS
 		tools = self.get_results_of_type('Tool')
 		if tools:

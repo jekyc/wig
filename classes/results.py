@@ -24,6 +24,9 @@ class Results(object):
 		self.md5_matches = defaultdict(lambda: defaultdict(lambda: Counter()))
 		#		           ^ Url               ^ cms               ^ versions
 
+		self.platform_observations = defaultdict(lambda: defaultdict(set))
+
+
 		self.sitemap = Sitemap()
 		
 		self.site_info = {
@@ -72,6 +75,10 @@ class Results(object):
 				self.printer.print_debug_line('- %s: %s' % (note, url), 5)
 				self.add_interesting(note, url)
 
+		if category == 'platform':
+			self.platform_observations[name][version].add(fingerprint['url'])
+
+
 		self.printer.print_debug_line('- Found match: %s - %s %s - %s' % (url, name, version, match_type), 5)
 
 		#print(category, name, version, weight)
@@ -95,6 +102,7 @@ class Results(object):
 		# else add the weight
 		else:
 			self.scores[category][name][version] += weight
+
 
 
 	def update(self):
@@ -123,6 +131,15 @@ class Results(object):
 				for version in relevant:
 					self.results.append(c[category](name, version))
 
+		# check if there are multiple precise version detection of the same platform
+		platforms = self.platform_observations
+		for platform in platforms:
+			if len(platforms[platform]) > 1:
+				for version in platforms[platform]:
+					urls = list(platforms[platform][version])
+
+					self.add_platform_note(platform + ' ' + version, sorted(urls, key=lambda x: len(x))[0])
+
 
 	def add_vulnerabilities(self, cms, version, num_vuln, link):
 		Vulnerability = namedtuple('Vulnerability', ['software', 'version', 'num_vuln', 'link'])
@@ -142,6 +159,11 @@ class Results(object):
 	def add_interesting(self, note, url):
 		Interesting = namedtuple('Interesting', ['note', 'url'])
 		self.results.append(Interesting(note, url))
+
+
+	def add_platform_note(self, platform, url):
+		PlatformNote = namedtuple('PlatformNote', ['platform', 'url'])
+		self.results.append(PlatformNote(platform, url))
 
 
 	def get_sitemap(self):

@@ -664,6 +664,8 @@ class DiscoverPlatform:
 		self.threads = options['threads']
 		self.batch_size = options['batch_size']
 		self.queue = defaultdict(list)
+		self.cache = data['cache']
+		self.translator = data['fingerprints'].data['translator']['dictionary']
 
 		for fp_type in data['fingerprints'].data['platform']:
 			for fp in data['fingerprints'].data['platform'][fp_type]['fps']:
@@ -671,10 +673,13 @@ class DiscoverPlatform:
 
 		# only used for pretty printing of debugging info
 		self.tmp_set = set()
+		self.detected_platforms = defaultdict(lambda: defaultdict(set))
+
 
 	def run(self):
 		self.printer.print_debug_line('Detecting platform ...', 1)
 
+		# search for platform information using the platform fingerprints
 		while len(self.queue) > 0:
 			queue = []
 			for i in range(self.batch_size):
@@ -686,10 +691,11 @@ class DiscoverPlatform:
 
 			results = self.requester.run('Plaform', queue)
 
-			# search for CMS matches
+			# search for Platform matches
 			while not results.empty():
 				fingerprints, response = results.get()
 				matches = self.matcher.get_result(fingerprints, response)
+
 				for fp in matches:
 					self.result.add_version('platform', fp['name'], fp['output'], fp)
 
@@ -697,6 +703,36 @@ class DiscoverPlatform:
 						self.printer.print_debug_line('- Found platform %s %s' % (fp['name'], fp['output']), 2)
 
 					self.tmp_set.add((fp['name'], fp['output']))
+
+
+		# Look for data in all the response headers ('server') in the cache
+		for response in self.cache.get_responses():
+			headers = response.headers
+			if 'server' not in headers:
+				continue
+
+			for part in headers['server'].split(" "):
+				pkg_version = list(map(str.lower, part.split('/')))
+
+				# Example: 'Server: nginx'
+				if len(pkg_version) == 1:
+					pkg, version = pkg_version[0], ''
+
+				# Example: 'Server: Apache/2.2.12'
+				elif len(pkg_version) == 2:
+					pkg, version = pkg_version
+
+				# Don't know how to parse this - bailing
+				else:
+					continue
+
+				# check if the detected software is in the dictionary
+				if pkg in self.translator:
+					pkg = self.translator[pkg]['name']
+
+				# add the results to the platform results
+				self.result.add_version('platform', pkg, version, {'url': response.url, 'type': 'dummy'})
+
 
 
 class DiscoverTitle:
