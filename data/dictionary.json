@@ -39,6 +39,7 @@
     "majordomo": {"name": "Majordomo"},
     "mcms": {"name": "Microsoft Content Management Server"},
     "mediawiki": {"name": "MediaWiki"},
+    "microsoft-iis": {"name": "IIS"},
     "moodle": {"name": "Moodle"},
     "mootools": {"name": "MooTools"},
     "movabletype": {"name": "Movable Type"},
@@ -73,6 +74,7 @@
     "typo3": {"name": "TYPO3"},
     "ubuntu": {"name": "Ubuntu"},
     "umbraco": {"name": "Umbraco"},
+    "varnish": {"name": "Varnish"},
     "vbulletin": {"name": "vBulletin"},
     "webfont": {"name": "webfont"},
     "wordpress": {
