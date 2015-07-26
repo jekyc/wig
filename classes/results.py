@@ -75,7 +75,7 @@ class Results(object):
 				self.printer.print_debug_line('- %s: %s' % (note, url), 5)
 				self.add_interesting(note, url)
 
-		if category == 'platform':
+		if category == 'platform' and not version == '' and not match_type == 'md5':
 			self.platform_observations[name][version].add(fingerprint['url'])
 
 
@@ -134,10 +134,10 @@ class Results(object):
 		# check if there are multiple precise version detection of the same platform
 		platforms = self.platform_observations
 		for platform in platforms:
-			if len(platforms[platform]) > 1:
-				for version in platforms[platform]:
-					urls = list(platforms[platform][version])
-
+			versions = platforms[platform]
+			if len(versions) > 1:
+				for version in versions:
+					urls = list(versions[version])
 					self.add_platform_note(platform + ' ' + version, sorted(urls, key=lambda x: len(x))[0])
 
 
