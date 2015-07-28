@@ -31,7 +31,6 @@ from classes.cache import Cache
 from classes.results import Results
 from classes.fingerprints import Fingerprints
 from classes.discovery import *
-from classes.headers import ExtractHeaders
 from classes.matcher import Match
 from classes.printer import Printer
 from classes.output import OutputPrinter, OutputJSON
@@ -207,9 +206,6 @@ class Wig(object):
 
 		# search for cookies
 		DiscoverCookies(self.data).run()
-
-		# search the cache for headers
-		ExtractHeaders(self.data).run()
 
 		# search for indications of the used operating system
 		DiscoverOS(self.options, self.data).run()
