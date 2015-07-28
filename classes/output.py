@@ -146,10 +146,10 @@ class OutputPrinter(Output):
 		for version in ['CMS', 'Platform', 'JavaScript', 'OS']:
 			data = defaultdict(list)
 			for result in self.get_results_of_type(version):
-				data[result.name].append(result.version)
+				data[result.name].append(self.replace_version_text(result.version))
 
 			for result in data:
-				version_list = self.split_string(sorted(data[result])) 
+				version_list = self.split_string(sorted(data[result]))
 				output_lines.append(_result(result, version_list[0] , version))
 				output_lines.extend([_result('', v, '') for v in version_list[1:]])
 
