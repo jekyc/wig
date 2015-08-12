@@ -158,7 +158,9 @@ class Results(object):
 
 	def add_interesting(self, note, url):
 		Interesting = namedtuple('Interesting', ['note', 'url'])
-		self.results.append(Interesting(note, url))
+		 
+		if not Interesting(note, url) in self.results:
+			self.results.append(Interesting(note, url))
 
 
 	def add_platform_note(self, platform, url):
