@@ -6,5 +6,12 @@
 		"output": "",
 		"code": "any",
 		"note": "Tomcat admin login page"
-	}	
+	},
+	{
+		"url": "",
+		"type": "string",
+		"match": "<title>Apache Tomcat</title>",
+		"output": "",
+		"code": "any"
+	}
 ]
