@@ -711,8 +711,13 @@ class DiscoverPlatform:
 			if 'server' not in headers:
 				continue
 
-			for part in headers['server'].split(" "):
-				if part[0] == '(' and part[-1] == ')': continue
+			server_line = headers['server']
+
+			# remove ' (something other)'
+			if '(' in server_line:
+				server_line = server_line[:server_line.find('(')-1] + server_line[server_line.find(')')+1:]
+
+			for part in server_line.split(" "):
 				
 				pkg_version = list(map(str.lower, part.split('/')))
 
