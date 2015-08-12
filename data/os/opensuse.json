@@ -855,7 +855,13 @@
         "os_name": "openSUSE",
         "os_version": "tumbleweed",
         "pkg_name": "mod_perl",
-        "pkg_version": "2.0.8"
+        "pkg_version": "2.0.9"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "tumbleweed",
+        "pkg_name": "mod_perl",
+        "pkg_version": "2.0.9"
     },
     {
         "os_name": "openSUSE",
@@ -2733,7 +2739,7 @@
         "os_name": "openSUSE",
         "os_version": "tumbleweed",
         "pkg_name": "phpMyAdmin",
-        "pkg_version": "4.4.12"
+        "pkg_version": "4.4.13.1"
     },
     {
         "os_name": "openSUSE",
@@ -3597,7 +3603,13 @@
         "os_name": "openSUSE",
         "os_version": "tumbleweed",
         "pkg_name": "subversion",
-        "pkg_version": "1.8.13"
+        "pkg_version": "1.8.14"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "tumbleweed",
+        "pkg_name": "subversion",
+        "pkg_version": "1.8.14"
     },
     {
         "os_name": "openSUSE",

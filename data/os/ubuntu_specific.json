@@ -3,6 +3,13 @@
         "os_name": "Ubuntu",
         "os_version": "15.10",
         "pkg_name": "php",
+        "pkg_version": "5.6.11+dfsg-1ubuntu2",
+        "weight": 110
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "15.10",
+        "pkg_name": "php",
         "pkg_version": "5.6.11+dfsg-1ubuntu1",
         "weight": 110
     },

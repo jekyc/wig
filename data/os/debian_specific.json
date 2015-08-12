@@ -451,13 +451,6 @@
         "os_name": "Debian",
         "os_version": "6.0.10 (LTS)",
         "pkg_name": "php",
-        "pkg_version": "5.3.3-7+squeeze26",
-        "weight": 100
-    },
-    {
-        "os_name": "Debian",
-        "os_version": "6.0.10 (LTS)",
-        "pkg_name": "php",
         "pkg_version": "5.3.3-7+squeeze25",
         "weight": 100
     },
