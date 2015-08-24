@@ -1,0 +1,10 @@
+[
+	{
+		"url": "/RELEASE_NOTES.txt",
+		"type": "regex",
+		"match": "==== ([\\d?\\.]*) ====",
+		"output": "%s",
+		"note": "Magento Release Notes",
+		"weight": 10
+	}
+]

@@ -1,0 +1,26 @@
+[
+	{
+		"url": "/admin/",
+		"type": "string",
+		"match": "<title>Log into Magento Admin Page</title>",
+		"output": "",
+		"note": "Magento Administration Page",
+		"weight": 0.1
+	},
+	{
+		"url": "/index.php/admin/index/forgotpassword/",
+		"type": "string",
+		"match": "<h2>Forgot your user name or password?</h2>",
+		"output": "",
+		"note": "Magento Password Reset Page",
+		"weight": 0.1
+	},
+	{
+		"url": "/install.php",
+		"type": "string",
+		"match": "ERROR: Magento is already installed",
+		"output": "",
+		"note": "Magento Installation Page",
+		"weight": 0.1
+	}
+]

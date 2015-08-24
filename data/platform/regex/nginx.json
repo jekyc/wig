@@ -1,0 +1,9 @@
+[
+	{
+		"url": "",
+		"code": "any",
+		"type": "regex",
+		"match": "<hr><center>nginx/([\\d?\\.]*) ",
+		"output": "%s"
+	}
+]
