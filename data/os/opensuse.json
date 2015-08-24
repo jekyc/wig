@@ -259,6 +259,288 @@
     },
     {
         "os_name": "openSUSE",
+        "os_version": "7.0",
+        "pkg_name": "Apache",
+        "pkg_version": "8.11.0"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "7.1",
+        "pkg_name": "Apache",
+        "pkg_version": "8.11.2"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "7.2",
+        "pkg_name": "Apache",
+        "pkg_version": "8.11.3"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "7.3",
+        "pkg_name": "Apache",
+        "pkg_version": "8.11.6"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "9.0",
+        "pkg_name": "Apache",
+        "pkg_version": "8.12.10"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "9.1",
+        "pkg_name": "Apache",
+        "pkg_version": "8.12.10"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "8.0",
+        "pkg_name": "Apache",
+        "pkg_version": "8.12.2"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "8.1",
+        "pkg_name": "Apache",
+        "pkg_version": "8.12.6"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "8.2",
+        "pkg_name": "Apache",
+        "pkg_version": "8.12.7"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "9.2",
+        "pkg_name": "Apache",
+        "pkg_version": "8.13.1"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "9.3",
+        "pkg_name": "Apache",
+        "pkg_version": "8.13.3"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "10.0",
+        "pkg_name": "Apache",
+        "pkg_version": "8.13.4"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "10.1",
+        "pkg_name": "Apache",
+        "pkg_version": "8.13.6"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "10.2",
+        "pkg_name": "Apache",
+        "pkg_version": "8.13.8"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "10.3",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.1"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.0",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.3"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.1",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.3"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.2",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.3"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.3",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.4"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.4",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.4"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "12.1",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.5"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "12.2",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.5"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "12.3",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.5"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "13.1",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.7"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "13.2",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.9"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "tumbleweed",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.9"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "5.2",
+        "pkg_name": "Apache",
+        "pkg_version": "8.8.8"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "5.3",
+        "pkg_name": "Apache",
+        "pkg_version": "8.8.8"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "6.0",
+        "pkg_name": "Apache",
+        "pkg_version": "8.8.8"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "6.1",
+        "pkg_name": "Apache",
+        "pkg_version": "8.9.3"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "6.2",
+        "pkg_name": "Apache",
+        "pkg_version": "8.9.3"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "6.3",
+        "pkg_name": "Apache",
+        "pkg_version": "8.9.3"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "6.4",
+        "pkg_name": "Apache",
+        "pkg_version": "8.9.3"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "9.2",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "1.16"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "9.3",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "1.21.7"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "10.0",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "1.23.11"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "9.1",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "1.8"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.1",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.0.71"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.2",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.0.80"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.3",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.0.91"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.4",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.0.91"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "12.1",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.0.91"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "12.2",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.0.91"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "13.1",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.1.13"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "12.3",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.1.9"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "13.2",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.3"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "tumbleweed",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.3"
+    },
+    {
+        "os_name": "openSUSE",
         "os_version": "8.0",
         "pkg_name": "apache-tomcat",
         "pkg_version": "4.0.1"
@@ -531,7 +813,85 @@
         "os_name": "openSUSE",
         "os_version": "tumbleweed",
         "pkg_name": "lighttpd",
-        "pkg_version": "1.4.35"
+        "pkg_version": "1.4.36"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "tumbleweed",
+        "pkg_name": "lighttpd",
+        "pkg_version": "1.4.36"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "10.3",
+        "pkg_name": "lighttpd",
+        "pkg_version": "1.5.0"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.0",
+        "pkg_name": "lighttpd",
+        "pkg_version": "1.5.6"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.1",
+        "pkg_name": "lighttpd",
+        "pkg_version": "2.0.6"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.2",
+        "pkg_name": "lighttpd",
+        "pkg_version": "3.0.6"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.3",
+        "pkg_name": "lighttpd",
+        "pkg_version": "3.2.6"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "11.4",
+        "pkg_name": "lighttpd",
+        "pkg_version": "4.0.4"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "12.2",
+        "pkg_name": "lighttpd",
+        "pkg_version": "4.1.18"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "12.1",
+        "pkg_name": "lighttpd",
+        "pkg_version": "4.1.4"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "13.1",
+        "pkg_name": "lighttpd",
+        "pkg_version": "4.2.18"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "12.3",
+        "pkg_name": "lighttpd",
+        "pkg_version": "4.2.6"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "13.2",
+        "pkg_name": "lighttpd",
+        "pkg_version": "4.3.18"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "tumbleweed",
+        "pkg_name": "lighttpd",
+        "pkg_version": "5.0.0"
     },
     {
         "os_name": "openSUSE",
@@ -2415,7 +2775,13 @@
         "os_name": "openSUSE",
         "os_version": "tumbleweed",
         "pkg_name": "php",
-        "pkg_version": "5.6.11"
+        "pkg_version": "5.6.12"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "tumbleweed",
+        "pkg_name": "php",
+        "pkg_version": "5.6.12"
     },
     {
         "os_name": "openSUSE",
@@ -2734,6 +3100,12 @@
         "os_version": "tumbleweed",
         "pkg_name": "phpMyAdmin",
         "pkg_version": "4.4.12"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "tumbleweed",
+        "pkg_name": "phpMyAdmin",
+        "pkg_version": "4.4.13.1"
     },
     {
         "os_name": "openSUSE",
@@ -3607,21 +3979,21 @@
     },
     {
         "os_name": "openSUSE",
+        "os_version": "13.1",
+        "pkg_name": "subversion",
+        "pkg_version": "1.8.3"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "13.1",
+        "pkg_name": "subversion",
+        "pkg_version": "1.8.3"
+    },
+    {
+        "os_name": "openSUSE",
         "os_version": "tumbleweed",
         "pkg_name": "subversion",
-        "pkg_version": "1.8.14"
-    },
-    {
-        "os_name": "openSUSE",
-        "os_version": "13.1",
-        "pkg_name": "subversion",
-        "pkg_version": "1.8.3"
-    },
-    {
-        "os_name": "openSUSE",
-        "os_version": "13.1",
-        "pkg_name": "subversion",
-        "pkg_version": "1.8.3"
+        "pkg_version": "1.9.0"
     },
     {
         "os_name": "openSUSE",

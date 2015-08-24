@@ -265,6 +265,252 @@
     },
     {
         "os_name": "Fedora",
+        "os_version": "1",
+        "pkg_name": "Apache",
+        "pkg_version": "8.12.10"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "2",
+        "pkg_name": "Apache",
+        "pkg_version": "8.12.11"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "3",
+        "pkg_name": "Apache",
+        "pkg_version": "8.13.1"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "4",
+        "pkg_name": "Apache",
+        "pkg_version": "8.13.4"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "5",
+        "pkg_name": "Apache",
+        "pkg_version": "8.13.5"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "6",
+        "pkg_name": "Apache",
+        "pkg_version": "8.13.8"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "7",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.1"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "8",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.1"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "9",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.2"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "10",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.3"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "11",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.3"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "12",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.3"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "13",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.4"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "14",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.4"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "15",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.4"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "16",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.5"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "17",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.5"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "18",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.5"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "19",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.7"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "21",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.9"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "2",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "1.11.4"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "3",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "1.17.14"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "4",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "1.23.10"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "5",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "1.29.7"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "6",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "1.30.29"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "7",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.0.13"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "8",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.0.37"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "9",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.0.61"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "10",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.0.73"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "11",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.0.80"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "12",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.0.87"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "13",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.0.90"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "14",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.0.96"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "15",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.0.99"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "17",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.1.10"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "18",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.1.12"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "19",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.1.13"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "20",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.1.13"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "16",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.1.5"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "21",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.3"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "22",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.3"
+    },
+    {
+        "os_name": "Fedora",
         "os_version": "2",
         "pkg_name": "apache-tomcat",
         "pkg_version": "4.1.27"

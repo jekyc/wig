@@ -145,6 +145,138 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "4.10",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "1.12"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "5.04",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "1.18"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "5.10",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "1.24"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "6.06",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "1.28"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "6.10",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "1.30"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "7.04",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "1.32"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "7.10",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.0.15"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "8.04",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.0.55"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "8.10",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.0.65"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "9.04",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.0.65"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "9.10",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.0.85"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "10.04",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.0.89"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "10.10",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.0.94"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "11.04",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.0.96"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "11.10",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.0.98"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "12.04",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.1.0"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "13.10",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.1.13"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "12.10",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.1.9"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "13.04",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.1.9"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "14.04",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.2.2"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "14.10",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.3"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "15.04",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "2.3"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "9.10",
         "pkg_name": "apache-tomcat",
         "pkg_version": "6.0.20"

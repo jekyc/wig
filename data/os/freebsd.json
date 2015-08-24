@@ -97,6 +97,48 @@
     },
     {
         "os_name": "FreeBSD",
+        "os_version": "4.11",
+        "pkg_name": "Apache",
+        "pkg_version": "8.13.2"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "5.5",
+        "pkg_name": "Apache",
+        "pkg_version": "8.13.5"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "6.4",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.3"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "7.4",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.4"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "8.2",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.4"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "10.1",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.7"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "9.3",
+        "pkg_name": "Apache",
+        "pkg_version": "8.14.8"
+    },
+    {
+        "os_name": "FreeBSD",
         "os_version": "8.2",
         "pkg_name": "apache-tomcat",
         "pkg_version": "4.1.36"
@@ -274,6 +316,30 @@
         "os_version": "9.3",
         "pkg_name": "lighttpd",
         "pkg_version": "1.4.35"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "7.4",
+        "pkg_name": "lighttpd",
+        "pkg_version": "3.2.12"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "8.2",
+        "pkg_name": "lighttpd",
+        "pkg_version": "3.2.12"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "10.1",
+        "pkg_name": "lighttpd",
+        "pkg_version": "4.2.20"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "9.3",
+        "pkg_name": "lighttpd",
+        "pkg_version": "4.3.10"
     },
     {
         "os_name": "FreeBSD",
