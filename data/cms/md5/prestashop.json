@@ -72,6 +72,12 @@
         "url": "/img/logo.jpg"
     },
     {
+        "match": "3660ca3e6d19782ec73265c12e7001dc",
+        "output": "1.6.1.1",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
         "match": "c8ea17e802b125819d1b956e12b6e1b9",
         "output": "1.5.0.1",
         "type": "md5",
@@ -428,6 +434,12 @@
     {
         "match": "1187ce7b0b04587fcf86c9341507d462",
         "output": "1.6.0.2",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "1c8353a43b365d13876f44d9edd246b2",
+        "output": "1.6.1.1",
         "type": "md5",
         "url": "/js/admin.js"
     },
@@ -800,6 +812,12 @@
     {
         "match": "5a0ab1880a74fad2bef5e579afaecaf0",
         "output": "1.6.0.3",
+        "type": "md5",
+        "url": "/themes/default-bootstrap/css/global.css"
+    },
+    {
+        "match": "a08827083a9a18ac5ed6e264601c5a01",
+        "output": "1.6.1.1",
         "type": "md5",
         "url": "/themes/default-bootstrap/css/global.css"
     },
