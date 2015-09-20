@@ -34,5 +34,11 @@
         "md5": "d3a5b20d5368c1bcabe655b57b52d097",
         "output": "1.6.0.2",
         "url": ""
+    },
+    {
+        "info": "prototype.js",
+        "md5": "e065fbd18c6990966402ad70cb3e3b41",
+        "output": "1.7.3.0",
+        "url": ""
     }
 ]
