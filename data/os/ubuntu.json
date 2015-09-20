@@ -61,6 +61,12 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "15.10",
+        "pkg_name": "Apache",
+        "pkg_version": "2.4.12"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "13.10",
         "pkg_name": "Apache",
         "pkg_version": "2.4.6"
@@ -277,6 +283,12 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "15.10",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "7.0.64"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "10.04",
         "pkg_name": "mod_perl",
         "pkg_version": "2.0.4"
@@ -344,6 +356,12 @@
     {
         "os_name": "Ubuntu",
         "os_version": "15.04",
+        "pkg_name": "mod_perl",
+        "pkg_version": "2.0.9"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "15.10",
         "pkg_name": "mod_perl",
         "pkg_version": "2.0.9"
     },
@@ -553,6 +571,12 @@
     },
     {
         "os_name": "Ubuntu",
+        "os_version": "15.10",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.2d"
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "8.10",
         "pkg_name": "perl",
         "pkg_version": "5.10.0"
@@ -638,6 +662,12 @@
     {
         "os_name": "Ubuntu",
         "os_version": "15.04",
+        "pkg_name": "perl",
+        "pkg_version": "5.20.2"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "15.10",
         "pkg_name": "perl",
         "pkg_version": "5.20.2"
     },
@@ -820,6 +850,12 @@
         "os_version": "14.04",
         "pkg_name": "php",
         "pkg_version": "5.5.9"
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "15.10",
+        "pkg_name": "php",
+        "pkg_version": "5.6.11"
     },
     {
         "os_name": "Ubuntu",
