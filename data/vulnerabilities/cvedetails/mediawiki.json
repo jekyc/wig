@@ -18,16 +18,40 @@
         "version": "Stable 2003-08-29"
     },
     {
+        "link": "http://cvedetails.com/version/185969",
+        "name": "MediaWiki",
+        "num_vulns": "6",
+        "version": "1.25.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/185970",
+        "name": "MediaWiki",
+        "num_vulns": "6",
+        "version": "1.25.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/185968",
+        "name": "MediaWiki",
+        "num_vulns": "6",
+        "version": "1.24.2"
+    },
+    {
         "link": "http://cvedetails.com/version/181956",
         "name": "MediaWiki",
-        "num_vulns": "10",
+        "num_vulns": "16",
         "version": "1.24.1"
     },
     {
         "link": "http://cvedetails.com/version/178873",
         "name": "MediaWiki",
-        "num_vulns": "16",
+        "num_vulns": "22",
         "version": "1.24.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/185967",
+        "name": "MediaWiki",
+        "num_vulns": "6",
+        "version": "1.23.9"
     },
     {
         "link": "http://cvedetails.com/version/181955",
