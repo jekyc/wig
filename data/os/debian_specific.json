@@ -253,6 +253,48 @@
     },
     {
         "os_name": "Debian",
+        "os_version": "7.9",
+        "pkg_name": "php",
+        "pkg_version": "5.4.44-0+deb7u1",
+        "weight": 100
+    },
+    {
+        "os_name": "Debian",
+        "os_version": "7.9",
+        "pkg_name": "php",
+        "pkg_version": "5.4.41-0+deb7u1",
+        "weight": 100
+    },
+    {
+        "os_name": "Debian",
+        "os_version": "7.9",
+        "pkg_name": "php",
+        "pkg_version": "5.4.39-0+deb7u2",
+        "weight": 100
+    },
+    {
+        "os_name": "Debian",
+        "os_version": "7.9",
+        "pkg_name": "php",
+        "pkg_version": "5.4.39-0+deb7u1",
+        "weight": 100
+    },
+    {
+        "os_name": "Debian",
+        "os_version": "7.9",
+        "pkg_name": "php",
+        "pkg_version": "5.4.38-0+deb7u1",
+        "weight": 100
+    },
+    {
+        "os_name": "Debian",
+        "os_version": "7.9",
+        "pkg_name": "php",
+        "pkg_version": "5.4.36-0+deb7u3",
+        "weight": 100
+    },
+    {
+        "os_name": "Debian",
         "os_version": "7.8",
         "pkg_name": "php",
         "pkg_version": "5.4.36-0+deb7u1",
@@ -438,6 +480,13 @@
         "os_version": "7.1",
         "pkg_name": "php",
         "pkg_version": "5.4.4-14+deb7u1",
+        "weight": 100
+    },
+    {
+        "os_name": "Debian",
+        "os_version": "6.0.10 (LTS)",
+        "pkg_name": "php",
+        "pkg_version": "5.3.3.1-7+squeeze27",
         "weight": 100
     },
     {
