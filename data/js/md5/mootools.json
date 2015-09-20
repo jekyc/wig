@@ -108,6 +108,12 @@
         "url": ""
     },
     {
+        "info": "mootools-yui-compressed.js",
+        "md5": "f6dc0833b697e87e5bbcbc87a5956c5c",
+        "output": "1.5.2",
+        "url": ""
+    },
+    {
         "info": "mootools.js",
         "md5": "00055fc2a3309fe9b5bab4e00a58706b",
         "output": "1.2.1",
@@ -135,6 +141,12 @@
         "info": "mootools.js",
         "md5": "33b5dc27313dc1307f1bf84662819426",
         "output": "1.4.2",
+        "url": ""
+    },
+    {
+        "info": "mootools.js",
+        "md5": "3d78cd76a60529cf884a7666b41a1a5f",
+        "output": "1.5.2",
         "url": ""
     },
     {
