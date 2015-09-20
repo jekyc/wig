@@ -120,6 +120,12 @@
         "url": "/core/misc/ajax.js"
     },
     {
+        "match": "e5a72be09ec2f393e2bc091472824fdb",
+        "output": "8.0.0-beta15",
+        "type": "md5",
+        "url": "/core/misc/ajax.js"
+    },
+    {
         "match": "e5c7066909a4c09fae08e1e34ba29e29",
         "output": "8.0-alpha4",
         "type": "md5",
@@ -218,6 +224,12 @@
     {
         "match": "2b31fd77ada22477e3f212d929cc8c99",
         "output": "8.0.0-beta14",
+        "type": "md5",
+        "url": "/core/misc/autocomplete.js"
+    },
+    {
+        "match": "2b31fd77ada22477e3f212d929cc8c99",
+        "output": "8.0.0-beta15",
         "type": "md5",
         "url": "/core/misc/autocomplete.js"
     },
@@ -390,6 +402,12 @@
         "url": "/core/misc/collapse.js"
     },
     {
+        "match": "7c37ec5a3911cbd8343de96f9e4abb24",
+        "output": "8.0.0-beta15",
+        "type": "md5",
+        "url": "/core/misc/collapse.js"
+    },
+    {
         "match": "8346c641baa87caba5a798c8c145f1f3",
         "output": "8.0-alpha2",
         "type": "md5",
@@ -524,6 +542,12 @@
     {
         "match": "055f68089809ca936749b0d0d28e6032",
         "output": "8.0.0-beta4",
+        "type": "md5",
+        "url": "/core/misc/drupal.js"
+    },
+    {
+        "match": "1822fcbae055fb7f43dd8e01c9d285f5",
+        "output": "8.0.0-beta15",
         "type": "md5",
         "url": "/core/misc/drupal.js"
     },
@@ -823,6 +847,12 @@
     },
     {
         "match": "e0e3bf9d03f021158115e2e34a180699",
+        "output": "8.0.0-beta15",
+        "type": "md5",
+        "url": "/core/misc/druplicon.png"
+    },
+    {
+        "match": "e0e3bf9d03f021158115e2e34a180699",
         "output": "8.0.0-beta2",
         "type": "md5",
         "url": "/core/misc/druplicon.png"
@@ -1056,6 +1086,12 @@
         "url": "/core/misc/machine-name.js"
     },
     {
+        "match": "f6e3530465a2dcb7d8b6940dc168fbb2",
+        "output": "8.0.0-beta15",
+        "type": "md5",
+        "url": "/core/misc/machine-name.js"
+    },
+    {
         "match": "09f40c8cbc51a1d2c5d46d41ef1247cd",
         "output": "8.0-alpha12",
         "type": "md5",
@@ -1076,6 +1112,12 @@
     {
         "match": "186b3643209dcc98dafa52d4e139a1d7",
         "output": "8.0-alpha6",
+        "type": "md5",
+        "url": "/core/misc/states.js"
+    },
+    {
+        "match": "4a6d5b8e0e0c87e10234ab3e33fb3258",
+        "output": "8.0.0-beta15",
         "type": "md5",
         "url": "/core/misc/states.js"
     },
@@ -1404,6 +1446,12 @@
         "url": "/core/misc/tabledrag.js"
     },
     {
+        "match": "9eff1438a24773d42d30a78fe178016e",
+        "output": "8.0.0-beta15",
+        "type": "md5",
+        "url": "/core/misc/tabledrag.js"
+    },
+    {
         "match": "0a719532a31d3502354298344651e19f",
         "output": "8.0-alpha13",
         "type": "md5",
@@ -1574,6 +1622,12 @@
     {
         "match": "c07ece6bf0814e091778b2ae2d385ffb",
         "output": "8.0-alpha9",
+        "type": "md5",
+        "url": "/core/misc/tableheader.js"
+    },
+    {
+        "match": "f91132e7895f8f212c2afa18906472ac",
+        "output": "8.0.0-beta15",
         "type": "md5",
         "url": "/core/misc/tableheader.js"
     },
@@ -1728,6 +1782,12 @@
         "url": "/core/misc/tableselect.js"
     },
     {
+        "match": "de545862dffe156761dfc8bbf46f6502",
+        "output": "8.0.0-beta15",
+        "type": "md5",
+        "url": "/core/misc/tableselect.js"
+    },
+    {
         "match": "deb78c873b7825a7b341806fd434e0f9",
         "output": "8.0-alpha1",
         "type": "md5",
@@ -1832,6 +1892,12 @@
     {
         "match": "88256b7c313baff0e4f8442b5885619d",
         "output": "8.0.0-beta14",
+        "type": "md5",
+        "url": "/core/misc/vertical-tabs.js"
+    },
+    {
+        "match": "88256b7c313baff0e4f8442b5885619d",
+        "output": "8.0.0-beta15",
         "type": "md5",
         "url": "/core/misc/vertical-tabs.js"
     },
@@ -2048,6 +2114,12 @@
     {
         "match": "2fc5720e5154994755ea5c3c94a3f6fb",
         "output": "8.0.0-beta9",
+        "type": "md5",
+        "url": "/core/modules/book/book.js"
+    },
+    {
+        "match": "36ed8037c6715d377cbd88332c97443f",
+        "output": "8.0.0-beta15",
         "type": "md5",
         "url": "/core/modules/book/book.js"
     },
@@ -2371,6 +2443,12 @@
     },
     {
         "match": "19b242d4edde0c6eee24162396f21da5",
+        "output": "8.0.0-beta15",
+        "type": "md5",
+        "url": "/core/modules/contextual/css/contextual.module.css"
+    },
+    {
+        "match": "19b242d4edde0c6eee24162396f21da5",
         "output": "8.0.0-beta2",
         "type": "md5",
         "url": "/core/modules/contextual/css/contextual.module.css"
@@ -2556,6 +2634,12 @@
         "url": "/core/modules/contextual/js/contextual.js"
     },
     {
+        "match": "6f28bc2a491e91ef41bfc4caee4b8390",
+        "output": "8.0.0-beta15",
+        "type": "md5",
+        "url": "/core/modules/contextual/js/contextual.js"
+    },
+    {
         "match": "b0eeb67659bd59cd42b6b3b78b58bf25",
         "output": "8.0-alpha8",
         "type": "md5",
@@ -2714,6 +2798,12 @@
     {
         "match": "836d10588405f3eeaa25589fcc4b6b6e",
         "output": "8.0-alpha6",
+        "type": "md5",
+        "url": "/core/modules/file/file.js"
+    },
+    {
+        "match": "99cea19a19830722105d071cb1119cd2",
+        "output": "8.0.0-beta15",
         "type": "md5",
         "url": "/core/modules/file/file.js"
     },
@@ -3042,6 +3132,12 @@
         "url": "/core/modules/node/css/node.module.css"
     },
     {
+        "match": "5d0856590414d2c1c5785b8f0290958a",
+        "output": "8.0.0-beta15",
+        "type": "md5",
+        "url": "/core/modules/node/css/node.module.css"
+    },
+    {
         "match": "72137dd055377cc65e6b47519d761abc",
         "output": "8.0-alpha10",
         "type": "md5",
@@ -3216,6 +3312,12 @@
         "url": "/core/modules/statistics/statistics.js"
     },
     {
+        "match": "924d6def2bb91668a03ea19e0c0f3226",
+        "output": "8.0.0-beta15",
+        "type": "md5",
+        "url": "/core/modules/statistics/statistics.js"
+    },
+    {
         "match": "11581833efd8e11c82a44363e8535727",
         "output": "8.0.0-beta3",
         "type": "md5",
@@ -3362,6 +3464,12 @@
     {
         "match": "a96cd90d134358183dbbe68030677874",
         "output": "8.0.0-beta14",
+        "type": "md5",
+        "url": "/core/modules/user/css/user.module.css"
+    },
+    {
+        "match": "a96cd90d134358183dbbe68030677874",
+        "output": "8.0.0-beta15",
         "type": "md5",
         "url": "/core/modules/user/css/user.module.css"
     },
