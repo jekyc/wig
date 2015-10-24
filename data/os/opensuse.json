@@ -2121,6 +2121,12 @@
         "os_name": "openSUSE",
         "os_version": "tumbleweed",
         "pkg_name": "phpMyAdmin",
+        "pkg_version": "4.4.15"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "tumbleweed",
+        "pkg_name": "phpMyAdmin",
         "pkg_version": "4.4.2"
     },
     {
@@ -2734,6 +2740,12 @@
         "os_version": "tumbleweed",
         "pkg_name": "subversion",
         "pkg_version": "1.9.1"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "tumbleweed",
+        "pkg_name": "subversion",
+        "pkg_version": "1.9.2"
     },
     {
         "os_name": "openSUSE",
