@@ -3,7 +3,7 @@ Collection of classes to extract information from the site.
 
 """
 
-import re
+import re, sys
 import socket
 import urllib
 import urllib.request
@@ -439,8 +439,21 @@ class LinkExtractor(HTMLParser):
 	Only checks for img, script, and link tags
 	"""
 
-	def __init__(self, strict):
-		super().__init__(strict=strict)
+	def __init__(self):
+		# Python 3 versions earlier than 3.2 and later than 3.5 
+		# do not have the strict flag.
+		# Python 3.2 defaults to strict=True
+		# Python 3.3 and 3.4 default to strict=False
+		# The following check should ensure that strict, when present,
+		# is always set to False
+		# The change in Python 3.5 has caused a silent failure
+		# see: 
+		#	https://github.com/jekyc/wig/issue17
+		#	https://github.com/jekyc/wig/pull/18
+		if sys.version_info[:1] in ((3,2), (3,3), (3,4)):
+			super().__init__(strict=False)
+		else:
+			super().__init__()
 		self.results = set()
 
 	def get_results(self):
@@ -499,7 +512,7 @@ class DiscoverMore(object):
 	def run(self):
 		self.printer.print_debug_line('Detecting links ...', 1)
 		resources = set()
-		parser = LinkExtractor(strict=False)
+		parser = LinkExtractor()
 
 		for req in self.cache.get_responses():
 			# skip pages that do not set 'content-type'
