@@ -306,6 +306,12 @@
         "url": "/mt-static/css/structure.css"
     },
     {
+        "match": "a9e63215679a5844246d8b2206a36b6e",
+        "output": "mt6.2.1",
+        "type": "md5",
+        "url": "/mt-static/css/structure.css"
+    },
+    {
         "match": "c7ea6bfc2e27f58bb840cea69a9f54ff",
         "output": "mt5.14",
         "type": "md5",
@@ -672,6 +678,12 @@
         "url": "/mt-static/jquery/jquery.mt.js"
     },
     {
+        "match": "8a37e97db694d1abdfeb619a675e7a64",
+        "output": "mt6.2.1",
+        "type": "md5",
+        "url": "/mt-static/jquery/jquery.mt.js"
+    },
+    {
         "match": "982dbda2cd33faddd1089bde8ec95759",
         "output": "mt5.1",
         "type": "md5",
@@ -956,6 +968,12 @@
     {
         "match": "4d4d69a6cca253a2019dca9399ef6e1e",
         "output": "mt6.2",
+        "type": "md5",
+        "url": "/mt-static/js/dialog.js"
+    },
+    {
+        "match": "4d4d69a6cca253a2019dca9399ef6e1e",
+        "output": "mt6.2.1",
         "type": "md5",
         "url": "/mt-static/js/dialog.js"
     },
@@ -1568,6 +1586,12 @@
     {
         "match": "ab8f1ba067df1fc4b08b8b7b0ddcfe9d",
         "output": "mt6.2",
+        "type": "md5",
+        "url": "/mt-static/js/edit.js"
+    },
+    {
+        "match": "ab8f1ba067df1fc4b08b8b7b0ddcfe9d",
+        "output": "mt6.2.1",
         "type": "md5",
         "url": "/mt-static/js/edit.js"
     },
@@ -2232,6 +2256,12 @@
         "url": "/mt-static/js/tc/mixer/display.js"
     },
     {
+        "match": "e4f5bba611864c81fc4de22c747b0d78",
+        "output": "mt6.2.1",
+        "type": "md5",
+        "url": "/mt-static/js/tc/mixer/display.js"
+    },
+    {
         "match": "ea1ce99abe73e258ba78e0b5d8422b8d",
         "output": "mt6.0",
         "type": "md5",
@@ -2384,6 +2414,12 @@
     {
         "match": "3c74755c43f40600a963fbd1a52edf1b",
         "output": "mt6.2",
+        "type": "md5",
+        "url": "/mt-static/js/tc/tableselect.js"
+    },
+    {
+        "match": "3c74755c43f40600a963fbd1a52edf1b",
+        "output": "mt6.2.1",
         "type": "md5",
         "url": "/mt-static/js/tc/tableselect.js"
     },
@@ -2912,6 +2948,12 @@
     {
         "match": "379f7d2a52e18127ce74d59cf15fd0e7",
         "output": "mt6.2",
+        "type": "md5",
+        "url": "/mt-static/mt.js"
+    },
+    {
+        "match": "379f7d2a52e18127ce74d59cf15fd0e7",
+        "output": "mt6.2.1",
         "type": "md5",
         "url": "/mt-static/mt.js"
     },
@@ -3642,8 +3684,20 @@
         "url": "/readme.html"
     },
     {
+        "match": "fe09c51d45558e90e69f19fbbe87c178",
+        "output": "mt6.2.1",
+        "type": "md5",
+        "url": "/readme.html"
+    },
+    {
         "match": "08047983f780e810421503507db76974",
         "output": "mt6.2",
+        "type": "md5",
+        "url": "/themes/pico/static/style_library/base.css"
+    },
+    {
+        "match": "08047983f780e810421503507db76974",
+        "output": "mt6.2.1",
         "type": "md5",
         "url": "/themes/pico/static/style_library/base.css"
     },
