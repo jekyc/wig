@@ -101,11 +101,13 @@ class Match(object):
 		# create copy of fingerprint
 		copy = {key:fingerprint[key] for key in fingerprint}
 		regex = copy["match"]
-		output = copy["output"]
+		output = copy["output"] if 'output' in copy else None
 
 		matches = re.findall(regex, response.body)
 		if len(matches):
-			if "%" in output:
+			if output is None:
+				copy['output'] = None
+			elif "%" in output:
 				copy['output'] = output % matches[0]
 			
 			return copy

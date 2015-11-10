@@ -10,6 +10,30 @@ import urllib.request
 from collections import Counter, defaultdict
 from html.parser import HTMLParser
 
+
+def search_for_urlless(cache, matcher, results, printer, fp_category, fps, tmp_set):
+	for response in cache.get_responses():
+		matches = matcher.get_result(fps, response)
+		for fp in matches:
+			url_data = urllib.request.urlparse(response.get_url())
+			fp['url'] = url_data.path
+
+			show_all_detections = True
+			if 'show_all_detections' in fp:
+				show_all_detections = fp['show_all_detections']
+
+			if (fp['name'], fp['output']) in tmp_set:
+				if show_all_detections:
+					results.add_version(fp_category, fp['name'], fp['output'], fingerprint=fp, weight=1)
+
+			else:
+				printer.print_debug_line('- Found fingerprint: %s %s' % (fp['name'], fp['output']), 2)
+				results.add_version(fp_category, fp['name'], fp['output'], fingerprint=fp, weight=1)
+
+			tmp_set.add((fp['name'], fp['output']))
+
+
+
 class DiscoverAllCMS:
 	"""
 	Match all fingerprints against all responses
@@ -337,8 +361,12 @@ class DiscoverInteresting(object):
 		# add the fingerprints to the queue, ensuring that
 		# all fps with the same url, are collected in a list
 		self.queue = defaultdict(list)
+		self.urlless = []
 		for fp in data['fingerprints'].data['interesting']['fps']:
-			self.queue[fp['url']].append(fp)
+			if not fp['url'] == "":
+				self.queue[fp['url']].append(fp)
+			else:
+				self.urlless.append(fp)
 
 
 	def run(self):
@@ -372,6 +400,9 @@ class DiscoverInteresting(object):
 					self.printer.print_debug_line('- Found file: %s (%s)' % (fp['url'], fp['note']), 2)
 				except:
 					pass
+
+		# check if there are any of the urlless matches in the cache
+		search_for_urlless(self.cache, self.matcher, self.result, self.printer, self.category, self.urlless, set())
 
 
 
@@ -839,26 +870,8 @@ class DiscoverUrlLess:
 				fps = [fp for fp in fps if fp['url'] == '']
 
 				# find matches for all the responses in the cache
-				for response in self.cache.get_responses():
-					matches = self.matcher.get_result(fps, response)
-					for fp in matches:
+				search_for_urlless(self.cache, self.matcher, self.results, self.printer, fp_category, fps, tmp_set)
 
-						url_data = urllib.request.urlparse(response.get_url())
-						fp['url'] = url_data.path
-
-						show_all_detections = True
-						if 'show_all_detections' in fp:
-							show_all_detections = fp['show_all_detections']
-
-						if (fp['name'], fp['output']) in tmp_set:
-							if show_all_detections:
-								self.results.add_version(fp_category, fp['name'], fp['output'], fingerprint=fp, weight=1)
-
-						else:
-							self.printer.print_debug_line('- Found fingerprint: %s %s' % (fp['name'], fp['output']), 2)
-							self.results.add_version(fp_category, fp['name'], fp['output'], fingerprint=fp, weight=1)
-
-						tmp_set.add((fp['name'], fp['output']))
 
 
 class DiscoverVulnerabilities:

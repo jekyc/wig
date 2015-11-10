@@ -89,5 +89,12 @@
 		"note": "This might be interesting",
 		"type": "string",
 		"match": ""
+	},
+	{
+		"url":  "",
+		"name": "Directory Listing",
+		"note": "Directory Listing",
+		"type": "regex",
+		"match": "<title>Index of (.*)</title>"
 	}
 ]
