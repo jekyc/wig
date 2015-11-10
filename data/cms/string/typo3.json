@@ -1,17 +1,25 @@
 [
 	{
-        "url": "",
+		"url": "",
 		"type": "string",
 		"match": "This website is powered by TYPO3",
 		"output": "",
 		"weight": 0.1
 	},
 	{
-        "url": "",
+		"url": "",
 		"type": "string",
 		"match": "TTYPO3SEARCH_begin",
 		"output": "",
 		"weight": 0.1
+	},
+	{
+		"url": "/typo3conf/ext/",
+		"type": "string",
+		"match": "<title>Index of /typo3conf/ext</title>",
+		"output": "",
+		"weight": 0.1,
+		"note": "TYPO3 Extension dir listing"
 	}
 ]
 

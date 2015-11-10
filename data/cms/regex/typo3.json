@@ -12,7 +12,7 @@
 		"match": "Raised version to (\\d[\\.\\d]*)",
 		"output": "%s",
 		"note": "Typo3 ChangeLog",
-		"weight": 5
+		"weight": 100
 	},
 	{
 		"url": "/ChangeLog",
@@ -43,5 +43,15 @@
 		"output": "%s",
 		"note": "Typo3 Release notes",
 		"weight": 5
+	},
+	{
+		"url": "/typo3conf/ext/phpmyadmin/ChangeLog.txt",
+		"type": "regex",
+		"match": "\\* Version (\\d.\\d\\d?.\\d)",
+		"output": "",
+		"note": "Typo3 with PHPMyAdmin",
+		"weight": 2
 	}
+
+
 ]

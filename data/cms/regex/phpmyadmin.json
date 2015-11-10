@@ -36,5 +36,13 @@
 		"match": "var pmaversion = '(\\d[\\.\\d\\d?]*)';",
 		"output": "%s",
 		"weight": 10
+	},
+	{
+		"url": "/typo3conf/ext/phpmyadmin/ChangeLog.txt",
+		"type": "regex",
+		"match": "\\* Version (\\d.\\d\\d?.\\d)",
+		"output": "%s",
+		"note": "PHPMyAdmin (TYPO3 version)",
+		"weight": 2
 	}
 ]
