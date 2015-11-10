@@ -229,6 +229,18 @@
     },
     {
         "os_name": "Fedora",
+        "os_version": "23",
+        "pkg_name": "Apache",
+        "pkg_version": "2.4.16"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "23",
+        "pkg_name": "Apache",
+        "pkg_version": "2.4.16"
+    },
+    {
+        "os_name": "Fedora",
         "os_version": "18",
         "pkg_name": "Apache",
         "pkg_version": "2.4.3"
@@ -1447,6 +1459,18 @@
     },
     {
         "os_name": "Fedora",
+        "os_version": "23",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.2"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "23",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.2"
+    },
+    {
+        "os_name": "Fedora",
         "os_version": "1",
         "pkg_name": "perl",
         "pkg_version": "4.3.3"
@@ -1678,6 +1702,18 @@
         "os_version": "22",
         "pkg_name": "perl",
         "pkg_version": "5.20.2"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "23",
+        "pkg_name": "perl",
+        "pkg_version": "5.22.0"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "23",
+        "pkg_name": "perl",
+        "pkg_version": "5.22.0"
     },
     {
         "os_name": "Fedora",
