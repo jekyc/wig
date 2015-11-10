@@ -87,7 +87,7 @@ Microsoft Windows Server  2008 R2                                               
 _____________________________________________________ SUBDOMAINS ____________________________________________________
 Name                      Page Title                                             IP                                  
 http://m.example.com:80   Mobile Page                                            256.256.256.257                     
-https://m.example.com:443 DR Mobil                                               256.256.256.258                     
+https://m.example.com:443 Secure Mobil Page                                      256.256.256.258                     
                                                                                                                      
 ____________________________________________________ INTERESTING ____________________________________________________
 URL                       Note                                                   Type                                
