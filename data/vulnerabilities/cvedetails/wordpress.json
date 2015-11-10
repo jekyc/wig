@@ -1,5 +1,11 @@
 [
     {
+        "link": "http://cvedetails.com/version/187196",
+        "name": "WordPress",
+        "num_vulns": "6",
+        "version": "4.2.3"
+    },
+    {
         "link": "http://cvedetails.com/version/185073",
         "name": "WordPress",
         "num_vulns": "2",
