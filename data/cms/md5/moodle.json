@@ -666,6 +666,12 @@
         "url": "/README.txt"
     },
     {
+        "match": "5ec853aaf8759920d4d777fe67ab7f67",
+        "output": "v3.0.0-rc4",
+        "type": "md5",
+        "url": "/README.txt"
+    },
+    {
         "match": "65113c69c9b385de87ebc71be0f44664",
         "output": "v1.9.0",
         "type": "md5",
@@ -2076,6 +2082,12 @@
         "url": "/lib/editor/tinymce/module.js"
     },
     {
+        "match": "07aa5b28294c6f1274701b9b1ac596d6",
+        "output": "v3.0.0-rc4",
+        "type": "md5",
+        "url": "/lib/editor/tinymce/module.js"
+    },
+    {
         "match": "1ad2b3acac4758fac6cd4090c374a8e3",
         "output": "v2.4.0",
         "type": "md5",
@@ -3168,6 +3180,12 @@
         "url": "/lib/editor/tinymce/readme_moodle.txt"
     },
     {
+        "match": "c858b5a39dd12b76dd83162cc584c013",
+        "output": "v3.0.0-rc4",
+        "type": "md5",
+        "url": "/lib/editor/tinymce/readme_moodle.txt"
+    },
+    {
         "match": "cc7f8b0ca2474457c3b52ce16bfa2e39",
         "output": "v2.0.0",
         "type": "md5",
@@ -4038,6 +4056,12 @@
         "url": "/lib/form/filemanager.js"
     },
     {
+        "match": "dbb345a8da9128e07279c2e4b7f428ec",
+        "output": "v3.0.0-rc4",
+        "type": "md5",
+        "url": "/lib/form/filemanager.js"
+    },
+    {
         "match": "dd62465c2cfa684d4dc2a5fb96aeb814",
         "output": "v2.7.0-beta",
         "type": "md5",
@@ -4718,6 +4742,12 @@
     {
         "match": "7730f720dc78e4d6241293d6bfd4c215",
         "output": "v3.0.0-rc3",
+        "type": "md5",
+        "url": "/lib/javascript-static.js"
+    },
+    {
+        "match": "7730f720dc78e4d6241293d6bfd4c215",
+        "output": "v3.0.0-rc4",
         "type": "md5",
         "url": "/lib/javascript-static.js"
     },
@@ -6326,6 +6356,12 @@
     {
         "match": "46d2723f33e7795792ce41fadf189e6b",
         "output": "v3.0.0-rc3",
+        "type": "md5",
+        "url": "/login/index_form.html"
+    },
+    {
+        "match": "46d2723f33e7795792ce41fadf189e6b",
+        "output": "v3.0.0-rc4",
         "type": "md5",
         "url": "/login/index_form.html"
     },
@@ -8310,6 +8346,12 @@
         "url": "/mod/upgrade.txt"
     },
     {
+        "match": "adbf4857303fbff5f3a7209b7676d194",
+        "output": "v3.0.0-rc4",
+        "type": "md5",
+        "url": "/mod/upgrade.txt"
+    },
+    {
         "match": "b2cf58be134697dacdb852e13d7013ff",
         "output": "v2.0.0",
         "type": "md5",
@@ -9020,6 +9062,12 @@
     {
         "match": "9199afdb05e6a19b682d3670da7f9c8b",
         "output": "v3.0.0-rc3",
+        "type": "md5",
+        "url": "/theme/base/style/core.css"
+    },
+    {
+        "match": "9199afdb05e6a19b682d3670da7f9c8b",
+        "output": "v3.0.0-rc4",
         "type": "md5",
         "url": "/theme/base/style/core.css"
     },
@@ -10910,6 +10958,12 @@
     {
         "match": "823842ccd85b9fa0b15222dae490ab27",
         "output": "v3.0.0-rc3",
+        "type": "md5",
+        "url": "/user/message.html"
+    },
+    {
+        "match": "823842ccd85b9fa0b15222dae490ab27",
+        "output": "v3.0.0-rc4",
         "type": "md5",
         "url": "/user/message.html"
     },
