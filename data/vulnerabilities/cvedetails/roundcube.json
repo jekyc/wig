@@ -1,5 +1,29 @@
 [
     {
+        "link": "http://cvedetails.com/version/187361",
+        "name": "Roundcube",
+        "num_vulns": "1",
+        "version": "1.1.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/187360",
+        "name": "Roundcube",
+        "num_vulns": "1",
+        "version": "1.1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/187359",
+        "name": "Roundcube",
+        "num_vulns": "1",
+        "version": "1.1.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/187358",
+        "name": "Roundcube",
+        "num_vulns": "1",
+        "version": "1.0.6"
+    },
+    {
         "link": "http://cvedetails.com/version/179555",
         "name": "Roundcube",
         "num_vulns": "1",
