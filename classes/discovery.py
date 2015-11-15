@@ -418,12 +418,14 @@ class DiscoverIP(object):
 		try:
 			hostname = self.path.split('//')[1]
 			hostname = hostname.split('/')[0]
-			ip = socket.gethostbyname(hostname)
+			# changed from 'gethostbyname' to 'gethostbyname_ex' which returns a list of ips
+			# see issue #19
+			ips = socket.gethostbyname_ex(hostname)[2]
 		except Exception as e:
 			#print(e)
-			ip = 'Unknown'
+			ips = ['Unknown']
 
-		return ip
+		return ips
 
 
 

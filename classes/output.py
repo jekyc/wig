@@ -198,8 +198,13 @@ class OutputPrinter(Output):
 		intro = [
 			_header('SITE INFO'),
 			_caption('IP', 'Title', ''),
-			_info(self.data['results'].site_info['ip'], self.data['results'].site_info['title'][:(widths[1] + widths[2])])
+			_info(self.data['results'].site_info['ip'][0], self.data['results'].site_info['title'][:(widths[1] + widths[2])])
 		]
+		
+		# if there are more than one IP in the results (see issue #19)
+		for i in self.data['results'].site_info['ip'][1:]:
+			intro.append(_info(i, ''))
+
 		intro.extend([_space(' '), _header('VERSION'), _caption('Name', 'Versions', 'Type')])
 		output_lines = intro + output_lines
 

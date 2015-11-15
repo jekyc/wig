@@ -30,7 +30,7 @@ class Results(object):
 		self.sitemap = Sitemap()
 		
 		self.site_info = {
-			'ip': '',
+			'ip': [], # changed from a string to a list: see issue #19
 			'title': '',
 			'cookies': set(),
 			'subdomains': set(),
