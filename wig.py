@@ -157,6 +157,7 @@ class Wig(object):
 		self.data['results'].site_info['title'] = title
 
 		# get the IP of the domain
+		# issue 19: changed DiscoverIP to return a list of IPs
 		self.data['results'].site_info['ip'] = DiscoverIP(self.options['url']).run()
 
 
