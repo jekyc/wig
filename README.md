@@ -61,48 +61,59 @@ optional arguments:
 ## Example of run:
 
 ```
-$ ./wig.py example.com
+$ python3 wig.py example.com
 
 wig - WebApp Information Gatherer
 
-Redirected to http://www.example.com. Continue? [Y|n]:
 
-TITLE
---- HTML TITLE ---
-
-IP
-255.255.255.256
-
-
-SOFTWARE                         VERSION                           CATEGORY
-Drupal                           7.28 | 7.29 | 7.30 | 7.31 | 7.32  CMS
-ASP.NET                          4.0.30319.18067                   Platform
-Microsoft-HTTPAPI                2.0                               Platform
-Microsoft-IIS                    6.0 | 7.0 | 7.5 | 8.0             Platform
-Microsoft Windows Server         2003 SP2 | 2008 | 2008 R2 | 2012  Operating System
-       
-SOFTWARE                         VULNERABILITIES                   LINK
-Drupal 7.28                      7                                 http://cvedetails.com/version/169265
-Drupal 7.29                      3                                 http://cvedetails.com/version/169917
-Drupal 7.30                      3                                 http://cvedetails.com/version/169916
-       
-DOMAIN                           TITLE                             IP
-http://m.example.com:80          mobile site                       255.255.255.257
-http://download.example.com:443  other site                        255.255.255.257
-       
-TOOL                             SOFTWARE                          LINK
-CMSmap                           Drupal                            https://github.com/Dionach/CMSmap
-droopescan                       Drupal                            https://github.com/droope/droopescan
-       
-URL                              NOTE                              CATEGORY
-/login/                          Test directory                    Interesting URL
-/login/index_form.html           ASP.NET detailed error            Interesting URL
-/robots.txt                      robots.txt index                  Interesting URL
-/test/                           Test directory                    Interesting URL
-_______________________________________________________________________________
-Time: 15.7 sec            Urls: 351                         Fingerprints: 30560
+Redirected to http://www.example.com
+Continue? [Y|n]:
+Scanning http://www.example.com...
+_____________________________________________________ SITE INFO _____________________________________________________
+IP                        Title                                                                                      
+256.256.256.256           PAGE_TITLE                                 
+                                                                                                                     
+______________________________________________________ VERSION ______________________________________________________
+Name                      Versions                                               Type                                
+Drupal                    7.38                                                   CMS                                 
+nginx                                                                            Platform                            
+amazons3                                                                         Platform                            
+Varnish                                                                          Platform                            
+IIS                       7.5                                                    Platform                            
+ASP.NET                   4.0.30319                                              Platform                            
+jQuery                    1.4.4                                                  JavaScript                          
+Microsoft Windows Server  2008 R2                                                OS                                  
+                                                                                                                     
+_____________________________________________________ SUBDOMAINS ____________________________________________________
+Name                      Page Title                                             IP                                  
+http://m.example.com:80   Mobile Page                                            256.256.256.257                     
+https://m.example.com:443 Secure Mobil Page                                      256.256.256.258                     
+                                                                                                                     
+____________________________________________________ INTERESTING ____________________________________________________
+URL                       Note                                                   Type                                
+/test/                    Test directory                                         Interesting                         
+/login/                   Login Page                                             Interesting                         
+                                                                                                                     
+_______________________________________________ PLATFORM OBSERVATIONS _______________________________________________
+Platform                  URL                                                    Type                                
+ASP.NET 2.0.50727         /old.aspx                                              Observation                         
+ASP.NET 4.0.30319         /login/                                                Observation                         
+IIS 6.0                   http://www.example.com/templates/file.css              Observation                         
+IIS 7.0                   https://www.example.com/login/                         Observation                         
+IIS 7.5                   http://www.example.com                                 Observation                         
+                                                                                                                     
+_______________________________________________________ TOOLS _______________________________________________________
+Name                      Link                                                   Software                            
+droopescan                https://github.com/droope/droopescan                   Drupal                              
+CMSmap                    https://github.com/Dionach/CMSmap                      Drupal                              
+                                                                                                                     
+__________________________________________________ VULNERABILITIES __________________________________________________
+Affected                  #Vulns                                                 Link                                
+Drupal 7.38               5                                                      http://cvedetails.com/version/185744
+                                                                                                                     
+_____________________________________________________________________________________________________________________
+Time: 11.3 sec            Urls: 310                                              Fingerprints: 37580       
 ```
-
 
 ## Call wig as a function
 ```
