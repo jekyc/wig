@@ -79,6 +79,12 @@
     },
     {
         "match": "71516960676910f03c149d7d55a10708",
+        "output": "8.0.0",
+        "type": "md5",
+        "url": "/core/misc/ajax.js"
+    },
+    {
+        "match": "71516960676910f03c149d7d55a10708",
         "output": "8.0.0-rc4",
         "type": "md5",
         "url": "/core/misc/ajax.js"
@@ -308,6 +314,12 @@
     {
         "match": "572404efff52f3775d7ba595142794d8",
         "output": "8.0-alpha9",
+        "type": "md5",
+        "url": "/core/misc/autocomplete.js"
+    },
+    {
+        "match": "60f35341a6ce56cc818163b509da97df",
+        "output": "8.0.0",
         "type": "md5",
         "url": "/core/misc/autocomplete.js"
     },
@@ -613,6 +625,12 @@
     },
     {
         "match": "d906ba1c108edc23cccc7c9091217166",
+        "output": "8.0.0",
+        "type": "md5",
+        "url": "/core/misc/collapse.js"
+    },
+    {
+        "match": "d906ba1c108edc23cccc7c9091217166",
         "output": "8.0.0-rc2",
         "type": "md5",
         "url": "/core/misc/collapse.js"
@@ -716,6 +734,12 @@
     {
         "match": "330a6a8916376627bdb21b0ce45804ca",
         "output": "8.0-alpha8",
+        "type": "md5",
+        "url": "/core/misc/drupal.js"
+    },
+    {
+        "match": "3dcbe8b1280a271797fe4f1dd5700d0c",
+        "output": "8.0.0",
         "type": "md5",
         "url": "/core/misc/drupal.js"
     },
@@ -914,6 +938,12 @@
     {
         "match": "e0e3bf9d03f021158115e2e34a180699",
         "output": "8.0-alpha9",
+        "type": "md5",
+        "url": "/core/misc/druplicon.png"
+    },
+    {
+        "match": "e0e3bf9d03f021158115e2e34a180699",
+        "output": "8.0.0",
         "type": "md5",
         "url": "/core/misc/druplicon.png"
     },
@@ -1177,6 +1207,12 @@
     },
     {
         "match": "c75a837f39694bd7aeb2c6493b109ef6",
+        "output": "8.0.0",
+        "type": "md5",
+        "url": "/core/misc/machine-name.js"
+    },
+    {
+        "match": "c75a837f39694bd7aeb2c6493b109ef6",
         "output": "8.0.0-rc2",
         "type": "md5",
         "url": "/core/misc/machine-name.js"
@@ -1292,6 +1328,12 @@
     {
         "match": "186b3643209dcc98dafa52d4e139a1d7",
         "output": "8.0-alpha6",
+        "type": "md5",
+        "url": "/core/misc/states.js"
+    },
+    {
+        "match": "22e74f8288b067307d6cbc00d6fb8ef1",
+        "output": "8.0.0",
         "type": "md5",
         "url": "/core/misc/states.js"
     },
@@ -1687,6 +1729,12 @@
     },
     {
         "match": "f82657c689caa162f8d4c3b8306d6f45",
+        "output": "8.0.0",
+        "type": "md5",
+        "url": "/core/misc/tabledrag.js"
+    },
+    {
+        "match": "f82657c689caa162f8d4c3b8306d6f45",
         "output": "8.0.0-rc4",
         "type": "md5",
         "url": "/core/misc/tabledrag.js"
@@ -1838,6 +1886,12 @@
     {
         "match": "8bf87bff115759e8104ab462c2fb7b2d",
         "output": "8.0.0-beta11",
+        "type": "md5",
+        "url": "/core/misc/tableheader.js"
+    },
+    {
+        "match": "9b8a5a4bbbc3a923538b65ef00873a0d",
+        "output": "8.0.0",
         "type": "md5",
         "url": "/core/misc/tableheader.js"
     },
@@ -2083,6 +2137,12 @@
     },
     {
         "match": "e59a0849c1ff22243282af463a4dec8f",
+        "output": "8.0.0",
+        "type": "md5",
+        "url": "/core/misc/tableselect.js"
+    },
+    {
+        "match": "e59a0849c1ff22243282af463a4dec8f",
         "output": "8.0.0-rc2",
         "type": "md5",
         "url": "/core/misc/tableselect.js"
@@ -2180,6 +2240,12 @@
     {
         "match": "60c432b95005210b370c7434cfe2de33",
         "output": "8.0-alpha1",
+        "type": "md5",
+        "url": "/core/misc/vertical-tabs.js"
+    },
+    {
+        "match": "74ae35231e88b3b5a6109586f547eeda",
+        "output": "8.0.0",
         "type": "md5",
         "url": "/core/misc/vertical-tabs.js"
     },
@@ -2515,6 +2581,12 @@
     },
     {
         "match": "8e76ef0bd8218a87cb300832d968c14a",
+        "output": "8.0.0",
+        "type": "md5",
+        "url": "/core/modules/book/book.js"
+    },
+    {
+        "match": "8e76ef0bd8218a87cb300832d968c14a",
         "output": "8.0.0-rc2",
         "type": "md5",
         "url": "/core/modules/book/book.js"
@@ -2750,6 +2822,12 @@
     {
         "match": "19b242d4edde0c6eee24162396f21da5",
         "output": "8.0-alpha9",
+        "type": "md5",
+        "url": "/core/modules/contextual/css/contextual.module.css"
+    },
+    {
+        "match": "19b242d4edde0c6eee24162396f21da5",
+        "output": "8.0.0",
         "type": "md5",
         "url": "/core/modules/contextual/css/contextual.module.css"
     },
@@ -3061,6 +3139,12 @@
     },
     {
         "match": "ce302f2b48c0d67df8300ff7c0a99c27",
+        "output": "8.0.0",
+        "type": "md5",
+        "url": "/core/modules/contextual/js/contextual.js"
+    },
+    {
+        "match": "ce302f2b48c0d67df8300ff7c0a99c27",
         "output": "8.0.0-rc2",
         "type": "md5",
         "url": "/core/modules/contextual/js/contextual.js"
@@ -3230,6 +3314,12 @@
     {
         "match": "836d10588405f3eeaa25589fcc4b6b6e",
         "output": "8.0-alpha6",
+        "type": "md5",
+        "url": "/core/modules/file/file.js"
+    },
+    {
+        "match": "8f9f196608210efa9e1ac31f1c639223",
+        "output": "8.0.0",
         "type": "md5",
         "url": "/core/modules/file/file.js"
     },
@@ -3559,6 +3649,12 @@
     },
     {
         "match": "5d0856590414d2c1c5785b8f0290958a",
+        "output": "8.0.0",
+        "type": "md5",
+        "url": "/core/modules/node/css/node.module.css"
+    },
+    {
+        "match": "5d0856590414d2c1c5785b8f0290958a",
         "output": "8.0.0-beta11",
         "type": "md5",
         "url": "/core/modules/node/css/node.module.css"
@@ -3740,6 +3836,12 @@
     {
         "match": "790175f9aa4bb72a1f0e37dd5c68e6a8",
         "output": "8.0-alpha3",
+        "type": "md5",
+        "url": "/core/modules/statistics/statistics.js"
+    },
+    {
+        "match": "83f43417cff2c6b807be8b725419c77e",
+        "output": "8.0.0",
         "type": "md5",
         "url": "/core/modules/statistics/statistics.js"
     },
@@ -3944,6 +4046,12 @@
     {
         "match": "9ea3100aebc1a51d263d499dd8792688",
         "output": "8.0-alpha9",
+        "type": "md5",
+        "url": "/core/modules/user/css/user.module.css"
+    },
+    {
+        "match": "a96cd90d134358183dbbe68030677874",
+        "output": "8.0.0",
         "type": "md5",
         "url": "/core/modules/user/css/user.module.css"
     },

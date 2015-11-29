@@ -79,6 +79,12 @@
     },
     {
         "match": "43b7f8b88453e7e366cfd7e8737e861a",
+        "output": "fundraising/1.22",
+        "type": "md5",
+        "url": "/skins/common/commonElements.css"
+    },
+    {
+        "match": "43b7f8b88453e7e366cfd7e8737e861a",
         "output": "wmf/1.21wmf12",
         "type": "md5",
         "url": "/skins/common/commonElements.css"
@@ -410,6 +416,12 @@
     {
         "match": "9f70101d7e70231412023635e949b5be",
         "output": "1.20.8",
+        "type": "md5",
+        "url": "/skins/common/commonElements.css"
+    },
+    {
+        "match": "9f70101d7e70231412023635e949b5be",
+        "output": "fundraising/1.20",
         "type": "md5",
         "url": "/skins/common/commonElements.css"
     },
@@ -1369,6 +1381,12 @@
     },
     {
         "match": "23382881a94125ffb6fff355a0ecce52",
+        "output": "fundraising/1.20",
+        "type": "md5",
+        "url": "/skins/common/images/spinner.gif"
+    },
+    {
+        "match": "23382881a94125ffb6fff355a0ecce52",
         "output": "wmf/1.20wmf1",
         "type": "md5",
         "url": "/skins/common/images/spinner.gif"
@@ -1952,6 +1970,12 @@
     {
         "match": "ca65bd9886c4369c969085904717e546",
         "output": "1.23.9",
+        "type": "md5",
+        "url": "/skins/common/images/spinner.gif"
+    },
+    {
+        "match": "ca65bd9886c4369c969085904717e546",
+        "output": "fundraising/1.22",
         "type": "md5",
         "url": "/skins/common/images/spinner.gif"
     },
@@ -3229,6 +3253,12 @@
     },
     {
         "match": "bf70a31210d22e79a8cbf853dc045353",
+        "output": "fundraising/1.20",
+        "type": "md5",
+        "url": "/skins/common/shared.css"
+    },
+    {
+        "match": "bf70a31210d22e79a8cbf853dc045353",
         "output": "wmf/1.20wmf1",
         "type": "md5",
         "url": "/skins/common/shared.css"
@@ -3733,6 +3763,12 @@
     },
     {
         "match": "e5c83f3c48c2e8f8e4160f94d486f564",
+        "output": "fundraising/1.22",
+        "type": "md5",
+        "url": "/skins/common/shared.css"
+    },
+    {
+        "match": "e5c83f3c48c2e8f8e4160f94d486f564",
         "output": "wmf/1.21wmf11",
         "type": "md5",
         "url": "/skins/common/shared.css"
@@ -3914,6 +3950,12 @@
     {
         "match": "06c5283c31349fc5ac5f3671ee7dbb4e",
         "output": "1.21.9",
+        "type": "md5",
+        "url": "/skins/common/upload.js"
+    },
+    {
+        "match": "06c5283c31349fc5ac5f3671ee7dbb4e",
+        "output": "fundraising/1.22",
         "type": "md5",
         "url": "/skins/common/upload.js"
     },
@@ -4232,6 +4274,12 @@
     {
         "match": "17d650209f4d26c8d66b3b105646466b",
         "output": "1.19.9",
+        "type": "md5",
+        "url": "/skins/common/upload.js"
+    },
+    {
+        "match": "17d650209f4d26c8d66b3b105646466b",
+        "output": "fundraising/1.20",
         "type": "md5",
         "url": "/skins/common/upload.js"
     },
@@ -6955,6 +7003,12 @@
     },
     {
         "match": "e3561ef0cb17ab8f99b90b8c7abec02b",
+        "output": "fundraising/1.22",
+        "type": "md5",
+        "url": "/skins/common/wikibits.js"
+    },
+    {
+        "match": "e3561ef0cb17ab8f99b90b8c7abec02b",
         "output": "wmf/1.21wmf10",
         "type": "md5",
         "url": "/skins/common/wikibits.js"
@@ -7201,6 +7255,12 @@
     },
     {
         "match": "f1df6310a5b32aea068f5b805228f195",
+        "output": "fundraising/1.20",
+        "type": "md5",
+        "url": "/skins/common/wikibits.js"
+    },
+    {
+        "match": "f1df6310a5b32aea068f5b805228f195",
         "output": "wmf/1.20wmf1",
         "type": "md5",
         "url": "/skins/common/wikibits.js"
@@ -7436,6 +7496,12 @@
     {
         "match": "571d564d634c67d9424edde75e39d2ed",
         "output": "1.21.9",
+        "type": "md5",
+        "url": "/skins/modern/main.css"
+    },
+    {
+        "match": "571d564d634c67d9424edde75e39d2ed",
+        "output": "fundraising/1.22",
         "type": "md5",
         "url": "/skins/modern/main.css"
     },
@@ -8407,6 +8473,12 @@
     },
     {
         "match": "e611460fab0603ecb66b6c2d4b838b47",
+        "output": "fundraising/1.20",
+        "type": "md5",
+        "url": "/skins/modern/main.css"
+    },
+    {
+        "match": "e611460fab0603ecb66b6c2d4b838b47",
         "output": "wmf/1.20wmf10",
         "type": "md5",
         "url": "/skins/modern/main.css"
@@ -9086,6 +9158,12 @@
     {
         "match": "5bb2e1566ad6824bb417ade925b9f85b",
         "output": "1.18.0beta1",
+        "type": "md5",
+        "url": "/skins/monobook/main.css"
+    },
+    {
+        "match": "5f7cc1a85c649d89c9b7a2a358724277",
+        "output": "fundraising/1.22",
         "type": "md5",
         "url": "/skins/monobook/main.css"
     },
@@ -10039,6 +10117,12 @@
     },
     {
         "match": "c877d2bd0d0095b303ecf9bf11b22f52",
+        "output": "fundraising/1.20",
+        "type": "md5",
+        "url": "/skins/monobook/main.css"
+    },
+    {
+        "match": "c877d2bd0d0095b303ecf9bf11b22f52",
         "output": "wmf/1.20wmf3",
         "type": "md5",
         "url": "/skins/monobook/main.css"
@@ -10550,6 +10634,12 @@
     {
         "match": "069c83120a082f0ed7634fa69892beb4",
         "output": "1.21.9",
+        "type": "md5",
+        "url": "/skins/vector/vector.js"
+    },
+    {
+        "match": "069c83120a082f0ed7634fa69892beb4",
+        "output": "fundraising/1.22",
         "type": "md5",
         "url": "/skins/vector/vector.js"
     },
@@ -11198,6 +11288,12 @@
     {
         "match": "9657bd5d71d2e22586b9feb21898c95c",
         "output": "1.19.9",
+        "type": "md5",
+        "url": "/skins/vector/vector.js"
+    },
+    {
+        "match": "9657bd5d71d2e22586b9feb21898c95c",
+        "output": "fundraising/1.20",
         "type": "md5",
         "url": "/skins/vector/vector.js"
     },
