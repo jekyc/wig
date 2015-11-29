@@ -1,56 +1,98 @@
 [
     {
-        "link": "http://cvedetails.com/version/169500",
+        "link": "http://cvedetails.com/version/187633",
         "name": "vBulletin",
         "num_vulns": "1",
+        "version": "5.1.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/187632",
+        "name": "vBulletin",
+        "num_vulns": "1",
+        "version": "5.1.8"
+    },
+    {
+        "link": "http://cvedetails.com/version/187631",
+        "name": "vBulletin",
+        "num_vulns": "1",
+        "version": "5.1.7"
+    },
+    {
+        "link": "http://cvedetails.com/version/187630",
+        "name": "vBulletin",
+        "num_vulns": "1",
+        "version": "5.1.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/187629",
+        "name": "vBulletin",
+        "num_vulns": "1",
+        "version": "5.1.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/187628",
+        "name": "vBulletin",
+        "num_vulns": "1",
+        "version": "5.1.4"
+    },
+    {
+        "link": "http://cvedetails.com/version/187627",
+        "name": "vBulletin",
+        "num_vulns": "1",
+        "version": "5.1.3"
+    },
+    {
+        "link": "http://cvedetails.com/version/169500",
+        "name": "vBulletin",
+        "num_vulns": "2",
         "version": "5.1.2"
     },
     {
         "link": "http://cvedetails.com/version/169499",
         "name": "vBulletin",
-        "num_vulns": "1",
+        "num_vulns": "2",
         "version": "5.1.1"
     },
     {
         "link": "http://cvedetails.com/version/169498",
         "name": "vBulletin",
-        "num_vulns": "1",
+        "num_vulns": "2",
         "version": "5.1.0"
     },
     {
         "link": "http://cvedetails.com/version/169501",
         "name": "vBulletin",
-        "num_vulns": "2",
+        "num_vulns": "3",
         "version": "5.0.5"
     },
     {
         "link": "http://cvedetails.com/version/169502",
         "name": "vBulletin",
-        "num_vulns": "2",
+        "num_vulns": "3",
         "version": "5.0.4"
     },
     {
         "link": "http://cvedetails.com/version/173862",
         "name": "vBulletin",
-        "num_vulns": "1",
+        "num_vulns": "2",
         "version": "5.0.3"
     },
     {
         "link": "http://cvedetails.com/version/173863",
         "name": "vBulletin",
-        "num_vulns": "1",
+        "num_vulns": "2",
         "version": "5.0.2"
     },
     {
         "link": "http://cvedetails.com/version/173864",
         "name": "vBulletin",
-        "num_vulns": "1",
+        "num_vulns": "2",
         "version": "5.0.1"
     },
     {
         "link": "http://cvedetails.com/version/155831",
         "name": "vBulletin",
-        "num_vulns": "2",
+        "num_vulns": "3",
         "version": "5.0.0"
     },
     {
