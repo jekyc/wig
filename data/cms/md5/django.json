@@ -109,6 +109,12 @@
     },
     {
         "match": "9f6547179acea8dbbeda17487ea1e247",
+        "output": "1.9",
+        "type": "md5",
+        "url": "/static/admin/css/base.css"
+    },
+    {
+        "match": "9f6547179acea8dbbeda17487ea1e247",
         "output": "1.9a1",
         "type": "md5",
         "url": "/static/admin/css/base.css"
@@ -788,6 +794,12 @@
     {
         "match": "18b582f79787dce1e5c1077d0148c814",
         "output": "1.0.4",
+        "type": "md5",
+        "url": "/static/admin/css/changelists.css"
+    },
+    {
+        "match": "32a12db9a480d77efb6bbe6b5ce9eba7",
+        "output": "1.9",
         "type": "md5",
         "url": "/static/admin/css/changelists.css"
     },
@@ -1939,6 +1951,12 @@
     },
     {
         "match": "70b858e612810d8ddf422354c7d1d9df",
+        "output": "1.9",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
+        "match": "70b858e612810d8ddf422354c7d1d9df",
         "output": "1.9a1",
         "type": "md5",
         "url": "/static/admin/css/forms.css"
@@ -3302,6 +3320,12 @@
     {
         "match": "9ee3563a2bfe932b3de39c2025d568c7",
         "output": "1.8c1",
+        "type": "md5",
+        "url": "/static/admin/css/login.css"
+    },
+    {
+        "match": "a846c0e2ef654daea65c3186ee6e64ad",
+        "output": "1.9",
         "type": "md5",
         "url": "/static/admin/css/login.css"
     },
@@ -4098,6 +4122,12 @@
         "url": "/static/admin/css/widgets.css"
     },
     {
+        "match": "a7251c09798790802d99ce20c5560875",
+        "output": "1.9",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
         "match": "aa0433eb683478fb99d438875b6c41f4",
         "output": "1.6",
         "type": "md5",
@@ -4783,6 +4813,12 @@
     },
     {
         "match": "92ca1fea665618cea2dae6be66d448e9",
+        "output": "1.9",
+        "type": "md5",
+        "url": "/static/admin/js/SelectFilter2.js"
+    },
+    {
+        "match": "92ca1fea665618cea2dae6be66d448e9",
         "output": "1.9a1",
         "type": "md5",
         "url": "/static/admin/js/SelectFilter2.js"
@@ -5636,6 +5672,12 @@
     {
         "match": "93c8aa32c4615ddda8a6f90900b19953",
         "output": "1.7a2",
+        "type": "md5",
+        "url": "/static/admin/js/actions.js"
+    },
+    {
+        "match": "df9119bcc981875aa1d28482e776aae7",
+        "output": "1.9",
         "type": "md5",
         "url": "/static/admin/js/actions.js"
     },
@@ -6476,6 +6518,12 @@
     {
         "match": "e0b92808aa9470f93719a2ee71d1b55f",
         "output": "1.3.7",
+        "type": "md5",
+        "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "fa515fdd6bee68a456389d0593a7be1a",
+        "output": "1.9",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
@@ -6511,6 +6559,12 @@
     },
     {
         "match": "36c818a27bcc710825eb80ae5ad7f8d5",
+        "output": "1.9",
+        "type": "md5",
+        "url": "/static/admin/js/admin/RelatedObjectLookups.js"
+    },
+    {
+        "match": "36c818a27bcc710825eb80ae5ad7f8d5",
         "output": "1.9a1",
         "type": "md5",
         "url": "/static/admin/js/admin/RelatedObjectLookups.js"
@@ -7234,6 +7288,12 @@
         "output": "1.0.2",
         "type": "md5",
         "url": "/static/admin/js/admin/RelatedObjectLookups.js"
+    },
+    {
+        "match": "55f19d9d59530e904d20a5f4e6bb01e3",
+        "output": "1.9",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
     },
     {
         "match": "55f19d9d59530e904d20a5f4e6bb01e3",
@@ -8300,6 +8360,12 @@
     {
         "match": "7da1bcaffce731b57cd2a6254cd5e95c",
         "output": "1.3.7",
+        "type": "md5",
+        "url": "/static/admin/js/inlines.min.js"
+    },
+    {
+        "match": "91c080dc1cbf62a0be9d17ed80b4c5ae",
+        "output": "1.9",
         "type": "md5",
         "url": "/static/admin/js/inlines.min.js"
     },
