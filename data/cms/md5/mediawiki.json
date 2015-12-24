@@ -217,6 +217,12 @@
     },
     {
         "match": "601a868ac3a69111d9df64a1b5304772",
+        "output": "1.23.13",
+        "type": "md5",
+        "url": "/skins/common/commonElements.css"
+    },
+    {
+        "match": "601a868ac3a69111d9df64a1b5304772",
         "output": "1.23.2",
         "type": "md5",
         "url": "/skins/common/commonElements.css"
@@ -1939,6 +1945,12 @@
     },
     {
         "match": "ca65bd9886c4369c969085904717e546",
+        "output": "1.23.13",
+        "type": "md5",
+        "url": "/skins/common/images/spinner.gif"
+    },
+    {
+        "match": "ca65bd9886c4369c969085904717e546",
         "output": "1.23.2",
         "type": "md5",
         "url": "/skins/common/images/spinner.gif"
@@ -3056,6 +3068,12 @@
     {
         "match": "838181dd9a1ce3c9e4d50a29a9945f5e",
         "output": "1.23.12",
+        "type": "md5",
+        "url": "/skins/common/shared.css"
+    },
+    {
+        "match": "838181dd9a1ce3c9e4d50a29a9945f5e",
+        "output": "1.23.13",
         "type": "md5",
         "url": "/skins/common/shared.css"
     },
@@ -5245,6 +5263,12 @@
     },
     {
         "match": "e308af0d619e11b1a9c083ed1029d2fc",
+        "output": "1.23.13",
+        "type": "md5",
+        "url": "/skins/common/upload.js"
+    },
+    {
+        "match": "e308af0d619e11b1a9c083ed1029d2fc",
         "output": "1.23.2",
         "type": "md5",
         "url": "/skins/common/upload.js"
@@ -6338,6 +6362,12 @@
     {
         "match": "7572703384f90a06c0c2a58fc5543463",
         "output": "1.23.12",
+        "type": "md5",
+        "url": "/skins/common/wikibits.js"
+    },
+    {
+        "match": "7572703384f90a06c0c2a58fc5543463",
+        "output": "1.23.13",
         "type": "md5",
         "url": "/skins/common/wikibits.js"
     },
@@ -8233,6 +8263,12 @@
     },
     {
         "match": "aa3a249009c85a16f387235da00a589e",
+        "output": "1.23.13",
+        "type": "md5",
+        "url": "/skins/modern/main.css"
+    },
+    {
+        "match": "aa3a249009c85a16f387235da00a589e",
         "output": "1.23.2",
         "type": "md5",
         "url": "/skins/modern/main.css"
@@ -10087,6 +10123,12 @@
     },
     {
         "match": "ba1c96cf774fbc90342cb0683198cfc7",
+        "output": "1.23.13",
+        "type": "md5",
+        "url": "/skins/monobook/main.css"
+    },
+    {
+        "match": "ba1c96cf774fbc90342cb0683198cfc7",
         "output": "1.23.2",
         "type": "md5",
         "url": "/skins/monobook/main.css"
@@ -11462,6 +11504,12 @@
     {
         "match": "f3e93f284ec1c4981a9a789f17fb11cd",
         "output": "1.23.12",
+        "type": "md5",
+        "url": "/skins/vector/vector.js"
+    },
+    {
+        "match": "f3e93f284ec1c4981a9a789f17fb11cd",
+        "output": "1.23.13",
         "type": "md5",
         "url": "/skins/vector/vector.js"
     },
