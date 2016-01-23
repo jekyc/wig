@@ -67,6 +67,12 @@
     },
     {
         "info": "webfont.js",
+        "md5": "316f3557abf074f917ff1f83d776338d",
+        "output": "1.6.16",
+        "url": ""
+    },
+    {
+        "info": "webfont.js",
         "md5": "355b643e3468b8a7a2fa49c4cd2cb26c",
         "output": "1.0.16",
         "url": ""

@@ -1486,5 +1486,41 @@
         "minified": true,
         "output": "1.11.3",
         "url": ""
+    },
+    {
+        "md5": "cbb11b58473b2d672f4ed53abbb67336",
+        "minified": true,
+        "output": "1.12.0",
+        "url": ""
+    },
+    {
+        "md5": "56f1d01ee4bb68d1572cfd60755cf67a",
+        "minified": false,
+        "output": "2.2.0",
+        "url": ""
+    },
+    {
+        "md5": "cd0095b52c4242a8aea3ae91aba35ea8",
+        "minified": false,
+        "output": "1.12.0",
+        "url": ""
+    },
+    {
+        "md5": "6fc159d00dc3cea4153c038739683f93",
+        "minified": true,
+        "output": "2.2.0",
+        "url": ""
+    },
+    {
+        "md5": "cf51482ef9f7e5a2088d74edb7f0f0a8",
+        "minified": true,
+        "output": "migrate-1.3.0",
+        "url": ""
+    },
+    {
+        "md5": "534c71a0be7499a841cb2ef74d3987c7",
+        "minified": false,
+        "output": "migrate-1.3.0",
+        "url": ""
     }
 ]

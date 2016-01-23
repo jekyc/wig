@@ -25,6 +25,12 @@
     },
     {
         "info": "mootools-yui-compressed.js",
+        "md5": "246ef97c5cda2f58aae5a591c4e7cce2",
+        "output": "1.6.0",
+        "url": ""
+    },
+    {
+        "info": "mootools-yui-compressed.js",
         "md5": "3a5a9e0eac0e871904b884cbb6207368",
         "output": "1.4.4",
         "url": ""
@@ -183,6 +189,12 @@
         "info": "mootools.js",
         "md5": "831a10d844deb8c534eed4a594716cb6",
         "output": "1.4.1",
+        "url": ""
+    },
+    {
+        "info": "mootools.js",
+        "md5": "83994ce3a0e36f2416c76be577a23e45",
+        "output": "1.6.0",
         "url": ""
     },
     {
