@@ -61,6 +61,12 @@
     },
     {
         "info": "angular.js",
+        "md5": "3a542919ab5c8d42cd58cd6b91932fe3",
+        "output": "1.4.6",
+        "url": ""
+    },
+    {
+        "info": "angular.js",
         "md5": "3b03b3bfafe957ec5def7524d73aa588",
         "output": "1.2.6",
         "url": ""
@@ -181,6 +187,12 @@
     },
     {
         "info": "angular.js",
+        "md5": "7ee4960c3fdfa8a88b3b540e19fcf7ff",
+        "output": "1.4.3",
+        "url": ""
+    },
+    {
+        "info": "angular.js",
         "md5": "7f119918d852c308cbc9aa62ea36c84b",
         "output": "1.3.3",
         "url": ""
@@ -207,6 +219,12 @@
         "info": "angular.js",
         "md5": "8765c92a359fd0c3077ebb759f3d021a",
         "output": "1.2.14",
+        "url": ""
+    },
+    {
+        "info": "angular.js",
+        "md5": "8c5a623362ca687f51b4a0500f4369a3",
+        "output": "1.4.7",
         "url": ""
     },
     {
@@ -241,6 +259,12 @@
     },
     {
         "info": "angular.js",
+        "md5": "9e75fabc0b1b629ec2283975719c5494",
+        "output": "1.4.9",
+        "url": ""
+    },
+    {
+        "info": "angular.js",
         "md5": "9f8c5848e090f61169284c8b4b282814",
         "output": "1.2.17",
         "url": ""
@@ -249,6 +273,12 @@
         "info": "angular.js",
         "md5": "a4cbb6fecda5b2909bcb4c87a31a3c89",
         "output": "1.2.15",
+        "url": ""
+    },
+    {
+        "info": "angular.js",
+        "md5": "a5807498c5d4494aff13723982ab8e7b",
+        "output": "1.4.5",
         "url": ""
     },
     {
@@ -289,6 +319,12 @@
     },
     {
         "info": "angular.js",
+        "md5": "c12fee3cfd679f85b9a27fd34e8aad71",
+        "output": "1.4.8",
+        "url": ""
+    },
+    {
+        "info": "angular.js",
         "md5": "c678c4df656e12a0c787e0c19942c542",
         "output": "1.2.4",
         "url": ""
@@ -297,6 +333,12 @@
         "info": "angular.js",
         "md5": "ca9ff790d024aa9882a916c05b9629c7",
         "output": "1.2.11",
+        "url": ""
+    },
+    {
+        "info": "angular.js",
+        "md5": "d4820f67157e827a405b3609bf12aab3",
+        "output": "1.4.4",
         "url": ""
     },
     {
@@ -385,6 +427,12 @@
     },
     {
         "info": "angular.min.js",
+        "md5": "1a7893bc638fb8900b0e57e748ff4bb5",
+        "output": "1.4.6",
+        "url": ""
+    },
+    {
+        "info": "angular.min.js",
         "md5": "23419e86ac69a04cc78f25bd49055e00",
         "output": "1.0.1",
         "url": ""
@@ -393,6 +441,12 @@
         "info": "angular.min.js",
         "md5": "24abcd525af321c6538ef0eb9e49b4e9",
         "output": "1.2.22",
+        "url": ""
+    },
+    {
+        "info": "angular.min.js",
+        "md5": "26680517e1024ca2c4f9ed4e0aa1619e",
+        "output": "1.4.5",
         "url": ""
     },
     {
@@ -417,6 +471,12 @@
         "info": "angular.min.js",
         "md5": "32916703df7b29666deb89284e6ebc50",
         "output": "1.0.5",
+        "url": ""
+    },
+    {
+        "info": "angular.min.js",
+        "md5": "338db4826dcbc337102c071a5eb93a21",
+        "output": "1.4.7",
         "url": ""
     },
     {
@@ -553,6 +613,18 @@
     },
     {
         "info": "angular.min.js",
+        "md5": "90fb950dbc3e9296755d9cc23a211744",
+        "output": "1.4.8",
+        "url": ""
+    },
+    {
+        "info": "angular.min.js",
+        "md5": "9324788c75670e5a821cd5d2355f0754",
+        "output": "1.4.9",
+        "url": ""
+    },
+    {
+        "info": "angular.min.js",
         "md5": "9337e3234528f408f30ed9235ab89bbc",
         "output": "1.0.3",
         "url": ""
@@ -625,6 +697,12 @@
     },
     {
         "info": "angular.min.js",
+        "md5": "d2342622316f832ef1333c74e41354ca",
+        "output": "1.4.3",
+        "url": ""
+    },
+    {
+        "info": "angular.min.js",
         "md5": "d6932521b46d4a74341c8c0b7d574f72",
         "output": "1.2.20",
         "url": ""
@@ -675,6 +753,12 @@
         "info": "angular.min.js",
         "md5": "fa392f1d76ff2c33fd9dde1aab24eedd",
         "output": "1.3.6",
+        "url": ""
+    },
+    {
+        "info": "angular.min.js",
+        "md5": "feeb76d0de3487eb412c1928625e8fca",
+        "output": "1.4.4",
         "url": ""
     },
     {
