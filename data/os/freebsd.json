@@ -307,21 +307,27 @@
     },
     {
         "os_name": "FreeBSD",
+        "os_version": "11",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "8.0.28"
+    },
+    {
+        "os_name": "FreeBSD",
         "os_version": "10",
         "pkg_name": "apache-tomcat",
-        "pkg_version": "8.0.28"
+        "pkg_version": "8.0.30"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "10",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "8.0.30"
     },
     {
         "os_name": "FreeBSD",
         "os_version": "11",
         "pkg_name": "apache-tomcat",
-        "pkg_version": "8.0.28"
-    },
-    {
-        "os_name": "FreeBSD",
-        "os_version": "11",
-        "pkg_name": "apache-tomcat",
-        "pkg_version": "8.0.28"
+        "pkg_version": "8.0.30"
     },
     {
         "os_name": "FreeBSD",
@@ -799,33 +805,45 @@
     },
     {
         "os_name": "FreeBSD",
+        "os_version": "10.2",
+        "pkg_name": "nginx",
+        "pkg_version": "1.8.0"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "10.2",
+        "pkg_name": "nginx",
+        "pkg_version": "1.8.0"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "11",
+        "pkg_name": "nginx",
+        "pkg_version": "1.8.0"
+    },
+    {
+        "os_name": "FreeBSD",
         "os_version": "10",
         "pkg_name": "nginx",
-        "pkg_version": "1.8.0"
+        "pkg_version": "1.8.1"
     },
     {
         "os_name": "FreeBSD",
-        "os_version": "10.2",
+        "os_version": "10",
         "pkg_name": "nginx",
-        "pkg_version": "1.8.0"
-    },
-    {
-        "os_name": "FreeBSD",
-        "os_version": "10.2",
-        "pkg_name": "nginx",
-        "pkg_version": "1.8.0"
+        "pkg_version": "1.8.1"
     },
     {
         "os_name": "FreeBSD",
         "os_version": "11",
         "pkg_name": "nginx",
-        "pkg_version": "1.8.0"
+        "pkg_version": "1.8.1"
     },
     {
         "os_name": "FreeBSD",
         "os_version": "11",
         "pkg_name": "nginx",
-        "pkg_version": "1.8.0"
+        "pkg_version": "1.8.1"
     },
     {
         "os_name": "FreeBSD",
@@ -1375,18 +1393,6 @@
     },
     {
         "os_name": "FreeBSD",
-        "os_version": "10",
-        "pkg_name": "php",
-        "pkg_version": "5.4.45"
-    },
-    {
-        "os_name": "FreeBSD",
-        "os_version": "11",
-        "pkg_name": "php",
-        "pkg_version": "5.4.45"
-    },
-    {
-        "os_name": "FreeBSD",
         "os_version": "11",
         "pkg_name": "php",
         "pkg_version": "5.4.45"
@@ -1633,21 +1639,51 @@
     },
     {
         "os_name": "FreeBSD",
+        "os_version": "11",
+        "pkg_name": "phpMyAdmin",
+        "pkg_version": "4.5.3.1"
+    },
+    {
+        "os_name": "FreeBSD",
         "os_version": "10",
         "pkg_name": "phpMyAdmin",
-        "pkg_version": "4.5.3.1"
+        "pkg_version": "4.5.4.1"
     },
     {
         "os_name": "FreeBSD",
         "os_version": "11",
         "pkg_name": "phpMyAdmin",
-        "pkg_version": "4.5.3.1"
+        "pkg_version": "4.5.4.1"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "10",
+        "pkg_name": "phpMyAdmin",
+        "pkg_version": "4.5.5"
     },
     {
         "os_name": "FreeBSD",
         "os_version": "11",
         "pkg_name": "phpMyAdmin",
-        "pkg_version": "4.5.3.1"
+        "pkg_version": "4.5.5"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "10",
+        "pkg_name": "phpMyAdmin",
+        "pkg_version": "4.5.5.1"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "10",
+        "pkg_name": "phpMyAdmin",
+        "pkg_version": "4.5.5.1"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "11",
+        "pkg_name": "phpMyAdmin",
+        "pkg_version": "4.5.5.1"
     },
     {
         "os_name": "FreeBSD",
@@ -2407,21 +2443,33 @@
     },
     {
         "os_name": "FreeBSD",
+        "os_version": "11",
+        "pkg_name": "wordpress",
+        "pkg_version": "4.4.1"
+    },
+    {
+        "os_name": "FreeBSD",
         "os_version": "10",
         "pkg_name": "wordpress",
-        "pkg_version": "4.4.1"
+        "pkg_version": "4.4.2"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "10",
+        "pkg_name": "wordpress",
+        "pkg_version": "4.4.2"
     },
     {
         "os_name": "FreeBSD",
         "os_version": "11",
         "pkg_name": "wordpress",
-        "pkg_version": "4.4.1"
+        "pkg_version": "4.4.2"
     },
     {
         "os_name": "FreeBSD",
         "os_version": "11",
         "pkg_name": "wordpress",
-        "pkg_version": "4.4.1"
+        "pkg_version": "4.4.2"
     },
     {
         "os_name": "FreeBSD",

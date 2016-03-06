@@ -1522,5 +1522,41 @@
         "minified": false,
         "output": "migrate-1.3.0",
         "url": ""
+    },
+    {
+        "md5": "1d244cb043be8157f0050ce9e45c9ef2",
+        "minified": true,
+        "output": "1.12.1",
+        "url": ""
+    },
+    {
+        "md5": "9736219fdc59010aa7290487b5802d03",
+        "minified": false,
+        "output": "2.2.1",
+        "url": ""
+    },
+    {
+        "md5": "6cbb321051a268424103cd4aea8ffa66",
+        "minified": true,
+        "output": "2.2.1",
+        "url": ""
+    },
+    {
+        "md5": "62f69d29b6f01c8d477a547cedd922f2",
+        "minified": false,
+        "output": "1.12.1",
+        "url": ""
+    },
+    {
+        "md5": "ebc1f400b972b3437d67e90e14ac72d0",
+        "minified": true,
+        "output": "migrate-1.4.0",
+        "url": ""
+    },
+    {
+        "md5": "00970611f0ee1cadf746d3770c111dea",
+        "minified": false,
+        "output": "migrate-1.4.0",
+        "url": ""
     }
 ]

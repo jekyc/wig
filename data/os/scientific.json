@@ -67,7 +67,13 @@
     },
     {
         "os_name": "Scientific Linux",
-        "os_version": "7.1",
+        "os_version": "7.2",
+        "pkg_name": "Apache",
+        "pkg_version": "2.4.6"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "7.2",
         "pkg_name": "Apache",
         "pkg_version": "2.4.6"
     },
@@ -115,7 +121,13 @@
     },
     {
         "os_name": "Scientific Linux",
-        "os_version": "7.1",
+        "os_version": "7.2",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "7.0.54"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "7.2",
         "pkg_name": "apache-tomcat",
         "pkg_version": "7.0.54"
     },
@@ -241,7 +253,13 @@
     },
     {
         "os_name": "Scientific Linux",
-        "os_version": "7.1",
+        "os_version": "7.2",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.1e"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "7.2",
         "pkg_name": "openssl",
         "pkg_version": "1.0.1e"
     },
@@ -277,7 +295,13 @@
     },
     {
         "os_name": "Scientific Linux",
-        "os_version": "7.1",
+        "os_version": "7.2",
+        "pkg_name": "perl",
+        "pkg_version": "5.16.3"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "7.2",
         "pkg_name": "perl",
         "pkg_version": "5.16.3"
     },
@@ -385,7 +409,13 @@
     },
     {
         "os_name": "Scientific Linux",
-        "os_version": "7.1",
+        "os_version": "7.2",
+        "pkg_name": "php",
+        "pkg_version": "5.4.16"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "7.2",
         "pkg_name": "php",
         "pkg_version": "5.4.16"
     },
@@ -457,7 +487,13 @@
     },
     {
         "os_name": "Scientific Linux",
-        "os_version": "7.1",
+        "os_version": "7.2",
+        "pkg_name": "ruby",
+        "pkg_version": "2.0.0-p598"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "7.2",
         "pkg_name": "ruby",
         "pkg_version": "2.0.0-p598"
     },
@@ -517,7 +553,13 @@
     },
     {
         "os_name": "Scientific Linux",
-        "os_version": "7.1",
+        "os_version": "7.2",
+        "pkg_name": "subversion",
+        "pkg_version": "1.7.14"
+    },
+    {
+        "os_name": "Scientific Linux",
+        "os_version": "7.2",
         "pkg_name": "subversion",
         "pkg_version": "1.7.14"
     }
