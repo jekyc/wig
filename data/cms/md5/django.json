@@ -133,6 +133,12 @@
     },
     {
         "match": "9f6547179acea8dbbeda17487ea1e247",
+        "output": "1.9.4",
+        "type": "md5",
+        "url": "/static/admin/css/base.css"
+    },
+    {
+        "match": "9f6547179acea8dbbeda17487ea1e247",
         "output": "1.9a1",
         "type": "md5",
         "url": "/static/admin/css/base.css"
@@ -703,6 +709,12 @@
     },
     {
         "match": "f0d165989b7752e133c251bea9ea637e",
+        "output": "1.8.11",
+        "type": "md5",
+        "url": "/static/admin/css/base.css"
+    },
+    {
+        "match": "f0d165989b7752e133c251bea9ea637e",
         "output": "1.8.2",
         "type": "md5",
         "url": "/static/admin/css/base.css"
@@ -854,6 +866,12 @@
     {
         "match": "32a12db9a480d77efb6bbe6b5ce9eba7",
         "output": "1.9.3",
+        "type": "md5",
+        "url": "/static/admin/css/changelists.css"
+    },
+    {
+        "match": "32a12db9a480d77efb6bbe6b5ce9eba7",
+        "output": "1.9.4",
         "type": "md5",
         "url": "/static/admin/css/changelists.css"
     },
@@ -1472,6 +1490,12 @@
     {
         "match": "facd9faec460388a3a53d57f1a647214",
         "output": "1.8.10",
+        "type": "md5",
+        "url": "/static/admin/css/changelists.css"
+    },
+    {
+        "match": "facd9faec460388a3a53d57f1a647214",
+        "output": "1.8.11",
         "type": "md5",
         "url": "/static/admin/css/changelists.css"
     },
@@ -1699,6 +1723,12 @@
     },
     {
         "match": "4d10ed9b5ee50f9aef9c1e276347edf1",
+        "output": "1.8.11",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
+        "match": "4d10ed9b5ee50f9aef9c1e276347edf1",
         "output": "1.8.2",
         "type": "md5",
         "url": "/static/admin/css/forms.css"
@@ -2060,6 +2090,12 @@
     {
         "match": "70b858e612810d8ddf422354c7d1d9df",
         "output": "1.9.3",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
+        "match": "70b858e612810d8ddf422354c7d1d9df",
+        "output": "1.9.4",
         "type": "md5",
         "url": "/static/admin/css/forms.css"
     },
@@ -2341,6 +2377,12 @@
     },
     {
         "match": "2ca52592ccf6cab98b0f1e9bf1cbff7c",
+        "output": "1.8.11",
+        "type": "md5",
+        "url": "/static/admin/css/ie.css"
+    },
+    {
+        "match": "2ca52592ccf6cab98b0f1e9bf1cbff7c",
         "output": "1.8.2",
         "type": "md5",
         "url": "/static/admin/css/ie.css"
@@ -3397,6 +3439,12 @@
     },
     {
         "match": "9ee3563a2bfe932b3de39c2025d568c7",
+        "output": "1.8.11",
+        "type": "md5",
+        "url": "/static/admin/css/login.css"
+    },
+    {
+        "match": "9ee3563a2bfe932b3de39c2025d568c7",
         "output": "1.8.2",
         "type": "md5",
         "url": "/static/admin/css/login.css"
@@ -3488,6 +3536,12 @@
     {
         "match": "a846c0e2ef654daea65c3186ee6e64ad",
         "output": "1.9.3",
+        "type": "md5",
+        "url": "/static/admin/css/login.css"
+    },
+    {
+        "match": "a846c0e2ef654daea65c3186ee6e64ad",
+        "output": "1.9.4",
         "type": "md5",
         "url": "/static/admin/css/login.css"
     },
@@ -3992,6 +4046,12 @@
     {
         "match": "2753875e2781db9c06c54c89acf4b91a",
         "output": "1.8.10",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "2753875e2781db9c06c54c89acf4b91a",
+        "output": "1.8.11",
         "type": "md5",
         "url": "/static/admin/css/widgets.css"
     },
@@ -4322,6 +4382,12 @@
     {
         "match": "a7251c09798790802d99ce20c5560875",
         "output": "1.9.3",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "a7251c09798790802d99ce20c5560875",
+        "output": "1.9.4",
         "type": "md5",
         "url": "/static/admin/css/widgets.css"
     },
@@ -4957,6 +5023,12 @@
     },
     {
         "match": "54a4515a9134420c2bfca43d23a3ddea",
+        "output": "1.8.11",
+        "type": "md5",
+        "url": "/static/admin/js/SelectFilter2.js"
+    },
+    {
+        "match": "54a4515a9134420c2bfca43d23a3ddea",
         "output": "1.8.2",
         "type": "md5",
         "url": "/static/admin/js/SelectFilter2.js"
@@ -5048,6 +5120,12 @@
     {
         "match": "92ca1fea665618cea2dae6be66d448e9",
         "output": "1.9.3",
+        "type": "md5",
+        "url": "/static/admin/js/SelectFilter2.js"
+    },
+    {
+        "match": "92ca1fea665618cea2dae6be66d448e9",
+        "output": "1.9.4",
         "type": "md5",
         "url": "/static/admin/js/SelectFilter2.js"
     },
@@ -5707,6 +5785,12 @@
     },
     {
         "match": "42b74ac13f07ba78ce8a424958324c68",
+        "output": "1.8.11",
+        "type": "md5",
+        "url": "/static/admin/js/actions.js"
+    },
+    {
+        "match": "42b74ac13f07ba78ce8a424958324c68",
         "output": "1.8.2",
         "type": "md5",
         "url": "/static/admin/js/actions.js"
@@ -5948,6 +6032,12 @@
     {
         "match": "df9119bcc981875aa1d28482e776aae7",
         "output": "1.9.3",
+        "type": "md5",
+        "url": "/static/admin/js/actions.js"
+    },
+    {
+        "match": "df9119bcc981875aa1d28482e776aae7",
+        "output": "1.9.4",
         "type": "md5",
         "url": "/static/admin/js/actions.js"
     },
@@ -6337,6 +6427,12 @@
     },
     {
         "match": "1368280f407574c09376054673172809",
+        "output": "1.8.11",
+        "type": "md5",
+        "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "1368280f407574c09376054673172809",
         "output": "1.8.9",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
@@ -6428,6 +6524,12 @@
     {
         "match": "1a1d41ec13f8f4118294b9f7d826f4e0",
         "output": "1.9.3",
+        "type": "md5",
+        "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "1a1d41ec13f8f4118294b9f7d826f4e0",
+        "output": "1.9.4",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
@@ -6913,6 +7015,12 @@
     },
     {
         "match": "58b2336c1e19c9aec69cd30bc77043db",
+        "output": "1.8.11",
+        "type": "md5",
+        "url": "/static/admin/js/admin/RelatedObjectLookups.js"
+    },
+    {
+        "match": "58b2336c1e19c9aec69cd30bc77043db",
         "output": "1.8.2",
         "type": "md5",
         "url": "/static/admin/js/admin/RelatedObjectLookups.js"
@@ -7632,6 +7740,12 @@
         "url": "/static/admin/js/admin/RelatedObjectLookups.js"
     },
     {
+        "match": "b09945d2d972693fec6551420801db62",
+        "output": "1.9.4",
+        "type": "md5",
+        "url": "/static/admin/js/admin/RelatedObjectLookups.js"
+    },
+    {
         "match": "55f19d9d59530e904d20a5f4e6bb01e3",
         "output": "1.9",
         "type": "md5",
@@ -7866,8 +7980,20 @@
         "url": "/static/admin/js/core.js"
     },
     {
+        "match": "84da04fcbfaf7b6f2962cc21bc84aa9b",
+        "output": "1.9.4",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "8800d3d6dbd23f48998536a48a715313",
         "output": "1.8.10",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
+        "match": "8800d3d6dbd23f48998536a48a715313",
+        "output": "1.8.11",
         "type": "md5",
         "url": "/static/admin/js/core.js"
     },
@@ -8767,6 +8893,12 @@
     },
     {
         "match": "91c080dc1cbf62a0be9d17ed80b4c5ae",
+        "output": "1.9.4",
+        "type": "md5",
+        "url": "/static/admin/js/inlines.min.js"
+    },
+    {
+        "match": "91c080dc1cbf62a0be9d17ed80b4c5ae",
         "output": "1.9a1",
         "type": "md5",
         "url": "/static/admin/js/inlines.min.js"
@@ -9049,6 +9181,12 @@
     },
     {
         "match": "e3cd9638369fd990e2828d48f94d0e5f",
+        "output": "1.8.11",
+        "type": "md5",
+        "url": "/static/admin/js/inlines.min.js"
+    },
+    {
+        "match": "e3cd9638369fd990e2828d48f94d0e5f",
         "output": "1.8.2",
         "type": "md5",
         "url": "/static/admin/js/inlines.min.js"
@@ -9715,6 +9853,12 @@
     },
     {
         "match": "c0b3962f9f23a89256a055c89a4aecf6",
+        "output": "1.8.11",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.js"
+    },
+    {
+        "match": "c0b3962f9f23a89256a055c89a4aecf6",
         "output": "1.8.2",
         "type": "md5",
         "url": "/static/admin/js/jquery.js"
@@ -10381,6 +10525,12 @@
     },
     {
         "match": "5790ead7ad3ba27397aedfa3d263b867",
+        "output": "1.8.11",
+        "type": "md5",
+        "url": "/static/admin/js/jquery.min.js"
+    },
+    {
+        "match": "5790ead7ad3ba27397aedfa3d263b867",
         "output": "1.8.2",
         "type": "md5",
         "url": "/static/admin/js/jquery.min.js"
@@ -10466,6 +10616,12 @@
     {
         "match": "3641d148e4330c19f81566ab02a31143",
         "output": "1.8.10",
+        "type": "md5",
+        "url": "/static/admin/js/related-widget-wrapper.js"
+    },
+    {
+        "match": "3641d148e4330c19f81566ab02a31143",
+        "output": "1.8.11",
         "type": "md5",
         "url": "/static/admin/js/related-widget-wrapper.js"
     },

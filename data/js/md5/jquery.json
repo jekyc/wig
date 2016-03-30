@@ -1558,5 +1558,29 @@
         "minified": false,
         "output": "migrate-1.4.0",
         "url": ""
+    },
+    {
+        "md5": "65a68381f99ad9484045173059524809",
+        "minified": false,
+        "output": "1.12.2",
+        "url": ""
+    },
+    {
+        "md5": "bdc2b7efb1faf219d65edfe253a103e9",
+        "minified": true,
+        "output": "1.12.2",
+        "url": ""
+    },
+    {
+        "md5": "1d35678c5edbb639ab7aa5cce0856f57",
+        "minified": true,
+        "output": "2.2.2",
+        "url": ""
+    },
+    {
+        "md5": "c2e3d53624f901f3f15ae4d03b098eef",
+        "minified": false,
+        "output": "2.2.2",
+        "url": ""
     }
 ]

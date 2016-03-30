@@ -42,6 +42,12 @@
         "url": "/core/misc/ajax.js"
     },
     {
+        "match": "3064ff3ea7718104f0cb4b50940f0c8d",
+        "output": "8.1.0-beta2",
+        "type": "md5",
+        "url": "/core/misc/ajax.js"
+    },
+    {
         "match": "3237eac22f4861ae627e8bb7fe4d4541",
         "output": "8.0-alpha2",
         "type": "md5",
@@ -320,6 +326,12 @@
     {
         "match": "3aa63d0af0d4b8ae0c3812be1639c696",
         "output": "8.0-alpha7",
+        "type": "md5",
+        "url": "/core/misc/autocomplete.js"
+    },
+    {
+        "match": "44964182ca78ea6380a1ecf0c4bcd891",
+        "output": "8.1.0-beta2",
         "type": "md5",
         "url": "/core/misc/autocomplete.js"
     },
@@ -608,6 +620,12 @@
     {
         "match": "b6aa7ec176ff7d3d89cd144989681eae",
         "output": "8.1.0-beta1",
+        "type": "md5",
+        "url": "/core/misc/collapse.js"
+    },
+    {
+        "match": "b6aa7ec176ff7d3d89cd144989681eae",
+        "output": "8.1.0-beta2",
         "type": "md5",
         "url": "/core/misc/collapse.js"
     },
@@ -936,6 +954,12 @@
         "url": "/core/misc/drupal.js"
     },
     {
+        "match": "714d7aeb86ea12acc0de88e2b135f14d",
+        "output": "8.1.0-beta2",
+        "type": "md5",
+        "url": "/core/misc/drupal.js"
+    },
+    {
         "match": "835831a0e9cbaab00ba956f4743c0d7b",
         "output": "8.0.0-beta7",
         "type": "md5",
@@ -1260,6 +1284,12 @@
         "url": "/core/misc/druplicon.png"
     },
     {
+        "match": "e0e3bf9d03f021158115e2e34a180699",
+        "output": "8.1.0-beta2",
+        "type": "md5",
+        "url": "/core/misc/druplicon.png"
+    },
+    {
         "match": "e51be64870f23f7ba920206ed3efeab9",
         "output": "8.0-alpha1",
         "type": "md5",
@@ -1364,6 +1394,12 @@
     {
         "match": "2c9cd7ed840184649bb7d1dde4233d33",
         "output": "8.1.0-beta1",
+        "type": "md5",
+        "url": "/core/misc/machine-name.js"
+    },
+    {
+        "match": "2c9cd7ed840184649bb7d1dde4233d33",
+        "output": "8.1.0-beta2",
         "type": "md5",
         "url": "/core/misc/machine-name.js"
     },
@@ -1626,6 +1662,12 @@
         "url": "/core/misc/states.js"
     },
     {
+        "match": "59507a2052d586d1cfcaa4a2267d820e",
+        "output": "8.1.0-beta2",
+        "type": "md5",
+        "url": "/core/misc/states.js"
+    },
+    {
         "match": "81baf22bce84ae60ba5ef349d4e01b88",
         "output": "8.0-alpha10",
         "type": "md5",
@@ -1820,6 +1862,12 @@
     {
         "match": "3ab4e8029dde2c47fb2aa7b954d626f8",
         "output": "8.1.0-beta1",
+        "type": "md5",
+        "url": "/core/misc/tabledrag.js"
+    },
+    {
+        "match": "3ab4e8029dde2c47fb2aa7b954d626f8",
+        "output": "8.1.0-beta2",
         "type": "md5",
         "url": "/core/misc/tabledrag.js"
     },
@@ -2262,6 +2310,12 @@
         "url": "/core/misc/tableheader.js"
     },
     {
+        "match": "f63e2269330c6d2cef0e63b40bcc77b1",
+        "output": "8.1.0-beta2",
+        "type": "md5",
+        "url": "/core/misc/tableheader.js"
+    },
+    {
         "match": "f91132e7895f8f212c2afa18906472ac",
         "output": "8.0.0-beta15",
         "type": "md5",
@@ -2378,6 +2432,12 @@
     {
         "match": "6cc8fd2c6fc9632e01a108adecd55670",
         "output": "8.1.0-beta1",
+        "type": "md5",
+        "url": "/core/misc/tableselect.js"
+    },
+    {
+        "match": "6cc8fd2c6fc9632e01a108adecd55670",
+        "output": "8.1.0-beta2",
         "type": "md5",
         "url": "/core/misc/tableselect.js"
     },
@@ -2766,6 +2826,12 @@
         "url": "/core/misc/vertical-tabs.js"
     },
     {
+        "match": "ae177ac0d884ab81b348098c208372c5",
+        "output": "8.1.0-beta2",
+        "type": "md5",
+        "url": "/core/misc/vertical-tabs.js"
+    },
+    {
         "match": "b5ae22fb044dcd7fa17f88474e826b83",
         "output": "8.0.0-beta10",
         "type": "md5",
@@ -3032,6 +3098,12 @@
     {
         "match": "ed3ece9101f238a267021e41fc5a2d39",
         "output": "8.1.0-beta1",
+        "type": "md5",
+        "url": "/core/modules/book/book.js"
+    },
+    {
+        "match": "ed3ece9101f238a267021e41fc5a2d39",
+        "output": "8.1.0-beta2",
         "type": "md5",
         "url": "/core/modules/book/book.js"
     },
@@ -3432,6 +3504,12 @@
         "url": "/core/modules/contextual/css/contextual.module.css"
     },
     {
+        "match": "19b242d4edde0c6eee24162396f21da5",
+        "output": "8.1.0-beta2",
+        "type": "md5",
+        "url": "/core/modules/contextual/css/contextual.module.css"
+    },
+    {
         "match": "063b37d29621a59fb2eff9153234543c",
         "output": "8.0-alpha9",
         "type": "md5",
@@ -3666,6 +3744,12 @@
         "url": "/core/modules/contextual/js/contextual.js"
     },
     {
+        "match": "ce302f2b48c0d67df8300ff7c0a99c27",
+        "output": "8.1.0-beta2",
+        "type": "md5",
+        "url": "/core/modules/contextual/js/contextual.js"
+    },
+    {
         "match": "e5683fd0d9577e96a56c408daff09e10",
         "output": "8.0.0-beta10",
         "type": "md5",
@@ -3866,6 +3950,12 @@
     {
         "match": "8f9f196608210efa9e1ac31f1c639223",
         "output": "8.1.0-beta1",
+        "type": "md5",
+        "url": "/core/modules/file/file.js"
+    },
+    {
+        "match": "8f9f196608210efa9e1ac31f1c639223",
+        "output": "8.1.0-beta2",
         "type": "md5",
         "url": "/core/modules/file/file.js"
     },
@@ -4290,6 +4380,12 @@
         "url": "/core/modules/node/css/node.module.css"
     },
     {
+        "match": "5d0856590414d2c1c5785b8f0290958a",
+        "output": "8.1.0-beta2",
+        "type": "md5",
+        "url": "/core/modules/node/css/node.module.css"
+    },
+    {
         "match": "72137dd055377cc65e6b47519d761abc",
         "output": "8.0-alpha10",
         "type": "md5",
@@ -4472,6 +4568,12 @@
     {
         "match": "83f43417cff2c6b807be8b725419c77e",
         "output": "8.1.0-beta1",
+        "type": "md5",
+        "url": "/core/modules/statistics/statistics.js"
+    },
+    {
+        "match": "83f43417cff2c6b807be8b725419c77e",
+        "output": "8.1.0-beta2",
         "type": "md5",
         "url": "/core/modules/statistics/statistics.js"
     },
@@ -4784,6 +4886,12 @@
     {
         "match": "a96cd90d134358183dbbe68030677874",
         "output": "8.1.0-beta1",
+        "type": "md5",
+        "url": "/core/modules/user/css/user.module.css"
+    },
+    {
+        "match": "a96cd90d134358183dbbe68030677874",
+        "output": "8.1.0-beta2",
         "type": "md5",
         "url": "/core/modules/user/css/user.module.css"
     },

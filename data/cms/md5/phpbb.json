@@ -186,6 +186,12 @@
         "url": "/adm/style/admin.css"
     },
     {
+        "match": "a02c8142e2c1da00528e3816f89515d0",
+        "output": "release-3.2.0-b2",
+        "type": "md5",
+        "url": "/adm/style/admin.css"
+    },
+    {
         "match": "a2d8336d4d6f7f8accaa2246b566596f",
         "output": "release-3.0.6",
         "type": "md5",
@@ -1440,6 +1446,12 @@
         "url": "/docs/CHANGELOG.html"
     },
     {
+        "match": "ddaf69b8c44b32294139d9fa12b009b6",
+        "output": "release-3.2.0-b2",
+        "type": "md5",
+        "url": "/docs/CHANGELOG.html"
+    },
+    {
         "match": "e1854e1d6c7058eb10aee1d0a2acd01b",
         "output": "release-3.0.6-RC4",
         "type": "md5",
@@ -2130,6 +2142,12 @@
         "url": "/docs/INSTALL.html"
     },
     {
+        "match": "c725558dea37adc2d350e94ba3e7f2bf",
+        "output": "release-3.2.0-b2",
+        "type": "md5",
+        "url": "/docs/INSTALL.html"
+    },
+    {
         "match": "cf66ca8f88c7540feb2dae9d6fd34ff3",
         "output": "release-2.0.15",
         "type": "md5",
@@ -2798,6 +2816,12 @@
     {
         "match": "c4fde56a6ba5830f75321736999d711c",
         "output": "release-3.2.0-a2",
+        "type": "md5",
+        "url": "/docs/README.html"
+    },
+    {
+        "match": "c4fde56a6ba5830f75321736999d711c",
+        "output": "release-3.2.0-b2",
         "type": "md5",
         "url": "/docs/README.html"
     },
@@ -3618,6 +3642,12 @@
         "url": "/language/en/email/newtopic_notify.txt"
     },
     {
+        "match": "30356514cd1c68ada5ea4a5cf6af13ad",
+        "output": "release-3.2.0-b2",
+        "type": "md5",
+        "url": "/language/en/email/newtopic_notify.txt"
+    },
+    {
         "match": "59892de4154c1645f7a3bcadde242514",
         "output": "release-3.0.12",
         "type": "md5",
@@ -4218,6 +4248,12 @@
         "url": "/language/en/email/topic_notify.txt"
     },
     {
+        "match": "79d013af3059c53047f187f21199a4fa",
+        "output": "release-3.2.0-b2",
+        "type": "md5",
+        "url": "/language/en/email/topic_notify.txt"
+    },
+    {
         "match": "7fe48fba7cbc4e3b2cf763cbe2041893",
         "output": "release-3.0-B3",
         "type": "md5",
@@ -4800,6 +4836,12 @@
         "url": "/language/en/email/user_resend_inactive.txt"
     },
     {
+        "match": "940daa2e776e847ba080df11e21ff04d",
+        "output": "release-3.2.0-b2",
+        "type": "md5",
+        "url": "/language/en/email/user_resend_inactive.txt"
+    },
+    {
         "match": "987a22106681c00ab6c0f2564de7a6cf",
         "output": "olympus_milestone_3",
         "type": "md5",
@@ -5318,6 +5360,12 @@
     {
         "match": "1da3a89ffe0ccf9b73c864390566b3b9",
         "output": "release-3.2.0-a2",
+        "type": "md5",
+        "url": "/language/en/email/user_welcome_inactive.txt"
+    },
+    {
+        "match": "1da3a89ffe0ccf9b73c864390566b3b9",
+        "output": "release-3.2.0-b2",
         "type": "md5",
         "url": "/language/en/email/user_welcome_inactive.txt"
     },
@@ -6528,6 +6576,12 @@
         "url": "/styles/prosilver/template/forum_fn.js"
     },
     {
+        "match": "ee1d7835e074264e65357139eccbdcb7",
+        "output": "release-3.2.0-b2",
+        "type": "md5",
+        "url": "/styles/prosilver/template/forum_fn.js"
+    },
+    {
         "match": "f00b95686e4f5629dabe7bfdd738f9fb",
         "output": "release-3.1.0-a2",
         "type": "md5",
@@ -6632,6 +6686,12 @@
     {
         "match": "6e5a10bd5abaffd5ab460a2510d69497",
         "output": "release-3.2.0-a2",
+        "type": "md5",
+        "url": "/styles/prosilver/theme/tweaks.css"
+    },
+    {
+        "match": "6e5a10bd5abaffd5ab460a2510d69497",
+        "output": "release-3.2.0-b2",
         "type": "md5",
         "url": "/styles/prosilver/theme/tweaks.css"
     },

@@ -62,67 +62,67 @@
     {
         "link": "http://cvedetails.com/version/190800",
         "name": "nginx",
-        "num_vulns": "1",
+        "num_vulns": "3",
         "version": "1.9.9"
     },
     {
         "link": "http://cvedetails.com/version/190801",
         "name": "nginx",
-        "num_vulns": "1",
+        "num_vulns": "3",
         "version": "1.9.8"
     },
     {
         "link": "http://cvedetails.com/version/190802",
         "name": "nginx",
-        "num_vulns": "1",
+        "num_vulns": "3",
         "version": "1.9.7"
     },
     {
         "link": "http://cvedetails.com/version/190803",
         "name": "nginx",
-        "num_vulns": "1",
+        "num_vulns": "3",
         "version": "1.9.6"
     },
     {
         "link": "http://cvedetails.com/version/190804",
         "name": "nginx",
-        "num_vulns": "1",
+        "num_vulns": "3",
         "version": "1.9.5"
     },
     {
         "link": "http://cvedetails.com/version/190805",
         "name": "nginx",
-        "num_vulns": "1",
+        "num_vulns": "3",
         "version": "1.9.4"
     },
     {
         "link": "http://cvedetails.com/version/190806",
         "name": "nginx",
-        "num_vulns": "1",
+        "num_vulns": "3",
         "version": "1.9.3"
     },
     {
         "link": "http://cvedetails.com/version/190807",
         "name": "nginx",
-        "num_vulns": "1",
+        "num_vulns": "3",
         "version": "1.9.2"
     },
     {
         "link": "http://cvedetails.com/version/190808",
         "name": "nginx",
-        "num_vulns": "1",
+        "num_vulns": "3",
         "version": "1.9.1"
     },
     {
         "link": "http://cvedetails.com/version/190809",
         "name": "nginx",
-        "num_vulns": "1",
+        "num_vulns": "3",
         "version": "1.9.0"
     },
     {
         "link": "http://cvedetails.com/version/190810",
         "name": "nginx",
-        "num_vulns": "1",
+        "num_vulns": "3",
         "version": "1.8.0"
     },
     {

@@ -120,6 +120,12 @@
         "url": "/admin/styles/default/forum.css"
     },
     {
+        "match": "7332351b160ef8b2222853c2848e25a6",
+        "output": "mybb_1807",
+        "type": "md5",
+        "url": "/admin/styles/default/forum.css"
+    },
+    {
         "match": "8aad963243a3d2f03101681f04ceca93",
         "output": "mybb_140",
         "type": "md5",
@@ -770,6 +776,12 @@
     {
         "match": "650525194178b3a4fb31ea2c2ac0b607",
         "output": "mybb_1806",
+        "type": "md5",
+        "url": "/jscripts/post.js"
+    },
+    {
+        "match": "650525194178b3a4fb31ea2c2ac0b607",
+        "output": "mybb_1807",
         "type": "md5",
         "url": "/jscripts/post.js"
     },
