@@ -1,16 +1,17 @@
 import json
-import os
 import copy
-
+import os
 import os.path
 
-datadir = os.path.dirname(os.path.abspath(__file__))
-datadir = datadir.rsplit('/', maxsplit=1)[0]
-datadir += '/data'
 
 class Fingerprints(object):
 
-	def __init__(self):
+	def __init__(self, data_dir='data'):
+		# get the absolute location of this file
+		datadir = os.path.dirname(os.path.abspath(__file__))
+
+		# remove the 'classes' dir and add the 'data_dir'
+		datadir = os.path.join(datadir.rsplit('/', maxsplit=1)[0], data_dir)
 
 		self.data = {
 			'cms': {
