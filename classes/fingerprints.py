@@ -11,33 +11,34 @@ class Fingerprints(object):
 		datadir = os.path.dirname(os.path.abspath(__file__))
 
 		# remove the 'classes' dir and add the 'data_dir'
-		datadir = os.path.join(datadir.rsplit('/', maxsplit=1)[0], data_dir)
+		datadir = os.path.join(datadir.rsplit(os.sep, maxsplit=1)[0], data_dir)
+		path = lambda *x: os.path.join(datadir,*x)
 
 		self.data = {
 			'cms': {
-				'md5':			{'dir': datadir + '/cms/md5/',			'fps': []},
-				'reqex':		{'dir': datadir + '/cms/regex/',		'fps': []},
-				'string':		{'dir': datadir + '/cms/string/',		'fps': []},
-				'header':		{'dir': datadir + '/cms/header/',		'fps': []}
+				'md5':			{'dir': path('cms', 'md5'),	'fps': []},
+				'reqex':		{'dir': path('cms', 'regex'),	'fps': []},
+				'string':		{'dir': path('cms', 'string'),	'fps': []},
+				'header':		{'dir': path('cms', 'header'),	'fps': []}
 			},
 			'js': {
-				'md5':			{'dir': datadir + '/js/md5/',			'fps': []},
-				'reqex':		{'dir': datadir + '/js/regex/',			'fps': []},
+				'md5':			{'dir': path('js', 'md5'),	'fps': []},
+				'reqex':		{'dir': path('js', 'regex'),	'fps': []},
 			},
 			'platform': {
-				'md5':			{'dir': datadir + '/platform/md5/',		'fps': []},
-				'reqex':		{'dir': datadir + '/platform/regex/',		'fps': []},
-				'string':		{'dir': datadir + '/platform/string/',	'fps': []},
-				'header':		{'dir': datadir + '/platform/header/',	'fps': []}
+				'md5':			{'dir': path('platform', 'md5'),	'fps': []},
+				'reqex':		{'dir': path('platform', 'regex'),	'fps': []},
+				'string':		{'dir': path('platform', 'string'),	'fps': []},
+				'header':		{'dir': path('platform', 'header'),	'fps': []}
 			},
 			'vulnerabilities': {
-				'cvedetails':	{'dir':  datadir + '/vulnerabilities/cvedetails/', 'fps': []},
+				'cvedetails':	{'dir':  path('vulnerabilities','cvedetails'), 'fps': []},
 			},
-			'translator':		{'file': datadir + '/dictionary.json',	'dictionary': {}},
-			'error_pages':		{'file': datadir + '/error_pages.json',	'fps': []},
-			'interesting':		{'file': datadir + '/interesting.json',	'fps': []},
-			'subdomains':		{'file': datadir + '/subdomains.json',	'fps': []},
-			'os':			{'dir':  datadir + '/os/',		'fps': []}
+			'translator':		{'file': path('dictionary.json'),	'dictionary': {}},
+			'error_pages':		{'file': path('error_pages.json'),	'fps': []},
+			'interesting':		{'file': path('interesting.json'),	'fps': []},
+			'subdomains':		{'file': path('subdomains.json'),	'fps': []},
+			'os':			{'dir':  path('os'),			'fps': []}
 		}
 
 		# load fingerprints
@@ -63,7 +64,8 @@ class Fingerprints(object):
 		return self.data['translator']['dictionary'][name]['name']
 
 
-	def _open_file(self, filename):
+	def _open_file(self, *path):
+		filename = os.path.join(*path)
 
 		if not self._is_json(filename): return None
 
@@ -95,7 +97,7 @@ class Fingerprints(object):
 
 	def _load_os(self):
 		for json_file in os.listdir(self.data['os']['dir']):
-			fps = self._open_file(self.data['os']['dir'] + '/' + json_file)
+			fps = self._open_file(self.data['os']['dir'], json_file)
 			if fps is not None:
 				self.data['os']['fps'].extend(fps)
 
@@ -118,7 +120,7 @@ class Fingerprints(object):
 		for category in categories:
 			for fp_type in self.data[category]:
 				for json_file in os.listdir(self.data[category][fp_type]['dir']):
-					fps = self._open_file(self.data[category][fp_type]['dir'] + '/' + json_file)
+					fps = self._open_file(self.data[category][fp_type]['dir'], json_file)
 					for fp in fps:
 						fp['name'] = self._get_name( json_file )
 						self.data[category][fp_type]['fps'].append( fp )
