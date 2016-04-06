@@ -79,7 +79,13 @@
     },
     {
         "os_name": "FreeBSD",
-        "os_version": "10.2",
+        "os_version": "10.3",
+        "pkg_name": "Apache",
+        "pkg_version": "2.4.16"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "10.3",
         "pkg_name": "Apache",
         "pkg_version": "2.4.16"
     },
@@ -295,7 +301,13 @@
     },
     {
         "os_name": "FreeBSD",
-        "os_version": "10.2",
+        "os_version": "10.3",
+        "pkg_name": "apache-tomcat",
+        "pkg_version": "8.0.18"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "10.3",
         "pkg_name": "apache-tomcat",
         "pkg_version": "8.0.18"
     },
@@ -421,7 +433,13 @@
     },
     {
         "os_name": "FreeBSD",
-        "os_version": "10.2",
+        "os_version": "10.3",
+        "pkg_name": "lighttpd",
+        "pkg_version": "1.4.35"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "10.3",
         "pkg_name": "lighttpd",
         "pkg_version": "1.4.35"
     },
@@ -673,7 +691,13 @@
     },
     {
         "os_name": "FreeBSD",
-        "os_version": "10.2",
+        "os_version": "10.3",
+        "pkg_name": "mod_perl",
+        "pkg_version": "2.0.9"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "10.3",
         "pkg_name": "mod_perl",
         "pkg_version": "2.0.9"
     },
@@ -817,7 +841,13 @@
     },
     {
         "os_name": "FreeBSD",
-        "os_version": "10.2",
+        "os_version": "10.3",
+        "pkg_name": "nginx",
+        "pkg_version": "1.8.0"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "10.3",
         "pkg_name": "nginx",
         "pkg_version": "1.8.0"
     },
@@ -1015,7 +1045,13 @@
     },
     {
         "os_name": "FreeBSD",
-        "os_version": "10.2",
+        "os_version": "10.3",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.2"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "10.3",
         "pkg_name": "openssl",
         "pkg_version": "1.0.2"
     },
@@ -1165,7 +1201,13 @@
     },
     {
         "os_name": "FreeBSD",
-        "os_version": "10.2",
+        "os_version": "10.3",
+        "pkg_name": "perl",
+        "pkg_version": "5.20.2"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "10.3",
         "pkg_name": "perl",
         "pkg_version": "5.20.2"
     },
@@ -1423,7 +1465,13 @@
     },
     {
         "os_name": "FreeBSD",
-        "os_version": "10.2",
+        "os_version": "10.3",
+        "pkg_name": "php",
+        "pkg_version": "5.6.11"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "10.3",
         "pkg_name": "php",
         "pkg_version": "5.6.11"
     },
@@ -1597,7 +1645,13 @@
     },
     {
         "os_name": "FreeBSD",
-        "os_version": "10.2",
+        "os_version": "10.3",
+        "pkg_name": "phpMyAdmin",
+        "pkg_version": "4.4.10"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "10.3",
         "pkg_name": "phpMyAdmin",
         "pkg_version": "4.4.10"
     },
@@ -1694,6 +1748,12 @@
     {
         "os_name": "FreeBSD",
         "os_version": "10",
+        "pkg_name": "phpMyAdmin",
+        "pkg_version": "4.6.0"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "11",
         "pkg_name": "phpMyAdmin",
         "pkg_version": "4.6.0"
     },
@@ -1813,7 +1873,13 @@
     },
     {
         "os_name": "FreeBSD",
-        "os_version": "10.2",
+        "os_version": "10.3",
+        "pkg_name": "ruby",
+        "pkg_version": "2.1.6"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "10.3",
         "pkg_name": "ruby",
         "pkg_version": "2.1.6"
     },
@@ -1999,7 +2065,13 @@
     },
     {
         "os_name": "FreeBSD",
-        "os_version": "10.2",
+        "os_version": "10.3",
+        "pkg_name": "subversion",
+        "pkg_version": "1.8.13"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "10.3",
         "pkg_name": "subversion",
         "pkg_version": "1.8.13"
     },
@@ -2251,7 +2323,13 @@
     },
     {
         "os_name": "FreeBSD",
-        "os_version": "10.2",
+        "os_version": "10.3",
+        "pkg_name": "webmin",
+        "pkg_version": "1.760"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "10.3",
         "pkg_name": "webmin",
         "pkg_version": "1.760"
     },
@@ -2275,21 +2353,33 @@
     },
     {
         "os_name": "FreeBSD",
+        "os_version": "11",
+        "pkg_name": "webmin",
+        "pkg_version": "1.780"
+    },
+    {
+        "os_name": "FreeBSD",
         "os_version": "10",
         "pkg_name": "webmin",
-        "pkg_version": "1.780"
+        "pkg_version": "1.791"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "10",
+        "pkg_name": "webmin",
+        "pkg_version": "1.791"
     },
     {
         "os_name": "FreeBSD",
         "os_version": "11",
         "pkg_name": "webmin",
-        "pkg_version": "1.780"
+        "pkg_version": "1.791"
     },
     {
         "os_name": "FreeBSD",
         "os_version": "11",
         "pkg_name": "webmin",
-        "pkg_version": "1.780"
+        "pkg_version": "1.791"
     },
     {
         "os_name": "FreeBSD",
@@ -2419,7 +2509,13 @@
     },
     {
         "os_name": "FreeBSD",
-        "os_version": "10.2",
+        "os_version": "10.3",
+        "pkg_name": "wordpress",
+        "pkg_version": "4.2.3"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "10.3",
         "pkg_name": "wordpress",
         "pkg_version": "4.2.3"
     },

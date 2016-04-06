@@ -1582,5 +1582,29 @@
         "minified": false,
         "output": "2.2.2",
         "url": ""
+    },
+    {
+        "md5": "311814482b38c964ee40a4b9349d481f",
+        "minified": false,
+        "output": "1.12.3",
+        "url": ""
+    },
+    {
+        "md5": "c07f2267a050732b752cc3e7a06850ac",
+        "minified": true,
+        "output": "1.12.3",
+        "url": ""
+    },
+    {
+        "md5": "aacc43d6f308fa362ac85e3f4fb2b30c",
+        "minified": false,
+        "output": "2.2.3",
+        "url": ""
+    },
+    {
+        "md5": "33cabfa15c1060aaa3d207c653afb1ee",
+        "minified": true,
+        "output": "2.2.3",
+        "url": ""
     }
 ]
