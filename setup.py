@@ -9,5 +9,6 @@ setup(name='wig',
       #author_email='none@none.com',
       url='https://github.com/jekyc/wig',
       packages=['wig'],
+      include_package_data=True,
      )
 
