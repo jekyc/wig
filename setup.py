@@ -11,7 +11,7 @@ def package_files(directory):
             paths.append('../' + os.path.join(path, filename))
     return paths
 
-extra_files = package_files('data')
+extra_files = package_files('wig/data')
 
 setup(name='wig',
       version='1.0',
