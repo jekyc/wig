@@ -51,12 +51,7 @@ class Fingerprints(object):
 
 
 	def _is_json(self, filename):
-		is_json = False
-		if len(filename.split('.')) == 2:
-			name,ext = filename.split('.')
-			is_json = ext == 'json'
-
-		return is_json
+                return filename.endswith('.json')
 
 
 	def _get_name(self, filename):

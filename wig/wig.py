@@ -27,14 +27,14 @@ and version.
 
 
 import time, queue, sys, argparse
-from classes.cache import Cache
-from classes.results import Results
-from classes.fingerprints import Fingerprints
-from classes.discovery import *
-from classes.matcher import Match
-from classes.printer import Printer
-from classes.output import OutputPrinter, OutputJSON
-from classes.request2 import Requester, UnknownHostName
+from wig.classes.cache import Cache
+from wig.classes.results import Results
+from wig.classes.fingerprints import Fingerprints
+from wig.classes.discovery import *
+from wig.classes.matcher import Match
+from wig.classes.printer import Printer
+from wig.classes.output import OutputPrinter, OutputJSON
+from wig.classes.request2 import Requester, UnknownHostName
 
 
 
@@ -322,7 +322,7 @@ def parse_args(url=None):
 	parser.add_argument('--verbosity', '-v', action='count', default=0,
 		help='Increase verbosity. Use multiple times for more info')
 
-	parser.add_argument('--proxy', dest='proxy', default=None, 
+	parser.add_argument('--proxy', dest='proxy', default=None,
 		help='Tunnel through a proxy (format: localhost:8080)')
 
 	parser.add_argument('-w', dest='output_file', default=None,
