@@ -8,6 +8,6 @@ setup(name='wig',
       author='jekyc',
       #author_email='none@none.com',
       url='https://github.com/jekyc/wig',
-      packages=['wig'],
+      py_modules=['wig'],
      )
 
