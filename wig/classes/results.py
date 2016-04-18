@@ -1,6 +1,6 @@
 from collections import defaultdict, Counter, namedtuple
 
-from classes.sitemap import Sitemap
+from wig.classes.sitemap import Sitemap
 
 
 class Results(object):
@@ -10,13 +10,13 @@ class Results(object):
 		self.printer = None
 		self.results = []
 
-		# the storage for 'string' and 'regex' matched fingerprints 
-		# since these don't need extra processing they are added directly 
+		# the storage for 'string' and 'regex' matched fingerprints
+		# since these don't need extra processing they are added directly
 		# to the final scores
 		self.scores = defaultdict(lambda: defaultdict(lambda: Counter()))
-		#		      ^ Category          ^ Name              ^ Version           
+		#		      ^ Category          ^ Name              ^ Version
 
-		# md5 fingerprints are based on content that might not hav been changed 
+		# md5 fingerprints are based on content that might not hav been changed
 		# across different versions of the cms. The score of a match is based on
 		# the number of 'hits' for that URL. The finale score for a cms version will be:
 		#  1 / number_of_hits
@@ -28,7 +28,7 @@ class Results(object):
 
 
 		self.sitemap = Sitemap()
-		
+
 		self.site_info = {
 			'ip': [], # changed from a string to a list: see issue #19
 			'title': '',
@@ -38,19 +38,19 @@ class Results(object):
 
 	def _calc_md5_score(self):
 		# calculate the final scores for md5 fingerprints, and add
-		# them to the final scores 
+		# them to the final scores
 		for url in self.md5_matches:
 			for cat_name in self.md5_matches[url]:
 				category, name = cat_name
 
 				# get the number of 'hits' for a specific CMS and URL
 				number_of_hits = sum([self.md5_matches[url][cat_name][version] for version in self.md5_matches[url][cat_name]])
-				
-				# update the score for the cms version 
+
+				# update the score for the cms version
 				for version in self.md5_matches[url][cat_name]:
 					self.scores[category][name][version] += (1 / number_of_hits)
 
-	
+
 	def add_version(self, category, name, version=None, fingerprint=None, weight=1):
 		url = ''
 		match_type = ''
@@ -82,8 +82,8 @@ class Results(object):
 		self.printer.print_debug_line('- Found match: %s - %s %s - %s' % (url, name, version, match_type), 5)
 
 		#print(category, name, version, weight)
-		# if the type of the fingerprint is md5, then the we need 
-		# to keep track of how many cms versions have been detected 
+		# if the type of the fingerprint is md5, then the we need
+		# to keep track of how many cms versions have been detected
 		# the a given URL, as this determines the weight score of
 		# fingerprint match
 		if match_type == 'md5':
@@ -94,7 +94,7 @@ class Results(object):
 		elif version == None:
 			pass
 
-		# if the version is blank or true, add '0' to 
+		# if the version is blank or true, add '0' to
 		# set it to the worst match
 		elif version == '' or version == True:
 			self.scores[category][name][version] += 0
@@ -107,7 +107,7 @@ class Results(object):
 
 	def update(self):
 		self._calc_md5_score()
-		
+
 		c = {
 			'cms': namedtuple('CMS', ['name', 'version']),
 			'platform': namedtuple('Platform', ['name', 'version']),
@@ -116,10 +116,10 @@ class Results(object):
 		}
 
 		for category in self.scores:
-			# loop over the entries for the category 
+			# loop over the entries for the category
 			for name in sorted(self.scores[category]):
-				
-				# get the versions and remove the ones that are most unlikely  
+
+				# get the versions and remove the ones that are most unlikely
 				v = self.scores[category][name]
 				versions = sorted(v.items(), key=lambda x:x[1], reverse=True)
 
@@ -158,7 +158,7 @@ class Results(object):
 
 	def add_interesting(self, note, url):
 		Interesting = namedtuple('Interesting', ['note', 'url'])
-		 
+
 		if not Interesting(note, url) in self.results:
 			self.results.append(Interesting(note, url))
 

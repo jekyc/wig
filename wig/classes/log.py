@@ -1,5 +1,5 @@
 from collections import defaultdict
-from classes.color import Color
+from wig.classes.color import Color
 
 class Log(object):
 	def __init__(self):
