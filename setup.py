@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from distutils.core import setup
+from distutils.core import setup, find_packages
 
 setup(name='wig',
       version='1.0',
@@ -8,8 +8,6 @@ setup(name='wig',
       author='jekyc',
       #author_email='none@none.com',
       url='https://github.com/jekyc/wig',
-      packages=['wig'],
-      package_dir={'wig': 'wig'},
-      include_package_data=True,
+      packages=find_packages()
      )
 
