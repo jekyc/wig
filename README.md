@@ -15,6 +15,34 @@ wig is built with **Python 3**, and is therefore not compatible with Python 2.
 
 
 
+## Installation
+wig can be run from the command line or installed with distuils.
+
+
+### Command line
+```
+$ python3 wig.py example.com
+```
+
+
+### Usage in script
+Install with 
+```
+$ python3 setup.py install
+```
+
+and then wig can be imported from any location as such:
+
+
+```
+>>>> from wig.wig import wig
+>>>> w = wig(url='example.com')
+>>>> w.run()
+>>>> results = w.get_results()
+```
+
+
+
 ## How it works
 
 
@@ -113,12 +141,4 @@ Drupal 7.38               5                                                     
                                                                                                                      
 _____________________________________________________________________________________________________________________
 Time: 11.3 sec            Urls: 310                                              Fingerprints: 37580       
-```
-
-## Call wig as a function
-```
->>>> from wig.wig import wig
->>>> w = wig(url='example.com')
->>>> w.run()
->>>> results = w.get_results()
 ```
