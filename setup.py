@@ -10,5 +10,6 @@ setup(name='wig',
       url='https://github.com/jekyc/wig',
       packages=find_packages(),
       data_files = { 'data': ['data/*']},
+      data_files=[('data', ['wig/data/*'])],
      )
 
