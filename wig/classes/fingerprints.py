@@ -51,7 +51,7 @@ class Fingerprints(object):
 
 
 	def _is_json(self, filename):
-                return filename.endswith('.json')
+		return filename.endswith('.json')
 
 
 	def _get_name(self, filename):
