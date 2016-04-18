@@ -14,7 +14,7 @@ def package_files(directory):
 extra_files = package_files('wig/data')
 
 setup(name='wig',
-      version='1.0',
+      version='0.6',
       description='WebApp Information Gatherer',
       author='jekyc',
       #author_email='none@none.com',
