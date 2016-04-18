@@ -8,7 +8,7 @@ setup(name='wig',
       author='jekyc',
       #author_email='none@none.com',
       url='https://github.com/jekyc/wig',
-      packages=find_packages()
+      packages=find_packages(),
       data_files = { 'wig/data': ['data/*']},
      )
 
