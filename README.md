@@ -117,7 +117,7 @@ Time: 11.3 sec            Urls: 310                                             
 
 ## Call wig as a function
 ```
->>>> from wig import wig
+>>>> from wig.wig import wig
 >>>> w = wig(url='example.com')
 >>>> w.run()
 >>>> results = w.get_results()
