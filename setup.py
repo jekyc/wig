@@ -2,6 +2,17 @@
 
 from setuptools import setup, find_packages
 
+import os
+
+def package_files(directory):
+    paths = []
+    for (path, directories, filenames) in os.walk(directory):
+        for filename in filenames:
+            paths.append('../' + os.path.join(path, filename))
+    return paths
+
+extra_files = package_files('path_to/extra_files_dir')
+
 setup(name='wig',
       version='1.0',
       description='WebApp Information Gatherer',
@@ -9,6 +20,6 @@ setup(name='wig',
       #author_email='none@none.com',
       url='https://github.com/jekyc/wig',
       packages=find_packages(),
-      include_package_data=True,
+      package_data={'': extra_files},
      )
 
