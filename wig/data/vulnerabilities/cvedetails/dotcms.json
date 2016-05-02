@@ -1,5 +1,17 @@
 [
     {
+        "link": "http://cvedetails.com/version/193273",
+        "name": "dotCMS",
+        "num_vulns": "2",
+        "version": "3.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/193528",
+        "name": "dotCMS",
+        "num_vulns": "2",
+        "version": "3.3.1"
+    },
+    {
         "link": "http://cvedetails.com/version/162705",
         "name": "dotCMS",
         "num_vulns": "1",
