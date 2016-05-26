@@ -1606,5 +1606,89 @@
         "minified": true,
         "output": "2.2.3",
         "url": ""
+    },
+    {
+        "md5": "7121994eec5320fbe6586463bf9651c2",
+        "minified": true,
+        "output": "migrate-1.4.1",
+        "url": ""
+    },
+    {
+        "md5": "6c57b762589f13ea5b3579ca5e6c369b",
+        "minified": false,
+        "output": "migrate-1.4.1",
+        "url": ""
+    },
+    {
+        "md5": "888d4551b8db7c41cda28d95e494f998",
+        "minified": false,
+        "output": "2.2.4",
+        "url": ""
+    },
+    {
+        "md5": "4f252523d4af0b478c810c2547a63e19",
+        "minified": true,
+        "output": "1.12.4",
+        "url": ""
+    },
+    {
+        "md5": "9a57598408fb33b45283a00e59494f46",
+        "minified": false,
+        "output": "migrate-3.0.0-rc1",
+        "url": ""
+    },
+    {
+        "md5": "f75a26e745c156642fd602272abba54e",
+        "minified": true,
+        "output": "migrate-3.0.0-rc1",
+        "url": ""
+    },
+    {
+        "md5": "fb2d334dabf4902825df4fe6c2298b4b",
+        "minified": false,
+        "output": "1.12.4",
+        "url": ""
+    },
+    {
+        "md5": "2f6b11a7e914718e0290410e85366fe9",
+        "minified": true,
+        "output": "2.2.4",
+        "url": ""
+    },
+    {
+        "md5": "a8553eace8dcda3ff3115ba1113394dd",
+        "minified": false,
+        "output": "1.x-git",
+        "url": ""
+    },
+    {
+        "md5": "32b1997cf5d9cf0fade4cc06d284274a",
+        "minified": false,
+        "output": "2.x-git",
+        "url": ""
+    },
+    {
+        "md5": "841640575c6598bbf4a222a9059cd53d",
+        "minified": true,
+        "output": "1.x-git",
+        "url": ""
+    },
+    {
+        "md5": "6ccb9faaba39b2dae516dcfc7acfc3ba",
+        "minified": true,
+        "output": "git",
+        "url": ""
+    },
+    {
+        "md5": "55dd6a235de7ae0fdb902ee14c46fdb0",
+        "minified": true,
+        "output": "2.x-git",
+        "url": ""
+    },
+    {
+        "md5": "d854a3ecbf8922a3cc97b06362d69097",
+        "minified": false,
+        "output": "git",
+        "url": ""
     }
 ]

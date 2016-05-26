@@ -1,5 +1,29 @@
 [
     {
+        "link": "http://cvedetails.com/version/194847",
+        "name": "WordPress",
+        "num_vulns": "2",
+        "version": "4.5.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/194841",
+        "name": "WordPress",
+        "num_vulns": "2",
+        "version": "4.4.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/194836",
+        "name": "WordPress",
+        "num_vulns": "1",
+        "version": "4.4.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/194820",
+        "name": "WordPress",
+        "num_vulns": "3",
+        "version": "4.3.0"
+    },
+    {
         "link": "http://cvedetails.com/version/187196",
         "name": "WordPress",
         "num_vulns": "6",
@@ -14,7 +38,7 @@
     {
         "link": "http://cvedetails.com/version/184019",
         "name": "WordPress",
-        "num_vulns": "0",
+        "num_vulns": "1",
         "version": "4.2.1"
     },
     {
