@@ -57,6 +57,8 @@ class Wig(object):
 
 		text_printer = Printer(args.verbosity)
 		cache = Cache()
+		cache.set_location(args.cache_dir)
+
 		cache.printer = text_printer
 
 		self.options = {
@@ -315,6 +317,9 @@ def parse_args(url=None):
 
 	parser.add_argument('--no_cache_save', action='store_true', default=False,
 		help='Do not save the cache for later use')
+
+	parser.add_argument('--cache_dir', dest='cache_dir', default=None,
+		help='Set location for cache. Default: ~/.wig_cache - if not possible, CWD is used.')
 
 	parser.add_argument('-N', action='store_true', dest='no_cache', default=False,
 		help='Shortcut for --no_cache_load and --no_cache_save')

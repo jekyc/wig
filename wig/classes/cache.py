@@ -1,6 +1,6 @@
 import queue
 import pickle
-import os
+import os, sys
 import time
 
 class Cache(queue.Queue):
@@ -15,20 +15,14 @@ class Cache(queue.Queue):
 	def _init(self, maxsize):
 		self.queue = dict()
 		self.host = None
-		self.cache_dir = './cache/'
-		self.cache_name = ''
 		self.now = str(time.time()).split('.')[0]
 		self.printer = None
+
+		self.cache_name = ''
 
 		# only load cache data that is new than this
 		# (currently this is set for 24 hours)
 		self.cache_ttl = 60*60*24
-
-		# check if cache dir exists - create if not
-		self._check_or_create_cache()
-
-		# check if there are caches that are older than ttl
-		self._remove_old_caches()
 
 
 	def __getitem__(self, path):
@@ -97,6 +91,34 @@ class Cache(queue.Queue):
 		# new name for the cache
 		return os.path.join(self.cache_dir, self.cache_name)
 
+
+	def set_location(self, cache_dir):
+		# allow user to specifiy wig cache dir
+		if cache_dir is None:
+			# create default cache location in $HOME/.wig_cache, or if not possible (Windows?)
+			# create it in the current folder
+			try:
+				self.cache_dir = os.path.join(os.environ['HOME'], '.wig_cache/')
+			except:
+				self.cache_dir = './wig_cache/'
+		else:
+			# if user has specified location, create it. Catch if there's an error, e.g. permissions
+			try:
+				if not os.path.exists(cache_dir):
+					os.makedirs(cache_dir)
+				
+				self.cache_dir = cache_dir
+			except:
+				# bail if something went wrong
+				print('Cache creation error. Permission error?')
+				sys.exit(1)
+		
+		# check if cache dir exists - create if not
+		self._check_or_create_cache()
+
+		# check if there are caches that are older than ttl
+		self._remove_old_caches()
+		
 
 	def set_host(self, host):
 		self.host = host
