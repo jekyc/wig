@@ -241,6 +241,18 @@
     },
     {
         "os_name": "Fedora",
+        "os_version": "24",
+        "pkg_name": "Apache",
+        "pkg_version": "2.4.18"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "24",
+        "pkg_name": "Apache",
+        "pkg_version": "2.4.18"
+    },
+    {
+        "os_name": "Fedora",
         "os_version": "18",
         "pkg_name": "Apache",
         "pkg_version": "2.4.3"
@@ -796,6 +808,18 @@
         "os_version": "10",
         "pkg_name": "lighttpd",
         "pkg_version": "1.4.20"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "24",
+        "pkg_name": "lighttpd",
+        "pkg_version": "1.4.39"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "24",
+        "pkg_name": "lighttpd",
+        "pkg_version": "1.4.39"
     },
     {
         "os_name": "Fedora",
@@ -1471,6 +1495,18 @@
     },
     {
         "os_name": "Fedora",
+        "os_version": "24",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.2h"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "24",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.2h"
+    },
+    {
+        "os_name": "Fedora",
         "os_version": "1",
         "pkg_name": "perl",
         "pkg_version": "4.3.3"
@@ -1714,6 +1750,18 @@
         "os_version": "23",
         "pkg_name": "perl",
         "pkg_version": "5.22.0"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "24",
+        "pkg_name": "perl",
+        "pkg_version": "5.22.2"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "24",
+        "pkg_name": "perl",
+        "pkg_version": "5.22.2"
     },
     {
         "os_name": "Fedora",
@@ -2122,6 +2170,18 @@
         "os_version": "21",
         "pkg_name": "php",
         "pkg_version": "5.6.2"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "24",
+        "pkg_name": "php",
+        "pkg_version": "5.6.22"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "24",
+        "pkg_name": "php",
+        "pkg_version": "5.6.22"
     },
     {
         "os_name": "Fedora",
@@ -2206,6 +2266,18 @@
         "os_version": "11",
         "pkg_name": "phpMyAdmin",
         "pkg_version": "2.5.5"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "24",
+        "pkg_name": "phpMyAdmin",
+        "pkg_version": "4.6.1"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "24",
+        "pkg_name": "phpMyAdmin",
+        "pkg_version": "4.6.1"
     },
     {
         "os_name": "Fedora",
@@ -2980,6 +3052,18 @@
         "os_version": "20",
         "pkg_name": "wordpress",
         "pkg_version": "4.10.2"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "24",
+        "pkg_name": "wordpress",
+        "pkg_version": "4.5.2"
+    },
+    {
+        "os_name": "Fedora",
+        "os_version": "24",
+        "pkg_name": "wordpress",
+        "pkg_version": "4.5.2"
     },
     {
         "os_name": "Fedora",

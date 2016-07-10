@@ -1690,5 +1690,41 @@
         "minified": false,
         "output": "git",
         "url": ""
+    },
+    {
+        "md5": "3a465b249cb5f68e904c94a47d3da683",
+        "minified": false,
+        "output": "migrate-3.0.0",
+        "url": ""
+    },
+    {
+        "md5": "11c4b300a6bc18f822ab1faab3e0c80d",
+        "minified": false,
+        "output": "3.0.0",
+        "url": ""
+    },
+    {
+        "md5": "b2d4316164f47c0c1064e7e83dd72167",
+        "minified": true,
+        "output": "migrate-3.0.0",
+        "url": ""
+    },
+    {
+        "md5": "d0212568ce69457081dacf84e327fa5c",
+        "minified": true,
+        "output": "3.0.0",
+        "url": ""
+    },
+    {
+        "md5": "8777f761b8463a858236c246bedbce92",
+        "minified": false,
+        "output": "3.1.0",
+        "url": ""
+    },
+    {
+        "md5": "05e51b1db558320f1939f9789ccf5c8f",
+        "minified": true,
+        "output": "3.1.0",
+        "url": ""
     }
 ]

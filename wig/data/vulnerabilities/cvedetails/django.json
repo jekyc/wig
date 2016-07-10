@@ -1,15 +1,27 @@
 [
     {
+        "link": "http://cvedetails.com/version/198989",
+        "name": "Django",
+        "num_vulns": "2",
+        "version": "1.9.2"
+    },
+    {
         "link": "http://cvedetails.com/version/190779",
         "name": "Django",
-        "num_vulns": "1",
+        "num_vulns": "3",
         "version": "1.9.1"
     },
     {
         "link": "http://cvedetails.com/version/190780",
         "name": "Django",
-        "num_vulns": "1",
+        "num_vulns": "3",
         "version": "1.9"
+    },
+    {
+        "link": "http://cvedetails.com/version/198990",
+        "name": "Django",
+        "num_vulns": "2",
+        "version": "1.8.9"
     },
     {
         "link": "http://cvedetails.com/version/187887",

@@ -114,6 +114,12 @@
         "url": "/img/logo.jpg"
     },
     {
+        "match": "3660ca3e6d19782ec73265c12e7001dc",
+        "output": "1.6.1.6",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
         "match": "c8ea17e802b125819d1b956e12b6e1b9",
         "output": "1.5.0.1",
         "type": "md5",
@@ -558,6 +564,12 @@
         "url": "/js/admin.js"
     },
     {
+        "match": "4a505faa35c2cecc33021a818917228a",
+        "output": "1.6.1.6",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
         "match": "5467a00cfcb578f5315c6ee624555bdf",
         "output": "1.5.0.2",
         "type": "md5",
@@ -920,6 +932,12 @@
     {
         "match": "9bdca2831aba9d054648cd215a2d1503",
         "output": "1.6.1.5",
+        "type": "md5",
+        "url": "/themes/default-bootstrap/css/global.css"
+    },
+    {
+        "match": "9bdca2831aba9d054648cd215a2d1503",
+        "output": "1.6.1.6",
         "type": "md5",
         "url": "/themes/default-bootstrap/css/global.css"
     },

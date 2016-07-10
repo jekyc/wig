@@ -120,6 +120,18 @@
         "url": "/lib/images/fileicons/zip.png"
     },
     {
+        "match": "8091ea896f897c3773ab54240c5d2b8d",
+        "output": "release_stable_2016-06-26",
+        "type": "md5",
+        "url": "/lib/images/fileicons/zip.png"
+    },
+    {
+        "match": "8091ea896f897c3773ab54240c5d2b8d",
+        "output": "release_stable_2016-06-26a",
+        "type": "md5",
+        "url": "/lib/images/fileicons/zip.png"
+    },
+    {
         "match": "c3cc26839c5afb066f3d34cc293bf8c9",
         "output": "develsnap_2006-09-13",
         "type": "md5",
@@ -1080,6 +1092,18 @@
         "url": "/lib/scripts/edit.js"
     },
     {
+        "match": "0187b10f6d3a4a857842159c99ae16ed",
+        "output": "release_stable_2016-06-26",
+        "type": "md5",
+        "url": "/lib/scripts/edit.js"
+    },
+    {
+        "match": "0187b10f6d3a4a857842159c99ae16ed",
+        "output": "release_stable_2016-06-26a",
+        "type": "md5",
+        "url": "/lib/scripts/edit.js"
+    },
+    {
         "match": "079fb92256ce6770b3f0f8012442f2d6",
         "output": "develsnap_2008-03-01",
         "type": "md5",
@@ -1632,6 +1656,18 @@
         "url": "/lib/scripts/jquery/jquery-ui.js"
     },
     {
+        "match": "04a4db2983450a2970c459ba87b4210a",
+        "output": "release_stable_2016-06-26",
+        "type": "md5",
+        "url": "/lib/scripts/jquery/jquery-ui.js"
+    },
+    {
+        "match": "04a4db2983450a2970c459ba87b4210a",
+        "output": "release_stable_2016-06-26a",
+        "type": "md5",
+        "url": "/lib/scripts/jquery/jquery-ui.js"
+    },
+    {
         "match": "3eee9a6b26f48cb2d730fb5fad7bf221",
         "output": "release_candidate_2013-10-28",
         "type": "md5",
@@ -1768,6 +1804,18 @@
         "output": "release_stable_2014_05_05e",
         "type": "md5",
         "url": "/lib/scripts/jquery/jquery-ui.js"
+    },
+    {
+        "match": "1abb11963bcac136842aca5ce294c36b",
+        "output": "release_stable_2016-06-26",
+        "type": "md5",
+        "url": "/lib/scripts/linkwiz.js"
+    },
+    {
+        "match": "1abb11963bcac136842aca5ce294c36b",
+        "output": "release_stable_2016-06-26a",
+        "type": "md5",
+        "url": "/lib/scripts/linkwiz.js"
     },
     {
         "match": "37fba3c14d3430573857ab9339b3c443",
@@ -2018,6 +2066,18 @@
     {
         "match": "016b37e37cff99b428ca6cda3d77e68d",
         "output": "develsnap_2008-09-01",
+        "type": "md5",
+        "url": "/lib/scripts/media.js"
+    },
+    {
+        "match": "08fd913ae3b11b852cc9a58b4f59cec0",
+        "output": "release_stable_2016-06-26",
+        "type": "md5",
+        "url": "/lib/scripts/media.js"
+    },
+    {
+        "match": "08fd913ae3b11b852cc9a58b4f59cec0",
+        "output": "release_stable_2016-06-26a",
         "type": "md5",
         "url": "/lib/scripts/media.js"
     },
@@ -2730,6 +2790,18 @@
         "url": "/lib/scripts/script.js"
     },
     {
+        "match": "1a00fd00430211e9fc0ae39daa563c34",
+        "output": "release_stable_2016-06-26",
+        "type": "md5",
+        "url": "/lib/scripts/script.js"
+    },
+    {
+        "match": "1a00fd00430211e9fc0ae39daa563c34",
+        "output": "release_stable_2016-06-26a",
+        "type": "md5",
+        "url": "/lib/scripts/script.js"
+    },
+    {
         "match": "2cf4fe182ff4b309aa04f2415d459c4d",
         "output": "develsnap_2009-02-01",
         "type": "md5",
@@ -3224,6 +3296,18 @@
     {
         "match": "935f607850fb88c7013799e7e412e4f3",
         "output": "release_stable_2015-08-10a",
+        "type": "md5",
+        "url": "/lib/scripts/toolbar.js"
+    },
+    {
+        "match": "935f607850fb88c7013799e7e412e4f3",
+        "output": "release_stable_2016-06-26",
+        "type": "md5",
+        "url": "/lib/scripts/toolbar.js"
+    },
+    {
+        "match": "935f607850fb88c7013799e7e412e4f3",
+        "output": "release_stable_2016-06-26a",
         "type": "md5",
         "url": "/lib/scripts/toolbar.js"
     },

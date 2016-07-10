@@ -60,6 +60,18 @@
         "version": "10.0.0"
     },
     {
+        "link": "http://cvedetails.com/version/198731",
+        "name": "nginx",
+        "num_vulns": "1",
+        "version": "1.11.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/198730",
+        "name": "nginx",
+        "num_vulns": "1",
+        "version": "1.10.0"
+    },
+    {
         "link": "http://cvedetails.com/version/190800",
         "name": "nginx",
         "num_vulns": "3",

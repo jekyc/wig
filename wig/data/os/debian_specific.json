@@ -400,6 +400,27 @@
     },
     {
         "os_name": "Debian",
+        "os_version": "8.5",
+        "pkg_name": "php",
+        "pkg_version": "5.6.20+dfsg-0+deb8u1",
+        "weight": 100
+    },
+    {
+        "os_name": "Debian",
+        "os_version": "8.5",
+        "pkg_name": "php",
+        "pkg_version": "5.6.19+dfsg-2",
+        "weight": 100
+    },
+    {
+        "os_name": "Debian",
+        "os_version": "8.5",
+        "pkg_name": "php",
+        "pkg_version": "5.6.19+dfsg-1",
+        "weight": 100
+    },
+    {
+        "os_name": "Debian",
         "os_version": "8.4",
         "pkg_name": "php",
         "pkg_version": "5.6.19+dfsg-0+deb8u1",

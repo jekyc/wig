@@ -402,6 +402,12 @@
         "version": "1.01"
     },
     {
+        "link": "http://cvedetails.com/version/199003",
+        "name": "MyBB",
+        "num_vulns": "1",
+        "version": "1.0.2"
+    },
+    {
         "link": "http://cvedetails.com/version/58671",
         "name": "MyBB",
         "num_vulns": "18",

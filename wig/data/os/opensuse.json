@@ -1273,6 +1273,24 @@
     },
     {
         "os_name": "openSUSE",
+        "os_version": "tumbleweed",
+        "pkg_name": "nginx",
+        "pkg_version": "1.10.0"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "tumbleweed",
+        "pkg_name": "nginx",
+        "pkg_version": "1.10.1"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "tumbleweed",
+        "pkg_name": "nginx",
+        "pkg_version": "1.10.1"
+    },
+    {
+        "os_name": "openSUSE",
         "os_version": "12.3",
         "pkg_name": "nginx",
         "pkg_version": "1.2.6"
@@ -1288,12 +1306,6 @@
         "os_version": "tumbleweed",
         "pkg_name": "nginx",
         "pkg_version": "1.8.0"
-    },
-    {
-        "os_name": "openSUSE",
-        "os_version": "tumbleweed",
-        "pkg_name": "nginx",
-        "pkg_version": "1.8.1"
     },
     {
         "os_name": "openSUSE",
@@ -2151,7 +2163,13 @@
         "os_name": "openSUSE",
         "os_version": "tumbleweed",
         "pkg_name": "perl",
-        "pkg_version": "5.22.1"
+        "pkg_version": "5.24.0"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "tumbleweed",
+        "pkg_name": "perl",
+        "pkg_version": "5.24.0"
     },
     {
         "os_name": "openSUSE",
@@ -2931,7 +2949,19 @@
         "os_name": "openSUSE",
         "os_version": "tumbleweed",
         "pkg_name": "php",
-        "pkg_version": "5.6.21"
+        "pkg_version": "5.6.22"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "tumbleweed",
+        "pkg_name": "php",
+        "pkg_version": "5.6.23"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "tumbleweed",
+        "pkg_name": "php",
+        "pkg_version": "5.6.23"
     },
     {
         "os_name": "openSUSE",
@@ -3369,7 +3399,19 @@
         "os_name": "openSUSE",
         "os_version": "tumbleweed",
         "pkg_name": "phpMyAdmin",
-        "pkg_version": "4.6.1"
+        "pkg_version": "4.6.2"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "tumbleweed",
+        "pkg_name": "phpMyAdmin",
+        "pkg_version": "4.6.3"
+    },
+    {
+        "os_name": "openSUSE",
+        "os_version": "tumbleweed",
+        "pkg_name": "phpMyAdmin",
+        "pkg_version": "4.6.3"
     },
     {
         "os_name": "openSUSE",

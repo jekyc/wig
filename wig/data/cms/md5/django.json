@@ -151,6 +151,12 @@
     },
     {
         "match": "9f6547179acea8dbbeda17487ea1e247",
+        "output": "1.9.7",
+        "type": "md5",
+        "url": "/static/admin/css/base.css"
+    },
+    {
+        "match": "9f6547179acea8dbbeda17487ea1e247",
         "output": "1.9a1",
         "type": "md5",
         "url": "/static/admin/css/base.css"
@@ -434,6 +440,12 @@
     {
         "match": "ba3dc2f88fc5eea98eb4dbfd43387476",
         "output": "1.10a1",
+        "type": "md5",
+        "url": "/static/admin/css/base.css"
+    },
+    {
+        "match": "ba3dc2f88fc5eea98eb4dbfd43387476",
+        "output": "1.10b1",
         "type": "md5",
         "url": "/static/admin/css/base.css"
     },
@@ -925,6 +937,12 @@
     },
     {
         "match": "32a12db9a480d77efb6bbe6b5ce9eba7",
+        "output": "1.9.7",
+        "type": "md5",
+        "url": "/static/admin/css/changelists.css"
+    },
+    {
+        "match": "32a12db9a480d77efb6bbe6b5ce9eba7",
         "output": "1.9a1",
         "type": "md5",
         "url": "/static/admin/css/changelists.css"
@@ -1040,6 +1058,12 @@
     {
         "match": "b14be3d7cbbb4d77e1fdceb5f4659b9e",
         "output": "1.2.7",
+        "type": "md5",
+        "url": "/static/admin/css/changelists.css"
+    },
+    {
+        "match": "b1b060f73d3725f2d8854a59578aa27a",
+        "output": "1.10b1",
         "type": "md5",
         "url": "/static/admin/css/changelists.css"
     },
@@ -2149,6 +2173,12 @@
     },
     {
         "match": "70b858e612810d8ddf422354c7d1d9df",
+        "output": "1.10b1",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
+        "match": "70b858e612810d8ddf422354c7d1d9df",
         "output": "1.9",
         "type": "md5",
         "url": "/static/admin/css/forms.css"
@@ -2186,6 +2216,12 @@
     {
         "match": "70b858e612810d8ddf422354c7d1d9df",
         "output": "1.9.6",
+        "type": "md5",
+        "url": "/static/admin/css/forms.css"
+    },
+    {
+        "match": "70b858e612810d8ddf422354c7d1d9df",
+        "output": "1.9.7",
         "type": "md5",
         "url": "/static/admin/css/forms.css"
     },
@@ -3637,6 +3673,12 @@
     },
     {
         "match": "a846c0e2ef654daea65c3186ee6e64ad",
+        "output": "1.10b1",
+        "type": "md5",
+        "url": "/static/admin/css/login.css"
+    },
+    {
+        "match": "a846c0e2ef654daea65c3186ee6e64ad",
         "output": "1.9",
         "type": "md5",
         "url": "/static/admin/css/login.css"
@@ -3674,6 +3716,12 @@
     {
         "match": "a846c0e2ef654daea65c3186ee6e64ad",
         "output": "1.9.6",
+        "type": "md5",
+        "url": "/static/admin/css/login.css"
+    },
+    {
+        "match": "a846c0e2ef654daea65c3186ee6e64ad",
+        "output": "1.9.7",
         "type": "md5",
         "url": "/static/admin/css/login.css"
     },
@@ -4513,6 +4561,12 @@
     },
     {
         "match": "a7251c09798790802d99ce20c5560875",
+        "output": "1.10b1",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "a7251c09798790802d99ce20c5560875",
         "output": "1.9",
         "type": "md5",
         "url": "/static/admin/css/widgets.css"
@@ -4550,6 +4604,12 @@
     {
         "match": "a7251c09798790802d99ce20c5560875",
         "output": "1.9.6",
+        "type": "md5",
+        "url": "/static/admin/css/widgets.css"
+    },
+    {
+        "match": "a7251c09798790802d99ce20c5560875",
+        "output": "1.9.7",
         "type": "md5",
         "url": "/static/admin/css/widgets.css"
     },
@@ -5046,6 +5106,12 @@
         "url": "/static/admin/js/SelectFilter2.js"
     },
     {
+        "match": "17009b6d4428bbbbbe5617c59308ee45",
+        "output": "1.10b1",
+        "type": "md5",
+        "url": "/static/admin/js/SelectFilter2.js"
+    },
+    {
         "match": "1771dc31836b3ea90ff3a6aa3b645cc6",
         "output": "1.7",
         "type": "md5",
@@ -5318,6 +5384,12 @@
     {
         "match": "92ca1fea665618cea2dae6be66d448e9",
         "output": "1.9.6",
+        "type": "md5",
+        "url": "/static/admin/js/SelectFilter2.js"
+    },
+    {
+        "match": "92ca1fea665618cea2dae6be66d448e9",
+        "output": "1.9.7",
         "type": "md5",
         "url": "/static/admin/js/SelectFilter2.js"
     },
@@ -5850,6 +5922,12 @@
         "url": "/static/admin/js/actions.js"
     },
     {
+        "match": "32861b6cbdf9fb1b17a8d8ee760b7fd9",
+        "output": "1.10b1",
+        "type": "md5",
+        "url": "/static/admin/js/actions.js"
+    },
+    {
         "match": "42b74ac13f07ba78ce8a424958324c68",
         "output": "1.7",
         "type": "md5",
@@ -6260,6 +6338,12 @@
     {
         "match": "df9119bcc981875aa1d28482e776aae7",
         "output": "1.9.6",
+        "type": "md5",
+        "url": "/static/admin/js/actions.js"
+    },
+    {
+        "match": "df9119bcc981875aa1d28482e776aae7",
+        "output": "1.9.7",
         "type": "md5",
         "url": "/static/admin/js/actions.js"
     },
@@ -6756,6 +6840,12 @@
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
     {
+        "match": "1536fb6bea1d45b18dae0753dcf4fdd8",
+        "output": "1.10b1",
+        "type": "md5",
+        "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
         "match": "1a1d41ec13f8f4118294b9f7d826f4e0",
         "output": "1.9.2",
         "type": "md5",
@@ -6782,6 +6872,12 @@
     {
         "match": "1a1d41ec13f8f4118294b9f7d826f4e0",
         "output": "1.9.6",
+        "type": "md5",
+        "url": "/static/admin/js/admin/DateTimeShortcuts.js"
+    },
+    {
+        "match": "1a1d41ec13f8f4118294b9f7d826f4e0",
+        "output": "1.9.7",
         "type": "md5",
         "url": "/static/admin/js/admin/DateTimeShortcuts.js"
     },
@@ -7716,6 +7812,12 @@
         "url": "/static/admin/js/admin/RelatedObjectLookups.js"
     },
     {
+        "match": "7b37d854fcb18fc847bb578f260f7c1f",
+        "output": "1.10b1",
+        "type": "md5",
+        "url": "/static/admin/js/admin/RelatedObjectLookups.js"
+    },
+    {
         "match": "9f9bd97ccaa0c73ed40d69908666ba63",
         "output": "1.4",
         "type": "md5",
@@ -8028,6 +8130,12 @@
         "url": "/static/admin/js/admin/RelatedObjectLookups.js"
     },
     {
+        "match": "b3916e8770e872d88952acfca2afe82f",
+        "output": "1.9.7",
+        "type": "md5",
+        "url": "/static/admin/js/admin/RelatedObjectLookups.js"
+    },
+    {
         "match": "55f19d9d59530e904d20a5f4e6bb01e3",
         "output": "1.9",
         "type": "md5",
@@ -8276,6 +8384,12 @@
     {
         "match": "84da04fcbfaf7b6f2962cc21bc84aa9b",
         "output": "1.9.6",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
+        "match": "84da04fcbfaf7b6f2962cc21bc84aa9b",
+        "output": "1.9.7",
         "type": "md5",
         "url": "/static/admin/js/core.js"
     },
@@ -8844,6 +8958,12 @@
         "url": "/static/admin/js/core.js"
     },
     {
+        "match": "fd861d43f0f5a8b9c5cef983a7b25d66",
+        "output": "1.10b1",
+        "type": "md5",
+        "url": "/static/admin/js/core.js"
+    },
+    {
         "match": "0d9fbccd603530945f14aec6ae5e755c",
         "output": "1.2",
         "type": "md5",
@@ -9186,6 +9306,12 @@
         "url": "/static/admin/js/inlines.min.js"
     },
     {
+        "match": "8ef8b2379896480103c6dfd275634e93",
+        "output": "1.10b1",
+        "type": "md5",
+        "url": "/static/admin/js/inlines.min.js"
+    },
+    {
         "match": "91c080dc1cbf62a0be9d17ed80b4c5ae",
         "output": "1.9",
         "type": "md5",
@@ -9224,6 +9350,12 @@
     {
         "match": "91c080dc1cbf62a0be9d17ed80b4c5ae",
         "output": "1.9.6",
+        "type": "md5",
+        "url": "/static/admin/js/inlines.min.js"
+    },
+    {
+        "match": "91c080dc1cbf62a0be9d17ed80b4c5ae",
+        "output": "1.9.7",
         "type": "md5",
         "url": "/static/admin/js/inlines.min.js"
     },
