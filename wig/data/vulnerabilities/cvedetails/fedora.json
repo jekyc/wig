@@ -14,25 +14,25 @@
     {
         "link": "http://cvedetails.com/version/181069",
         "name": "Fedora",
-        "num_vulns": "93",
+        "num_vulns": "94",
         "version": "22"
     },
     {
         "link": "http://cvedetails.com/version/176189",
         "name": "Fedora",
-        "num_vulns": "57",
+        "num_vulns": "59",
         "version": "21"
     },
     {
         "link": "http://cvedetails.com/version/157565",
         "name": "Fedora",
-        "num_vulns": "56",
+        "num_vulns": "57",
         "version": "20"
     },
     {
         "link": "http://cvedetails.com/version/153075",
         "name": "Fedora",
-        "num_vulns": "19",
+        "num_vulns": "20",
         "version": "19"
     },
     {
