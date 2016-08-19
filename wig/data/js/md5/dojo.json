@@ -49,6 +49,18 @@
     },
     {
         "info": "dojo.js",
+        "md5": "1c915238b372218c1b6f11b850c67c55",
+        "output": "1.10.5",
+        "url": ""
+    },
+    {
+        "info": "dojo.js",
+        "md5": "2267fc0c703b1aad44dd50f256e05a44",
+        "output": "1.8.11",
+        "url": ""
+    },
+    {
+        "info": "dojo.js",
         "md5": "236773fb6591a973bca9d7f9aec239cb",
         "output": "1.4.6",
         "url": ""
@@ -169,6 +181,24 @@
     },
     {
         "info": "dojo.js",
+        "md5": "71e6ef7b4b24bf6a5a2abbaf01ff3847",
+        "output": "1.9.9",
+        "url": ""
+    },
+    {
+        "info": "dojo.js",
+        "md5": "7423181fc8fe41ce091963e4d835f926",
+        "output": "1.9.8",
+        "url": ""
+    },
+    {
+        "info": "dojo.js",
+        "md5": "7705fab6811f94c883c87cea622d7ad4",
+        "output": "1.8.12",
+        "url": ""
+    },
+    {
+        "info": "dojo.js",
         "md5": "79fd743a56f64fa8cd3baa271802df05",
         "output": "1.9.1",
         "url": ""
@@ -193,6 +223,12 @@
     },
     {
         "info": "dojo.js",
+        "md5": "80614b736461e817949ae5fe54fd2d86",
+        "output": "1.11.2",
+        "url": ""
+    },
+    {
+        "info": "dojo.js",
         "md5": "822b7ba3ebd187002617810e06931387",
         "output": "1.7.6",
         "url": ""
@@ -201,6 +237,12 @@
         "info": "dojo.js",
         "md5": "8f2918241b7c6c7530956d8ed74537a7",
         "output": "1.4.0",
+        "url": ""
+    },
+    {
+        "info": "dojo.js",
+        "md5": "919e9aebfa738738f3280734f40a3e3b",
+        "output": "1.11.1",
         "url": ""
     },
     {
@@ -229,6 +271,12 @@
     },
     {
         "info": "dojo.js",
+        "md5": "b14f3df3fedfb909eeee8523753009c9",
+        "output": "1.7.10",
+        "url": ""
+    },
+    {
+        "info": "dojo.js",
         "md5": "b1f549685cac85056cea16803ac726d5",
         "output": "1.3.2",
         "url": ""
@@ -241,6 +289,12 @@
     },
     {
         "info": "dojo.js",
+        "md5": "b33ce18e1dd483ead33b343c4873e40d",
+        "output": "1.7.9",
+        "url": ""
+    },
+    {
+        "info": "dojo.js",
         "md5": "b9f0fe08c2d8b5f00c3047274c5a445f",
         "output": "1.3.0",
         "url": ""
@@ -249,6 +303,12 @@
         "info": "dojo.js",
         "md5": "bae3cb7cc0f4ab02d7051b9a4d04d639",
         "output": "1.7.3",
+        "url": ""
+    },
+    {
+        "info": "dojo.js",
+        "md5": "c2bce6f1114f1b289e03bf971e550fc7",
+        "output": "1.10.6",
         "url": ""
     },
     {

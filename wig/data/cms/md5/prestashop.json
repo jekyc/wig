@@ -6,6 +6,18 @@
         "url": "/img/logo.jpg"
     },
     {
+        "match": "2c8b49aae7094b92077bc50db6a6a9e5",
+        "output": "1.7.0.0-beta.2.0",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
+        "match": "2c8b49aae7094b92077bc50db6a6a9e5",
+        "output": "1.7.0.0-beta.3.0",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
         "match": "3074c3c5fb7f6a2b17f59bdd5a608d52",
         "output": "1.6.0.2",
         "type": "md5",
@@ -518,6 +530,18 @@
     {
         "match": "2d1c562dd733608c76f4bdbaeb9fc16b",
         "output": "1.7.0.0-beta.1.0",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "2d1c562dd733608c76f4bdbaeb9fc16b",
+        "output": "1.7.0.0-beta.2.0",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "2d1c562dd733608c76f4bdbaeb9fc16b",
+        "output": "1.7.0.0-beta.3.0",
         "type": "md5",
         "url": "/js/admin.js"
     },

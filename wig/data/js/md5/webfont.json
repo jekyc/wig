@@ -157,6 +157,12 @@
     },
     {
         "info": "webfont.js",
+        "md5": "7c96a5f11d9741541d5e3c42ff6380d7",
+        "output": "1.6.26",
+        "url": ""
+    },
+    {
+        "info": "webfont.js",
         "md5": "82c1cb347d2f923a399c391b336f3a13",
         "output": "1.4.7",
         "url": ""

@@ -403,6 +403,12 @@
     },
     {
         "match": "ea16ec44ca7654f9574df1a7f37a0bfc",
+        "output": "zenphoto-1.4.13",
+        "type": "md5",
+        "url": "/zenphoto/themes/effervescence_plus/common.css"
+    },
+    {
+        "match": "ea16ec44ca7654f9574df1a7f37a0bfc",
         "output": "zenphoto-1.4.6",
         "type": "md5",
         "url": "/zenphoto/themes/effervescence_plus/common.css"
@@ -512,6 +518,12 @@
     {
         "match": "0ab808532c07f09ad908ccb304524fa0",
         "output": "zenphoto-1.4.12",
+        "type": "md5",
+        "url": "/zenphoto/themes/effervescence_plus/styles/effervescence.txt"
+    },
+    {
+        "match": "0ab808532c07f09ad908ccb304524fa0",
+        "output": "zenphoto-1.4.13",
         "type": "md5",
         "url": "/zenphoto/themes/effervescence_plus/styles/effervescence.txt"
     },
@@ -715,6 +727,12 @@
     },
     {
         "match": "7a3b55b3210f695cca31b6895aaf6d0a",
+        "output": "zenphoto-1.4.13",
+        "type": "md5",
+        "url": "/zenphoto/themes/zenpage/slideshow.css"
+    },
+    {
+        "match": "7a3b55b3210f695cca31b6895aaf6d0a",
         "output": "zenphoto-1.4.5",
         "type": "md5",
         "url": "/zenphoto/themes/zenpage/slideshow.css"
@@ -902,6 +920,12 @@
     {
         "match": "4b2a813b21e45b7b0b6bde69b1290bd5",
         "output": "zenphoto-1.4.12",
+        "type": "md5",
+        "url": "/zenphoto/themes/zpmobile/style.css"
+    },
+    {
+        "match": "4b2a813b21e45b7b0b6bde69b1290bd5",
+        "output": "zenphoto-1.4.13",
         "type": "md5",
         "url": "/zenphoto/themes/zpmobile/style.css"
     },
@@ -1177,6 +1201,12 @@
     },
     {
         "match": "8fc25e27d42774aeae6edbc0a18b72aa",
+        "output": "zenphoto-1.4.13",
+        "type": "md5",
+        "url": "/zenphoto/zp-core/js/jquery.js"
+    },
+    {
+        "match": "8fc25e27d42774aeae6edbc0a18b72aa",
         "output": "zenphoto-1.4.6",
         "type": "md5",
         "url": "/zenphoto/zp-core/js/jquery.js"
@@ -1204,6 +1234,12 @@
         "output": "zenphoto-1.4.9",
         "type": "md5",
         "url": "/zenphoto/zp-core/js/jquery.js"
+    },
+    {
+        "match": "029a6a12ce4edef487765c9d1e968418",
+        "output": "zenphoto-1.4.13",
+        "type": "md5",
+        "url": "/zenphoto/zp-core/locale/da_DK/LC_MESSAGES/zenphoto.po"
     },
     {
         "match": "079573c22db8c5cd3ee14730211b75ac",
@@ -1494,6 +1530,12 @@
         "url": "/zenphoto/zp-core/locale/de_DE/LC_MESSAGES/zenphoto.po"
     },
     {
+        "match": "865813ee7749b1176d0e7abe7a396a3b",
+        "output": "zenphoto-1.4.13",
+        "type": "md5",
+        "url": "/zenphoto/zp-core/locale/de_DE/LC_MESSAGES/zenphoto.po"
+    },
+    {
         "match": "a290c9733c2660750f137f6ee1d4d546",
         "output": "v1.4.4Beta",
         "type": "md5",
@@ -1628,6 +1670,12 @@
     {
         "match": "965f3de8d9c670cad98651d2956b8f53",
         "output": "zenphoto-1.4.12",
+        "type": "md5",
+        "url": "/zenphoto/zp-core/locale/fr_FR/LC_MESSAGES/zenphoto.po"
+    },
+    {
+        "match": "965f3de8d9c670cad98651d2956b8f53",
+        "output": "zenphoto-1.4.13",
         "type": "md5",
         "url": "/zenphoto/zp-core/locale/fr_FR/LC_MESSAGES/zenphoto.po"
     },
@@ -1814,6 +1862,12 @@
     {
         "match": "7020f93cedfbacedc5240799acb200c9",
         "output": "zenphoto-1.4.12",
+        "type": "md5",
+        "url": "/zenphoto/zp-core/watermarks/copyright.png"
+    },
+    {
+        "match": "7020f93cedfbacedc5240799acb200c9",
+        "output": "zenphoto-1.4.13",
         "type": "md5",
         "url": "/zenphoto/zp-core/watermarks/copyright.png"
     },

@@ -1,6 +1,20 @@
 [
     {
         "os_name": "Ubuntu",
+        "os_version": "12.04",
+        "pkg_name": "php",
+        "pkg_version": "5.3.10-1ubuntu3.24",
+        "weight": 110
+    },
+    {
+        "os_name": "Ubuntu",
+        "os_version": "14.04",
+        "pkg_name": "php",
+        "pkg_version": "5.5.9+dfsg-1ubuntu4.19",
+        "weight": 110
+    },
+    {
+        "os_name": "Ubuntu",
         "os_version": "14.04",
         "pkg_name": "php",
         "pkg_version": "5.5.9+dfsg-1ubuntu4.18",
