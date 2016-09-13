@@ -18,6 +18,18 @@
         "url": "/img/logo.jpg"
     },
     {
+        "match": "2c8b49aae7094b92077bc50db6a6a9e5",
+        "output": "1.7.0.0-beta.4.0",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
+        "match": "2c8b49aae7094b92077bc50db6a6a9e5",
+        "output": "1.7.0.0-rc.0.0",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
         "match": "3074c3c5fb7f6a2b17f59bdd5a608d52",
         "output": "1.6.0.2",
         "type": "md5",
@@ -134,6 +146,12 @@
     {
         "match": "3660ca3e6d19782ec73265c12e7001dc",
         "output": "1.6.1.6",
+        "type": "md5",
+        "url": "/img/logo.jpg"
+    },
+    {
+        "match": "3660ca3e6d19782ec73265c12e7001dc",
+        "output": "1.6.1.7",
         "type": "md5",
         "url": "/img/logo.jpg"
     },
@@ -606,8 +624,26 @@
         "url": "/js/admin.js"
     },
     {
+        "match": "4a505faa35c2cecc33021a818917228a",
+        "output": "1.6.1.7",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
         "match": "5467a00cfcb578f5315c6ee624555bdf",
         "output": "1.5.0.2",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "5b390994e19e7f1a3326c8d6ed9cd835",
+        "output": "1.7.0.0-beta.4.0",
+        "type": "md5",
+        "url": "/js/admin.js"
+    },
+    {
+        "match": "5b390994e19e7f1a3326c8d6ed9cd835",
+        "output": "1.7.0.0-rc.0.0",
         "type": "md5",
         "url": "/js/admin.js"
     },
@@ -974,6 +1010,12 @@
     {
         "match": "9bdca2831aba9d054648cd215a2d1503",
         "output": "1.6.1.6",
+        "type": "md5",
+        "url": "/themes/default-bootstrap/css/global.css"
+    },
+    {
+        "match": "9bdca2831aba9d054648cd215a2d1503",
+        "output": "1.6.1.7",
         "type": "md5",
         "url": "/themes/default-bootstrap/css/global.css"
     },
