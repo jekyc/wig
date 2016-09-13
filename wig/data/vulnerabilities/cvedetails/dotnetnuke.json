@@ -1,5 +1,11 @@
 [
     {
+        "link": "http://cvedetails.com/version/201302",
+        "name": "DotNetNuke",
+        "num_vulns": "1",
+        "version": "08.00.04"
+    },
+    {
         "link": "http://cvedetails.com/version/179656",
         "name": "DotNetNuke",
         "num_vulns": "1",

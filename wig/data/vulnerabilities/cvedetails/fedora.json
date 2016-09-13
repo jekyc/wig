@@ -1,44 +1,50 @@
 [
     {
+        "link": "http://cvedetails.com/version/201567",
+        "name": "Fedora",
+        "num_vulns": "1",
+        "version": "25"
+    },
+    {
         "link": "http://cvedetails.com/version/193263",
         "name": "Fedora",
-        "num_vulns": "37",
+        "num_vulns": "41",
         "version": "24"
     },
     {
         "link": "http://cvedetails.com/version/186364",
         "name": "Fedora",
-        "num_vulns": "90",
+        "num_vulns": "94",
         "version": "23"
     },
     {
         "link": "http://cvedetails.com/version/181069",
         "name": "Fedora",
-        "num_vulns": "113",
+        "num_vulns": "128",
         "version": "22"
     },
     {
         "link": "http://cvedetails.com/version/176189",
         "name": "Fedora",
-        "num_vulns": "64",
+        "num_vulns": "96",
         "version": "21"
     },
     {
         "link": "http://cvedetails.com/version/157565",
         "name": "Fedora",
-        "num_vulns": "61",
+        "num_vulns": "91",
         "version": "20"
     },
     {
         "link": "http://cvedetails.com/version/153075",
         "name": "Fedora",
-        "num_vulns": "21",
+        "num_vulns": "36",
         "version": "19"
     },
     {
         "link": "http://cvedetails.com/version/137948",
         "name": "Fedora",
-        "num_vulns": "14",
+        "num_vulns": "15",
         "version": "18"
     },
     {
@@ -50,13 +56,13 @@
     {
         "link": "http://cvedetails.com/version/135632",
         "name": "Fedora",
-        "num_vulns": "10",
+        "num_vulns": "11",
         "version": "16"
     },
     {
         "link": "http://cvedetails.com/version/142599",
         "name": "Fedora",
-        "num_vulns": "3",
+        "num_vulns": "4",
         "version": "15"
     },
     {
@@ -68,13 +74,13 @@
     {
         "link": "http://cvedetails.com/version/158045",
         "name": "Fedora",
-        "num_vulns": "2",
+        "num_vulns": "3",
         "version": "12"
     },
     {
         "link": "http://cvedetails.com/version/79770",
         "name": "Fedora",
-        "num_vulns": "2",
+        "num_vulns": "3",
         "version": "11"
     },
     {

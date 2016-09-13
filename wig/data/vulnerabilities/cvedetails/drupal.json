@@ -1,290 +1,332 @@
 [
     {
+        "link": "http://cvedetails.com/version/201723",
+        "name": "Drupal",
+        "num_vulns": "1",
+        "version": "8.1.2"
+    },
+    {
+        "link": "http://cvedetails.com/version/201722",
+        "name": "Drupal",
+        "num_vulns": "1",
+        "version": "8.1.1"
+    },
+    {
+        "link": "http://cvedetails.com/version/201721",
+        "name": "Drupal",
+        "num_vulns": "1",
+        "version": "8.1.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/201717",
+        "name": "Drupal",
+        "num_vulns": "1",
+        "version": "8.0.6"
+    },
+    {
+        "link": "http://cvedetails.com/version/201716",
+        "name": "Drupal",
+        "num_vulns": "1",
+        "version": "8.0.5"
+    },
+    {
+        "link": "http://cvedetails.com/version/201715",
+        "name": "Drupal",
+        "num_vulns": "1",
+        "version": "8.0.4"
+    },
+    {
         "link": "http://cvedetails.com/version/192937",
         "name": "Drupal",
-        "num_vulns": "3",
+        "num_vulns": "4",
         "version": "8.0.3"
     },
     {
         "link": "http://cvedetails.com/version/192938",
         "name": "Drupal",
-        "num_vulns": "3",
+        "num_vulns": "4",
         "version": "8.0.2"
     },
     {
         "link": "http://cvedetails.com/version/192939",
         "name": "Drupal",
-        "num_vulns": "3",
+        "num_vulns": "4",
         "version": "8.0.1"
     },
     {
         "link": "http://cvedetails.com/version/192940",
         "name": "Drupal",
-        "num_vulns": "2",
+        "num_vulns": "3",
         "version": "8.0.0"
+    },
+    {
+        "link": "http://cvedetails.com/version/201714",
+        "name": "Drupal",
+        "num_vulns": "2",
+        "version": "7.43"
     },
     {
         "link": "http://cvedetails.com/version/192973",
         "name": "Drupal",
-        "num_vulns": "5",
+        "num_vulns": "7",
         "version": "7.42"
     },
     {
         "link": "http://cvedetails.com/version/192974",
         "name": "Drupal",
-        "num_vulns": "6",
+        "num_vulns": "8",
         "version": "7.41"
     },
     {
         "link": "http://cvedetails.com/version/192975",
         "name": "Drupal",
-        "num_vulns": "6",
+        "num_vulns": "8",
         "version": "7.40"
     },
     {
         "link": "http://cvedetails.com/version/193126",
         "name": "Drupal",
-        "num_vulns": "1",
+        "num_vulns": "3",
         "version": "7.39"
     },
     {
         "link": "http://cvedetails.com/version/185744",
         "name": "Drupal",
-        "num_vulns": "11",
+        "num_vulns": "13",
         "version": "7.38"
     },
     {
         "link": "http://cvedetails.com/version/184070",
         "name": "Drupal",
-        "num_vulns": "15",
+        "num_vulns": "17",
         "version": "7.37"
     },
     {
         "link": "http://cvedetails.com/version/184069",
         "name": "Drupal",
-        "num_vulns": "15",
+        "num_vulns": "17",
         "version": "7.36"
     },
     {
         "link": "http://cvedetails.com/version/184068",
         "name": "Drupal",
-        "num_vulns": "15",
+        "num_vulns": "17",
         "version": "7.35"
     },
     {
         "link": "http://cvedetails.com/version/181083",
         "name": "Drupal",
-        "num_vulns": "16",
+        "num_vulns": "18",
         "version": "7.34"
     },
     {
         "link": "http://cvedetails.com/version/175956",
         "name": "Drupal",
-        "num_vulns": "18",
+        "num_vulns": "20",
         "version": "7.33"
     },
     {
         "link": "http://cvedetails.com/version/192976",
         "name": "Drupal",
-        "num_vulns": "5",
+        "num_vulns": "7",
         "version": "7.32"
     },
     {
         "link": "http://cvedetails.com/version/192977",
         "name": "Drupal",
-        "num_vulns": "5",
+        "num_vulns": "7",
         "version": "7.31"
     },
     {
         "link": "http://cvedetails.com/version/169916",
         "name": "Drupal",
-        "num_vulns": "19",
+        "num_vulns": "21",
         "version": "7.30"
     },
     {
         "link": "http://cvedetails.com/version/169917",
         "name": "Drupal",
-        "num_vulns": "19",
+        "num_vulns": "21",
         "version": "7.29"
     },
     {
         "link": "http://cvedetails.com/version/169265",
         "name": "Drupal",
-        "num_vulns": "23",
+        "num_vulns": "25",
         "version": "7.28"
     },
     {
         "link": "http://cvedetails.com/version/169266",
         "name": "Drupal",
-        "num_vulns": "23",
+        "num_vulns": "25",
         "version": "7.27"
     },
     {
         "link": "http://cvedetails.com/version/164032",
         "name": "Drupal",
-        "num_vulns": "24",
+        "num_vulns": "26",
         "version": "7.26"
     },
     {
         "link": "http://cvedetails.com/version/164033",
         "name": "Drupal",
-        "num_vulns": "24",
+        "num_vulns": "26",
         "version": "7.25"
     },
     {
         "link": "http://cvedetails.com/version/159133",
         "name": "Drupal",
-        "num_vulns": "26",
+        "num_vulns": "28",
         "version": "7.24"
     },
     {
         "link": "http://cvedetails.com/version/156577",
         "name": "Drupal",
-        "num_vulns": "31",
+        "num_vulns": "33",
         "version": "7.23"
     },
     {
         "link": "http://cvedetails.com/version/156578",
         "name": "Drupal",
-        "num_vulns": "31",
+        "num_vulns": "33",
         "version": "7.22"
     },
     {
         "link": "http://cvedetails.com/version/156579",
         "name": "Drupal",
-        "num_vulns": "31",
+        "num_vulns": "33",
         "version": "7.21"
     },
     {
         "link": "http://cvedetails.com/version/156580",
         "name": "Drupal",
-        "num_vulns": "31",
+        "num_vulns": "33",
         "version": "7.20"
     },
     {
         "link": "http://cvedetails.com/version/143556",
         "name": "Drupal",
-        "num_vulns": "32",
+        "num_vulns": "34",
         "version": "7.19"
     },
     {
         "link": "http://cvedetails.com/version/143555",
         "name": "Drupal",
-        "num_vulns": "35",
+        "num_vulns": "37",
         "version": "7.18"
     },
     {
         "link": "http://cvedetails.com/version/139565",
         "name": "Drupal",
-        "num_vulns": "37",
+        "num_vulns": "39",
         "version": "7.17"
     },
     {
         "link": "http://cvedetails.com/version/139566",
         "name": "Drupal",
-        "num_vulns": "37",
+        "num_vulns": "39",
         "version": "7.16"
     },
     {
         "link": "http://cvedetails.com/version/137639",
         "name": "Drupal",
-        "num_vulns": "39",
+        "num_vulns": "41",
         "version": "7.15"
     },
     {
         "link": "http://cvedetails.com/version/126293",
         "name": "Drupal",
-        "num_vulns": "41",
+        "num_vulns": "43",
         "version": "7.14"
     },
     {
         "link": "http://cvedetails.com/version/135508",
         "name": "Drupal",
-        "num_vulns": "43",
+        "num_vulns": "45",
         "version": "7.13"
     },
     {
         "link": "http://cvedetails.com/version/124284",
         "name": "Drupal",
-        "num_vulns": "46",
+        "num_vulns": "48",
         "version": "7.12"
     },
     {
         "link": "http://cvedetails.com/version/124285",
         "name": "Drupal",
-        "num_vulns": "46",
+        "num_vulns": "48",
         "version": "7.11"
     },
     {
         "link": "http://cvedetails.com/version/124286",
         "name": "Drupal",
-        "num_vulns": "49",
+        "num_vulns": "51",
         "version": "7.10"
     },
     {
         "link": "http://cvedetails.com/version/124287",
         "name": "Drupal",
-        "num_vulns": "46",
+        "num_vulns": "48",
         "version": "7.9"
     },
     {
         "link": "http://cvedetails.com/version/124288",
         "name": "Drupal",
-        "num_vulns": "46",
+        "num_vulns": "48",
         "version": "7.8"
     },
     {
         "link": "http://cvedetails.com/version/124289",
         "name": "Drupal",
-        "num_vulns": "46",
+        "num_vulns": "48",
         "version": "7.7"
     },
     {
         "link": "http://cvedetails.com/version/124290",
         "name": "Drupal",
-        "num_vulns": "46",
+        "num_vulns": "48",
         "version": "7.6"
     },
     {
         "link": "http://cvedetails.com/version/124291",
         "name": "Drupal",
-        "num_vulns": "46",
+        "num_vulns": "48",
         "version": "7.5"
     },
     {
         "link": "http://cvedetails.com/version/124292",
         "name": "Drupal",
-        "num_vulns": "46",
+        "num_vulns": "48",
         "version": "7.4"
     },
     {
         "link": "http://cvedetails.com/version/124293",
         "name": "Drupal",
-        "num_vulns": "46",
+        "num_vulns": "48",
         "version": "7.3"
     },
     {
         "link": "http://cvedetails.com/version/112039",
         "name": "Drupal",
-        "num_vulns": "50",
+        "num_vulns": "52",
         "version": "7.2"
     },
     {
         "link": "http://cvedetails.com/version/112038",
         "name": "Drupal",
-        "num_vulns": "50",
+        "num_vulns": "52",
         "version": "7.1"
     },
     {
         "link": "http://cvedetails.com/version/112037",
         "name": "Drupal",
-        "num_vulns": "51",
+        "num_vulns": "53",
         "version": "7.0"
     },
     {
         "link": "http://cvedetails.com/version/124294",
         "name": "Drupal",
-        "num_vulns": "37",
+        "num_vulns": "39",
         "version": "7.x-dev"
     },
     {
