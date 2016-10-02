@@ -1,0 +1,13 @@
+[
+	{
+		"url": "",
+		"header": "X-Powered-By",
+		"type": "string",
+		"match": "Nette Framework",
+		"output": "",
+		"weight": 1,
+		"code": "any"	
+	}
+]
+
+

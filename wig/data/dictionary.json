@@ -92,5 +92,6 @@
     "zenphoto": {"name": "Zenphoto"},
     "modernizr": {"name": "Modernizr"},
     "confixx": {"name": "Parallels Confixx"},
-    "zope": {"name": "Zope"}
+    "zope": {"name": "Zope"},
+    "nettefw": {"name": "NetteFW"}
 }
