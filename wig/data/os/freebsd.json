@@ -925,6 +925,24 @@
     },
     {
         "os_name": "FreeBSD",
+        "os_version": "11",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.2i"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "10",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.2j"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "11",
+        "pkg_name": "openssl",
+        "pkg_version": "1.0.2j"
+    },
+    {
+        "os_name": "FreeBSD",
         "os_version": "7.4",
         "pkg_name": "openssl",
         "pkg_version": "11.01"
@@ -2356,6 +2374,18 @@
         "os_version": "11",
         "pkg_name": "wordpress",
         "pkg_version": "4.6"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "10",
+        "pkg_name": "wordpress",
+        "pkg_version": "4.6.1"
+    },
+    {
+        "os_name": "FreeBSD",
+        "os_version": "11",
+        "pkg_name": "wordpress",
+        "pkg_version": "4.6.1"
     },
     {
         "os_name": "FreeBSD",
