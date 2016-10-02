@@ -1726,5 +1726,17 @@
         "minified": true,
         "output": "3.1.0",
         "url": ""
+    },
+    {
+        "md5": "e071abda8fe61194711cfc2ab99fe104",
+        "minified": true,
+        "output": "3.1.1",
+        "url": ""
+    },
+    {
+        "md5": "46836bbc603c9565b5cc061100ccbac8",
+        "minified": false,
+        "output": "3.1.1",
+        "url": ""
     }
 ]
