@@ -528,6 +528,12 @@
         "url": "/README.txt"
     },
     {
+        "match": "bf45eab3b20629ab759935000598c105",
+        "output": "3.6.3-rc1",
+        "type": "md5",
+        "url": "/README.txt"
+    },
+    {
         "match": "c5b62cb7cbf04e940557273e640ef777",
         "output": "3.6.0",
         "type": "md5",
@@ -1464,6 +1470,12 @@
         "url": "/administrator/language/en-GB/en-GB.ini"
     },
     {
+        "match": "cbfec19b32b0050b3fa1f608c07805f6",
+        "output": "3.6.3-rc1",
+        "type": "md5",
+        "url": "/administrator/language/en-GB/en-GB.ini"
+    },
+    {
         "match": "cde7f060fe29137c3a61dfc8173290f0",
         "output": "2.5.12",
         "type": "md5",
@@ -1700,6 +1712,12 @@
     {
         "match": "042ce408cad5baeeb57bf5f60b254849",
         "output": "3.6.2",
+        "type": "md5",
+        "url": "/administrator/templates/hathor/css/colour_brown.css"
+    },
+    {
+        "match": "042ce408cad5baeeb57bf5f60b254849",
+        "output": "3.6.3-rc1",
         "type": "md5",
         "url": "/administrator/templates/hathor/css/colour_brown.css"
     },
@@ -2790,6 +2808,12 @@
         "url": "/administrator/templates/hathor/css/template.css"
     },
     {
+        "match": "8a205094cb85082e382fca46ca5d4277",
+        "output": "3.6.3-rc1",
+        "type": "md5",
+        "url": "/administrator/templates/hathor/css/template.css"
+    },
+    {
         "match": "8d38010b6fad1bf9223581d908ba0cf7",
         "output": "3.2.0",
         "type": "md5",
@@ -3822,6 +3846,12 @@
         "url": "/administrator/templates/isis/css/template.css"
     },
     {
+        "match": "efcfc4f84386a4d73ca6398844b381e7",
+        "output": "3.6.3-rc1",
+        "type": "md5",
+        "url": "/administrator/templates/isis/css/template.css"
+    },
+    {
         "match": "f2903a0a533c858d7fb60aebcb5cc981",
         "output": "3.0.1",
         "type": "md5",
@@ -4100,6 +4130,12 @@
     {
         "match": "5b29c5d6d6fc473c34cda65163f57c46",
         "output": "3.6.2",
+        "type": "md5",
+        "url": "/language/en-GB/en-GB.com_ajax.ini"
+    },
+    {
+        "match": "5b29c5d6d6fc473c34cda65163f57c46",
+        "output": "3.6.3-rc1",
         "type": "md5",
         "url": "/language/en-GB/en-GB.com_ajax.ini"
     },
@@ -4532,6 +4568,12 @@
     {
         "match": "61e6f0ceda15c54170be3b3578667790",
         "output": "2.5.9",
+        "type": "md5",
+        "url": "/language/en-GB/en-GB.ini"
+    },
+    {
+        "match": "62088fe30fc07068eff3f44d316d6235",
+        "output": "3.6.3-rc1",
         "type": "md5",
         "url": "/language/en-GB/en-GB.ini"
     },
@@ -5892,6 +5934,12 @@
         "url": "/language/en-GB/en-GB.lib_joomla.ini"
     },
     {
+        "match": "e4f1defccc18f9b9802ae8277f589470",
+        "output": "3.6.3-rc1",
+        "type": "md5",
+        "url": "/language/en-GB/en-GB.lib_joomla.ini"
+    },
+    {
         "match": "f1ca31fcaa1a614f6c4714ea2cb7be33",
         "output": "1.7.3",
         "type": "md5",
@@ -6026,6 +6074,12 @@
     {
         "match": "682af8172f442d780d7fdeca9f62fcf9",
         "output": "3.6.2",
+        "type": "md5",
+        "url": "/media/cms/css/debug.css"
+    },
+    {
+        "match": "682af8172f442d780d7fdeca9f62fcf9",
+        "output": "3.6.3-rc1",
         "type": "md5",
         "url": "/media/cms/css/debug.css"
     },
@@ -7338,6 +7392,12 @@
         "url": "/media/system/js/core-uncompressed.js"
     },
     {
+        "match": "adb3f331636b6e307219de55ced5a903",
+        "output": "3.6.3-rc1",
+        "type": "md5",
+        "url": "/media/system/js/core-uncompressed.js"
+    },
+    {
         "match": "b7026482c42a944b44cbbd45dfc4ee69",
         "output": "1.7.3",
         "type": "md5",
@@ -7922,6 +7982,12 @@
     {
         "match": "758e49b22d55274ed3cc22bf83b68834",
         "output": "1.7.3",
+        "type": "md5",
+        "url": "/media/system/js/core.js"
+    },
+    {
+        "match": "8decc0cb86ff4206b9b9a2c40506cce2",
+        "output": "3.6.3-rc1",
         "type": "md5",
         "url": "/media/system/js/core.js"
     },
@@ -8988,6 +9054,12 @@
         "url": "/plugins/editors/tinymce/tinymce.xml"
     },
     {
+        "match": "d4a5e0d9a6516b667c20e369a1826006",
+        "output": "3.6.3-rc1",
+        "type": "md5",
+        "url": "/plugins/editors/tinymce/tinymce.xml"
+    },
+    {
         "match": "deddf08e758604a9340adfff71b1a969",
         "output": "3.5.0",
         "type": "md5",
@@ -9560,6 +9632,12 @@
     {
         "match": "7eda109c4ef6f4636dda5c987dc2d392",
         "output": "3.6.2",
+        "type": "md5",
+        "url": "/templates/beez3/css/general.css"
+    },
+    {
+        "match": "7eda109c4ef6f4636dda5c987dc2d392",
+        "output": "3.6.3-rc1",
         "type": "md5",
         "url": "/templates/beez3/css/general.css"
     },
@@ -10272,6 +10350,12 @@
         "url": "/templates/beez3/css/nature.css"
     },
     {
+        "match": "eb2be7e28c91b598febc2ea659d49870",
+        "output": "3.6.3-rc1",
+        "type": "md5",
+        "url": "/templates/beez3/css/nature.css"
+    },
+    {
         "match": "6e5ee1800d50dc44c36fab353fcb1142",
         "output": "3.0.0",
         "type": "md5",
@@ -10806,6 +10890,12 @@
         "url": "/templates/beez3/css/red.css"
     },
     {
+        "match": "ac289d0ad9b5ac703b725b27f433fcc1",
+        "output": "3.6.3-rc1",
+        "type": "md5",
+        "url": "/templates/beez3/css/red.css"
+    },
+    {
         "match": "048aa763a061d85e8422f1054cb39860",
         "output": "3",
         "type": "md5",
@@ -10958,6 +11048,12 @@
     {
         "match": "30bf538742044e1422a30b7b5510aa0b",
         "output": "3.6.2",
+        "type": "md5",
+        "url": "/templates/beez3/javascript/template.js"
+    },
+    {
+        "match": "30bf538742044e1422a30b7b5510aa0b",
+        "output": "3.6.3-rc1",
         "type": "md5",
         "url": "/templates/beez3/javascript/template.js"
     },
@@ -11336,6 +11432,12 @@
     {
         "match": "3b0d70cfea6c8035ccb3233dbc55382d",
         "output": "3.0.0_alpha-2",
+        "type": "md5",
+        "url": "/templates/protostar/css/template.css"
+    },
+    {
+        "match": "429ccd80289bd54658370cb68406f464",
+        "output": "3.6.3-rc1",
         "type": "md5",
         "url": "/templates/protostar/css/template.css"
     },
@@ -11892,6 +11994,12 @@
         "url": "/templates/protostar/js/template.js"
     },
     {
+        "match": "40ccaec242cd403551f829bade73dd5d",
+        "output": "3.6.3-rc1",
+        "type": "md5",
+        "url": "/templates/protostar/js/template.js"
+    },
+    {
         "match": "8185a9770cc771e9baf17657029f5b65",
         "output": "3.5.0",
         "type": "md5",
@@ -12806,6 +12914,12 @@
     {
         "match": "d4b971fcd5ca26cf2866f59f8b1c724e",
         "output": "3.6.2",
+        "type": "md5",
+        "url": "/templates/system/css/editor.css"
+    },
+    {
+        "match": "d4b971fcd5ca26cf2866f59f8b1c724e",
+        "output": "3.6.3-rc1",
         "type": "md5",
         "url": "/templates/system/css/editor.css"
     },
@@ -13856,6 +13970,12 @@
     {
         "match": "cf6231fe7dbd8f39799d96e94e531d83",
         "output": "3.6.2",
+        "type": "md5",
+        "url": "/templates/system/css/toolbar.css"
+    },
+    {
+        "match": "cf6231fe7dbd8f39799d96e94e531d83",
+        "output": "3.6.3-rc1",
         "type": "md5",
         "url": "/templates/system/css/toolbar.css"
     }

@@ -30,6 +30,12 @@
         "url": "/plugins/acl/acl.js"
     },
     {
+        "match": "1a2764f725403f3b4f4265bd90be36fb",
+        "output": "1.2.2",
+        "type": "md5",
+        "url": "/plugins/acl/acl.js"
+    },
+    {
         "match": "1f1f667b3b7f23034726748035e2c333",
         "output": "1.1-rc",
         "type": "md5",
@@ -74,6 +80,12 @@
     {
         "match": "3dde0ccc7b91e0d5c6748203bc868f2e",
         "output": "1.1.5",
+        "type": "md5",
+        "url": "/plugins/acl/acl.js"
+    },
+    {
+        "match": "3dde0ccc7b91e0d5c6748203bc868f2e",
+        "output": "1.1.6",
         "type": "md5",
         "url": "/plugins/acl/acl.js"
     },
@@ -385,6 +397,12 @@
     },
     {
         "match": "0641cdb9bbca5ecc9b47b76df4813741",
+        "output": "1.1.6",
+        "type": "md5",
+        "url": "/plugins/archive/archive.js"
+    },
+    {
+        "match": "0641cdb9bbca5ecc9b47b76df4813741",
         "output": "1.2-beta",
         "type": "md5",
         "url": "/plugins/archive/archive.js"
@@ -404,6 +422,12 @@
     {
         "match": "07c33dbec5ceefb7ff70736c6fc3fd24",
         "output": "1.2.1",
+        "type": "md5",
+        "url": "/plugins/archive/archive.js"
+    },
+    {
+        "match": "07c33dbec5ceefb7ff70736c6fc3fd24",
+        "output": "1.2.2",
         "type": "md5",
         "url": "/plugins/archive/archive.js"
     },
@@ -1416,6 +1440,12 @@
         "url": "/plugins/managesieve/managesieve.js"
     },
     {
+        "match": "bc7ad5c432db932f615fe93a5b27d6b8",
+        "output": "1.2.2",
+        "type": "md5",
+        "url": "/plugins/managesieve/managesieve.js"
+    },
+    {
         "match": "c557af478847f1edf8901262eed1ebcd",
         "output": "v0.5.2",
         "type": "md5",
@@ -1490,6 +1520,12 @@
     {
         "match": "f79b1d310413d07452081da728180878",
         "output": "1.1.5",
+        "type": "md5",
+        "url": "/plugins/managesieve/managesieve.js"
+    },
+    {
+        "match": "f79b1d310413d07452081da728180878",
+        "output": "1.1.6",
         "type": "md5",
         "url": "/plugins/managesieve/managesieve.js"
     },
@@ -1592,6 +1628,12 @@
     {
         "match": "6112b8847c281b406eefb3a446db6bba",
         "output": "1.2.1",
+        "type": "md5",
+        "url": "/plugins/password/password.js"
+    },
+    {
+        "match": "6112b8847c281b406eefb3a446db6bba",
+        "output": "1.2.2",
         "type": "md5",
         "url": "/plugins/password/password.js"
     },
@@ -2034,6 +2076,12 @@
         "url": "/plugins/password/password.js"
     },
     {
+        "match": "e7545ca0b5c31a4c9f71a78bf6186bb3",
+        "output": "1.1.6",
+        "type": "md5",
+        "url": "/plugins/password/password.js"
+    },
+    {
         "match": "fd1ad0e6f3d5fddf61dd41b094ee6e46",
         "output": "v0.3.1",
         "type": "md5",
@@ -2155,6 +2203,12 @@
     },
     {
         "match": "6a787e57328affadfa9d78fc1c20175d",
+        "output": "1.1.6",
+        "type": "md5",
+        "url": "/plugins/zipdownload/skins/larry/zipdownload.css"
+    },
+    {
+        "match": "6a787e57328affadfa9d78fc1c20175d",
         "output": "1.2-beta",
         "type": "md5",
         "url": "/plugins/zipdownload/skins/larry/zipdownload.css"
@@ -2174,6 +2228,12 @@
     {
         "match": "6a787e57328affadfa9d78fc1c20175d",
         "output": "1.2.1",
+        "type": "md5",
+        "url": "/plugins/zipdownload/skins/larry/zipdownload.css"
+    },
+    {
+        "match": "6a787e57328affadfa9d78fc1c20175d",
+        "output": "1.2.2",
         "type": "md5",
         "url": "/plugins/zipdownload/skins/larry/zipdownload.css"
     },
@@ -2342,6 +2402,12 @@
     {
         "match": "235f436e514a5dae14e0fd41f783297c",
         "output": "v0.5@4408",
+        "type": "md5",
+        "url": "/program/js/app.js"
+    },
+    {
+        "match": "2a5ea12492f6124bfe013cf631bd54fb",
+        "output": "1.2.2",
         "type": "md5",
         "url": "/program/js/app.js"
     },
@@ -2750,6 +2816,12 @@
     {
         "match": "aac0e0d23f19aaac30f78b18c597f55a",
         "output": "1.2.1",
+        "type": "md5",
+        "url": "/program/js/app.js"
+    },
+    {
+        "match": "b16e606b3c23df1f8b5646d712135800",
+        "output": "1.1.6",
         "type": "md5",
         "url": "/program/js/app.js"
     },
@@ -3354,6 +3426,12 @@
         "url": "/program/js/common.js"
     },
     {
+        "match": "c331bdcb10c85cca4bb96f322f093fdb",
+        "output": "1.1.6",
+        "type": "md5",
+        "url": "/program/js/common.js"
+    },
+    {
         "match": "c9f135116230be3c5c92a08d24f4f725",
         "output": "v0.2-alpha",
         "type": "md5",
@@ -3422,6 +3500,12 @@
     {
         "match": "e456df5dcd9816742c312ebb49656395",
         "output": "1.2.1",
+        "type": "md5",
+        "url": "/program/js/common.js"
+    },
+    {
+        "match": "e456df5dcd9816742c312ebb49656395",
+        "output": "1.2.2",
         "type": "md5",
         "url": "/program/js/common.js"
     },
@@ -3600,6 +3684,12 @@
         "url": "/program/js/editor.js"
     },
     {
+        "match": "28ba11e46cfc25c46aca1043763c2607",
+        "output": "1.1.6",
+        "type": "md5",
+        "url": "/program/js/editor.js"
+    },
+    {
         "match": "294e50eaa0870154467913bbd282954a",
         "output": "v0.9.3",
         "type": "md5",
@@ -3620,6 +3710,12 @@
     {
         "match": "2d24ab88e5d54f07ac81025d3939acf6",
         "output": "1.2.1",
+        "type": "md5",
+        "url": "/program/js/editor.js"
+    },
+    {
+        "match": "2d24ab88e5d54f07ac81025d3939acf6",
+        "output": "1.2.2",
         "type": "md5",
         "url": "/program/js/editor.js"
     },
@@ -4236,6 +4332,12 @@
         "url": "/program/js/googiespell.js"
     },
     {
+        "match": "3e40fb9ae0cc74b7247d4b0446b6c09e",
+        "output": "1.2.2",
+        "type": "md5",
+        "url": "/program/js/googiespell.js"
+    },
+    {
         "match": "4194e30d191fdf3f7af157bba602edf9",
         "output": "1.0.0",
         "type": "md5",
@@ -4394,6 +4496,12 @@
     {
         "match": "7b3773e5c57728751c18cdfd6e391786",
         "output": "1.1.5",
+        "type": "md5",
+        "url": "/program/js/googiespell.js"
+    },
+    {
+        "match": "7b3773e5c57728751c18cdfd6e391786",
+        "output": "1.1.6",
         "type": "md5",
         "url": "/program/js/googiespell.js"
     },
@@ -4861,6 +4969,12 @@
     },
     {
         "match": "54bb9b664931ec17caefa1caf35ee203",
+        "output": "1.1.6",
+        "type": "md5",
+        "url": "/program/js/jstz.min.js"
+    },
+    {
+        "match": "54bb9b664931ec17caefa1caf35ee203",
         "output": "1.2-beta",
         "type": "md5",
         "url": "/program/js/jstz.min.js"
@@ -4880,6 +4994,12 @@
     {
         "match": "54bb9b664931ec17caefa1caf35ee203",
         "output": "1.2.1",
+        "type": "md5",
+        "url": "/program/js/jstz.min.js"
+    },
+    {
+        "match": "54bb9b664931ec17caefa1caf35ee203",
+        "output": "1.2.2",
         "type": "md5",
         "url": "/program/js/jstz.min.js"
     },
@@ -5077,7 +5197,19 @@
     },
     {
         "match": "17d6fea9a42d9a243c24ea6e07c6432f",
+        "output": "1.1.6",
+        "type": "md5",
+        "url": "/program/js/list.js"
+    },
+    {
+        "match": "17d6fea9a42d9a243c24ea6e07c6432f",
         "output": "1.2.1",
+        "type": "md5",
+        "url": "/program/js/list.js"
+    },
+    {
+        "match": "17d6fea9a42d9a243c24ea6e07c6432f",
+        "output": "1.2.2",
         "type": "md5",
         "url": "/program/js/list.js"
     },
@@ -7410,6 +7542,12 @@
         "url": "/skins/classic/common.css"
     },
     {
+        "match": "e20de03bca9d8a72853c08b6837dd20e",
+        "output": "1.1.6",
+        "type": "md5",
+        "url": "/skins/classic/common.css"
+    },
+    {
         "match": "e664fb7db1f550c1868bedde50427a4b",
         "output": "1.2.0",
         "type": "md5",
@@ -7418,6 +7556,12 @@
     {
         "match": "e664fb7db1f550c1868bedde50427a4b",
         "output": "1.2.1",
+        "type": "md5",
+        "url": "/skins/classic/common.css"
+    },
+    {
+        "match": "e664fb7db1f550c1868bedde50427a4b",
+        "output": "1.2.2",
         "type": "md5",
         "url": "/skins/classic/common.css"
     },
@@ -7536,6 +7680,12 @@
         "url": "/skins/classic/functions.js"
     },
     {
+        "match": "56db43f5c778b44dc51f73b3c77ac492",
+        "output": "1.1.6",
+        "type": "md5",
+        "url": "/skins/classic/functions.js"
+    },
+    {
         "match": "5dae63b12a2b3d9e4d3b2b84bc9d80c2",
         "output": "v1.0-beta",
         "type": "md5",
@@ -7550,6 +7700,12 @@
     {
         "match": "741220754311c6a4681731d68b355ce0",
         "output": "1.2.1",
+        "type": "md5",
+        "url": "/skins/classic/functions.js"
+    },
+    {
+        "match": "741220754311c6a4681731d68b355ce0",
+        "output": "1.2.2",
         "type": "md5",
         "url": "/skins/classic/functions.js"
     },
@@ -7694,6 +7850,12 @@
     {
         "match": "0bde23f9d212ee969633f5ec954d770f",
         "output": "1.2.1",
+        "type": "md5",
+        "url": "/skins/classic/mail.css"
+    },
+    {
+        "match": "0bde23f9d212ee969633f5ec954d770f",
+        "output": "1.2.2",
         "type": "md5",
         "url": "/skins/classic/mail.css"
     },
@@ -7874,6 +8036,12 @@
     {
         "match": "d5440c968f7dcf9edf78b1879b76ffe8",
         "output": "1.1.5",
+        "type": "md5",
+        "url": "/skins/classic/mail.css"
+    },
+    {
+        "match": "d5440c968f7dcf9edf78b1879b76ffe8",
+        "output": "1.1.6",
         "type": "md5",
         "url": "/skins/classic/mail.css"
     },
@@ -8557,6 +8725,12 @@
     },
     {
         "match": "c344bf2b813693240b327482466dda95",
+        "output": "1.1.6",
+        "type": "md5",
+        "url": "/skins/larry/images/roundcube_logo.png"
+    },
+    {
+        "match": "c344bf2b813693240b327482466dda95",
         "output": "1.2-beta",
         "type": "md5",
         "url": "/skins/larry/images/roundcube_logo.png"
@@ -8576,6 +8750,12 @@
     {
         "match": "c344bf2b813693240b327482466dda95",
         "output": "1.2.1",
+        "type": "md5",
+        "url": "/skins/larry/images/roundcube_logo.png"
+    },
+    {
+        "match": "c344bf2b813693240b327482466dda95",
+        "output": "1.2.2",
         "type": "md5",
         "url": "/skins/larry/images/roundcube_logo.png"
     },
@@ -8648,6 +8828,12 @@
     {
         "match": "3002a340a0524dffced63debefa7b6bb",
         "output": "1.1.5",
+        "type": "md5",
+        "url": "/skins/larry/mail.css"
+    },
+    {
+        "match": "3002a340a0524dffced63debefa7b6bb",
+        "output": "1.1.6",
         "type": "md5",
         "url": "/skins/larry/mail.css"
     },
@@ -8786,6 +8972,12 @@
     {
         "match": "af45877157ca7e8af1346734cc05576c",
         "output": "1.2.1",
+        "type": "md5",
+        "url": "/skins/larry/mail.css"
+    },
+    {
+        "match": "af45877157ca7e8af1346734cc05576c",
+        "output": "1.2.2",
         "type": "md5",
         "url": "/skins/larry/mail.css"
     },
@@ -9048,6 +9240,12 @@
         "url": "/skins/larry/styles.css"
     },
     {
+        "match": "7a218e306265d097ce78f913850a88fd",
+        "output": "1.2.2",
+        "type": "md5",
+        "url": "/skins/larry/styles.css"
+    },
+    {
         "match": "a8a62f77bd562cae538d9010d01449d1",
         "output": "v1.0-rc",
         "type": "md5",
@@ -9068,6 +9266,12 @@
     {
         "match": "ae6274a60dc30f7e23cef2b0f0092e1f",
         "output": "v0.8.4",
+        "type": "md5",
+        "url": "/skins/larry/styles.css"
+    },
+    {
+        "match": "bae1d50869b0c096e87a8150b8ec6ee0",
+        "output": "1.1.6",
         "type": "md5",
         "url": "/skins/larry/styles.css"
     },
@@ -9246,6 +9450,12 @@
         "url": "/skins/larry/ui.js"
     },
     {
+        "match": "9b7a817227c1837f39908bec6dd77932",
+        "output": "1.2.2",
+        "type": "md5",
+        "url": "/skins/larry/ui.js"
+    },
+    {
         "match": "a7e46ab806718b8fbee1a95ac09c1102",
         "output": "v0.9.2",
         "type": "md5",
@@ -9374,6 +9584,12 @@
     {
         "match": "ee701c564d3e5852e8fa0b426b6f0671",
         "output": "v0.9.5",
+        "type": "md5",
+        "url": "/skins/larry/ui.js"
+    },
+    {
+        "match": "f4b7b14dbcc29dcb48195ae1ad43bab7",
+        "output": "1.1.6",
         "type": "md5",
         "url": "/skins/larry/ui.js"
     },

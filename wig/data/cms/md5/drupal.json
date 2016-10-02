@@ -30,6 +30,12 @@
         "url": "/core/misc/ajax.js"
     },
     {
+        "match": "1c2056cd67437ba0af64151fa90f23b0",
+        "output": "8.2.0-rc2",
+        "type": "md5",
+        "url": "/core/misc/ajax.js"
+    },
+    {
         "match": "24a2ac1bd44ccaf6c347745ec3cba9c1",
         "output": "8.0.0-beta8",
         "type": "md5",
@@ -98,6 +104,12 @@
     {
         "match": "3237eac22f4861ae627e8bb7fe4d4541",
         "output": "8.0-alpha3",
+        "type": "md5",
+        "url": "/core/misc/ajax.js"
+    },
+    {
+        "match": "581c5eddd03d02384565574350880562",
+        "output": "8.1.10",
         "type": "md5",
         "url": "/core/misc/ajax.js"
     },
@@ -559,6 +571,12 @@
     },
     {
         "match": "72982fc66c22a81a93a02bc32a373002",
+        "output": "8.1.10",
+        "type": "md5",
+        "url": "/core/misc/autocomplete.js"
+    },
+    {
+        "match": "72982fc66c22a81a93a02bc32a373002",
         "output": "8.1.4",
         "type": "md5",
         "url": "/core/misc/autocomplete.js"
@@ -614,6 +632,12 @@
     {
         "match": "72982fc66c22a81a93a02bc32a373002",
         "output": "8.2.0-rc1",
+        "type": "md5",
+        "url": "/core/misc/autocomplete.js"
+    },
+    {
+        "match": "72982fc66c22a81a93a02bc32a373002",
+        "output": "8.2.0-rc2",
         "type": "md5",
         "url": "/core/misc/autocomplete.js"
     },
@@ -841,6 +865,12 @@
     },
     {
         "match": "b6aa7ec176ff7d3d89cd144989681eae",
+        "output": "8.1.10",
+        "type": "md5",
+        "url": "/core/misc/collapse.js"
+    },
+    {
+        "match": "b6aa7ec176ff7d3d89cd144989681eae",
         "output": "8.1.2",
         "type": "md5",
         "url": "/core/misc/collapse.js"
@@ -908,6 +938,12 @@
     {
         "match": "b6aa7ec176ff7d3d89cd144989681eae",
         "output": "8.2.0-rc1",
+        "type": "md5",
+        "url": "/core/misc/collapse.js"
+    },
+    {
+        "match": "b6aa7ec176ff7d3d89cd144989681eae",
+        "output": "8.2.0-rc2",
         "type": "md5",
         "url": "/core/misc/collapse.js"
     },
@@ -1273,6 +1309,12 @@
     },
     {
         "match": "714d7aeb86ea12acc0de88e2b135f14d",
+        "output": "8.1.10",
+        "type": "md5",
+        "url": "/core/misc/drupal.js"
+    },
+    {
+        "match": "714d7aeb86ea12acc0de88e2b135f14d",
         "output": "8.1.2",
         "type": "md5",
         "url": "/core/misc/drupal.js"
@@ -1340,6 +1382,12 @@
     {
         "match": "714d7aeb86ea12acc0de88e2b135f14d",
         "output": "8.2.0-rc1",
+        "type": "md5",
+        "url": "/core/misc/drupal.js"
+    },
+    {
+        "match": "714d7aeb86ea12acc0de88e2b135f14d",
+        "output": "8.2.0-rc2",
         "type": "md5",
         "url": "/core/misc/drupal.js"
     },
@@ -1699,6 +1747,12 @@
     },
     {
         "match": "e0e3bf9d03f021158115e2e34a180699",
+        "output": "8.1.10",
+        "type": "md5",
+        "url": "/core/misc/druplicon.png"
+    },
+    {
+        "match": "e0e3bf9d03f021158115e2e34a180699",
         "output": "8.1.2",
         "type": "md5",
         "url": "/core/misc/druplicon.png"
@@ -1766,6 +1820,12 @@
     {
         "match": "e0e3bf9d03f021158115e2e34a180699",
         "output": "8.2.0-rc1",
+        "type": "md5",
+        "url": "/core/misc/druplicon.png"
+    },
+    {
+        "match": "e0e3bf9d03f021158115e2e34a180699",
+        "output": "8.2.0-rc2",
         "type": "md5",
         "url": "/core/misc/druplicon.png"
     },
@@ -1903,6 +1963,12 @@
     },
     {
         "match": "2c9cd7ed840184649bb7d1dde4233d33",
+        "output": "8.1.10",
+        "type": "md5",
+        "url": "/core/misc/machine-name.js"
+    },
+    {
+        "match": "2c9cd7ed840184649bb7d1dde4233d33",
         "output": "8.1.2",
         "type": "md5",
         "url": "/core/misc/machine-name.js"
@@ -1970,6 +2036,12 @@
     {
         "match": "2c9cd7ed840184649bb7d1dde4233d33",
         "output": "8.2.0-rc1",
+        "type": "md5",
+        "url": "/core/misc/machine-name.js"
+    },
+    {
+        "match": "2c9cd7ed840184649bb7d1dde4233d33",
+        "output": "8.2.0-rc2",
         "type": "md5",
         "url": "/core/misc/machine-name.js"
     },
@@ -2263,6 +2335,12 @@
     },
     {
         "match": "59507a2052d586d1cfcaa4a2267d820e",
+        "output": "8.1.10",
+        "type": "md5",
+        "url": "/core/misc/states.js"
+    },
+    {
+        "match": "59507a2052d586d1cfcaa4a2267d820e",
         "output": "8.1.2",
         "type": "md5",
         "url": "/core/misc/states.js"
@@ -2330,6 +2408,12 @@
     {
         "match": "59507a2052d586d1cfcaa4a2267d820e",
         "output": "8.2.0-rc1",
+        "type": "md5",
+        "url": "/core/misc/states.js"
+    },
+    {
+        "match": "59507a2052d586d1cfcaa4a2267d820e",
+        "output": "8.2.0-rc2",
         "type": "md5",
         "url": "/core/misc/states.js"
     },
@@ -2496,6 +2580,12 @@
         "url": "/core/misc/tabledrag.js"
     },
     {
+        "match": "059e133291d6ff82f6ab4882f50983ca",
+        "output": "8.2.0-rc2",
+        "type": "md5",
+        "url": "/core/misc/tabledrag.js"
+    },
+    {
         "match": "07756c8776412ad455babdee487c9605",
         "output": "8.0.0-rc2",
         "type": "md5",
@@ -2570,6 +2660,12 @@
     {
         "match": "3ab4e8029dde2c47fb2aa7b954d626f8",
         "output": "8.1.1",
+        "type": "md5",
+        "url": "/core/misc/tabledrag.js"
+    },
+    {
+        "match": "3ab4e8029dde2c47fb2aa7b954d626f8",
+        "output": "8.1.10",
         "type": "md5",
         "url": "/core/misc/tabledrag.js"
     },
@@ -3109,6 +3205,12 @@
     },
     {
         "match": "f63e2269330c6d2cef0e63b40bcc77b1",
+        "output": "8.1.10",
+        "type": "md5",
+        "url": "/core/misc/tableheader.js"
+    },
+    {
+        "match": "f63e2269330c6d2cef0e63b40bcc77b1",
         "output": "8.1.2",
         "type": "md5",
         "url": "/core/misc/tableheader.js"
@@ -3176,6 +3278,12 @@
     {
         "match": "f63e2269330c6d2cef0e63b40bcc77b1",
         "output": "8.2.0-rc1",
+        "type": "md5",
+        "url": "/core/misc/tableheader.js"
+    },
+    {
+        "match": "f63e2269330c6d2cef0e63b40bcc77b1",
+        "output": "8.2.0-rc2",
         "type": "md5",
         "url": "/core/misc/tableheader.js"
     },
@@ -3199,6 +3307,12 @@
     },
     {
         "match": "16daa8faa359b89f979f4400a4290ac9",
+        "output": "8.1.10",
+        "type": "md5",
+        "url": "/core/misc/tableselect.js"
+    },
+    {
+        "match": "16daa8faa359b89f979f4400a4290ac9",
         "output": "8.1.2",
         "type": "md5",
         "url": "/core/misc/tableselect.js"
@@ -3266,6 +3380,12 @@
     {
         "match": "16daa8faa359b89f979f4400a4290ac9",
         "output": "8.2.0-rc1",
+        "type": "md5",
+        "url": "/core/misc/tableselect.js"
+    },
+    {
+        "match": "16daa8faa359b89f979f4400a4290ac9",
+        "output": "8.2.0-rc2",
         "type": "md5",
         "url": "/core/misc/tableselect.js"
     },
@@ -3817,6 +3937,12 @@
     },
     {
         "match": "ae177ac0d884ab81b348098c208372c5",
+        "output": "8.1.10",
+        "type": "md5",
+        "url": "/core/misc/vertical-tabs.js"
+    },
+    {
+        "match": "ae177ac0d884ab81b348098c208372c5",
         "output": "8.1.2",
         "type": "md5",
         "url": "/core/misc/vertical-tabs.js"
@@ -3884,6 +4010,12 @@
     {
         "match": "ae177ac0d884ab81b348098c208372c5",
         "output": "8.2.0-rc1",
+        "type": "md5",
+        "url": "/core/misc/vertical-tabs.js"
+    },
+    {
+        "match": "ae177ac0d884ab81b348098c208372c5",
+        "output": "8.2.0-rc2",
         "type": "md5",
         "url": "/core/misc/vertical-tabs.js"
     },
@@ -4189,6 +4321,12 @@
     },
     {
         "match": "ed3ece9101f238a267021e41fc5a2d39",
+        "output": "8.1.10",
+        "type": "md5",
+        "url": "/core/modules/book/book.js"
+    },
+    {
+        "match": "ed3ece9101f238a267021e41fc5a2d39",
         "output": "8.1.2",
         "type": "md5",
         "url": "/core/modules/book/book.js"
@@ -4256,6 +4394,12 @@
     {
         "match": "ed3ece9101f238a267021e41fc5a2d39",
         "output": "8.2.0-rc1",
+        "type": "md5",
+        "url": "/core/modules/book/book.js"
+    },
+    {
+        "match": "ed3ece9101f238a267021e41fc5a2d39",
+        "output": "8.2.0-rc2",
         "type": "md5",
         "url": "/core/modules/book/book.js"
     },
@@ -4687,6 +4831,12 @@
     },
     {
         "match": "19b242d4edde0c6eee24162396f21da5",
+        "output": "8.1.10",
+        "type": "md5",
+        "url": "/core/modules/contextual/css/contextual.module.css"
+    },
+    {
+        "match": "19b242d4edde0c6eee24162396f21da5",
         "output": "8.1.2",
         "type": "md5",
         "url": "/core/modules/contextual/css/contextual.module.css"
@@ -4754,6 +4904,12 @@
     {
         "match": "19b242d4edde0c6eee24162396f21da5",
         "output": "8.2.0-rc1",
+        "type": "md5",
+        "url": "/core/modules/contextual/css/contextual.module.css"
+    },
+    {
+        "match": "19b242d4edde0c6eee24162396f21da5",
+        "output": "8.2.0-rc2",
         "type": "md5",
         "url": "/core/modules/contextual/css/contextual.module.css"
     },
@@ -5023,6 +5179,12 @@
     },
     {
         "match": "ce302f2b48c0d67df8300ff7c0a99c27",
+        "output": "8.1.10",
+        "type": "md5",
+        "url": "/core/modules/contextual/js/contextual.js"
+    },
+    {
+        "match": "ce302f2b48c0d67df8300ff7c0a99c27",
         "output": "8.1.2",
         "type": "md5",
         "url": "/core/modules/contextual/js/contextual.js"
@@ -5090,6 +5252,12 @@
     {
         "match": "ce302f2b48c0d67df8300ff7c0a99c27",
         "output": "8.2.0-rc1",
+        "type": "md5",
+        "url": "/core/modules/contextual/js/contextual.js"
+    },
+    {
+        "match": "ce302f2b48c0d67df8300ff7c0a99c27",
+        "output": "8.2.0-rc2",
         "type": "md5",
         "url": "/core/modules/contextual/js/contextual.js"
     },
@@ -5329,6 +5497,12 @@
     },
     {
         "match": "8f9f196608210efa9e1ac31f1c639223",
+        "output": "8.1.10",
+        "type": "md5",
+        "url": "/core/modules/file/file.js"
+    },
+    {
+        "match": "8f9f196608210efa9e1ac31f1c639223",
         "output": "8.1.2",
         "type": "md5",
         "url": "/core/modules/file/file.js"
@@ -5396,6 +5570,12 @@
     {
         "match": "8f9f196608210efa9e1ac31f1c639223",
         "output": "8.2.0-rc1",
+        "type": "md5",
+        "url": "/core/modules/file/file.js"
+    },
+    {
+        "match": "8f9f196608210efa9e1ac31f1c639223",
+        "output": "8.2.0-rc2",
         "type": "md5",
         "url": "/core/modules/file/file.js"
     },
@@ -5851,6 +6031,12 @@
     },
     {
         "match": "5d0856590414d2c1c5785b8f0290958a",
+        "output": "8.1.10",
+        "type": "md5",
+        "url": "/core/modules/node/css/node.module.css"
+    },
+    {
+        "match": "5d0856590414d2c1c5785b8f0290958a",
         "output": "8.1.2",
         "type": "md5",
         "url": "/core/modules/node/css/node.module.css"
@@ -5918,6 +6104,12 @@
     {
         "match": "5d0856590414d2c1c5785b8f0290958a",
         "output": "8.2.0-rc1",
+        "type": "md5",
+        "url": "/core/modules/node/css/node.module.css"
+    },
+    {
+        "match": "5d0856590414d2c1c5785b8f0290958a",
+        "output": "8.2.0-rc2",
         "type": "md5",
         "url": "/core/modules/node/css/node.module.css"
     },
@@ -6139,6 +6331,12 @@
     },
     {
         "match": "83f43417cff2c6b807be8b725419c77e",
+        "output": "8.1.10",
+        "type": "md5",
+        "url": "/core/modules/statistics/statistics.js"
+    },
+    {
+        "match": "83f43417cff2c6b807be8b725419c77e",
         "output": "8.1.2",
         "type": "md5",
         "url": "/core/modules/statistics/statistics.js"
@@ -6206,6 +6404,12 @@
     {
         "match": "83f43417cff2c6b807be8b725419c77e",
         "output": "8.2.0-rc1",
+        "type": "md5",
+        "url": "/core/modules/statistics/statistics.js"
+    },
+    {
+        "match": "83f43417cff2c6b807be8b725419c77e",
+        "output": "8.2.0-rc2",
         "type": "md5",
         "url": "/core/modules/statistics/statistics.js"
     },
@@ -6553,6 +6757,12 @@
     },
     {
         "match": "a96cd90d134358183dbbe68030677874",
+        "output": "8.1.10",
+        "type": "md5",
+        "url": "/core/modules/user/css/user.module.css"
+    },
+    {
+        "match": "a96cd90d134358183dbbe68030677874",
         "output": "8.1.2",
         "type": "md5",
         "url": "/core/modules/user/css/user.module.css"
@@ -6620,6 +6830,12 @@
     {
         "match": "a96cd90d134358183dbbe68030677874",
         "output": "8.2.0-rc1",
+        "type": "md5",
+        "url": "/core/modules/user/css/user.module.css"
+    },
+    {
+        "match": "a96cd90d134358183dbbe68030677874",
+        "output": "8.2.0-rc2",
         "type": "md5",
         "url": "/core/modules/user/css/user.module.css"
     },
