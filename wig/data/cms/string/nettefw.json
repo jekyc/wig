@@ -1,0 +1,44 @@
+[
+	{
+		"url": "",
+		"type": "string",
+		"match": "data-nette-rules=",
+		"output": "",
+		"code": "any"
+	},
+	{
+		"url": "",
+		"type": "string",
+		"match": "/nette.ajax.min.js",
+		"output": "",
+		"code": "any"
+	},
+	{
+		"url": "",
+		"type": "string",
+		"match": "/nette.ajax.js",
+		"output": "",
+		"code": "any"
+	},
+	{
+		"url": "",
+		"type": "string",
+		"match": "href=\"error: No route for Error",
+		"output": "",
+		"code": "any"
+	},
+	{
+		"url": "",
+		"type": "string",
+		"match": "Please use a search engine to find what you are looking for.",
+		"output": "",
+		"code": "404"
+	},
+	{
+		"url": "",
+		"type": "string",
+		"match": "<meta name=generator content=\"Nette Framework\">",
+		"output": "",
+		"code": "any"
+	}
+]
